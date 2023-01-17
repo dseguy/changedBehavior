@@ -1,0 +1,3 @@
+PHP Fatal error:  Constant expression contains invalid operations in /Users/famille/Desktop/changedBehavior/codes/nestedAttributes.php on line 4
+
+Fatal error: Constant expression contains invalid operations in /Users/famille/Desktop/changedBehavior/codes/nestedAttributes.php on line 4
