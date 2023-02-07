@@ -1,0 +1,4 @@
+max(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a in /Users/famille/Desktop/changedBehavior/codes/maxOnEmptyArray.php on line 9
+
+Warning: Undefined variable $a in /Users/famille/Desktop/changedBehavior/codes/maxOnEmptyArray.php on line 9
+NULL
