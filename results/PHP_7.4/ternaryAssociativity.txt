@@ -1,0 +1,4 @@
+PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /Users/famille/Desktop/changedBehavior/codes/ternaryAssociativity.php on line 3
+
+Deprecated: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /Users/famille/Desktop/changedBehavior/codes/ternaryAssociativity.php on line 3
+2
