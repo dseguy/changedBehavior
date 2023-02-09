@@ -1,0 +1,3 @@
+PHP Fatal error:  Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array in /Users/famille/Desktop/changedBehavior/codes/liskovPrinciple.php on line 8
+
+Fatal error: Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array in /Users/famille/Desktop/changedBehavior/codes/liskovPrinciple.php on line 8
