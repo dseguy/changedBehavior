@@ -13,10 +13,12 @@ $phps = array('PHP_8.3' => 'php82',
 			);
 
 $total = 0;
+$i = 0;
 
 foreach($scripts as $script) {
 	$hash = array();
 	foreach($phps as $name => $php) {
+		++$i;
 		$result = shell_exec("$php $script 2>&1");
 		$hash[$name] = crc32($result);
 		$file = basename($script, '.php');
@@ -26,6 +28,9 @@ foreach($scripts as $script) {
 
 		file_put_contents('results/'.$name.'/'.$file.'.txt', $result);
 		print '.';
+		if ($i % 60 === 0) {
+			print PHP_EOL;
+		}
 		++$total;
 	}
 	
