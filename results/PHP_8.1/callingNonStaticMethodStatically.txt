@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Non-static method x::foo() cannot be called statically in /Users/famille/Desktop/changedBehavior/codes/callingNonStaticMethodStatically.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/callingNonStaticMethodStatically.php on line 9
+
+Fatal error: Uncaught Error: Non-static method x::foo() cannot be called statically in /Users/famille/Desktop/changedBehavior/codes/callingNonStaticMethodStatically.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/callingNonStaticMethodStatically.php on line 9
