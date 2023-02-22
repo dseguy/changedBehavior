@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Call to undefined function foo() in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php on line 3
+
+Fatal error: Uncaught Error: Call to undefined function foo() in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php on line 3
