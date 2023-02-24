@@ -1,0 +1,4 @@
+PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithNull.php on line 3
+
+Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithNull.php on line 3
+bool(false)
