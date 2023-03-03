@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Cannot unpack Traversable with non-integer keys in /Users/famille/Desktop/changedBehavior/codes/mustYieldIntOrStringKeys.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/mustYieldIntOrStringKeys.php on line 9
+
+Fatal error: Uncaught Error: Cannot unpack Traversable with non-integer keys in /Users/famille/Desktop/changedBehavior/codes/mustYieldIntOrStringKeys.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/mustYieldIntOrStringKeys.php on line 9

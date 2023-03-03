@@ -1,0 +1,5 @@
+PHP Warning:  compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+
+Warning: compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+array(0) {
+}
