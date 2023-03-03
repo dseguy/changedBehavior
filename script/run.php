@@ -4,7 +4,7 @@ $scripts = glob('codes/*.php');
 
 $begin = hrtime(true);
 
-$phps = array('PHP_8.3' => 'php82',
+$phps = array('PHP_8.3' => 'php83',
  			  'PHP_8.2' => 'php82',
  			  'PHP_8.1' => 'php81',
  			  'PHP_8.0' => 'php80',
