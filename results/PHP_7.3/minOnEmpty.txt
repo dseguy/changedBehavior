@@ -1,0 +1,3 @@
+PHP Warning:  min(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php on line 3
+
+Warning: min(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php on line 3
