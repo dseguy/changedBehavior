@@ -1,0 +1,14 @@
+PHP Deprecated:  Cannot use "parent" when current class scope has no parent in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php on line 5
+
+Deprecated: Cannot use "parent" when current class scope has no parent in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php on line 5
+PHP Fatal error:  Uncaught Error: Cannot access parent:: when current class scope has no parent in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php:5
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php(9): x->__construct()
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php on line 5
+
+Fatal error: Uncaught Error: Cannot access parent:: when current class scope has no parent in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php:5
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php(9): x->__construct()
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/orphanedParent.php on line 5
