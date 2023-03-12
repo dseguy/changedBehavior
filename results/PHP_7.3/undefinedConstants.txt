@@ -1,0 +1,4 @@
+PHP Warning:  Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php on line 3
+
+Warning: Use of undefined constant D - assumed 'D' (this will throw an Error in a future version of PHP) in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php on line 3
+D
