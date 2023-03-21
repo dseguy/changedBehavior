@@ -1,0 +1,4 @@
+PHP Warning:  A non-numeric value encountered in /Users/famille/Desktop/changedBehavior/codes/intSilentConversion.php on line 4
+
+Warning: A non-numeric value encountered in /Users/famille/Desktop/changedBehavior/codes/intSilentConversion.php on line 4
+4
