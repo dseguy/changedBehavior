@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, string given in /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php:4
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php(4): ceil('a')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php on line 4
+
+Fatal error: Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, string given in /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php:4
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php(4): ceil('a')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/ceilStrictMode.php on line 4

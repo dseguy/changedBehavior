@@ -1,0 +1,73 @@
+Array
+(
+    [_GET] => Array
+        (
+        )
+
+    [_POST] => Array
+        (
+        )
+
+    [_COOKIE] => Array
+        (
+        )
+
+    [_FILES] => Array
+        (
+        )
+
+    [argv] => Array
+        (
+            [0] => codes/NoReferenceToGLOBALS.php
+        )
+
+    [argc] => 1
+    [_SERVER] => Array
+        (
+            [TERM_PROGRAM] => Apple_Terminal
+            [SHELL] => /bin/bash
+            [TERM] => xterm-256color
+            [TMPDIR] => /var/folders/3j/pf24y7cx7j71yg0h59t16xqr0000gn/T/
+            [TERM_PROGRAM_VERSION] => 445
+            [TERM_SESSION_ID] => CF97184E-35A6-41A4-8834-3612D95AD362
+            [JAVA_OPTIONS] => -Xms32m -Xmx16512m
+            [LC_ALL] => en_US.UTF-8
+            [USER] => famille
+            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.YbaI6INOLC/Listeners
+            [NEO4J_HOME] => /Users/famille/Desktop/analyzeG3/neo4j3
+            [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x1
+            [PATH] => /opt/homebrew/opt/bison/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/famille/pear/bin
+            [_] => /usr/local/sbin/php73
+            [LaunchInstanceID] => 2631F6F8-FE51-4E2F-9135-B337085CC81A
+            [__CFBundleIdentifier] => com.apple.Terminal
+            [PWD] => /Users/famille/Desktop/changedBehavior
+            [JAVA_HOME] => /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
+            [HOMEBREW_GITHUB_API_TOKEN] => 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
+            [LANG] => en_US.UTF-8
+            [XPC_FLAGS] => 0x0
+            [XPC_SERVICE_NAME] => 0
+            [SHLVL] => 2
+            [HOME] => /Users/famille
+            [LOGNAME] => famille
+            [PYTHONPATH] => /opt/homebrew/lib/python3.10/site-packages
+            [SECURITYSESSIONID] => 186a4
+            [PHP_SELF] => codes/NoReferenceToGLOBALS.php
+            [SCRIPT_NAME] => codes/NoReferenceToGLOBALS.php
+            [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
+            [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
+            [DOCUMENT_ROOT] => 
+            [REQUEST_TIME_FLOAT] => 1679988368.5733
+            [REQUEST_TIME] => 1679988368
+            [argv] => Array
+                (
+                    [0] => codes/NoReferenceToGLOBALS.php
+                )
+
+            [argc] => 1
+        )
+
+    [GLOBALS] => Array
+ *RECURSION*
+    [b] => Array
+ *RECURSION*
+)
