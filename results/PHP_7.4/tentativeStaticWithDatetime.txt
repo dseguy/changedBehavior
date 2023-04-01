@@ -1,0 +1,8 @@
+object(DateTime)#2 (3) {
+  ["date"]=>
+  string(26) "2014-06-20 11:45:00.000000"
+  ["timezone_type"]=>
+  int(3)
+  ["timezone"]=>
+  string(13) "Europe/London"
+}
