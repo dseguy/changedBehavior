@@ -9,10 +9,14 @@ echo 3 . 4 << 1;
 ?>",
 "before":"68",
 "after":"38",
-"seeAlso":[],
-"related":[],
-"phpVersions":[],
-"example":"",
-"illustration":"",
+"seeAlso":["`Other incompatible Changes <https://www.php.net/manual/en/migration80.incompatible.php>`_",
+ 		   "`Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_"],
 "deprecation":"The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence"
+"phpVersions":["8.0"],
+"alternatives":["Use parenthesis to enforce priorities",
+				"Avoid mixing those expressions",
+				"Use Deprecation notice to detect them before migration",
+				],
+"related":[],
+"keywords":["sunset", "prepare to", "post-invisibility"]
 }

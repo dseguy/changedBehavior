@@ -1,0 +1,12 @@
+PHP Deprecated:  Unbinding $this of closure is deprecated in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php on line 13
+
+Deprecated: Unbinding $this of closure is deprecated in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php on line 13
+PHP Fatal error:  Uncaught Error: Object of class Closure could not be converted to string in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php on line 13
+
+Fatal error: Uncaught Error: Object of class Closure could not be converted to string in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/UnbindingThis.php on line 13
