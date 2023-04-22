@@ -1,6 +1,14 @@
 <?php
 
-$scripts = glob('codes/*.php');
+if (isset($argv[1])) {
+	if (substr($argv[1], -4) === '.php') {
+		$scripts = array('codes/'.$argv[1]);	
+	} else {
+		$scripts = array('codes/'.$argv[1].'.php');	
+	}
+} else {
+	$scripts = glob('codes/*.php');
+}
 
 $begin = hrtime(true);
 
@@ -16,10 +24,19 @@ $total = 0;
 $i = 0;
 
 foreach($scripts as $script) {
+	if (!file_exists($script)) {
+		print "No such file as $script\n";
+		continue;
+	}
+
 	$hash = array();
 	foreach($phps as $name => $php) {
 		++$i;
 		$result = shell_exec("$php $script 2>&1");
+		if ($result === null) {
+			print "No results for $script\n";
+			continue;
+		}
 		$hash[$name] = crc32($result);
 		$file = basename($script, '.php');
 		if (!file_exists('results/'.$name)) {

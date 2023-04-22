@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: Argument 1 passed to iterator_count() must implement interface Traversable, array given in /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php:4
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php(4): iterator_count(Array)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php on line 4
+
+Fatal error: Uncaught TypeError: Argument 1 passed to iterator_count() must implement interface Traversable, array given in /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php:4
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php(4): iterator_count(Array)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/iteratorsArray.php on line 4

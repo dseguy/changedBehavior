@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: The arguments array must contain 3 items, 0 given in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php(3): vsprintf('%04d-%02d-%02d', Array)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php on line 3
+
+Fatal error: Uncaught ValueError: The arguments array must contain 3 items, 0 given in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php(3): vsprintf('%04d-%02d-%02d', Array)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php on line 3

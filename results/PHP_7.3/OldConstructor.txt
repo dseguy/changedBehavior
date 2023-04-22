@@ -1,4 +1,0 @@
-PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor in /Users/famille/Desktop/changedBehavior/codes/OldConstructor.php on line 3
-
-Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor in /Users/famille/Desktop/changedBehavior/codes/OldConstructor.php on line 3
-I'm the constructor

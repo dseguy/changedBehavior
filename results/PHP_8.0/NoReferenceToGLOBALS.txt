@@ -33,12 +33,12 @@ Array
             [JAVA_OPTIONS] => -Xms32m -Xmx16512m
             [LC_ALL] => en_US.UTF-8
             [USER] => famille
-            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.YbaI6INOLC/Listeners
+            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.AqhoMh4sgh/Listeners
             [NEO4J_HOME] => /Users/famille/Desktop/analyzeG3/neo4j3
             [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x1
             [PATH] => /opt/homebrew/opt/bison/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/famille/pear/bin
             [_] => /usr/local/sbin/php80
-            [LaunchInstanceID] => 2631F6F8-FE51-4E2F-9135-B337085CC81A
+            [LaunchInstanceID] => 3E8E9230-F0F6-4665-B3E3-0647934117C6
             [__CFBundleIdentifier] => com.apple.Terminal
             [PWD] => /Users/famille/Desktop/changedBehavior
             [JAVA_HOME] => /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
@@ -50,14 +50,14 @@ Array
             [HOME] => /Users/famille
             [LOGNAME] => famille
             [PYTHONPATH] => /opt/homebrew/lib/python3.10/site-packages
-            [SECURITYSESSIONID] => 186a4
+            [SECURITYSESSIONID] => 186a5
             [PHP_SELF] => codes/NoReferenceToGLOBALS.php
             [SCRIPT_NAME] => codes/NoReferenceToGLOBALS.php
             [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
             [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1680806725.3636
-            [REQUEST_TIME] => 1680806725
+            [REQUEST_TIME_FLOAT] => 1682155544.1259
+            [REQUEST_TIME] => 1682155544
             [argv] => Array
                 (
                     [0] => codes/NoReferenceToGLOBALS.php

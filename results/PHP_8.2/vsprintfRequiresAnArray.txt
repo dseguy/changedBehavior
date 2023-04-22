@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, int given in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php(3): vsprintf('%04d-%02d-%02d', 1)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 3
+
+Fatal error: Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, int given in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php(3): vsprintf('%04d-%02d-%02d', 1)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 3
