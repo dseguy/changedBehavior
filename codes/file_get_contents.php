@@ -1,5 +1,5 @@
 <?php
 
-file_get_contents("");
+var_dump(file_get_contents(""));
 
 ?>

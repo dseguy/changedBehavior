@@ -56,8 +56,8 @@ Array
             [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
             [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1682155544.1618
-            [REQUEST_TIME] => 1682155544
+            [REQUEST_TIME_FLOAT] => 1682177141.055
+            [REQUEST_TIME] => 1682177141
             [argv] => Array
                 (
                     [0] => codes/NoReferenceToGLOBALS.php
