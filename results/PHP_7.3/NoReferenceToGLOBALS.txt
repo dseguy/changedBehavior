@@ -29,7 +29,7 @@ Array
             [TERM] => xterm-256color
             [TMPDIR] => /var/folders/3j/pf24y7cx7j71yg0h59t16xqr0000gn/T/
             [TERM_PROGRAM_VERSION] => 445
-            [TERM_SESSION_ID] => CF97184E-35A6-41A4-8834-3612D95AD362
+            [TERM_SESSION_ID] => 75B9F372-13E8-465A-A2BB-A80456B7E92F
             [JAVA_OPTIONS] => -Xms32m -Xmx16512m
             [LC_ALL] => en_US.UTF-8
             [USER] => famille
@@ -56,8 +56,8 @@ Array
             [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
             [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1682177141.0922
-            [REQUEST_TIME] => 1682177141
+            [REQUEST_TIME_FLOAT] => 1682244816.4219
+            [REQUEST_TIME] => 1682244816
             [argv] => Array
                 (
                     [0] => codes/NoReferenceToGLOBALS.php

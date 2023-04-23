@@ -4,3 +4,4 @@ docs to add more php versions
 tests with docker images for older PHP versions
 Readme to explain how to provide new code change
 support for docker to generate results
+some values must be cleaned before compared : path (in errors, or +            [REQUEST_TIME_FLOAT] => 1682244816.3829)

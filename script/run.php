@@ -34,7 +34,7 @@ foreach($scripts as $script) {
 		++$i;
 		$result = shell_exec("$php $script 2>&1");
 		if ($result === null) {
-			print "No results for $script\n";
+			print "No results for $script ($php)\n";
 			continue;
 		}
 		$hash[$name] = crc32($result);

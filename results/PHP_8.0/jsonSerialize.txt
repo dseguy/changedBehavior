@@ -1,9 +1,1 @@
-PHP Fatal error:  Uncaught Error: Interface "JsonSerialize" not found in /Users/famille/Desktop/changedBehavior/codes/jsonSerialize.php:3
-Stack trace:
-#0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/jsonSerialize.php on line 3
-
-Fatal error: Uncaught Error: Interface "JsonSerialize" not found in /Users/famille/Desktop/changedBehavior/codes/jsonSerialize.php:3
-Stack trace:
-#0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/jsonSerialize.php on line 3
+x::__construct
