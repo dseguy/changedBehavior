@@ -1,0 +1,21 @@
+{
+"id":"array_key_existsOnObjects",
+"title":"array_key_exists() doesn't work on objects",
+"description":"array_key_exists() used to accept arrays or objects and work on them indistinctly. ",
+"code":"<?php
+
+var_dump(array_key_exists('a', (object) ['a' => 1]));
+
+?>",
+"before":"true",
+"after":"Fatal error",
+"seeAlso":[],
+"deprecation":"Using array_key_exists() on objects is deprecated. Use isset() or property_exists()"
+"phpVersions":["8.0"],
+"alternatives":["Cast the object to array to use this function",
+				"Use property_exists() on objects",
+				"Use isset()"
+				],
+"related":[],
+"keywords":[]
+}

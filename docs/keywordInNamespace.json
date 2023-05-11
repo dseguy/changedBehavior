@@ -1,0 +1,21 @@
+{
+"id":"keywordInNamespace",
+"title":"Keywords In Namespace",
+"description":"PHP didn't accept its own keywords in the definition of a namespace. Nowadays, namespaces are parsed as a whole, and there are no keywords in there. Before, the namespaces were parsed bit by bit, and the presence of the keywords was an impediment in that process. ",
+"code":"<?php
+
+namespace a\eval\b;
+
+echo __NAMESPACE__;
+
+?>",
+"before":"Error",
+"after":"a\eval\b",
+"seeAlso":[],
+"deprecation":"The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence"
+"phpVersions":["8.0"],
+"alternatives":["Backward incompatible"
+				],
+"related":[],
+"keywords":["rare"]
+}

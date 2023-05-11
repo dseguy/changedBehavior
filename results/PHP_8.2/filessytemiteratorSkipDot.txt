@@ -67,6 +67,7 @@ maxOnEmpty.php
 liskovPrinciple.php
 strposWithNullHaystack.php
 nonStaticMethodCalledStatically.php
+keywordInNamespace.php
 strposWithNull.php
 iteratorsArray.php
 mb_ereg_replaceWithInteger.php
