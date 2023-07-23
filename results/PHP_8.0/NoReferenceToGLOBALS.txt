@@ -29,16 +29,16 @@ Array
             [TERM] => xterm-256color
             [TMPDIR] => /var/folders/3j/pf24y7cx7j71yg0h59t16xqr0000gn/T/
             [TERM_PROGRAM_VERSION] => 445
-            [TERM_SESSION_ID] => CF97184E-35A6-41A4-8834-3612D95AD362
+            [TERM_SESSION_ID] => 75B9F372-13E8-465A-A2BB-A80456B7E92F
             [JAVA_OPTIONS] => -Xms32m -Xmx16512m
             [LC_ALL] => en_US.UTF-8
             [USER] => famille
-            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.x27si58JoV/Listeners
+            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.jdj22Pvoz9/Listeners
             [NEO4J_HOME] => /Users/famille/Desktop/analyzeG3/neo4j3
             [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x1
             [PATH] => /opt/homebrew/opt/bison/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/famille/pear/bin
             [_] => /usr/local/sbin/php80
-            [LaunchInstanceID] => 7FE86703-440A-4DB5-BAC5-38E7E5A4433A
+            [LaunchInstanceID] => 669E3A7F-E5F2-498D-8AC5-4A241997B7EC
             [__CFBundleIdentifier] => com.apple.Terminal
             [PWD] => /Users/famille/Desktop/changedBehavior
             [JAVA_HOME] => /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
@@ -56,8 +56,8 @@ Array
             [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
             [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1683784559.5018
-            [REQUEST_TIME] => 1683784559
+            [REQUEST_TIME_FLOAT] => 1689228063.1379
+            [REQUEST_TIME] => 1689228063
             [argv] => Array
                 (
                     [0] => codes/NoReferenceToGLOBALS.php

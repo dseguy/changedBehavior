@@ -18,6 +18,7 @@ $phps = array('PHP_8.3' => 'php83',
  			  'PHP_8.0' => 'php80',
  			  'PHP_7.4' => 'php74',
  			  'PHP_7.3' => 'php73',
+ 			  'PHP_7.2' => 'php72',
 			);
 
 $total = 0;

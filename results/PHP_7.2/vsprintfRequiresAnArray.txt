@@ -1,0 +1,6 @@
+PHP Warning:  vsprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 3
+
+Warning: vsprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 3
+PHP Warning:  vprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 4
+
+Warning: vprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfRequiresAnArray.php on line 4

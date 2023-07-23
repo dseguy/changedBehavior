@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/strposValueError.php(3): strpos('a', 'abc', 33)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php on line 3
+
+Fatal error: Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/strposValueError.php(3): strpos('a', 'abc', 33)
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php on line 3

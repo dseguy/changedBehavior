@@ -1,0 +1,4 @@
+in parent x
+SXy SX2 
+in self y
+SXy SX2 

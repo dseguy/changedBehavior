@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: strpos(): Argument #3 ($offset) must be of type int, string given in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php(3): strpos('a', 'abc', 'ad')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php on line 3
+
+Fatal error: Uncaught TypeError: strpos(): Argument #3 ($offset) must be of type int, string given in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php(3): strpos('a', 'abc', 'ad')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php on line 3

@@ -1,0 +1,4 @@
+PHP Warning:  max(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/maxOnEmptyArray.php on line 4
+
+Warning: max(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/maxOnEmptyArray.php on line 4
+bool(false)

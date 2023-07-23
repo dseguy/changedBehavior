@@ -15,12 +15,15 @@ weird.php
 substrReturnsEmptyStringOnOutOfBondOffset.php
 InvalidBaseCharacter.php
 switchComparison.php
+spaceship.php
 str_pos.php
 resourceToObjectPHP81.php
 enforceSplReturnType.php
 dotAndMinus.php
 tentativeStaticWithDatetime.php
+negativeIndexInArray.php
 dotAndBitshift.php
+var_export_stdclass.php
 version_compare.php
 compactThrowsNotice.php
 convert_uuencode.php
@@ -40,6 +43,7 @@ orphanedParent.php
 UnbindingThis.php
 jsonSerialize.php
 stringIntegerComparison.php
+strposValueError.php
 strposWithInteger.php
 undefinedConstants.php
 matchKeyword.php
@@ -55,7 +59,9 @@ maxOnEmptyArray.php
 maxOnStringAndInt.php
 inArrayZeroString.php
 ternaryAssociativity.php
+staticTraitStorage.php
 plusConcatPrecedence.php
+strposTypeError.php
 datetimeWithMultipleSigns.php
 relativeCallable.php
 minOnEmptyArray.php
@@ -69,6 +75,7 @@ strposWithNullHaystack.php
 nonStaticMethodCalledStatically.php
 keywordInNamespace.php
 strposWithNull.php
+duplicateStaticDefinition.php
 iteratorsArray.php
 mb_ereg_replaceWithInteger.php
 ClassOnIdentifier.php

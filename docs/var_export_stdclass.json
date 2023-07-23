@@ -1,0 +1,19 @@
+{
+"id":"var_export() With Stdclass",
+"title":"var_export() Format",
+"description":"PHP used to export stdClass objects like other classes, with a call to the magic method __set_state(). Since PHP 7.2, it does the export with the cast of an array to (object). This is more readable, and acknowledge the absence of such method for stdClass.",
+"code":"<?php
+
+var_export(new stdClass);
+
+?>",
+"before":"stdClass::__set_state(array())",
+"after":"(object) array()",
+"seeAlso":[],
+"deprecation":""
+"phpVersions":["7.2"],
+"alternatives":["Backward compatible"
+				],
+"related":[],
+"keywords":[]
+}

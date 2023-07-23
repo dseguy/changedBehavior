@@ -1,0 +1,4 @@
+PHP Warning:  vsprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php on line 3
+
+Warning: vsprintf(): Too few arguments in /Users/famille/Desktop/changedBehavior/codes/vsprintfReturnsEmptyString.php on line 3
+bool(false)
