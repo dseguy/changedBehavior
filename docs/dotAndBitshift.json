@@ -2,20 +2,16 @@
 "id":"dotAndBitshift",
 "title":"dot And Bitshift Priority",
 "description":"The dot (concatenation) and bitshift (<< and >>) operators have a distinct priority in PHP ",
-"code":"<?php
-
-echo 3 . 4 << 1;
-
-?>",
+"code":"<?php\necho 3 . 4 << 1;\n?>",
 "before":"68",
 "after":"38",
-"seeAlso":["`Other incompatible Changes <https://www.php.net/manual/en/migration80.incompatible.php>`_",
- 		   "`Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_"],
-"deprecation":"The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence"
+"seeAlso":{"Other incompatible Changes":"https://www.php.net/manual/en/migration80.incompatible.php",
+ 		   "Bitwise Operators":"https://www.php.net/manual/en/language.operators.bitwise.php"},
+"deprecation":"The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence",
 "phpVersions":["8.0"],
 "alternatives":["Use parenthesis to enforce priorities",
 				"Avoid mixing those expressions",
-				"Use Deprecation notice to detect them before migration",
+				"Use Deprecation notice to detect them before migration"
 				],
 "related":[],
 "keywords":["sunset", "prepare to", "post-invisibility"]
