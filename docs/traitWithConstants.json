@@ -1,0 +1,15 @@
+{
+"id":"traitWithConstants",
+"title":"Constants In Traits",
+"description":"Constants are allowed in traits in PHP 8.3 and more recent. Until then, they were not supported.",
+"code":"<?php\n\ntrait t {\n    const A = 1;\n}\n\nclass x {\n\nuse t;\n}\n\necho X::A;\n?>",
+"before":"PHP Fatal error:  Traits cannot have constants",
+"after":"1",
+"seeAlso":{},
+"deprecation":"",
+"phpVersions":["8.2"],
+"alternatives":[],
+"related":[],
+"phpError":"",
+"keywords":["fatal error", "error before", "trait", "class constants"]
+}
