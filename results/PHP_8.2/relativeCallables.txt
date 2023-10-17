@@ -1,4 +1,0 @@
-PHP Deprecated:  Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallables.php on line 5
-
-Deprecated: Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallables.php on line 5
-x::method
