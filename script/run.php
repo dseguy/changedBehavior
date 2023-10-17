@@ -1,6 +1,8 @@
 <?php
 
 if (isset($argv[1])) {
+	$script = preg_replace('#^(codes/)+#', 'codes/', $argv[1]);
+	
 	if (substr($argv[1], -4) === '.php') {
 		$scripts = array('codes/'.$argv[1]);	
 	} else {
@@ -12,7 +14,8 @@ if (isset($argv[1])) {
 
 $begin = hrtime(true);
 
-$phps = array('PHP_8.3' => 'php83',
+$phps = array('PHP_8.4' => 'php84',
+ 			  'PHP_8.3' => 'php83',
  			  'PHP_8.2' => 'php82',
  			  'PHP_8.1' => 'php81',
  			  'PHP_8.0' => 'php80',
@@ -23,6 +26,12 @@ $phps = array('PHP_8.3' => 'php83',
 
 $total = 0;
 $i = 0;
+
+foreach($phps as $name => $php) {
+	if (!file_exists('results/'.$name)) {
+		mkdir('results/'.$name, 0755);
+	}
+}
 
 foreach($scripts as $script) {
 	if (!file_exists($script)) {
