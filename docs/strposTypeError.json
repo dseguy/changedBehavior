@@ -2,17 +2,13 @@
 "id":"strposTypeError",
 "title":"strpos() Emits TypeError",
 "description":"strpos() and stripos() emit a TypeError when the offset is of the wrong type. In PHP 7.4, it emitted a warning.",
-"code":"<?php
-
-strpos('a', 'abc', null);
-
-?>",
+"code":"<?php\nstrpos('a', 'abc', null);\n?>",
 "before":"PHP Warning:  strpos() expects parameter 3 to be int, string given",
 "after":"PHP Fatal error:  Uncaught TypeError: strpos(): Argument #3 ($offset) must be of type int, string given",
 "seeAlso":[],
-"deprecation":""
+"deprecation":"",
 "phpVersions":["8.0"],
 "alternatives":[],
 "related":[],
-"keywords":[]
+"keywords":["fatal error", "error after"]
 }
