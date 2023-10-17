@@ -1,0 +1,15 @@
+{
+"id":"mustYieldIntOrStringKeys",
+"title":"Yield Must Use Integer Or String Keys",
+"description":"A generator is unpacked as an array, and as such, it doesn't allow keys to be anything else but string or integer. The generator may still be used in a foreach() structure, and yield usable keys, but it can't be unpacked or turned into a array without an error. In previous versions, the keys would be ignored, and re-indexed.",
+"code":"<?php\n\nfunction foo(...$args) {\n    var_dump($args);\n}\nfunction gen() {\n    yield 1.23 => 123;\n}\nfoo(...gen());\n\n?>",
+"before":"array(3) {\n  [0]=>\n  int(123)\n  [1]=>\n  int(123)\n  [2]=>\n  int(123)\n}",
+"after":"Fatal error: Uncaught Error: Keys must be of type int|string during argument unpacking",
+"seeAlso":{},
+"deprecation":"",
+"phpVersions":["7.2"],
+"alternatives":[],
+"related":[],
+"phpError":"",
+"keywords":["fatal error", "error after"]
+}
