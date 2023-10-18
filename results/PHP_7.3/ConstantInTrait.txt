@@ -1,0 +1,3 @@
+PHP Fatal error:  Traits cannot have constants in /Users/famille/Desktop/changedBehavior/codes/ConstantInTrait.php on line 4
+
+Fatal error: Traits cannot have constants in /Users/famille/Desktop/changedBehavior/codes/ConstantInTrait.php on line 4
