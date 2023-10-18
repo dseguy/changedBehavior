@@ -6,29 +6,33 @@ $behaviors[] = "PHP changed server";
 $behaviors[] = "----------------------";
 $behaviors[] = "";
 
-$files = glob('docs/*.json');
-$files = array_diff($files, ['docs/skeleton.json']);
+$files = glob('docs/*.ini');
+$files = array_diff($files, ['docs/skeleton.ini']);
 $stats = array('author' => 0,
 				);
 $errors = 0;
 $tips = array();
 foreach($files as $file) {
-	$tip = json_decode(file_get_contents($file));
+	$tip = parse_ini_file($file);
 
 	if ($tip === null) {
-		print "Warning : $file is not valid JSON\n";
+		print "Warning : $file is not valid INI\n";
 		continue;
 	}
 
-	$tips[$file] = $tip;
+	$tips[$file] = (object) $tip;
 }
 
 krsort($tips);
 
-$php = array('8.0' => [],
-			'8.1' => [],
-			'8.2' => [],
-			'8.3' => [],
+$php = array('7.2' => [],
+			 '7.3' => [],
+			 '7.4' => [],
+			 '8.0' => [],
+			 '8.1' => [],
+			 '8.2' => [],
+			 '8.3' => [],
+			 '8.4' => [],
 			);
 $stats = array('php' => 0);
 
@@ -74,8 +78,8 @@ $after
 
 CODE;
 	$behaviors[] = '';
-	$behaviors[] = 'PHP version change: '.$changedBehavior->phpVersions[0];
-	$php[$changedBehavior->phpVersions[0]][$changedBehavior->title] = '    * :ref:`'.make_anchor($changedBehavior->title).'`';
+	$behaviors[] = 'PHP version change: '.$changedBehavior->phpVersion;
+	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:`'.make_anchor($changedBehavior->title).'`';
 
 	if (!empty($changedBehavior->seeAlso)) {
 		$behaviors[] = '';
@@ -88,6 +92,7 @@ CODE;
 	$behaviors[] = PHP_EOL;
 }
 
+print "Total: ".count(glob("codes/*.php"))." PHP codes\n";
 file_put_contents('changed.rst', implode(PHP_EOL, $behaviors));
 print "processed ".count($files)." file with $errors error\n";
 
