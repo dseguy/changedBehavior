@@ -13,7 +13,7 @@ foreach($list as $element) {
 	++$total;
 	
 	shell_exec('git stage codes/'.$element.'.php');
-	shell_exec('git stage docs/'.$element.'.json');
+	shell_exec('git stage docs/'.$element.'.ini');
 	shell_exec('git stage results/*/'.$element.'.txt');
 }
 
