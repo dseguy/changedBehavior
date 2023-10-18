@@ -1,0 +1,3 @@
+PHP Parse error:  syntax error in /Users/famille/Desktop/changedBehavior/codes/dynamicClassConstant.php on line 9
+
+Parse error: syntax error in /Users/famille/Desktop/changedBehavior/codes/dynamicClassConstant.php on line 9
