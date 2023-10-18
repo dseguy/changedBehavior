@@ -20,7 +20,9 @@ foreach($files as $file) {
 		continue;
 	}
 
-	$tips[$file] = (object) $tip;
+	$tip = (object) $tip;
+	$tip->seeAlso = array_filter($tip->seeAlso);
+	$tips[$file] = $tip;
 }
 
 krsort($tips);
