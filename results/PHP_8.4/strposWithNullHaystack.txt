@@ -1,0 +1,4 @@
+PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/strposWithNullHaystack.php on line 3
+
+Deprecated: strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/strposWithNullHaystack.php on line 3
+bool(false)
