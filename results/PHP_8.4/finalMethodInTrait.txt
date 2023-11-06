@@ -1,0 +1,3 @@
+PHP Fatal error:  Trait method t2::foo has not been applied as A::foo, because of collision with t::foo in /Users/famille/Desktop/changedBehavior/codes/finalMethodInTrait.php on line 11
+
+Fatal error: Trait method t2::foo has not been applied as A::foo, because of collision with t::foo in /Users/famille/Desktop/changedBehavior/codes/finalMethodInTrait.php on line 11
