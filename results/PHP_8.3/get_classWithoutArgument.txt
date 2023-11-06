@@ -1,0 +1,6 @@
+PHP Deprecated:  Calling get_class() without arguments is deprecated in /Users/famille/Desktop/changedBehavior/codes/get_classWithoutArgument.php on line 5
+
+Deprecated: Calling get_class() without arguments is deprecated in /Users/famille/Desktop/changedBehavior/codes/get_classWithoutArgument.php on line 5
+xPHP Deprecated:  Calling get_parent_class() without arguments is deprecated in /Users/famille/Desktop/changedBehavior/codes/get_classWithoutArgument.php on line 6
+
+Deprecated: Calling get_parent_class() without arguments is deprecated in /Users/famille/Desktop/changedBehavior/codes/get_classWithoutArgument.php on line 6
