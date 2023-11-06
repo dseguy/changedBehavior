@@ -13,37 +13,49 @@ foreach($files as $file) {
 	}
 	sort($results);
 
-	$version = '';
+	$version = 'PHP_7.1';
 	$size = filesize($results[0]);
 	$content = file_get_contents($results[0]);
+	$finalVersion = 'PHP_7.1';
 	foreach($results as $result) {
 		$s2 = filesize($result);
-		$c2 = file_get_contents($result);
 
 		if ($s2 !== $size) {
+			
+			if ($version !== 'PHP_7.1') {
+				$stats[$version] = ($stats[$version] ?? 0) + 1;
+				$finalVersion = $version;
+			}
+
 			$version = basename(dirname($result));
 			$size = $s2;
-			
-			if ($version !== 'PHP_7.2') {
-				$stats[$version] = ($stats[$version] ?? 0) + 1;
-			}
 			
 			continue;
 		}
 
+		$c2 = file_get_contents($result);
 		if ($c2 !== $content) {
+			
+			if ($version !== 'PHP_7.1') {
+				$stats[$version] = ($stats[$version] ?? 0) + 1;
+				$finalVersion = $version;
+			}
+
 			$version = basename(dirname($result));
 			$content = $c2;
-			
-			if ($version !== 'PHP_7.2') {
-				$stats[$version] = ($stats[$version] ?? 0) + 1;
-			}
 			
 			continue;
 		}
 	}
 	
-	printf("%-50s : $version\n", $base);
+			if ($finalVersion === 'PHP_7.1') {
+				$stats[$version] = ($stats[$version] ?? 0) + 1;
+				$finalVersion = $version;
+			}
+	
+
+	printf("%-50s : $finalVersion ".(file_exists('./docs/'.$base.'.ini') ? ' ' : '*')."\n", $base);
+	
 }
 
 ksort($stats);
