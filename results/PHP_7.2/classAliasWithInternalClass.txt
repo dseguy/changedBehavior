@@ -1,0 +1,12 @@
+PHP Warning:  First argument of class_alias() must be a name of user defined class in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 3
+
+Warning: First argument of class_alias() must be a name of user defined class in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 3
+PHP Fatal error:  Uncaught Error: Class 'A' not found in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 5
+
+Fatal error: Uncaught Error: Class 'A' not found in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 5
