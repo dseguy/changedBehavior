@@ -1,7 +1,7 @@
 <?php
 
-$docs = glob('docs/*.json');
-$docs = array_map(function ($s) { return basename($s, '.json');}, $docs);
+$docs = glob('docs/*.ini');
+$docs = array_map(function ($s) { return basename($s, '.ini');}, $docs);
 
 $codes = glob('codes/*.php');
 $codes = array_map(function ($s) { return basename($s, '.php');}, $codes);
