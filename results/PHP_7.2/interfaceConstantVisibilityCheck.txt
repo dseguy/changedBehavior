@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot inherit previously-inherited or override constant I from interface i in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php on line 8
+
+Fatal error: Cannot inherit previously-inherited or override constant I from interface i in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php on line 8

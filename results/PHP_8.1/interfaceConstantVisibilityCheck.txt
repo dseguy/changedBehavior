@@ -1,0 +1,9 @@
+2PHP Fatal error:  Uncaught Error: Cannot access private constant x::I in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php on line 14
+
+Fatal error: Uncaught Error: Cannot access private constant x::I in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/interfaceConstantVisibilityCheck.php on line 14
