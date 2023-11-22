@@ -81,7 +81,7 @@ $after
 CODE;
 	$behaviors[] = '';
 	$behaviors[] = 'PHP version change: '.$changedBehavior->phpVersion;
-	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:`'.make_anchor($changedBehavior->title).'`';
+	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.make_anchor($changedBehavior->title).'';
 
 	if (!empty($changedBehavior->seeAlso)) {
 		$behaviors[] = '';
@@ -148,7 +148,7 @@ function check(stdClass $tip, string $file) : string {
 }
 
 function make_anchor(string $title) : string {
-	$title = strtr(strtolower($title), ' ', '-');
+	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
 	return $title;
 }
 

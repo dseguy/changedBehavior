@@ -9,6 +9,11 @@ if (!file_exists('codes/'.$id.'.php')) { print "Missing code in docs/$id.php"; }
 
 $files = glob("results/*/$id.txt");
 
+if (empty($files)) {
+	print "Run first: \nphp script/run.php $id\n";
+	die();
+}
+
 $phpVersion = "";
 $code = "";
 
