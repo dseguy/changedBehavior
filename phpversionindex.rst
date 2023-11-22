@@ -1,0 +1,77 @@
+PHP version index
+-----------------
+
+* 9.0
+    * :ref:`accessing-trait-resources-directly-is-not-allowed`
+    * :ref:`cannot-call-traits-methods-directly`
+    * :ref:`no-dynamic-properties-by-default`
+    * :ref:`relative-callable-in-strings`
+    * :ref:`get_class()-needs-an-argument`
+    * :ref:`strpos()-with-null-haystack`
+* 8.4
+    * :ref:`round()-mode-validation`
+* 8.3
+    * :ref:`constantintrait`
+    * :ref:`duplicate-static-definition`
+    * :ref:`dynamic-class-constant`
+    * :ref:`final-method-in-trait`
+    * :ref:`interface-constant-visibility-checks`
+    * :ref:`interface-imported-constant-visibility-is-checked`
+    * :ref:`negative-automatic-index-from-empty-array`
+    * :ref:`storage-of-static-properties-trait`
+    * :ref:`typed-class-constant`
+    * :ref:`array_product()-new-checks`
+    * :ref:`array_sum()-checks-operands-more-thoroughly`
+    * :ref:`class_alias()-works-on-internal-classes`
+    * :ref:`range()-lists-everything-between-strings`
+    * :ref:`range()-with-int-and-string`
+* 8.2
+    * :ref:`constants-in-traits`
+    * :ref:`no-reference-to-$globals-variable`
+    * :ref:`tentative-static-returntype-with-datetime`
+    * :ref:`datetimewithmultiplesigns`
+    * :ref:`iterator_count()-also-count-arrays`
+    * :ref:`strsplit()-with-empty-string`
+    * :ref:`var_export()-format`
+* 8.1
+    * :ref:`$globals-assignement`
+    * :ref:`cannot-explode()-null`
+    * :ref:`filessytemiterator-skips-dot-files`
+    * :ref:`final-class-constants`
+    * :ref:`version_compare()-stricter-operators`
+* 8.0
+    * :ref:`automatic-index-in-non-empty-array`
+    * :ref:`bitshift-and-concat-precedence`
+    * :ref:`catch-without-variable`
+    * :ref:`interpolated-string-dereferencing`
+    * :ref:`keywords-in-namespace`
+    * :ref:`old-style-constructors`
+    * :ref:`orphaned-parent`
+    * :ref:`plus-and-concat-precedence`
+    * :ref:`spaces-in-namespaces`
+    * :ref:`ternary-associativity`
+    * :ref:`trailing-comma-in-arguments`
+    * :ref:`undefined-constants`
+    * :ref:`__set_state()-method-must-be-static`
+    * :ref:`array_key_exists()-doesn't-work-on-objects`
+    * :ref:`assert()-throws-exception`
+    * :ref:`dot-and-bitshift-priority`
+    * :ref:`ksort()-now-places-integers-before-strings`
+    * :ref:`ksort()-places-integers-before-strings-in-keys`
+    * :ref:`sort()-places-integers-before-strings`
+    * :ref:`spaceship`
+    * :ref:`str_replace()-checks-for-arguments`
+    * :ref:`str_split()-throws-valueerror-with-negative-lengths`
+    * :ref:`strpos()-does-not-accept-null-as-second-parameter`
+    * :ref:`strpos()-emits-typeerror`
+    * :ref:`strpos()-emits-valueerror`
+    * :ref:`strpos()-with-integer-argument`
+    * :ref:`switch()-changed-comparison-style`
+    * :ref:`vsprint()-requires-an-array`
+    * :ref:`vsprintf()-returns-empty-string-on-error`
+* 7.3
+    * :ref:`trailing-comma-in-calls`
+    * :ref:`instanceof-expect-objects`
+* 7.2
+    * :ref:`yield-must-use-integer-or-string-keys`
+    * :ref:`var_export()-with-stdclass`
