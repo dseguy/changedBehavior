@@ -86,6 +86,9 @@ CODE;
 	if (!empty($changedBehavior->seeAlso)) {
 		$behaviors[] = '';
 		foreach($changedBehavior->seeAlso as $title => $link) {
+			if (is_int($title)) {
+				print "Wrong title for $link\n";
+			}
 			$behaviors[] = '* `'.$title.' <'.$link.'>`_';
 		}
 		$behaviors[] = '';
