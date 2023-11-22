@@ -19,6 +19,10 @@ foreach($list as $element) {
 
 print "Found $total elements in the list of ".count($list)." provided\n";
 
+if (!file_exists('docs/'.$element.'.ini')) {
+	print "Warning: No documentation available\n";
+}
+
 $count = trim(shell_exec('git status | grep "new file" | wc -l'));
 print "$count elements in stage\n";
 print "git commit -m 'Updated description of ".implode(', ', $list)."' \n";
