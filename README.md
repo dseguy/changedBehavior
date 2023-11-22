@@ -1,6 +1,8 @@
 # PHP changed behavior database
 
-Once in a version, PHP changes behavior of some of its commands. They are mentioned in the migration guides, and they are also collected here, with examples.
+Sometimes, PHP changes behavior of its commands. They are mentioned in the migration guides, and they are also collected here, with examples.
+
+You  can read them online at ``_
 
 ## Contribute
 
@@ -12,7 +14,7 @@ Send it as a PR.
 
 The code should always display some result, and the result should change at least once across the current selection of supported PHP versions.
 
-Supported PHP versions : 8.3-dev, 8.2, 8.1, 8.0, 7.4, 7.3.
+Supported PHP versions : 8.4-dev, 8.3, 8.2, 8.1, 8.0, 7.4, 7.3.
 You can also run the test suite on a minor version, though there are not plan to support them all. 
 
 This project aims at documenting change in behavior, in particular when it is otherwise silent. For example, comparisons between integer and strings (PHP 8.0), or sort() handling of ex-aequos (PHP 7)
