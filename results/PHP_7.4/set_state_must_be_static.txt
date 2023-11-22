@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Object of class x could not be converted to string in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php on line 8
+
+Fatal error: Uncaught Error: Object of class x could not be converted to string in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php on line 8

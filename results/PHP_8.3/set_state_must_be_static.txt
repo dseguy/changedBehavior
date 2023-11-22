@@ -1,0 +1,3 @@
+PHP Fatal error:  Method x::__set_state() must be static in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php on line 4
+
+Fatal error: Method x::__set_state() must be static in /Users/famille/Desktop/changedBehavior/codes/set_state_must_be_static.php on line 4
