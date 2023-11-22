@@ -10,8 +10,8 @@ Welcome to PHP Changed Behaviors's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   changed
    phpversionindex
+   changed
 
 
 

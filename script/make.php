@@ -2,7 +2,7 @@
 
 $behaviors = array();
 
-$behaviors[] = "PHP changed server";
+$behaviors[] = "PHP changed behaviors";
 $behaviors[] = "----------------------";
 $behaviors[] = "";
 
@@ -25,7 +25,7 @@ foreach($files as $file) {
 	$tips[$file] = $tip;
 }
 
-krsort($tips);
+uksort($tips, function(string $a, string $b) : int { return strtolower($a) <=> strtolower($b); });
 
 $php = array('7.2' => [],
 			 '7.3' => [],
@@ -35,6 +35,7 @@ $php = array('7.2' => [],
 			 '8.2' => [],
 			 '8.3' => [],
 			 '8.4' => [],
+			 '9.0' => [],
 			);
 $stats = array('php' => 0);
 
@@ -103,8 +104,8 @@ print "processed ".count($files)." file with $errors error\n";
 
 if (!empty($php)) {
 	$versionRst = <<<RST
-PHP version index
------------------
+Per PHP version
+---------------
 
 
 RST;

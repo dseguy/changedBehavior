@@ -1,5 +1,5 @@
-PHP version index
------------------
+Per PHP version
+---------------
 
 * 9.0
     * :ref:`accessing-trait-resources-directly-is-not-allowed`
