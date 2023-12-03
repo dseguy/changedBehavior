@@ -38,8 +38,10 @@ Per PHP version
     * :ref:`cannot-explode()-null`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
+    * :ref:`never-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
+    * :ref:`::class-on-object`
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
     * :ref:`catch-without-variable`
@@ -62,11 +64,14 @@ Per PHP version
     * :ref:`spaceship`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_split()-throws-valueerror-with-negative-lengths`
+    * :ref:`strpos()-does-not-accept-false`
     * :ref:`strpos()-does-not-accept-null-as-second-parameter`
     * :ref:`strpos()-emits-typeerror`
     * :ref:`strpos()-emits-valueerror`
     * :ref:`strpos()-with-integer-argument`
+    * :ref:`substr()-returns-empty-string-on-out-of-bond-offset`
     * :ref:`switch()-changed-comparison-style`
+    * :ref:`throw-is-an-expression`
     * :ref:`vsprint()-requires-an-array`
     * :ref:`vsprintf()-returns-empty-string-on-error`
 * 7.3

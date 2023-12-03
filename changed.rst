@@ -467,6 +467,48 @@ PHP version change: 8.3
 
 
 
+.. _`::class-on-object`:
+
+::class On Object
+=================
+The ::class operator provides the fully qualified name of the identifier or object. It used to be working only on identifier or names, but it also works on objects, via variables and properties: then, it provides the fully qualified name of the underlying class. 
+
+
+
+This is very convenient when the code needs to get a hold on the class, and only the object is provided.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   $a = new stdclass;
+   echo $a::class;
+   
+
+Before
+______
+.. code-block:: output
+
+   PHP Fatal error:  Cannot use ::class with dynamic class name in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+   
+   Fatal error: Cannot use ::class with dynamic class name in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+   
+
+After
+______
+.. code-block:: output
+
+   stdClass
+
+
+PHP version change: 8.0
+
+----
+
+
+
 .. _`interface-imported-constant-visibility-is-checked`:
 
 Interface Imported Constant Visibility Is Checked
@@ -1364,6 +1406,50 @@ PHP version change: 8.0
 
 
 
+.. _`never-keyword`:
+
+never Keyword
+=============
+Never became a PHP reserved keyword in PHP 8.1. It is used as special type, and cannot be used anymore for function names, classnames, etc.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   class never {
+   	function __construct() {
+   		print __METHOD__;
+   	}
+   }
+   
+   new never;
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   never::__construct
+
+After
+______
+.. code-block:: output
+
+   PHP Fatal error:  Cannot use 'never' as class name as it is reserved in /Users/famille/Desktop/changedBehavior/codes/neverKeyword.php on line 3
+   
+   Fatal error: Cannot use 'never' as class name as it is reserved in /Users/famille/Desktop/changedBehavior/codes/neverKeyword.php on line 3
+   
+
+
+PHP version change: 8.1
+
+----
+
+
+
 .. _`no-reference-to-$globals-variable`:
 
 No Reference To $GLOBALS Variable
@@ -1425,19 +1511,28 @@ PHP version change: 8.2
 
 Old Style Constructors
 ======================
-
+Since PHP 4, the constructor of a class was the method with the same name as the class. In PHP 7, it was changed to use the ``__construct`` method by default, and, in case this is missing and for backward compatibility reasons, use the method with the same name. In PHP 8.0, this old style constructor is not used anymore.
 
 PHP code
 ________
 .. code-block:: php
 
+   <?php
    
+   class x {
+   	function x() {
+   		print __METHOD__;
+   	}
+   }
+   
+   new x();
+   ?>
 
 Before
 ______
 .. code-block:: output
 
-   
+   x::x
 
 After
 ______
@@ -2071,6 +2166,51 @@ PHP version change: 8.0
 
 
 
+.. _`strpos()-does-not-accept-false`:
+
+strpos() Does Not Accept False
+==============================
+PHP used to type cast ``false`` to 0 then to a string, when it is used as second argument to strpos(). 
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   var_dump(strpos('abc', false));
+   var_dump(strpos('a'.chr(0), false));
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithFalse.php on line 3
+   
+   Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithFalse.php on line 3
+   bool(false)
+   int(1);
+   
+
+After
+______
+.. code-block:: output
+
+   int(0)
+   int(0)
+   
+
+
+PHP version change: 8.0
+
+* `strpos <https://www.php.net/manual/en/function.strpos.php>`_
+
+
+----
+
+
+
 .. _`strpos()-with-integer-argument`:
 
 strpos() With Integer Argument
@@ -2249,6 +2389,58 @@ PHP version change: 8.0
 
 
 
+.. _`substr()-returns-empty-string-on-out-of-bond-offset`:
+
+substr() Returns Empty String On Out Of Bond Offset
+===================================================
+substr() used to return false when the parameters used to extract the string were out of bound, or well out of the string sizes. With PHP 8.0, this is not reported as an error anymore, and fails silently.
+
+
+
+One collateral impact is that code that checks on the returned value to be false is now dead code.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   var_dump(substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0
+   var_dump(mb_substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0);
+   var_dump(iconv_substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0);
+   var_dump(grapheme_substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0);
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   bool(false)
+   string(0) "" 
+   bool(false)
+   bool(false)
+   
+
+After
+______
+.. code-block:: output
+
+   string(0) "" 
+   string(0) "" 
+   string(0) "" 
+   string(0) "" 
+   
+
+
+PHP version change: 8.0
+
+* `substr() <https://www.php.net/substr>`_
+
+
+----
+
+
+
 .. _`switch()-changed-comparison-style`:
 
 switch() Changed Comparison Style
@@ -2386,6 +2578,47 @@ ______
 PHP version change: 8.0
 
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
+
+
+----
+
+
+
+.. _`throw-is-an-expression`:
+
+throw Is An Expression
+======================
+
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   foo() or throw new \Exception();
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   PHP Parse error:  syntax error, unexpected 'throw' (T_THROW) in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php on line 3
+   
+   Parse error: syntax error, unexpected 'throw' (T_THROW) in /Users/famille/Desktop/changedBehavior/codes/throwIsAnExpression.php on line 3
+   
+
+After
+______
+.. code-block:: output
+
+   
+
+
+PHP version change: 8.0
+
+* `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 
 
 ----
