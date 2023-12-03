@@ -55,3 +55,5 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 pygments_style = 'sphinx'
+
+html_extra_path = ["googlee919cb0917e4fefc.html"]
