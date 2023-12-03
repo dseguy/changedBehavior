@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot use 'never' as class name as it is reserved in /Users/famille/Desktop/changedBehavior/codes/neverKeyword.php on line 3
+
+Fatal error: Cannot use 'never' as class name as it is reserved in /Users/famille/Desktop/changedBehavior/codes/neverKeyword.php on line 3
