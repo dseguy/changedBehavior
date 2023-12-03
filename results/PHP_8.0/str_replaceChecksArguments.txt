@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php(3): str_replace('a', Array, 'abc')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php on line 3
+
+Fatal error: Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php:3
+Stack trace:
+#0 /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php(3): str_replace('a', Array, 'abc')
+#1 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php on line 3
