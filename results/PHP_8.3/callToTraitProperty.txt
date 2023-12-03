@@ -1,0 +1,4 @@
+PHP Deprecated:  Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/callToTraitProperty.php on line 8
+
+Deprecated: Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/callToTraitProperty.php on line 8
+1
