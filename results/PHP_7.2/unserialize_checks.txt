@@ -1,0 +1,5 @@
+__PHP_Incomplete_Class Object
+(
+    [__PHP_Incomplete_Class_Name] => a
+    [property] => yes
+)
