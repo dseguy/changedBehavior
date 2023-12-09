@@ -1,5 +1,13 @@
 <?php
 
+include 'vendor/autoload.php';
+
+use samdark\sitemap\Sitemap;
+use samdark\sitemap\Index;
+
+// create sitemap
+$sitemap = new Sitemap('./sitemap.xml');
+
 if (!file_exists('behavior')) {
 	mkdir('behavior', 0755);
 } else {
@@ -54,6 +62,7 @@ $php = array('7.2' => [],
 $stats = array('php' => 0);
 
 $behaviorlist = [];
+$errormessagelist = [];
 foreach($tips as $file => $changedBehavior) {
 	$behavior = [];
 	if ($e = check($changedBehavior, $file)) {
@@ -62,7 +71,8 @@ foreach($tips as $file => $changedBehavior) {
 		continue;
 	}
 	
-	$behavior[] = '.. _'.make_anchor($changedBehavior->title).':'.PHP_EOL;
+	$anchor = make_anchor($changedBehavior->title);
+	$behavior[] = '.. _'.$anchor.':'.PHP_EOL;
 	$behavior[] = $changedBehavior->title;
 	$behavior[] = str_repeat('=', strlen($changedBehavior->title));
 	
@@ -98,18 +108,45 @@ $after
 CODE;
 	$behavior[] = '';
 	$behavior[] = 'PHP version change: '.$changedBehavior->phpVersion;
-	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.make_anchor($changedBehavior->title).'';
+	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.$anchor.'';
 
 	if (!empty($changedBehavior->seeAlso)) {
-		$behaviors[] = '';
+		$seeAlso = array();
 		foreach($changedBehavior->seeAlso as $title => $link) {
 			if (is_int($title)) {
 				print "Wrong title for $link\n";
 			}
-			$behavior[] = '* `'.$title.' <'.$link.'>`_';
+
+			if ($link[0] === '<') {
+				print "Check the link on $file: $link\n";
+			}
+
+			if ($link[-1] === '_') {
+				print "Check the link on $file: $link\n";
+			}
+
+
+			$seeAlso[] = '* `'.$title.' <'.$link.'>`_';
 		}
 		$behavior[] = '';
+		$behavior[] = 'See Also';
+		$behavior[] = '________';
+		$behavior[] = '';
+		$behavior[] = implode(PHP_EOL, $seeAlso);
+		
+		$behavior[] = '';
 	}
+
+	if (!empty($changedBehavior->phpError)) {
+		$errormessagelist[$changedBehavior->phpError] = $anchor;
+		
+		$behavior[] = 'Error Messages';
+		$behavior[] = '________';
+		$behavior[] = '';
+		$behavior[] = $changedBehavior->phpError;
+		$behavior[] = '';
+	}
+
 //	$behavior[] = "\n----\n";
 	$behavior[] = PHP_EOL;
 	
@@ -117,14 +154,33 @@ CODE;
 	file_put_contents('behavior/'.$name.'.rst', implode(PHP_EOL, $behavior));
 	
 	$behaviorlist[] = '   behavior/'.$name.'.rst';
+	
+	$sitemap->addItem('https://php-changed-behaviors.readthedocs.io/en/latest/behavior/'.$changedBehavior->id.'.html');
 }
 
 print "Total: ".count(glob("codes/*.php"))." PHP codes\n";
+
+if (!empty($errormessagelist)) {
+	$error = array('PHP Error Messages',
+				   '--------------------',
+					);
+					
+	foreach($errormessagelist as $message => $link) {
+		$error[] = '    * :ref:`'.$message.' <'.trim($link, '`').'>`';
+	}
+	$error[] = '';
+	
+	file_put_contents('errormessages.rst', implode(PHP_EOL, $error));
+}
+
 
 $changed = file_get_contents('changed.rst.in');
 $changed = str_replace('behaviorlist', implode(PHP_EOL, $behaviorlist), $changed);
 file_put_contents('changed.rst', $changed);
 print "processed ".count($files)." file with $errors error\n";
+
+$sitemap->write();
+
 
 if (!empty($php)) {
 	$versionRst = <<<RST
