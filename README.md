@@ -2,7 +2,7 @@
 
 Sometimes, PHP changes behavior of its commands. They are mentioned in the migration guides, and they are also collected here, with examples.
 
-You  can read them online at ``_
+You  can read them online at `https://php-changed-behaviors.readthedocs.io/en/latest/`_.
 
 ## Contribute
 
