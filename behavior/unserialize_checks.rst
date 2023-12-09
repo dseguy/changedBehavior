@@ -47,7 +47,7 @@ ________
 * `PHP RFC: Make unserialize() emit a warning for trailing bytes <https://wiki.php.net/rfc/unserialize_warn_on_trailing_data>`_
 
 Error Messages
-________
+______________
 
 unserialize(): Extra data starting at offset 37 of 39 bytes
 

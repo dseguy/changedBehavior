@@ -51,7 +51,7 @@ ______
 
 PHP version change: 8.0
 Error Messages
-________
+______________
 
 Array must contain at least one element
 

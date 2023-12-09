@@ -35,7 +35,7 @@ ______
 
 PHP version change: 8.3
 Error Messages
-________
+______________
 
 Duplicate declaration of static variable $s
 

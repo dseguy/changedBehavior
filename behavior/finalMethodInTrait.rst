@@ -38,7 +38,7 @@ ______
 
 PHP version change: 8.3
 Error Messages
-________
+______________
 
 Cannot use 'final' as method modifier
 

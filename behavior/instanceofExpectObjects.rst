@@ -39,7 +39,7 @@ ________
 * `Type Operator <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
 
 Error Messages
-________
+______________
 
 instanceof expects an object instance, constant given
 

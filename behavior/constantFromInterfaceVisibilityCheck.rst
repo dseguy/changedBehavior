@@ -44,7 +44,7 @@ ______
 
 PHP version change: 8.3
 Error Messages
-________
+______________
 
 Access level to x::IPri must be public (as in interface i)
 

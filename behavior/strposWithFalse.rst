@@ -42,7 +42,7 @@ ________
 * `strpos <https://www.php.net/manual/en/function.strpos.php>`_
 
 Error Messages
-________
+______________
 
 Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior 
 

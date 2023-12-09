@@ -36,7 +36,7 @@ ______
 
 PHP version change: 8.0
 Error Messages
-________
+______________
 
 Cannot use ::class with dynamic class name
 

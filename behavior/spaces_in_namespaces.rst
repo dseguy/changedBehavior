@@ -34,7 +34,7 @@ ______
 
 PHP version change: 8.0
 Error Messages
-________
+______________
 
 syntax error, unexpected fully qualified name "\Package", expecting "{"
 

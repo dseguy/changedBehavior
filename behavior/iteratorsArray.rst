@@ -29,7 +29,7 @@ ______
 
 PHP version change: 8.2
 Error Messages
-________
+______________
 
 Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given
 

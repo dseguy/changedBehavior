@@ -35,7 +35,7 @@ ________
 * `round() <https://www.php.net/round>`_
 
 Error Messages
-________
+______________
 
 Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*)
 

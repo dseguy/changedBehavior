@@ -37,7 +37,7 @@ ______
 
 PHP version change: 8.1
 Error Messages
-________
+______________
 
 Cannot acquire reference to $GLOBALS
 

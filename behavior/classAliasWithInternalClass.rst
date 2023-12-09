@@ -36,7 +36,7 @@ ________
 * `class_alias() <https://php.net/class_alias>`_
 
 Error Messages
-________
+______________
 
 First argument of class_alias() must be a name of user defined class
 

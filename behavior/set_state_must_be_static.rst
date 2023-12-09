@@ -39,7 +39,7 @@ ________
 * `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php#object.set-state>`_
 
 Error Messages
-________
+______________
 
 Method x::__set_state() must be static
 

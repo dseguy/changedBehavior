@@ -141,7 +141,7 @@ CODE;
 		$errormessagelist[$changedBehavior->phpError] = $anchor;
 		
 		$behavior[] = 'Error Messages';
-		$behavior[] = '________';
+		$behavior[] = '______________';
 		$behavior[] = '';
 		$behavior[] = $changedBehavior->phpError;
 		$behavior[] = '';
