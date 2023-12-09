@@ -12,6 +12,7 @@ Welcome to PHP Changed Behaviors's documentation!
 
    phpversionindex
    changed
+   errormessages
 
 
 
