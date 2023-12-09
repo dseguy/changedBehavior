@@ -1,0 +1,37 @@
+.. _`cannot-call-traits-methods-directly`:
+
+Cannot Call Traits Methods Directly
+===================================
+Traits used to be called directly, like a class. In PHP 8.1, this feature has been removed. The methods, properties or constants of the trait must be called in the context of their host class.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   trait t {
+       static function foo() { echo __METHOD__; }
+       
+   }
+   
+   echo t::foo();
+
+Before
+______
+.. code-block:: output
+
+   t::foo
+
+After
+______
+.. code-block:: output
+
+   PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/callTraitAlone.php on line 8
+   
+   Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/callTraitAlone.php on line 8
+   t::foo
+
+
+PHP version change: 9.0
+
