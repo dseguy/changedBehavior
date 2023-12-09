@@ -1,5 +1,11 @@
 <?php
 
+if (!file_exists('behavior')) {
+	mkdir('behavior', 0755);
+} else {
+	shell_exec('rm -rf behavior/*');
+}
+
 $behaviors = array();
 
 $behaviors[] = "PHP changed behaviors";
@@ -47,19 +53,21 @@ $php = array('7.2' => [],
 			);
 $stats = array('php' => 0);
 
+$behaviorlist = [];
 foreach($tips as $file => $changedBehavior) {
+	$behavior = [];
 	if ($e = check($changedBehavior, $file)) {
 		print "Error in file $file : $e\n";
 		++$errors;
 		continue;
 	}
 	
-	$behaviors[] = '.. _'.make_anchor($changedBehavior->title).':'.PHP_EOL;
-	$behaviors[] = $changedBehavior->title;
-	$behaviors[] = str_repeat('=', strlen($changedBehavior->title));
+	$behavior[] = '.. _'.make_anchor($changedBehavior->title).':'.PHP_EOL;
+	$behavior[] = $changedBehavior->title;
+	$behavior[] = str_repeat('=', strlen($changedBehavior->title));
 	
-	$behaviors[] = str_replace("\n", "\n\n", $changedBehavior->description);
-	$behaviors[] = '';
+	$behavior[] = str_replace("\n", "\n\n", $changedBehavior->description);
+	$behavior[] = '';
 	
 	$code = $changedBehavior->code;
 	$code = '   '.str_replace("\n", "\n   ", $code);
@@ -68,7 +76,7 @@ foreach($tips as $file => $changedBehavior) {
 	$after = $changedBehavior->after;
 	$after = '   '.str_replace("\n", "\n   ", $after);
 
-	$behaviors[] = <<<CODE
+	$behavior[] = <<<CODE
 PHP code
 ________
 .. code-block:: php
@@ -88,8 +96,8 @@ ______
 $after
 
 CODE;
-	$behaviors[] = '';
-	$behaviors[] = 'PHP version change: '.$changedBehavior->phpVersion;
+	$behavior[] = '';
+	$behavior[] = 'PHP version change: '.$changedBehavior->phpVersion;
 	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.make_anchor($changedBehavior->title).'';
 
 	if (!empty($changedBehavior->seeAlso)) {
@@ -98,16 +106,24 @@ CODE;
 			if (is_int($title)) {
 				print "Wrong title for $link\n";
 			}
-			$behaviors[] = '* `'.$title.' <'.$link.'>`_';
+			$behavior[] = '* `'.$title.' <'.$link.'>`_';
 		}
-		$behaviors[] = '';
+		$behavior[] = '';
 	}
-	$behaviors[] = "\n----\n";
-	$behaviors[] = PHP_EOL;
+//	$behavior[] = "\n----\n";
+	$behavior[] = PHP_EOL;
+	
+	$name = $changedBehavior->id;
+	file_put_contents('behavior/'.$name.'.rst', implode(PHP_EOL, $behavior));
+	
+	$behaviorlist[] = '   behavior/'.$name.'.rst';
 }
 
 print "Total: ".count(glob("codes/*.php"))." PHP codes\n";
-file_put_contents('changed.rst', implode(PHP_EOL, $behaviors));
+
+$changed = file_get_contents('changed.rst.in');
+$changed = str_replace('behaviorlist', implode(PHP_EOL, $behaviorlist), $changed);
+file_put_contents('changed.rst', $changed);
 print "processed ".count($files)." file with $errors error\n";
 
 if (!empty($php)) {

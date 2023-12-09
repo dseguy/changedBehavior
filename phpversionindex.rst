@@ -6,6 +6,7 @@ Per PHP version
     * :ref:`cannot-call-traits-methods-directly`
     * :ref:`no-dynamic-properties-by-default`
     * :ref:`relative-callable-in-strings`
+    * :ref:`return-reference-on-void`
     * :ref:`get_class()-needs-an-argument`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
@@ -25,6 +26,8 @@ Per PHP version
     * :ref:`class_alias()-works-on-internal-classes`
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`range()-with-int-and-string`
+    * :ref:`unserialize()-checks-the-end-of-the-string`
+    * :ref:`unserialize()-error-report`
 * 8.2
     * :ref:`constants-in-traits`
     * :ref:`no-reference-to-$globals-variable`
@@ -38,6 +41,7 @@ Per PHP version
     * :ref:`cannot-explode()-null`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
+    * :ref:`finfo-moved-away-from-resource`
     * :ref:`never-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
@@ -45,6 +49,7 @@ Per PHP version
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
     * :ref:`catch-without-variable`
+    * :ref:`inegality-comparisons`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
     * :ref:`old-style-constructors`
@@ -57,9 +62,13 @@ Per PHP version
     * :ref:`__set_state()-method-must-be-static`
     * :ref:`array_key_exists()-doesn't-work-on-objects`
     * :ref:`assert()-throws-exception`
+    * :ref:`curl-moved-away-from-resource`
+    * :ref:`count()-must-count-countable`
     * :ref:`dot-and-bitshift-priority`
+    * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`
+    * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship`
     * :ref:`str_replace()-checks-for-arguments`
@@ -74,6 +83,8 @@ Per PHP version
     * :ref:`throw-is-an-expression`
     * :ref:`vsprint()-requires-an-array`
     * :ref:`vsprintf()-returns-empty-string-on-error`
+* 7.4
+    * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`trailing-comma-in-calls`
     * :ref:`instanceof-expect-objects`
