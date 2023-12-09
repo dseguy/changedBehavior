@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php on line 3
+
+Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php on line 3

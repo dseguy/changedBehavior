@@ -1,0 +1,4 @@
+PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php on line 3
+
+Warning: count(): Parameter must be an array or an object that implements Countable in /Users/famille/Desktop/changedBehavior/codes/countUncountable.php on line 3
+1
