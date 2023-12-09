@@ -1,0 +1,3 @@
+fooPHP Notice:  Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
+
+Notice: Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
