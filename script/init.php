@@ -1,6 +1,7 @@
 <?php
 
 $id = $argv[1];
+$id = preg_replace("/\.php$/", '', $id);
 
 print "initing for \"$id\"\n";
 if (file_exists('docs/'.$id.'.ini')) { print "docs/$id.ini already exists.\n"; die();}

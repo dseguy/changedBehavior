@@ -21,7 +21,15 @@ foreach($files as $file) {
 	}
 
 	$tip = (object) $tip;
-	$tip->seeAlso = array_filter($tip->seeAlso);
+	if (isset($tip->seeAlso)) {
+		$tip->seeAlso = array_filter($tip->seeAlso);
+	} else {
+		print "Missing seeAlso in $file\n";
+		
+		if (!is_arary($seeAlso)) {
+			print "seeAlso is not an array in $file\n";
+		}
+	}
 	$tips[$file] = $tip;
 }
 
