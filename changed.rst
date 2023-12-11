@@ -17,6 +17,7 @@ PHP Changed Behavior
    behavior/CatchNoVariable.rst
    behavior/classAliasWithInternalClass.rst
    behavior/ClassOnIdentifier.rst
+   behavior/cloneReadonly.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
    behavior/countUncountable.rst

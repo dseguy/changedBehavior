@@ -2,6 +2,7 @@ PHP Error Messages
 --------------------
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
+    * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`

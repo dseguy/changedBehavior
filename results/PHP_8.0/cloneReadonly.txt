@@ -1,0 +1,3 @@
+PHP Parse error:  syntax error, unexpected identifier "readonly", expecting "function" or "const" in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php on line 4
+
+Parse error: syntax error, unexpected identifier "readonly", expecting "function" or "const" in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php on line 4

@@ -12,6 +12,7 @@ Per PHP version
 * 8.4
     * :ref:`round()-mode-validation`
 * 8.3
+    * :ref:`can-clone-readonly-properties`
     * :ref:`constantintrait`
     * :ref:`duplicate-static-definition`
     * :ref:`dynamic-class-constant`

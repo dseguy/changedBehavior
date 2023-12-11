@@ -37,6 +37,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassOnIdentifier.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneReadonly.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantFromInterfaceVisibilityCheck.html</loc>
  </url>
  <url>
