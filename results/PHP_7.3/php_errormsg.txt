@@ -1,0 +1,4 @@
+PHP Notice:  Undefined variable: a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
+
+Notice: Undefined variable: a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
+Undefined variable: a
