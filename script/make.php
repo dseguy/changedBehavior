@@ -35,12 +35,16 @@ foreach($files as $file) {
 	}
 
 	$tip = (object) $tip;
+	if (!isset($tip->title)) {
+		print "No title for $file\n";
+	}
+
 	if (isset($tip->seeAlso)) {
 		$tip->seeAlso = array_filter($tip->seeAlso);
 	} else {
 		print "Missing seeAlso in $file\n";
 		
-		if (!is_arary($seeAlso)) {
+		if (!is_array($seeAlso)) {
 			print "seeAlso is not an array in $file\n";
 		}
 	}
@@ -114,7 +118,7 @@ CODE;
 		$seeAlso = array();
 		foreach($changedBehavior->seeAlso as $title => $link) {
 			if (is_int($title)) {
-				print "Wrong title for $link\n";
+				print "Wrong title for $link in $file\n";
 			}
 
 			if ($link[0] === '<') {
