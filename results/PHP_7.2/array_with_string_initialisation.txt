@@ -1,0 +1,3 @@
+abc3PHP Warning:  Illegal string offset 'c' in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php on line 6
+
+Warning: Illegal string offset 'c' in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php on line 6
