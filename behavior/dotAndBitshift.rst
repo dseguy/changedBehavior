@@ -1,6 +1,6 @@
 .. _`dot-and-bitshift-priority`:
 
-dot And Bitshift Priority
+Dot And Bitshift Priority
 =========================
 The dot (concatenation) and bitshift (<< and >>) operators have a distinct priority in PHP 
 
