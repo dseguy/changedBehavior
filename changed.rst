@@ -26,6 +26,8 @@ PHP Changed Behavior
    behavior/curl_init.rst
    behavior/datetimeWithMultipleSigns.rst
    behavior/dotAndBitshift.rst
+   behavior/dotAndMinus.rst
+   behavior/dotAndPlus.rst
    behavior/duplicateStaticDefinition.rst
    behavior/dynamicClassConstant.rst
    behavior/dynamicProperties.rst
@@ -45,7 +47,9 @@ PHP Changed Behavior
    behavior/keywordInNamespace.rst
    behavior/krsort.rst
    behavior/ksort.rst
+   behavior/matchKeyword.rst
    behavior/minOnEmptyArray.rst
+   behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst

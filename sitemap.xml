@@ -64,6 +64,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndMinus.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndPlus.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/duplicateStaticDefinition.html</loc>
  </url>
  <url>
@@ -121,7 +127,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ksort.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/matchKeyword.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/minOnEmptyArray.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nestedAttributes.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/neverKeyword.html</loc>

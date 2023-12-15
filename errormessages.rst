@@ -6,6 +6,7 @@ PHP Error Messages
     * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
     * :ref:`Undefined variable $x <compact()-throws-notice-on-missing-variable>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
+    * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`

@@ -43,6 +43,7 @@ Per PHP version
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
+    * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`never-keyword`
@@ -55,6 +56,8 @@ Per PHP version
     * :ref:`bitshift-and-concat-precedence`
     * :ref:`catch-without-variable`
     * :ref:`dot-and-bitshift-priority`
+    * :ref:`dot-and-minus-changed-precedence`
+    * :ref:`dot-and-plus-changed-precedence`
     * :ref:`inegality-comparisons`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
@@ -74,6 +77,7 @@ Per PHP version
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`
+    * :ref:`match-is-now-a-keyword`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship`
