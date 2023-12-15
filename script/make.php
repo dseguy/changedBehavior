@@ -37,6 +37,10 @@ foreach($files as $file) {
 	$tip = (object) $tip;
 	if (!isset($tip->title)) {
 		print "No title for $file\n";
+	} else {
+		if (!str_contains($tip->title, ' ')) {
+			print "suspiciously no white space in title for $file\n";
+		}
 	}
 
 	if (isset($tip->seeAlso)) {

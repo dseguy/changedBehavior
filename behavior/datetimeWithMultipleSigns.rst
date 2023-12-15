@@ -1,7 +1,7 @@
-.. _`datetimewithmultiplesigns`:
+.. _`datetime-with-multiple-signs`:
 
-datetimeWithMultipleSigns
-=========================
+datetime With Multiple Signs
+============================
 
 
 PHP code

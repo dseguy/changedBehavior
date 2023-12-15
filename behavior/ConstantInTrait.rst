@@ -1,7 +1,7 @@
-.. _`constantintrait`:
+.. _`constants-in-trait`:
 
-ConstantInTrait
-===============
+Constants In Trait
+==================
 Trait can have constants in PHP 8.3 and later.
 
 PHP code

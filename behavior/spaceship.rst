@@ -1,7 +1,7 @@
-.. _`spaceship`:
+.. _`spaceship-operator-results`:
 
-spaceship
-=========
+spaceship Operator Results
+==========================
 With the change of comparison between integers and strings, the spaceship was also impacted. Some spaceship comparisons did change, and are not returning the same results than before. 
 
 PHP code

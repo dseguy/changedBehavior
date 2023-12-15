@@ -13,7 +13,7 @@ Per PHP version
     * :ref:`round()-mode-validation`
 * 8.3
     * :ref:`can-clone-readonly-properties`
-    * :ref:`constantintrait`
+    * :ref:`constants-in-trait`
     * :ref:`duplicate-static-definition`
     * :ref:`dynamic-class-constant`
     * :ref:`final-method-in-trait`
@@ -33,7 +33,7 @@ Per PHP version
     * :ref:`constants-in-traits`
     * :ref:`no-reference-to-$globals-variable`
     * :ref:`tentative-static-returntype-with-datetime`
-    * :ref:`datetimewithmultiplesigns`
+    * :ref:`datetime-with-multiple-signs`
     * :ref:`iterator_count()-also-count-arrays`
     * :ref:`strsplit()-with-empty-string`
     * :ref:`var_export()-format`
@@ -80,7 +80,7 @@ Per PHP version
     * :ref:`match-is-now-a-keyword`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`sort()-places-integers-before-strings`
-    * :ref:`spaceship`
+    * :ref:`spaceship-operator-results`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_split()-throws-valueerror-with-negative-lengths`
     * :ref:`strpos()-does-not-accept-false`
