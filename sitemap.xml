@@ -13,6 +13,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_next_id.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_with_string_initialisation.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayProdChecks.html</loc>
  </url>
  <url>
@@ -38,6 +41,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneReadonly.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantFromInterfaceVisibilityCheck.html</loc>
@@ -121,6 +127,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/neverKeyword.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NoReferenceToGLOBALS.html</loc>
  </url>
  <url>
@@ -128,6 +137,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/plusConcatPrecedence.html</loc>
@@ -143,6 +155,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/returnTypeEnforce.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/roundParameterValidation.html</loc>

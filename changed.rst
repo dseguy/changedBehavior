@@ -9,6 +9,7 @@ PHP Changed Behavior
    behavior/array_key_existsOnObjects.rst
    behavior/array_negative_id.rst
    behavior/array_next_id.rst
+   behavior/array_with_string_initialisation.rst
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
    behavior/assertThrows.rst
@@ -18,6 +19,7 @@ PHP Changed Behavior
    behavior/classAliasWithInternalClass.rst
    behavior/ClassOnIdentifier.rst
    behavior/cloneReadonly.rst
+   behavior/compactThrowsNotice.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
    behavior/countUncountable.rst
@@ -45,14 +47,17 @@ PHP Changed Behavior
    behavior/ksort.rst
    behavior/minOnEmptyArray.rst
    behavior/neverKeyword.rst
+   behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/OldConstructors.rst
    behavior/orphanedParent.rst
+   behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
    behavior/relativeCallable.rst
    behavior/return_reference_on_void.rst
+   behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst
    behavior/set_state_must_be_static.rst
    behavior/sort.rst

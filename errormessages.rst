@@ -1,8 +1,10 @@
 PHP Error Messages
 --------------------
+    * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
+    * :ref:`Undefined variable $x <compact()-throws-notice-on-missing-variable>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
@@ -11,6 +13,9 @@ PHP Error Messages
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Array must contain at least one element <min()-doesn't-accept-empty-arrays>`
+    * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
+    * :ref:`Undefined variable $php_errormsg <$php_errormsg-has-been-removed>`
+    * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
     * :ref:`Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) <round()-mode-validation>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`

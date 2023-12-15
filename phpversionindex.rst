@@ -43,16 +43,22 @@ Per PHP version
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
+    * :ref:`php-native-return-types-are-now-enforced`
+    * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`never-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
+    * :ref:`$php_errormsg-has-been-removed`
     * :ref:`::class-on-object`
+    * :ref:`array-usage-with-string-initialisation`
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
     * :ref:`catch-without-variable`
+    * :ref:`dot-and-bitshift-priority`
     * :ref:`inegality-comparisons`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
+    * :ref:`non-static-method-called-statically`
     * :ref:`old-style-constructors`
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
@@ -65,7 +71,6 @@ Per PHP version
     * :ref:`assert()-throws-exception`
     * :ref:`curl-moved-away-from-resource`
     * :ref:`count()-must-count-countable`
-    * :ref:`dot-and-bitshift-priority`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`
