@@ -22,7 +22,7 @@ Before
 ______
 .. code-block:: output
 
-   Parse error: syntax error, unexpected identifier A, expecting variable
+   Parse error: syntax error, unexpected identifier "A", expecting variable
 
 After
 ______

@@ -20,7 +20,7 @@ ______
 
    array(1) {
      [0]=>
-     string(0) 
+     string(0) "" 
    }
    
 
@@ -33,7 +33,7 @@ ______
    Deprecated: explode(): Passing null to parameter #2 ($string) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/explodeWithNull.php on line 3
    array(1) {
      [0]=>
-     string(0) 
+     string(0) "" 
    }
    
 

@@ -12,7 +12,7 @@ ________
    
    class A extends DateTime{}
    
-   $date = new DateTimeImmutable(2014-06-20 11:45 Europe/London);
+   $date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
    
    $mutable = A::createFromImmutable( $date );
    
@@ -30,12 +30,12 @@ ______
 .. code-block:: output
 
    object(A)#2 (3) {
-     [date]=>
-     string(26) 2014-06-20 11:45:00.000000
-     [timezone_type]=>
+     ["date"]=>
+     string(26) "2014-06-20 11:45:00.000000" 
+     ["timezone_type"]=>
      int(3)
-     [timezone]=>
-     string(13) Europe/London
+     ["timezone"]=>
+     string(13) "Europe/London" 
    }
    
 

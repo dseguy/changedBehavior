@@ -35,6 +35,6 @@ PHP version change: 8.0
 See Also
 ________
 
-* `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
+* `\"Exceptions\" <\https://www.php.net/manual/en/language.exceptions.php>`_
 
 

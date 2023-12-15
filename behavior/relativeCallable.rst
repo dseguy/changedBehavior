@@ -34,9 +34,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of self in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
+   PHP Deprecated:  Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
    
-   Deprecated: Use of self in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
+   Deprecated: Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
    x::a
 
 
@@ -45,7 +45,7 @@ PHP version change: 9.0
 See Also
 ________
 
-* `PHP RFC: Expand deprecation notice scope for partially supported callables <https://wiki.php.net/rfc/partially-supported-callables-expand-deprecation-notices>`_
+* `PHP RFC: Expand deprecation notice scope for partially supported callables <\https://wiki.php.net/rfc/partially-supported-callables-expand-deprecation-notices>`_
 * `Callable <https://www.php.net/manual/en/language.types.callable.php>`_
 
 

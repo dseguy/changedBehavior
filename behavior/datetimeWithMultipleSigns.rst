@@ -9,9 +9,9 @@ ________
 .. code-block:: php
 
    <?php
-   $time = new \DateTimeImmutable(-+-1 year);
+   $time = new \DateTimeImmutable("-+-1 year");
    
-   echo $time->format('Y/m/d H:i:s'), \n;
+   echo $time->format('Y/m/d H:i:s'), "\n";
    ?>
 
 Before

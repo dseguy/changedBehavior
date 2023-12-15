@@ -51,7 +51,7 @@ ______
 .. code-block:: output
 
    object(x)#2 (1) {
-     [p]=>
+     ["p"]=>
      int(3)
    }
    

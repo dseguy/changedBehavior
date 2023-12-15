@@ -10,7 +10,7 @@ ________
 
    <?php
    
-   var_dump(vsprintf(%04d-%02d-%02d, []));
+   var_dump(vsprintf("%04d-%02d-%02d", []));
    
    ?>
 

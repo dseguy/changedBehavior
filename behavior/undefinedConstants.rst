@@ -24,7 +24,7 @@ After
 ______
 .. code-block:: output
 
-   Uncaught Error: Undefined constant D
+   Uncaught Error: Undefined constant "D"
 
 
 PHP version change: 8.0

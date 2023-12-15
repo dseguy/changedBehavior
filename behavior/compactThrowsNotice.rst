@@ -23,7 +23,7 @@ ________
    var_dump(compact($name, $age));
    
    // valid usage
-   // var_dump(compact(name, 'age'));
+   // var_dump(compact("name", 'age'));
    
    
 
@@ -58,7 +58,7 @@ PHP version change: 8.1
 See Also
 ________
 
-* `compact() <https://www.php.net/manual/en/function.compact.php>`_
+* `\"compact()\" <\https://www.php.net/manual/en/function.compact.php>`_
 
 Error Messages
 ______________

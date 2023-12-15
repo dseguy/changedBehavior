@@ -10,7 +10,7 @@ ________
 
    <?php
    
-   unserialize(an invalid string);
+   unserialize("an invalid string");
    
    ?>
 

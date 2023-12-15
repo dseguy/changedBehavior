@@ -17,7 +17,7 @@ ________
    // $dir is a path to a folder that contains 2 files:  a.txt and .b 
    $it = new FilesystemIterator(dirname($dir), FilesystemIterator::CURRENT_AS_FILEINFO);
    foreach ($it as $fileinfo) {
-       echo $fileinfo->getFilename() . \n;
+       echo $fileinfo->getFilename() . "\n";
    }
    ?>
    
@@ -46,6 +46,6 @@ PHP version change: 8.1
 See Also
 ________
 
-* `FilesystemIterator::__construct <https://www.php.net/manual/en/filesystemiterator.construct.php>`_
+* `FilesystemIterator::__construct <\https://www.php.net/manual/en/filesystemiterator.construct.php>`_
 
 
