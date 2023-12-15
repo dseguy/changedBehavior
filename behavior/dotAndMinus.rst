@@ -1,0 +1,45 @@
+.. _`dot-and-minus-changed-precedence`:
+
+Dot And Minus Changed Precedence
+================================
+The dot (concatenation) and substraction - operators have a distinct priority in PHP 8.0. In particular, - has now precedence. 
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   echo 3 . 4 - 5;
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /Users/famille/Desktop/changedBehavior/codes/dotAndMinus.php on line 3
+   
+   Deprecated: The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /Users/famille/Desktop/changedBehavior/codes/dotAndMinus.php on line 3
+   29
+
+After
+______
+.. code-block:: output
+
+   3-1
+
+
+PHP version change: 8.0
+
+See Also
+________
+
+* `Migration PHP 8.0 <https://www.php.net/manual/en/migration80.incompatible.php>`_
+
+Error Messages
+______________
+
+The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+
+
