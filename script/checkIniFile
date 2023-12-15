@@ -1,0 +1,15 @@
+<?php
+
+$files = glob("docs/*.ini");
+
+$error = 0;
+foreach($files as $file) {
+    if (empty(parse_ini_file($file))) {
+    	$error++;
+        print "File : $file\n";
+    }
+}
+
+print count($files)." ini files tested\n";
+print "$error errors in tested files\n";
+
