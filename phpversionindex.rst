@@ -61,6 +61,8 @@ Per PHP version
     * :ref:`inegality-comparisons`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
+    * :ref:`no-max()-on-empty-array`
+    * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
     * :ref:`old-style-constructors`
     * :ref:`orphaned-parent`
@@ -81,6 +83,7 @@ Per PHP version
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
+    * :ref:`str_pos()-requires-only-strings`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_split()-throws-valueerror-with-negative-lengths`
     * :ref:`strpos()-does-not-accept-false`
@@ -94,6 +97,7 @@ Per PHP version
     * :ref:`vsprint()-requires-an-array`
     * :ref:`vsprintf()-returns-empty-string-on-error`
 * 7.4
+    * :ref:`base-conversion-reports-invalid-characters`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`trailing-comma-in-calls`

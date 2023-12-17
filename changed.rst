@@ -43,11 +43,14 @@ PHP Changed Behavior
    behavior/instanceofExpectObjects.rst
    behavior/interfaceConstantVisibilityCheck.rst
    behavior/InterpolatedStringDereferencing.rst
+   behavior/InvalidBaseCharacter.rst
    behavior/iteratorsArray.rst
    behavior/keywordInNamespace.rst
    behavior/krsort.rst
    behavior/ksort.rst
    behavior/matchKeyword.rst
+   behavior/maxOnEmpty.rst
+   behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
@@ -68,6 +71,7 @@ PHP Changed Behavior
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
    behavior/staticTraitStorage.rst
+   behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
    behavior/strposTypeError.rst
    behavior/strposValueError.rst
