@@ -52,6 +52,9 @@ foreach($scripts as $script) {
 		if (!file_exists('results/'.$name)) {
 			mkdir('results/'.$name, 0755);
 		}
+		
+		// removes the current directory from the results.
+		$result = str_replace(getcwd(), '', $result);
 
 		file_put_contents('results/'.$name.'/'.$file.'.txt', $result);
 		print '.';

@@ -1,3 +1,3 @@
-PHP Deprecated:  Non-static method Foo::bar() should not be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+PHP Deprecated:  Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6
 
-Deprecated: Non-static method Foo::bar() should not be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+Deprecated: Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6
