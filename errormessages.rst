@@ -17,6 +17,7 @@ PHP Error Messages
     * :ref:`Array must contain at least one element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Undefined variable $php_errormsg <$php_errormsg-has-been-removed>`
+    * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
     * :ref:`Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) <round()-mode-validation>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`

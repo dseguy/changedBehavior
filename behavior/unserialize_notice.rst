@@ -18,18 +18,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  unserialize(): Error at offset 0 of 17 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_notice.php on line 3
+   PHP Notice:  unserialize(): Error at offset 0 of 17 bytes in /codes/unserialize_notice.php on line 3
    
-   Notice: unserialize(): Error at offset 0 of 17 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_notice.php on line 3
+   Notice: unserialize(): Error at offset 0 of 17 bytes in /codes/unserialize_notice.php on line 3
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  unserialize(): Error at offset 0 of 17 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_notice.php on line 3
+   PHP Warning:  unserialize(): Error at offset 0 of 17 bytes in /codes/unserialize_notice.php on line 3
    
-   Warning: unserialize(): Error at offset 0 of 17 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_notice.php on line 3
+   Warning: unserialize(): Error at offset 0 of 17 bytes in /codes/unserialize_notice.php on line 3
    
 
 

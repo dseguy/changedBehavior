@@ -28,9 +28,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/explodeWithNull.php on line 3
+   PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /codes/explodeWithNull.php on line 3
    
-   Deprecated: explode(): Passing null to parameter #2 ($string) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/explodeWithNull.php on line 3
+   Deprecated: explode(): Passing null to parameter #2 ($string) of type string is deprecated in /codes/explodeWithNull.php on line 3
    array(1) {
      [0]=>
      string(0) "" 

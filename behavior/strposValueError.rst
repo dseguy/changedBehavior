@@ -16,9 +16,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  strpos(): Offset not contained in string in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php on line 3
+   PHP Warning:  strpos(): Offset not contained in string in /codes/strposValueError.php on line 3
    
-   Warning: strpos(): Offset not contained in string in /Users/famille/Desktop/changedBehavior/codes/strposValueError.php on line 3
+   Warning: strpos(): Offset not contained in string in /codes/strposValueError.php on line 3
    bool(false)
 
 After

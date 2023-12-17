@@ -26,9 +26,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected fully qualified name "\Package", expecting "{" in /Users/famille/Desktop/changedBehavior/codes/spaces_in_namespaces.php on line 4
+   PHP Parse error:  syntax error, unexpected fully qualified name "\Package", expecting "{" in /codes/spaces_in_namespaces.php on line 4
    
-   Parse error: syntax error, unexpected fully qualified name "\Package", expecting "{" in /Users/famille/Desktop/changedBehavior/codes/spaces_in_namespaces.php on line 4
+   Parse error: syntax error, unexpected fully qualified name "\Package", expecting "{" in /codes/spaces_in_namespaces.php on line 4
    
 
 

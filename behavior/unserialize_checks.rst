@@ -28,9 +28,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  unserialize(): Extra data starting at offset 37 of 39 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_checks.php on line 3
+   PHP Warning:  unserialize(): Extra data starting at offset 37 of 39 bytes in /codes/unserialize_checks.php on line 3
    
-   Warning: unserialize(): Extra data starting at offset 37 of 39 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_checks.php on line 3
+   Warning: unserialize(): Extra data starting at offset 37 of 39 bytes in /codes/unserialize_checks.php on line 3
    __PHP_Incomplete_Class Object
    (
        [__PHP_Incomplete_Class_Name] => a

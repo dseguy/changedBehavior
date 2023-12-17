@@ -31,9 +31,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+   PHP Warning:  compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
    
-   Warning: compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
    array(0) {
    }
    
@@ -42,12 +42,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+   PHP Warning:  compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
    
-   Warning: compact(): Undefined variable $Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
-   PHP Warning:  compact(): Argument #2 must be string or array of strings, int given in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
+   PHP Warning:  compact(): Argument #2 must be string or array of strings, int given in /codes/compactThrowsNotice.php on line 7
    
-   Warning: compact(): Argument #2 must be string or array of strings, int given in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Argument #2 must be string or array of strings, int given in /codes/compactThrowsNotice.php on line 7
    array(0) {
    }
    
@@ -58,7 +58,7 @@ PHP version change: 8.1
 See Also
 ________
 
-* `\"compact()\" <\https://www.php.net/manual/en/function.compact.php>`_
+* `compact() <https://www.php.net/manual/en/function.compact.php>`_
 
 Error Messages
 ______________

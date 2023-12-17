@@ -33,17 +33,17 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Cannot modify readonly property x::$p in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php:11
+   PHP Fatal error:  Uncaught Error: Cannot modify readonly property x::$p in /codes/cloneReadonly.php:11
    Stack trace:
-   #0 /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php(16): x->__clone()
+   #0 /codes/cloneReadonly.php(16): x->__clone()
    #1 {main}
-     thrown in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php on line 11
+     thrown in /codes/cloneReadonly.php on line 11
    
-   Fatal error: Uncaught Error: Cannot modify readonly property x::$p in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php:11
+   Fatal error: Uncaught Error: Cannot modify readonly property x::$p in /codes/cloneReadonly.php:11
    Stack trace:
-   #0 /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php(16): x->__clone()
+   #0 /codes/cloneReadonly.php(16): x->__clone()
    #1 {main}
-     thrown in /Users/famille/Desktop/changedBehavior/codes/cloneReadonly.php on line 11
+     thrown in /codes/cloneReadonly.php on line 11
    
 
 After

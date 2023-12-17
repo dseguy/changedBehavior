@@ -25,21 +25,21 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  Undefined variable: a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
+   PHP Notice:  Undefined variable: a in /codes/php_errormsg.php on line 5
    
-   Notice: Undefined variable: a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
+   Notice: Undefined variable: a in /codes/php_errormsg.php on line 5
    Undefined variable: a
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  Undefined variable $a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
+   PHP Warning:  Undefined variable $a in /codes/php_errormsg.php on line 5
    
-   Warning: Undefined variable $a in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 5
-   PHP Warning:  Undefined variable $php_errormsg in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 7
+   Warning: Undefined variable $a in /codes/php_errormsg.php on line 5
+   PHP Warning:  Undefined variable $php_errormsg in /codes/php_errormsg.php on line 7
    
-   Warning: Undefined variable $php_errormsg in /Users/famille/Desktop/changedBehavior/codes/php_errormsg.php on line 7
+   Warning: Undefined variable $php_errormsg in /codes/php_errormsg.php on line 7
    
 
 

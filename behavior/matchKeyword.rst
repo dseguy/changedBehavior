@@ -28,9 +28,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token "match", expecting "(" in /Users/famille/Desktop/changedBehavior/codes/matchKeyword.php on line 3
+   PHP Parse error:  syntax error, unexpected token "match", expecting "(" in /codes/matchKeyword.php on line 3
    
-   Parse error: syntax error, unexpected token "match", expecting "(" in /Users/famille/Desktop/changedBehavior/codes/matchKeyword.php on line 3
+   Parse error: syntax error, unexpected token "match", expecting "(" in /codes/matchKeyword.php on line 3
    
 
 

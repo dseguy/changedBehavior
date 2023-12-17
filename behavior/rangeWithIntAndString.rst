@@ -29,9 +29,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0 in /Users/famille/Desktop/changedBehavior/codes/rangeWithIntAndString.php on line 3
+   PHP Warning:  range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0 in /codes/rangeWithIntAndString.php on line 3
    
-   Warning: range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0 in /Users/famille/Desktop/changedBehavior/codes/rangeWithIntAndString.php on line 3
+   Warning: range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0 in /codes/rangeWithIntAndString.php on line 3
    Array
    (
        [0] => 1

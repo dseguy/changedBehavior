@@ -18,9 +18,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  instanceof expects an object instance, constant given in /Users/famille/Desktop/changedBehavior/codes/instanceofExpectObjects.php on line 3
+   PHP Fatal error:  instanceof expects an object instance, constant given in /codes/instanceofExpectObjects.php on line 3
    
-   Fatal error: instanceof expects an object instance, constant given in /Users/famille/Desktop/changedBehavior/codes/instanceofExpectObjects.php on line 3
+   Fatal error: instanceof expects an object instance, constant given in /codes/instanceofExpectObjects.php on line 3
    
 
 After

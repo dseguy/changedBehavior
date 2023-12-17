@@ -14,23 +14,28 @@ Before
 ______
 .. code-block:: output
 
-   fooPHP Notice:  Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
+   fooPHP Notice:  Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6
    
-   Notice: Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
+   Notice: Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Returning by reference from a void function is deprecated in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 3
+   PHP Deprecated:  Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
    
-   Deprecated: Returning by reference from a void function is deprecated in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 3
-   fooPHP Notice:  Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
+   Deprecated: Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
+   fooPHP Notice:  Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6
    
-   Notice: Only variable references should be returned by reference in /Users/famille/Desktop/changedBehavior/codes/return_reference_on_void.php on line 6
+   Notice: Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6
    
 
 
 PHP version change: 9.0
+Error Messages
+______________
+
+Returning by reference from a void function is deprecated
+
 

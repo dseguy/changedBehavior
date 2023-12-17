@@ -18,9 +18,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithFalse.php on line 3
+   PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/strposWithFalse.php on line 3
    
-   Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /Users/famille/Desktop/changedBehavior/codes/strposWithFalse.php on line 3
+   Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/strposWithFalse.php on line 3
    bool(false)
    int(1);
    

@@ -22,9 +22,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use ::class with dynamic class name in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+   PHP Fatal error:  Cannot use ::class with dynamic class name in /codes/ClassOnIdentifier.php on line 4
    
-   Fatal error: Cannot use ::class with dynamic class name in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+   Fatal error: Cannot use ::class with dynamic class name in /codes/ClassOnIdentifier.php on line 4
    
 
 After

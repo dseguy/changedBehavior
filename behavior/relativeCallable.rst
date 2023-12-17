@@ -34,9 +34,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
+   PHP Deprecated:  Use of "self" in callables is deprecated in /codes/relativeCallable.php on line 9
    
-   Deprecated: Use of "self" in callables is deprecated in /Users/famille/Desktop/changedBehavior/codes/relativeCallable.php on line 9
+   Deprecated: Use of "self" in callables is deprecated in /codes/relativeCallable.php on line 9
    x::a
 
 

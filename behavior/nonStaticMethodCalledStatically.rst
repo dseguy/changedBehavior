@@ -35,24 +35,24 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Non-static method Foo::bar() should not be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+   PHP Deprecated:  Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6
    
-   Deprecated: Non-static method Foo::bar() should not be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+   Deprecated: Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Non-static method Foo::bar() cannot be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php:6
+   PHP Fatal error:  Uncaught Error: Non-static method Foo::bar() cannot be called statically in /codes/nonStaticMethodCalledStatically.php:6
    Stack trace:
    #0 {main}
-     thrown in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+     thrown in /codes/nonStaticMethodCalledStatically.php on line 6
    
-   Fatal error: Uncaught Error: Non-static method Foo::bar() cannot be called statically in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php:6
+   Fatal error: Uncaught Error: Non-static method Foo::bar() cannot be called statically in /codes/nonStaticMethodCalledStatically.php:6
    Stack trace:
    #0 {main}
-     thrown in /Users/famille/Desktop/changedBehavior/codes/nonStaticMethodCalledStatically.php on line 6
+     thrown in /codes/nonStaticMethodCalledStatically.php on line 6
    
 
 

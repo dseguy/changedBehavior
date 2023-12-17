@@ -24,9 +24,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  array_sum(): Addition is not supported on type array in /Users/famille/Desktop/changedBehavior/codes/arraySumChecks.php on line 3
+   PHP Warning:  array_sum(): Addition is not supported on type array in /codes/arraySumChecks.php on line 3
    
-   Warning: array_sum(): Addition is not supported on type array in /Users/famille/Desktop/changedBehavior/codes/arraySumChecks.php on line 3
+   Warning: array_sum(): Addition is not supported on type array in /codes/arraySumChecks.php on line 3
    1
 
 

@@ -41,12 +41,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /Users/famille/Desktop/changedBehavior/codes/unserialize_max_depth.php on line 7
+   PHP Warning:  unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /codes/unserialize_max_depth.php on line 7
    
-   Warning: unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /Users/famille/Desktop/changedBehavior/codes/unserialize_max_depth.php on line 7
-   PHP Warning:  unserialize(): Error at offset 23 of 36 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_max_depth.php on line 7
+   Warning: unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /codes/unserialize_max_depth.php on line 7
+   PHP Warning:  unserialize(): Error at offset 23 of 36 bytes in /codes/unserialize_max_depth.php on line 7
    
-   Warning: unserialize(): Error at offset 23 of 36 bytes in /Users/famille/Desktop/changedBehavior/codes/unserialize_max_depth.php on line 7
+   Warning: unserialize(): Error at offset 23 of 36 bytes in /codes/unserialize_max_depth.php on line 7
    
 
 
