@@ -1,4 +1,4 @@
-PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /Users/famille/Desktop/changedBehavior/codes/imploderOrder.php on line 3
+PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /codes/imploderOrder.php on line 3
 
-Deprecated: implode(): Passing glue string after array is deprecated. Swap the parameters in /Users/famille/Desktop/changedBehavior/codes/imploderOrder.php on line 3
+Deprecated: implode(): Passing glue string after array is deprecated. Swap the parameters in /codes/imploderOrder.php on line 3
 132

@@ -1,5 +1,5 @@
-PHP Notice:  compact(): Undefined variable: Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+PHP Notice:  compact(): Undefined variable: Tobias in /codes/compactThrowsNotice.php on line 7
 
-Notice: compact(): Undefined variable: Tobias in /Users/famille/Desktop/changedBehavior/codes/compactThrowsNotice.php on line 7
+Notice: compact(): Undefined variable: Tobias in /codes/compactThrowsNotice.php on line 7
 array(0) {
 }

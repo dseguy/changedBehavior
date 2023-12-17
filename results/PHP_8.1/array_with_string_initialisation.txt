@@ -1,9 +1,9 @@
-abc3PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php:6
+abc3PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /codes/array_with_string_initialisation.php:6
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php on line 6
+  thrown in /codes/array_with_string_initialisation.php on line 6
 
-Fatal error: Uncaught TypeError: Cannot access offset of type string on string in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php:6
+Fatal error: Uncaught TypeError: Cannot access offset of type string on string in /codes/array_with_string_initialisation.php:6
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/array_with_string_initialisation.php on line 6
+  thrown in /codes/array_with_string_initialisation.php on line 6

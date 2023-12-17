@@ -1,4 +1,4 @@
-PHP Notice:  Array to string conversion in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php on line 3
+PHP Notice:  Array to string conversion in /codes/str_replaceChecksArguments.php on line 3
 
-Notice: Array to string conversion in /Users/famille/Desktop/changedBehavior/codes/str_replaceChecksArguments.php on line 3
+Notice: Array to string conversion in /codes/str_replaceChecksArguments.php on line 3
 Arraybc

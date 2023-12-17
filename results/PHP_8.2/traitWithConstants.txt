@@ -1,9 +1,9 @@
-PHP Fatal error:  Uncaught Error: Cannot access trait constant t::A directly in /Users/famille/Desktop/changedBehavior/codes/traitWithConstants.php:8
+PHP Fatal error:  Uncaught Error: Cannot access trait constant t::A directly in /codes/traitWithConstants.php:8
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/traitWithConstants.php on line 8
+  thrown in /codes/traitWithConstants.php on line 8
 
-Fatal error: Uncaught Error: Cannot access trait constant t::A directly in /Users/famille/Desktop/changedBehavior/codes/traitWithConstants.php:8
+Fatal error: Uncaught Error: Cannot access trait constant t::A directly in /codes/traitWithConstants.php:8
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/traitWithConstants.php on line 8
+  thrown in /codes/traitWithConstants.php on line 8

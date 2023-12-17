@@ -1,3 +1,3 @@
-PHP Fatal error:  Cannot inherit previously-inherited or override constant IPrivate from interface i in /Users/famille/Desktop/changedBehavior/codes/constantFromInterfaceVisibilityCheck.php on line 9
+PHP Fatal error:  Cannot inherit previously-inherited or override constant IPrivate from interface i in /codes/constantFromInterfaceVisibilityCheck.php on line 9
 
-Fatal error: Cannot inherit previously-inherited or override constant IPrivate from interface i in /Users/famille/Desktop/changedBehavior/codes/constantFromInterfaceVisibilityCheck.php on line 9
+Fatal error: Cannot inherit previously-inherited or override constant IPrivate from interface i in /codes/constantFromInterfaceVisibilityCheck.php on line 9

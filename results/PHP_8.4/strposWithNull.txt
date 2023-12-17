@@ -1,4 +1,4 @@
-PHP Deprecated:  strpos(): Passing null to parameter #2 ($needle) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/strposWithNull.php on line 3
+PHP Deprecated:  strpos(): Passing null to parameter #2 ($needle) of type string is deprecated in /codes/strposWithNull.php on line 3
 
-Deprecated: strpos(): Passing null to parameter #2 ($needle) of type string is deprecated in /Users/famille/Desktop/changedBehavior/codes/strposWithNull.php on line 3
+Deprecated: strpos(): Passing null to parameter #2 ($needle) of type string is deprecated in /codes/strposWithNull.php on line 3
 int(0)

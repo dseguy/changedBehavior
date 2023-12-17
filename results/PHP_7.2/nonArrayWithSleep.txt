@@ -1,3 +1,3 @@
-PHP Notice:  serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /Users/famille/Desktop/changedBehavior/codes/nonArrayWithSleep.php on line 9
+PHP Notice:  serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9
 
-Notice: serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /Users/famille/Desktop/changedBehavior/codes/nonArrayWithSleep.php on line 9
+Notice: serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9

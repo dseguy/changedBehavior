@@ -1,11 +1,11 @@
-PHP Fatal error:  Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0 in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php:3
+PHP Fatal error:  Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0 in /codes/strsplitNegativeLength.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php(3): str_split('abc', 0)
+#0 /codes/strsplitNegativeLength.php(3): str_split('abc', 0)
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php on line 3
+  thrown in /codes/strsplitNegativeLength.php on line 3
 
-Fatal error: Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0 in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php:3
+Fatal error: Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0 in /codes/strsplitNegativeLength.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php(3): str_split('abc', 0)
+#0 /codes/strsplitNegativeLength.php(3): str_split('abc', 0)
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php on line 3
+  thrown in /codes/strsplitNegativeLength.php on line 3

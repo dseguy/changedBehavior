@@ -1,11 +1,11 @@
-PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php:3
+PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /codes/file_get_contents.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php(3): file_get_contents('')
+#0 /codes/file_get_contents.php(3): file_get_contents('')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php on line 3
+  thrown in /codes/file_get_contents.php on line 3
 
-Fatal error: Uncaught ValueError: Path cannot be empty in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php:3
+Fatal error: Uncaught ValueError: Path cannot be empty in /codes/file_get_contents.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php(3): file_get_contents('')
+#0 /codes/file_get_contents.php(3): file_get_contents('')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php on line 3
+  thrown in /codes/file_get_contents.php on line 3

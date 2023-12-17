@@ -1,7 +1,7 @@
-PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/accessTraitsDirectly.php on line 8
+PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /codes/accessTraitsDirectly.php on line 8
 
-Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/accessTraitsDirectly.php on line 8
-t::fooPHP Deprecated:  Accessing static trait property t::$x is deprecated, it should only be accessed on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/accessTraitsDirectly.php on line 9
+Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /codes/accessTraitsDirectly.php on line 8
+t::fooPHP Deprecated:  Accessing static trait property t::$x is deprecated, it should only be accessed on a class using the trait in /codes/accessTraitsDirectly.php on line 9
 
-Deprecated: Accessing static trait property t::$x is deprecated, it should only be accessed on a class using the trait in /Users/famille/Desktop/changedBehavior/codes/accessTraitsDirectly.php on line 9
+Deprecated: Accessing static trait property t::$x is deprecated, it should only be accessed on a class using the trait in /codes/accessTraitsDirectly.php on line 9
 A

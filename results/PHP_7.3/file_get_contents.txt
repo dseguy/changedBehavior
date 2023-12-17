@@ -1,4 +1,4 @@
-PHP Warning:  file_get_contents(): Filename cannot be empty in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php on line 3
+PHP Warning:  file_get_contents(): Filename cannot be empty in /codes/file_get_contents.php on line 3
 
-Warning: file_get_contents(): Filename cannot be empty in /Users/famille/Desktop/changedBehavior/codes/file_get_contents.php on line 3
+Warning: file_get_contents(): Filename cannot be empty in /codes/file_get_contents.php on line 3
 bool(false)

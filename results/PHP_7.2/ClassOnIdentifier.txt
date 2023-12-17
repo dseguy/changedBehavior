@@ -1,3 +1,3 @@
-PHP Fatal error:  Dynamic class names are not allowed in compile-time ::class fetch in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+PHP Fatal error:  Dynamic class names are not allowed in compile-time ::class fetch in /codes/ClassOnIdentifier.php on line 4
 
-Fatal error: Dynamic class names are not allowed in compile-time ::class fetch in /Users/famille/Desktop/changedBehavior/codes/ClassOnIdentifier.php on line 4
+Fatal error: Dynamic class names are not allowed in compile-time ::class fetch in /codes/ClassOnIdentifier.php on line 4

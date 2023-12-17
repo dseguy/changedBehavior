@@ -1,11 +1,11 @@
-PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php:3
+PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /codes/explodeWithEmptyString.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php(3): explode('', 'abc')
+#0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php on line 3
+  thrown in /codes/explodeWithEmptyString.php on line 3
 
-Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php:3
+Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /codes/explodeWithEmptyString.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php(3): explode('', 'abc')
+#0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/explodeWithEmptyString.php on line 3
+  thrown in /codes/explodeWithEmptyString.php on line 3

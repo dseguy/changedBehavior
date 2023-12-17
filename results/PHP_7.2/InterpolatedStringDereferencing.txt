@@ -1,3 +1,3 @@
-PHP Parse error:  syntax error in /Users/famille/Desktop/changedBehavior/codes/InterpolatedStringDereferencing.php on line 5
+PHP Parse error:  syntax error in /codes/InterpolatedStringDereferencing.php on line 5
 
-Parse error: syntax error in /Users/famille/Desktop/changedBehavior/codes/InterpolatedStringDereferencing.php on line 5
+Parse error: syntax error in /codes/InterpolatedStringDereferencing.php on line 5

@@ -1,3 +1,3 @@
-PHP Fatal error:  Access level to x::IPrivate must be public (as in interface i) in /Users/famille/Desktop/changedBehavior/codes/constantFromInterfaceVisibilityCheck.php on line 9
+PHP Fatal error:  Access level to x::IPrivate must be public (as in interface i) in /codes/constantFromInterfaceVisibilityCheck.php on line 9
 
-Fatal error: Access level to x::IPrivate must be public (as in interface i) in /Users/famille/Desktop/changedBehavior/codes/constantFromInterfaceVisibilityCheck.php on line 9
+Fatal error: Access level to x::IPrivate must be public (as in interface i) in /codes/constantFromInterfaceVisibilityCheck.php on line 9

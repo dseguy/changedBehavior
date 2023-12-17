@@ -1,11 +1,11 @@
-PHP Fatal error:  Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php:3
+PHP Fatal error:  Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in /codes/minOnEmpty.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php(3): min(Array)
+#0 /codes/minOnEmpty.php(3): min(Array)
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php on line 3
+  thrown in /codes/minOnEmpty.php on line 3
 
-Fatal error: Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php:3
+Fatal error: Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in /codes/minOnEmpty.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php(3): min(Array)
+#0 /codes/minOnEmpty.php(3): min(Array)
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/minOnEmpty.php on line 3
+  thrown in /codes/minOnEmpty.php on line 3

@@ -1,4 +1,4 @@
-PHP Deprecated:  array_key_exists(): Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead in /Users/famille/Desktop/changedBehavior/codes/array_key_existsOnObjects.php on line 3
+PHP Deprecated:  array_key_exists(): Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead in /codes/array_key_existsOnObjects.php on line 3
 
-Deprecated: array_key_exists(): Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead in /Users/famille/Desktop/changedBehavior/codes/array_key_existsOnObjects.php on line 3
+Deprecated: array_key_exists(): Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead in /codes/array_key_existsOnObjects.php on line 3
 bool(true)

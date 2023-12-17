@@ -1,3 +1,3 @@
-PHP Warning:  str_split(): The length of each segment must be greater than zero in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php on line 3
+PHP Warning:  str_split(): The length of each segment must be greater than zero in /codes/strsplitNegativeLength.php on line 3
 
-Warning: str_split(): The length of each segment must be greater than zero in /Users/famille/Desktop/changedBehavior/codes/strsplitNegativeLength.php on line 3
+Warning: str_split(): The length of each segment must be greater than zero in /codes/strsplitNegativeLength.php on line 3

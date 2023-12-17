@@ -1,3 +1,3 @@
-PHP Warning:  max(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/maxOnEmpty.php on line 3
+PHP Warning:  max(): Array must contain at least one element in /codes/maxOnEmpty.php on line 3
 
-Warning: max(): Array must contain at least one element in /Users/famille/Desktop/changedBehavior/codes/maxOnEmpty.php on line 3
+Warning: max(): Array must contain at least one element in /codes/maxOnEmpty.php on line 3

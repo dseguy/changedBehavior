@@ -1,11 +1,11 @@
-PHP Fatal error:  Uncaught ValueError: class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php:3
+PHP Fatal error:  Uncaught ValueError: class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given in /codes/classAliasWithInternalClass.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php(3): class_alias('stdClass', 'A')
+#0 /codes/classAliasWithInternalClass.php(3): class_alias('stdClass', 'A')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 3
+  thrown in /codes/classAliasWithInternalClass.php on line 3
 
-Fatal error: Uncaught ValueError: class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php:3
+Fatal error: Uncaught ValueError: class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given in /codes/classAliasWithInternalClass.php:3
 Stack trace:
-#0 /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php(3): class_alias('stdClass', 'A')
+#0 /codes/classAliasWithInternalClass.php(3): class_alias('stdClass', 'A')
 #1 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/classAliasWithInternalClass.php on line 3
+  thrown in /codes/classAliasWithInternalClass.php on line 3

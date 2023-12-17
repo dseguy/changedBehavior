@@ -1,9 +1,9 @@
-PHP Fatal error:  Uncaught Error: Undefined constant "D" in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php:3
+PHP Fatal error:  Uncaught Error: Undefined constant "D" in /codes/undefinedConstants.php:3
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php on line 3
+  thrown in /codes/undefinedConstants.php on line 3
 
-Fatal error: Uncaught Error: Undefined constant "D" in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php:3
+Fatal error: Uncaught Error: Undefined constant "D" in /codes/undefinedConstants.php:3
 Stack trace:
 #0 {main}
-  thrown in /Users/famille/Desktop/changedBehavior/codes/undefinedConstants.php on line 3
+  thrown in /codes/undefinedConstants.php on line 3

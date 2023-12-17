@@ -1,4 +1,4 @@
-PHP Warning:  strpos() expects parameter 3 to be integer, string given in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php on line 3
+PHP Warning:  strpos() expects parameter 3 to be integer, string given in /codes/strposTypeError.php on line 3
 
-Warning: strpos() expects parameter 3 to be integer, string given in /Users/famille/Desktop/changedBehavior/codes/strposTypeError.php on line 3
+Warning: strpos() expects parameter 3 to be integer, string given in /codes/strposTypeError.php on line 3
 NULL
