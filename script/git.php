@@ -15,7 +15,7 @@ foreach($list as $element) {
 	shell_exec('git stage codes/'.$element.'.php');
 	shell_exec('git stage docs/'.$element.'.ini');
 	shell_exec('git stage results/*/'.$element.'.txt');
-	shell_exec('git stage behavior/*/'.$element.'.rst');
+	shell_exec('git stage behavior/*'.$element.'.rst');
 	shell_exec('git stage *.rst');
 	shell_exec('git stage sitemap.xml');
 }
