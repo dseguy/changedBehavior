@@ -205,6 +205,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceChecksArguments.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringIntegerComparison.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringsBiggerThanIntegers.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strposTypeError.html</loc>
  </url>
  <url>

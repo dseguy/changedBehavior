@@ -68,6 +68,8 @@ Per PHP version
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
     * :ref:`spaces-in-namespaces`
+    * :ref:`string-to-integer-comparison`
+    * :ref:`strings-are-bigger-than-integer`
     * :ref:`ternary-associativity`
     * :ref:`trailing-comma-in-arguments`
     * :ref:`undefined-constants`

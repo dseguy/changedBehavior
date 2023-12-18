@@ -73,6 +73,8 @@ PHP Changed Behavior
    behavior/staticTraitStorage.rst
    behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
+   behavior/stringIntegerComparison.rst
+   behavior/stringsBiggerThanIntegers.rst
    behavior/strposTypeError.rst
    behavior/strposValueError.rst
    behavior/strposWithFalse.rst
