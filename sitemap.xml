@@ -79,6 +79,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithEmptyString.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithNull.html</loc>
  </url>
  <url>
@@ -113,6 +116,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringDereferencing.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/intSilentConversion.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InvalidBaseCharacter.html</loc>

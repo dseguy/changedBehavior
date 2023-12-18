@@ -59,6 +59,7 @@ Per PHP version
     * :ref:`dot-and-minus-changed-precedence`
     * :ref:`dot-and-plus-changed-precedence`
     * :ref:`inegality-comparisons`
+    * :ref:`integer-non-silent-conversion`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
     * :ref:`no-max()-on-empty-array`
@@ -78,6 +79,7 @@ Per PHP version
     * :ref:`assert()-throws-exception`
     * :ref:`curl-moved-away-from-resource`
     * :ref:`count()-must-count-countable`
+    * :ref:`explode()-forbids-empty-strings`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`

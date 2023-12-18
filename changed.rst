@@ -31,6 +31,7 @@ PHP Changed Behavior
    behavior/duplicateStaticDefinition.rst
    behavior/dynamicClassConstant.rst
    behavior/dynamicProperties.rst
+   behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
    behavior/filessytemiteratorSkipDot.rst
    behavior/finalClassConstants.rst
@@ -43,6 +44,7 @@ PHP Changed Behavior
    behavior/instanceofExpectObjects.rst
    behavior/interfaceConstantVisibilityCheck.rst
    behavior/InterpolatedStringDereferencing.rst
+   behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
    behavior/iteratorsArray.rst
    behavior/keywordInNamespace.rst

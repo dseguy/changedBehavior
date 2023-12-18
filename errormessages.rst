@@ -12,6 +12,7 @@ PHP Error Messages
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
+    * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Array must contain at least one element <min()-doesn't-accept-empty-arrays>`
