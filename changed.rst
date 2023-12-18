@@ -39,6 +39,7 @@ PHP Changed Behavior
    behavior/finfo_open.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
+   behavior/imploderOrder.rst
    behavior/inArrayZeroString.rst
    behavior/inegalityComparison.rst
    behavior/instanceofExpectObjects.rst

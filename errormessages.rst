@@ -11,6 +11,7 @@ PHP Error Messages
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
+    * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
