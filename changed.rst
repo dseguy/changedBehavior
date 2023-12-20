@@ -58,6 +58,7 @@ PHP Changed Behavior
    behavior/maxOnEmpty.rst
    behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
+   behavior/mixedKeyword.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
    behavior/nonArrayWithSleep.rst

@@ -48,7 +48,7 @@ Per PHP version
     * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`compact()-throws-notice-on-missing-variable`
-    * :ref:`never-keyword`
+    * :ref:`newver-is-now-a-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
     * :ref:`$php_errormsg-has-been-removed`
@@ -91,6 +91,7 @@ Per PHP version
     * :ref:`ksort()-places-integers-before-strings-in-keys`
     * :ref:`match-is-now-a-keyword`
     * :ref:`min()-doesn't-accept-empty-arrays`
+    * :ref:`mixed-is-now-a-keyword`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
     * :ref:`str_pos()-requires-only-strings`

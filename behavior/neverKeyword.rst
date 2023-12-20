@@ -1,7 +1,7 @@
-.. _`never-keyword`:
+.. _`newver-is-now-a-keyword`:
 
-never Keyword
-=============
+newver Is Now A Keyword
+=======================
 Never became a PHP reserved keyword in PHP 8.1. It is used as special type, and cannot be used anymore for function names, classnames, etc.
 
 PHP code
