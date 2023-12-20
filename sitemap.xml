@@ -211,6 +211,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sort.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/spaces_in_namespaces.html</loc>
  </url>
  <url>

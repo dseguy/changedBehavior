@@ -75,6 +75,7 @@ PHP Changed Behavior
    behavior/roundParameterValidation.rst
    behavior/set_state_must_be_static.rst
    behavior/sort.rst
+   behavior/sortClosureReturnType.rst
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
    behavior/staticTraitStorage.rst

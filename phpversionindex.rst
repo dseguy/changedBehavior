@@ -8,6 +8,7 @@ Per PHP version
     * :ref:`no-dynamic-properties-by-default`
     * :ref:`relative-callable-in-strings`
     * :ref:`return-reference-on-void`
+    * :ref:`sorting-closure-must-return-integers`
     * :ref:`get_class()-needs-an-argument`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
