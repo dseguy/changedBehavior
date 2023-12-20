@@ -4,6 +4,7 @@ Per PHP version
 * 9.0
     * :ref:`accessing-trait-resources-directly-is-not-allowed`
     * :ref:`cannot-call-traits-methods-directly`
+    * :ref:`implicit-array-key-conversion`
     * :ref:`no-dynamic-properties-by-default`
     * :ref:`relative-callable-in-strings`
     * :ref:`return-reference-on-void`
@@ -75,6 +76,7 @@ Per PHP version
     * :ref:`trailing-comma-in-arguments`
     * :ref:`undefined-constants`
     * :ref:`__set_state()-method-must-be-static`
+    * :ref:`__sleep()-method-enforces-return-type`
     * :ref:`array_key_exists()-doesn't-work-on-objects`
     * :ref:`assert()-throws-exception`
     * :ref:`curl-moved-away-from-resource`

@@ -39,6 +39,7 @@ PHP Changed Behavior
    behavior/finfo_open.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
+   behavior/implicitConversionToInt.rst
    behavior/imploderOrder.rst
    behavior/inArrayZeroString.rst
    behavior/inegalityComparison.rst
@@ -57,6 +58,7 @@ PHP Changed Behavior
    behavior/minOnEmptyArray.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
+   behavior/nonArrayWithSleep.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/OldConstructors.rst

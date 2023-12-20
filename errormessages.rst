@@ -11,12 +11,14 @@ PHP Error Messages
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
+    * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Array must contain at least one element <min()-doesn't-accept-empty-arrays>`
+    * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Undefined variable $php_errormsg <$php_errormsg-has-been-removed>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`

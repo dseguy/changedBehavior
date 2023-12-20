@@ -103,6 +103,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/imploderOrder.html</loc>
  </url>
  <url>
@@ -155,6 +158,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/neverKeyword.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonArrayWithSleep.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html</loc>
