@@ -84,6 +84,7 @@ Per PHP version
     * :ref:`explode()-forbids-empty-strings`
     * :ref:`implode()-arguments-order`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
+    * :ref:`in_array()-string-int-comparisons`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`
     * :ref:`match-is-now-a-keyword`

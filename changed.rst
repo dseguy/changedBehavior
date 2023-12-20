@@ -41,6 +41,7 @@ PHP Changed Behavior
    behavior/GLOBALSAssignement.rst
    behavior/implicitConversionToInt.rst
    behavior/imploderOrder.rst
+   behavior/inArrayStringIng.rst
    behavior/inArrayZeroString.rst
    behavior/inegalityComparison.rst
    behavior/instanceofExpectObjects.rst

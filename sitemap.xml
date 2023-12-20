@@ -109,6 +109,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/imploderOrder.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inArrayStringIng.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inArrayZeroString.html</loc>
  </url>
  <url>
