@@ -42,7 +42,11 @@ ______
    PHP Fatal error:  Access level to x::IPri must be public (as in interface i)
 
 
-PHP version change: 8.3
+PHP version change
+__________________
+This behavior changed in 8.3
+
+
 Error Messages
 ______________
 

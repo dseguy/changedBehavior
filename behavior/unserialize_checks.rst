@@ -39,12 +39,16 @@ ______
    
 
 
-PHP version change: 8.3
+PHP version change
+__________________
+This behavior changed in 8.3
+
 
 See Also
 ________
 
 * `PHP RFC: Make unserialize() emit a warning for trailing bytes <https://wiki.php.net/rfc/unserialize_warn_on_trailing_data>`_
+
 
 Error Messages
 ______________

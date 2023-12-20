@@ -53,12 +53,16 @@ ______
    
 
 
-PHP version change: 8.1
+PHP version change
+__________________
+This behavior changed in 8.1
+
 
 See Also
 ________
 
 * `compact() <https://www.php.net/manual/en/function.compact.php>`_
+
 
 Error Messages
 ______________

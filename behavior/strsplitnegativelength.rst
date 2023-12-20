@@ -25,5 +25,8 @@ ______
    Fatal error: Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior changed in 8.0
+
 

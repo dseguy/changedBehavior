@@ -30,12 +30,18 @@ ______
    39
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.4
+
+This behavior changed in 8.0
+
 
 See Also
 ________
 
 * `Migration PHP 8.0 <https://www.php.net/manual/en/migration80.incompatible.php>`_
+
 
 Error Messages
 ______________

@@ -35,7 +35,11 @@ ______
    PHP Fatal error:  Cannot acquire reference to $GLOBALS
 
 
-PHP version change: 8.1
+PHP version change
+__________________
+This behavior changed in 8.1
+
+
 Error Messages
 ______________
 

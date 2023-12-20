@@ -38,5 +38,10 @@ ______
    Calling get_class() without arguments is deprecated
 
 
-PHP version change: 9.0
+PHP version change
+__________________
+This behavior was deprecated in 8.3
+
+This behavior changed in 9.0
+
 

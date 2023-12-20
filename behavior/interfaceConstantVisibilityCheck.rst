@@ -37,5 +37,8 @@ ______
    Access level to x::I must be public (as in interface i)
 
 
-PHP version change: 8.3
+PHP version change
+__________________
+This behavior changed in 8.3
+
 

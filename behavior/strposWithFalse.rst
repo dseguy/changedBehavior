@@ -34,12 +34,18 @@ ______
    
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.4
+
+This behavior changed in 8.0
+
 
 See Also
 ________
 
 * `strpos <https://www.php.net/manual/en/function.strpos.php>`_
+
 
 Error Messages
 ______________

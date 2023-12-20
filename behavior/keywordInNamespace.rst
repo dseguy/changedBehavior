@@ -26,5 +26,10 @@ ______
    a\eval\b
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence
+
+This behavior changed in 8.0
+
 

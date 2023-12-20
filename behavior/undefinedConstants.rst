@@ -2,7 +2,7 @@
 
 Undefined Constants
 ===================
-Undefined global constants used to fallback to their equivalent string. 
+Undefined global constants used to fallback to their equivalent string. It would keep the execution going, too. In PHP 8.0, such mistake is a Fatal Error
 
 PHP code
 ________
@@ -27,7 +27,13 @@ ______
    Uncaught Error: Undefined constant "D"
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.0
+
+This behavior changed in 8.0
+
+
 Error Messages
 ______________
 

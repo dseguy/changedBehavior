@@ -5,7 +5,6 @@ PHP Changed Behavior
    :maxdepth: 1
    :caption: Contents:
 
-   behavior/absoluteIntName.rst
    behavior/accessTraitsDirectly.rst
    behavior/array_key_existsOnObjects.rst
    behavior/array_negative_id.rst

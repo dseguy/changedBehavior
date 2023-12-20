@@ -27,5 +27,10 @@ ______
    strpos(): Passing null to parameter #2 ($needle) of type string is deprecated
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.3
+
+This behavior changed in 8.0
+
 

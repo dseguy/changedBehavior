@@ -25,5 +25,8 @@ ______
    (object) array()
 
 
-PHP version change: 7.2
+PHP version change
+__________________
+This behavior changed in 7.2
+
 

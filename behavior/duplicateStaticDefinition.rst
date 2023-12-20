@@ -33,7 +33,11 @@ ______
    Duplicate declaration of static variable $s
 
 
-PHP version change: 8.3
+PHP version change
+__________________
+This behavior changed in 8.3
+
+
 Error Messages
 ______________
 

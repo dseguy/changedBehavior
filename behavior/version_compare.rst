@@ -31,5 +31,8 @@ ______
    PHP Fatal error:  Uncaught ValueError: version_compare(): Argument #3 ($operator) must be a valid comparison operator
 
 
-PHP version change: 8.1
+PHP version change
+__________________
+This behavior changed in 8.1
+
 

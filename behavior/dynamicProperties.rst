@@ -44,12 +44,18 @@ ______
    1
 
 
-PHP version change: 9.0
+PHP version change
+__________________
+This behavior was deprecated in 8.2
+
+This behavior changed in 9.0
+
 
 See Also
 ________
 
 * `PHP 8.2: Dynamic Properties are deprecated <https://php.watch/versions/8.2/dynamic-properties-deprecated>`_
+
 
 Error Messages
 ______________

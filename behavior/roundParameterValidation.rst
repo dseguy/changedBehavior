@@ -27,12 +27,16 @@ ______
    round(): Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*)
 
 
-PHP version change: 8.4
+PHP version change
+__________________
+This behavior changed in 8.4
+
 
 See Also
 ________
 
 * `round() <https://www.php.net/round>`_
+
 
 Error Messages
 ______________

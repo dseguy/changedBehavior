@@ -115,7 +115,15 @@ $after
 
 CODE;
 	$behavior[] = '';
-	$behavior[] = 'PHP version change: '.$changedBehavior->phpVersion;
+	$behavior[] = 'PHP version change';
+	$behavior[] = '__________________';
+	if (!empty($changedBehavior->deprecation)) {
+		$behavior[] = "This behavior was deprecated in ".$changedBehavior->deprecation;
+		$behavior[] = '';
+	}
+	$behavior[] = "This behavior changed in ".$changedBehavior->phpVersion;
+	$behavior[] = '';
+	
 	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.$anchor.'';
 
 	if (!empty($changedBehavior->seeAlso)) {
@@ -148,6 +156,7 @@ CODE;
 	if (!empty($changedBehavior->phpError)) {
 		$errormessagelist[$changedBehavior->phpError] = $anchor;
 		
+		$behavior[] = '';
 		$behavior[] = 'Error Messages';
 		$behavior[] = '______________';
 		$behavior[] = '';

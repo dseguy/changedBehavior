@@ -31,12 +31,16 @@ ______
    
 
 
-PHP version change: 7.3
+PHP version change
+__________________
+This behavior changed in 7.3
+
 
 See Also
 ________
 
 * `Type Operator <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
+
 
 Error Messages
 ______________

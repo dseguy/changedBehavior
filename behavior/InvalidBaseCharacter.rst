@@ -48,7 +48,11 @@ ______
    3567
 
 
-PHP version change: 7.4
+PHP version change
+__________________
+This behavior changed in 7.4
+
+
 Error Messages
 ______________
 

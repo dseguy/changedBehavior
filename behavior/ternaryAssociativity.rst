@@ -37,7 +37,12 @@ ______
    Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` 
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.4
+
+This behavior changed in 8.0
+
 
 See Also
 ________

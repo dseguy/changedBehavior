@@ -31,12 +31,16 @@ ______
    
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior changed in 8.0
+
 
 See Also
 ________
 
 * `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php#object.set-state>`_
+
 
 Error Messages
 ______________

@@ -39,5 +39,10 @@ ______
    
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in 7.2
+
+This behavior changed in 8.0
+
 

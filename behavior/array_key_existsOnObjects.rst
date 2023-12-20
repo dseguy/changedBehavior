@@ -25,5 +25,10 @@ ______
    Fatal error
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior was deprecated in Using array_key_exists() on objects is deprecated. Use isset() or property_exists()
+
+This behavior changed in 8.0
+
 

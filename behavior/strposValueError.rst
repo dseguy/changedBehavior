@@ -28,5 +28,8 @@ ______
    PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) 
 
 
-PHP version change: 8.0
+PHP version change
+__________________
+This behavior changed in 8.0
+
 

@@ -50,7 +50,6 @@ Per PHP version
     * :ref:`never-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
-    * :ref:``
     * :ref:`$php_errormsg-has-been-removed`
     * :ref:`::class-on-object`
     * :ref:`array-usage-with-string-initialisation`

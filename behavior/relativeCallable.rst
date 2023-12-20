@@ -40,7 +40,12 @@ ______
    x::a
 
 
-PHP version change: 9.0
+PHP version change
+__________________
+This behavior was deprecated in 8.2
+
+This behavior changed in 9.0
+
 
 See Also
 ________
