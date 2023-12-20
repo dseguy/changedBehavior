@@ -1,9 +1,0 @@
-PHP Fatal error:  Uncaught Error: Undefined constant "int" in /codes/absoluteIntName.php:3
-Stack trace:
-#0 {main}
-  thrown in /codes/absoluteIntName.php on line 3
-
-Fatal error: Uncaught Error: Undefined constant "int" in /codes/absoluteIntName.php:3
-Stack trace:
-#0 {main}
-  thrown in /codes/absoluteIntName.php on line 3
