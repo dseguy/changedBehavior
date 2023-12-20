@@ -32,4 +32,5 @@ PHP Error Messages
     * :ref:`strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <str_pos()-requires-only-strings>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`
+    * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`

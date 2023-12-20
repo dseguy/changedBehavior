@@ -292,6 +292,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/undefinedConstants.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ellipsis_and_named_arguments.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_checks.html</loc>
  </url>
  <url>

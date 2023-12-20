@@ -1,0 +1,5 @@
+Array
+(
+    [a] => foo
+    [b] => bar
+)

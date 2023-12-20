@@ -47,6 +47,7 @@ Per PHP version
     * :ref:`finfo-moved-away-from-resource`
     * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
+    * :ref:`unpack-arrays-in-arrays`
     * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`newver-is-now-a-keyword`
     * :ref:`version_compare()-stricter-operators`
@@ -76,6 +77,7 @@ Per PHP version
     * :ref:`ternary-associativity`
     * :ref:`trailing-comma-in-arguments`
     * :ref:`undefined-constants`
+    * :ref:`unpack-array-with-string-keys`
     * :ref:`__set_state()-method-must-be-static`
     * :ref:`__sleep()-method-enforces-return-type`
     * :ref:`array_key_exists()-doesn't-work-on-objects`

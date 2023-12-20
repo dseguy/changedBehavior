@@ -102,6 +102,8 @@ PHP Changed Behavior
    behavior/traitWithConstants.rst
    behavior/typedClassConstant.rst
    behavior/undefinedConstants.rst
+   behavior/unpack_arrays.rst
+   behavior/ellipsis_and_named_arguments.rst
    behavior/unserialize_checks.rst
    behavior/unserialize_max_depth.rst
    behavior/unserialize_notice.rst
