@@ -9,6 +9,7 @@ PHP Error Messages
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
+    * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`

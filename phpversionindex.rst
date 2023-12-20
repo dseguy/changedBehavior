@@ -50,6 +50,7 @@ Per PHP version
     * :ref:`never-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
+    * :ref:``
     * :ref:`$php_errormsg-has-been-removed`
     * :ref:`::class-on-object`
     * :ref:`array-usage-with-string-initialisation`
@@ -82,6 +83,7 @@ Per PHP version
     * :ref:`curl-moved-away-from-resource`
     * :ref:`count()-must-count-countable`
     * :ref:`explode()-forbids-empty-strings`
+    * :ref:`file_get_contents()-needs-a-real-path`
     * :ref:`implode()-arguments-order`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`in_array()-string-int-comparisons`
