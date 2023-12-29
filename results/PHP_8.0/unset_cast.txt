@@ -1,0 +1,3 @@
+PHP Fatal error:  The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
+
+Fatal error: The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
