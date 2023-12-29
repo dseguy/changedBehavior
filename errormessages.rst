@@ -25,6 +25,7 @@ PHP Error Messages
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Undefined variable $php_errormsg <$php_errormsg-has-been-removed>`
+    * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
     * :ref:`Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) <round()-mode-validation>`
@@ -36,3 +37,4 @@ PHP Error Messages
     * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`
+    * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`

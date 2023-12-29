@@ -71,6 +71,7 @@ PHP Changed Behavior
    behavior/plusConcatPrecedence.rst
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
+   behavior/real_cast.rst
    behavior/relativeCallable.rst
    behavior/return_reference_on_void.rst
    behavior/returnTypeEnforce.rst
@@ -80,6 +81,7 @@ PHP Changed Behavior
    behavior/sortClosureReturnType.rst
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
+   behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst
    behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
@@ -108,6 +110,7 @@ PHP Changed Behavior
    behavior/unserialize_checks.rst
    behavior/unserialize_max_depth.rst
    behavior/unserialize_notice.rst
+   behavior/unset_cast.rst
    behavior/var_export.rst
    behavior/var_export_stdclass.rst
    behavior/version_compare.rst

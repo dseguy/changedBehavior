@@ -47,6 +47,7 @@ Per PHP version
     * :ref:`finfo-moved-away-from-resource`
     * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
+    * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`unpack-arrays-in-arrays`
     * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`jsonserialize-must-have-return-type`
@@ -54,6 +55,8 @@ Per PHP version
     * :ref:`version_compare()-stricter-operators`
 * 8.0
     * :ref:`$php_errormsg-has-been-removed`
+    * :ref:`(real)-is-replaced-by-(float)`
+    * :ref:`(unset)-was-removed`
     * :ref:`::class-on-object`
     * :ref:`array-usage-with-string-initialisation`
     * :ref:`automatic-index-in-non-empty-array`
