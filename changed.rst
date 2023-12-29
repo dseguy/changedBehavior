@@ -55,8 +55,11 @@ PHP Changed Behavior
    behavior/keywordInNamespace.rst
    behavior/krsort.rst
    behavior/ksort.rst
+   behavior/liskovPrinciple.rst
    behavior/matchKeyword.rst
    behavior/maxOnEmpty.rst
+   behavior/maxOnEmptyArray.rst
+   behavior/maxOnStringAndInt.rst
    behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
    behavior/mixedKeyword.rst

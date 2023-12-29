@@ -62,6 +62,7 @@ Per PHP version
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
     * :ref:`catch-without-variable`
+    * :ref:`covariance-and-contravariance-are-fatal`
     * :ref:`dot-and-bitshift-priority`
     * :ref:`dot-and-minus-changed-precedence`
     * :ref:`dot-and-plus-changed-precedence`
@@ -96,6 +97,8 @@ Per PHP version
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-places-integers-before-strings-in-keys`
     * :ref:`match-is-now-a-keyword`
+    * :ref:`max()-must-contain-at-least-one-element`
+    * :ref:`max()-on-string-and-integer`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
     * :ref:`sort()-places-integers-before-strings`
