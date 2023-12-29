@@ -139,6 +139,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/iteratorsArray.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/jsonSerialize.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/keywordInNamespace.html</loc>
  </url>
  <url>

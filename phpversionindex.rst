@@ -49,6 +49,7 @@ Per PHP version
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`unpack-arrays-in-arrays`
     * :ref:`compact()-throws-notice-on-missing-variable`
+    * :ref:`jsonserialize-must-have-return-type`
     * :ref:`newver-is-now-a-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0

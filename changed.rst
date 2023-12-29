@@ -51,6 +51,7 @@ PHP Changed Behavior
    behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
    behavior/iteratorsArray.rst
+   behavior/jsonSerialize.rst
    behavior/keywordInNamespace.rst
    behavior/krsort.rst
    behavior/ksort.rst
