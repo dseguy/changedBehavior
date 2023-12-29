@@ -1,0 +1,4 @@
+PHP Deprecated:  The (real) cast is deprecated, use (float) instead in /codes/real_cast.php on line 3
+
+Deprecated: The (real) cast is deprecated, use (float) instead in /codes/real_cast.php on line 3
+1
