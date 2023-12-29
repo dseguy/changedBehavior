@@ -2,7 +2,7 @@
 
 Orphaned Parent
 ===============
-Calling the parent class of a class without parent is not possibled. It used to be a deprecated error, where the code would keep on executing. In PHP 8.0, it stops the execution entirely.
+Calling the parent class of a class without parent is not possible. It used to be a deprecated error, where the code would keep on executing. In PHP 8.0, it stops the execution entirely.
 
 PHP code
 ________
@@ -38,5 +38,11 @@ __________________
 This behavior was deprecated in 7.4
 
 This behavior changed in 8.0
+
+
+Error Messages
+______________
+
+Cannot use "parent" when current class scope has no parent
 
 
