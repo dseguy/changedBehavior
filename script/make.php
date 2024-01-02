@@ -30,26 +30,26 @@ foreach($files as $file) {
 	$tip = parse_ini_file($file);
 
 	if ($tip === null) {
-		print "Warning : $file is not valid INI\n";
+		buildlog("Warning : $file is not valid INI");
 		continue;
 	}
 
 	$tip = (object) $tip;
 	if (!isset($tip->title)) {
-		print "No title for $file\n";
+		buildlog("No title for $file");
 	} else {
 		if (!str_contains($tip->title, ' ')) {
-			print "suspiciously no white space in title for $file\n";
+			buildlog("suspiciously no white space in title for $file");
 		}
 	}
 
 	if (isset($tip->seeAlso)) {
 		$tip->seeAlso = array_filter($tip->seeAlso);
 	} else {
-		print "Missing seeAlso in $file\n";
+		buildlog("Missing seeAlso in $file");
 		
 		if (!is_array($seeAlso)) {
-			print "seeAlso is not an array in $file\n";
+			buildlog("seeAlso is not an array in $file");
 		}
 	}
 	$tips[$file] = $tip;
@@ -74,7 +74,7 @@ $errormessagelist = [];
 foreach($tips as $file => $changedBehavior) {
 	$behavior = [];
 	if ($e = check($changedBehavior, $file)) {
-		print "Error in file $file : $e\n";
+		buildlog("Error in file $file : $e");
 		++$errors;
 		continue;
 	}
@@ -130,15 +130,15 @@ CODE;
 		$seeAlso = array();
 		foreach($changedBehavior->seeAlso as $title => $link) {
 			if (is_int($title)) {
-				print "Wrong title for $link in $file\n";
+				buildlog("Wrong title for $link in $file");
 			}
 
 			if ($link[0] === '<') {
-				print "Check the link on $file: $link\n";
+				buildlog("Check the link on $file: $link");
 			}
 
 			if ($link[-1] === '_') {
-				print "Check the link on $file: $link\n";
+				buildlog("Check the link on $file: $link");
 			}
 
 
@@ -175,7 +175,7 @@ CODE;
 	$sitemap->addItem('https://php-changed-behaviors.readthedocs.io/en/latest/behavior/'.$changedBehavior->id.'.html');
 }
 
-print "Total: ".count(glob("codes/*.php"))." PHP codes\n";
+print ("Total: ".count(glob("codes/*.php"))." PHP codes\n");
 
 if (!empty($errormessagelist)) {
 	$error = array('PHP Error Messages',
@@ -194,7 +194,7 @@ if (!empty($errormessagelist)) {
 $changed = file_get_contents('changed.rst.in');
 $changed = str_replace('behaviorlist', implode(PHP_EOL, $behaviorlist), $changed);
 file_put_contents('changed.rst', $changed);
-print "processed ".count($files)." file with $errors error\n";
+print ("processed ".count($files)." file with $errors error\n");
 
 $sitemap->write();
 
@@ -216,7 +216,7 @@ RST;
 		++$stats['php'];
 	}
 	file_put_contents('phpversionindex.rst', $versionRst);
-	print "processed ".$stats['php']." PHP versions\n";
+	print ("processed ".$stats['php']." PHP versions\n");
 }
 
 if (!empty($authors)) {
@@ -234,12 +234,15 @@ RST;
 		++$stats['author'];
 	}
 	file_put_contents('authorindex.rst', $authorRst);
-	print "processed ".$stats['author']." authors\n";
+	print ("processed ".$stats['author']." authors\n");
 }
+
+shell_exec('make html');
+print shell_exec('wc -l buildlog.txt')." lines in buildlog.txt\n";
 
 function check(stdClass $tip, string $file) : string {
 	if (empty($tip->title)) {
-		print "Empty title in $file\n";
+		buildlog("Empty title in $file");
 	}
 
 	return '';
@@ -248,6 +251,16 @@ function check(stdClass $tip, string $file) : string {
 function make_anchor(string $title) : string {
 	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
 	return $title;
+}
+
+function buildlog($message) {
+	static $log;
+	
+	if (empty($log)) {
+		$log = fopen("build.log", "w+");
+	}
+	
+	fwrite($log, $message.PHP_EOL);
 }
 
 ?>
