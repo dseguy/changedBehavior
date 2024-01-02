@@ -1,13 +1,13 @@
 # PHP changed behavior database
 
-Sometimes, PHP changes behavior of its commands. They are mentioned in the migration guides, and they are also collected here, with examples.
+Sometimes, PHP commands change their behavior. They are mentioned in the migration guides, and they are also collected here, with examples.
 
 You  can read them online at `https://php-changed-behaviors.readthedocs.io/en/latest/`_.
 
 ## Contribute
 
 To contribute, create a PHP script which illustrates a PHP change of behavior. 
-Run the code across various PHP versions, such as 7.2 to 8.3 : at least two different results should appear across those versions.
+Run the code across various PHP versions, such as 7.2 to 8.3, 8.4-dev : at least two different results should appear across those versions.
 Add documentation for that code : description, extra blogs and tutorial, 
 Send it as a PR.
 
