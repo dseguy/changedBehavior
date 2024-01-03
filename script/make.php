@@ -238,7 +238,7 @@ RST;
 }
 
 shell_exec('make html');
-print shell_exec('wc -l buildlog.txt')." lines in buildlog.txt\n";
+print (shell_exec('wc -l build.log') ?? 0)." lines in buildlog.txt\n";
 
 function check(stdClass $tip, string $file) : string {
 	if (empty($tip->title)) {
