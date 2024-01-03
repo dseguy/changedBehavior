@@ -1,3 +1,1 @@
-PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) in /codes/enforceNativeReturnType.php on line 5
-
-Parse error: syntax error, unexpected '(', expecting variable (T_VARIABLE) in /codes/enforceNativeReturnType.php on line 5
+x::__construct
