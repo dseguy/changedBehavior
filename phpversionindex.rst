@@ -4,7 +4,9 @@ Per PHP version
 * 9.0
     * :ref:`accessing-trait-resources-directly-is-not-allowed`
     * :ref:`cannot-call-traits-methods-directly`
+    * :ref:`enforcing-native-php-returntype`
     * :ref:`implicit-array-key-conversion`
+    * :ref:`increment-on-boolean-is-deprecated`
     * :ref:`no-dynamic-properties-by-default`
     * :ref:`relative-callable-in-strings`
     * :ref:`return-reference-on-void`

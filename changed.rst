@@ -31,6 +31,7 @@ PHP Changed Behavior
    behavior/duplicateStaticDefinition.rst
    behavior/dynamicClassConstant.rst
    behavior/dynamicProperties.rst
+   behavior/enforceNativeReturnType.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
    behavior/file_get_contents.rst
@@ -44,6 +45,7 @@ PHP Changed Behavior
    behavior/imploderOrder.rst
    behavior/inArrayStringIng.rst
    behavior/inArrayZeroString.rst
+   behavior/incrementOnBoolean.rst
    behavior/inegalityComparison.rst
    behavior/instanceofExpectObjects.rst
    behavior/interfaceConstantVisibilityCheck.rst

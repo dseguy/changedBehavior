@@ -1,0 +1,7 @@
+PHP Warning:  Increment on type bool has no effect, this will change in the next major version of PHP in /codes/incrementOnBoolean.php on line 4
+
+Warning: Increment on type bool has no effect, this will change in the next major version of PHP in /codes/incrementOnBoolean.php on line 4
+PHP Warning:  Decrement on type bool has no effect, this will change in the next major version of PHP in /codes/incrementOnBoolean.php on line 7
+
+Warning: Decrement on type bool has no effect, this will change in the next major version of PHP in /codes/incrementOnBoolean.php on line 7
+1

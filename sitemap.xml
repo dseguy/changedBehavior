@@ -79,6 +79,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceNativeReturnType.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithEmptyString.html</loc>
  </url>
  <url>
@@ -116,6 +119,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inArrayZeroString.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementOnBoolean.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inegalityComparison.html</loc>
