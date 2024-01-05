@@ -14,6 +14,8 @@ if (!file_exists('behavior')) {
 	shell_exec('rm -rf behavior/*');
 }
 
+fopen("build.log", "w+");
+
 $behaviors = array();
 
 $behaviors[] = "PHP changed behaviors";
