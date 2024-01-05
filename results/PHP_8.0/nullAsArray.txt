@@ -1,0 +1,8 @@
+PHP Warning:  Trying to access array offset on value of type null in /codes/nullAsArray.php on line 3
+
+Warning: Trying to access array offset on value of type null in /codes/nullAsArray.php on line 3
+NULL
+PHP Warning:  Trying to access array offset on value of type bool in /codes/nullAsArray.php on line 7
+
+Warning: Trying to access array offset on value of type bool in /codes/nullAsArray.php on line 7
+NULL
