@@ -1,6 +1,7 @@
 PHP Error Messages
 --------------------
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
+    * :ref:`Trying to access array offset on null <null-used-as-array>`
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`

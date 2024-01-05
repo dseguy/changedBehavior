@@ -28,6 +28,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/bitshiftConcatPrecedence.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/BooleanAsArray.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callTraitAlone.html</loc>
  </url>
  <url>
@@ -196,6 +199,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NoReferenceToGLOBALS.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
  </url>
  <url>
@@ -319,7 +325,7 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays.html</loc>
  </url>
  <url>
-  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ellipsis_and_named_arguments.html</loc>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays_with_strings.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_checks.html</loc>

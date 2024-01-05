@@ -120,6 +120,8 @@ Per PHP version
     * :ref:`vsprintf()-returns-empty-string-on-error`
 * 7.4
     * :ref:`base-conversion-reports-invalid-characters`
+    * :ref:`boolean-used-as-array`
+    * :ref:`null-used-as-array`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`trailing-comma-in-calls`

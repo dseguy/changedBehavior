@@ -14,6 +14,7 @@ PHP Changed Behavior
    behavior/arraySumChecks.rst
    behavior/assertThrows.rst
    behavior/bitshiftConcatPrecedence.rst
+   behavior/BooleanAsArray.rst
    behavior/callTraitAlone.rst
    behavior/CatchNoVariable.rst
    behavior/classAliasWithInternalClass.rst
@@ -70,6 +71,7 @@ PHP Changed Behavior
    behavior/nonArrayWithSleep.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
+   behavior/NullAsArray.rst
    behavior/OldConstructors.rst
    behavior/orphanedParent.rst
    behavior/php_errormsg.rst
@@ -111,7 +113,7 @@ PHP Changed Behavior
    behavior/typedClassConstant.rst
    behavior/undefinedConstants.rst
    behavior/unpack_arrays.rst
-   behavior/ellipsis_and_named_arguments.rst
+   behavior/unpack_arrays_with_strings.rst
    behavior/unserialize_checks.rst
    behavior/unserialize_max_depth.rst
    behavior/unserialize_notice.rst
