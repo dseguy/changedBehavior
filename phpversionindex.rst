@@ -122,6 +122,8 @@ Per PHP version
     * :ref:`base-conversion-reports-invalid-characters`
     * :ref:`boolean-used-as-array`
     * :ref:`null-used-as-array`
+    * :ref:`parameter-contravariance`
+    * :ref:`returntype-covariance`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`trailing-comma-in-calls`

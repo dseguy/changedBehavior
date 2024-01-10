@@ -55,7 +55,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ConstantInTrait.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/contravarianceParameter.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/countUncountable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/covarianceReturntype.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curl_init.html</loc>

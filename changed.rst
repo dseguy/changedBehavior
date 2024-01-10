@@ -23,7 +23,9 @@ PHP Changed Behavior
    behavior/compactThrowsNotice.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
+   behavior/contravarianceParameter.rst
    behavior/countUncountable.rst
+   behavior/covarianceReturntype.rst
    behavior/curl_init.rst
    behavior/datetimeWithMultipleSigns.rst
    behavior/dotAndBitshift.rst
