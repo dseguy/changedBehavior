@@ -45,6 +45,11 @@ foreach($files as $file) {
 		}
 	}
 
+	if (!isset($tip->phpError)) {
+		buildlog("phpError is missing in $file");
+		continue;
+	}
+
 	if (isset($tip->seeAlso)) {
 		$tip->seeAlso = array_filter($tip->seeAlso);
 	} else {
