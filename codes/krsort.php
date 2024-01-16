@@ -5,5 +5,5 @@ $x = array('a' => 1,
 		   1 => 3, 
 		   '0' => 4,
 );
-ksort($x);
+krsort($x);
 print_r($x);
