@@ -3,6 +3,7 @@ PHP Error Messages
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
     * :ref:`Trying to access array offset on null <null-used-as-array>`
+    * :ref:`Argument #1 ($num) must be of type int|float, GMP given <ceil()-strict-mode>`
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
@@ -16,6 +17,7 @@ PHP Error Messages
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <enforcing-native-php-returntype>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
+    * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`

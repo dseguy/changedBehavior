@@ -39,6 +39,8 @@ Per PHP version
     * :ref:`tentative-static-returntype-with-datetime`
     * :ref:`datetime-with-multiple-signs`
     * :ref:`iterator_count()-also-count-arrays`
+    * :ref:`krsort()-places-integers-before-strings-in-keys`
+    * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`strsplit()-with-empty-string`
     * :ref:`var_export()-format`
 * 8.1
@@ -90,14 +92,14 @@ Per PHP version
     * :ref:`array_key_exists()-doesn't-work-on-objects`
     * :ref:`assert()-throws-exception`
     * :ref:`curl-moved-away-from-resource`
+    * :ref:`ceil()-strict-mode`
     * :ref:`count()-must-count-countable`
     * :ref:`explode()-forbids-empty-strings`
     * :ref:`file_get_contents()-needs-a-real-path`
+    * :ref:`get_called_class()-cannot-be-called-outside-a-class`
     * :ref:`implode()-arguments-order`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`in_array()-string-int-comparisons`
-    * :ref:`ksort()-now-places-integers-before-strings`
-    * :ref:`ksort()-places-integers-before-strings-in-keys`
     * :ref:`match-is-now-a-keyword`
     * :ref:`max()-must-contain-at-least-one-element`
     * :ref:`max()-on-string-and-integer`

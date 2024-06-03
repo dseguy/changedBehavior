@@ -1,0 +1,4 @@
+PHP Warning:  get_called_class() called from outside a class in /codes/get_called_class_outside_class.php on line 3
+
+Warning: get_called_class() called from outside a class in /codes/get_called_class_outside_class.php on line 3
+bool(false)

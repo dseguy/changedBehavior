@@ -17,6 +17,7 @@ PHP Changed Behavior
    behavior/BooleanAsArray.rst
    behavior/callTraitAlone.rst
    behavior/CatchNoVariable.rst
+   behavior/ceilStrictMode.rst
    behavior/classAliasWithInternalClass.rst
    behavior/ClassOnIdentifier.rst
    behavior/cloneReadonly.rst
@@ -42,6 +43,7 @@ PHP Changed Behavior
    behavior/finalClassConstants.rst
    behavior/finalMethodInTrait.rst
    behavior/finfo_open.rst
+   behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
    behavior/implicitConversionToInt.rst
