@@ -50,6 +50,11 @@ foreach($files as $file) {
 		continue;
 	}
 
+	if (!is_string($tip->phpError)) {
+		buildlog("phpError must be a string in $file");
+		continue;
+	}
+
 	if (isset($tip->seeAlso)) {
 		$tip->seeAlso = array_filter($tip->seeAlso);
 	} else {
