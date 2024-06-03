@@ -1,12 +1,12 @@
-.. _`ksort()-places-integers-before-strings-in-keys`:
+.. _`krsort()-places-integers-before-strings-in-keys`:
 
-ksort() Places Integers Before Strings In Keys
-==============================================
-ksort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0. 
+krsort() Places Integers Before Strings In Keys
+===============================================
+krsort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0. 
 
 
 
-In PHP 8, strings are now ranking above integers, and are moved to the end of the sorted array. This is related to the change of rules in comparisons.
+In PHP 8.2, strings are now ranking above integers, and are moved to the end of the sorted array. This is related to the change of rules in comparisons.
 
 PHP code
 ________
@@ -19,7 +19,7 @@ ________
    		   1 => 3, 
    		   '0' => 4,
    );
-   ksort($x);
+   krsort($x);
    print_r($x);
 
 Before
@@ -28,9 +28,9 @@ ______
 
    Array
    (
+       [1] => 3
        [a] => 1
        [0] => 4
-       [1] => 3
    )
    
 
@@ -40,15 +40,16 @@ ______
 
    Array
    (
-       [0] => 4
-       [1] => 3
        [a] => 1
+       [1] => 3
+       [0] => 4
    )
+   
    
 
 
 PHP version change
 __________________
-This behavior changed in 8.0
+This behavior changed in 8.2
 
 
