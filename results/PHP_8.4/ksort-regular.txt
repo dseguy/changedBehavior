@@ -1,0 +1,12 @@
+PHP Deprecated:  session.sid_length INI setting is deprecated in Unknown on line 0
+PHP Deprecated:  session.sid_bits_per_character INI setting is deprecated in Unknown on line 0
+
+Deprecated: session.sid_length INI setting is deprecated in Unknown on line 0
+
+Deprecated: session.sid_bits_per_character INI setting is deprecated in Unknown on line 0
+Array
+(
+    [-f] => 1
+    [0] => 0
+    [f] => 2
+)
