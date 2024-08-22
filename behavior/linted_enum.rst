@@ -1,0 +1,59 @@
+.. _`duplicate-enum-cases-are-not-linted-anymore`:
+
+Duplicate Enum Cases Are Not Linted Anymore
+===========================================
+Two different cases in an enumeration cannot have duplicate values. 
+
+
+
+In PHP 8.1, it was a compilation error, and the code would not be executed. 
+
+
+
+Since PHP 8.2, it is only checked at execution time, when the enumeration is first used. This means that it may be a hidden bug, until that code is actually used.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   enum A : int{
+       case A = 1;
+       case B = 1;
+   }
+   
+   function foo(?A $x = null) { 
+       var_dump($x);
+   }
+   
+   // A is not used, as it default to NULL
+   foo();
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   Fatal error: Duplicate value in enum A for cases A and B in /in/Q2L1K on line 5
+   
+
+After
+______
+.. code-block:: output
+
+   NULL
+
+
+PHP version change
+__________________
+This behavior changed in 8.2
+
+
+See Also
+________
+
+* `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
+
+

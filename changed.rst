@@ -61,7 +61,9 @@ PHP Changed Behavior
    behavior/jsonSerialize.rst
    behavior/keywordInNamespace.rst
    behavior/krsort.rst
+   behavior/ksort-regular.rst
    behavior/ksort.rst
+   behavior/linted_enum.rst
    behavior/liskovPrinciple.rst
    behavior/matchKeyword.rst
    behavior/maxOnEmpty.rst

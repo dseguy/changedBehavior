@@ -35,12 +35,14 @@ Per PHP version
     * :ref:`unserialize()-error-report`
 * 8.2
     * :ref:`constants-in-traits`
+    * :ref:`duplicate-enum-cases-are-not-linted-anymore`
     * :ref:`no-reference-to-$globals-variable`
     * :ref:`tentative-static-returntype-with-datetime`
     * :ref:`datetime-with-multiple-signs`
     * :ref:`iterator_count()-also-count-arrays`
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
+    * :ref:`ksort()-now-uses-regular-sorting`
     * :ref:`strsplit()-with-empty-string`
     * :ref:`var_export()-format`
 * 8.1
