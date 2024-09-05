@@ -1,0 +1,49 @@
+.. _`die-and-exit-as-functions`:
+
+Die And Exit As Functions
+=========================
+Die and Exit used to be language constructs, a special kind of PHP instructions. As such, they had special abilities and behaviors: in particular, it meant that they could not be called dynamically, with their name in a string. Since PHP 8.4, this is possible.
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   	//Uncaught Error: Call to undefined function \exit()
+       $s = 'exit';
+       $s('Exit');
+       
+   ?>
+   
+
+Before
+______
+.. code-block:: output
+
+   PHP Fatal error:  Uncaught Error: Call to undefined function exit()
+
+After
+______
+.. code-block:: output
+
+   Exit
+
+
+PHP version change
+__________________
+This behavior changed in 8.4
+
+
+See Also
+________
+
+* `exit <https://www.php.net/manual/en/function.exit.php>`_
+
+
+Error Messages
+______________
+
+Call to undefined function \exit()
+
+

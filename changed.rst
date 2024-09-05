@@ -29,6 +29,7 @@ PHP Changed Behavior
    behavior/covarianceReturntype.rst
    behavior/curl_init.rst
    behavior/datetimeWithMultipleSigns.rst
+   behavior/die-exit-functions.rst
    behavior/dotAndBitshift.rst
    behavior/dotAndMinus.rst
    behavior/dotAndPlus.rst

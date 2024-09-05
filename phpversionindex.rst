@@ -14,6 +14,7 @@ Per PHP version
     * :ref:`get_class()-needs-an-argument`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
+    * :ref:`die-and-exit-as-functions`
     * :ref:`round()-mode-validation`
 * 8.3
     * :ref:`can-clone-readonly-properties`
