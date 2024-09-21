@@ -41,6 +41,6 @@ This behavior changed in 7.4
 Error Messages
 ______________
 
-Trying to access array offset on null
+Trying to access array offset on %s
 
 
