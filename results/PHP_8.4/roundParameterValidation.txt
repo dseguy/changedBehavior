@@ -1,10 +1,10 @@
-PHP Fatal error:  Uncaught ValueError: round(): Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) in /codes/roundParameterValidation.php:3
+PHP Fatal error:  Uncaught ValueError: round(): Argument #3 ($mode) must be a valid rounding mode (RoundingMode::*) in /codes/roundParameterValidation.php:3
 Stack trace:
 #0 /codes/roundParameterValidation.php(3): round(1.2, 2, 333)
 #1 {main}
   thrown in /codes/roundParameterValidation.php on line 3
 
-Fatal error: Uncaught ValueError: round(): Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) in /codes/roundParameterValidation.php:3
+Fatal error: Uncaught ValueError: round(): Argument #3 ($mode) must be a valid rounding mode (RoundingMode::*) in /codes/roundParameterValidation.php:3
 Stack trace:
 #0 /codes/roundParameterValidation.php(3): round(1.2, 2, 333)
 #1 {main}
