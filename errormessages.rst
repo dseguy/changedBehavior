@@ -21,6 +21,7 @@ PHP Error Messages
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
+    * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`Increment on type bool has no effect, this will change in the next major version of PHP <increment-on-boolean-is-deprecated>`
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
@@ -48,3 +49,4 @@ PHP Error Messages
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
+    * :ref:`Power of base 0 and negative exponent is deprecated <cannot-raise-zero-to-negative-powers>`

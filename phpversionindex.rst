@@ -4,8 +4,10 @@ Per PHP version
 * 9.0
     * :ref:`accessing-trait-resources-directly-is-not-allowed`
     * :ref:`cannot-call-traits-methods-directly`
+    * :ref:`cannot-raise-zero-to-negative-powers`
     * :ref:`enforcing-native-php-returntype`
     * :ref:`implicit-array-key-conversion`
+    * :ref:`implicit-nullable`
     * :ref:`increment-on-boolean-is-deprecated`
     * :ref:`no-dynamic-properties-by-default`
     * :ref:`relative-callable-in-strings`
@@ -84,6 +86,7 @@ Per PHP version
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
     * :ref:`spaces-in-namespaces`
+    * :ref:`splfixedarray-is-now-an-iteratoraggregate`
     * :ref:`string-to-integer-comparison`
     * :ref:`strings-are-bigger-than-integer`
     * :ref:`ternary-associativity`

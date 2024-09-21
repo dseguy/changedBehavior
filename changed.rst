@@ -48,6 +48,7 @@ PHP Changed Behavior
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
    behavior/implicitConversionToInt.rst
+   behavior/implicitNullable.rst
    behavior/imploderOrder.rst
    behavior/inArrayStringIng.rst
    behavior/inArrayZeroString.rst
@@ -95,6 +96,7 @@ PHP Changed Behavior
    behavior/sortClosureReturnType.rst
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
+   behavior/splfixedarray.rst
    behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst
    behavior/str_pos.rst
@@ -131,4 +133,5 @@ PHP Changed Behavior
    behavior/vsprintfRequiresAnArray.rst
    behavior/vsprintfReturnsEmptyString.rst
    behavior/mustYieldIntOrStringKeys.rst
+   behavior/zeroToNegativePower.rst
 

@@ -130,6 +130,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitNullable.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/imploderOrder.html</loc>
  </url>
  <url>
@@ -271,6 +274,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/spaceship.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splfixedarray.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticInInheritedMethods.html</loc>
  </url>
  <url>
@@ -377,5 +383,8 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mustYieldIntOrStringKeys.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/zeroToNegativePower.html</loc>
  </url>
 </urlset>
