@@ -129,6 +129,8 @@ Per PHP version
 * 7.4
     * :ref:`base-conversion-reports-invalid-characters`
     * :ref:`boolean-used-as-array`
+    * :ref:`float-used-as-array`
+    * :ref:`integer-used-as-array`
     * :ref:`null-used-as-array`
     * :ref:`parameter-contravariance`
     * :ref:`returntype-covariance`

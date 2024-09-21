@@ -44,6 +44,7 @@ PHP Changed Behavior
    behavior/finalClassConstants.rst
    behavior/finalMethodInTrait.rst
    behavior/finfo_open.rst
+   behavior/FloatAsArray.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
@@ -55,6 +56,7 @@ PHP Changed Behavior
    behavior/incrementOnBoolean.rst
    behavior/inegalityComparison.rst
    behavior/instanceofExpectObjects.rst
+   behavior/IntAsArray.rst
    behavior/interfaceConstantVisibilityCheck.rst
    behavior/InterpolatedStringDereferencing.rst
    behavior/intSilentConversion.rst

@@ -118,6 +118,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/finfo_open.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/FloatAsArray.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_called_class_outside_class.html</loc>
  </url>
  <url>
@@ -149,6 +152,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/instanceofExpectObjects.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/IntAsArray.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/interfaceConstantVisibilityCheck.html</loc>
