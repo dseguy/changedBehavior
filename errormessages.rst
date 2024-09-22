@@ -7,11 +7,11 @@ PHP Error Messages
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
-    * :ref:`Undefined variable $x <compact()-throws-notice-on-missing-variable>`
+    * :ref:`Undefined variable <compact()-throws-notice-on-missing-variable>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
     * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
-    * :ref:`Call to undefined function \exit() <die-and-exit-as-functions>`
+    * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
@@ -39,7 +39,7 @@ PHP Error Messages
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
-    * :ref:`Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*) <round()-mode-validation>`
+    * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`

@@ -48,6 +48,11 @@ foreach($files as $file) {
 	if (!isset($tip->phpError)) {
 		buildlog("phpError is missing in $file");
 		continue;
+	} elseif (!empty($tip->phpError)) {
+		if (!file_exists('../php-errors/errors/'.php_error_id($tip->phpError).'.ini')) {
+			buildlog("phpError doesn't exists in $file");
+			print '../php-errors/errors/'.php_error_id($tip->phpError).'.ini'.PHP_EOL;
+		} 
 	}
 
 	if (!is_string($tip->phpError)) {
