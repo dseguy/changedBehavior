@@ -2,7 +2,7 @@
 
 round() Mode Validation
 =======================
-round() function has four modes, defined with 4 constants. If the 3rd argument is not one of those four constants, PHP used to silently use PHP_ROUND_HALF_UP as default value. In PHP 8.4, a ValueError is provided.
+round() function has four modes, defined with 4 constants. When the 3rd argument is not one of those four constants, PHP used to silently use PHP_ROUND_HALF_UP as default value. In PHP 8.4, a ValueError is provided.
 
 PHP code
 ________
@@ -41,6 +41,7 @@ ________
 Error Messages
 ______________
 
-Argument #3 ($mode) must be a valid rounding mode (PHP_ROUND_*)
+`must be a valid rounding mode (RoundingMode::*) <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-(roundingmode::*).html>`_
+
 
 

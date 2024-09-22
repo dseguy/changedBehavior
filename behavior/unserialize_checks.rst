@@ -53,6 +53,7 @@ ________
 Error Messages
 ______________
 
-unserialize(): Extra data starting at offset 37 of 39 bytes
+`unserialize(): Extra data starting at offset 37 of 39 bytes <https://php-errors.readthedocs.io/en/latest/messages/unserialize():-extra-data-starting-at-offset-37-of-39-bytes.html>`_
+
 
 

@@ -44,6 +44,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-Implicit conversion from float 15.5 to int loses precision
+`Implicit conversion from float 15.5 to int loses precision <https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-15.5-to-int-loses-precision.html>`_
+
 
 

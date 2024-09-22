@@ -35,6 +35,7 @@ This behavior changed in 8.2
 Error Messages
 ______________
 
-Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given
+`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <https://php-errors.readthedocs.io/en/latest/messages/uncaught-typeerror:-iterator_count():-argument-#1-($iterator)-must-be-of-type-traversable,-array-given.html>`_
+
 
 

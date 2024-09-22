@@ -42,6 +42,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-The (real) cast is deprecated, use (float) instead
+`The (real) cast is deprecated, use (float) instead <https://php-errors.readthedocs.io/en/latest/messages/the-(real)-cast-is-deprecated,-use-(float)-instead.html>`_
+
 
 

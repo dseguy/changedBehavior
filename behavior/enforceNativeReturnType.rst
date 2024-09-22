@@ -49,6 +49,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-Return type of x::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+`Return type of x::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <https://php-errors.readthedocs.io/en/latest/messages/return-type-of-x::current()-should-either-be-compatible-with-iterator::current():-mixed,-or-the-#[\returntypewillchange]-attribute-should-be-used-to-temporarily-suppress-the-notice.html>`_
+
 
 

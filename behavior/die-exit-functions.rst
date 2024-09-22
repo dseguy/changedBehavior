@@ -44,6 +44,7 @@ ________
 Error Messages
 ______________
 
-Call to undefined function \exit()
+`Call to undefined function \exit() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-\exit().html>`_
+
 
 

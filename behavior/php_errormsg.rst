@@ -59,6 +59,7 @@ ________
 Error Messages
 ______________
 
-Undefined variable $php_errormsg
+`Undefined variable $php_errormsg <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable-$php_errormsg.html>`_
+
 
 

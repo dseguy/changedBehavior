@@ -41,6 +41,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-A non-numeric value encountered
+`A non-numeric value encountered <https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html>`_
+
 
 

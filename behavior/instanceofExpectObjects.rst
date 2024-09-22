@@ -45,6 +45,7 @@ ________
 Error Messages
 ______________
 
-instanceof expects an object instance, constant given
+`instanceof expects an object instance, constant given <https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance,-constant-given.html>`_
+
 
 

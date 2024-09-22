@@ -50,6 +50,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-file_get_contents(): Filename cannot be empty
+`file_get_contents(): Filename cannot be empty <https://php-errors.readthedocs.io/en/latest/messages/file_get_contents():-filename-cannot-be-empty.html>`_
+
 
 

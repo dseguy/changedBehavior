@@ -48,6 +48,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-Argument #1 ($num) must be of type int|float, GMP given
+`Argument #1 ($num) must be of type int|float, GMP given <https://php-errors.readthedocs.io/en/latest/messages/argument-#1-($num)-must-be-of-type-int|float,-gmp-given.html>`_
+
 
 

@@ -56,6 +56,7 @@ This behavior changed in 7.4
 Error Messages
 ______________
 
-Invalid characters passed for attempted conversion, these have been ignored
+`Invalid characters passed for attempted conversion, these have been ignored <https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html>`_
+
 
 

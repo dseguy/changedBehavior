@@ -46,6 +46,7 @@ ________
 Error Messages
 ______________
 
-The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'/'-'-will-change-in-php-8:-'+'/'-'-will-take-a-higher-precedence.html>`_
+
 
 

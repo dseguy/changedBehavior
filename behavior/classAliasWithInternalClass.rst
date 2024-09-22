@@ -42,6 +42,7 @@ ________
 Error Messages
 ______________
 
-First argument of class_alias() must be a name of user defined class
+`First argument of class_alias() must be a name of user defined class <https://php-errors.readthedocs.io/en/latest/messages/first-argument-of-class_alias()-must-be-a-name-of-user-defined-class.html>`_
+
 
 

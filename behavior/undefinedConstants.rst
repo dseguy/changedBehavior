@@ -37,6 +37,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-Uncaught Error: Undefined constant "D"
+`Uncaught Error: Undefined constant "D" <https://php-errors.readthedocs.io/en/latest/messages/uncaught-error:-undefined-constant-"d".html>`_
+
 
 

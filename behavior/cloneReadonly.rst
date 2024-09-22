@@ -65,6 +65,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-Cannot modify readonly property x::$p
+`Cannot modify readonly property x::$p <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-x::$p.html>`_
+
 
 

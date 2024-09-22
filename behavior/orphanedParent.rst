@@ -43,6 +43,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-Cannot use "parent" when current class scope has no parent
+`Cannot use "parent" when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-"parent"-when-current-class-scope-has-no-parent.html>`_
+
 
 

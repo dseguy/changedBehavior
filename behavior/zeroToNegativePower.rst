@@ -49,6 +49,7 @@ ________
 Error Messages
 ______________
 
-Power of base 0 and negative exponent is deprecated
+`Power of base 0 and negative exponent is deprecated <https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html>`_
+
 
 

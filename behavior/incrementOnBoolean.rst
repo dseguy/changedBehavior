@@ -48,6 +48,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-Increment on type bool has no effect, this will change in the next major version of PHP
+`Increment on type bool has no effect, this will change in the next major version of PHP <https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html>`_
+
 
 
