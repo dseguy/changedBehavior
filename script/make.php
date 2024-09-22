@@ -172,7 +172,8 @@ CODE;
 		$behavior[] = 'Error Messages';
 		$behavior[] = '______________';
 		$behavior[] = '';
-		$behavior[] = $changedBehavior->phpError;
+		$behavior[] = '`'.$changedBehavior->phpError.' <https://php-errors.readthedocs.io/en/latest/messages/'.php_error_id($changedBehavior->phpError).'.html>`_';
+		$behavior[] = '';
 		$behavior[] = '';
 	}
 
@@ -261,7 +262,7 @@ function check(stdClass $tip, string $file) : string {
 }
 
 function make_anchor(string $title) : string {
-	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
+	$title = '`'.strtr(mb_strtolower($title), ' ', '-').'`';
 	return $title;
 }
 
@@ -275,4 +276,7 @@ function buildlog($message) {
 	fwrite($log, $message.PHP_EOL);
 }
 
+function php_error_id(string $url) {
+	return str_replace(' ', '-', mb_strtolower($url));
+}
 ?>
