@@ -1,0 +1,15 @@
+array(1) {
+  [0]=>
+  string(3) "def"
+}
+PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /codes/str_replaceOnArraysOfObjects.php:11
+Stack trace:
+#0 /codes/str_replaceOnArraysOfObjects.php(11): str_replace('a', 'b', Array)
+#1 {main}
+  thrown in /codes/str_replaceOnArraysOfObjects.php on line 11
+
+Fatal error: Uncaught Error: Object of class stdClass could not be converted to string in /codes/str_replaceOnArraysOfObjects.php:11
+Stack trace:
+#0 /codes/str_replaceOnArraysOfObjects.php(11): str_replace('a', 'b', Array)
+#1 {main}
+  thrown in /codes/str_replaceOnArraysOfObjects.php on line 11
