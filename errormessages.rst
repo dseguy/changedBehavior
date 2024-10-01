@@ -13,7 +13,7 @@ PHP Error Messages
     * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
-    * :ref:`Duplicate declaration of static variable $s <duplicate-static-definition>`
+    * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <enforcing-native-php-returntype>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`

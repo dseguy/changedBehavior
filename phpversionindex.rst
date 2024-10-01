@@ -16,6 +16,7 @@ Per PHP version
     * :ref:`get_class()-needs-an-argument`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
+    * :ref:`call-method-on-new`
     * :ref:`die-and-exit-as-functions`
     * :ref:`round()-mode-validation`
 * 8.3
@@ -115,6 +116,7 @@ Per PHP version
     * :ref:`spaceship-operator-results`
     * :ref:`str_pos()-requires-only-strings`
     * :ref:`str_replace()-checks-for-arguments`
+    * :ref:`str_replace()-enforces-strings-in-array-argument`
     * :ref:`str_split()-throws-valueerror-with-negative-lengths`
     * :ref:`strpos()-does-not-accept-false`
     * :ref:`strpos()-does-not-accept-null-as-second-parameter`

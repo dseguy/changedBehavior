@@ -1,0 +1,11 @@
+PHP Warning:  Array to string conversion in /codes/str_replaceOnArraysOfThings.php on line 3
+
+Warning: Array to string conversion in /codes/str_replaceOnArraysOfThings.php on line 3
+array(1) {
+  [0]=>
+  string(5) "Arrby"
+}
+array(1) {
+  [0]=>
+  string(3) "def"
+}

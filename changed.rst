@@ -78,6 +78,7 @@ PHP Changed Behavior
    behavior/mixedKeyword.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
+   behavior/newThenMethodCall.rst
    behavior/nonArrayWithSleep.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
@@ -103,6 +104,7 @@ PHP Changed Behavior
    behavior/staticTraitStorage.rst
    behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
+   behavior/str_replaceOnArraysOfThings.rst
    behavior/stringIntegerComparison.rst
    behavior/stringsBiggerThanIntegers.rst
    behavior/strposTypeError.rst
