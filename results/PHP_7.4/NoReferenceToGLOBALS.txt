@@ -28,17 +28,17 @@ Array
             [SHELL] => /bin/bash
             [TERM] => xterm-256color
             [TMPDIR] => /var/folders/3j/pf24y7cx7j71yg0h59t16xqr0000gn/T/
-            [TERM_PROGRAM_VERSION] => 450
-            [TERM_SESSION_ID] => 0E50B70F-5647-4626-86AB-B84982EA9E2B
+            [TERM_PROGRAM_VERSION] => 453
+            [TERM_SESSION_ID] => 795C5176-7937-4046-A4C5-A3A04927C7C9
             [JAVA_OPTIONS] => -Xms32m -Xmx16512m
             [LC_ALL] => en_US.UTF-8
             [USER] => famille
-            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.C3gLTH1P0n/Listeners
+            [SSH_AUTH_SOCK] => /private/tmp/com.apple.launchd.TvW6FjtpSp/Listeners
             [NEO4J_HOME] => /Users/famille/Desktop/analyzeG3/neo4j3
             [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x1
             [PATH] => /opt/homebrew/opt/bison/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/famille/pear/bin
             [_] => /usr/local/sbin/php74
-            [LaunchInstanceID] => BC9D8DFE-F03E-4F36-9B7E-FAFF76CC7795
+            [LaunchInstanceID] => BD1C3F37-0405-4C16-A965-406E3200CAE0
             [__CFBundleIdentifier] => com.apple.Terminal
             [PWD] => 
             [JAVA_HOME] => /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
@@ -56,8 +56,8 @@ Array
             [SCRIPT_FILENAME] => codes/NoReferenceToGLOBALS.php
             [PATH_TRANSLATED] => codes/NoReferenceToGLOBALS.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1702836448.6683
-            [REQUEST_TIME] => 1702836448
+            [REQUEST_TIME_FLOAT] => 1726925099.6411
+            [REQUEST_TIME] => 1726925099
             [argv] => Array
                 (
                     [0] => codes/NoReferenceToGLOBALS.php
