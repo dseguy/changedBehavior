@@ -71,6 +71,7 @@ Per PHP version
     * :ref:`array-usage-with-string-initialisation`
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
+    * :ref:`calling-static-methods-on-strings`
     * :ref:`catch-without-variable`
     * :ref:`covariance-and-contravariance-are-fatal`
     * :ref:`dot-and-bitshift-priority`
@@ -112,11 +113,13 @@ Per PHP version
     * :ref:`max()-on-string-and-integer`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
+    * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
     * :ref:`str_pos()-requires-only-strings`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_replace()-enforces-strings-in-array-argument`
+    * :ref:`str_replace()-on-arrays-of-objects`
     * :ref:`str_split()-throws-valueerror-with-negative-lengths`
     * :ref:`strpos()-does-not-accept-false`
     * :ref:`strpos()-does-not-accept-null-as-second-parameter`
@@ -138,6 +141,7 @@ Per PHP version
     * :ref:`returntype-covariance`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
+    * :ref:`heredoc-syntax-in-an-array`
     * :ref:`trailing-comma-in-calls`
     * :ref:`instanceof-expect-objects`
 * 7.2

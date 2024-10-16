@@ -130,6 +130,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/heredoc_in_array.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html</loc>
  </url>
  <url>
@@ -161,6 +164,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringDereferencing.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringMethodcall.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/intSilentConversion.html</loc>
@@ -271,6 +277,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/set_state_must_be_static.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setlocale_with_float.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sort.html</loc>
  </url>
  <url>
@@ -296,6 +305,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceChecksArguments.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceOnArraysOfObjects.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceOnArraysOfThings.html</loc>

@@ -20,6 +20,7 @@ PHP Error Messages
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
+    * :ref:`syntax error <heredoc-syntax-in-an-array>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
@@ -30,7 +31,8 @@ PHP Error Messages
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
-    * :ref:`Array must contain at least one element <min()-doesn't-accept-empty-arrays>`
+    * :ref:`Array must contain at least one element <no-max()-on-empty-array>`
+    * :ref:`must-contain-at-least-one-element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
@@ -44,6 +46,7 @@ PHP Error Messages
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
     * :ref:`strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <str_pos()-requires-only-strings>`
+    * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`

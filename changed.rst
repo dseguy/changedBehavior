@@ -48,6 +48,7 @@ PHP Changed Behavior
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
+   behavior/heredoc_in_array.rst
    behavior/implicitConversionToInt.rst
    behavior/implicitNullable.rst
    behavior/imploderOrder.rst
@@ -59,6 +60,7 @@ PHP Changed Behavior
    behavior/IntAsArray.rst
    behavior/interfaceConstantVisibilityCheck.rst
    behavior/InterpolatedStringDereferencing.rst
+   behavior/InterpolatedStringMethodcall.rst
    behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
    behavior/iteratorsArray.rst
@@ -95,6 +97,7 @@ PHP Changed Behavior
    behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst
    behavior/set_state_must_be_static.rst
+   behavior/setlocale_with_float.rst
    behavior/sort.rst
    behavior/sortClosureReturnType.rst
    behavior/spaces_in_namespaces.rst
@@ -104,6 +107,7 @@ PHP Changed Behavior
    behavior/staticTraitStorage.rst
    behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
+   behavior/str_replaceOnArraysOfObjects.rst
    behavior/str_replaceOnArraysOfThings.rst
    behavior/stringIntegerComparison.rst
    behavior/stringsBiggerThanIntegers.rst
