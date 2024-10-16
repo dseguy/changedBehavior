@@ -1,6 +1,6 @@
-PHP Deprecated:  Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
+PHP Deprecated:  foo(): Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
 
-Deprecated: Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
+Deprecated: foo(): Returning by reference from a void function is deprecated in /codes/return_reference_on_void.php on line 3
 fooPHP Notice:  Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6
 
 Notice: Only variable references should be returned by reference in /codes/return_reference_on_void.php on line 6

@@ -1,1 +1,11 @@
-assert(false)
+PHP Fatal error:  Uncaught AssertionError: assert(false) in /codes/assertThrows.php:13
+Stack trace:
+#0 /codes/assertThrows.php(13): assert(false, 'assert(false)')
+#1 {main}
+  thrown in /codes/assertThrows.php on line 13
+
+Fatal error: Uncaught AssertionError: assert(false) in /codes/assertThrows.php:13
+Stack trace:
+#0 /codes/assertThrows.php(13): assert(false, 'assert(false)')
+#1 {main}
+  thrown in /codes/assertThrows.php on line 13
