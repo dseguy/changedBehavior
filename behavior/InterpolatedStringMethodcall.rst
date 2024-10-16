@@ -1,0 +1,53 @@
+.. _`calling-static-methods-on-strings`:
+
+Calling Static Methods On Strings
+=================================
+The left operand of the ``::`` operator for methods could not be a literal string, until PHP 8.0. It was not recognized as a valid syntax. 
+
+
+
+In PHP 8.0 and later, it is possible to build a class name in a string, then use it immediately in a method call. 
+
+
+
+It is also valid to access class constants and properties. 
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   $bar = abc;
+   
+   echo foo$bar::foo();
+   
+   class fooabc{
+   	static function foo() {
+   		print __METHOD__;
+   	}
+   }
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' in /codes/InterpolatedStringMethodcall.php on line 5
+   
+   Parse error: syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' in /codes/InterpolatedStringMethodcall.php on line 5
+   
+
+After
+______
+.. code-block:: output
+
+   fooabc::foo
+
+
+PHP version change
+__________________
+This behavior changed in 8.0
+
+
