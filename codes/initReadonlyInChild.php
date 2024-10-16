@@ -2,11 +2,15 @@
 
 class x {
 	public readonly int $property;
-	public int $other;
 }
 
-$x = new x;
-$x->other = 3;
-$x->property = 5;
+class y extends x {
+    function __construct() {
+        $this->property = 5;
+    }
+}
+
+$x = new y;
+echo $x->property;
 
 ?>

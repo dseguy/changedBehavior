@@ -1,9 +1,1 @@
-PHP Fatal error:  Uncaught Error: Cannot modify protected(set) readonly property x::$property from global scope in /codes/initReadonlyInChild.php:10
-Stack trace:
-#0 {main}
-  thrown in /codes/initReadonlyInChild.php on line 10
-
-Fatal error: Uncaught Error: Cannot modify protected(set) readonly property x::$property from global scope in /codes/initReadonlyInChild.php:10
-Stack trace:
-#0 {main}
-  thrown in /codes/initReadonlyInChild.php on line 10
+5

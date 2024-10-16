@@ -1,9 +1,11 @@
-PHP Fatal error:  Uncaught Error: Cannot initialize readonly property x::$property from global scope in /codes/initReadonlyInChild.php:10
+PHP Fatal error:  Uncaught Error: Cannot initialize readonly property x::$property from scope y in /codes/initReadonlyInChild.php:9
 Stack trace:
-#0 {main}
-  thrown in /codes/initReadonlyInChild.php on line 10
+#0 /codes/initReadonlyInChild.php(13): y->__construct()
+#1 {main}
+  thrown in /codes/initReadonlyInChild.php on line 9
 
-Fatal error: Uncaught Error: Cannot initialize readonly property x::$property from global scope in /codes/initReadonlyInChild.php:10
+Fatal error: Uncaught Error: Cannot initialize readonly property x::$property from scope y in /codes/initReadonlyInChild.php:9
 Stack trace:
-#0 {main}
-  thrown in /codes/initReadonlyInChild.php on line 10
+#0 /codes/initReadonlyInChild.php(13): y->__construct()
+#1 {main}
+  thrown in /codes/initReadonlyInChild.php on line 9

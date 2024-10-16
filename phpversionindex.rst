@@ -18,6 +18,7 @@ Per PHP version
 * 8.4
     * :ref:`call-method-on-new`
     * :ref:`die-and-exit-as-functions`
+    * :ref:`init-readonly-properties-in-child`
     * :ref:`round()-mode-validation`
 * 8.3
     * :ref:`can-clone-readonly-properties`
