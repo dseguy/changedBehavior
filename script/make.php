@@ -48,16 +48,28 @@ foreach($files as $file) {
 	if (!isset($tip->phpError)) {
 		buildlog("phpError is missing in $file");
 		continue;
-	} elseif (!empty($tip->phpError)) {
-		if (!file_exists('../php-errors/errors/'.php_error_id($tip->phpError).'.ini')) {
-			buildlog("phpError doesn't exists in $file");
-			print '../php-errors/errors/'.php_error_id($tip->phpError).'.ini'.PHP_EOL;
+	} else {
+		if (!is_array($tip->phpError)) {
+			buildlog("phpError is not an array in $file");
+			$tip->phpError = array($tip->phpError => $tip->phpError);
+		}
+		$tip->phpError = array_filter($tip->phpError);
+		
+		if (!empty($tip->phpError)) {
+			foreach($tip->phpError as $title => $id) {
+				if (is_int($title)) {
+					$title = $id; 
+					$id = php_error_id($id);
+					buildlog("phpError has not title in $file");
+				}
+		
+				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
+					buildlog("phpError doesn't exists in $file");
+					print '../php-errors/errors/'.$id.'.ini in '.$file.PHP_EOL;
+				}
+			}
+	
 		} 
-	}
-
-	if (!is_string($tip->phpError)) {
-		buildlog("phpError must be a string in $file");
-		continue;
 	}
 
 	if (isset($tip->seeAlso)) {
@@ -171,13 +183,15 @@ CODE;
 	}
 
 	if (!empty($changedBehavior->phpError)) {
-		$errormessagelist[$changedBehavior->phpError] = $anchor;
-		
 		$behavior[] = '';
 		$behavior[] = 'Error Messages';
 		$behavior[] = '______________';
 		$behavior[] = '';
-		$behavior[] = '`'.$changedBehavior->phpError.' <https://php-errors.readthedocs.io/en/latest/messages/'.php_error_id($changedBehavior->phpError).'.html>`_';
+		foreach($changedBehavior->phpError as $title => $id) {
+			$errormessagelist[$title] = $anchor;
+		
+			$behavior[] = '  + `'.$title.' <https://php-errors.readthedocs.io/en/latest/messages/'.$id.'.html>`_';
+		}
 		$behavior[] = '';
 		$behavior[] = '';
 	}

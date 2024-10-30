@@ -1,7 +1,14 @@
 <?php
 
-$id = $argv[1];
-$id = preg_replace("/\.php$/", '', $id);
+$id = $argv[1] ?? null;
+
+if ($id === null) {
+	$files = glob('codes/*.php');
+	print_r($files);
+	die();
+} else {
+	$id = preg_replace("/\.php$/", '', $id);
+}
 
 print "initing for \"$id\"\n";
 if (file_exists('docs/'.$id.'.ini')) { print "docs/$id.ini already exists.\n"; die();}

@@ -1,0 +1,26 @@
+<?php
+
+$codes = glob('codes/*.php');
+$codes = array_map(function ($x) { return basename($x, '.php');}, $codes);
+
+$docs = glob('docs/*.ini');
+$docs = array_map(function ($x) { return basename($x, '.ini');}, $docs);
+$docs = array_diff($docs, ['skeleton']);
+
+$diff = array_diff($docs, $codes);
+if (empty($diff)) {
+	print "All codes have docs\n";
+} else {
+	print "This is the list of docs without a code\n";
+	print_r($diff);
+}
+
+$diff = array_diff($codes, $docs);
+if (empty($diff)) {
+	print "All docs have code\n";
+} else {
+	print "This is the list of code without a doc\n";
+	print_r($diff);
+}
+
+?>
