@@ -1,3 +1,1 @@
-PHP Parse error:  syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "[" in /codes/staticVariableWithArbitraryDefault.php on line 6
-
-Parse error: syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "[" in /codes/staticVariableWithArbitraryDefault.php on line 6
+45

@@ -3,7 +3,7 @@
 function foo() {
 	static $x = goo(1);
 	
-	return ++x;
+	return ++$x;
 }
 
 function goo() {
