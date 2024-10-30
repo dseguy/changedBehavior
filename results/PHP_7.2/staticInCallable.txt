@@ -1,3 +1,1 @@
-PHP Parse error:  syntax error in /codes/staticInCallable.php on line 8
-
-Parse error: syntax error in /codes/staticInCallable.php on line 8
+a

@@ -1,3 +1,7 @@
-PHP Parse error:  syntax error, unexpected token "(", expecting variable in /codes/staticInCallable.php on line 8
+PHP Deprecated:  Use of "static" in callables is deprecated in /codes/staticInCallable.php on line 5
 
-Parse error: syntax error, unexpected token "(", expecting variable in /codes/staticInCallable.php on line 8
+Deprecated: Use of "static" in callables is deprecated in /codes/staticInCallable.php on line 5
+PHP Deprecated:  Callables of the form ["A", "static::replace"] are deprecated in /codes/staticInCallable.php on line 5
+
+Deprecated: Callables of the form ["A", "static::replace"] are deprecated in /codes/staticInCallable.php on line 5
+a

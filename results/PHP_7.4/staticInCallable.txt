@@ -1,3 +1,1 @@
-PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) in /codes/staticInCallable.php on line 8
-
-Parse error: syntax error, unexpected '(', expecting variable (T_VARIABLE) in /codes/staticInCallable.php on line 8
+a
