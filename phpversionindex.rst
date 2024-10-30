@@ -14,6 +14,7 @@ Per PHP version
     * :ref:`return-reference-on-void`
     * :ref:`sorting-closure-must-return-integers`
     * :ref:`get_class()-needs-an-argument`
+    * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
     * :ref:`call-method-on-new`
@@ -21,6 +22,7 @@ Per PHP version
     * :ref:`init-readonly-properties-in-child`
     * :ref:`round()-mode-validation`
 * 8.3
+    * :ref:`backed-enum-values-needed-to-compile`
     * :ref:`can-clone-readonly-properties`
     * :ref:`constants-in-trait`
     * :ref:`duplicate-static-definition`
@@ -29,6 +31,7 @@ Per PHP version
     * :ref:`interface-constant-visibility-checks`
     * :ref:`interface-imported-constant-visibility-is-checked`
     * :ref:`negative-automatic-index-from-empty-array`
+    * :ref:`static-variable-accepts-functioncalls-as-default`
     * :ref:`storage-of-static-properties-trait`
     * :ref:`typed-class-constant`
     * :ref:`array_product()-new-checks`
@@ -82,6 +85,7 @@ Per PHP version
     * :ref:`integer-non-silent-conversion`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
+    * :ref:`new-cases-in-switch`
     * :ref:`no-max()-on-empty-array`
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`

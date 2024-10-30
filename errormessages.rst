@@ -2,6 +2,7 @@ PHP Error Messages
 --------------------
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
+    * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
     * :ref:`Argument #1 ($num) must be of type int|float, GMP given <ceil()-strict-mode>`
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`

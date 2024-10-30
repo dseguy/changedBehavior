@@ -1,0 +1,3 @@
+PHP Fatal error:  Enum case value must be compile-time evaluatable in /codes/backed_enum_constant_check.php on line 6
+
+Fatal error: Enum case value must be compile-time evaluatable in /codes/backed_enum_constant_check.php on line 6

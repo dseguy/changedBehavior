@@ -13,6 +13,7 @@ PHP Changed Behavior
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
    behavior/assertThrows.rst
+   behavior/backed_enum_constant_check.rst
    behavior/bitshiftConcatPrecedence.rst
    behavior/BooleanAsArray.rst
    behavior/callTraitAlone.rst
@@ -81,6 +82,7 @@ PHP Changed Behavior
    behavior/mixedKeyword.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
+   behavior/newCasesInSwitch.rst
    behavior/newThenMethodCall.rst
    behavior/nonArrayWithSleep.rst
    behavior/nonStaticMethodCalledStatically.rst
@@ -104,8 +106,10 @@ PHP Changed Behavior
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
    behavior/splfixedarray.rst
+   behavior/staticInCallable.rst
    behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst
+   behavior/staticVariableWithArbitraryDefault.rst
    behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
    behavior/str_replaceOnArraysOfObjects.rst

@@ -25,6 +25,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertThrows.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/backed_enum_constant_check.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/bitshiftConcatPrecedence.html</loc>
  </url>
  <url>
@@ -229,6 +232,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/neverKeyword.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/newCasesInSwitch.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/newThenMethodCall.html</loc>
  </url>
  <url>
@@ -298,10 +304,16 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splfixedarray.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticInCallable.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticInInheritedMethods.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticTraitStorage.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticVariableWithArbitraryDefault.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_pos.html</loc>

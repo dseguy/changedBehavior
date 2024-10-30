@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught Error: Undefined constant "B" in /codes/backed_enum_constant_check.php:7
+Stack trace:
+#0 /codes/backed_enum_constant_check.php(11): [constant expression]()
+#1 {main}
+  thrown in /codes/backed_enum_constant_check.php on line 7
+
+Fatal error: Uncaught Error: Undefined constant "B" in /codes/backed_enum_constant_check.php:7
+Stack trace:
+#0 /codes/backed_enum_constant_check.php(11): [constant expression]()
+#1 {main}
+  thrown in /codes/backed_enum_constant_check.php on line 7
