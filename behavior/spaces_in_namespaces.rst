@@ -40,7 +40,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-`syntax error, unexpected fully qualified name "\Package", expecting "{" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-fully-qualified-name-"\package",-expecting-"{".html>`_
+  + `syntax error, unexpected fully qualified name "\Package", expecting "{" <https://php-errors.readthedocs.io/en/latest/messages/syntax error, unexpected fully qualified name "\Package", expecting "{".html>`_
 
 
 

@@ -55,7 +55,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-`Cannot access offset of type string on string <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-string-on-string.html>`_
+  + `Cannot access offset of type string on string <https://php-errors.readthedocs.io/en/latest/messages/Cannot access offset of type string on string.html>`_
 
 
 

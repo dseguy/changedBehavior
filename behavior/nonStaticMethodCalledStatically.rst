@@ -66,7 +66,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-`Non-static method Foo::bar() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-foo::bar()-cannot-be-called-statically.html>`_
+  + `Non-static method Foo::bar() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/Non-static method Foo::bar() cannot be called statically.html>`_
 
 
 

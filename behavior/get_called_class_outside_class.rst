@@ -49,7 +49,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-`get_called_class() called from outside a class <https://php-errors.readthedocs.io/en/latest/messages/get_called_class()-called-from-outside-a-class.html>`_
+  + `get_called_class() called from outside a class <https://php-errors.readthedocs.io/en/latest/messages/get_called_class() called from outside a class.html>`_
 
 
 

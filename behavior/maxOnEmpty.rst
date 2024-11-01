@@ -50,7 +50,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-`Array must contain at least one element <https://php-errors.readthedocs.io/en/latest/messages/array-must-contain-at-least-one-element.html>`_
+  + `Array must contain at least one element <https://php-errors.readthedocs.io/en/latest/messages/Array must contain at least one element.html>`_
 
 
 

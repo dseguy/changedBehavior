@@ -55,7 +55,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html>`_
+  + `Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <https://php-errors.readthedocs.io/en/latest/messages/Default value for property of type int may not be null. Use the nullable type ?int to allow null default value.html>`_
 
 
 

@@ -44,7 +44,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-`Cannot use 'final' as method modifier <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-'final'-as-method-modifier.html>`_
+  + `Cannot use 'final' as method modifier <https://php-errors.readthedocs.io/en/latest/messages/Cannot use 'final' as method modifier.html>`_
 
 
 

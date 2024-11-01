@@ -45,7 +45,7 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-`Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
+  + `Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
 
 
 

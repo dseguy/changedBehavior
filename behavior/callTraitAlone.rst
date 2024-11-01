@@ -40,3 +40,10 @@ This behavior was deprecated in 8.1
 This behavior changed in 9.0
 
 
+Error Messages
+______________
+
+  + `Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%s\:\:%s-is-deprecated.html>`_
+
+
+
