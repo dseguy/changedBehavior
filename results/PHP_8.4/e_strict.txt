@@ -1,0 +1,4 @@
+PHP Deprecated:  Constant E_STRICT is deprecated in /codes/e_strict.php on line 3
+
+Deprecated: Constant E_STRICT is deprecated in /codes/e_strict.php on line 3
+int(30719)
