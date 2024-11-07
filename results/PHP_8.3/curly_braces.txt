@@ -1,0 +1,3 @@
+PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3
+
+Fatal error: Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3

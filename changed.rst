@@ -6,6 +6,7 @@ PHP Changed Behavior
    :caption: Contents:
 
    behavior/accessTraitsDirectly.rst
+   behavior/anonymousSignature.rst
    behavior/array_key_existsOnObjects.rst
    behavior/array_negative_id.rst
    behavior/array_next_id.rst
@@ -16,6 +17,8 @@ PHP Changed Behavior
    behavior/backed_enum_constant_check.rst
    behavior/bitshiftConcatPrecedence.rst
    behavior/BooleanAsArray.rst
+   behavior/callingNonStaticMethodStatically.rst
+   behavior/callToTraitProperty.rst
    behavior/callTraitAlone.rst
    behavior/CatchNoVariable.rst
    behavior/ceilStrictMode.rst
@@ -29,6 +32,7 @@ PHP Changed Behavior
    behavior/countUncountable.rst
    behavior/covarianceReturntype.rst
    behavior/curl_init.rst
+   behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
    behavior/die-exit-functions.rst
    behavior/dotAndBitshift.rst
@@ -37,6 +41,7 @@ PHP Changed Behavior
    behavior/duplicateStaticDefinition.rst
    behavior/dynamicClassConstant.rst
    behavior/dynamicProperties.rst
+   behavior/e_strict.rst
    behavior/enforceNativeReturnType.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
@@ -50,6 +55,7 @@ PHP Changed Behavior
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
    behavior/heredoc_in_array.rst
+   behavior/htmlspecialchars81.rst
    behavior/implicitConversionToInt.rst
    behavior/implicitNullable.rst
    behavior/imploderOrder.rst
@@ -96,6 +102,7 @@ PHP Changed Behavior
    behavior/rangeWithIntAndString.rst
    behavior/real_cast.rst
    behavior/relativeCallable.rst
+   behavior/relaxed_private.rst
    behavior/return_reference_on_void.rst
    behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst

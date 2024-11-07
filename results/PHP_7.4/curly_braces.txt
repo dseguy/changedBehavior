@@ -1,0 +1,7 @@
+PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /codes/curly_braces.php on line 3
+
+Deprecated: Array and string offset access syntax with curly braces is deprecated in /codes/curly_braces.php on line 3
+Array
+(
+    [3] => 2
+)

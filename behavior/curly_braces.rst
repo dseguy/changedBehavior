@@ -1,0 +1,53 @@
+.. _`array-syntax-with-curly-braces-are-no-more`:
+
+Array Syntax With Curly Braces Are No More
+==========================================
+Until PHP 8.4, using the array syntax with curly braces yielded a Fatal error, and a nice error message. 
+
+
+
+After that, it is downgraded to a syntax error. 
+
+PHP code
+________
+.. code-block:: php
+
+   <?php
+   
+   $x{3} = 2;
+   
+   print_r($x);
+   
+   ?>
+
+Before
+______
+.. code-block:: output
+
+   PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3
+   
+   Fatal error: Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3
+   
+
+After
+______
+.. code-block:: output
+
+   PHP Parse error:  syntax error, unexpected token { in /codes/curly_braces.php on line 3
+   
+   Parse error: syntax error, unexpected token { in /codes/curly_braces.php on line 3
+   
+
+
+PHP version change
+__________________
+This behavior changed in 8.4
+
+
+Error Messages
+______________
+
+  + `Array and string offset access syntax with curly braces <https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.html>`_
+
+
+

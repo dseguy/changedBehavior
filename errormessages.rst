@@ -1,5 +1,6 @@
 PHP Error Messages
 --------------------
+    * :ref:`Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <cannot-call-traits-methods-directly>`
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
@@ -7,11 +8,12 @@ PHP Error Messages
     * :ref:`Argument #1 ($num) must be of type int|float, GMP given <ceil()-strict-mode>`
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
-    * :ref:`Cannot modify readonly property x::$p <can-clone-readonly-properties>`
+    * :ref:`0 <can-clone-readonly-properties>`
     * :ref:`Undefined variable <compact()-throws-notice-on-missing-variable>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
     * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
+    * :ref:`Array and string offset access syntax with curly braces <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
@@ -21,7 +23,6 @@ PHP Error Messages
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
-    * :ref:`syntax error <heredoc-syntax-in-an-array>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`

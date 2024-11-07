@@ -17,8 +17,10 @@ Per PHP version
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
 * 8.4
+    * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`
     * :ref:`die-and-exit-as-functions`
+    * :ref:`e_strict-is-deprecated`
     * :ref:`init-readonly-properties-in-child`
     * :ref:`round()-mode-validation`
 * 8.3
@@ -31,6 +33,7 @@ Per PHP version
     * :ref:`interface-constant-visibility-checks`
     * :ref:`interface-imported-constant-visibility-is-checked`
     * :ref:`negative-automatic-index-from-empty-array`
+    * :ref:`relaxed-naming-with-class-constant`
     * :ref:`static-variable-accepts-functioncalls-as-default`
     * :ref:`storage-of-static-properties-trait`
     * :ref:`typed-class-constant`
@@ -55,7 +58,9 @@ Per PHP version
     * :ref:`var_export()-format`
 * 8.1
     * :ref:`$globals-assignement`
+    * :ref:`accessing-directly-properties-in-trait`
     * :ref:`cannot-explode()-null`
+    * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
@@ -72,9 +77,11 @@ Per PHP version
     * :ref:`(real)-is-replaced-by-(float)`
     * :ref:`(unset)-was-removed`
     * :ref:`::class-on-object`
+    * :ref:`anonymous-class-name-includes-extends`
     * :ref:`array-usage-with-string-initialisation`
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
+    * :ref:`calling-non-static-method-statically`
     * :ref:`calling-static-methods-on-strings`
     * :ref:`catch-without-variable`
     * :ref:`covariance-and-contravariance-are-fatal`
