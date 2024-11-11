@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /codes/strpos-and-offset.php:3
+Stack trace:
+#0 /codes/strpos-and-offset.php(3): strpos('abc', 'b', 6)
+#1 {main}
+  thrown in /codes/strpos-and-offset.php on line 3
+
+Fatal error: Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /codes/strpos-and-offset.php:3
+Stack trace:
+#0 /codes/strpos-and-offset.php(3): strpos('abc', 'b', 6)
+#1 {main}
+  thrown in /codes/strpos-and-offset.php on line 3

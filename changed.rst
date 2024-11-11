@@ -123,6 +123,7 @@ PHP Changed Behavior
    behavior/str_replaceOnArraysOfThings.rst
    behavior/stringIntegerComparison.rst
    behavior/stringsBiggerThanIntegers.rst
+   behavior/strpos-and-offset.rst
    behavior/strposTypeError.rst
    behavior/strposValueError.rst
    behavior/strposWithFalse.rst

@@ -138,6 +138,7 @@ Per PHP version
     * :ref:`strpos()-emits-typeerror`
     * :ref:`strpos()-emits-valueerror`
     * :ref:`strpos()-with-integer-argument`
+    * :ref:`strpos()-with-out-of-range-offset-is-a-fatal-error`
     * :ref:`substr()-returns-empty-string-on-out-of-bond-offset`
     * :ref:`switch()-changed-comparison-style`
     * :ref:`throw-is-an-expression`
