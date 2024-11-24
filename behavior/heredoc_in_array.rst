@@ -44,10 +44,3 @@ __________________
 This behavior changed in 7.3
 
 
-Error Messages
-______________
-
-  + `syntax error <https://php-errors.readthedocs.io/en/latest/messages/syntax error.html>`_
-
-
-
