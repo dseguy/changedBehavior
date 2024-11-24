@@ -31,7 +31,7 @@ $tips = array();
 foreach($files as $file) {
 	$tip = parse_ini_file($file);
 
-	if ($tip === null) {
+	if ($tip === false) {
 		buildlog("Warning : $file is not valid INI");
 		continue;
 	}
@@ -39,10 +39,21 @@ foreach($files as $file) {
 	$tip = (object) $tip;
 	if (!isset($tip->title)) {
 		buildlog("No title for $file");
+		continue;
 	} else {
 		if (!str_contains($tip->title, ' ')) {
 			buildlog("suspiciously no white space in title for $file");
 		}
+	}
+
+	if (!isset($tip->features)) {
+		buildlog("features is missing in $file");
+	} else {
+	    $tip->features = array_filter($tip->features);
+	    
+	    if (empty($tip->features)) {
+    		buildlog("features is empty in $file");
+	    }
 	}
 
 	if (!isset($tip->phpError)) {
@@ -82,6 +93,10 @@ foreach($files as $file) {
 		}
 	}
 	$tips[$file] = $tip;
+	
+	if (!isset($tip->before)) {
+		die($file);
+	}
 }
 
 uksort($tips, function(string $a, string $b) : int { return strtolower($a) <=> strtolower($b); });

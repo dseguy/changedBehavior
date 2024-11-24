@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP Changed Behaviors'
-copyright = '2023, Damien Seguy'
+copyright = '2023-2024, Damien Seguy'
 author = 'Damien Seguy'
 
 # The full version, including alpha/beta/rc tags
@@ -59,3 +59,12 @@ pygments_style = 'sphinx'
 html_extra_path = ["googlee919cb0917e4fefc.html", 
 					"robots.txt",
 					"sitemap.xml"]
+					
+html_theme_options = {
+    'logo': 'logo.png',
+    'analytics_id': 'G-29LCZ34CDW',
+    'github_button': True,
+    'github_repo':'changedBehavior',
+    'github_user':'dseguy',
+    'description': 'All features that changes between PHP versions.',
+}
