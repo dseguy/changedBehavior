@@ -1,5 +1,5 @@
 <?php
 
-echo \array;
+function foo(\array $x = []) {}
 
 ?>
