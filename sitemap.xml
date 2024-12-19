@@ -175,6 +175,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inegalityComparison.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inherited-interface-constant.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/initReadonlyInChild.html</loc>
  </url>
  <url>
@@ -185,9 +188,6 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/interfaceConstantVisibilityCheck.html</loc>
- </url>
- <url>
-  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringDereferencing.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringMethodcall.html</loc>
@@ -278,6 +278,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/plusConcatPrecedence.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/printfWarning.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeWithAllStrings.html</loc>

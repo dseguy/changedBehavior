@@ -63,11 +63,11 @@ PHP Changed Behavior
    behavior/inArrayZeroString.rst
    behavior/incrementOnBoolean.rst
    behavior/inegalityComparison.rst
+   behavior/inherited-interface-constant.rst
    behavior/initReadonlyInChild.rst
    behavior/instanceofExpectObjects.rst
    behavior/IntAsArray.rst
    behavior/interfaceConstantVisibilityCheck.rst
-   behavior/InterpolatedStringDereferencing.rst
    behavior/InterpolatedStringMethodcall.rst
    behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
@@ -98,6 +98,7 @@ PHP Changed Behavior
    behavior/orphanedParent.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
+   behavior/printfWarning.rst
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
    behavior/real_cast.rst

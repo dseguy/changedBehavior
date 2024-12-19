@@ -60,6 +60,7 @@ Per PHP version
     * :ref:`$globals-assignement`
     * :ref:`accessing-directly-properties-in-trait`
     * :ref:`cannot-explode()-null`
+    * :ref:`cannot-override-constant-from-interface`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
@@ -90,7 +91,6 @@ Per PHP version
     * :ref:`dot-and-plus-changed-precedence`
     * :ref:`inegality-comparisons`
     * :ref:`integer-non-silent-conversion`
-    * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
     * :ref:`new-cases-in-switch`
     * :ref:`no-max()-on-empty-array`
@@ -125,6 +125,7 @@ Per PHP version
     * :ref:`max()-on-string-and-integer`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
+    * :ref:`p`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
