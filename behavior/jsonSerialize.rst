@@ -53,7 +53,7 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-  + `Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <https://php-errors.readthedocs.io/en/latest/messages/Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice.html>`_
+  + `Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <https://php-errors.readthedocs.io/en/latest/messages/Return+type+of+x%3A%3AjsonSerialize%28%29+should+either+be+compatible+with+JsonSerializable%3A%3AjsonSerialize%28%29%3A+mixed%2C+or+the+%23%5B%5CReturnTypeWillChange%5D+attribute+should+be+used+to+temporarily+suppress+the+notice.html>`_
 
 
 

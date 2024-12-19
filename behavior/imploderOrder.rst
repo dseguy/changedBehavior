@@ -55,7 +55,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `implode(): Argument #2 ($array) must be of type ?array, string given <https://php-errors.readthedocs.io/en/latest/messages/implode(): Argument #2 ($array) must be of type ?array, string given.html>`_
+  + `implode(): Argument #2 ($array) must be of type ?array, string given <https://php-errors.readthedocs.io/en/latest/messages/implode%28%29%3A+Argument+%232+%28%24array%29+must+be+of+type+%3Farray%2C+string+given.html>`_
 
 
 

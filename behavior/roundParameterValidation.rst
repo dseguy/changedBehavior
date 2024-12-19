@@ -41,7 +41,7 @@ ________
 Error Messages
 ______________
 
-  + `must be a valid rounding mode (RoundingMode::*) <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).html>`_
+  + `must be a valid rounding mode (RoundingMode::*) <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%5C%3A%5C%3A%2A%29.html>`_
 
 
 

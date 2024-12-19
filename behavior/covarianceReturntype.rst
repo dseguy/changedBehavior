@@ -62,7 +62,7 @@ This behavior changed in 7.4
 Error Messages
 ______________
 
-  + `Declaration of y::foo(): j must be compatible with x::foo(): i <https://php-errors.readthedocs.io/en/latest/messages/Declaration of y::foo(): j must be compatible with x::foo(): i.html>`_
+  + `Declaration of y::foo(): j must be compatible with x::foo(): i <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+y%3A%3Afoo%28%29%3A+j+must+be+compatible+with+x%3A%3Afoo%28%29%3A+i.html>`_
 
 
 

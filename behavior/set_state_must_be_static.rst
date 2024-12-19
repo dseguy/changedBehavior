@@ -45,7 +45,7 @@ ________
 Error Messages
 ______________
 
-  + `Method x::__set_state() must be static <https://php-errors.readthedocs.io/en/latest/messages/Method x::__set_state() must be static.html>`_
+  + `Method x::__set_state() must be static <https://php-errors.readthedocs.io/en/latest/messages/Method+x%3A%3A__set_state%28%29+must+be+static.html>`_
 
 
 

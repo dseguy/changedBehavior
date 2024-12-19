@@ -41,7 +41,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <https://php-errors.readthedocs.io/en/latest/messages/Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given.html>`_
+  + `Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+TypeError%3A+array_key_exists%28%29%3A+Argument+%232+%28%24array%29+must+be+of+type+array%2C+stdClass+given.html>`_
 
 
 

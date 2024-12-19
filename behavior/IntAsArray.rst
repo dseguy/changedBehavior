@@ -41,7 +41,7 @@ This behavior changed in 7.4
 Error Messages
 ______________
 
-  + `Trying to access array offset on %s <https://php-errors.readthedocs.io/en/latest/messages/Trying to access array offset on %s.html>`_
+  + `Trying to access array offset on %s <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+%25s.html>`_
 
 
 

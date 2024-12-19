@@ -60,7 +60,7 @@ ________
 Error Messages
 ______________
 
-  + `Creation of dynamic property User::$name is deprecated <https://php-errors.readthedocs.io/en/latest/messages/Creation of dynamic property User::$name is deprecated.html>`_
+  + `Creation of dynamic property User::$name is deprecated <https://php-errors.readthedocs.io/en/latest/messages/Creation+of+dynamic+property+User%3A%3A%24name+is+deprecated.html>`_
 
 
 

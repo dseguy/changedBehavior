@@ -47,7 +47,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `serialize(): __sleep should return an array only containing the names of instance-variables to serialize <https://php-errors.readthedocs.io/en/latest/messages/serialize(): __sleep should return an array only containing the names of instance-variables to serialize.html>`_
+  + `serialize(): __sleep should return an array only containing the names of instance-variables to serialize <https://php-errors.readthedocs.io/en/latest/messages/serialize%28%29%3A+__sleep+should+return+an+array+only+containing+the+names+of+instance-variables+to+serialize.html>`_
 
 
 

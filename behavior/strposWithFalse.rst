@@ -50,7 +50,7 @@ ________
 Error Messages
 ______________
 
-  + `Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <https://php-errors.readthedocs.io/en/latest/messages/Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior .html>`_
+  + `Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <https://php-errors.readthedocs.io/en/latest/messages/Non-string+needles+will+be+interpreted+as+strings+in+the+future.+Use+an+explicit+chr%28%29+call+to+preserve+the+current+behavior+.html>`_
 
 
 

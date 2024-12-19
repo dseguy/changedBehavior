@@ -65,7 +65,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%s::$%s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
 
 
 

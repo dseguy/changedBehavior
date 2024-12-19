@@ -44,7 +44,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <https://php-errors.readthedocs.io/en/latest/messages/strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior.html>`_
+  + `strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <https://php-errors.readthedocs.io/en/latest/messages/strpos%28%29%3A+Non-string+needles+will+be+interpreted+as+strings+in+the+future.+Use+an+explicit+chr%28%29+call+to+preserve+the+current+behavior.html>`_
 
 
 

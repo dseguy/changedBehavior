@@ -44,7 +44,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Cannot use 'mixed' as class name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/Cannot use 'mixed' as class name as it is reserved.html>`_
+  + `Cannot use 'mixed' as class name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%27mixed%27+as+class+name+as+it+is+reserved.html>`_
 
 
 
