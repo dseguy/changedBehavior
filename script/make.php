@@ -205,7 +205,7 @@ CODE;
 		foreach($changedBehavior->phpError as $title => $id) {
 			$errormessagelist[$title] = $anchor;
 		
-			$behavior[] = '  + `'.$title.' <https://php-errors.readthedocs.io/en/latest/messages/'.$id.'.html>`_';
+			$behavior[] = '  + `'.$title.' <https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($id).'.html>`_';
 		}
 		$behavior[] = '';
 		$behavior[] = '';
