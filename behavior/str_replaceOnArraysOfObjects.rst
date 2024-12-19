@@ -61,7 +61,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Object of class stdClass could not be converted to string <https://php-errors.readthedocs.io/en/latest/messages/Object of class stdClass could not be converted to string.html>`_
+  + `Object of class stdClass could not be converted to string <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html>`_
 
 
 
