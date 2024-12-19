@@ -50,7 +50,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-  + `Access level to x::IPri must be public (as in interface i) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%5C%3A%5C%3A%25s-must-be-%25s-%5C%28as-in-%25s-%25s%5C%29%25s.html>`_
+  + `Access level to x::IPri must be public (as in interface i) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html>`_
 
 
 
