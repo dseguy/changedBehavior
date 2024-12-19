@@ -9,7 +9,7 @@ PHP Error Messages
     * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`0 <can-clone-readonly-properties>`
-    * :ref:`Undefined variable <compact()-throws-notice-on-missing-variable>`
+    * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
     * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
@@ -39,7 +39,6 @@ PHP Error Messages
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
-    * :ref:`Undefined variable $php_errormsg <$php_errormsg-has-been-removed>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
