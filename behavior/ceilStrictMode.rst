@@ -45,10 +45,3 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `Argument #1 ($num) must be of type int|float, GMP given <https://php-errors.readthedocs.io/en/latest/messages/Argument #1 ($num) must be of type int|float, GMP given.html>`_
-
-
-
