@@ -63,7 +63,6 @@ PHP Changed Behavior
    behavior/inArrayZeroString.rst
    behavior/incrementOnBoolean.rst
    behavior/inegalityComparison.rst
-   behavior/inherited-interface-constant.rst
    behavior/initReadonlyInChild.rst
    behavior/instanceofExpectObjects.rst
    behavior/IntAsArray.rst

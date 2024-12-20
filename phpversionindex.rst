@@ -60,7 +60,6 @@ Per PHP version
     * :ref:`$globals-assignement`
     * :ref:`accessing-directly-properties-in-trait`
     * :ref:`cannot-explode()-null`
-    * :ref:`cannot-override-constant-from-interface`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
