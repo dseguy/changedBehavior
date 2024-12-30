@@ -37,12 +37,21 @@ foreach($files as $file) {
 	}
 
 	$tip = (object) $tip;
-	if (!isset($tip->title)) {
+	if (!isset($tip->title) || (strlen($tip->title) < 3)) {
 		buildlog("No title for $file");
 		continue;
 	} else {
 		if (!str_contains($tip->title, ' ')) {
 			buildlog("suspiciously no white space in title for $file");
+		}
+	}
+
+	if (!isset($tip->description) || (strlen($tip->description) < 3)) {
+		buildlog("No description for $file");
+		continue;
+	} else {
+		if (!str_contains($tip->description, ' ')) {
+			buildlog("suspiciously no white space in description for $file");
 		}
 	}
 
