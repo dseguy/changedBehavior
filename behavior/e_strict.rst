@@ -2,7 +2,7 @@
 
 E_STRICT Is Deprecated
 ======================
-
+The PHP native constant ``E_STRICT`` is deprecated, and will be removed in PHP 9.0.
 
 PHP code
 ________
@@ -36,7 +36,7 @@ PHP version change
 __________________
 This behavior was deprecated in 8.4
 
-This behavior changed in 8.4
+This behavior changed in 9.0
 
 
 See Also
