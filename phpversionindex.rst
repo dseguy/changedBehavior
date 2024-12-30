@@ -5,6 +5,7 @@ Per PHP version
     * :ref:`accessing-trait-resources-directly-is-not-allowed`
     * :ref:`cannot-call-traits-methods-directly`
     * :ref:`cannot-raise-zero-to-negative-powers`
+    * :ref:`e_strict-is-deprecated`
     * :ref:`enforcing-native-php-returntype`
     * :ref:`implicit-array-key-conversion`
     * :ref:`implicit-nullable`
@@ -15,12 +16,10 @@ Per PHP version
     * :ref:`sorting-closure-must-return-integers`
     * :ref:`get_class()-needs-an-argument`
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
-    * :ref:`strpos()-with-null-haystack`
 * 8.4
     * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`
     * :ref:`die-and-exit-as-functions`
-    * :ref:`e_strict-is-deprecated`
     * :ref:`init-readonly-properties-in-child`
     * :ref:`round()-mode-validation`
 * 8.3
@@ -125,7 +124,7 @@ Per PHP version
     * :ref:`max()-on-string-and-integer`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
-    * :ref:`p`
+    * :ref:`printf()-warns-about-unknown-formats`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
@@ -137,7 +136,6 @@ Per PHP version
     * :ref:`strpos()-does-not-accept-null-as-second-parameter`
     * :ref:`strpos()-emits-typeerror`
     * :ref:`strpos()-emits-valueerror`
-    * :ref:`strpos()-with-integer-argument`
     * :ref:`strpos()-with-out-of-range-offset-is-a-fatal-error`
     * :ref:`substr()-returns-empty-string-on-out-of-bond-offset`
     * :ref:`switch()-changed-comparison-style`
@@ -159,4 +157,5 @@ Per PHP version
     * :ref:`instanceof-expect-objects`
 * 7.2
     * :ref:`yield-must-use-integer-or-string-keys`
+    * :ref:`func_get_arg()-changed-behavior`
     * :ref:`var_export()-with-stdclass`

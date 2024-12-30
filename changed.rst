@@ -52,6 +52,7 @@ PHP Changed Behavior
    behavior/finalMethodInTrait.rst
    behavior/finfo_open.rst
    behavior/FloatAsArray.rst
+   behavior/func_get_arg.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
@@ -127,9 +128,7 @@ PHP Changed Behavior
    behavior/strposTypeError.rst
    behavior/strposValueError.rst
    behavior/strposWithFalse.rst
-   behavior/strposWithInteger.rst
    behavior/strposWithNull.rst
-   behavior/strposWithNullHaystack.rst
    behavior/strsplit.rst
    behavior/strsplitnegativelength.rst
    behavior/substrReturnsEmptyStringOnOutOfBondOffset.rst
