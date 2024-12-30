@@ -92,6 +92,7 @@ Per PHP version
     * :ref:`integer-non-silent-conversion`
     * :ref:`keywords-in-namespace`
     * :ref:`new-cases-in-switch`
+    * :ref:`no-abstract-private-method-in-traits`
     * :ref:`no-max()-on-empty-array`
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`

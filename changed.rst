@@ -5,6 +5,7 @@ PHP Changed Behavior
    :maxdepth: 1
    :caption: Contents:
 
+   behavior/abstractPrivateMethodInTrait.rst
    behavior/accessTraitsDirectly.rst
    behavior/anonymousSignature.rst
    behavior/array_key_existsOnObjects.rst
