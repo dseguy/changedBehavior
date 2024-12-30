@@ -46,7 +46,6 @@ PHP Error Messages
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
-    * :ref:`strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <str_pos()-requires-only-strings>`
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
     * :ref:`must-be-contained-in-argument-#1-($haystack) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`

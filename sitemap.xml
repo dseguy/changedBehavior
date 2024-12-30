@@ -340,9 +340,6 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticVariableWithArbitraryDefault.html</loc>
  </url>
  <url>
-  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_pos.html</loc>
- </url>
- <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceChecksArguments.html</loc>
  </url>
  <url>

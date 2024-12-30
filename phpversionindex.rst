@@ -129,7 +129,6 @@ Per PHP version
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
-    * :ref:`str_pos()-requires-only-strings`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_replace()-enforces-strings-in-array-argument`
     * :ref:`str_replace()-on-arrays-of-objects`

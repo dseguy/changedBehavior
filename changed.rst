@@ -118,7 +118,6 @@ PHP Changed Behavior
    behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst
    behavior/staticVariableWithArbitraryDefault.rst
-   behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
    behavior/str_replaceOnArraysOfObjects.rst
    behavior/str_replaceOnArraysOfThings.rst
