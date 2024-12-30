@@ -58,7 +58,8 @@ pygments_style = 'sphinx'
 
 html_extra_path = ["googlee919cb0917e4fefc.html", 
 					"robots.txt",
-					"sitemap.xml"]
+					"sitemap.xml",
+					"BingSiteAuth.xml"]
 					
 html_theme_options = {
     'logo': 'logo.png',
