@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTimeImmutable::__construct(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.' in /codes/datetimeWithMultipleSigns.php:2
+Stack trace:
+#0 /codes/datetimeWithMultipleSigns.php(2): DateTimeImmutable->__construct('-+-1 year')
+#1 {main}
+  thrown in /codes/datetimeWithMultipleSigns.php on line 2
+
+Fatal error: Uncaught exception 'Exception' with message 'DateTimeImmutable::__construct(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.' in /codes/datetimeWithMultipleSigns.php:2
+Stack trace:
+#0 /codes/datetimeWithMultipleSigns.php(2): DateTimeImmutable->__construct('-+-1 year')
+#1 {main}
+  thrown in /codes/datetimeWithMultipleSigns.php on line 2

@@ -2,6 +2,12 @@
 
 datetime With Multiple Signs
 ============================
+There can be only one sign character, when instantiating a DateTime object. 
+
+
+
+Until PHP 8.2, it was possible, though confusing, to use multiple sign ``+`` and ``-``. This is considered a bad practice.
+
 
 
 PHP code
