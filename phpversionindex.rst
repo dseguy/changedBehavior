@@ -41,7 +41,6 @@ Per PHP version
     * :ref:`class_alias()-works-on-internal-classes`
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`range()-with-int-and-string`
-    * :ref:`unserialize()-checks-the-end-of-the-string`
     * :ref:`unserialize()-error-report`
 * 8.2
     * :ref:`constants-in-traits`

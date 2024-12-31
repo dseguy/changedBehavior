@@ -415,9 +415,6 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays_with_strings.html</loc>
  </url>
  <url>
-  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_checks.html</loc>
- </url>
- <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_max_depth.html</loc>
  </url>
  <url>

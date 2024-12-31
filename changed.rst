@@ -143,7 +143,6 @@ PHP Changed Behavior
    behavior/undefinedConstants.rst
    behavior/unpack_arrays.rst
    behavior/unpack_arrays_with_strings.rst
-   behavior/unserialize_checks.rst
    behavior/unserialize_max_depth.rst
    behavior/unserialize_notice.rst
    behavior/unset_cast.rst
