@@ -2,6 +2,22 @@
 
 explode() Forbids Empty Strings
 ===============================
+.. meta::
+	:description:
+		explode() Forbids Empty Strings: explode() doesn't work on empty strings, as delimiter (first argument).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: explode() Forbids Empty Strings
+	:twitter:description: explode() Forbids Empty Strings: explode() doesn't work on empty strings, as delimiter (first argument)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: explode() Forbids Empty Strings
+	:og:type: article
+	:og:description: explode() doesn't work on empty strings, as delimiter (first argument)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/explodeWithEmptyString.html
+	:og:locale: en
+
 explode() doesn't work on empty strings, as delimiter (first argument). It used to be a warning and a returned value of false, it is now a Fatal error. 
 
 PHP code

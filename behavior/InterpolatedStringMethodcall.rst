@@ -2,6 +2,22 @@
 
 Calling Static Methods On Strings
 =================================
+.. meta::
+	:description:
+		Calling Static Methods On Strings: The left operand of the ``::`` operator for methods could not be a literal string, until PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Calling Static Methods On Strings
+	:twitter:description: Calling Static Methods On Strings: The left operand of the ``::`` operator for methods could not be a literal string, until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Calling Static Methods On Strings
+	:og:type: article
+	:og:description: The left operand of the ``::`` operator for methods could not be a literal string, until PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/InterpolatedStringMethodcall.html
+	:og:locale: en
+
 The left operand of the ``::`` operator for methods could not be a literal string, until PHP 8.0. It was not recognized as a valid syntax. 
 
 

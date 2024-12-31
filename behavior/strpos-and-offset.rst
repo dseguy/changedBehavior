@@ -2,6 +2,22 @@
 
 strpos() With Out-Of-Range Offset Is A Fatal Error
 ==================================================
+.. meta::
+	:description:
+		strpos() With Out-Of-Range Offset Is A Fatal Error: Requesting a large offset, beyond the size of the searched string, leads to a Fatal error in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strpos() With Out-Of-Range Offset Is A Fatal Error
+	:twitter:description: strpos() With Out-Of-Range Offset Is A Fatal Error: Requesting a large offset, beyond the size of the searched string, leads to a Fatal error in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: strpos() With Out-Of-Range Offset Is A Fatal Error
+	:og:type: article
+	:og:description: Requesting a large offset, beyond the size of the searched string, leads to a Fatal error in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strpos-and-offset.html
+	:og:locale: en
+
 Requesting a large offset, beyond the size of the searched string, leads to a Fatal error in PHP 8.0 and more recent. 
 
 

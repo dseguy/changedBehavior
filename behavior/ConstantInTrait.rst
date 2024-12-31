@@ -2,6 +2,22 @@
 
 Constants In Trait
 ==================
+.. meta::
+	:description:
+		Constants In Trait: Trait can have constants in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants In Trait
+	:twitter:description: Constants In Trait: Trait can have constants in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Constants In Trait
+	:og:type: article
+	:og:description: Trait can have constants in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/ConstantInTrait.html
+	:og:locale: en
+
 Trait can have constants in PHP 8.3 and later.
 
 PHP code

@@ -2,6 +2,22 @@
 
 vsprintf() Returns Empty String On Error
 ========================================
+.. meta::
+	:description:
+		vsprintf() Returns Empty String On Error: vsprintf() always returns a string, or raise an exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: vsprintf() Returns Empty String On Error
+	:twitter:description: vsprintf() Returns Empty String On Error: vsprintf() always returns a string, or raise an exception
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: vsprintf() Returns Empty String On Error
+	:og:type: article
+	:og:description: vsprintf() always returns a string, or raise an exception
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/vsprintfReturnsEmptyString.html
+	:og:locale: en
+
 vsprintf() always returns a string, or raise an exception. Until PHP 8.0, it used to return false in case of error.
 
 PHP code

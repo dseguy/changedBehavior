@@ -2,6 +2,22 @@
 
 array_key_exists() doesn't work on objects
 ==========================================
+.. meta::
+	:description:
+		array_key_exists() doesn't work on objects: array_key_exists() used to accept arrays and objects, and worked on them indistinctly.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_key_exists() doesn't work on objects
+	:twitter:description: array_key_exists() doesn't work on objects: array_key_exists() used to accept arrays and objects, and worked on them indistinctly
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: array_key_exists() doesn't work on objects
+	:og:type: article
+	:og:description: array_key_exists() used to accept arrays and objects, and worked on them indistinctly
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_key_existsOnObjects.html
+	:og:locale: en
+
 array_key_exists() used to accept arrays and objects, and worked on them indistinctly. 
 
 

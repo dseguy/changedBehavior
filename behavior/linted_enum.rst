@@ -2,6 +2,22 @@
 
 Duplicate Enum Cases Are Not Linted Anymore
 ===========================================
+.. meta::
+	:description:
+		Duplicate Enum Cases Are Not Linted Anymore: Two different cases in an enumeration cannot have duplicate values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate Enum Cases Are Not Linted Anymore
+	:twitter:description: Duplicate Enum Cases Are Not Linted Anymore: Two different cases in an enumeration cannot have duplicate values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Duplicate Enum Cases Are Not Linted Anymore
+	:og:type: article
+	:og:description: Two different cases in an enumeration cannot have duplicate values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/linted_enum.html
+	:og:locale: en
+
 Two different cases in an enumeration cannot have duplicate values. 
 
 

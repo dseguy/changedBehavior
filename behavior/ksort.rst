@@ -2,6 +2,22 @@
 
 ksort() Now Places Integers Before Strings
 ==========================================
+.. meta::
+	:description:
+		ksort() Now Places Integers Before Strings: ksort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ksort() Now Places Integers Before Strings
+	:twitter:description: ksort() Now Places Integers Before Strings: ksort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: ksort() Now Places Integers Before Strings
+	:og:type: article
+	:og:description: ksort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/ksort.html
+	:og:locale: en
+
 ksort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0. 
 
 

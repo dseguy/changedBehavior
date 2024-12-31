@@ -2,6 +2,22 @@
 
 No Abstract Private Method In Traits
 ====================================
+.. meta::
+	:description:
+		No Abstract Private Method In Traits: Until PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Abstract Private Method In Traits
+	:twitter:description: No Abstract Private Method In Traits: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: No Abstract Private Method In Traits
+	:og:type: article
+	:og:description: Until PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/abstractPrivateMethodInTrait.html
+	:og:locale: en
+
 Until PHP 8.0, it was not possible to have abstract private methods in a trait. There was a conflict between the ``abstract``, which required a definition in a child, and ``private`` which prevented it. 
 
 

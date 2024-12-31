@@ -2,6 +2,22 @@
 
 class_alias() Works On Internal Classes
 =======================================
+.. meta::
+	:description:
+		class_alias() Works On Internal Classes: class_alias() makes an alias for a class, an enumeration, an interface or a trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: class_alias() Works On Internal Classes
+	:twitter:description: class_alias() Works On Internal Classes: class_alias() makes an alias for a class, an enumeration, an interface or a trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: class_alias() Works On Internal Classes
+	:og:type: article
+	:og:description: class_alias() makes an alias for a class, an enumeration, an interface or a trait
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/classAliasWithInternalClass.html
+	:og:locale: en
+
 class_alias() makes an alias for a class, an enumeration, an interface or a trait. Until PHP 8.3, it was only possible on custom structures.
 
 PHP code

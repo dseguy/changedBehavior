@@ -2,6 +2,22 @@
 
 throw Is An Expression
 ======================
+.. meta::
+	:description:
+		throw Is An Expression: ``throw`` was a standalone expression: it needed to be alone, between semicolons (or equivalents).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: throw Is An Expression
+	:twitter:description: throw Is An Expression: ``throw`` was a standalone expression: it needed to be alone, between semicolons (or equivalents)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: throw Is An Expression
+	:og:type: article
+	:og:description: ``throw`` was a standalone expression: it needed to be alone, between semicolons (or equivalents)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/throwIsAnExpression.html
+	:og:locale: en
+
 ``throw`` was a standalone expression: it needed to be alone, between semicolons (or equivalents). 
 
 

@@ -2,6 +2,22 @@
 
 krsort() Places Integers Before Strings In Keys
 ===============================================
+.. meta::
+	:description:
+		krsort() Places Integers Before Strings In Keys: krsort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: krsort() Places Integers Before Strings In Keys
+	:twitter:description: krsort() Places Integers Before Strings In Keys: krsort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: krsort() Places Integers Before Strings In Keys
+	:og:type: article
+	:og:description: krsort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/krsort.html
+	:og:locale: en
+
 krsort() used the PHP 7 way to compare values: then, strings would rank below integers, in particular below 0. 
 
 

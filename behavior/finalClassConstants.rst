@@ -2,6 +2,22 @@
 
 Final Class Constants
 =====================
+.. meta::
+	:description:
+		Final Class Constants: Class constants can be made final, starting with PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Class Constants
+	:twitter:description: Final Class Constants: Class constants can be made final, starting with PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Final Class Constants
+	:og:type: article
+	:og:description: Class constants can be made final, starting with PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/finalClassConstants.html
+	:og:locale: en
+
 Class constants can be made final, starting with PHP 8.2.
 
 PHP code

@@ -2,6 +2,22 @@
 
 jsonSerialize Must Have Return Type
 ===================================
+.. meta::
+	:description:
+		jsonSerialize Must Have Return Type: Until PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: jsonSerialize Must Have Return Type
+	:twitter:description: jsonSerialize Must Have Return Type: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: jsonSerialize Must Have Return Type
+	:og:type: article
+	:og:description: Until PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/jsonSerialize.html
+	:og:locale: en
+
 Until PHP 8.1, PHP would not enforce the type compatibility between a native interface and its custom implementation. This was for backward compatibility, and it is now over: PHP checks for type compatibility.
 
 

@@ -2,6 +2,22 @@
 
 Parameter Contravariance
 ========================
+.. meta::
+	:description:
+		Parameter Contravariance: PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parameter Contravariance
+	:twitter:description: Parameter Contravariance: PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Parameter Contravariance
+	:og:type: article
+	:og:description: PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/contravarianceParameter.html
+	:og:locale: en
+
 PHP 7.4 added the support of parameter type contravariance. The parameter type of a child class may be less strict than the one of the parent. 
 
 

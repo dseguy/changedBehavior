@@ -2,6 +2,22 @@
 
 Automatic Index In Non Empty Array
 ==================================
+.. meta::
+	:description:
+		Automatic Index In Non Empty Array: When starting from an array whose maximum key is integer and negative, PHP used to continue assigning indices with 0, instead of the following negative number.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Automatic Index In Non Empty Array
+	:twitter:description: Automatic Index In Non Empty Array: When starting from an array whose maximum key is integer and negative, PHP used to continue assigning indices with 0, instead of the following negative number
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Automatic Index In Non Empty Array
+	:og:type: article
+	:og:description: When starting from an array whose maximum key is integer and negative, PHP used to continue assigning indices with 0, instead of the following negative number
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_next_id.html
+	:og:locale: en
+
 When starting from an array whose maximum key is integer and negative, PHP used to continue assigning indices with 0, instead of the following negative number. It is fixed in PHP 8.0.
 
 PHP code

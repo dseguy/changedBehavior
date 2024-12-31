@@ -2,6 +2,22 @@
 
 array_sum() Checks Operands More Thoroughly
 ===========================================
+.. meta::
+	:description:
+		array_sum() Checks Operands More Thoroughly: array_sum() used to cast the arguments to integers before executing the additions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_sum() Checks Operands More Thoroughly
+	:twitter:description: array_sum() Checks Operands More Thoroughly: array_sum() used to cast the arguments to integers before executing the additions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: array_sum() Checks Operands More Thoroughly
+	:og:type: article
+	:og:description: array_sum() used to cast the arguments to integers before executing the additions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/arraySumChecks.html
+	:og:locale: en
+
 array_sum() used to cast the arguments to integers before executing the additions. Nowadays, the strange types raise a warning, as illustrated here with the array. 
 
 PHP code

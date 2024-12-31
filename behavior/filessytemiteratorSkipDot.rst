@@ -2,6 +2,22 @@
 
 FilessytemIterator Skips Dot Files
 ==================================
+.. meta::
+	:description:
+		FilessytemIterator Skips Dot Files: FilessytemIterator class used to list the current directory ``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: FilessytemIterator Skips Dot Files
+	:twitter:description: FilessytemIterator Skips Dot Files: FilessytemIterator class used to list the current directory ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: FilessytemIterator Skips Dot Files
+	:og:type: article
+	:og:description: FilessytemIterator class used to list the current directory ``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/filessytemiteratorSkipDot.html
+	:og:locale: en
+
 FilessytemIterator class used to list the current directory ``.`` and the parent directory ``..``. Files starting with a dot were and are still listed. 
 
 

@@ -2,6 +2,22 @@
 
 Base Conversion Reports Invalid Characters
 ==========================================
+.. meta::
+	:description:
+		Base Conversion Reports Invalid Characters: The base conversion functions, such as octdec(), base_convert(), binhex() or hexdex() used to ignore silently invalid characters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Base Conversion Reports Invalid Characters
+	:twitter:description: Base Conversion Reports Invalid Characters: The base conversion functions, such as octdec(), base_convert(), binhex() or hexdex() used to ignore silently invalid characters
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Base Conversion Reports Invalid Characters
+	:og:type: article
+	:og:description: The base conversion functions, such as octdec(), base_convert(), binhex() or hexdex() used to ignore silently invalid characters
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/InvalidBaseCharacter.html
+	:og:locale: en
+
 The base conversion functions, such as octdec(), base_convert(), binhex() or hexdex() used to ignore silently invalid characters. Invalid characters are the characters that do no belong to the base: for example, 2 or 3 in binary, or a in decimal, or g in hexadecimal.
 
 

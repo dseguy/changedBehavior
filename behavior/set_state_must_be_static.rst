@@ -2,6 +2,22 @@
 
 __set_state() Method Must Be Static
 ===================================
+.. meta::
+	:description:
+		__set_state() Method Must Be Static: Starting with PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __set_state() Method Must Be Static
+	:twitter:description: __set_state() Method Must Be Static: Starting with PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: __set_state() Method Must Be Static
+	:og:type: article
+	:og:description: Starting with PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/set_state_must_be_static.html
+	:og:locale: en
+
 Starting with PHP 8.0, the magic method __set_state() must be static when declared in a class.
 
 PHP code

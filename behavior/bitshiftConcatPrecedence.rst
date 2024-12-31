@@ -2,6 +2,22 @@
 
 Bitshift And Concat Precedence
 ==============================
+.. meta::
+	:description:
+		Bitshift And Concat Precedence: << and >> and .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bitshift And Concat Precedence
+	:twitter:description: Bitshift And Concat Precedence: << and >> and 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Bitshift And Concat Precedence
+	:og:type: article
+	:og:description: << and >> and 
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/bitshiftConcatPrecedence.html
+	:og:locale: en
+
 << and >> and . (dot) operators used to have the same priority. Thus, they used to be processed one after the other, from left to right. 
 
 

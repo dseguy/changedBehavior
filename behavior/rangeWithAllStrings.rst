@@ -2,6 +2,22 @@
 
 range() Lists Everything Between Strings
 ========================================
+.. meta::
+	:description:
+		range() Lists Everything Between Strings: range() used to cast the arguments to integers.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: range() Lists Everything Between Strings
+	:twitter:description: range() Lists Everything Between Strings: range() used to cast the arguments to integers
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: range() Lists Everything Between Strings
+	:og:type: article
+	:og:description: range() used to cast the arguments to integers
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/rangeWithAllStrings.html
+	:og:locale: en
+
 range() used to cast the arguments to integers. In PHP 8.3, strings are used as is, and range() returns the list of chars between the ASCII codes of those strings. 
 
 PHP code

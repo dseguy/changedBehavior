@@ -2,6 +2,22 @@
 
 Static Variable Accepts Functioncalls As Default
 ================================================
+.. meta::
+	:description:
+		Static Variable Accepts Functioncalls As Default: Static variables are actually variables: as such, they can be inited with the result of a functioncall.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Variable Accepts Functioncalls As Default
+	:twitter:description: Static Variable Accepts Functioncalls As Default: Static variables are actually variables: as such, they can be inited with the result of a functioncall
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Static Variable Accepts Functioncalls As Default
+	:og:type: article
+	:og:description: Static variables are actually variables: as such, they can be inited with the result of a functioncall
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/staticVariableWithArbitraryDefault.html
+	:og:locale: en
+
 Static variables are actually variables: as such, they can be inited with the result of a functioncall. 
 
 

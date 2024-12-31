@@ -2,6 +2,22 @@
 
 Unpack Array With String Keys
 =============================
+.. meta::
+	:description:
+		Unpack Array With String Keys: In PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unpack Array With String Keys
+	:twitter:description: Unpack Array With String Keys: In PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Unpack Array With String Keys
+	:og:type: article
+	:og:description: In PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unpack_arrays_with_strings.html
+	:og:locale: en
+
 In PHP 7.4, the ellipsis operator was introduced to unpack arrays. Initially, it only supported integer keys, and not string keys. This was introduced in PHP 8.0.
 
 PHP code

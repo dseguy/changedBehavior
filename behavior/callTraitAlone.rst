@@ -2,6 +2,22 @@
 
 Cannot Call Traits Methods Directly
 ===================================
+.. meta::
+	:description:
+		Cannot Call Traits Methods Directly: Traits used to be called directly, like a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot Call Traits Methods Directly
+	:twitter:description: Cannot Call Traits Methods Directly: Traits used to be called directly, like a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Cannot Call Traits Methods Directly
+	:og:type: article
+	:og:description: Traits used to be called directly, like a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/callTraitAlone.html
+	:og:locale: en
+
 Traits used to be called directly, like a class. In PHP 8.1, this feature has been removed. The methods, properties or constants of the trait must be called in the context of their host class.
 
 PHP code

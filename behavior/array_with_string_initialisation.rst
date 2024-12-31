@@ -2,6 +2,22 @@
 
 Array Usage With String Initialisation
 ======================================
+.. meta::
+	:description:
+		Array Usage With String Initialisation: String and arrays share the same syntax when using integer index: it accesses one element in the array or string, to reading or modifying.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array Usage With String Initialisation
+	:twitter:description: Array Usage With String Initialisation: String and arrays share the same syntax when using integer index: it accesses one element in the array or string, to reading or modifying
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Array Usage With String Initialisation
+	:og:type: article
+	:og:description: String and arrays share the same syntax when using integer index: it accesses one element in the array or string, to reading or modifying
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/array_with_string_initialisation.html
+	:og:locale: en
+
 String and arrays share the same syntax when using integer index: it accesses one element in the array or string, to reading or modifying. 
 
 

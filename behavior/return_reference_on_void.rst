@@ -2,6 +2,22 @@
 
 Return Reference On Void
 ========================
+.. meta::
+	:description:
+		Return Reference On Void: There are methods that return void.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return Reference On Void
+	:twitter:description: Return Reference On Void: There are methods that return void
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Return Reference On Void
+	:og:type: article
+	:og:description: There are methods that return void
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/return_reference_on_void.html
+	:og:locale: en
+
 There are methods that return void; and methods that return a reference. Until PHP 8.1, they could be the same, although a Notice was emitted. This is now deprecated behavior in PHP 8.1, and shall disappear in PHP 9.
 
 PHP code

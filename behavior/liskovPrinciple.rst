@@ -2,6 +2,22 @@
 
 Covariance And Contravariance Are Fatal
 =======================================
+.. meta::
+	:description:
+		Covariance And Contravariance Are Fatal: Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Covariance And Contravariance Are Fatal
+	:twitter:description: Covariance And Contravariance Are Fatal: Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Covariance And Contravariance Are Fatal
+	:og:type: article
+	:og:description: Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/liskovPrinciple.html
+	:og:locale: en
+
 Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning. It is not a fatal error, altought it is only checked at execution time, when all the classes are loaded.
 
 PHP code

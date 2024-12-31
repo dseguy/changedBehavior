@@ -2,6 +2,22 @@
 
 count() Must Count Countable
 ============================
+.. meta::
+	:description:
+		count() Must Count Countable: PHP used to count any kind of value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: count() Must Count Countable
+	:twitter:description: count() Must Count Countable: PHP used to count any kind of value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: count() Must Count Countable
+	:og:type: article
+	:og:description: PHP used to count any kind of value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/countUncountable.html
+	:og:locale: en
+
 PHP used to count any kind of value. Most values would then be counted as one. This is not possible anymore in PHP 8.0. It requires an array or a ``countable`` object. This can be tested with ``is_countable``.
 
 PHP code

@@ -2,6 +2,22 @@
 
 Dot And Minus Changed Precedence
 ================================
+.. meta::
+	:description:
+		Dot And Minus Changed Precedence: The dot (concatenation) and substraction - operators have a distinct priority in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dot And Minus Changed Precedence
+	:twitter:description: Dot And Minus Changed Precedence: The dot (concatenation) and substraction - operators have a distinct priority in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Dot And Minus Changed Precedence
+	:og:type: article
+	:og:description: The dot (concatenation) and substraction - operators have a distinct priority in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/dotAndMinus.html
+	:og:locale: en
+
 The dot (concatenation) and substraction - operators have a distinct priority in PHP 8.0. In particular, - has now precedence. 
 
 PHP code

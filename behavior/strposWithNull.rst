@@ -2,6 +2,22 @@
 
 strpos() Does Not Accept Null As Second Parameter
 =================================================
+.. meta::
+	:description:
+		strpos() Does Not Accept Null As Second Parameter: strpos() and stripos() used to accept NULL as second argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strpos() Does Not Accept Null As Second Parameter
+	:twitter:description: strpos() Does Not Accept Null As Second Parameter: strpos() and stripos() used to accept NULL as second argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: strpos() Does Not Accept Null As Second Parameter
+	:og:type: article
+	:og:description: strpos() and stripos() used to accept NULL as second argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strposWithNull.html
+	:og:locale: en
+
 strpos() and stripos() used to accept NULL as second argument. This was deprecated with a warning, and then removed in PHP 8.
 
 PHP code

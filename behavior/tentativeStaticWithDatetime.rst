@@ -2,6 +2,22 @@
 
 Tentative Static Returntype With Datetime
 =========================================
+.. meta::
+	:description:
+		Tentative Static Returntype With Datetime: The createFromImmutable() method from DateTime and DateTimeImmutable always returns an object of the same class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Tentative Static Returntype With Datetime
+	:twitter:description: Tentative Static Returntype With Datetime: The createFromImmutable() method from DateTime and DateTimeImmutable always returns an object of the same class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Tentative Static Returntype With Datetime
+	:og:type: article
+	:og:description: The createFromImmutable() method from DateTime and DateTimeImmutable always returns an object of the same class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/tentativeStaticWithDatetime.html
+	:og:locale: en
+
 The createFromImmutable() method from DateTime and DateTimeImmutable always returns an object of the same class. In PHP 8.2 and later, the return type is now ``static``, it will tentatively return a children class, when the method is called from that child class.
 
 PHP code

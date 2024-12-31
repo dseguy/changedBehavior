@@ -2,6 +2,22 @@
 
 Trailing Comma In Calls
 =======================
+.. meta::
+	:description:
+		Trailing Comma In Calls: Trailing commas in parameters is the last parameter left empty.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Trailing Comma In Calls
+	:twitter:description: Trailing Comma In Calls: Trailing commas in parameters is the last parameter left empty
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Trailing Comma In Calls
+	:og:type: article
+	:og:description: Trailing commas in parameters is the last parameter left empty
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/trailingCommaInCalls.html
+	:og:locale: en
+
 Trailing commas in parameters is the last parameter left empty. This last parameter is not transmitted, so the last comma has no effect. This feature is useful when parameters are kept on a different line : the last argument has now also a comma, and adding one extra argument will yield a one line diff, compared to the previous version. Without it, the diff would be two lines, and include the preceding line. 
 
 PHP code

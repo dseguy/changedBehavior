@@ -2,6 +2,22 @@
 
 range() With Int And String
 ===========================
+.. meta::
+	:description:
+		range() With Int And String: range() now emits a warning when one of the argument is a string, and the other is an integer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: range() With Int And String
+	:twitter:description: range() With Int And String: range() now emits a warning when one of the argument is a string, and the other is an integer
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: range() With Int And String
+	:og:type: article
+	:og:description: range() now emits a warning when one of the argument is a string, and the other is an integer
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/rangeWithIntAndString.html
+	:og:locale: en
+
 range() now emits a warning when one of the argument is a string, and the other is an integer. It still behaves like before, and cast the string to an integer.
 
 PHP code

@@ -2,6 +2,22 @@
 
 Default Values With htmlspecialchars()
 ======================================
+.. meta::
+	:description:
+		Default Values With htmlspecialchars(): The default values of htmlspecialchars() were changed in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Default Values With htmlspecialchars()
+	:twitter:description: Default Values With htmlspecialchars(): The default values of htmlspecialchars() were changed in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Default Values With htmlspecialchars()
+	:og:type: article
+	:og:description: The default values of htmlspecialchars() were changed in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/htmlspecialchars81.html
+	:og:locale: en
+
 The default values of htmlspecialchars() were changed in PHP 8.1. It was ENT_COMPAT and it is now replaced with ``ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401``.
 
 

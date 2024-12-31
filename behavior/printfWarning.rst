@@ -2,6 +2,22 @@
 
 printf() Warns About Unknown Formats
 ====================================
+.. meta::
+	:description:
+		printf() Warns About Unknown Formats: printf(), and its related functions, reports unknown format specifiers.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: printf() Warns About Unknown Formats
+	:twitter:description: printf() Warns About Unknown Formats: printf(), and its related functions, reports unknown format specifiers
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: printf() Warns About Unknown Formats
+	:og:type: article
+	:og:description: printf(), and its related functions, reports unknown format specifiers
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/printfWarning.html
+	:og:locale: en
+
 printf(), and its related functions, reports unknown format specifiers. The format specifiers are letters that format the data, passed in later arguments. 
 
 

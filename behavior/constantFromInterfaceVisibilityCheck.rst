@@ -2,6 +2,22 @@
 
 Interface Imported Constant Visibility Is Checked
 =================================================
+.. meta::
+	:description:
+		Interface Imported Constant Visibility Is Checked: Constant and methods visibility must be public when they are defined in an interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interface Imported Constant Visibility Is Checked
+	:twitter:description: Interface Imported Constant Visibility Is Checked: Constant and methods visibility must be public when they are defined in an interface
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Interface Imported Constant Visibility Is Checked
+	:og:type: article
+	:og:description: Constant and methods visibility must be public when they are defined in an interface
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/constantFromInterfaceVisibilityCheck.html
+	:og:locale: en
+
 Constant and methods visibility must be public when they are defined in an interface. When they are implemented in a class, they also need to be public. Until PHP 8.3, this was silently ignored, and made public. 
 
 PHP code

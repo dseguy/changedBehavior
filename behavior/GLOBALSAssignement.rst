@@ -2,6 +2,22 @@
 
 $GLOBALS Assignement
 ====================
+.. meta::
+	:description:
+		$GLOBALS Assignement: It is not possible to assign the ``$GLOBALS`` variable anymore.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $GLOBALS Assignement
+	:twitter:description: $GLOBALS Assignement: It is not possible to assign the ``$GLOBALS`` variable anymore
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: $GLOBALS Assignement
+	:og:type: article
+	:og:description: It is not possible to assign the ``$GLOBALS`` variable anymore
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/GLOBALSAssignement.html
+	:og:locale: en
+
 It is not possible to assign the ``$GLOBALS`` variable anymore. The individual values may still be assigned directly. 
 
 PHP code

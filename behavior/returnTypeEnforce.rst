@@ -2,6 +2,22 @@
 
 PHP native return types are now enforced
 ========================================
+.. meta::
+	:description:
+		PHP native return types are now enforced: PHP provides native interfaces: they include methods and their type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP native return types are now enforced
+	:twitter:description: PHP native return types are now enforced: PHP provides native interfaces: they include methods and their type
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: PHP native return types are now enforced
+	:og:type: article
+	:og:description: PHP provides native interfaces: they include methods and their type
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/returnTypeEnforce.html
+	:og:locale: en
+
 PHP provides native interfaces: they include methods and their type. Until PHP 8.1, such types were not enforced, for backward compatibility reasons. Nowadays, these types are enforced, just like any other interface. It makes PHP native interfaces on the same footing as custom interfaces.
 
 

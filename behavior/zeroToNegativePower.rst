@@ -2,6 +2,22 @@
 
 Cannot Raise Zero To Negative Powers
 ====================================
+.. meta::
+	:description:
+		Cannot Raise Zero To Negative Powers: Raising 0 to a negative power used to generate a INF value (infinity).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot Raise Zero To Negative Powers
+	:twitter:description: Cannot Raise Zero To Negative Powers: Raising 0 to a negative power used to generate a INF value (infinity)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Cannot Raise Zero To Negative Powers
+	:og:type: article
+	:og:description: Raising 0 to a negative power used to generate a INF value (infinity)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/zeroToNegativePower.html
+	:og:locale: en
+
 Raising 0 to a negative power used to generate a INF value (infinity). The standard behavior is to generate a DivisionByZeroError, as this is not mathematically allowed. This behavior is deprecated in PHP 8.4, and will be removed in PHP 8.4. During the transition, a function called fpow() is provided, with the new behavior.
 
 PHP code

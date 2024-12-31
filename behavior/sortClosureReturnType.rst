@@ -2,6 +2,22 @@
 
 Sorting Closure Must Return Integers
 ====================================
+.. meta::
+	:description:
+		Sorting Closure Must Return Integers: Comparison closures used in custom sorting need to return an integer, while they could yield true or false.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sorting Closure Must Return Integers
+	:twitter:description: Sorting Closure Must Return Integers: Comparison closures used in custom sorting need to return an integer, while they could yield true or false
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Sorting Closure Must Return Integers
+	:og:type: article
+	:og:description: Comparison closures used in custom sorting need to return an integer, while they could yield true or false
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/sortClosureReturnType.html
+	:og:locale: en
+
 Comparison closures used in custom sorting need to return an integer, while they could yield true or false. This applies to all sorting functions, including usort(), uasort(), and uksort().
 
 PHP code

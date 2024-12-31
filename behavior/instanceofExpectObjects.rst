@@ -2,6 +2,22 @@
 
 instanceof Expect Objects
 =========================
+.. meta::
+	:description:
+		instanceof Expect Objects: PHP used to report a fatal error when provided with a value that is not an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: instanceof Expect Objects
+	:twitter:description: instanceof Expect Objects: PHP used to report a fatal error when provided with a value that is not an object
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: instanceof Expect Objects
+	:og:type: article
+	:og:description: PHP used to report a fatal error when provided with a value that is not an object
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/instanceofExpectObjects.html
+	:og:locale: en
+
 PHP used to report a fatal error when provided with a value that is not an object. After PHP 7.3, it would return false in such case, and not break the execution.
 
 PHP code

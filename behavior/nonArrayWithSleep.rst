@@ -2,6 +2,22 @@
 
 __sleep() Method Enforces Return Type
 =====================================
+.. meta::
+	:description:
+		__sleep() Method Enforces Return Type: __sleep is a magic method that lists the name of the variables to serialize.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __sleep() Method Enforces Return Type
+	:twitter:description: __sleep() Method Enforces Return Type: __sleep is a magic method that lists the name of the variables to serialize
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: __sleep() Method Enforces Return Type
+	:og:type: article
+	:og:description: __sleep is a magic method that lists the name of the variables to serialize
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/nonArrayWithSleep.html
+	:og:locale: en
+
 __sleep is a magic method that lists the name of the variables to serialize. It should come as an array, and is enforced as such since PHP 8.0.
 
 PHP code

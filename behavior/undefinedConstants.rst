@@ -2,6 +2,22 @@
 
 Undefined Constants
 ===================
+.. meta::
+	:description:
+		Undefined Constants: Undefined global constants used to fallback to their equivalent string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Constants
+	:twitter:description: Undefined Constants: Undefined global constants used to fallback to their equivalent string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Undefined Constants
+	:og:type: article
+	:og:description: Undefined global constants used to fallback to their equivalent string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/undefinedConstants.html
+	:og:locale: en
+
 Undefined global constants used to fallback to their equivalent string. It would keep the execution going, too. In PHP 8.0, such mistake is a Fatal Error
 
 PHP code

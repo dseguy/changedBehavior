@@ -2,6 +2,22 @@
 
 datetime With Multiple Signs
 ============================
+.. meta::
+	:description:
+		datetime With Multiple Signs: There can be only one sign character, when instantiating a DateTime object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: datetime With Multiple Signs
+	:twitter:description: datetime With Multiple Signs: There can be only one sign character, when instantiating a DateTime object
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: datetime With Multiple Signs
+	:og:type: article
+	:og:description: There can be only one sign character, when instantiating a DateTime object
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/datetimeWithMultipleSigns.html
+	:og:locale: en
+
 There can be only one sign character, when instantiating a DateTime object. 
 
 

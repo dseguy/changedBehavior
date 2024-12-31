@@ -2,6 +2,22 @@
 
 Interface Constant Visibility Checks
 ====================================
+.. meta::
+	:description:
+		Interface Constant Visibility Checks: PHP checks if the visibility of constants that are also part of an interface are all public.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interface Constant Visibility Checks
+	:twitter:description: Interface Constant Visibility Checks: PHP checks if the visibility of constants that are also part of an interface are all public
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Interface Constant Visibility Checks
+	:og:type: article
+	:og:description: PHP checks if the visibility of constants that are also part of an interface are all public
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/interfaceConstantVisibilityCheck.html
+	:og:locale: en
+
 PHP checks if the visibility of constants that are also part of an interface are all public. If the class constant, in the class, is not public, it is a Fatal Error. This was not checked until PHP 8.3.
 
 PHP code

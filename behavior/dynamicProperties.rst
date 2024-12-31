@@ -2,6 +2,22 @@
 
 No Dynamic Properties By Default
 ================================
+.. meta::
+	:description:
+		No Dynamic Properties By Default: Properties never required a definition before usage, just like variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Dynamic Properties By Default
+	:twitter:description: No Dynamic Properties By Default: Properties never required a definition before usage, just like variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: No Dynamic Properties By Default
+	:og:type: article
+	:og:description: Properties never required a definition before usage, just like variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/dynamicProperties.html
+	:og:locale: en
+
 Properties never required a definition before usage, just like variables. They could be added at any moment in any object. 
 
 

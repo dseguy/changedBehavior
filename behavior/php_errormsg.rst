@@ -2,6 +2,22 @@
 
 $php_errormsg has been removed
 ==============================
+.. meta::
+	:description:
+		$php_errormsg has been removed: $php_errormsg used to hold the message of the last error that PHP emitted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $php_errormsg has been removed
+	:twitter:description: $php_errormsg has been removed: $php_errormsg used to hold the message of the last error that PHP emitted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: $php_errormsg has been removed
+	:og:type: article
+	:og:description: $php_errormsg used to hold the message of the last error that PHP emitted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/php_errormsg.html
+	:og:locale: en
+
 $php_errormsg used to hold the message of the last error that PHP emitted. This is a feature handled by the error_get_last() function. 
 
 

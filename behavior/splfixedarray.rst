@@ -2,6 +2,22 @@
 
 SplFixedArray Is Now An IteratorAggregate
 =========================================
+.. meta::
+	:description:
+		SplFixedArray Is Now An IteratorAggregate: SplFixedArray used to be a Iterator, and is now a IteratorAggregate.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SplFixedArray Is Now An IteratorAggregate
+	:twitter:description: SplFixedArray Is Now An IteratorAggregate: SplFixedArray used to be a Iterator, and is now a IteratorAggregate
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: SplFixedArray Is Now An IteratorAggregate
+	:og:type: article
+	:og:description: SplFixedArray used to be a Iterator, and is now a IteratorAggregate
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/splfixedarray.html
+	:og:locale: en
+
 SplFixedArray used to be a Iterator, and is now a IteratorAggregate. 
 
 

@@ -2,6 +2,22 @@
 
 Backed Enum Values Needed To Compile
 ====================================
+.. meta::
+	:description:
+		Backed Enum Values Needed To Compile: In PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Backed Enum Values Needed To Compile
+	:twitter:description: Backed Enum Values Needed To Compile: In PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Backed Enum Values Needed To Compile
+	:og:type: article
+	:og:description: In PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/backed_enum_constant_check.html
+	:og:locale: en
+
 In PHP 8.1, the backed enums needed to be a completely processable at compile time. In particular, using other constants, global or class, was not possible. 
 
 

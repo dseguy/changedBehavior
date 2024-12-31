@@ -2,6 +2,22 @@
 
 Constants In Traits
 ===================
+.. meta::
+	:description:
+		Constants In Traits: Constants are allowed in traits in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants In Traits
+	:twitter:description: Constants In Traits: Constants are allowed in traits in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Constants In Traits
+	:og:type: article
+	:og:description: Constants are allowed in traits in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/traitWithConstants.html
+	:og:locale: en
+
 Constants are allowed in traits in PHP 8.3 and more recent. Until then, they were not supported.
 
 PHP code

@@ -2,6 +2,22 @@
 
 Implicit Array Key Conversion
 =============================
+.. meta::
+	:description:
+		Implicit Array Key Conversion: Array keys accept only string and integer types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implicit Array Key Conversion
+	:twitter:description: Implicit Array Key Conversion: Array keys accept only string and integer types
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Implicit Array Key Conversion
+	:og:type: article
+	:og:description: Array keys accept only string and integer types
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/implicitConversionToInt.html
+	:og:locale: en
+
 Array keys accept only string and integer types. When providing a float, PHP used to convert it to an int. It still does, in PHP 8.1, though it now emits a deprecation warning.
 
 PHP code

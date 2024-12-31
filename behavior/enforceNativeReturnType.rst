@@ -2,6 +2,22 @@
 
 Enforcing Native PHP ReturnType
 ===============================
+.. meta::
+	:description:
+		Enforcing Native PHP ReturnType: Until PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Enforcing Native PHP ReturnType
+	:twitter:description: Enforcing Native PHP ReturnType: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Enforcing Native PHP ReturnType
+	:og:type: article
+	:og:description: Until PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/enforceNativeReturnType.html
+	:og:locale: en
+
 Until PHP 8.0, PHP would not enforce the return types in its own interfaces. Incompatible signatures were possible. 
 
 

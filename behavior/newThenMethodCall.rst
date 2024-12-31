@@ -2,6 +2,22 @@
 
 Call Method On New
 ==================
+.. meta::
+	:description:
+		Call Method On New: It was not possible to call a method directly after instantiating an object: the instantiation had to be done within a parenthesis.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Call Method On New
+	:twitter:description: Call Method On New: It was not possible to call a method directly after instantiating an object: the instantiation had to be done within a parenthesis
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Call Method On New
+	:og:type: article
+	:og:description: It was not possible to call a method directly after instantiating an object: the instantiation had to be done within a parenthesis
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/newThenMethodCall.html
+	:og:locale: en
+
 It was not possible to call a method directly after instantiating an object: the instantiation had to be done within a parenthesis. 
 
 

@@ -2,6 +2,22 @@
 
 implode() Arguments Order
 =========================
+.. meta::
+	:description:
+		implode() Arguments Order: Until PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: implode() Arguments Order
+	:twitter:description: implode() Arguments Order: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: implode() Arguments Order
+	:og:type: article
+	:og:description: Until PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/imploderOrder.html
+	:og:locale: en
+
 Until PHP 8.0, it was possible to call implode() with a random order of argument : string first, or array first. PHP would figure out which one to use. 
 
 

@@ -2,6 +2,22 @@
 
 min() Doesn't Accept Empty Arrays
 =================================
+.. meta::
+	:description:
+		min() Doesn't Accept Empty Arrays: min() doesn't accept empty arrays anymore.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: min() Doesn't Accept Empty Arrays
+	:twitter:description: min() Doesn't Accept Empty Arrays: min() doesn't accept empty arrays anymore
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: min() Doesn't Accept Empty Arrays
+	:og:type: article
+	:og:description: min() doesn't accept empty arrays anymore
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/minOnEmptyArray.html
+	:og:locale: en
+
 min() doesn't accept empty arrays anymore. It used to, and returned false, which is a type away from 0. 
 
 

@@ -2,6 +2,22 @@
 
 Duplicate Static Definition
 ===========================
+.. meta::
+	:description:
+		Duplicate Static Definition: PHP reports when the same static variable has been declared twice in the same context.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate Static Definition
+	:twitter:description: Duplicate Static Definition: PHP reports when the same static variable has been declared twice in the same context
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Duplicate Static Definition
+	:og:type: article
+	:og:description: PHP reports when the same static variable has been declared twice in the same context
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/duplicateStaticDefinition.html
+	:og:locale: en
+
 PHP reports when the same static variable has been declared twice in the same context.
 
 PHP code

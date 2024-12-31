@@ -2,6 +2,22 @@
 
 String To Integer Comparison
 ============================
+.. meta::
+	:description:
+		String To Integer Comparison: The comparison between a string and an integer has changed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: String To Integer Comparison
+	:twitter:description: String To Integer Comparison: The comparison between a string and an integer has changed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: String To Integer Comparison
+	:og:type: article
+	:og:description: The comparison between a string and an integer has changed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/stringIntegerComparison.html
+	:og:locale: en
+
 The comparison between a string and an integer has changed. In particular, PHP 7 used to convert both operands to integer before comparison, leading to 0 and any string being equal. 
 
 

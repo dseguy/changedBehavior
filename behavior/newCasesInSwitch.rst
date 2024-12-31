@@ -2,6 +2,22 @@
 
 New Cases In Switch
 ===================
+.. meta::
+	:description:
+		New Cases In Switch: With PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Cases In Switch
+	:twitter:description: New Cases In Switch: With PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: New Cases In Switch
+	:og:type: article
+	:og:description: With PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/newCasesInSwitch.html
+	:og:locale: en
+
 With PHP 8.0, the result of comparisons between empty values, such as 0, ``''`` (empty string), or ``[]`` (empty array), have changed. The impact is obvious with the ``==`` operator, and it is less obvious with ``switch``, which relies on the same underlying code.
 
 

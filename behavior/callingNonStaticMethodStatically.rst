@@ -2,6 +2,22 @@
 
 Calling Non-Static Method Statically
 ====================================
+.. meta::
+	:description:
+		Calling Non-Static Method Statically: Calling non-static method statically has been deprecated for a long time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Calling Non-Static Method Statically
+	:twitter:description: Calling Non-Static Method Statically: Calling non-static method statically has been deprecated for a long time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Calling Non-Static Method Statically
+	:og:type: article
+	:og:description: Calling non-static method statically has been deprecated for a long time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/callingNonStaticMethodStatically.html
+	:og:locale: en
+
 Calling non-static method statically has been deprecated for a long time. 
 
 

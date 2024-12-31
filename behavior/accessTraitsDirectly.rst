@@ -2,6 +2,22 @@
 
 Accessing Trait Resources Directly Is Not Allowed
 =================================================
+.. meta::
+	:description:
+		Accessing Trait Resources Directly Is Not Allowed: It is not possible anymore to use traits just like a standalone class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Accessing Trait Resources Directly Is Not Allowed
+	:twitter:description: Accessing Trait Resources Directly Is Not Allowed: It is not possible anymore to use traits just like a standalone class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Accessing Trait Resources Directly Is Not Allowed
+	:og:type: article
+	:og:description: It is not possible anymore to use traits just like a standalone class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/accessTraitsDirectly.html
+	:og:locale: en
+
 It is not possible anymore to use traits just like a standalone class. As such, accessing methods, properties (and later constants) directly on the trait is not allowed anymore in PHP 8.1 and later. The feature might be removed in PHP 9.0.
 
 Only static resources were accessible via the trait, as it is not possible to instantiate a trait without a class. 

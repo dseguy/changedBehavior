@@ -2,6 +2,22 @@
 
 Returntype Covariance
 =====================
+.. meta::
+	:description:
+		Returntype Covariance: PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Returntype Covariance
+	:twitter:description: Returntype Covariance: PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Returntype Covariance
+	:og:type: article
+	:og:description: PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/covarianceReturntype.html
+	:og:locale: en
+
 PHP 7.4 added the support of return type covariance. The return type of a child class may be more strict than the one of the parent. 
 
 

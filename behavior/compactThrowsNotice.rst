@@ -2,6 +2,22 @@
 
 compact() Throws Notice On Missing Variable
 ===========================================
+.. meta::
+	:description:
+		compact() Throws Notice On Missing Variable: compact() collects variables in an array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: compact() Throws Notice On Missing Variable
+	:twitter:description: compact() Throws Notice On Missing Variable: compact() collects variables in an array
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: compact() Throws Notice On Missing Variable
+	:og:type: article
+	:og:description: compact() collects variables in an array
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/compactThrowsNotice.html
+	:og:locale: en
+
 compact() collects variables in an array. When trying to compact() variable that don't exist, compact() now emits warnings to signal the missing variables. They might be removed or created.
 
 

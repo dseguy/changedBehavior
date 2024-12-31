@@ -2,6 +2,22 @@
 
 No Reference To $GLOBALS Variable
 =================================
+.. meta::
+	:description:
+		No Reference To $GLOBALS Variable: Since PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Reference To $GLOBALS Variable
+	:twitter:description: No Reference To $GLOBALS Variable: Since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: No Reference To $GLOBALS Variable
+	:og:type: article
+	:og:description: Since PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/NoReferenceToGLOBALS.html
+	:og:locale: en
+
 Since PHP 8.2, it is not possible anymore to create a reference to the $GLOBALS variable. It prevents any unexpected updates to this array.
 
 

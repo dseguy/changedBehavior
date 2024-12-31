@@ -2,6 +2,22 @@
 
 Ternary Associativity
 =====================
+.. meta::
+	:description:
+		Ternary Associativity: The ternary operator used to have a left associativity : it would process first the ``then`` and ``else`` clauses, before executing itself.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ternary Associativity
+	:twitter:description: Ternary Associativity: The ternary operator used to have a left associativity : it would process first the ``then`` and ``else`` clauses, before executing itself
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Ternary Associativity
+	:og:type: article
+	:og:description: The ternary operator used to have a left associativity : it would process first the ``then`` and ``else`` clauses, before executing itself
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/ternaryAssociativity.html
+	:og:locale: en
+
 The ternary operator used to have a left associativity : it would process first the ``then`` and ``else`` clauses, before executing itself.
 
 Since PHP 8.0, the ternary operator produces a fatal error when the nested ternaries are ambiguous.

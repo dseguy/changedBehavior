@@ -2,6 +2,22 @@
 
 newver Is Now A Keyword
 =======================
+.. meta::
+	:description:
+		newver Is Now A Keyword: Never became a PHP reserved keyword in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: newver Is Now A Keyword
+	:twitter:description: newver Is Now A Keyword: Never became a PHP reserved keyword in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: newver Is Now A Keyword
+	:og:type: article
+	:og:description: Never became a PHP reserved keyword in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/neverKeyword.html
+	:og:locale: en
+
 Never became a PHP reserved keyword in PHP 8.1. It is used as special type, and cannot be used anymore for function names, classnames, etc.
 
 PHP code

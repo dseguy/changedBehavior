@@ -2,6 +2,22 @@
 
 str_replace() On Arrays Of Objects
 ==================================
+.. meta::
+	:description:
+		str_replace() On Arrays Of Objects: str_replace() accepts an array of strings as third argument: it applies all the replacements to all the strings in that arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: str_replace() On Arrays Of Objects
+	:twitter:description: str_replace() On Arrays Of Objects: str_replace() accepts an array of strings as third argument: it applies all the replacements to all the strings in that arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: str_replace() On Arrays Of Objects
+	:og:type: article
+	:og:description: str_replace() accepts an array of strings as third argument: it applies all the replacements to all the strings in that arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/str_replaceOnArraysOfObjects.html
+	:og:locale: en
+
 str_replace() accepts an array of strings as third argument: it applies all the replacements to all the strings in that arguments.
 
 

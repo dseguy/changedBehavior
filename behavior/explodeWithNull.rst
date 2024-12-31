@@ -2,6 +2,22 @@
 
 Cannot Explode() Null
 =====================
+.. meta::
+	:description:
+		Cannot Explode() Null: Null used to be a valid argument for explode(), used as an empty string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot Explode() Null
+	:twitter:description: Cannot Explode() Null: Null used to be a valid argument for explode(), used as an empty string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Cannot Explode() Null
+	:og:type: article
+	:og:description: Null used to be a valid argument for explode(), used as an empty string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/explodeWithNull.html
+	:og:locale: en
+
 Null used to be a valid argument for explode(), used as an empty string. Nowadays, PHP requires an actual string to explode.
 
 PHP code

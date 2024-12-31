@@ -2,6 +2,22 @@
 
 Typed Class Constant
 ====================
+.. meta::
+	:description:
+		Typed Class Constant: Support for typed class constants was added in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typed Class Constant
+	:twitter:description: Typed Class Constant: Support for typed class constants was added in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Typed Class Constant
+	:og:type: article
+	:og:description: Support for typed class constants was added in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/typedClassConstant.html
+	:og:locale: en
+
 Support for typed class constants was added in PHP 8.3
 
 PHP code

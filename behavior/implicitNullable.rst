@@ -2,6 +2,22 @@
 
 Implicit Nullable
 =================
+.. meta::
+	:description:
+		Implicit Nullable: A typed argument with a default value of ``null`` was also implicitly nullable: it would accept null as a value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implicit Nullable
+	:twitter:description: Implicit Nullable: A typed argument with a default value of ``null`` was also implicitly nullable: it would accept null as a value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Implicit Nullable
+	:og:type: article
+	:og:description: A typed argument with a default value of ``null`` was also implicitly nullable: it would accept null as a value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/implicitNullable.html
+	:og:locale: en
+
 A typed argument with a default value of ``null`` was also implicitly nullable: it would accept null as a value. This is deprecated in PHP 8.4, and will be removed in PHP 9.0. It is recommended to make the nullable type explicit in the code.
 
 

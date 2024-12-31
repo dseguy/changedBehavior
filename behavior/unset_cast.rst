@@ -2,6 +2,22 @@
 
 (unset) Was Removed
 ===================
+.. meta::
+	:description:
+		(unset) Was Removed: (unset) operator is removed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: (unset) Was Removed
+	:twitter:description: (unset) Was Removed: (unset) operator is removed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: (unset) Was Removed
+	:og:type: article
+	:og:description: (unset) operator is removed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unset_cast.html
+	:og:locale: en
+
 (unset) operator is removed. Use the unset() function for that feature.
 
 PHP code

@@ -2,6 +2,22 @@
 
 Orphaned Parent
 ===============
+.. meta::
+	:description:
+		Orphaned Parent: Calling the parent class of a class without parent is not possible.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Orphaned Parent
+	:twitter:description: Orphaned Parent: Calling the parent class of a class without parent is not possible
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Orphaned Parent
+	:og:type: article
+	:og:description: Calling the parent class of a class without parent is not possible
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/orphanedParent.html
+	:og:locale: en
+
 Calling the parent class of a class without parent is not possible. It used to be a deprecated error, where the code would keep on executing. In PHP 8.0, it stops the execution entirely.
 
 PHP code

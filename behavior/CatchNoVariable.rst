@@ -2,6 +2,22 @@
 
 Catch Without Variable
 ======================
+.. meta::
+	:description:
+		Catch Without Variable: A catch clause doesn't require a storing variable anymore.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Catch Without Variable
+	:twitter:description: Catch Without Variable: A catch clause doesn't require a storing variable anymore
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Catch Without Variable
+	:og:type: article
+	:og:description: A catch clause doesn't require a storing variable anymore
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/CatchNoVariable.html
+	:og:locale: en
+
 A catch clause doesn't require a storing variable anymore. It may simply omit it. The exception is then caught, but not provided in the clause.
 
 PHP code

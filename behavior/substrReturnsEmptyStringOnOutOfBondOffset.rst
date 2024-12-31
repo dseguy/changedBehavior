@@ -2,6 +2,22 @@
 
 substr() Returns Empty String On Out Of Bond Offset
 ===================================================
+.. meta::
+	:description:
+		substr() Returns Empty String On Out Of Bond Offset: substr() used to return false when the parameters used to extract the string were out of bound, or well out of the string sizes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: substr() Returns Empty String On Out Of Bond Offset
+	:twitter:description: substr() Returns Empty String On Out Of Bond Offset: substr() used to return false when the parameters used to extract the string were out of bound, or well out of the string sizes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: substr() Returns Empty String On Out Of Bond Offset
+	:og:type: article
+	:og:description: substr() used to return false when the parameters used to extract the string were out of bound, or well out of the string sizes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/substrReturnsEmptyStringOnOutOfBondOffset.html
+	:og:locale: en
+
 substr() used to return false when the parameters used to extract the string were out of bound, or well out of the string sizes. With PHP 8.0, this is not reported as an error anymore, and fails silently.
 
 

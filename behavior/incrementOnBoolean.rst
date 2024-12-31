@@ -2,6 +2,22 @@
 
 Increment On Boolean Is Deprecated
 ==================================
+.. meta::
+	:description:
+		Increment On Boolean Is Deprecated: Incrementing or decrementing a boolean value had no effect.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Increment On Boolean Is Deprecated
+	:twitter:description: Increment On Boolean Is Deprecated: Incrementing or decrementing a boolean value had no effect
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Increment On Boolean Is Deprecated
+	:og:type: article
+	:og:description: Incrementing or decrementing a boolean value had no effect
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/incrementOnBoolean.html
+	:og:locale: en
+
 Incrementing or decrementing a boolean value had no effect. In PHP 8.3, it is now a deprecation warning, and a message.
 
 PHP code

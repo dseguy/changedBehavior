@@ -2,6 +2,22 @@
 
 switch() Changed Comparison Style
 =================================
+.. meta::
+	:description:
+		switch() Changed Comparison Style: The switch command uses a relaxed comparison style.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: switch() Changed Comparison Style
+	:twitter:description: switch() Changed Comparison Style: The switch command uses a relaxed comparison style
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:title: switch() Changed Comparison Style
+	:og:type: article
+	:og:description: The switch command uses a relaxed comparison style
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/switchComparison.html
+	:og:locale: en
+
 The switch command uses a relaxed comparison style. Hence, the associated cases changed in PHP 8.0, whenever they use the special values such a 0, empty string '' or null.
 
 PHP code
