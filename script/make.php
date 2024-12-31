@@ -110,7 +110,10 @@ foreach($files as $file) {
 
 uksort($tips, function(string $a, string $b) : int { return strtolower($a) <=> strtolower($b); });
 
-$php = array('7.2' => [],
+$php = array('5.6' => [],
+			 '7.0' => [],
+			 '7.1' => [],
+			 '7.2' => [],
 			 '7.3' => [],
 			 '7.4' => [],
 			 '8.0' => [],
@@ -118,6 +121,7 @@ $php = array('7.2' => [],
 			 '8.2' => [],
 			 '8.3' => [],
 			 '8.4' => [],
+			 '8.5' => [],
 			 '9.0' => [],
 			);
 $stats = array('php' => 0);
@@ -137,6 +141,26 @@ foreach($tips as $file => $changedBehavior) {
 	$behavior[] = $changedBehavior->title;
 	$behavior[] = str_repeat('=', strlen($changedBehavior->title));
 	
+	$behavior[] = '.. meta::';
+	$behavior[] = '	:description:';
+	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $changedBehavior->description)[0];
+	$behavior[] = '		'.$changedBehavior->title.': '.$first.'.';
+	
+	$behavior[] = '	:twitter:card: summary_large_image';
+	$behavior[] = '	:twitter:site: @exakat';
+	$behavior[] = '	:twitter:title: '.$changedBehavior->title.'';
+	$behavior[] = '	:twitter:description: '.$changedBehavior->title.': '.$first.'';
+	$behavior[] = '	:twitter:creator: @exakat';
+	$behavior[] = '	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+
+	$behavior[] = '	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+	$behavior[] = '	:og:title: '.$changedBehavior->title.'';
+	$behavior[] = '	:og:type: article';
+	$behavior[] = '	:og:description: '.$first.'';
+	$behavior[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/tips/'.$changedBehavior->id.'.html';
+	$behavior[] = '	:og:locale: en';
+
+	$behavior[] = '';	
 	$behavior[] = str_replace("\n", "\n\n", $changedBehavior->description);
 	$behavior[] = '';
 	
