@@ -1,0 +1,6 @@
+PHP Warning:  First argument of class_alias() must be a name of user defined class in /codes/classAliasWithInternalClass.php on line 3
+
+Warning: First argument of class_alias() must be a name of user defined class in /codes/classAliasWithInternalClass.php on line 3
+PHP Fatal error:  Class 'A' not found in /codes/classAliasWithInternalClass.php on line 5
+
+Fatal error: Class 'A' not found in /codes/classAliasWithInternalClass.php on line 5
