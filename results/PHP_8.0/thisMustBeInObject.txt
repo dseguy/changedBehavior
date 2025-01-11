@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Using $this when not in object context in /codes/thisMustBeInObject.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/thisMustBeInObject.php on line 3
+
+Fatal error: Uncaught Error: Using $this when not in object context in /codes/thisMustBeInObject.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/thisMustBeInObject.php on line 3
