@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP Changed Behaviors'
-copyright = '2023-2024, Damien Seguy'
+copyright = '2023-2025, Damien Seguy'
 author = 'Damien Seguy'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
