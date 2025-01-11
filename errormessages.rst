@@ -6,7 +6,7 @@ PHP Error Messages
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
-    * :ref:`First argument of class_alias() must be a name of user defined class <class_alias()-works-on-internal-classes>`
+    * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`0 <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
