@@ -83,6 +83,7 @@ Per PHP version
     * :ref:`calling-static-methods-on-strings`
     * :ref:`catch-without-variable`
     * :ref:`covariance-and-contravariance-are-fatal`
+    * :ref:`creating-object-on-null`
     * :ref:`dot-and-bitshift-priority`
     * :ref:`dot-and-minus-changed-precedence`
     * :ref:`dot-and-plus-changed-precedence`
@@ -100,7 +101,7 @@ Per PHP version
     * :ref:`spaces-in-namespaces`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`
     * :ref:`string-to-integer-comparison`
-    * :ref:`strings-are-bigger-than-integer`
+    * :ref:`strings-are-bigger-than-integers`
     * :ref:`ternary-associativity`
     * :ref:`trailing-comma-in-arguments`
     * :ref:`undefined-constants`

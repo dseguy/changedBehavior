@@ -32,6 +32,7 @@ PHP Changed Behavior
    behavior/contravarianceParameter.rst
    behavior/countUncountable.rst
    behavior/covarianceReturntype.rst
+   behavior/creatingObjectOnNull.rst
    behavior/curl_init.rst
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
