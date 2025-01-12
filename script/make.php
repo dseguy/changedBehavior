@@ -164,6 +164,24 @@ foreach($tips as $file => $changedBehavior) {
 	$behavior[] = str_replace("\n", "\n\n", $changedBehavior->description);
 	$behavior[] = '';
 	
+	/*
+	$behavior[] = <<<SCRIPT
+.. raw:: html
+    <script type="application/ld+json">
+    {
+             "@type":"WebSite",
+             "@id":"https://www.exakat.io/en/#website",
+             "url":"https://www.exakat.io/en/",
+             "name":"Exakat",
+             "description":"Bring Quality to your PHP Projects",
+             "publisher":{
+                "@id":"https://www.exakat.io/en/#organization"
+             },
+             "inLanguage":"en-US"
+          }
+    </script>
+SCRIPT;
+	*/
 	$code = $changedBehavior->code;
 	$code = '   '.str_replace("\n", "\n   ", $code);
 	$before = $changedBehavior->before;
