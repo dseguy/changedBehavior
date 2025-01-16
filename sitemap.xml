@@ -148,6 +148,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/func_get_arg.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/generatorDontReturn.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_called_class_outside_class.html</loc>
  </url>
  <url>

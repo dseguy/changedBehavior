@@ -159,3 +159,5 @@ Per PHP version
     * :ref:`yield-must-use-integer-or-string-keys`
     * :ref:`func_get_arg()-changed-behavior`
     * :ref:`var_export()-with-stdclass`
+* 7.0
+    * :ref:`generators-dont-return`

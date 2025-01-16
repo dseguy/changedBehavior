@@ -54,6 +54,7 @@ PHP Changed Behavior
    behavior/finfo_open.rst
    behavior/FloatAsArray.rst
    behavior/func_get_arg.rst
+   behavior/generatorDontReturn.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/GLOBALSAssignement.rst
