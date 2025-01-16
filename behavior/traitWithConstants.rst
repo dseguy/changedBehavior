@@ -56,3 +56,10 @@ __________________
 This behavior changed in 8.2
 
 
+Error Messages
+______________
+
+  + `Traits cannot have constants <https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html>`_
+
+
+

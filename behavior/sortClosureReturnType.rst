@@ -75,7 +75,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-  + `usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <https://php-errors.readthedocs.io/en/latest/messages/usort%28%29%3A+Returning+bool+from+comparison+function+is+deprecated%2C+return+an+integer+less+than%2C+equal+to%2C+or+greater+than+zero.html>`_
+  + `usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated%2C-return-an-integer-less-than%2C-equal-to%2C-or-greater-than-zero.html>`_
 
 
 
