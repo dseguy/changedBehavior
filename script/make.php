@@ -81,6 +81,7 @@ foreach($files as $file) {
 					$title = $id; 
 					$id = php_error_id($id);
 					buildlog("phpError has not title in $file");
+					continue;
 				}
 		
 				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
