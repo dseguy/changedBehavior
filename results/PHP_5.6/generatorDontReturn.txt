@@ -1,0 +1,3 @@
+PHP Fatal error:  Generators cannot return values using "return" in /codes/generatorDontReturn.php on line 6
+
+Fatal error: Generators cannot return values using "return" in /codes/generatorDontReturn.php on line 6
