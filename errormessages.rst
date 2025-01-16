@@ -51,6 +51,7 @@ PHP Error Messages
     * :ref:`must-be-contained-in-argument-#1-($haystack) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
+    * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
