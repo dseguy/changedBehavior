@@ -1,0 +1,3 @@
+PHP Fatal error:  Method X::__toString() must not throw an exception in /codes/toStringCanThrow.php on line 0
+
+Fatal error: Method X::__toString() must not throw an exception in /codes/toStringCanThrow.php on line 0
