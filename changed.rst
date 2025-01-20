@@ -130,7 +130,9 @@ PHP Changed Behavior
    behavior/strposTypeError.rst
    behavior/strposValueError.rst
    behavior/strposWithFalse.rst
+   behavior/strposWithInteger.rst
    behavior/strposWithNull.rst
+   behavior/strposWithNullHaystack.rst
    behavior/strsplit.rst
    behavior/strsplitnegativelength.rst
    behavior/substrReturnsEmptyStringOnOutOfBondOffset.rst

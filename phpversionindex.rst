@@ -16,6 +16,7 @@ Per PHP version
     * :ref:`sorting-closure-must-return-integers`
     * :ref:`get_class()-needs-an-argument`
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
+    * :ref:`strpos()-with-null-haystack`
 * 8.4
     * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`
@@ -51,7 +52,7 @@ Per PHP version
     * :ref:`iterator_count()-also-count-arrays`
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
-    * :ref:`ksort()-now-uses-regular-sorting`
+    * :ref:`ksort()-now-uses-regular-comparison`
     * :ref:`strsplit()-with-empty-string`
     * :ref:`var_export()-format`
 * 8.1
@@ -136,6 +137,7 @@ Per PHP version
     * :ref:`strpos()-does-not-accept-null-as-second-parameter`
     * :ref:`strpos()-emits-typeerror`
     * :ref:`strpos()-emits-valueerror`
+    * :ref:`strpos()-with-integer-argument`
     * :ref:`strpos()-with-out-of-range-offset-is-a-fatal-error`
     * :ref:`substr()-returns-empty-string-on-out-of-bond-offset`
     * :ref:`switch()-changed-comparison-style`
@@ -160,4 +162,4 @@ Per PHP version
     * :ref:`func_get_arg()-changed-behavior`
     * :ref:`var_export()-with-stdclass`
 * 7.0
-    * :ref:`generators-dont-return`
+    * :ref:`generators-don't-return`

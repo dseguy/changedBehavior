@@ -8,7 +8,7 @@ PHP Error Messages
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
     * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
-    * :ref:`0 <can-clone-readonly-properties>`
+    * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
@@ -50,6 +50,7 @@ PHP Error Messages
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
     * :ref:`must-be-contained-in-argument-#1-($haystack) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
+    * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
     * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`

@@ -376,7 +376,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strposWithFalse.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strposWithInteger.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strposWithNull.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strposWithNullHaystack.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strsplit.html</loc>
