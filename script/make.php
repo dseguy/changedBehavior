@@ -32,8 +32,7 @@ foreach($files as $file) {
 	$tip = parse_ini_file($file);
 
 	if ($tip === false) {
-		buildlog("Warning : $file is not valid INI");
-		continue;
+		die("Warning : $file is not valid INI");
 	}
 
 	$tip = (object) $tip;
@@ -336,7 +335,7 @@ RST;
 	print ("processed ".$stats['author']." authors\n");
 }
 
-shell_exec('make html');
+//shell_exec('make html');
 print (shell_exec('wc -l build.log') ?? 0)." lines in buildlog.txt\n";
 
 function check(stdClass $tip, string $file) : string {
