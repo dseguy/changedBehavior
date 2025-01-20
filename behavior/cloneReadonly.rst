@@ -18,7 +18,7 @@ Can Clone Readonly Properties
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/cloneReadonly.html
 	:og:locale: en
 
-Readonly properties may be changed, both at constructor and cloning time, since PHP 8.3. Until then, they could not be changed, once set.
+Readonly properties may be changed, both at constructor and cloning time, since PHP 8.3. Until then, once set, they could never be changed.
 
 PHP code
 ________
@@ -26,19 +26,19 @@ ________
 
    <?php
    
-   class x {
-   	readonly int $p;
+   class X {
+   	readonly int $property;
    	
    	function __construct() {
-   		$this->p = 2;
+   		$this->property = 2;
    	}
    	
    	function __clone() {
-   		$this->p++;
+   		$this->property++;
    	}
    }
    
-   $x = new x;
+   $x = new X;
    $y = clone $x;
    
    var_dump($y);
@@ -81,7 +81,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
+  + `Cannot modify readonly property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
 
 
 

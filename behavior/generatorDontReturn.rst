@@ -1,24 +1,24 @@
-.. _`generators-dont-return`:
+.. _`generators-don't-return`:
 
-Generators Dont Return
-======================
+Generators Don't Return
+=======================
 .. meta::
 	:description:
-		Generators Dont Return: In PHP 5.
+		Generators Don't Return: In PHP 5.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Generators Dont Return
-	:twitter:description: Generators Dont Return: In PHP 5
+	:twitter:title: Generators Don't Return
+	:twitter:description: Generators Don't Return: In PHP 5
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Generators Dont Return
+	:og:title: Generators Don't Return
 	:og:type: article
 	:og:description: In PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/generatorDontReturn.html
 	:og:locale: en
 
-In PHP 5.x, geneatores were not allowed to have return values. It was added in PHP 7.0.
+In PHP 5.x, generators were not allowed to have return values. This feature was added in PHP 7.0, with the ``getReturn`` method.
 
 PHP code
 ________
