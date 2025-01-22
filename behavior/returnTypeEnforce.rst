@@ -71,7 +71,7 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-  + `Return type of x::current() should either be compatible with Iterator::current(): mixed, <https://php-errors.readthedocs.io/en/latest/messages/Return+type+of+x%3A%3Acurrent%28%29+should+either+be+compatible+with+Iterator%3A%3Acurrent%28%29%3A+mixed%2C.html>`_
+  + `Return type of x::current() should either be compatible with Iterator::current(): mixed <https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html>`_
 
 
 

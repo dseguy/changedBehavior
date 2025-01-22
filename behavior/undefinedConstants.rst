@@ -53,7 +53,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Uncaught Error: Undefined constant "D" <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%5C%22%25s.html>`_
+  + `Uncaught Error: Undefined constant "%s" <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
 
 
 

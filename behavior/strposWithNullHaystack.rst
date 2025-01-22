@@ -57,7 +57,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-  + `Passing null to parameter #1 ($haystack) of type string is deprecated <https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%28%5C%29%5C%3A-passing-null-to-parameter-%23%25.html>`_
+  + `Passing null to parameter #1 ($haystack) of type string is deprecated <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html>`_
 
 
 

@@ -43,7 +43,7 @@ PHP Error Messages
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
-    * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, <php-native-return-types-are-now-enforced>`
+    * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`

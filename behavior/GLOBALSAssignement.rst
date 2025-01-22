@@ -59,7 +59,7 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-  + `Cannot acquire reference to $GLOBALS <https://php-errors.readthedocs.io/en/latest/messages/Cannot+acquire+reference+to+%24GLOBALS.html>`_
+  + `Cannot acquire reference to $GLOBALS <https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-%24globals.html>`_
 
 
 
