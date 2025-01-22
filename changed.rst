@@ -15,6 +15,7 @@ PHP Changed Behavior
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
    behavior/assertThrows.rst
+   behavior/autoInitializeArrayFromBool.rst
    behavior/backed_enum_constant_check.rst
    behavior/bitshiftConcatPrecedence.rst
    behavior/BooleanAsArray.rst

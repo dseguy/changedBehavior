@@ -31,6 +31,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertThrows.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/backed_enum_constant_check.html</loc>
  </url>
  <url>

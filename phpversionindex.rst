@@ -145,6 +145,7 @@ Per PHP version
     * :ref:`vsprint()-requires-an-array`
     * :ref:`vsprintf()-returns-empty-string-on-error`
 * 7.4
+    * :ref:`auto-initialization-from-boolean`
     * :ref:`base-conversion-reports-invalid-characters`
     * :ref:`boolean-used-as-array`
     * :ref:`float-used-as-array`

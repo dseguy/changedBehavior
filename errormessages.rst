@@ -3,6 +3,7 @@ PHP Error Messages
     * :ref:`Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <cannot-call-traits-methods-directly>`
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
+    * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
@@ -53,7 +54,7 @@ PHP Error Messages
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
     * :ref:`Traits cannot have constants <constants-in-traits>`
-    * :ref:`Uncaught Error: Undefined constant "D" <undefined-constants>`
+    * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
     * :ref:`Power of base 0 and negative exponent is deprecated <cannot-raise-zero-to-negative-powers>`
