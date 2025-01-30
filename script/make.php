@@ -64,6 +64,33 @@ foreach($files as $file) {
 	    }
 	}
 
+	if (!isset($tip->analyzer)) {
+		buildlog("analyzer is missing in $file");
+	} elseif (!is_array($tip->analyzer)) {
+		buildlog("analyzer is not an array in $file");
+    } else {	    
+	    $tip->analyzer = array_filter($tip->analyzer);
+	    if (empty($tip->analyzer)) {
+    		buildlog("analyzer is empty in $file");
+	    } else {
+	        foreach($tip->analyzer as $rule) {
+	            if (!file_exists('../analyzeG3/library/Exakat/Analyzer/'.$rule.'.php')) {
+            		buildlog("No such analyzer as '$rule' in $file");
+	            }
+	        }
+	    }
+	}
+
+	if (!isset($tip->code)) {
+		buildlog("code is missing in $file");
+	} elseif (!is_string($tip->code)) {
+		buildlog("code is not an array in $file");
+	} elseif (substr($tip->code, 0, 5) !== '<?php') {
+		buildlog("code is not starting with <?php in $file");
+	} elseif (substr($tip->code, -2) !== '?>') {
+		buildlog("code is not finishing with ?> in $file");
+    }
+
 	if (!isset($tip->phpError)) {
 		buildlog("phpError is missing in $file");
 		continue;

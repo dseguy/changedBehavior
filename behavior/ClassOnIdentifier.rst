@@ -33,6 +33,7 @@ ________
    $a = new stdclass;
    echo $a::class;
    
+   ?>
 
 Before
 ______

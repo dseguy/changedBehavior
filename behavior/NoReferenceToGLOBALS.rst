@@ -30,7 +30,7 @@ PHP code
 ________
 .. code-block:: php
 
-   <?PHP
+   <?php
    
    $b = &$GLOBALS;
    
@@ -57,6 +57,7 @@ ______
            )
    // .... and more
    
+   ?>
 
 After
 ______

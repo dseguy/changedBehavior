@@ -41,7 +41,7 @@ ________
    // valid usage
    // var_dump(compact("name", 'age'));
    
-   
+   ?>
 
 Before
 ______

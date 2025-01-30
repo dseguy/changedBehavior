@@ -26,12 +26,14 @@ ________
 
    <?php
    
-   trait t {
+   trait T {
        static function foo() { echo __METHOD__; }
        
    }
    
    echo t::foo();
+   
+   ?>
 
 Before
 ______

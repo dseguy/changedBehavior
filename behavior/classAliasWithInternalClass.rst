@@ -29,6 +29,8 @@ ________
    class_alias(stdClass::class, A::class);
    
    var_dump(new A);
+   
+   ?>
 
 Before
 ______

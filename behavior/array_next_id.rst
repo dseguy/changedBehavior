@@ -63,3 +63,9 @@ __________________
 This behavior changed in 8.0
 
 
+See Also
+________
+
+* `Using negative indices with PHP arrays <https://www.strangebuzz.com/en/snippets/using-negative-indices-with-php-arrays>`_
+
+

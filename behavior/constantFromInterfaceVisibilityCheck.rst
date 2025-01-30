@@ -43,7 +43,6 @@ ________
    echo x::IPublic . PHP_EOL;
    
    ?>
-   
 
 Before
 ______
