@@ -1,0 +1,4 @@
+PHP Notice:  Use of undefined constant from - assumed 'from' in /codes/yield_comment_from.php on line 4
+
+Notice: Use of undefined constant from - assumed 'from' in /codes/yield_comment_from.php on line 4
+m
