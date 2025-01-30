@@ -1,0 +1,3 @@
+PHP Fatal error:  Constant expression contains invalid operations in /codes/constWithObjects.php on line 3
+
+Fatal error: Constant expression contains invalid operations in /codes/constWithObjects.php on line 3
