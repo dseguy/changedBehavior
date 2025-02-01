@@ -57,7 +57,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-  + `Duplicate declaration of static variable $%s <https://php-errors.readthedocs.io/en/latest/messages/Duplicate+declaration+of+static+variable+%24%25s.html>`_
+  + `Duplicate declaration of static variable $%s <https://php-errors.readthedocs.io/en/latest/messages/duplicate-declaration-of-static-variable-%24%25s.html>`_
 
 
 

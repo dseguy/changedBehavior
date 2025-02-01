@@ -18,7 +18,7 @@ Constants In Trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/ConstantInTrait.html
 	:og:locale: en
 
-Trait can have constants in PHP 8.3 and later.
+Trait can have constants in PHP 8.3 and later. Until that version, constants cannot be set in traits, and end with a compilation error.
 
 PHP code
 ________
@@ -26,13 +26,12 @@ ________
 
    <?php
    
-   trait t {
+   trait T {
        const X = 1;
-       
    }
    
-   class x {
-   	use t;
+   class X {
+   	use T;
    }
    
    echo X::X;
@@ -55,5 +54,12 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.3
+
+
+Error Messages
+______________
+
+  + `Traits cannot have constants <https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html>`_
+
 
 

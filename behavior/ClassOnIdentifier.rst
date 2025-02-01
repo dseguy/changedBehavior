@@ -59,7 +59,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Cannot use ::class with dynamic class name <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%3A%3Aclass+with+dynamic+class+name.html>`_
+  + `Cannot use ::class with dynamic class name <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html>`_
 
 
 

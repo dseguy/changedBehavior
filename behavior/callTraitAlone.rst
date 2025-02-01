@@ -28,10 +28,9 @@ ________
    
    trait T {
        static function foo() { echo __METHOD__; }
-       
    }
    
-   echo t::foo();
+   echo T::foo();
    
    ?>
 
@@ -61,7 +60,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-  + `Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%5C%3A%5C%3A%25s-is-deprecated.html>`_
+  + `Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html>`_
 
 
 

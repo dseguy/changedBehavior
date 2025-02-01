@@ -12,6 +12,7 @@ PHP Error Messages
     * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
+    * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
     * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
     * :ref:`Creating default object from empty value <creating-object-on-null>`
@@ -52,7 +53,6 @@ PHP Error Messages
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
-    * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`

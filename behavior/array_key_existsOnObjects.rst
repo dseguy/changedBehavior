@@ -24,14 +24,14 @@ array_key_exists() used to accept arrays and objects, and worked on them indisti
 
 Since PHP 8.0, array_key_exists() only works on arrays. Objects must be converted to arrays before usage.
 
-
-
 PHP code
 ________
 .. code-block:: php
 
    <?php
+   
    var_dump(array_key_exists('a', (object) ['a' => 1]));
+   
    ?>
 
 Before
@@ -57,7 +57,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+TypeError%3A+array_key_exists%28%29%3A+Argument+%232+%28%24array%29+must+be+of+type+array%2C+stdClass+given.html>`_
+  + `Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <https://php-errors.readthedocs.io/en/latest/messages/array_key_exists%28%29%3A-argument-%232-%28%24array%29-must-be-of-type-array%2C-%25s-given.html>`_
 
 
 
