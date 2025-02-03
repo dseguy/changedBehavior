@@ -20,6 +20,8 @@
 project = 'PHP Changed Behaviors'
 copyright = '2023-2025, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
 author = 'Damien Seguy'
+html_favicon = '_static/logo.png'
+
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'

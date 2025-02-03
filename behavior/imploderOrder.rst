@@ -24,8 +24,6 @@ Until PHP 8.0, it was possible to call implode() with a random order of argument
 
 In PHP 8.0, it is now compulsory to put the string in the first place, as the types are checked. Or used named parameters.
 
-
-
 PHP code
 ________
 .. code-block:: php
@@ -71,7 +69,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `implode(): Argument #2 ($array) must be of type ?array, string given <https://php-errors.readthedocs.io/en/latest/messages/implode%28%29%3A+Argument+%232+%28%24array%29+must+be+of+type+%3Farray%2C+string+given.html>`_
+  + `implode(): Argument #2 ($array) must be of type ?array, string given <https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

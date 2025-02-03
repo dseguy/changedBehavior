@@ -27,6 +27,7 @@ ________
    <?php
    
    var_dump(get_called_class());
+   
    ?>
 
 Before
@@ -65,7 +66,7 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `get_called_class() called from outside a class <https://php-errors.readthedocs.io/en/latest/messages/get_called_class%28%29+called+from+outside+a+class.html>`_
+  + `get_called_class() called from outside a class <https://php-errors.readthedocs.io/en/latest/messages/get_called_class%28%29-must-be-called-from-within-a-class.html>`_
 
 
 

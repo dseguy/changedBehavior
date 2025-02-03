@@ -13,8 +13,7 @@ PHP Error Messages
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Traits cannot have constants <constants-in-traits>`
-    * :ref:`Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <parameter-contravariance>`
-    * :ref:`Declaration of y::foo(): j must be compatible with x::foo(): i <returntype-covariance>`
+    * :ref:`Declaration of %s::%s() should be compatible with %s::%s() <returntype-covariance>`
     * :ref:`Creating default object from empty value <creating-object-on-null>`
     * :ref:`Array and string offset access syntax with curly braces <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`

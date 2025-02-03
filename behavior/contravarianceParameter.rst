@@ -32,23 +32,19 @@ ________
 
    <?php
    
-   interface i {}
+   interface I {}
    
-   interface j extends i {}
+   interface J extends I {}
    
-   class x {
-   	function foo(j $a) {
-   	
-   	}
+   class X {
+   	function foo(j $a) {}
    }
    
-   class y extends x {
-   	function foo(i $a) {
-   	
-   	}
+   class Y extends X {
+   	function foo(i $a) {}
    }
    
-   var_dump(new y);
+   var_dump(new Y);
    
    ?>
 
@@ -80,7 +76,7 @@ This behavior changed in 7.4
 Error Messages
 ______________
 
-  + `Declaration of y::foo(i $a) should be compatible with x::foo(j $a) <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+y%3A%3Afoo%28i+%24a%29+should+be+compatible+with+x%3A%3Afoo%28j+%24a%29.html>`_
+  + `Declaration of %s::%s() should be compatible with %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s%3A%3A%25s%28%29-must-be-compatible-with-%25s%3A%3A%25s%28%29.html>`_
 
 
 
