@@ -26,6 +26,7 @@ PHP Changed Behavior
    behavior/ceilStrictMode.rst
    behavior/classAliasWithInternalClass.rst
    behavior/ClassOnIdentifier.rst
+   behavior/cloneConstant.rst
    behavior/cloneReadonly.rst
    behavior/compactThrowsNotice.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
@@ -99,6 +100,7 @@ PHP Changed Behavior
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
    behavior/OldConstructors.rst
+   behavior/onlyFirstByte.rst
    behavior/orphanedParent.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
@@ -156,6 +158,7 @@ PHP Changed Behavior
    behavior/version_compare.rst
    behavior/vsprintfRequiresAnArray.rst
    behavior/vsprintfReturnsEmptyString.rst
+   behavior/yield_comment_from.rst
    behavior/mustYieldIntOrStringKeys.rst
    behavior/zeroToNegativePower.rst
 

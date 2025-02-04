@@ -64,6 +64,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassOnIdentifier.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneReadonly.html</loc>
  </url>
  <url>
@@ -283,6 +286,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/onlyFirstByte.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html</loc>
  </url>
  <url>
@@ -452,6 +458,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/vsprintfReturnsEmptyString.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mustYieldIntOrStringKeys.html</loc>

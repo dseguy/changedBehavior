@@ -9,6 +9,8 @@ PHP Error Messages
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
     * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
+    * :ref:`Constant expression contains invalid operations <clone-a-constant>`
+    * :ref:`__clone method called on non-object <clone-a-constant>`
     * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
@@ -20,7 +22,7 @@ PHP Error Messages
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
-    * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <enforcing-native-php-returntype>`
+    * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
@@ -32,13 +34,13 @@ PHP Error Messages
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
-    * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
     * :ref:`Array must contain at least one element <no-max()-on-empty-array>`
     * :ref:`must-contain-at-least-one-element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
+    * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
@@ -54,5 +56,7 @@ PHP Error Messages
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
     * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
+    * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-max_depth-option>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
+    * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version_compare()-stricter-operators>`
     * :ref:`Power of base 0 and negative exponent is deprecated <cannot-raise-zero-to-negative-powers>`

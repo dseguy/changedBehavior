@@ -26,6 +26,7 @@ Per PHP version
 * 8.3
     * :ref:`backed-enum-values-needed-to-compile`
     * :ref:`can-clone-readonly-properties`
+    * :ref:`comment-inside-yield-from`
     * :ref:`constants-in-trait`
     * :ref:`duplicate-static-definition`
     * :ref:`dynamic-class-constant`
@@ -59,6 +60,7 @@ Per PHP version
     * :ref:`$globals-assignement`
     * :ref:`accessing-directly-properties-in-trait`
     * :ref:`cannot-explode()-null`
+    * :ref:`clone-a-constant`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
@@ -97,6 +99,7 @@ Per PHP version
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
     * :ref:`old-style-constructors`
+    * :ref:`only-first-byte`
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
     * :ref:`spaces-in-namespaces`
