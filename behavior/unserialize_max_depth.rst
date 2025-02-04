@@ -18,7 +18,7 @@ unserialize() max_depth Option
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unserialize_max_depth.html
 	:og:locale: en
 
-unserialize() has now an option to limit the depth of nesting in the decoded structure. When that limit is reached, serialize() emits a warning, and stops processing the string. This is a security option, that prevents deep nested structure to be created and consume a lot of memory and processing power.
+unserialize() has now an option to limit the depth of nesting in the decoded structure. When that limit is reached, serialize() emits a warning, and stops processing the string. This is a security option, that prevents deep nested structures to be created and consume a lot of memory and processing power.
 
 PHP code
 ________
@@ -26,11 +26,14 @@ ________
 
    <?php
    
+   // 4 levels of nesting
    $a = [[[[]]]];
    
    $b = serialize($a);
    
    print_r(unserialize($b, ['max_depth' => 2]));
+   
+   ?>
 
 Before
 ______
@@ -51,6 +54,7 @@ ______
            )
    
    )
+   
    
 
 After
@@ -75,5 +79,12 @@ See Also
 ________
 
 * `unserialize() <https://www.php.net/manual/fr/function.unserialize.php>`_
+
+
+Error Messages
+______________
+
+  + `Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html>`_
+
 
 

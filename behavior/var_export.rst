@@ -25,22 +25,25 @@ ________
 .. code-block:: php
 
    <?php
-   class x {}
-   var_export(new x);
+   
+   class X {}
+   
+   var_export(new X);
+   
    ?>
 
 Before
 ______
 .. code-block:: output
 
-   x::__set_state(array(
+   \X::__set_state(array(
    ))
 
 After
 ______
 .. code-block:: output
 
-   \x::__set_state(array(
+   \\X::__set_state(array(
    ))
 
 
@@ -53,6 +56,6 @@ See Also
 ________
 
 * `var_export() combined with enum produces code unsuitable for inclusion in namespaces <\https://github.com/php/php-src/issues/8232>`_
-* `Add leading backslash to enum and class names in var_export <\https://externals.io/message/117466>`_
+* `Add leading backslash to enum and class names in var_export <https://externals.io/message/117466>`_
 
 
