@@ -59,4 +59,6 @@ PHP Error Messages
     * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-max_depth-option>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
     * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version_compare()-stricter-operators>`
+    * :ref:`Too few arguments <vsprint()-requires-an-array>`
+    * :ref:`Argument #%d ($%s) must be of type %s, %s given <vsprint()-requires-an-array>`
     * :ref:`Power of base 0 and negative exponent is deprecated <cannot-raise-zero-to-negative-powers>`

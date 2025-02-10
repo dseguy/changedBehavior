@@ -33,20 +33,20 @@ ________
    <?php
    
    var_dump(in_array(' 1a', [ 1]));
+   
+   ?>
 
 Before
 ______
 .. code-block:: output
 
    bool(true)
-   
 
 After
 ______
 .. code-block:: output
 
    bool(false)
-   
 
 
 PHP version change

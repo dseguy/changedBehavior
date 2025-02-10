@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
+Disallow:
+
+User-agent: *
+Disallow: /_sources/
 
 Sitemap: https://php-changed-behaviors.readthedocs.io/en/latest/sitemap.xml

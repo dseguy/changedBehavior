@@ -55,7 +55,7 @@ This behavior changed in 8.2
 See Also
 ________
 
-* `var_export() combined with enum produces code unsuitable for inclusion in namespaces <\https://github.com/php/php-src/issues/8232>`_
+* `var_export() combined with enum produces code unsuitable for inclusion in namespaces <https://github.com/php/php-src/issues/8232>`_
 * `Add leading backslash to enum and class names in var_export <https://externals.io/message/117466>`_
 
 

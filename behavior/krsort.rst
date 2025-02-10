@@ -37,6 +37,8 @@ ________
    );
    krsort($x);
    print_r($x);
+   
+   ?>
 
 Before
 ______
