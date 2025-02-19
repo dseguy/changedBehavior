@@ -6,7 +6,9 @@ PHP Error Messages
     * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
+    * :ref:`Non-static method %s::%s() should not be called statically <calling-non-static-method-statically>`
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
+    * :ref:`syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) <catch-without-variable>`
     * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Constant expression contains invalid operations <clone-a-constant>`
@@ -31,12 +33,15 @@ PHP Error Messages
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`Increment on type bool has no effect, this will change in the next major version of PHP <increment-on-boolean-is-deprecated>`
+    * :ref:`Cannot %s readonly property %s::$%s from %s%s <init-readonly-properties-in-child>`
+    * :ref:`syntax error, unexpected '[', expecting ';' or ',' <interpolated-string-dereferencing>`
+    * :ref:`syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) <calling-static-methods-on-strings>`
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
     * :ref:`Array must contain at least one element <no-max()-on-empty-array>`
-    * :ref:`must-contain-at-least-one-element <min()-doesn't-accept-empty-arrays>`
+    * :ref:`Must contain at least one element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
@@ -50,7 +55,9 @@ PHP Error Messages
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
-    * :ref:`must-be-contained-in-argument-#1-($haystack) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
+    * :ref:`%s(): Argument #%d ($%s) must be contained in argument #%d ($%s) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
+    * :ref:`Offset not contained in string. <strpos()-with-out-of-range-offset-is-a-fatal-error>`
+    * :ref:`Argument #3 ($offset) must be of type int, string given <strpos()-emits-typeerror>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`

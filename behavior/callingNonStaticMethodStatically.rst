@@ -72,3 +72,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Non-static method %s::%s() should not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html>`_
+
+
+

@@ -92,12 +92,14 @@ Per PHP version
     * :ref:`dot-and-plus-changed-precedence`
     * :ref:`inegality-comparisons`
     * :ref:`integer-non-silent-conversion`
+    * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
     * :ref:`new-cases-in-switch`
     * :ref:`no-abstract-private-method-in-traits`
     * :ref:`no-max()-on-empty-array`
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
+    * :ref:`old-style-constructor`
     * :ref:`old-style-constructors`
     * :ref:`only-first-byte`
     * :ref:`orphaned-parent`
@@ -129,6 +131,7 @@ Per PHP version
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
     * :ref:`printf()-warns-about-unknown-formats`
+    * :ref:`set_exception_handler()-must-update-its-type-to-throwable`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`

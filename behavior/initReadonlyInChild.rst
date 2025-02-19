@@ -67,3 +67,10 @@ __________________
 This behavior changed in 8.4
 
 
+Error Messages
+______________
+
+  + `Cannot %s readonly property %s::$%s from %s%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html>`_
+
+
+

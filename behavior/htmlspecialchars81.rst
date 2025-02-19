@@ -30,7 +30,11 @@ PHP code
 ________
 .. code-block:: php
 
-   0
+   <?php
+   
+   echo htmlspecialchars("'");
+   
+   ?>
 
 Before
 ______

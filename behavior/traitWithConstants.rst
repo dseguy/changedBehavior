@@ -26,13 +26,12 @@ ________
 
    <?php
    
-   trait t {
+   trait T {
        const A = 1;
    }
    
-   class x {
-   
-   use t;
+   class X {
+       use T;
    }
    
    echo X::A;

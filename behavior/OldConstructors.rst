@@ -26,13 +26,14 @@ ________
 
    <?php
    
-   class x {
+   class X {
    	function x() {
    		print __METHOD__;
    	}
    }
    
-   new x();
+   new X();
+   
    ?>
 
 Before

@@ -64,6 +64,18 @@ foreach($files as $file) {
 	    }
 	}
 
+	if (!isset($tip->keywords)) {
+//		buildlog("keywords is missing in $file");
+	} else {
+	    $tip->keywords = array_filter($tip->keywords);
+	    
+	    if (!empty($tip->keywords)) {
+	        if (count($tip->keywords) !== count(array_unique($tip->keywords))) {
+    		    buildlog("keywords has duplicates in $file");
+    		}
+	    }
+	}
+
 	if (!isset($tip->analyzer)) {
 		buildlog("analyzer is missing in $file");
 	} elseif (!is_array($tip->analyzer)) {

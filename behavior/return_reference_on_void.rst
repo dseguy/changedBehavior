@@ -24,7 +24,18 @@ PHP code
 ________
 .. code-block:: php
 
+   <?php
    
+   function &foo() : void {
+   	echo __METHOD__;
+   	
+   	return;
+   	
+   }
+   
+   foo();
+   
+   ?>
 
 Before
 ______

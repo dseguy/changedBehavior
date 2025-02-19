@@ -37,6 +37,8 @@ ________
    <?php
    
    strpos('abc', 'b', 6);
+   
+   ?>
 
 Before
 ______
@@ -73,7 +75,8 @@ This behavior changed in 8.0
 Error Messages
 ______________
 
-  + `must-be-contained-in-argument-#1-($haystack) <https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html>`_
+  + `%s(): Argument #%d ($%s) must be contained in argument #%d ($%s) <https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html>`_
+  + `Offset not contained in string. <https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html>`_
 
 
 

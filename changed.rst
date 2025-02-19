@@ -73,6 +73,7 @@ PHP Changed Behavior
    behavior/instanceofExpectObjects.rst
    behavior/IntAsArray.rst
    behavior/interfaceConstantVisibilityCheck.rst
+   behavior/InterpolatedStringDereferencing.rst
    behavior/InterpolatedStringMethodcall.rst
    behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
@@ -100,6 +101,7 @@ PHP Changed Behavior
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
    behavior/OldConstructors.rst
+   behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
    behavior/orphanedParent.rst
    behavior/php_errormsg.rst
@@ -114,6 +116,7 @@ PHP Changed Behavior
    behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst
    behavior/set_state_must_be_static.rst
+   behavior/setExceptionHandlerType.rst
    behavior/setlocale_with_float.rst
    behavior/sort.rst
    behavior/sortClosureReturnType.rst

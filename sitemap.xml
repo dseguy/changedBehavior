@@ -205,6 +205,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/interfaceConstantVisibilityCheck.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringDereferencing.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InterpolatedStringMethodcall.html</loc>
  </url>
  <url>
@@ -286,6 +289,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/oldStyleConstructor.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/onlyFirstByte.html</loc>
  </url>
  <url>
@@ -326,6 +332,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/set_state_must_be_static.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setExceptionHandlerType.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setlocale_with_float.html</loc>
