@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/absoluteArrayName.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/abstractPrivateMethodInTrait.html</loc>
  </url>
  <url>
@@ -13,10 +16,16 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_key_existsOnObjects.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_merge_and_variadic.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_negative_id.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_next_id.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_unique_enum.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_with_string_initialisation.html</loc>
@@ -26,6 +35,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arraySumChecks.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertIsReserved.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertThrows.html</loc>
@@ -79,7 +91,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ConstantInTrait.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constWithObjects.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/contravarianceParameter.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/convert_uuencode.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/countUncountable.html</loc>
@@ -127,6 +145,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceNativeReturnType.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/EvalWithouTry.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithEmptyString.html</loc>
  </url>
  <url>
@@ -161,6 +182,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_classWithoutArgument.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html</loc>
@@ -217,6 +241,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InvalidBaseCharacter.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/issetWithConstant.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/iteratorsArray.html</loc>
  </url>
  <url>
@@ -253,6 +280,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/maxOnStringAndInt.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_strrpos.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/minOnEmpty.html</loc>
  </url>
  <url>
@@ -262,10 +292,22 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mixedKeyword.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/negativeIndex.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/negativeOffsetOnStrings.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nestedAttributes.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/neverKeyword.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/new_then_invoke.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/newCasesInSwitch.html</loc>
@@ -367,6 +409,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticVariableWithArbitraryDefault.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticWithReference.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_pos.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceChecksArguments.html</loc>
  </url>
  <url>
@@ -421,7 +469,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ternaryAssociativity.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/thisMustBeInObject.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/throwIsAnExpression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/toStringCanThrow.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/trailingCommaInArguments.html</loc>
@@ -436,6 +490,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/typedClassConstant.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/UnbindingThis.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/undefinedConstants.html</loc>
  </url>
  <url>
@@ -445,10 +502,16 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays_with_strings.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_checks.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_max_depth.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_notice.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unset_cast.html</loc>

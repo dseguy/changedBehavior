@@ -17,11 +17,15 @@ Per PHP version
     * :ref:`get_class()-needs-an-argument`
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
+* 8.5
+    * :ref:`array-has-no-absolute-name`
 * 8.4
     * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`
     * :ref:`die-and-exit-as-functions`
+    * :ref:`direct-calls-on-new`
     * :ref:`init-readonly-properties-in-child`
+    * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
     * :ref:`round()-mode-validation`
 * 8.3
     * :ref:`backed-enum-values-needed-to-compile`
@@ -43,6 +47,7 @@ Per PHP version
     * :ref:`class_alias()-works-on-internal-classes`
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`range()-with-int-and-string`
+    * :ref:`unserialize()-checks-the-end-of-the-string`
     * :ref:`unserialize()-error-report`
 * 8.2
     * :ref:`constants-in-traits`
@@ -61,14 +66,17 @@ Per PHP version
     * :ref:`accessing-directly-properties-in-trait`
     * :ref:`cannot-explode()-null`
     * :ref:`clone-a-constant`
+    * :ref:`constants-with-objects`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
+    * :ref:`named-parameters-and-variadic`
     * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`unpack-arrays-in-arrays`
+    * :ref:`array_unique()-don't-filter-enums`
     * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`jsonserialize-must-have-return-type`
     * :ref:`newver-is-now-a-keyword`
@@ -104,6 +112,7 @@ Per PHP version
     * :ref:`only-first-byte`
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
+    * :ref:`removing-$this-from-a-closure-is-deprecated`
     * :ref:`spaces-in-namespaces`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`
     * :ref:`string-to-integer-comparison`
@@ -115,9 +124,11 @@ Per PHP version
     * :ref:`__set_state()-method-must-be-static`
     * :ref:`__sleep()-method-enforces-return-type`
     * :ref:`array_key_exists()-doesn't-work-on-objects`
+    * :ref:`assert-is-reserved-function`
     * :ref:`assert()-throws-exception`
     * :ref:`curl-moved-away-from-resource`
     * :ref:`ceil()-strict-mode`
+    * :ref:`convert_uuencode()-works-on-empty-strings`
     * :ref:`count()-must-count-countable`
     * :ref:`explode()-forbids-empty-strings`
     * :ref:`file_get_contents()-needs-a-real-path`
@@ -128,6 +139,7 @@ Per PHP version
     * :ref:`match-is-now-a-keyword`
     * :ref:`max()-must-contain-at-least-one-element`
     * :ref:`max()-on-string-and-integer`
+    * :ref:`mb_strrpos()-third-argument-is-not-encoding`
     * :ref:`min()-doesn't-accept-empty-arrays`
     * :ref:`mixed-is-now-a-keyword`
     * :ref:`printf()-warns-about-unknown-formats`
@@ -135,6 +147,7 @@ Per PHP version
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`sort()-places-integers-before-strings`
     * :ref:`spaceship-operator-results`
+    * :ref:`str_pos()-requires-only-strings`
     * :ref:`str_replace()-checks-for-arguments`
     * :ref:`str_replace()-enforces-strings-in-array-argument`
     * :ref:`str_replace()-on-arrays-of-objects`
@@ -159,14 +172,25 @@ Per PHP version
     * :ref:`null-used-as-array`
     * :ref:`parameter-contravariance`
     * :ref:`returntype-covariance`
+    * :ref:`__tostring-can-throw-exceptions`
+    * :ref:`array_merge()-and-variadic`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`heredoc-syntax-in-an-array`
+    * :ref:`static-properties-with-references`
     * :ref:`trailing-comma-in-calls`
     * :ref:`instanceof-expect-objects`
 * 7.2
     * :ref:`yield-must-use-integer-or-string-keys`
     * :ref:`func_get_arg()-changed-behavior`
     * :ref:`var_export()-with-stdclass`
+* 7.1
+    * :ref:`$this-must-be-the-local-object`
+    * :ref:`negative-index-on-strings`
+    * :ref:`negative-offset-with-strings`
 * 7.0
     * :ref:`generators-don't-return`
+    * :ref:`eval()-without-try`
+    * :ref:`isset()-on-constants`
+* 5.6
+    * :ref:`no-dynamic-global-variables`

@@ -5,15 +5,19 @@ PHP Changed Behavior
    :maxdepth: 1
    :caption: Contents:
 
+   behavior/absoluteArrayName.rst
    behavior/abstractPrivateMethodInTrait.rst
    behavior/accessTraitsDirectly.rst
    behavior/anonymousSignature.rst
    behavior/array_key_existsOnObjects.rst
+   behavior/array_merge_and_variadic.rst
    behavior/array_negative_id.rst
    behavior/array_next_id.rst
+   behavior/array_unique_enum.rst
    behavior/array_with_string_initialisation.rst
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
+   behavior/assertIsReserved.rst
    behavior/assertThrows.rst
    behavior/autoInitializeArrayFromBool.rst
    behavior/backed_enum_constant_check.rst
@@ -31,7 +35,9 @@ PHP Changed Behavior
    behavior/compactThrowsNotice.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
+   behavior/constWithObjects.rst
    behavior/contravarianceParameter.rst
+   behavior/convert_uuencode.rst
    behavior/countUncountable.rst
    behavior/covarianceReturntype.rst
    behavior/creatingObjectOnNull.rst
@@ -47,6 +53,7 @@ PHP Changed Behavior
    behavior/dynamicProperties.rst
    behavior/e_strict.rst
    behavior/enforceNativeReturnType.rst
+   behavior/EvalWithouTry.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
    behavior/file_get_contents.rst
@@ -59,6 +66,7 @@ PHP Changed Behavior
    behavior/generatorDontReturn.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
+   behavior/globalDynamicVariable.rst
    behavior/GLOBALSAssignement.rst
    behavior/heredoc_in_array.rst
    behavior/htmlspecialchars81.rst
@@ -77,6 +85,7 @@ PHP Changed Behavior
    behavior/InterpolatedStringMethodcall.rst
    behavior/intSilentConversion.rst
    behavior/InvalidBaseCharacter.rst
+   behavior/issetWithConstant.rst
    behavior/iteratorsArray.rst
    behavior/jsonSerialize.rst
    behavior/keywordInNamespace.rst
@@ -89,11 +98,16 @@ PHP Changed Behavior
    behavior/maxOnEmpty.rst
    behavior/maxOnEmptyArray.rst
    behavior/maxOnStringAndInt.rst
+   behavior/mb_strrpos.rst
    behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
    behavior/mixedKeyword.rst
+   behavior/named_parameters_and_variadic.rst
+   behavior/negativeIndex.rst
+   behavior/negativeOffsetOnStrings.rst
    behavior/nestedAttributes.rst
    behavior/neverKeyword.rst
+   behavior/new_then_invoke.rst
    behavior/newCasesInSwitch.rst
    behavior/newThenMethodCall.rst
    behavior/nonArrayWithSleep.rst
@@ -127,6 +141,8 @@ PHP Changed Behavior
    behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst
    behavior/staticVariableWithArbitraryDefault.rst
+   behavior/staticWithReference.rst
+   behavior/str_pos.rst
    behavior/str_replaceChecksArguments.rst
    behavior/str_replaceOnArraysOfObjects.rst
    behavior/str_replaceOnArraysOfThings.rst
@@ -145,16 +161,21 @@ PHP Changed Behavior
    behavior/switchComparison.rst
    behavior/tentativeStaticWithDatetime.rst
    behavior/ternaryAssociativity.rst
+   behavior/thisMustBeInObject.rst
    behavior/throwIsAnExpression.rst
+   behavior/toStringCanThrow.rst
    behavior/trailingCommaInArguments.rst
    behavior/trailingCommaInCalls.rst
    behavior/traitWithConstants.rst
    behavior/typedClassConstant.rst
+   behavior/UnbindingThis.rst
    behavior/undefinedConstants.rst
    behavior/unpack_arrays.rst
    behavior/unpack_arrays_with_strings.rst
+   behavior/unserialize_checks.rst
    behavior/unserialize_max_depth.rst
    behavior/unserialize_notice.rst
+   behavior/unserialize_S.rst
    behavior/unset_cast.rst
    behavior/var_export.rst
    behavior/var_export_stdclass.rst
