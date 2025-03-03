@@ -37,8 +37,7 @@ foreach($files as $file) {
 
 	$tip = (object) $tip;
 	if (!isset($tip->title) || (strlen($tip->title) < 3)) {
-		buildlog("No title for $file");
-		continue;
+		die("No title for $file");
 	} else {
 		if (!str_contains($tip->title, ' ')) {
 			buildlog("suspiciously no white space in title for $file");
@@ -46,8 +45,7 @@ foreach($files as $file) {
 	}
 
 	if (!isset($tip->description) || (strlen($tip->description) < 3)) {
-		buildlog("No description for $file");
-		continue;
+		die("No description for $file");
 	} else {
 		if (!str_contains($tip->description, ' ')) {
 			buildlog("suspiciously no white space in description for $file");
@@ -105,7 +103,6 @@ foreach($files as $file) {
 
 	if (!isset($tip->phpError)) {
 		buildlog("phpError is missing in $file");
-		continue;
 	} else {
 		if (!is_array($tip->phpError)) {
 			buildlog("phpError is not an array in $file");
@@ -119,7 +116,6 @@ foreach($files as $file) {
 					$title = $id; 
 					$id = php_error_id($id);
 					buildlog("phpError has not title in $file");
-					continue;
 				}
 		
 				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
