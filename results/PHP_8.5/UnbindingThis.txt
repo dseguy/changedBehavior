@@ -1,0 +1,3 @@
+PHP Warning:  Cannot unbind $this of closure using $this in /codes/UnbindingThis.php on line 13
+
+Warning: Cannot unbind $this of closure using $this in /codes/UnbindingThis.php on line 13
