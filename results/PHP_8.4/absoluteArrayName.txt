@@ -1,9 +1,3 @@
-PHP Fatal error:  Uncaught Error: Undefined constant "array" in /codes/absoluteArrayName.php:3
-Stack trace:
-#0 {main}
-  thrown in /codes/absoluteArrayName.php on line 3
+PHP Fatal error:  Cannot use array as default value for parameter $x of type array in /codes/absoluteArrayName.php on line 3
 
-Fatal error: Uncaught Error: Undefined constant "array" in /codes/absoluteArrayName.php:3
-Stack trace:
-#0 {main}
-  thrown in /codes/absoluteArrayName.php on line 3
+Fatal error: Cannot use array as default value for parameter $x of type array in /codes/absoluteArrayName.php on line 3
