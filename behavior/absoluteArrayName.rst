@@ -58,3 +58,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Cannot use "%s" as a type name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22%25s%22-as-a-type-name-as-it-is-reserved.html>`_
+
+
+

@@ -45,6 +45,7 @@ PHP Changed Behavior
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
    behavior/die-exit-functions.rst
+   behavior/dollar_curly_expression.rst
    behavior/dotAndBitshift.rst
    behavior/dotAndMinus.rst
    behavior/dotAndPlus.rst
@@ -114,10 +115,10 @@ PHP Changed Behavior
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
-   behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
    behavior/orphanedParent.rst
+   behavior/parentInCallable.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/printfWarning.rst
@@ -129,6 +130,7 @@ PHP Changed Behavior
    behavior/return_reference_on_void.rst
    behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst
+   behavior/selfInCallable.rst
    behavior/set_state_must_be_static.rst
    behavior/setExceptionHandlerType.rst
    behavior/setlocale_with_float.rst

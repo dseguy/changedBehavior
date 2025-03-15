@@ -121,6 +121,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/die-exit-functions.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html</loc>
  </url>
  <url>
@@ -328,9 +331,6 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
  </url>
  <url>
-  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
- </url>
- <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/oldStyleConstructor.html</loc>
  </url>
  <url>
@@ -338,6 +338,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/parentInCallable.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html</loc>
@@ -371,6 +374,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/roundParameterValidation.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/selfInCallable.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/set_state_must_be_static.html</loc>

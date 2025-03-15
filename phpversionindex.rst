@@ -15,6 +15,7 @@ Per PHP version
     * :ref:`return-reference-on-void`
     * :ref:`sorting-closure-must-return-integers`
     * :ref:`get_class()-needs-an-argument`
+    * :ref:`parent-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
 * 8.5
@@ -50,6 +51,7 @@ Per PHP version
     * :ref:`unserialize()-checks-the-end-of-the-string`
     * :ref:`unserialize()-error-report`
 * 8.2
+    * :ref:`-is-deprecated`
     * :ref:`constants-in-traits`
     * :ref:`duplicate-enum-cases-are-not-linted-anymore`
     * :ref:`no-reference-to-$globals-variable`
@@ -108,7 +110,6 @@ Per PHP version
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
     * :ref:`old-style-constructor`
-    * :ref:`old-style-constructors`
     * :ref:`only-first-byte`
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`

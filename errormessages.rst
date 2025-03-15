@@ -1,5 +1,6 @@
 PHP Error Messages
 --------------------
+    * :ref:`Cannot use "%s" as a type name as it is reserved <array-has-no-absolute-name>`
     * :ref:`Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <cannot-call-traits-methods-directly>`
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
@@ -45,15 +46,19 @@ PHP Error Messages
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
+    * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
     * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
+    * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
+    * :ref:`Use of "self" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
+    * :ref:`Use of "static" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
     * :ref:`%s(): Argument #%d ($%s) must be contained in argument #%d ($%s) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Offset not contained in string. <strpos()-with-out-of-range-offset-is-a-fatal-error>`

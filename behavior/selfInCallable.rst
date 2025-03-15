@@ -15,18 +15,18 @@ static Cannot Be Used Anymore In Callable Arrays
 	:og:title: static Cannot Be Used Anymore In Callable Arrays
 	:og:type: article
 	:og:description: PHP supports a callable syntax, based on array: it must be an array of two elements, where the index 0 is the object or the class, and the index 1 is the method name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/staticInCallable.html
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/selfInCallable.html
 	:og:locale: en
 
 PHP supports a callable syntax, based on array: it must be an array of two elements, where the index 0 is the object or the class, and the index 1 is the method name.
 
 
 
-Until PHP 8.2, it was possible to use the keyword ``static``, to make the callable dependent on the context of usage of the callable. 
+Until PHP 8.2, it was possible to use the keyword ``self``, to make the callable dependent on the context of usage of the callable. 
 
 
 
-In the example, static would be calling the static method ``replace``, in A, or in any other class where it is used. 
+In the example, self would be calling the static method ``replace``, in A. 
 
 
 
@@ -39,18 +39,19 @@ ________
 .. code-block:: php
 
    <?php
-   class A
+   
+   class B
    {
        public static function work($it) {
-   		return preg_replace_callback('~\w+~', array('static', 'static::replace'), $it);
+   		return preg_replace_callback('~\w+~', array('self', 'self::replace'), $it);
        }
-       
+   
        public static function replace($a) {
        	return 'a';
        }
    }
    
-   echo a::work('abc');
+   echo b::work('abc');
 
 Before
 ______
@@ -62,12 +63,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of static in callables is deprecated in /codes/staticInCallable.php on line 5
+   PHP Deprecated:  Use of self in callables is deprecated in /codes/selfInCallable.php on line 6
    
-   Deprecated: Use of static in callables is deprecated in /codes/staticInCallable.php on line 5
-   PHP Deprecated:  Callables of the form [A, static::replace] are deprecated in /codes/staticInCallable.php on line 5
+   Deprecated: Use of self in callables is deprecated in /codes/selfInCallable.php on line 6
+   PHP Deprecated:  Callables of the form [B, self::replace] are deprecated in /codes/selfInCallable.php on line 6
    
-   Deprecated: Callables of the form [A, static::replace] are deprecated in /codes/staticInCallable.php on line 5
+   Deprecated: Callables of the form [B, self::replace] are deprecated in /codes/selfInCallable.php on line 6
    a
 
 
@@ -81,7 +82,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-  + `Use of "static" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%22static%22-in-callables-is-deprecated.html>`_
+  + `Use of "self" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%22self%22-in-callables-is-deprecated.html>`_
 
 
 

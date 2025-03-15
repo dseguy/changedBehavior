@@ -1,0 +1,4 @@
+PHP Warning:  preg_replace_callback(): Requires argument 2, 'parent::parent::replace', to be a valid callback in /codes/parentInCallable.php on line 12
+
+Warning: preg_replace_callback(): Requires argument 2, 'parent::parent::replace', to be a valid callback in /codes/parentInCallable.php on line 12
+abc
