@@ -54,6 +54,7 @@ PHP Changed Behavior
    behavior/dynamicProperties.rst
    behavior/e_strict.rst
    behavior/enforceNativeReturnType.rst
+   behavior/enforceSplReturnType.rst
    behavior/EvalWithouTry.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
@@ -99,6 +100,7 @@ PHP Changed Behavior
    behavior/maxOnEmpty.rst
    behavior/maxOnEmptyArray.rst
    behavior/maxOnStringAndInt.rst
+   behavior/mb_ereg_replaceWithInteger.rst
    behavior/mb_strrpos.rst
    behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
@@ -115,6 +117,7 @@ PHP Changed Behavior
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
+   behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
    behavior/orphanedParent.rst
@@ -184,6 +187,7 @@ PHP Changed Behavior
    behavior/version_compare.rst
    behavior/vsprintfRequiresAnArray.rst
    behavior/vsprintfReturnsEmptyString.rst
+   behavior/while_list_each.rst
    behavior/yield_comment_from.rst
    behavior/mustYieldIntOrStringKeys.rst
    behavior/zeroToNegativePower.rst

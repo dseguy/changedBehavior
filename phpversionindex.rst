@@ -70,6 +70,7 @@ Per PHP version
     * :ref:`clone-a-constant`
     * :ref:`constants-with-objects`
     * :ref:`default-values-with-htmlspecialchars()`
+    * :ref:`enforcing-return-type-with-spl-classes`
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
@@ -102,6 +103,7 @@ Per PHP version
     * :ref:`dot-and-plus-changed-precedence`
     * :ref:`inegality-comparisons`
     * :ref:`integer-non-silent-conversion`
+    * :ref:`integer-regex-with-mb_ereg_replace()`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
     * :ref:`new-cases-in-switch`
@@ -109,6 +111,7 @@ Per PHP version
     * :ref:`no-max()-on-empty-array`
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
+    * :ref:`old-constructors`
     * :ref:`old-style-constructor`
     * :ref:`only-first-byte`
     * :ref:`orphaned-parent`
@@ -131,6 +134,7 @@ Per PHP version
     * :ref:`ceil()-strict-mode`
     * :ref:`convert_uuencode()-works-on-empty-strings`
     * :ref:`count()-must-count-countable`
+    * :ref:`each()-is-no-more`
     * :ref:`explode()-forbids-empty-strings`
     * :ref:`file_get_contents()-needs-a-real-path`
     * :ref:`get_called_class()-cannot-be-called-outside-a-class`

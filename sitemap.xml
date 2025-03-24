@@ -148,6 +148,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceNativeReturnType.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceSplReturnType.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/EvalWithouTry.html</loc>
  </url>
  <url>
@@ -283,6 +286,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/maxOnStringAndInt.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_ereg_replaceWithInteger.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_strrpos.html</loc>
  </url>
  <url>
@@ -329,6 +335,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/oldStyleConstructor.html</loc>
@@ -536,6 +545,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/vsprintfReturnsEmptyString.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/while_list_each.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html</loc>
