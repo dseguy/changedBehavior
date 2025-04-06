@@ -117,11 +117,13 @@ PHP Changed Behavior
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
+   behavior/octalNonConvertible.rst
    behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
    behavior/orphanedParent.rst
    behavior/parentInCallable.rst
+   behavior/passingObjectIsDeprecated.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/printfWarning.rst

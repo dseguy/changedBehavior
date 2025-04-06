@@ -65,6 +65,9 @@ PHP Error Messages
     * :ref:`Argument #3 ($offset) must be of type int, string given <strpos()-emits-typeerror>`
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
+    * :ref:`Unparenthesized `a ? b : c ? d : e` is not supported. <ternary-associativity>`
+    * :ref:`Using $this when not in object context <$this-must-be-the-local-object>`
+    * :ref:`syntax error, unexepected 'throw' (T_THROW) <throw-is-an-expression>`
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
     * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`

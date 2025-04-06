@@ -77,6 +77,7 @@ Per PHP version
     * :ref:`named-parameters-and-variadic`
     * :ref:`nested-attributes`
     * :ref:`php-native-return-types-are-now-enforced`
+    * :ref:`passing-objects-is-deprecated`
     * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`unpack-arrays-in-arrays`
     * :ref:`array_unique()-don't-filter-enums`
@@ -175,6 +176,7 @@ Per PHP version
     * :ref:`float-used-as-array`
     * :ref:`integer-used-as-array`
     * :ref:`null-used-as-array`
+    * :ref:`php-warns-when-finding-unconvertible-characters`
     * :ref:`parameter-contravariance`
     * :ref:`returntype-covariance`
     * :ref:`__tostring-can-throw-exceptions`

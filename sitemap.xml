@@ -337,6 +337,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/octalNonConvertible.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OldConstructors.html</loc>
  </url>
  <url>
@@ -350,6 +353,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/parentInCallable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html</loc>
