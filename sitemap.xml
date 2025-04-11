@@ -349,6 +349,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/onlyFirstByte.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html</loc>
  </url>
  <url>

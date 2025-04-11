@@ -1,0 +1,4 @@
+PHP Deprecated:  Required parameter $b follows optional parameter $a in /codes/OptionalParameterLast.php on line 3
+
+Deprecated: Required parameter $b follows optional parameter $a in /codes/OptionalParameterLast.php on line 3
+1 2

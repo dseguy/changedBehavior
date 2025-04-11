@@ -121,6 +121,7 @@ PHP Changed Behavior
    behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
+   behavior/OptionalParameterLast.rst
    behavior/orphanedParent.rst
    behavior/parentInCallable.rst
    behavior/passingObjectIsDeprecated.rst

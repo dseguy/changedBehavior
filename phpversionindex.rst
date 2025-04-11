@@ -115,6 +115,7 @@ Per PHP version
     * :ref:`old-constructors`
     * :ref:`old-style-constructor`
     * :ref:`only-first-byte`
+    * :ref:`optional-parameter-are-after-compulsory-parameters`
     * :ref:`orphaned-parent`
     * :ref:`plus-and-concat-precedence`
     * :ref:`removing-$this-from-a-closure-is-deprecated`

@@ -50,6 +50,7 @@ PHP Error Messages
     * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
+    * :ref:`Calling %s\(\) on an object is deprecated <passing-objects-is-deprecated>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
