@@ -1,18 +1,18 @@
-.. _`array_sum()-checks-operands-more-thoroughly`:
+.. _`array_sum()-checks-operands-thoroughly`:
 
-array_sum() Checks Operands More Thoroughly
-===========================================
+array_sum() Checks Operands Thoroughly
+======================================
 .. meta::
 	:description:
-		array_sum() Checks Operands More Thoroughly: array_sum() used to cast the arguments to integers before executing the additions.
+		array_sum() Checks Operands Thoroughly: array_sum() used to cast the arguments to integers before executing the additions.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: array_sum() Checks Operands More Thoroughly
-	:twitter:description: array_sum() Checks Operands More Thoroughly: array_sum() used to cast the arguments to integers before executing the additions
+	:twitter:title: array_sum() Checks Operands Thoroughly
+	:twitter:description: array_sum() Checks Operands Thoroughly: array_sum() used to cast the arguments to integers before executing the additions
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: array_sum() Checks Operands More Thoroughly
+	:og:title: array_sum() Checks Operands Thoroughly
 	:og:type: article
 	:og:description: array_sum() used to cast the arguments to integers before executing the additions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/arraySumChecks.html
