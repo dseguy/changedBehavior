@@ -1,0 +1,3 @@
+PHP Fatal error:  __autoload() must take exactly 1 argument in /codes/autoload.php on line 3
+
+Fatal error: __autoload() must take exactly 1 argument in /codes/autoload.php on line 3

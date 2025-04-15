@@ -1,0 +1,3 @@
+PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
+
+Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3

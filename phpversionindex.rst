@@ -26,6 +26,7 @@ Per PHP version
     * :ref:`die-and-exit-as-functions`
     * :ref:`direct-calls-on-new`
     * :ref:`init-readonly-properties-in-child`
+    * :ref:`length-of-tempnam()-has-been-raised`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
     * :ref:`round()-mode-validation`
 * 8.3
@@ -44,7 +45,7 @@ Per PHP version
     * :ref:`storage-of-static-properties-trait`
     * :ref:`typed-class-constant`
     * :ref:`array_product()-new-checks`
-    * :ref:`array_sum()-checks-operands-more-thoroughly`
+    * :ref:`array_sum()-checks-operands-thoroughly`
     * :ref:`class_alias()-works-on-internal-classes`
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`range()-with-int-and-string`

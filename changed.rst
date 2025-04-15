@@ -167,6 +167,7 @@ PHP Changed Behavior
    behavior/strsplitnegativelength.rst
    behavior/substrReturnsEmptyStringOnOutOfBondOffset.rst
    behavior/switchComparison.rst
+   behavior/tempnamLength.rst
    behavior/tentativeStaticWithDatetime.rst
    behavior/ternaryAssociativity.rst
    behavior/thisMustBeInObject.rst
