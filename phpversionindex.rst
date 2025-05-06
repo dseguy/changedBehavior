@@ -28,6 +28,7 @@ Per PHP version
     * :ref:`init-readonly-properties-in-child`
     * :ref:`length-of-tempnam()-has-been-raised`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
+    * :ref:`http_build_query()-supports-enumerations`
     * :ref:`round()-mode-validation`
 * 8.3
     * :ref:`backed-enum-values-needed-to-compile`
@@ -128,6 +129,7 @@ Per PHP version
     * :ref:`trailing-comma-in-arguments`
     * :ref:`undefined-constants`
     * :ref:`unpack-array-with-string-keys`
+    * :ref:`using-__autoload()-is-deprecated`
     * :ref:`__set_state()-method-must-be-static`
     * :ref:`__sleep()-method-enforces-return-type`
     * :ref:`array_key_exists()-doesn't-work-on-objects`

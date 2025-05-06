@@ -20,6 +20,7 @@ PHP Changed Behavior
    behavior/assertIsReserved.rst
    behavior/assertThrows.rst
    behavior/autoInitializeArrayFromBool.rst
+   behavior/autoload.rst
    behavior/backed_enum_constant_check.rst
    behavior/bitshiftConcatPrecedence.rst
    behavior/BooleanAsArray.rst
@@ -72,6 +73,7 @@ PHP Changed Behavior
    behavior/GLOBALSAssignement.rst
    behavior/heredoc_in_array.rst
    behavior/htmlspecialchars81.rst
+   behavior/http_build_query_and_enum.rst
    behavior/implicitConversionToInt.rst
    behavior/implicitNullable.rst
    behavior/imploderOrder.rst
