@@ -64,7 +64,7 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-  + `Calling %s\(\) on an object is deprecated <https://php-errors.readthedocs.io/en/latest/messages/calling-%25s%5C%28%5C%29-on-an-object-is-deprecated.html>`_
+  + `Calling %s() on an object is deprecated <https://php-errors.readthedocs.io/en/latest/messages/calling-%25s%28%29-on-an-object-is-deprecated.html>`_
 
 
 

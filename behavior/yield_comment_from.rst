@@ -22,7 +22,7 @@ Since PHP 8.3, there can be a comment, inserted between the ``yield`` and the ``
 
 
 
-In previous versions, this would not compile, unless there was a defined constant called ``from``. 
+In previous versions, this would not compile, unless there was a defined constant called ``from``.
 
 PHP code
 ________
