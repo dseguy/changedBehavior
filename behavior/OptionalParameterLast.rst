@@ -64,3 +64,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html>`_
+
+
+

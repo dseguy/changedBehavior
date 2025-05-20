@@ -22,6 +22,7 @@ PHP Error Messages
     * :ref:`Creating default object from empty value <creating-object-on-null>`
     * :ref:`Array and string offset access syntax with curly braces <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
+    * :ref:`0 <optional-parameter-are-after-compulsory-parameters>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
@@ -29,7 +30,6 @@ PHP Error Messages
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
-    * :ref:`0 <get_class()-needs-an-argument>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
@@ -39,12 +39,13 @@ PHP Error Messages
     * :ref:`syntax error, unexpected '[', expecting ';' or ',' <interpolated-string-dereferencing>`
     * :ref:`syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) <calling-static-methods-on-strings>`
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
-    * :ref:`Invalid characters passed for attempted conversion, these have been ignored <base-conversion-reports-invalid-characters>`
+    * :ref:`Invalid characters passed for attempted conversion, these have been ignored <php-warns-when-finding-unconvertible-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
     * :ref:`Array must contain at least one element <no-max()-on-empty-array>`
     * :ref:`Must contain at least one element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
+    * :ref:`Cannot combine named arguments and argument unpacking <named-parameters-and-variadic>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
@@ -73,6 +74,7 @@ PHP Error Messages
     * :ref:`syntax error, unexpected ')', expecting variable (T_VARIABLE) <trailing-comma-in-calls>`
     * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
+    * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`
     * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-max_depth-option>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
     * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version_compare()-stricter-operators>`

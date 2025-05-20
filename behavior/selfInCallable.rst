@@ -32,8 +32,6 @@ In the example, self would be calling the static method ``replace``, in A.
 
 Since PHP 8.2, this is a deprecated feature, and it will be removed in PHP 9.
 
-
-
 PHP code
 ________
 .. code-block:: php
@@ -52,6 +50,8 @@ ________
    }
    
    echo b::work('abc');
+   
+   ?>
 
 Before
 ______

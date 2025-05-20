@@ -53,7 +53,7 @@ Per PHP version
     * :ref:`unserialize()-checks-the-end-of-the-string`
     * :ref:`unserialize()-error-report`
 * 8.2
-    * :ref:`-is-deprecated`
+    * :ref:`${expression}-is-deprecated`
     * :ref:`constants-in-traits`
     * :ref:`duplicate-enum-cases-are-not-linted-anymore`
     * :ref:`no-reference-to-$globals-variable`

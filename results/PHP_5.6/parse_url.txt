@@ -1,0 +1,7 @@
+Array
+(
+    [scheme] => smtp
+    [host] => 127.0.0.1
+    [port] => 25
+    [user] => foo@bar.com
+)
