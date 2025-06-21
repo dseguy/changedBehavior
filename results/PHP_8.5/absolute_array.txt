@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot use "array" as a type name as it is reserved in /codes/absolute_array.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot use "array" as a type name as it is reserved in /codes/absolute_array.php on line 3
+Stack trace:
+#0 {main}

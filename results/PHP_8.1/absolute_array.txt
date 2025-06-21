@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: foo(): Return value must be of type array, array returned in /codes/absolute_array.php:4
+Stack trace:
+#0 /codes/absolute_array.php(7): foo()
+#1 {main}
+  thrown in /codes/absolute_array.php on line 4
+
+Fatal error: Uncaught TypeError: foo(): Return value must be of type array, array returned in /codes/absolute_array.php:4
+Stack trace:
+#0 /codes/absolute_array.php(7): foo()
+#1 {main}
+  thrown in /codes/absolute_array.php on line 4
