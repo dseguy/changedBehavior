@@ -5,6 +5,7 @@ PHP Changed Behavior
    :maxdepth: 1
    :caption: Contents:
 
+   behavior/absolute_array.rst
    behavior/absoluteArrayName.rst
    behavior/abstractPrivateMethodInTrait.rst
    behavior/accessTraitsDirectly.rst

@@ -20,6 +20,7 @@ Per PHP version
     * :ref:`strpos()-with-null-haystack`
 * 8.5
     * :ref:`array-has-no-absolute-name`
+    * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4
     * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`

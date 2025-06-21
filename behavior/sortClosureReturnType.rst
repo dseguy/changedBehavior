@@ -18,7 +18,7 @@ Sorting Closure Must Return Integers
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/sortClosureReturnType.html
 	:og:locale: en
 
-Comparison closures used in custom sorting need to return an integer, while they could yield true or false. This applies to all sorting functions, including usort(), uasort(), and uksort().
+Comparison closures used in custom sorting need to return an integer, while they could yield true or false. This applies to all custom sorting functions, including usort(), uasort(), and uksort().
 
 PHP code
 ________
