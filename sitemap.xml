@@ -202,6 +202,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSCopy.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/heredoc_in_array.html</loc>
  </url>
  <url>

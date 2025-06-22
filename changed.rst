@@ -72,6 +72,7 @@ PHP Changed Behavior
    behavior/get_classWithoutArgument.rst
    behavior/globalDynamicVariable.rst
    behavior/GLOBALSAssignement.rst
+   behavior/GLOBALSCopy.rst
    behavior/heredoc_in_array.rst
    behavior/htmlspecialchars81.rst
    behavior/http_build_query_and_enum.rst

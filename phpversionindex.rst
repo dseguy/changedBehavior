@@ -72,6 +72,7 @@ Per PHP version
     * :ref:`cannot-explode()-null`
     * :ref:`clone-a-constant`
     * :ref:`constants-with-objects`
+    * :ref:`copy-of-$globals`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`enforcing-return-type-with-spl-classes`
     * :ref:`filessytemiterator-skips-dot-files`
