@@ -46,6 +46,7 @@ PHP Changed Behavior
    behavior/curl_init.rst
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
+   behavior/deprecatedConstant.rst
    behavior/die-exit-functions.rst
    behavior/dollar_curly_expression.rst
    behavior/dotAndBitshift.rst
@@ -98,6 +99,7 @@ PHP Changed Behavior
    behavior/krsort.rst
    behavior/ksort-regular.rst
    behavior/ksort.rst
+   behavior/libxml_disable_entity_loader.rst
    behavior/linted_enum.rst
    behavior/liskovPrinciple.rst
    behavior/matchKeyword.rst

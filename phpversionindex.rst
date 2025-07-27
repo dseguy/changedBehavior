@@ -24,6 +24,7 @@ Per PHP version
 * 8.4
     * :ref:`array-syntax-with-curly-braces-are-no-more`
     * :ref:`call-method-on-new`
+    * :ref:`constant-%s-is-deprecated`
     * :ref:`die-and-exit-as-functions`
     * :ref:`direct-calls-on-new`
     * :ref:`init-readonly-properties-in-child`
@@ -148,6 +149,7 @@ Per PHP version
     * :ref:`implode()-arguments-order`
     * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`in_array()-string-int-comparisons`
+    * :ref:`libxml_disable_entity_loader()-is-deprecated`
     * :ref:`match-is-now-a-keyword`
     * :ref:`max()-must-contain-at-least-one-element`
     * :ref:`max()-on-string-and-integer`
