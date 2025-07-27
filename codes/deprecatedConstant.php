@@ -1,0 +1,5 @@
+<?php
+
+echo SUNFUNCS_RET_TIMESTAMP;
+
+?>
