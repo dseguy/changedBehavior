@@ -26,7 +26,7 @@ ________
 
    <?php
    
-   namespace a { 
+   namespace A { 
    	function foo() {
            static $s;
            $s = 1;
@@ -35,6 +35,8 @@ ________
            echo $s;
        }
    }
+   
+   ?>
 
 Before
 ______

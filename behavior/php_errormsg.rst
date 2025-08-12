@@ -36,6 +36,7 @@ ________
    
    echo $php_errormsg;
    
+   ?>
 
 Before
 ______

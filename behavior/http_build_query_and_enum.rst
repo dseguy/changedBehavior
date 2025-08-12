@@ -31,6 +31,8 @@ ________
    }
    
    print http_build_query(['a' => 'A', 'b' => e::B]);
+   
+   ?>
 
 Before
 ______

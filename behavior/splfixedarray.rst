@@ -39,6 +39,8 @@ ________
    
    var_dump($array instanceof Iterator);
    var_dump($array instanceof IteratorAggregate);
+   
+   ?>
 
 Before
 ______
@@ -46,7 +48,6 @@ ______
 
    bool(true)
    bool(false)
-   
 
 After
 ______

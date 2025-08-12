@@ -26,10 +26,11 @@ ________
 
    <?php
    
-   class x {
+   class X {
        function __set_state() {}
-       
    }
+   
+   ?>
 
 Before
 ______

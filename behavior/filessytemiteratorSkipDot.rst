@@ -35,8 +35,8 @@ ________
    foreach ($it as $fileinfo) {
        echo $fileinfo->getFilename() . "\n";
    }
-   ?>
    
+   ?>
 
 Before
 ______

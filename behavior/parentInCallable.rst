@@ -54,6 +54,8 @@ ________
    }
    
    echo b::work('abc');
+   
+   ?>
 
 Before
 ______

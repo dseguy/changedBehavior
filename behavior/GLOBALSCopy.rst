@@ -30,6 +30,7 @@ ________
    $globals = $GLOBALS; // Ostensibly by-value copy
    $globals['a'] = 2;
    var_dump($a); // int(2)
+   ?>
 
 Before
 ______

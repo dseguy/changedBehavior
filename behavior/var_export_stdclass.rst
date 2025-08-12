@@ -25,7 +25,9 @@ ________
 .. code-block:: php
 
    <?php
-   var_export(new stdClass);
+   
+      var_export(new stdClass);
+   
    ?>
 
 Before

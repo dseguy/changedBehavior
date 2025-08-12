@@ -18,7 +18,7 @@ version_compare() Stricter Operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/version_compare.html
 	:og:locale: en
 
-version_compare() compares version strings, using an operator, passed as third parameter. Until PHP 8.3, unknown operators ignore it, and use the default value. 
+version_compare() compares version strings, using an operator, passed as third parameter. Until PHP 8.3, unknown operators are ignored, and the function uses the default value. 
 
 
 

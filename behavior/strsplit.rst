@@ -18,7 +18,7 @@ strsplit() With Empty String
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strsplit.html
 	:og:locale: en
 
-strstplit() splits a string into smaller strings of the same size. Until PHP 8.2, it would return an array with an empty string when splitting an empty string. Since then, it returns an empty array.
+strstplit() splits a string into smaller strings of the same size. Until PHP 8.2, it used to return an array with an empty string when splitting an empty string. Since then, it returns an empty array.
 
 This has impact on the code after, in processing or testing the result of the split. 
 

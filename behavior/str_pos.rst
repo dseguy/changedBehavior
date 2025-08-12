@@ -32,7 +32,7 @@ ________
    
    var_dump(strpos('abc ', 32));
    
-   
+   ?>
 
 Before
 ______

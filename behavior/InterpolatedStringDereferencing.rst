@@ -4,21 +4,21 @@ Interpolated String Dereferencing
 =================================
 .. meta::
 	:description:
-		Interpolated String Dereferencing: Until PHP 8, it was possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods.
+		Interpolated String Dereferencing: Until PHP 8, it was not possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Interpolated String Dereferencing
-	:twitter:description: Interpolated String Dereferencing: Until PHP 8, it was possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods
+	:twitter:description: Interpolated String Dereferencing: Until PHP 8, it was not possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Interpolated String Dereferencing
 	:og:type: article
-	:og:description: Until PHP 8, it was possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods
+	:og:description: Until PHP 8, it was not possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/InterpolatedStringDereferencing.html
 	:og:locale: en
 
-Until PHP 8, it was possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods. It was not possible for interpolated strings, which are strings that include another string. 
+Until PHP 8, it was not possible to use a literal string as a variable for an array, or a class name, and access, respectively, index, properties, constant or methods. It was not possible for interpolated strings, which are strings that include another string. 
 
 
 
