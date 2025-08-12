@@ -82,6 +82,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassOnIdentifier.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassUnderscore.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html</loc>
  </url>
  <url>

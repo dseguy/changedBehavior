@@ -32,6 +32,7 @@ PHP Changed Behavior
    behavior/ceilStrictMode.rst
    behavior/classAliasWithInternalClass.rst
    behavior/ClassOnIdentifier.rst
+   behavior/ClassUnderscore.rst
    behavior/cloneConstant.rst
    behavior/cloneReadonly.rst
    behavior/compactThrowsNotice.rst

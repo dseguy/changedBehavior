@@ -29,6 +29,7 @@ Per PHP version
     * :ref:`direct-calls-on-new`
     * :ref:`init-readonly-properties-in-child`
     * :ref:`length-of-tempnam()-has-been-raised`
+    * :ref:`underscore-named-class`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`round()-mode-validation`
