@@ -391,6 +391,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/printfWarning.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeSingleByteString.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeWithAllStrings.html</loc>
  </url>
  <url>
@@ -467,6 +470,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceOnArraysOfThings.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strftime.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringIntegerComparison.html</loc>

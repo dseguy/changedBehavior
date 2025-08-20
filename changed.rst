@@ -135,6 +135,7 @@ PHP Changed Behavior
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/printfWarning.rst
+   behavior/rangeSingleByteString.rst
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
    behavior/real_cast.rst
@@ -161,6 +162,7 @@ PHP Changed Behavior
    behavior/str_replaceChecksArguments.rst
    behavior/str_replaceOnArraysOfObjects.rst
    behavior/str_replaceOnArraysOfThings.rst
+   behavior/strftime.rst
    behavior/stringIntegerComparison.rst
    behavior/stringsBiggerThanIntegers.rst
    behavior/strpos-and-offset.rst

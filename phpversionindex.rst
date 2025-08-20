@@ -33,6 +33,7 @@ Per PHP version
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`round()-mode-validation`
+    * :ref:`strftime()-and-gmstrftime()-are-deprecated`
 * 8.3
     * :ref:`backed-enum-values-needed-to-compile`
     * :ref:`can-clone-readonly-properties`
@@ -52,6 +53,7 @@ Per PHP version
     * :ref:`array_sum()-checks-operands-thoroughly`
     * :ref:`class_alias()-works-on-internal-classes`
     * :ref:`range()-lists-everything-between-strings`
+    * :ref:`range()-uses-single-byte-strings`
     * :ref:`range()-with-int-and-string`
     * :ref:`unserialize()-checks-the-end-of-the-string`
     * :ref:`unserialize()-error-report`

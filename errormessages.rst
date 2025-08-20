@@ -38,6 +38,7 @@ PHP Error Messages
     * :ref:`Cannot %s readonly property %s::$%s from %s%s <init-readonly-properties-in-child>`
     * :ref:`syntax error, unexpected '[', expecting ';' or ',' <interpolated-string-dereferencing>`
     * :ref:`syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) <calling-static-methods-on-strings>`
+    * :ref:`syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-',' <calling-static-methods-on-strings>`
     * :ref:`A non-numeric value encountered <integer-non-silent-conversion>`
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <php-warns-when-finding-unconvertible-characters>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
@@ -53,6 +54,7 @@ PHP Error Messages
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
+    * :ref:`range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 <range()-uses-single-byte-strings>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
