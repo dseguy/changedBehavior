@@ -22,7 +22,7 @@ PHP Error Messages
     * :ref:`Creating default object from empty value <creating-object-on-null>`
     * :ref:`Array and string offset access syntax with curly braces <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
-    * :ref:`0 <optional-parameter-are-after-compulsory-parameters>`
+    * :ref:`0 <get_class()-needs-an-argument>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
@@ -51,6 +51,7 @@ PHP Error Messages
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
     * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
+    * :ref:`Required parameter $%s follows optional parameter $%s <optional-parameter-are-after-compulsory-parameters>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
