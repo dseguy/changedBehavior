@@ -9,6 +9,7 @@ PHP Changed Behavior
    behavior/absoluteArrayName.rst
    behavior/abstractPrivateMethodInTrait.rst
    behavior/accessTraitsDirectly.rst
+   behavior/aliasReplace.rst
    behavior/anonymousSignature.rst
    behavior/array_key_existsOnObjects.rst
    behavior/array_merge_and_variadic.rst
@@ -163,6 +164,7 @@ PHP Changed Behavior
    behavior/str_replaceOnArraysOfObjects.rst
    behavior/str_replaceOnArraysOfThings.rst
    behavior/strftime.rst
+   behavior/stringIncrement.rst
    behavior/stringIntegerComparison.rst
    behavior/stringsBiggerThanIntegers.rst
    behavior/strpos-and-offset.rst

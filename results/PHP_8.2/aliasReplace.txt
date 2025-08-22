@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot use y as xBefore because the name is already in use in /codes/aliasReplace.php on line 10
+
+Fatal error: Cannot use y as xBefore because the name is already in use in /codes/aliasReplace.php on line 10

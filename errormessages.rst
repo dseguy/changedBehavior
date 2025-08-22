@@ -66,6 +66,7 @@ PHP Error Messages
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
     * :ref:`Use of "static" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
+    * :ref:`Increment on non-alphanumeric string is deprecated <string-increments>`
     * :ref:`%s(): Argument #%d ($%s) must be contained in argument #%d ($%s) <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Offset not contained in string. <strpos()-with-out-of-range-offset-is-a-fatal-error>`
     * :ref:`Argument #3 ($offset) must be of type int, string given <strpos()-emits-typeerror>`

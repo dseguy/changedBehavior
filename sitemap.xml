@@ -13,6 +13,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/accessTraitsDirectly.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/aliasReplace.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/anonymousSignature.html</loc>
  </url>
  <url>
@@ -473,6 +476,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strftime.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringIncrement.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringIntegerComparison.html</loc>
