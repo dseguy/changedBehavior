@@ -3,8 +3,14 @@
 $id = $argv[1] ?? null;
 
 if ($id === null) {
-	$files = glob('codes/*.php');
-	print_r($files);
+	$codes = glob('codes/*.php');
+	$codes = array_map(function ($x) { return basename($x, '.php');}, $codes);
+
+	$ini = glob('docs/*.ini');
+	$ini = array_map(function ($x) { return basename($x, '.ini');}, $ini);
+	
+	print "Docs to be done\n";
+	print_r(array_diff($codes, $ini));
 	die();
 } else {
 	$id = preg_replace("/\.php$/", '', $id);
