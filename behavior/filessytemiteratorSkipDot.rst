@@ -68,3 +68,10 @@ ________
 * `FilesystemIterator::__construct <\https://www.php.net/manual/en/filesystemiterator.construct.php>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

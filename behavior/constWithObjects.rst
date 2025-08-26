@@ -40,9 +40,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Constant expression contains invalid operations in /codes/constWithObjects.php on line 3
+   PHP Fatal error:  Constant expression contains invalid operations
    
-   Fatal error: Constant expression contains invalid operations in /codes/constWithObjects.php on line 3
+   Fatal error: Constant expression contains invalid operations
    
 
 After
@@ -57,5 +57,12 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.1
+
+
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
 
 

@@ -57,3 +57,10 @@ ________
 * `A Comprehensive Guide to PHP's array_sum() Function <https://reintech.io/blog/a-comprehensive-guide-to-phps-array-sum-function>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

@@ -84,6 +84,7 @@ ________
 Error Messages
 ______________
 
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
   + `Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html>`_
 
 

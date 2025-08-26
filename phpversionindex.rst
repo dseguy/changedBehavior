@@ -28,7 +28,7 @@ Per PHP version
     * :ref:`constant-%s-is-deprecated`
     * :ref:`die-and-exit-as-functions`
     * :ref:`direct-calls-on-new`
-    * :ref:`init-readonly-properties-in-child`
+    * :ref:`init-readonly-properties-in-child-class`
     * :ref:`length-of-tempnam()-has-been-raised`
     * :ref:`underscore-named-class`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`

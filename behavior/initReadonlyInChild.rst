@@ -1,18 +1,18 @@
-.. _`init-readonly-properties-in-child`:
+.. _`init-readonly-properties-in-child-class`:
 
-Init Readonly Properties In Child
-=================================
+Init Readonly Properties In Child Class
+=======================================
 .. meta::
 	:description:
-		Init Readonly Properties In Child: Readonly properties used to be only assigned a value in their definition class.
+		Init Readonly Properties In Child Class: Readonly properties used to be only assigned a value in their definition class.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Init Readonly Properties In Child
-	:twitter:description: Init Readonly Properties In Child: Readonly properties used to be only assigned a value in their definition class
+	:twitter:title: Init Readonly Properties In Child Class
+	:twitter:description: Init Readonly Properties In Child Class: Readonly properties used to be only assigned a value in their definition class
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Init Readonly Properties In Child
+	:og:title: Init Readonly Properties In Child Class
 	:og:type: article
 	:og:description: Readonly properties used to be only assigned a value in their definition class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/initReadonlyInChild.html

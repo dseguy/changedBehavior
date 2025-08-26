@@ -64,3 +64,10 @@ ________
 * `String to Number Comparison <https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

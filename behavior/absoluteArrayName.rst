@@ -34,22 +34,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use array as default value for parameter $x of type array in /codes/absoluteArrayName.php on line 3
+   PHP Fatal error:  Cannot use array as default value for parameter $x of type array
    
-   Fatal error: Cannot use array as default value for parameter $x of type array in /codes/absoluteArrayName.php on line 3
+   Fatal error: Cannot use array as default value for parameter $x of type array
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use array as a type name as it is reserved in /codes/absoluteArrayName.php on line 3
-   Stack trace:
-   #0 {main}
+   PHP Fatal error:  Cannot use array as a type name as it is reserved
    
-   Fatal error: Cannot use array as a type name as it is reserved in /codes/absoluteArrayName.php on line 3
-   Stack trace:
-   #0 {main}
+   Fatal error: Cannot use array as a type name as it is reserved
    
 
 

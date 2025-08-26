@@ -38,35 +38,28 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: foo(): Return value must be of type array, array returned in /codes/absolute_array.php:4
-   Stack trace:
-   #0 /codes/absolute_array.php(7): foo()
-   #1 {main}
-     thrown in /codes/absolute_array.php on line 4
+   PHP Fatal error:  Uncaught TypeError: foo(): Return value must be of type array, array returned
    
-   Fatal error: Uncaught TypeError: foo(): Return value must be of type array, array returned in /codes/absolute_array.php:4
-   Stack trace:
-   #0 /codes/absolute_array.php(7): foo()
-   #1 {main}
-     thrown in /codes/absolute_array.php on line 4
-   
+   Fatal error: Uncaught TypeError: foo(): Return value must be of type array, array returned
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use array as a type name as it is reserved in /codes/absolute_array.php on line 3
-   Stack trace:
-   #0 {main}
+   PHP Fatal error:  Cannot use array as a type name as it is reserved
    
-   Fatal error: Cannot use array as a type name as it is reserved in /codes/absolute_array.php on line 3
-   Stack trace:
-   #0 {main}
-   
+   Fatal error: Cannot use array as a type name as it is reserved
 
 
 PHP version change
 __________________
 This behavior changed in 8.5
+
+
+Error Messages
+______________
+
+  + `Cannot use "array" as a type name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html>`_
+
 
 

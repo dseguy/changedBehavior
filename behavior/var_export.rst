@@ -59,3 +59,10 @@ ________
 * `Add leading backslash to enum and class names in var_export <https://externals.io/message/117466>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

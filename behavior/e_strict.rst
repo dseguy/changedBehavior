@@ -61,3 +61,10 @@ ________
 * `E_STRICT deprecated <https://php.watch/versions/8.4/E_STRICT-deprecated>`_
 
 
+Error Messages
+______________
+
+  + `Constant %s is deprecated <https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html>`_
+
+
+

@@ -66,6 +66,7 @@ ________
 Error Messages
 ______________
 
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
   + `syntax error, unexepected 'throw' (T_THROW) <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27throw%27-%28t_throw%29.html>`_
 
 

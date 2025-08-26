@@ -57,3 +57,10 @@ ________
 * `finfo_open <https://www.php.net/manual/fr/function.finfo-open.php>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

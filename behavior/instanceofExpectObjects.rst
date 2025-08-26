@@ -58,3 +58,10 @@ ________
 * `Type Operator <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
 
 
+Error Messages
+______________
+
+  + `instanceof expects an object instance, constant given <https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance%2C-constant-given.html>`_
+
+
+

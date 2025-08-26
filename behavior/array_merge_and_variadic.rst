@@ -66,3 +66,10 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

@@ -68,3 +68,10 @@ ________
 * `substr() <https://www.php.net/substr>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

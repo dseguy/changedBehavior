@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Required parameter $b follows optional parameter $a in /codes/OptionalParameterLast.php on line 3
+   PHP Deprecated:  Required parameter $b follows optional parameter $a
    
-   Deprecated: Required parameter $b follows optional parameter $a in /codes/OptionalParameterLast.php on line 3
+   Deprecated: Required parameter $b follows optional parameter $a
    1 2
    
 
@@ -52,9 +52,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter in /codes/OptionalParameterLast.php on line 3
+   PHP Deprecated:  foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
    
-   Deprecated: foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter in /codes/OptionalParameterLast.php on line 3
+   Deprecated: foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
    1 2
    
 

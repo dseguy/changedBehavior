@@ -1,9 +1,12 @@
 PHP Error Messages
 --------------------
+    * :ref:`Cannot use "array" as a type name as it is reserved <array-and-callable-cannot-be-absolute>`
     * :ref:`Cannot use "%s" as a type name as it is reserved <array-has-no-absolute-name>`
+    * :ref:`0 <cannot-raise-zero-to-negative-powers>`
     * :ref:`Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <cannot-call-traits-methods-directly>`
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
+    * :ref:`Defining a custom assert() function is deprecated, as the function has special semantics <assert-is-reserved-function>`
     * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
@@ -20,22 +23,25 @@ PHP Error Messages
     * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Declaration of %s::%s() should be compatible with %s::%s() <returntype-covariance>`
     * :ref:`Creating default object from empty value <creating-object-on-null>`
-    * :ref:`Array and string offset access syntax with curly braces <array-syntax-with-curly-braces-are-no-more>`
+    * :ref:`Array and string offset access syntax with curly braces is deprecated <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
-    * :ref:`0 <get_class()-needs-an-argument>`
+    * :ref:`Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead <${expression}-is-deprecated>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
+    * :ref:`Constant %s is deprecated <e_strict-is-deprecated>`
     * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
+    * :ref:`Calling get_class() without arguments is deprecated <get_class()-needs-an-argument>`
     * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`Increment on type bool has no effect, this will change in the next major version of PHP <increment-on-boolean-is-deprecated>`
-    * :ref:`Cannot %s readonly property %s::$%s from %s%s <init-readonly-properties-in-child>`
+    * :ref:`Cannot %s readonly property %s::$%s from %s%s <init-readonly-properties-in-child-class>`
+    * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
     * :ref:`syntax error, unexpected '[', expecting ';' or ',' <interpolated-string-dereferencing>`
     * :ref:`syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) <calling-static-methods-on-strings>`
     * :ref:`syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-',' <calling-static-methods-on-strings>`
@@ -65,6 +71,7 @@ PHP Error Messages
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
     * :ref:`Use of "static" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
+    * :ref:`strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <str_pos()-requires-only-strings>`
     * :ref:`Object of class stdClass could not be converted to string <str_replace()-on-arrays-of-objects>`
     * :ref:`Increment on non-alphanumeric string is deprecated <string-increments>`
     * :ref:`%s(): Argument #%d ($%s) must be contained in argument #%d ($%s) <strpos()-with-out-of-range-offset-is-a-fatal-error>`

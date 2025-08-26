@@ -69,3 +69,10 @@ ________
 * `Using negative indices with PHP arrays <https://www.strangebuzz.com/en/snippets/using-negative-indices-with-php-arrays>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

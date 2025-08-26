@@ -73,3 +73,10 @@ ________
 * `Iterator <https://www.php.net/manual/en/class.iterator.php>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
+

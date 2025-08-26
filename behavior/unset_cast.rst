@@ -37,9 +37,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  The (unset) cast is deprecated in /codes/unset_cast.php on line 4
+   PHP Deprecated:  The (unset) cast is deprecated
    
-   Deprecated: The (unset) cast is deprecated in /codes/unset_cast.php on line 4
+   Deprecated: The (unset) cast is deprecated
    int(1)
    
 
@@ -47,9 +47,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
+   PHP Fatal error:  The (unset) cast is no longer supported
    
-   Fatal error: The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
+   Fatal error: The (unset) cast is no longer supported
    
 
 

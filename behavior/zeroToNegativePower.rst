@@ -65,6 +65,7 @@ ________
 Error Messages
 ______________
 
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
   + `Power of base 0 and negative exponent is deprecated <https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html>`_
 
 

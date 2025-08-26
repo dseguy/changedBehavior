@@ -64,7 +64,7 @@ This behavior changed in 9.0
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html>`_
+  + `Calling get_class() without arguments is deprecated <https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html>`_
 
 
 

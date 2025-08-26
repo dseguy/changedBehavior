@@ -74,6 +74,28 @@ foreach($files as $file) {
 	    }
 	}
 
+	if (!isset($tip->alternatives)) {
+		buildlog("alternatives is missing in $file");
+	} else {
+	    $tip->alternatives = array_filter($tip->alternatives);
+	    
+	    if (empty($tip->alternatives)) {
+    		buildlog("alternatives is empty in $file");
+	    } else {
+	        if (count($tip->alternatives) !== count(array_unique($tip->alternatives))) {
+    		    buildlog("alternatives has duplicates in $file");
+    		}
+	    }
+	}
+
+	if (str_contains($tip->before, "/codes/")) {
+		buildlog("before contains /codes/ in $file");
+	}
+
+	if (str_contains($tip->after, "/codes/")) {
+		buildlog("after contains /codes/ in $file");
+	}
+
 	if (!isset($tip->analyzer)) {
 		buildlog("analyzer is missing in $file");
 	} elseif (!is_array($tip->analyzer)) {
@@ -108,10 +130,18 @@ foreach($files as $file) {
 			buildlog("phpError is not an array in $file");
 			$tip->phpError = array($tip->phpError => $tip->phpError);
 		}
-		$tip->phpError = array_filter($tip->phpError);
+//		$tip->phpError = array_filter($tip->phpError);
 		
 		if (!empty($tip->phpError)) {
 			foreach($tip->phpError as $title => $id) {
+			    if (empty($id) && $title === 0) {
+					continue;
+			    }
+
+			    if (empty($id)) {
+					buildlog("phpError has an empty link in $file");
+			    }
+			    
 				if (is_int($title)) {
 					$title = $id; 
 					$id = php_error_id($id);
