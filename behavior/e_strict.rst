@@ -41,9 +41,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Constant E_STRICT is deprecated in /codes/e_strict.php on line 3
+   PHP Deprecated:  Constant E_STRICT is deprecated
    
-   Deprecated: Constant E_STRICT is deprecated in /codes/e_strict.php on line 3
+   Deprecated: Constant E_STRICT is deprecated
    int(30719)
    
 

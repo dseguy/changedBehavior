@@ -54,9 +54,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Creation of dynamic property x::$p is deprecated in /codes/dynamicProperties.php on line 6
+   PHP Deprecated:  Creation of dynamic property x::$p is deprecated
    
-   Deprecated: Creation of dynamic property x::$p is deprecated in /codes/dynamicProperties.php on line 6
+   Deprecated: Creation of dynamic property x::$p is deprecated
    1
 
 

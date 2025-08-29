@@ -22,6 +22,10 @@ version_compare() compares version strings, using an operator, passed as third p
 
 
 
+Valid values of comparisons are : ``<``, ``lt``, ``<=``, ``le``, ``>``, ``gt``, ``>=``, ``ge``, ``==``, ``=``, ``eq``, ``!=``, ``<>``, ``ne``.
+
+
+
 Nowadays, it is generating a fatal error.
 
 PHP code
@@ -55,7 +59,6 @@ This behavior changed in 8.1
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
   + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
 
 

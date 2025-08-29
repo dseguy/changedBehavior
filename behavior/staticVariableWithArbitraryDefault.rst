@@ -57,9 +57,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Constant expression contains invalid operations in /codes/staticVariableWithArbitraryDefault.php on line 4
+   PHP Fatal error:  Constant expression contains invalid operations
    
-   Fatal error: Constant expression contains invalid operations in /codes/staticVariableWithArbitraryDefault.php on line 4
+   Fatal error: Constant expression contains invalid operations
    
 
 After
@@ -77,7 +77,7 @@ This behavior changed in 8.3
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
 
 
 

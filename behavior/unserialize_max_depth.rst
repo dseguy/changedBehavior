@@ -61,12 +61,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /codes/unserialize_max_depth.php on line 7
+   PHP Warning:  unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting
    
-   Warning: unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting in /codes/unserialize_max_depth.php on line 7
-   PHP Warning:  unserialize(): Error at offset 23 of 36 bytes in /codes/unserialize_max_depth.php on line 7
+   Warning: unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting
+   PHP Warning:  unserialize(): Error at offset 23 of 36 bytes
    
-   Warning: unserialize(): Error at offset 23 of 36 bytes in /codes/unserialize_max_depth.php on line 7
+   Warning: unserialize(): Error at offset 23 of 36 bytes
    
 
 
@@ -84,7 +84,6 @@ ________
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
   + `Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html>`_
 
 
