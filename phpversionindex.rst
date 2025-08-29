@@ -85,6 +85,7 @@ Per PHP version
     * :ref:`finfo-moved-away-from-resource`
     * :ref:`named-parameters-and-variadic`
     * :ref:`nested-attributes`
+    * :ref:`never-arrow-function`
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`passing-objects-is-deprecated`
     * :ref:`static-variables-are-linked-to-their-method`

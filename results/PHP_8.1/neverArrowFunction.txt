@@ -1,0 +1,3 @@
+PHP Fatal error:  A never-returning function must not return in /codes/neverArrowFunction.php on line 3
+
+Fatal error: A never-returning function must not return in /codes/neverArrowFunction.php on line 3

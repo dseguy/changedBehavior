@@ -117,6 +117,7 @@ PHP Changed Behavior
    behavior/negativeIndex.rst
    behavior/negativeOffsetOnStrings.rst
    behavior/nestedAttributes.rst
+   behavior/neverArrowFunction.rst
    behavior/neverKeyword.rst
    behavior/new_then_invoke.rst
    behavior/newCasesInSwitch.rst

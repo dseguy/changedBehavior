@@ -15,7 +15,7 @@ PHP Error Messages
     * :ref:`syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) <catch-without-variable>`
     * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
-    * :ref:`Constant expression contains invalid operations <clone-a-constant>`
+    * :ref:`Constant expression contains invalid operations <static-variable-accepts-functioncalls-as-default>`
     * :ref:`__clone method called on non-object <clone-a-constant>`
     * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
@@ -28,9 +28,11 @@ PHP Error Messages
     * :ref:`Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead <${expression}-is-deprecated>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
+    * :ref:`syntax error, unexpected token ";", expecting "(" <dynamic-class-constant>`
     * :ref:`Creation of dynamic property User::$name is deprecated <no-dynamic-properties-by-default>`
     * :ref:`Constant %s is deprecated <e_strict-is-deprecated>`
     * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
+    * :ref:`Return type of %s::%s() should either be compatible with %s::%s(): mixed <enforcing-return-type-with-spl-classes>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
@@ -53,6 +55,7 @@ PHP Error Messages
     * :ref:`Must contain at least one element <min()-doesn't-accept-empty-arrays>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`Cannot combine named arguments and argument unpacking <named-parameters-and-variadic>`
+    * :ref:`A never-returning function must not return <never-arrow-function>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-static method Foo::bar() cannot be called statically <non-static-method-called-statically>`
     * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
