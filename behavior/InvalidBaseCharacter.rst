@@ -49,18 +49,18 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 3
+   PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
    
-   Deprecated: Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 3
-   7PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 4
+   Deprecated: Invalid characters passed for attempted conversion, these have been ignored
+   7PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
    
-   Deprecated: Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 4
-   1PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 5
+   Deprecated: Invalid characters passed for attempted conversion, these have been ignored
+   1PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
    
-   Deprecated: Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 5
-   2PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 6
+   Deprecated: Invalid characters passed for attempted conversion, these have been ignored
+   2PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
    
-   Deprecated: Invalid characters passed for attempted conversion, these have been ignored in /codes/InvalidBaseCharacter.php on line 6
+   Deprecated: Invalid characters passed for attempted conversion, these have been ignored
    3567
 
 

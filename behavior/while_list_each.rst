@@ -36,27 +36,27 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /codes/while_list_each.php on line 3
+   PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls
    
-   Deprecated: The each() function is deprecated. This message will be suppressed on further calls in /codes/while_list_each.php on line 3
-   PHP Warning:  Variable passed to each() is not an array or object in /codes/while_list_each.php on line 3
+   Deprecated: The each() function is deprecated. This message will be suppressed on further calls
+   PHP Warning:  Variable passed to each() is not an array or object
    
-   Warning: Variable passed to each() is not an array or object in /codes/while_list_each.php on line 3
+   Warning: Variable passed to each() is not an array or object
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Call to undefined function each() in /codes/while_list_each.php:3
+   PHP Fatal error:  Uncaught Error: Call to undefined function each()
    Stack trace:
    #0 {main}
-     thrown in /codes/while_list_each.php on line 3
+     thrown
    
-   Fatal error: Uncaught Error: Call to undefined function each() in /codes/while_list_each.php:3
+   Fatal error: Uncaught Error: Call to undefined function each()
    Stack trace:
    #0 {main}
-     thrown in /codes/while_list_each.php on line 3
+     thrown
    
 
 
