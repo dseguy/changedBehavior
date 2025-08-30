@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Nesting level too deep - recursive dependency? in /codes/recursiveComparison.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/recursiveComparison.php on line 6
+
+Fatal error: Uncaught Error: Nesting level too deep - recursive dependency? in /codes/recursiveComparison.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/recursiveComparison.php on line 6

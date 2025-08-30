@@ -1,0 +1,3 @@
+PHP Fatal error:  Nesting level too deep - recursive dependency? in /codes/recursiveComparison.php on line 6
+
+Fatal error: Nesting level too deep - recursive dependency? in /codes/recursiveComparison.php on line 6
