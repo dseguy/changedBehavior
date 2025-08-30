@@ -66,6 +66,7 @@ PHP Error Messages
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
     * :ref:`range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 <range()-uses-single-byte-strings>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
+    * :ref:`Nesting level too deep - recursive dependency?  <recursive-comparison-of-arrays>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`

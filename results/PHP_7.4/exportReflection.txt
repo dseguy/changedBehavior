@@ -1,0 +1,21 @@
+PHP Deprecated:  Function Reflection::export() is deprecated in /codes/exportReflection.php on line 7
+
+Deprecated: Function Reflection::export() is deprecated in /codes/exportReflection.php on line 7
+Class [ <user> class A ] {
+  @@ /codes/exportReflection.php 3-3
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [0] {
+  }
+
+  - Methods [0] {
+  }
+}

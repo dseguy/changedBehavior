@@ -175,6 +175,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithNull.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/exportReflection.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/file_get_contents.html</loc>
  </url>
  <url>
@@ -239,6 +242,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementOnBoolean.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/indirectModificationInClone.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inegalityComparison.html</loc>
@@ -407,6 +413,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/real_cast.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/recursiveComparison.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/relativeCallable.html</loc>

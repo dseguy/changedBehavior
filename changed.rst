@@ -63,6 +63,7 @@ PHP Changed Behavior
    behavior/EvalWithouTry.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
+   behavior/exportReflection.rst
    behavior/file_get_contents.rst
    behavior/filessytemiteratorSkipDot.rst
    behavior/finalClassConstants.rst
@@ -85,6 +86,7 @@ PHP Changed Behavior
    behavior/inArrayStringIng.rst
    behavior/inArrayZeroString.rst
    behavior/incrementOnBoolean.rst
+   behavior/indirectModificationInClone.rst
    behavior/inegalityComparison.rst
    behavior/initReadonlyInChild.rst
    behavior/instanceofExpectObjects.rst
@@ -141,6 +143,7 @@ PHP Changed Behavior
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
    behavior/real_cast.rst
+   behavior/recursiveComparison.rst
    behavior/relativeCallable.rst
    behavior/relaxed_private.rst
    behavior/return_reference_on_void.rst

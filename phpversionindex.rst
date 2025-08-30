@@ -30,6 +30,7 @@ Per PHP version
     * :ref:`direct-calls-on-new`
     * :ref:`init-readonly-properties-in-child-class`
     * :ref:`length-of-tempnam()-has-been-raised`
+    * :ref:`recursive-comparison-of-arrays`
     * :ref:`underscore-named-class`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
     * :ref:`http_build_query()-supports-enumerations`
@@ -83,6 +84,7 @@ Per PHP version
     * :ref:`filessytemiterator-skips-dot-files`
     * :ref:`final-class-constants`
     * :ref:`finfo-moved-away-from-resource`
+    * :ref:`indirect-modification-in-clone`
     * :ref:`named-parameters-and-variadic`
     * :ref:`nested-attributes`
     * :ref:`never-arrow-function`
@@ -117,6 +119,7 @@ Per PHP version
     * :ref:`integer-regex-with-mb_ereg_replace()`
     * :ref:`interpolated-string-dereferencing`
     * :ref:`keywords-in-namespace`
+    * :ref:`method-export()-in-reflection-is-removed`
     * :ref:`new-cases-in-switch`
     * :ref:`no-abstract-private-method-in-traits`
     * :ref:`no-max()-on-empty-array`
