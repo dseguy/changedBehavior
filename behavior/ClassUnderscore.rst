@@ -58,9 +58,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Using _ as a class name is deprecated since 8.4 in /codes/ClassUnderscore.php on line 3
+   PHP Deprecated:  Using _ as a class name is deprecated since 8.4
    
-   Deprecated: Using _ as a class name is deprecated since 8.4 in /codes/ClassUnderscore.php on line 3
+   Deprecated: Using _ as a class name is deprecated since 8.4
    _
 
 

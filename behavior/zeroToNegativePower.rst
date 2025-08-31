@@ -41,9 +41,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Power of base 0 and negative exponent is deprecated in /codes/zeroToNegativePower.php on line 3
+   PHP Deprecated:  Power of base 0 and negative exponent is deprecated
    
-   Deprecated: Power of base 0 and negative exponent is deprecated in /codes/zeroToNegativePower.php on line 3
+   Deprecated: Power of base 0 and negative exponent is deprecated
    float(INF)
    
 

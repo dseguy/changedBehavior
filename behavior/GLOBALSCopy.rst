@@ -18,7 +18,7 @@ Copy Of $GLOBALS
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/GLOBALSCopy.html
 	:og:locale: en
 
-Until PHP 8.1, copying $GLOBALS into another variable was made by reference: modifying the values in the copy was also modifying the original. Since PHP 8.1, the copy is a copy by value.
+Until PHP 8.1, copying $GLOBALS into another variable was made by reference: modifying the values in the copy was also modifying the original. Since PHP 8.1, the copy is a copy by value: this means that changing something in the copy will not be changed in the original ``$GLOBALS`` variable.
 
 PHP code
 ________

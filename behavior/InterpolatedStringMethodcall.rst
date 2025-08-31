@@ -50,9 +50,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' in /codes/InterpolatedStringMethodcall.php on line 5
+   PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ','
    
-   Parse error: syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' in /codes/InterpolatedStringMethodcall.php on line 5
+   Parse error: syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ','
    
 
 After

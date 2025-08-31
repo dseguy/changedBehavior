@@ -40,9 +40,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Abstract function t::foo() cannot be declared private in /codes/abstractPrivateMethodInTrait.php on line 3
+   PHP Fatal error:  Abstract function t::foo() cannot be declared private
    
-   Fatal error: Abstract function t::foo() cannot be declared private in /codes/abstractPrivateMethodInTrait.php on line 3
+   Fatal error: Abstract function t::foo() cannot be declared private
    
 
 After

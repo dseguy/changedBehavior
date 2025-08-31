@@ -43,17 +43,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Undefined constant "from" in /codes/yield_comment_from.php:4
-   Stack trace:
-   #0 /codes/yield_comment_from.php(7): foo()
-   #1 {main}
-     thrown in /codes/yield_comment_from.php on line 4
+   PHP Fatal error:  Uncaught Error: Undefined constant from
    
-   Fatal error: Uncaught Error: Undefined constant from in /codes/yield_comment_from.php:4
-   Stack trace:
-   #0 /codes/yield_comment_from.php(7): foo()
-   #1 {main}
-     thrown in /codes/yield_comment_from.php on line 4
+   Fatal error: Uncaught Error: Undefined constant from
    
 
 After
