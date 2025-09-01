@@ -63,10 +63,4 @@ __________________
 This behavior changed in 8.4
 
 
-Error Messages
-______________
-
-  + `Nesting level too deep - recursive dependency?  <https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html>`_
-
-
 

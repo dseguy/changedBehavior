@@ -69,10 +69,10 @@ ________
 * `PHP RFC: Arbitrary string interpolation <https://wiki.php.net/rfc/arbitrary_string_interpolation>`_
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `syntax error, unexpected '[', expecting ';' or ',' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%5B%27%2C-expecting-%27%3B%27-or-%27%2C%27.html>`_
+  + `Php/InterpolatedStringDereferencing <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/InterpolatedStringDereferencing.html>`_
 
 
 

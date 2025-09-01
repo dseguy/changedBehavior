@@ -70,10 +70,10 @@ ________
 * `Callable <https://www.php.net/manual/en/language.types.callable.php>`_
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Functions/DeprecatedCallable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html>`_
 
 
 

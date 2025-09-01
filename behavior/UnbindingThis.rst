@@ -44,39 +44,27 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Unbinding $this of closure is deprecated in /codes/UnbindingThis.php on line 13
+   PHP Deprecated:  Unbinding $this of closure is deprecated
    
-   Deprecated: Unbinding $this of closure is deprecated in /codes/UnbindingThis.php on line 13
-   PHP Fatal error:  Uncaught Error: Object of class Closure could not be converted to string in /codes/UnbindingThis.php:13
-   Stack trace:
-   #0 {main}
-     thrown in /codes/UnbindingThis.php on line 13
+   Deprecated: Unbinding $this of closure is deprecated
+   PHP Fatal error:  Uncaught Error: Object of class Closure could not be converted to string
    
-   Fatal error: Uncaught Error: Object of class Closure could not be converted to string in /codes/UnbindingThis.php:13
-   Stack trace:
-   #0 {main}
-     thrown in /codes/UnbindingThis.php on line 13
+   Fatal error: Uncaught Error: Object of class Closure could not be converted to string
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  Cannot unbind $this of closure using $this in /codes/UnbindingThis.php on line 13
+   PHP Warning:  Cannot unbind $this of closure using $this
    
-   Warning: Cannot unbind $this of closure using $this in /codes/UnbindingThis.php on line 13
+   Warning: Cannot unbind $this of closure using $this
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

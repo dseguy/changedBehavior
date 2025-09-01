@@ -80,10 +80,10 @@ This behavior was deprecated in 8.2
 This behavior changed in 9.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Use of "static" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%22static%22-in-callables-is-deprecated.html>`_
+  + `Functions/DeprecatedCallable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html>`_
 
 
 

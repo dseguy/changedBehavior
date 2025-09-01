@@ -45,9 +45,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  unserialize(): Unserializing the 'S' format is deprecated in /codes/unserialize_S.php on line 3
+   PHP Deprecated:  unserialize(): Unserializing the 'S' format is deprecated
    
-   Deprecated: unserialize(): Unserializing the 'S' format is deprecated in /codes/unserialize_S.php on line 3
+   Deprecated: unserialize(): Unserializing the 'S' format is deprecated
    string(1) e
    
 
@@ -55,12 +55,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.4
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

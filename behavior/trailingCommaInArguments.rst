@@ -53,11 +53,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-  + `syntax error, unexpected ')', expecting variable (T_VARIABLE) <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%29%27%2C-expecting-variable-%28t_variable%29.html>`_
+  + `Php/TrailingComma <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/TrailingComma.html>`_
 
 
 

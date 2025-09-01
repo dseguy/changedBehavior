@@ -59,10 +59,4 @@ ________
 * `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php#object.set-state>`_
 
 
-Error Messages
-______________
-
-  + `Method x::__set_state() must be static <https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-be-static.html>`_
-
-
 

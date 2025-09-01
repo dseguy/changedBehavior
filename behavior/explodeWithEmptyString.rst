@@ -68,10 +68,4 @@ ________
 * `explode <https://www.php.net/manual/en/function.explode.php>`_
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-
-
 

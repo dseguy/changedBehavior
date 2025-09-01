@@ -54,10 +54,4 @@ ________
 * `round() <https://www.php.net/round>`_
 
 
-Error Messages
-______________
-
-  + `must be a valid rounding mode (RoundingMode::*) <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%3A%3A%2A%29.html>`_
-
-
 

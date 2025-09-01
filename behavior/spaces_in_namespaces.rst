@@ -54,10 +54,4 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `syntax error, unexpected fully qualified name "\Package", expecting "{" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22%7B%22.html>`_
-
-
 

@@ -73,10 +73,4 @@ ________
 * `$php_errormsg <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`_
 
 
-Error Messages
-______________
-
-  + `Undefined variable <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
-
-
 

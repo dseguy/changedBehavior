@@ -55,10 +55,4 @@ __________________
 This behavior changed in 8.2
 
 
-Error Messages
-______________
-
-  + `Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead <https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bexpr%7D-%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html>`_
-
-
 

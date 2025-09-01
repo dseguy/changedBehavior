@@ -56,10 +56,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Cannot use ::class with dynamic class name <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html>`_
+  + `Classes/ClassOperatorOnObject <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ClassOperatorOnObject.html>`_
 
 
 

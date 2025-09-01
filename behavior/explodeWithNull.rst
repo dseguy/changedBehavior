@@ -59,10 +59,4 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-
-
 

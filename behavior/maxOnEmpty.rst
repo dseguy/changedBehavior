@@ -62,10 +62,4 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `Array must contain at least one element <https://php-errors.readthedocs.io/en/latest/messages/argument-%231-%28%24value%29-must-contain-at-least-one-element.html>`_
-
-
 

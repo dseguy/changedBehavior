@@ -58,10 +58,10 @@ ________
 * `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Classes/TypedClassConstants <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/TypedClassConstants.html>`_
 
 
 

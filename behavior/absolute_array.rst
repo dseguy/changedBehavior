@@ -56,10 +56,4 @@ __________________
 This behavior changed in 8.5
 
 
-Error Messages
-______________
-
-  + `Cannot use "array" as a type name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html>`_
-
-
 

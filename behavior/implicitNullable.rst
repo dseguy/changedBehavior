@@ -68,10 +68,10 @@ This behavior was deprecated in 8.4
 This behavior changed in 9.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-implicitly-marking-parameter-%24%25s-as-nullable-is-deprecated%2C-the-explicit-nullable-type-must-be-used-instead.html>`_
+  + `Classes/HiddenNullable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/HiddenNullable.html>`_
 
 
 

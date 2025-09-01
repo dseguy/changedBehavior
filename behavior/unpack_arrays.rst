@@ -36,9 +36,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot unpack array with string keys in /codes/unpack_arrays.php on line 3
+   PHP Fatal error:  Cannot unpack array with string keys
    
-   Fatal error: Cannot unpack array with string keys in /codes/unpack_arrays.php on line 3
+   Fatal error: Cannot unpack array with string keys
    
 
 After
@@ -58,10 +58,10 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
+  + `Structures/ArrayWithStringEllipsis <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ArrayWithStringEllipsis.html>`_
 
 
 

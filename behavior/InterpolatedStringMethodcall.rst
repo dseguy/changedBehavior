@@ -67,11 +67,4 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3A%3A%27-%28t_paamayim_nekudotayim%29%2C-expecting-%27%3B%27-or-%27%2C%27.html>`_
-  + `syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-',' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3A%3A%27-%28t_paamayim_nekudotayim%29%2C-expecting-%27%3B%27-or-%27%2C%27.html>`_
-
-
 

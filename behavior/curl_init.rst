@@ -57,10 +57,4 @@ ________
 * `curl_init <https://www.php.net/manual/fr/function.curl-init.php>`_
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-
-
 

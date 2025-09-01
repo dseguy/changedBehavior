@@ -59,10 +59,4 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
-
-  + `Cannot combine named arguments and argument unpacking <https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html>`_
-
-
 

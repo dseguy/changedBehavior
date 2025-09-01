@@ -56,10 +56,10 @@ __________________
 This behavior changed in 8.3
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Duplicate declaration of static variable $%s <https://php-errors.readthedocs.io/en/latest/messages/duplicate-declaration-of-static-variable-%24%25s.html>`_
+  + `Variables/RedeclaredStaticVariable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/RedeclaredStaticVariable.html>`_
 
 
 

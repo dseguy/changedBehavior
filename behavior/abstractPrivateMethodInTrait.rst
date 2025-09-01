@@ -61,10 +61,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Traits/NoPrivateAbstract <https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/NoPrivateAbstract.html>`_
 
 
 

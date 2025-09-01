@@ -57,10 +57,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html>`_
+  + `Php/StrposWithIntegers <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrposWithIntegers.html>`_
 
 
 

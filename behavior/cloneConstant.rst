@@ -61,11 +61,4 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
-
-  + `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
-  + `__clone method called on non-object <https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html>`_
-
-
 

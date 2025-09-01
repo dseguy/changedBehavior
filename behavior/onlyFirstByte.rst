@@ -59,10 +59,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Only the first byte will be assigned to the string offset <https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html>`_
+  + `Structures/OnlyFirstByte <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyFirstByte.html>`_
 
 
 

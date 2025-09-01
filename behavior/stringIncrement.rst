@@ -55,10 +55,4 @@ __________________
 This behavior changed in 5.6
 
 
-Error Messages
-______________
-
-  + `Increment on non-alphanumeric string is deprecated <https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html>`_
-
-
 

@@ -45,9 +45,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  unserialize(): Extra data starting at offset 37 of 39 bytes in /codes/unserialize_checks.php on line 3
+   PHP Warning:  unserialize(): Extra data starting at offset 37 of 39 bytes
    
-   Warning: unserialize(): Extra data starting at offset 37 of 39 bytes in /codes/unserialize_checks.php on line 3
+   Warning: unserialize(): Extra data starting at offset 37 of 39 bytes
    __PHP_Incomplete_Class Object
    (
        [__PHP_Incomplete_Class_Name] => a
@@ -65,12 +65,6 @@ See Also
 ________
 
 * `PHP RFC: Make unserialize() emit a warning for trailing bytes <https://wiki.php.net/rfc/unserialize_warn_on_trailing_data>`_
-
-
-Error Messages
-______________
-
-  + `unserialize(): Extra data starting at offset 37 of 39 bytes <https://php-errors.readthedocs.io/en/latest/messages/extra-data-starting-at-offset-%25d-of-%25zd-bytes.html>`_
 
 
 

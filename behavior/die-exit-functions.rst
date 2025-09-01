@@ -56,11 +56,4 @@ ________
 * `exit <https://www.php.net/manual/en/function.exit.php>`_
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-  + `Call to undefined function exit() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit%28%29.html>`_
-
-
 

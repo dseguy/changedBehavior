@@ -79,10 +79,4 @@ This behavior was deprecated in 7.0
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `Non-static method Foo::bar() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html>`_
-
-
 

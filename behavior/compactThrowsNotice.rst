@@ -80,10 +80,4 @@ ________
 * `compact() <https://www.php.net/manual/en/function.compact.php>`_
 
 
-Error Messages
-______________
-
-  + `Undefined variable <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
-
-
 

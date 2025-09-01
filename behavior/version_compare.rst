@@ -56,10 +56,4 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
-
-  + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
-
-
 

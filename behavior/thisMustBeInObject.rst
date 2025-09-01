@@ -65,10 +65,13 @@ __________________
 This behavior changed in 7.1
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Using $this when not in object context <https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html>`_
+  + `Classes/StaticContainsThis <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/StaticContainsThis.html>`_
+  + `Classes/ThisIsNotForStatic <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ThisIsNotForStatic.html>`_
+  + `Classes/UsingThisOutsideAClass <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UsingThisOutsideAClass.html>`_
+  + `Classes/ThisIsForClasses <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ThisIsForClasses.html>`_
 
 
 

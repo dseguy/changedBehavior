@@ -60,10 +60,4 @@ __________________
 This behavior changed in 8.4
 
 
-Error Messages
-______________
-
-  + `Array and string offset access syntax with curly braces is deprecated <https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html>`_
-
-
 

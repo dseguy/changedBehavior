@@ -61,10 +61,4 @@ ________
 * `PHP: Fixing Deprecated strftime() calls <https://whateverthing.com/blog/2022/12/05/php-fixing-deprecated-strftime-calls/>`_
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-
-
 

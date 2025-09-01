@@ -72,11 +72,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Non-static method %s::%s() should not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html>`_
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Classes/StaticMethodsCalledFromObject <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/StaticMethodsCalledFromObject.html>`_
 
 
 

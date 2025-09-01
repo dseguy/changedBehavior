@@ -61,10 +61,10 @@ This behavior was deprecated in 8.3
 This behavior changed in 9.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Calling get_class() without arguments is deprecated <https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html>`_
+  + `Structures/NoGetClassNull <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoGetClassNull.html>`_
 
 
 

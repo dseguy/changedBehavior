@@ -54,10 +54,10 @@ __________________
 This behavior changed in 7.4
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Trying to access array offset on %s <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
+  + `Php/FalseToArray <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FalseToArray.html>`_
 
 
 

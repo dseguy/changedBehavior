@@ -40,15 +40,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Cannot unpack array with string keys in /codes/ellipsis_and_named_arguments.php:5
-   Stack trace:
-   #0 {main}
-     thrown in /codes/ellipsis_and_named_arguments.php on line 5
+   PHP Fatal error:  Uncaught Error: Cannot unpack array with string keys
    
-   Fatal error: Uncaught Error: Cannot unpack array with string keys in /codes/ellipsis_and_named_arguments.php:5
-   Stack trace:
-   #0 {main}
-     thrown in /codes/ellipsis_and_named_arguments.php on line 5
+   Fatal error: Uncaught Error: Cannot unpack array with string keys
    
 
 After
@@ -63,10 +57,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
+  + `Structures/ArrayWithStringEllipsis <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ArrayWithStringEllipsis.html>`_
 
 
 

@@ -61,10 +61,4 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
-
-
 
