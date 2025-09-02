@@ -46,9 +46,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  array_merge() expects at least 1 parameter, 0 given in /codes/array_merge_and_variadic.php on line 5
+   PHP Warning:  array_merge() expects at least 1 parameter, 0 given
    
-   Warning: array_merge() expects at least 1 parameter, 0 given in /codes/array_merge_and_variadic.php on line 5
+   Warning: array_merge() expects at least 1 parameter, 0 given
    
 
 After

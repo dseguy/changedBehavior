@@ -40,9 +40,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  array_product(): Multiplication is not supported on type array in /codes/arrayProdChecks.php on line 3
+   PHP Warning:  array_product(): Multiplication is not supported on type array
    
-   Warning: array_product(): Multiplication is not supported on type array in /codes/arrayProdChecks.php on line 3
+   Warning: array_product(): Multiplication is not supported on type array
    1
 
 

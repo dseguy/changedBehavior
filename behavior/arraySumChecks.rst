@@ -40,9 +40,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  array_sum(): Addition is not supported on type array in /codes/arraySumChecks.php on line 3
+   PHP Warning:  array_sum(): Addition is not supported on type array
    
-   Warning: array_sum(): Addition is not supported on type array in /codes/arraySumChecks.php on line 3
+   Warning: array_sum(): Addition is not supported on type array
    1
 
 

@@ -4,21 +4,21 @@ Trailing Comma In Arguments
 ===========================
 .. meta::
 	:description:
-		Trailing Comma In Arguments: Trailing commas in arguments is the last argument left empty.
+		Trailing Comma In Arguments: Trailing comma in arguments is the last argument left empty.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Trailing Comma In Arguments
-	:twitter:description: Trailing Comma In Arguments: Trailing commas in arguments is the last argument left empty
+	:twitter:description: Trailing Comma In Arguments: Trailing comma in arguments is the last argument left empty
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Trailing Comma In Arguments
 	:og:type: article
-	:og:description: Trailing commas in arguments is the last argument left empty
+	:og:description: Trailing comma in arguments is the last argument left empty
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/trailingCommaInArguments.html
 	:og:locale: en
 
-Trailing commas in arguments is the last argument left empty. This last argument is not transmitted, so the last comma has no effect. This feature is useful when arguments are kept on a different line : the last argument has now also a comma, and adding one extra argument will yield a one line diff, compared to the previous version. Without it, the diff would be two lines, and include the preceding line. 
+Trailing comma in arguments is the last argument left empty. This last argument is not transmitted, so the last comma has no effect. This feature is useful when arguments are kept on a different line : the last argument has now also a comma, and adding one extra argument will yield a one line diff, compared to the previous version. Without it, the diff would be two lines, and include the preceding line. 
 
 PHP code
 ________
