@@ -49,17 +49,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Cannot modify readonly property x::$p in /codes/cloneReadonly.php:11
-   Stack trace:
-   #0 /codes/cloneReadonly.php(16): x->__clone()
-   #1 {main}
-     thrown in /codes/cloneReadonly.php on line 11
+   PHP Fatal error:  Uncaught Error: Cannot modify readonly property x::$p
    
-   Fatal error: Uncaught Error: Cannot modify readonly property x::$p in /codes/cloneReadonly.php:11
-   Stack trace:
-   #0 /codes/cloneReadonly.php(16): x->__clone()
-   #1 {main}
-     thrown in /codes/cloneReadonly.php on line 11
+   Fatal error: Uncaught Error: Cannot modify readonly property x::$p
    
 
 After

@@ -15,7 +15,6 @@ PHP Changed Behavior
    behavior/array_merge_and_variadic.rst
    behavior/array_negative_id.rst
    behavior/array_next_id.rst
-   behavior/array_unique_enum.rst
    behavior/array_with_string_initialisation.rst
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst

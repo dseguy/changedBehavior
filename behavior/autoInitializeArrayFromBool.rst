@@ -48,24 +48,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error in /codes/autoInitializeArrayFromBool.php on line 4
+   PHP Parse error:  syntax error
    
-   Parse error: syntax error in /codes/autoInitializeArrayFromBool.php on line 4
+   Parse error: syntax error
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool in /codes/autoInitializeArrayFromBool.php:8
-   Stack trace:
-   #0 {main}
-     thrown in /codes/autoInitializeArrayFromBool.php on line 8
+   PHP Fatal error:  Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool
    
-   Fatal error: Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool in /codes/autoInitializeArrayFromBool.php:8
-   Stack trace:
-   #0 {main}
-     thrown in /codes/autoInitializeArrayFromBool.php on line 8
+   Fatal error: Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool
    
 
 

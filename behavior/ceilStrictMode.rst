@@ -42,17 +42,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given in /codes/ceilStrictMode.php:5
-   Stack trace:
-   #0 /codes/ceilStrictMode.php(5): ceil(Object(GMP))
-   #1 {main}
-     thrown in /codes/ceilStrictMode.php on line 5
+   PHP Fatal error:  Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given
    
-   Fatal error: Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given in /codes/ceilStrictMode.php:5
-   Stack trace:
-   #0 /codes/ceilStrictMode.php(5): ceil(Object(GMP))
-   #1 {main}
-     thrown in /codes/ceilStrictMode.php on line 5
+   Fatal error: Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given
    
 
 

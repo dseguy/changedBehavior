@@ -34,22 +34,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
+   PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead
    
-   Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
+   Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
-   Stack trace:
-   #0 {main}
+   PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead
    
-   Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
-   Stack trace:
-   #0 {main}
+   Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead
    
 
 

@@ -40,18 +40,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9
+   PHP Notice:  serialize(): __sleep should return an array only containing the names of instance-variables to serialize
    
-   Notice: serialize(): __sleep should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9
+   Notice: serialize(): __sleep should return an array only containing the names of instance-variables to serialize
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9
+   PHP Warning:  serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize
    
-   Warning: serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize in /codes/nonArrayWithSleep.php on line 9
+   Warning: serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize
    
 
 

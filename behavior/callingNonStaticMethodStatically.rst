@@ -46,24 +46,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Non-static method x::foo() should not be called statically in /codes/callingNonStaticMethodStatically.php on line 9
+   PHP Deprecated:  Non-static method x::foo() should not be called statically
    
-   Deprecated: Non-static method x::foo() should not be called statically in /codes/callingNonStaticMethodStatically.php on line 9
+   Deprecated: Non-static method x::foo() should not be called statically
    x::foo
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Non-static method x::foo() cannot be called statically in /codes/callingNonStaticMethodStatically.php:9
-   Stack trace:
-   #0 {main}
-     thrown in /codes/callingNonStaticMethodStatically.php on line 9
+   PHP Fatal error:  Uncaught Error: Non-static method x::foo() cannot be called statically
    
-   Fatal error: Uncaught Error: Non-static method x::foo() cannot be called statically in /codes/callingNonStaticMethodStatically.php:9
-   Stack trace:
-   #0 {main}
-     thrown in /codes/callingNonStaticMethodStatically.php on line 9
+   Fatal error: Uncaught Error: Non-static method x::foo() cannot be called statically
    
 
 

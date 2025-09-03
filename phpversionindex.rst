@@ -92,7 +92,6 @@ Per PHP version
     * :ref:`passing-objects-is-deprecated`
     * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`unpack-arrays-in-arrays`
-    * :ref:`array_unique()-don't-filter-enums`
     * :ref:`compact()-throws-notice-on-missing-variable`
     * :ref:`jsonserialize-must-have-return-type`
     * :ref:`newver-is-now-a-keyword`

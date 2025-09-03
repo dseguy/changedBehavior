@@ -43,9 +43,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  Trying to access array offset on true in /codes/nullAsArray.php on line 3
+   PHP Warning:  Trying to access array offset on true
    
-   Warning: Trying to access array offset on null in /codes/nullAsArray.php on line 3
+   Warning: Trying to access array offset on null
    PHP
 
 

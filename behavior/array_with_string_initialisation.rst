@@ -42,24 +42,18 @@ Before
 ______
 .. code-block:: output
 
-   abc34PHP Warning:  Illegal string offset 'c' in /codes/array_with_string_initialisation.php on line 7
+   abc34PHP Warning:  Illegal string offset 'c'
    
-   Warning: Illegal string offset 'c' in /codes/array_with_string_initialisation.php on line 7
+   Warning: Illegal string offset 'c'
    
 
 After
 ______
 .. code-block:: output
 
-   abc34PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /codes/array_with_string_initialisation.php:7
-   Stack trace:
-   #0 {main}
-     thrown in /codes/array_with_string_initialisation.php on line 7
+   abc34PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string
    
-   Fatal error: Uncaught TypeError: Cannot access offset of type string on string in /codes/array_with_string_initialisation.php:7
-   Stack trace:
-   #0 {main}
-     thrown in /codes/array_with_string_initialisation.php on line 7
+   Fatal error: Uncaught TypeError: Cannot access offset of type string on string
    
 
 

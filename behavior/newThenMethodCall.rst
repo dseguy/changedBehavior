@@ -43,9 +43,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token -> in /codes/newThenMethodCall.php on line 3
+   PHP Parse error:  syntax error, unexpected token ->
    
-   Parse error: syntax error, unexpected token -> in /codes/newThenMethodCall.php on line 3
+   Parse error: syntax error, unexpected token ->
    
 
 After

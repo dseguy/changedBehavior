@@ -26,9 +26,7 @@ Since trait only make sense as a part of a class, this operation is now forbidde
 
 
 
-Accessing static methods are also forbidden. Accessing trait constants is also forbidden, although constants in traits were introduced in PHP 8.3. 
-
-
+Accessing static methods are also forbidden. Accessing trait constants is also forbidden, although constants in traits were introduced in PHP 8.3.
 
 PHP code
 ________
@@ -36,7 +34,7 @@ ________
 
    <?php
    
-   trait t {
+   trait T {
        public static $P = 1;
        
    }
@@ -55,9 +53,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait in /codes/callToTraitProperty.php on line 8
+   PHP Deprecated:  Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait
    
-   Deprecated: Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait in /codes/callToTraitProperty.php on line 8
+   Deprecated: Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait
    1
 
 
