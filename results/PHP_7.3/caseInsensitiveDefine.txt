@@ -1,0 +1,7 @@
+PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /codes/caseInsensitiveDefine.php on line 3
+
+Deprecated: define(): Declaration of case-insensitive constants is deprecated in /codes/caseInsensitiveDefine.php on line 3
+PHP Deprecated:  Case-insensitive constants are deprecated. The correct casing for this constant is "A" in /codes/caseInsensitiveDefine.php on line 5
+
+Deprecated: Case-insensitive constants are deprecated. The correct casing for this constant is "A" in /codes/caseInsensitiveDefine.php on line 5
+11
