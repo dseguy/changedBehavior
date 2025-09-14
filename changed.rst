@@ -28,6 +28,7 @@ PHP Changed Behavior
    behavior/callingNonStaticMethodStatically.rst
    behavior/callToTraitProperty.rst
    behavior/callTraitAlone.rst
+   behavior/caseInsensitiveDefine.rst
    behavior/CatchNoVariable.rst
    behavior/ceilStrictMode.rst
    behavior/classAliasWithInternalClass.rst
@@ -69,10 +70,12 @@ PHP Changed Behavior
    behavior/finalMethodInTrait.rst
    behavior/finfo_open.rst
    behavior/FloatAsArray.rst
+   behavior/fputcsvEscape.rst
    behavior/func_get_arg.rst
    behavior/generatorDontReturn.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
+   behavior/getObjectVars.rst
    behavior/globalDynamicVariable.rst
    behavior/GLOBALSAssignement.rst
    behavior/GLOBALSCopy.rst

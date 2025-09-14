@@ -33,6 +33,7 @@ Per PHP version
     * :ref:`recursive-comparison-of-arrays`
     * :ref:`underscore-named-class`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
+    * :ref:`fputcsv()-needs-escape-parameter`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`round()-mode-validation`
     * :ref:`strftime()-and-gmstrftime()-are-deprecated`
@@ -129,6 +130,7 @@ Per PHP version
     * :ref:`only-first-byte`
     * :ref:`optional-parameter-are-after-compulsory-parameters`
     * :ref:`orphaned-parent`
+    * :ref:`php-constants-are-not-case-insensitive`
     * :ref:`plus-and-concat-precedence`
     * :ref:`removing-$this-from-a-closure-is-deprecated`
     * :ref:`spaces-in-namespaces`
@@ -196,6 +198,7 @@ Per PHP version
     * :ref:`returntype-covariance`
     * :ref:`__tostring-can-throw-exceptions`
     * :ref:`array_merge()-and-variadic`
+    * :ref:`get_object_vars()-does-not-work-on-arrayobject`
     * :ref:`unserialize()-max_depth-option`
 * 7.3
     * :ref:`heredoc-syntax-in-an-array`
