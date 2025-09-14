@@ -44,26 +44,26 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Method X::__toString() must not throw an exception, caught Exception: errorX::__toString in /codes/toStringCanThrow.php on line 0
+   PHP Fatal error:  Method X::__toString() must not throw an exception, caught Exception: errorX::__toString
    
-   Fatal error: Method X::__toString() must not throw an exception, caught Exception: errorX::__toString in /codes/toStringCanThrow.php on line 0
+   Fatal error: Method X::__toString() must not throw an exception, caught Exception: errorX::__toString
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Exception: errorX::__toString in /codes/toStringCanThrow.php:5
+   PHP Fatal error:  Uncaught Exception: errorX::__toString
    Stack trace:
    #0 /codes/toStringCanThrow.php(9): X->__toString()
    #1 {main}
-     thrown in /codes/toStringCanThrow.php on line 5
+     thrown
    
-   Fatal error: Uncaught Exception: errorX::__toString in /codes/toStringCanThrow.php:5
+   Fatal error: Uncaught Exception: errorX::__toString
    Stack trace:
    #0 /codes/toStringCanThrow.php(9): X->__toString()
    #1 {main}
-     thrown in /codes/toStringCanThrow.php on line 5
+     thrown
    
 
 

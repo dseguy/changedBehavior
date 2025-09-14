@@ -49,14 +49,8 @@ ______
 .. code-block:: output
 
    PHP Fatal error:  Uncaught Error: Call to undefined function each()
-   Stack trace:
-   #0 {main}
-     thrown
    
    Fatal error: Uncaught Error: Call to undefined function each()
-   Stack trace:
-   #0 {main}
-     thrown
    
 
 

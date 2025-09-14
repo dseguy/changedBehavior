@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Constant expression contains invalid operations in /codes/cloneConstant.php on line 5
+   PHP Fatal error:  Constant expression contains invalid operations
    
-   Fatal error: Constant expression contains invalid operations in /codes/cloneConstant.php on line 5
+   Fatal error: Constant expression contains invalid operations
    
 
 After
@@ -59,6 +59,12 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.1
+
+
+Analyzer
+_________
+
+  + `Php/CloneConstant <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CloneConstant.html>`_
 
 
 

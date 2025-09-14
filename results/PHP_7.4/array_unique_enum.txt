@@ -1,3 +1,0 @@
-PHP Parse error:  syntax error, unexpected 'E' (T_STRING) in /codes/array_unique_enum.php on line 3
-
-Parse error: syntax error, unexpected 'E' (T_STRING) in /codes/array_unique_enum.php on line 3

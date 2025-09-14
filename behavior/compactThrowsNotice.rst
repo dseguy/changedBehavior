@@ -47,9 +47,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
+   PHP Warning:  compact(): Undefined variable $Tobias
    
-   Warning: compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Undefined variable $Tobias
    array(0) {
    }
    
@@ -58,12 +58,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
+   PHP Warning:  compact(): Undefined variable $Tobias
    
-   Warning: compact(): Undefined variable $Tobias in /codes/compactThrowsNotice.php on line 7
-   PHP Warning:  compact(): Argument #2 must be string or array of strings, int given in /codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Undefined variable $Tobias
+   PHP Warning:  compact(): Argument #2 must be string or array of strings, int given
    
-   Warning: compact(): Argument #2 must be string or array of strings, int given in /codes/compactThrowsNotice.php on line 7
+   Warning: compact(): Argument #2 must be string or array of strings, int given
    array(0) {
    }
    
@@ -78,6 +78,12 @@ See Also
 ________
 
 * `compact() <https://www.php.net/manual/en/function.compact.php>`_
+
+
+Analyzer
+_________
+
+  + `Php/CompactInexistant <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CompactInexistant.html>`_
 
 
 

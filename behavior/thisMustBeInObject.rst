@@ -38,9 +38,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  Undefined variable: this in /codes/thisMustBeInObject.php on line 3
+   PHP Notice:  Undefined variable: this
    
-   Notice: Undefined variable: this in /codes/thisMustBeInObject.php on line 3
+   Notice: Undefined variable: this
    NULL
    
 
@@ -48,15 +48,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Using $this when not in object context in /codes/thisMustBeInObject.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/thisMustBeInObject.php on line 3
+   PHP Fatal error:  Uncaught Error: Using $this when not in object context
    
-   Fatal error: Uncaught Error: Using $this when not in object context in /codes/thisMustBeInObject.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/thisMustBeInObject.php on line 3
+   Fatal error: Uncaught Error: Using $this when not in object context
    
 
 

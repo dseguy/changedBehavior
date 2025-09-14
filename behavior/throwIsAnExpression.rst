@@ -40,9 +40,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected 'throw' (T_THROW) in /codes/throwIsAnExpression.php on line 3
+   PHP Parse error:  syntax error, unexpected 'throw' (T_THROW)
    
-   Parse error: syntax error, unexpected 'throw' (T_THROW) in /codes/throwIsAnExpression.php on line 3
+   Parse error: syntax error, unexpected 'throw' (T_THROW)
    
 
 After
