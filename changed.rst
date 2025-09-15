@@ -58,6 +58,8 @@ PHP Changed Behavior
    behavior/dynamicClassConstant.rst
    behavior/dynamicProperties.rst
    behavior/e_strict.rst
+   behavior/E_USER_ERROR.rst
+   behavior/each.rst
    behavior/enforceNativeReturnType.rst
    behavior/enforceSplReturnType.rst
    behavior/EvalWithouTry.rst

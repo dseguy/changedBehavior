@@ -20,6 +20,7 @@ Per PHP version
     * :ref:`strpos()-with-null-haystack`
 * 8.5
     * :ref:`array-has-no-absolute-name`
+    * :ref:`e_user_error-is-deprecated`
     * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4
     * :ref:`alias-replace-class`
@@ -151,6 +152,7 @@ Per PHP version
     * :ref:`ceil()-strict-mode`
     * :ref:`convert_uuencode()-works-on-empty-strings`
     * :ref:`count()-must-count-countable`
+    * :ref:`each()-has-been-removed`
     * :ref:`each()-is-no-more`
     * :ref:`explode()-forbids-empty-strings`
     * :ref:`file_get_contents()-needs-a-real-path`

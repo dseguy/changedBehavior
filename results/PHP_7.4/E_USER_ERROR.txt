@@ -1,0 +1,3 @@
+PHP Fatal error:  user error in /codes/E_USER_ERROR.php on line 3
+
+Fatal error: user error in /codes/E_USER_ERROR.php on line 3

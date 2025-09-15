@@ -160,6 +160,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/e_strict.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/E_USER_ERROR.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/each.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceNativeReturnType.html</loc>
  </url>
  <url>
