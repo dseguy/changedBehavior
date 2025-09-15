@@ -92,8 +92,16 @@ foreach($files as $file) {
 		buildlog("before contains /codes/ in $file");
 	}
 
+	if (str_contains($tip->before, "Stack trace")) {
+		buildlog("before contains Stack trace in $file");
+	}
+
 	if (str_contains($tip->after, "/codes/")) {
 		buildlog("after contains /codes/ in $file");
+	}
+
+	if (str_contains($tip->after, "Stack trace")) {
+		buildlog("after contains Stack trace in $file");
 	}
 
 	if (!isset($tip->analyzer)) {
@@ -106,6 +114,8 @@ foreach($files as $file) {
     		buildlog("analyzer is empty in $file");
 	    } else {
 	        foreach($tip->analyzer as $rule) {
+	            if ($rule === 'none') { continue; }
+
 	            if (!file_exists('../analyzeG3/library/Exakat/Analyzer/'.$rule.'.php')) {
             		buildlog("No such analyzer as '$rule' in $file");
 	            }
@@ -130,16 +140,13 @@ foreach($files as $file) {
 			buildlog("phpError is not an array in $file");
 			$tip->phpError = array($tip->phpError => $tip->phpError);
 		}
-//		$tip->phpError = array_filter($tip->phpError);
-		
+
 		if (!empty($tip->phpError)) {
 			foreach($tip->phpError as $title => $id) {
-			    if (empty($id) && $title === 0) {
-					continue;
-			    }
-
+			    if ($id === 'none') { continue; }
 			    if (empty($id)) {
 					buildlog("phpError has an empty link in $file");
+					continue;
 			    }
 			    
 				if (is_int($title)) {
@@ -150,7 +157,7 @@ foreach($files as $file) {
 		
 				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
 					buildlog("phpError doesn't exists in $file");
-					print '../php-errors/errors/'.$id.'.ini in '.$file.PHP_EOL;
+					print '../php-errors/errors/'.$id.'.ini does not exist in '.$file.PHP_EOL;
 				}
 			}
 	
@@ -313,7 +320,7 @@ CODE;
 		$behavior[] = '';
 	}
 
-	if (!empty($changedBehavior->phpError)) {
+	if (!empty($changedBehavior->phpError[0]) && $changedBehavior->phpError[0] !== 'none') {
 		$behavior[] = '';
 		$behavior[] = 'Error Messages';
 		$behavior[] = '______________';
@@ -324,9 +331,20 @@ CODE;
 			$behavior[] = '  + `'.$title.' <https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($id).'.html>`_';
 		}
 		$behavior[] = '';
-		$behavior[] = '';
 	}
 
+	if ((!empty($changedBehavior->analyzer[0])) && ($changedBehavior->analyzer[0] !== 'none')) {
+		$behavior[] = '';
+		$behavior[] = 'Analyzer';
+		$behavior[] = '_________';
+		$behavior[] = '';
+		foreach($changedBehavior->analyzer as $id) {
+			$behavior[] = '  + `'.$id.' <https://exakat.readthedocs.io/en/latest/Reference/Rules/'.$id.'.html>`_';
+		}
+		$behavior[] = '';
+	}
+	
+	$behavior[] = '';
 //	$behavior[] = "\n----\n";
 	$behavior[] = PHP_EOL;
 	
