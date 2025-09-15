@@ -72,9 +72,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Constant SUNFUNCS_RET_TIMESTAMP is deprecated in /codes/deprecatedConstant.php on line 3
+   PHP Deprecated:  Constant SUNFUNCS_RET_TIMESTAMP is deprecated 
    
-   Deprecated: Constant SUNFUNCS_RET_TIMESTAMP is deprecated in /codes/deprecatedConstant.php on line 3
+   Deprecated: Constant SUNFUNCS_RET_TIMESTAMP is deprecated 
    0
 
 

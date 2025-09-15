@@ -18,7 +18,7 @@ cUrl Moved Away From Resource
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/curl_init.html
 	:og:locale: en
 
-Curl functions have moved from resource to objects in PHP 8.0. Instead of returning a resource, it now returns a CurlHandle object. Checks based on is_resource() must be upgraded, and are now dead code.
+Curl functions have moved from resource to objects in PHP 8.0. Instead of returning a resource, it now returns a ``CurlHandle`` object. Checks based on is_resource() must be upgraded, and are now dead code.
 
 PHP code
 ________

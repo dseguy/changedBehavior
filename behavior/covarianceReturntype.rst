@@ -32,23 +32,23 @@ ________
 
    <?php
    
-   interface i {}
+   interface I {}
    
-   interface j extends i {}
+   interface J extends I {}
    
-   class x {
-   	function foo() : i {
+   class X {
+   	function foo() : I {
    	
    	}
    }
    
-   class y extends x {
-   	function foo() : j {
+   class Y extends X {
+   	function foo() : J {
    	
    	}
    }
    
-   var_dump(new y);
+   var_dump(new Y);
    
    ?>
 
@@ -56,9 +56,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Declaration of y::foo(): j must be compatible with x::foo(): i in /codes/covarianceReturntype.php on line 17
+   PHP Fatal error:  Declaration of y::foo(): j must be compatible with x::foo(): i 
    
-   Fatal error: Declaration of y::foo(): j must be compatible with x::foo(): i in /codes/covarianceReturntype.php on line 17
+   Fatal error: Declaration of y::foo(): j must be compatible with x::foo(): i 
    
 
 After

@@ -34,25 +34,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /codes/countUncountable.php on line 3
+   PHP Warning:  count(): Parameter must be an array or an object that implements Countable
    
-   Warning: count(): Parameter must be an array or an object that implements Countable in /codes/countUncountable.php on line 3
+   Warning: count(): Parameter must be an array or an object that implements Countable
    1
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in /codes/countUncountable.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/countUncountable.php on line 3
+   PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given
    
-   Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in /codes/countUncountable.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/countUncountable.php on line 3
-   
+   Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given
 
 
 PHP version change
@@ -60,6 +53,12 @@ __________________
 This behavior was deprecated in 7.2
 
 This behavior changed in 8.0
+
+
+Analyzer
+_________
+
+  + `Structures/CanCountNonCountable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CanCountNonCountable.html>`_
 
 
 

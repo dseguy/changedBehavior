@@ -52,9 +52,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  Declaration of y::foo(i $a) should be compatible with x::foo(j $a) in /codes/contravarianceParameter.php on line 17
+   PHP Warning:  Declaration of y::foo(i $a) should be compatible with x::foo(j $a)
    
-   Warning: Declaration of y::foo(i $a) should be compatible with x::foo(j $a) in /codes/contravarianceParameter.php on line 17
+   Warning: Declaration of y::foo(i $a) should be compatible with x::foo(j $a)
    object(y)#1 (0) {
    }
    

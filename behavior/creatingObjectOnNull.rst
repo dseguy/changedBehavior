@@ -40,24 +40,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  Creating default object from empty value in /codes/creatingObjectOnNull.php on line 3
+   PHP Warning:  Creating default object from empty value 
    
-   Warning: Creating default object from empty value in /codes/creatingObjectOnNull.php on line 3
+   Warning: Creating default object from empty value 
    1
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Attempt to assign property a on null in /codes/creatingObjectOnNull.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/creatingObjectOnNull.php on line 3
+   PHP Fatal error:  Uncaught Error: Attempt to assign property a on null 
    
-   Fatal error: Uncaught Error: Attempt to assign property a on null in /codes/creatingObjectOnNull.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/creatingObjectOnNull.php on line 3
+   Fatal error: Uncaught Error: Attempt to assign property a on null 
    
 
 
