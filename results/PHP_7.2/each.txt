@@ -1,0 +1,4 @@
+PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /codes/each.php on line 4
+
+Deprecated: The each() function is deprecated. This message will be suppressed on further calls in /codes/each.php on line 4
+a1
