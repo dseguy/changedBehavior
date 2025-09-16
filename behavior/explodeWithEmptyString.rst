@@ -34,26 +34,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  explode(): Empty delimiter in /codes/explodeWithEmptyString.php on line 3
+   PHP Warning:  explode(): Empty delimiter
    
-   Warning: explode(): Empty delimiter in /codes/explodeWithEmptyString.php on line 3
+   Warning: explode(): Empty delimiter
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /codes/explodeWithEmptyString.php:3
-   Stack trace:
-   #0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
-   #1 {main}
-     thrown in /codes/explodeWithEmptyString.php on line 3
+   PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty
    
-   Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /codes/explodeWithEmptyString.php:3
-   Stack trace:
-   #0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
-   #1 {main}
-     thrown in /codes/explodeWithEmptyString.php on line 3
+   Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty
    
 
 

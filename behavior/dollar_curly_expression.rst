@@ -43,9 +43,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Using  (variable variables) in strings is deprecated, use {} instead in /codes/dollar_curly_expression.php on line 5
+   PHP Deprecated:  Using  (variable variables) in strings is deprecated, use {} instead
    
-   Deprecated: Using  (variable variables) in strings is deprecated, use {} instead in /codes/dollar_curly_expression.php on line 5
+   Deprecated: Using  (variable variables) in strings is deprecated, use {} instead
    string(10) foo is xyz
    
 

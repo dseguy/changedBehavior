@@ -40,18 +40,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3
+   PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported
    
-   Fatal error: Array and string offset access syntax with curly braces is no longer supported in /codes/curly_braces.php on line 3
+   Fatal error: Array and string offset access syntax with curly braces is no longer supported
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token { in /codes/curly_braces.php on line 3
+   PHP Parse error:  syntax error, unexpected token {
    
-   Parse error: syntax error, unexpected token { in /codes/curly_braces.php on line 3
+   Parse error: syntax error, unexpected token {
    
 
 

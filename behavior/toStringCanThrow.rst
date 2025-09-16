@@ -54,16 +54,8 @@ ______
 .. code-block:: output
 
    PHP Fatal error:  Uncaught Exception: errorX::__toString
-   Stack trace:
-   #0 /codes/toStringCanThrow.php(9): X->__toString()
-   #1 {main}
-     thrown
    
    Fatal error: Uncaught Exception: errorX::__toString
-   Stack trace:
-   #0 /codes/toStringCanThrow.php(9): X->__toString()
-   #1 {main}
-     thrown
    
 
 

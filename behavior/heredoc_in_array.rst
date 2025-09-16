@@ -39,9 +39,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error in /codes/heredoc_in_array.php on line 10
+   PHP Parse error:  syntax error
    
-   Parse error: syntax error in /codes/heredoc_in_array.php on line 10
+   Parse error: syntax error
    
 
 After

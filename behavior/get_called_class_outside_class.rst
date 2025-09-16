@@ -4,21 +4,21 @@ get_called_class() Cannot Be Called Outside A Class
 ===================================================
 .. meta::
 	:description:
-		get_called_class() Cannot Be Called Outside A Class: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumration.
+		get_called_class() Cannot Be Called Outside A Class: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumeration.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: get_called_class() Cannot Be Called Outside A Class
-	:twitter:description: get_called_class() Cannot Be Called Outside A Class: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumration
+	:twitter:description: get_called_class() Cannot Be Called Outside A Class: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumeration
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: get_called_class() Cannot Be Called Outside A Class
 	:og:type: article
-	:og:description: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumration
+	:og:description: Until PHP 8, get_called_class() generated a warning when called outside a class or an enumeration
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/get_called_class_outside_class.html
 	:og:locale: en
 
-Until PHP 8, get_called_class() generated a warning when called outside a class or an enumration. Later, it is a fatal error.
+Until PHP 8, get_called_class() generated a warning when called outside a class or an enumeration. Later, it is a fatal error.
 
 PHP code
 ________
@@ -34,9 +34,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  get_called_class() called from outside a class in /codes/get_called_class_outside_class.php on line 3
+   PHP Warning:  get_called_class() called from outside a class
    
-   Warning: get_called_class() called from outside a class in /codes/get_called_class_outside_class.php on line 3
+   Warning: get_called_class() called from outside a class
    bool(false)
    
 
@@ -44,15 +44,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: get_called_class() must be called from within a class in /codes/get_called_class_outside_class.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/get_called_class_outside_class.php on line 3
+   PHP Fatal error:  Uncaught Error: get_called_class() must be called from within a class
    
-   Fatal error: Uncaught Error: get_called_class() must be called from within a class in /codes/get_called_class_outside_class.php:3
-   Stack trace:
-   #0 {main}
-     thrown in /codes/get_called_class_outside_class.php on line 3
+   Fatal error: Uncaught Error: get_called_class() must be called from within a class
    
 
 

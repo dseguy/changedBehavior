@@ -51,9 +51,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token "->", expecting "," or ";" in /codes/globalDynamicVariable.php on line 7
+   PHP Parse error:  syntax error, unexpected token ->, expecting , or ;
    
-   Parse error: syntax error, unexpected token "->", expecting "," or ";" in /codes/globalDynamicVariable.php on line 7
+   Parse error: syntax error, unexpected token ->, expecting , or ;
    
 
 
