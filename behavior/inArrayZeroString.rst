@@ -62,4 +62,10 @@ ________
 * `in_array <https://www.php.net/manual/en/function.in-array.php>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
 

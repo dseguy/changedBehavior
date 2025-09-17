@@ -74,4 +74,10 @@ ________
 * `PHP RFC: Saner string to number comparisons <https://wiki.php.net/rfc/string_to_number_comparison>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
 

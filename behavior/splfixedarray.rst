@@ -22,7 +22,7 @@ SplFixedArray used to be a Iterator, and is now a IteratorAggregate.
 
 
 
-They aren't identical behaviors. They're both iterable but they go about it two completely different ways: Iterator means the object modifies itself during iteration, and IteratorAggregater means the object remains unchanged because it uses a proxy object to handle iteration.
+They don't have identical behaviors. They're both iterable but they go about it two completely different ways: Iterator means the object modifies itself during iteration, and IteratorAggregater means the object remains unchanged because it uses a proxy object to handle iteration.
 
 
 
@@ -71,6 +71,12 @@ ________
 * `Introduction to Iterators and Generators in PHP <https://www.entropywins.wtf/blog/2017/10/16/introduction-to-iterators-and-generators-in-php/>`_
 * `IteratorAggregate <https://www.php.net/manual/en/class.iteratoraggregate.php>`_
 * `Iterator <https://www.php.net/manual/en/class.iterator.php>`_
+
+
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

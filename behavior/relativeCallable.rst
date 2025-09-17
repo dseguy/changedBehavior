@@ -70,6 +70,12 @@ ________
 * `Callable <https://www.php.net/manual/en/language.types.callable.php>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
 Analyzer
 _________
 

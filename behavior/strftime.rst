@@ -18,7 +18,7 @@ strftime() And gmstrftime() Are Deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strftime.html
 	:og:locale: en
 
-strftime() and gmstrftime() format time and date according to locale settings. These functions are deprecated in PHP 8.1, and should be replaced with date() and gmtdate(), respectively, or with gmdate() or with IntlDateFormatter::format() (both of them, with the right format).
+strftime() and gmstrftime() format time and date according to locale settings. These functions are deprecated in PHP 8.1, and should be replaced with date() and gmdate(), respectively, or with gmdate() or with IntlDateFormatter::format() (both of them, with the right format).
 
 PHP code
 ________
@@ -41,12 +41,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead in /codes/strftime.php on line 3
+   PHP Deprecated:  Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
    
-   Deprecated: Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead in /codes/strftime.php on line 3
-   1PHP Deprecated:  Function gmstrftime() is deprecated since 8.1, use IntlDateFormatter::format() instead in /codes/strftime.php on line 4
+   Deprecated: Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
+   1PHP Deprecated:  Function gmstrftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
    
-   Deprecated: Function gmstrftime() is deprecated since 8.1, use IntlDateFormatter::format() instead in /codes/strftime.php on line 4
+   Deprecated: Function gmstrftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
    2
 
 
@@ -59,6 +59,12 @@ See Also
 ________
 
 * `PHP: Fixing Deprecated strftime() calls <https://whateverthing.com/blog/2022/12/05/php-fixing-deprecated-strftime-calls/>`_
+
+
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

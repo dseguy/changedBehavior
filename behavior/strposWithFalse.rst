@@ -18,7 +18,7 @@ strpos() Does Not Accept False
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strposWithFalse.html
 	:og:locale: en
 
-PHP used to type cast ``false`` to 0 then to a string, when it is used as second argument to strpos(). 
+PHP used to type cast ``false`` to 0 then to a string, when it is used as second argument to strpos().
 
 PHP code
 ________
@@ -34,9 +34,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/strposWithFalse.php on line 3
+   PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
    
-   Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/strposWithFalse.php on line 3
+   Deprecated: strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
    bool(false)
    int(1);
    

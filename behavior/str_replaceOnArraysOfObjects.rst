@@ -65,7 +65,7 @@ ______
      [0]=>
      string(3) def
    }
-   PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /codes/str_replaceOnArraysOfObjects.php:11
+   PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string
    
 
 

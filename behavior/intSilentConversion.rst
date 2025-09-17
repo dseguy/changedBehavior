@@ -20,6 +20,12 @@ Integer Non-silent Conversion
 
 When a string is converted into a integer, with problems, the notice was upgraded to a Warning. This raised level may end up filling logs.
 
+
+
+This applies to all mathematical operations, such as multiplication, divisions, modulo, exponent, etc.
+
+
+
 PHP code
 ________
 .. code-block:: php
@@ -34,18 +40,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  A non well formed numeric value encountered in /codes/intSilentConversion.php on line 4
+   PHP Notice:  A non well formed numeric value encountered 
    
-   Notice: A non well formed numeric value encountered in /codes/intSilentConversion.php on line 4
+   Notice: A non well formed numeric value encountered 
    4
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  A non-numeric value encountered in /codes/intSilentConversion.php on line 4
+   PHP Warning:  A non-numeric value encountered 
    
-   Warning: A non-numeric value encountered in /codes/intSilentConversion.php on line 4
+   Warning: A non-numeric value encountered 
    4
 
 

@@ -32,8 +32,6 @@ In the example, static would be calling the static method ``replace``, in A, or 
 
 Since PHP 8.2, this is a deprecated feature, and it will be removed in PHP 9.
 
-
-
 PHP code
 ________
 .. code-block:: php
@@ -64,12 +62,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of static in callables is deprecated in /codes/staticInCallable.php on line 5
+   PHP Deprecated:  Use of static in callables is deprecated
    
-   Deprecated: Use of static in callables is deprecated in /codes/staticInCallable.php on line 5
-   PHP Deprecated:  Callables of the form [A, static::replace] are deprecated in /codes/staticInCallable.php on line 5
+   Deprecated: Use of static in callables is deprecated
+   PHP Deprecated:  Callables of the form [A, static::replace] are deprecated
    
-   Deprecated: Callables of the form [A, static::replace] are deprecated in /codes/staticInCallable.php on line 5
+   Deprecated: Callables of the form [A, static::replace] are deprecated
    a
 
 

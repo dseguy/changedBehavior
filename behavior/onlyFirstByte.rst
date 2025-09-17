@@ -48,9 +48,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  Only the first byte will be assigned to the string offset in /codes/onlyFirstByte.php on line 9
+   PHP Warning:  Only the first byte will be assigned to the string offset 
    
-   Warning: Only the first byte will be assigned to the string offset in /codes/onlyFirstByte.php on line 9
+   Warning: Only the first byte will be assigned to the string offset 
    ab
 
 

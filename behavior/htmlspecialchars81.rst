@@ -60,4 +60,10 @@ ________
 * `htmlspecialchars <https://www.php.net/htmlspecialchars>`_
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
 

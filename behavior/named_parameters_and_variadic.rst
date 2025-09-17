@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot combine named arguments and argument unpacking in /codes/named_parameters_and_variadic.php on line 7
+   PHP Fatal error:  Cannot combine named arguments and argument unpacking 
    
-   Fatal error: Cannot combine named arguments and argument unpacking in /codes/named_parameters_and_variadic.php on line 7
+   Fatal error: Cannot combine named arguments and argument unpacking 
    
 
 After

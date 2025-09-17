@@ -31,14 +31,16 @@ ________
    $reflector = new ReflectionClass('A');
    
    print Reflection::export($reflector, true);
+   
+   ?>
 
 Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Function Reflection::export() is deprecated in /codes/exportReflection.php on line 7
+   PHP Deprecated:  Function Reflection::export() is deprecated 
    
-   Deprecated: Function Reflection::export() is deprecated in /codes/exportReflection.php on line 7
+   Deprecated: Function Reflection::export() is deprecated 
    Class [ <user> class A ] {
      @@ /codes/exportReflection.php 3-3
    
@@ -63,21 +65,21 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Call to undefined method Reflection::export() in /codes/exportReflection.php:7
-   Stack trace:
-   #0 {main}
-     thrown in /codes/exportReflection.php on line 7
+   PHP Fatal error:  Uncaught Error: Call to undefined method Reflection::export() 
    
-   Fatal error: Uncaught Error: Call to undefined method Reflection::export() in /codes/exportReflection.php:7
-   Stack trace:
-   #0 {main}
-     thrown in /codes/exportReflection.php on line 7
+   Fatal error: Uncaught Error: Call to undefined method Reflection::export() 
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
+
+
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

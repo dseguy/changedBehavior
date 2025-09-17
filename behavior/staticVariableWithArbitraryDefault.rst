@@ -60,7 +60,6 @@ ______
    PHP Fatal error:  Constant expression contains invalid operations
    
    Fatal error: Constant expression contains invalid operations
-   
 
 After
 ______

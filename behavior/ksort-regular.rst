@@ -68,4 +68,10 @@ __________________
 This behavior changed in 8.2
 
 
+Error Messages
+______________
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+
+
 

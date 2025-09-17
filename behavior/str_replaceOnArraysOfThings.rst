@@ -66,9 +66,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  Array to string conversion in /codes/str_replaceOnArraysOfThings.php on line 3
+   PHP Warning:  Array to string conversion
    
-   Warning: Array to string conversion in /codes/str_replaceOnArraysOfThings.php on line 3
+   Warning: Array to string conversion
    array(1) {
      [0]=>
      string(5) Arrby
