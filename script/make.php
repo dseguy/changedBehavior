@@ -59,6 +59,12 @@ foreach($files as $file) {
 	    
 	    if (empty($tip->features)) {
     		buildlog("features is empty in $file");
+	    } else {
+	        foreach($tip->features as $f) {
+	            if (!file_exists('../analyzeG3/human/en/Features/'.$f.'.ini')) {
+            		buildlog("feature '$f' does not exist in $file");
+	            }
+	        }
 	    }
 	}
 
@@ -320,7 +326,10 @@ CODE;
 		$behavior[] = '';
 	}
 
-	if (!empty($changedBehavior->phpError[0]) && $changedBehavior->phpError[0] !== 'none') {
+	if (!empty($changedBehavior->phpError) && 
+	     isset($changedBehavior->phpError[0]) && 
+	     $changedBehavior->phpError[0] !== 'none') {
+
 		$behavior[] = '';
 		$behavior[] = 'Error Messages';
 		$behavior[] = '______________';
