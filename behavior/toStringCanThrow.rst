@@ -18,7 +18,7 @@ __toString Can Throw Exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/toStringCanThrow.html
 	:og:locale: en
 
-Until PHP 7.4, the magic method ``__toString()`` could not throw exception, in case of problem occuring during processing. 
+Until PHP 7.4, the magic method ``__toString()`` could not throw exception, in case of problem occurring during processing. 
 
 
 
@@ -62,12 +62,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 7.4
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 Analyzer

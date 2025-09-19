@@ -28,15 +28,18 @@ ________
    
    var_dump(null instanceof Countable);
    
+   function foo() : ?X { /**/ }
+   var_dump(foo() instanceof Countable); // possible error when foo() returns null
+   
    ?>
 
 Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  instanceof expects an object instance, constant given in /codes/instanceofExpectObjects.php on line 3
+   PHP Fatal error:  instanceof expects an object instance, constant given 
    
-   Fatal error: instanceof expects an object instance, constant given in /codes/instanceofExpectObjects.php on line 3
+   Fatal error: instanceof expects an object instance, constant given 
    
 
 After

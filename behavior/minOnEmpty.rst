@@ -34,9 +34,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  min(): Array must contain at least one element in /codes/minOnEmpty.php on line 3
+   PHP Warning:  min(): Array must contain at least one element 
    
-   Warning: min(): Array must contain at least one element in odes/minOnEmpty.php on line 3
+   Warning: min(): Array must contain at least one element
    
 
 After
@@ -44,28 +44,14 @@ ______
 .. code-block:: output
 
    PHP Fatal error:  Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in codes/minOnEmpty.php:3
-   Stack trace:
-   #0 /codes/minOnEmpty.php(3): min(Array)
-   #1 {main}
-     thrown in /codes/minOnEmpty.php on line 3
    
    Fatal error: Uncaught ValueError: min(): Argument #1 ($value) must contain at least one element in codes/minOnEmpty.php:3
-   Stack trace:
-   #0 /codes/minOnEmpty.php(3): min(Array)
-   #1 {main}
-     thrown in /codes/minOnEmpty.php on line 3
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

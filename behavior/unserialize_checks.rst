@@ -18,7 +18,7 @@ unserialize() Checks The End Of The String
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unserialize_checks.html
 	:og:locale: en
 
-The format used by unserialize() is a closed format: it might be smaller than the string that contains it. Until PHP 8.3, unserialize() stops as soon as it is satisfied, leaving the possible remainer of the string hanging. In PHP 8.3, a warning is raised.
+The format used by unserialize() is a closed format: it might be smaller than the string that contains it. Until PHP 8.3, unserialize() stops as soon as it is satisfied, leaving the possible remainder of the string hanging. In PHP 8.3, a warning is raised.
 
 PHP code
 ________

@@ -38,26 +38,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /codes/imploderOrder.php on line 3
+   PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters 
    
-   Deprecated: implode(): Passing glue string after array is deprecated. Swap the parameters in /codes/imploderOrder.php on line 3
+   Deprecated: implode(): Passing glue string after array is deprecated. Swap the parameters 
    132
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /codes/imploderOrder.php:3
-   Stack trace:
-   #0 /codes/imploderOrder.php(3): implode(Array, '3')
-   #1 {main}
-     thrown in /codes/imploderOrder.php on line 3
+   PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given 
    
-   Fatal error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /codes/imploderOrder.php:3
-   Stack trace:
-   #0 /codes/imploderOrder.php(3): implode(Array, '3')
-   #1 {main}
-     thrown in /codes/imploderOrder.php on line 3
+   Fatal error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given 
    
 
 
