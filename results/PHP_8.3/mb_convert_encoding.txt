@@ -1,0 +1,15 @@
+PHP Deprecated:  mb_convert_encoding(): Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead in /codes/mb_convert_encoding.php on line 3
+
+Deprecated: mb_convert_encoding(): Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead in /codes/mb_convert_encoding.php on line 3
+begin 0644 filename
+#9F]O
+PHP Deprecated:  mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead in /codes/mb_convert_encoding.php on line 4
+
+Deprecated: mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead in /codes/mb_convert_encoding.php on line 4
+Zm9vPHP Deprecated:  mb_convert_encoding(): Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode instead in /codes/mb_convert_encoding.php on line 5
+
+Deprecated: mb_convert_encoding(): Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode instead in /codes/mb_convert_encoding.php on line 5
+fooPHP Deprecated:  mb_convert_encoding(): Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead in /codes/mb_convert_encoding.php on line 6
+
+Deprecated: mb_convert_encoding(): Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead in /codes/mb_convert_encoding.php on line 6
+foo

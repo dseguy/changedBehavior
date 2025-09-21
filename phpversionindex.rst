@@ -72,6 +72,7 @@ Per PHP version
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`ksort()-now-uses-regular-comparison`
+    * :ref:`mb_convert_encoding()-has-deprecated-formats`
     * :ref:`strsplit()-with-empty-string`
     * :ref:`var_export()-format`
 * 8.1
@@ -94,8 +95,8 @@ Per PHP version
     * :ref:`passing-objects-is-deprecated`
     * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`unpack-arrays-in-arrays`
+    * :ref:```jsonserialize``-must-have-return-type`
     * :ref:`compact()-throws-notice-on-missing-variable`
-    * :ref:`jsonserialize-must-have-return-type`
     * :ref:`newver-is-now-a-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
@@ -201,7 +202,7 @@ Per PHP version
     * :ref:`__tostring-can-throw-exceptions`
     * :ref:`array_merge()-and-variadic`
     * :ref:`get_object_vars()-does-not-work-on-arrayobject`
-    * :ref:`unserialize()-max_depth-option`
+    * :ref:`unserialize()-``max_depth``-option`
 * 7.3
     * :ref:`heredoc-syntax-in-an-array`
     * :ref:`static-properties-with-references`

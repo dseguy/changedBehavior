@@ -328,6 +328,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/maxOnStringAndInt.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_ereg_replaceWithInteger.html</loc>
  </url>
  <url>

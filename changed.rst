@@ -114,6 +114,7 @@ PHP Changed Behavior
    behavior/maxOnEmpty.rst
    behavior/maxOnEmptyArray.rst
    behavior/maxOnStringAndInt.rst
+   behavior/mb_convert_encoding.rst
    behavior/mb_ereg_replaceWithInteger.rst
    behavior/mb_strrpos.rst
    behavior/minOnEmpty.rst
