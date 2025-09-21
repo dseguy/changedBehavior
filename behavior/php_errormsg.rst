@@ -22,7 +22,7 @@ $php_errormsg used to hold the message of the last error that PHP emitted. This 
 
 
 
-$php_errormsg was only set if the ``tracks_error`` directive was activated (by default, it was not).
+``$php_errormsg`` was only set if the ``tracks_error`` directive was activated (by default, it was not).
 
 PHP code
 ________
@@ -42,21 +42,21 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  Undefined variable: a in /codes/php_errormsg.php on line 5
+   PHP Notice:  Undefined variable: a 
    
-   Notice: Undefined variable: a in /codes/php_errormsg.php on line 5
+   Notice: Undefined variable: a 
    Undefined variable: a
 
 After
 ______
 .. code-block:: output
 
-   PHP Warning:  Undefined variable $a in /codes/php_errormsg.php on line 5
+   PHP Warning:  Undefined variable $a 
    
-   Warning: Undefined variable $a in /codes/php_errormsg.php on line 5
-   PHP Warning:  Undefined variable $php_errormsg in /codes/php_errormsg.php on line 7
+   Warning: Undefined variable $a 
+   PHP Warning:  Undefined variable $php_errormsg 
    
-   Warning: Undefined variable $php_errormsg in /codes/php_errormsg.php on line 7
+   Warning: Undefined variable $php_errormsg 
    
 
 

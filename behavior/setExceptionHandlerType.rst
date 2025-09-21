@@ -22,7 +22,7 @@ Until PHP 7.0, all thrown issues were children of the ``Exception`` class. In PH
 
 
 
-To keep compabitility, it is important to switch types. 
+To keep compatibility, it is important to switch types. 
 
 PHP code
 ________

@@ -18,7 +18,7 @@ round() Mode Validation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/roundParameterValidation.html
 	:og:locale: en
 
-round() function has four modes, defined with 4 constants. When the 3rd argument is not one of those four constants, PHP used to silently use PHP_ROUND_HALF_UP as default value. In PHP 8.4, a ValueError is provided.
+round() function has four modes, defined with 4 constants. When the 3rd argument is not one of those four constants, PHP used to silently use ``PHP_ROUND_HALF_UP`` as default value. In PHP 8.4, a ``ValueError`` is thrown.
 
 PHP code
 ________

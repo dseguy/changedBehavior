@@ -18,7 +18,7 @@ Final Method In Trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/finalMethodInTrait.html
 	:og:locale: en
 
-Trait methods can be named final, when importing them as a trait alias. It was explicitely forbidden until PHP 8.3. This has nothing to do with the final keyword.
+Trait methods can be named final, when importing them as a trait alias. It was explicitly forbidden until PHP 8.3. This has nothing to do with the final keyword.
 
 PHP code
 ________

@@ -4,21 +4,21 @@ get_class() Needs An Argument
 =============================
 .. meta::
 	:description:
-		get_class() Needs An Argument: get_class() had a default behavior, where the current class would be returned when get_class() is called without argumnts.
+		get_class() Needs An Argument: get_class() had a default behavior, where the current class would be returned when get_class() is called without arguments.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: get_class() Needs An Argument
-	:twitter:description: get_class() Needs An Argument: get_class() had a default behavior, where the current class would be returned when get_class() is called without argumnts
+	:twitter:description: get_class() Needs An Argument: get_class() had a default behavior, where the current class would be returned when get_class() is called without arguments
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: get_class() Needs An Argument
 	:og:type: article
-	:og:description: get_class() had a default behavior, where the current class would be returned when get_class() is called without argumnts
+	:og:description: get_class() had a default behavior, where the current class would be returned when get_class() is called without arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/get_classWithoutArgument.html
 	:og:locale: en
 
-get_class() had a default behavior, where the current class would be returned when get_class() is called without argumnts. This is now deprecated.
+get_class() had a default behavior, where the current class would be returned when get_class() is called without arguments. This is now deprecated.
 
 
 

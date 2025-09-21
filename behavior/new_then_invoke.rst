@@ -51,9 +51,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token "(" in /codes/new_then_invoke.php on line 11
+   PHP Parse error:  syntax error, unexpected token "(" 
    
-   Parse error: syntax error, unexpected token "(" in /codes/new_then_invoke.php on line 11
+   Parse error: syntax error, unexpected token "(" 
    
 
 After
@@ -70,12 +70,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.4
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

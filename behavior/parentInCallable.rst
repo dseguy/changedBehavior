@@ -61,41 +61,21 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent in /codes/parentInCallable.php:12
-   Stack trace:
-   #0 /codes/parentInCallable.php(12): preg_replace_callback('~\w+~', Array, 'abc')
-   #1 /codes/parentInCallable.php(16): B::work('abc')
-   #2 {main}
-     thrown in /codes/parentInCallable.php on line 12
+   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
    
-   Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent in /codes/parentInCallable.php:12
-   Stack trace:
-   #0 /codes/parentInCallable.php(12): preg_replace_callback('~\w+~', Array, 'abc')
-   #1 /codes/parentInCallable.php(16): B::work('abc')
-   #2 {main}
-     thrown in /codes/parentInCallable.php on line 12
+   Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of parent in callables is deprecated in /codes/parentInCallable.php on line 12
+   PHP Deprecated:  Use of parent in callables is deprecated 
    
-   Deprecated: Use of parent in callables is deprecated in /codes/parentInCallable.php on line 12
-   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent in /codes/parentInCallable.php:12
-   Stack trace:
-   #0 /codes/parentInCallable.php(12): preg_replace_callback('~\w+~', Array, 'abc')
-   #1 /codes/parentInCallable.php(16): B::work('abc')
-   #2 {main}
-     thrown in /codes/parentInCallable.php on line 12
+   Deprecated: Use of parent in callables is deprecated 
+   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
    
-   Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent in /codes/parentInCallable.php:12
-   Stack trace:
-   #0 /codes/parentInCallable.php(12): preg_replace_callback('~\w+~', Array, 'abc')
-   #1 /codes/parentInCallable.php(16): B::work('abc')
-   #2 {main}
-     thrown in /codes/parentInCallable.php on line 12
+   Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
    
 
 

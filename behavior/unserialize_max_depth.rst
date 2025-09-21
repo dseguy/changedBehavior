@@ -1,18 +1,18 @@
-.. _`unserialize()-max_depth-option`:
+.. _`unserialize()-``max_depth``-option`:
 
-unserialize() max_depth Option
-==============================
+unserialize() ``max_depth`` Option
+==================================
 .. meta::
 	:description:
-		unserialize() max_depth Option: unserialize() has now an option to limit the depth of nesting in the decoded structure.
+		unserialize() ``max_depth`` Option: unserialize() has now an option to limit the depth of nesting in the decoded structure.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: unserialize() max_depth Option
-	:twitter:description: unserialize() max_depth Option: unserialize() has now an option to limit the depth of nesting in the decoded structure
+	:twitter:title: unserialize() ``max_depth`` Option
+	:twitter:description: unserialize() ``max_depth`` Option: unserialize() has now an option to limit the depth of nesting in the decoded structure
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: unserialize() max_depth Option
+	:og:title: unserialize() ``max_depth`` Option
 	:og:type: article
 	:og:description: unserialize() has now an option to limit the depth of nesting in the decoded structure
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/unserialize_max_depth.html
