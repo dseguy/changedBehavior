@@ -1,0 +1,4 @@
+PHP Deprecated:  Increment on non-numeric string is deprecated, use str_increment() instead in /codes/incrementNonAlphanumeric.php on line 4
+
+Deprecated: Increment on non-numeric string is deprecated, use str_increment() instead in /codes/incrementNonAlphanumeric.php on line 4
+;
