@@ -4,21 +4,21 @@ strpos() Emits TypeError
 ========================
 .. meta::
 	:description:
-		strpos() Emits TypeError: strpos() and stripos() emit a TypeError when the offset is of the wrong type.
+		strpos() Emits TypeError: strpos() and stripos() emit a ``TypeError`` when the offset is of the wrong type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: strpos() Emits TypeError
-	:twitter:description: strpos() Emits TypeError: strpos() and stripos() emit a TypeError when the offset is of the wrong type
+	:twitter:description: strpos() Emits TypeError: strpos() and stripos() emit a ``TypeError`` when the offset is of the wrong type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: strpos() Emits TypeError
 	:og:type: article
-	:og:description: strpos() and stripos() emit a TypeError when the offset is of the wrong type
+	:og:description: strpos() and stripos() emit a ``TypeError`` when the offset is of the wrong type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strposTypeError.html
 	:og:locale: en
 
-strpos() and stripos() emit a TypeError when the offset is of the wrong type. In PHP 7.4, it emitted a warning.
+strpos() and stripos() emit a ``TypeError`` when the offset is of the wrong type. In PHP 7.4, it emitted a warning.
 
 PHP code
 ________

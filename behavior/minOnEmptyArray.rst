@@ -48,9 +48,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  min(): Array must contain at least one element in /codes/minOnEmptyArray.php on line 4
+   PHP Warning:  min(): Array must contain at least one element
    
-   Warning: min(): Array must contain at least one element in /codes/minOnEmptyArray.php on line 4
+   Warning: min(): Array must contain at least one element
    bool(false)
    
 
@@ -58,9 +58,9 @@ After
 ______
 .. code-block:: output
 
-   min(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a in /codes/minOnEmptyArray.php on line 9
+   min(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a
    
-   Warning: Undefined variable $a in /codes/minOnEmptyArray.php on line 9
+   Warning: Undefined variable $a
    NULL
    
 

@@ -32,9 +32,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  strpos(): Offset not contained in string in /codes/strposValueError.php on line 3
+   PHP Warning:  strpos(): Offset not contained in string
    
-   Warning: strpos(): Offset not contained in string in /codes/strposValueError.php on line 3
+   Warning: strpos(): Offset not contained in string
    bool(false)
 
 After
@@ -47,12 +47,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

@@ -40,21 +40,21 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Defining a custom assert() function is deprecated, as the function has special semantics in /codes/assertIsReserved.php on line 3
+   PHP Deprecated:  Defining a custom assert() function is deprecated, as the function has special semantics
    
-   Deprecated: Defining a custom assert() function is deprecated, as the function has special semantics in /codes/assertIsReserved.php on line 3
-   PHP Fatal error:  Cannot redeclare assert() in /codes/assertIsReserved.php on line 3
+   Deprecated: Defining a custom assert() function is deprecated, as the function has special semantics
+   PHP Fatal error:  Cannot redeclare assert()
    
-   Fatal error: Cannot redeclare assert() in /codes/assertIsReserved.php on line 3
+   Fatal error: Cannot redeclare assert()
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Defining a custom assert() function is not allowed, as the function has special semantics in /codes/assertIsReserved.php on line 3
+   PHP Fatal error:  Defining a custom assert() function is not allowed, as the function has special semantics
    
-   Fatal error: Defining a custom assert() function is not allowed, as the function has special semantics in /codes/assertIsReserved.php on line 3
+   Fatal error: Defining a custom assert() function is not allowed, as the function has special semantics
    
 
 

@@ -21,6 +21,8 @@ Per PHP version
 * 8.5
     * :ref:`array-has-no-absolute-name`
     * :ref:`e_user_error-is-deprecated`
+    * :ref:`increment-non-alphanumeric`
+    * :ref:`non-canonical-cast`
     * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4
     * :ref:`alias-replace-class`

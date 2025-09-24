@@ -89,6 +89,7 @@ PHP Changed Behavior
    behavior/imploderOrder.rst
    behavior/inArrayStringIng.rst
    behavior/inArrayZeroString.rst
+   behavior/incrementNonAlphanumeric.rst
    behavior/incrementOnBoolean.rst
    behavior/indirectModificationInClone.rst
    behavior/inegalityComparison.rst
@@ -130,6 +131,7 @@ PHP Changed Behavior
    behavior/newCasesInSwitch.rst
    behavior/newThenMethodCall.rst
    behavior/nonArrayWithSleep.rst
+   behavior/nonCanonicalCast.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst

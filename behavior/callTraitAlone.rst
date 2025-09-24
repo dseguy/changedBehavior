@@ -44,9 +44,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /codes/callTraitAlone.php on line 8
+   PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait
    
-   Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait in /codes/callTraitAlone.php on line 8
+   Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait
    t::foo
 
 

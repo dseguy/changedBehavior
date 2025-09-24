@@ -253,6 +253,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inArrayZeroString.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementNonAlphanumeric.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementOnBoolean.html</loc>
  </url>
  <url>
@@ -374,6 +377,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonArrayWithSleep.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonCanonicalCast.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html</loc>
