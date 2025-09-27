@@ -1,18 +1,18 @@
-.. _`newver-is-now-a-keyword`:
+.. _`never-is-now-a-keyword`:
 
-newver Is Now A Keyword
-=======================
+never Is Now A Keyword
+======================
 .. meta::
 	:description:
-		newver Is Now A Keyword: Never became a PHP reserved keyword in PHP 8.
+		never Is Now A Keyword: Never became a PHP reserved keyword in PHP 8.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: newver Is Now A Keyword
-	:twitter:description: newver Is Now A Keyword: Never became a PHP reserved keyword in PHP 8
+	:twitter:title: never Is Now A Keyword
+	:twitter:description: never Is Now A Keyword: Never became a PHP reserved keyword in PHP 8
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: newver Is Now A Keyword
+	:og:title: never Is Now A Keyword
 	:og:type: article
 	:og:description: Never became a PHP reserved keyword in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/neverKeyword.html
@@ -46,9 +46,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use 'never' as class name as it is reserved in /codes/neverKeyword.php on line 3
+   PHP Fatal error:  Cannot use 'never' as class name as it is reserved 
    
-   Fatal error: Cannot use 'never' as class name as it is reserved in /codes/neverKeyword.php on line 3
+   Fatal error: Cannot use 'never' as class name as it is reserved 
    
 
 

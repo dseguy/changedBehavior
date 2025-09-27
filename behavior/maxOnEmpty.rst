@@ -34,32 +34,30 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  max(): Array must contain at least one element in /codes/maxOnEmpty.php on line 3
+   PHP Warning:  max(): Array must contain at least one element 
    
-   Warning: max(): Array must contain at least one element in /codes/maxOnEmpty.php on line 3
+   Warning: max(): Array must contain at least one element 
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element in /codes/maxOnEmpty.php:3
-   Stack trace:
-   #0 /codes/maxOnEmpty.php(3): max(Array)
-   #1 {main}
-     thrown in /codes/maxOnEmpty.php on line 3
+   PHP Fatal error:  Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element 
    
-   Fatal error: Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element in /codes/maxOnEmpty.php:3
-   Stack trace:
-   #0 /codes/maxOnEmpty.php(3): max(Array)
-   #1 {main}
-     thrown in /codes/maxOnEmpty.php on line 3
+   Fatal error: Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element 
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
+
+
+Analyzer
+_________
+
+  + `Structures/NoMaxOnEmptyArray <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoMaxOnEmptyArray.html>`_
 
 
 

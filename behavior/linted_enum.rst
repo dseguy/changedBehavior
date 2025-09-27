@@ -52,7 +52,7 @@ Before
 ______
 .. code-block:: output
 
-   Fatal error: Duplicate value in enum A for cases A and B in /in/Q2L1K on line 5
+   Fatal error: Duplicate value in enum A for cases A and B
    
 
 After
@@ -71,12 +71,6 @@ See Also
 ________
 
 * `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

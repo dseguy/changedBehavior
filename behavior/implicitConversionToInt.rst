@@ -44,9 +44,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision in /codes/implicitConversionToInt.php on line 3
+   PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision 
    
-   Deprecated: Implicit conversion from float 15.5 to int loses precision in /codes/implicitConversionToInt.php on line 3
+   Deprecated: Implicit conversion from float 15.5 to int loses precision 
    3
    
 

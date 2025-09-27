@@ -46,9 +46,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use 'mixed' as class name as it is reserved in /codes/mixedKeyword.php on line 3
+   PHP Fatal error:  Cannot use 'mixed' as class name as it is reserved 
    
-   Fatal error: Cannot use 'mixed' as class name as it is reserved in /codes/mixedKeyword.php on line 3
+   Fatal error: Cannot use 'mixed' as class name as it is reserved 
    
 
 

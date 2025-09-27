@@ -22,7 +22,7 @@ Until PHP 7.0, all thrown issues were children of the ``Exception`` class. In PH
 
 
 
-To keep compatibility, it is important to switch types. 
+To keep compatibility, it is important to switch types.
 
 PHP code
 ________
@@ -48,32 +48,22 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  Division by zero in /codes/setExceptionHandlerType.php on line 13
+   PHP Warning:  Division by zero 
    
-   Warning: Division by zero in /codes/setExceptionHandlerType.php on line 13
+   Warning: Division by zero 
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given in /codes/setExceptionHandlerType.php:5
-   Stack trace:
-   #0 [internal function]: foo::bar(Object(DivisionByZeroError))
-   #1 {main}
-     thrown in /codes/setExceptionHandlerType.php on line 5
+   PHP Fatal error:  Uncaught TypeError: foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given 
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

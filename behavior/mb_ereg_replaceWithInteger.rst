@@ -40,9 +40,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/mb_ereg_replaceWithInteger.php on line 3
+   PHP Deprecated:  mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior 
    
-   Deprecated: mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /codes/mb_ereg_replaceWithInteger.php on line 3
+   Deprecated: mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior 
    string(3) "aZc" 
    
 

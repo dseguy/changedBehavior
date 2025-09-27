@@ -44,9 +44,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  max(): Array must contain at least one element in /codes/maxOnEmptyArray.php on line 4
+   PHP Warning:  max(): Array must contain at least one element 
    
-   Warning: max(): Array must contain at least one element in /codes/maxOnEmptyArray.php on line 4
+   Warning: max(): Array must contain at least one element 
    bool(false)
    
 
@@ -54,9 +54,9 @@ After
 ______
 .. code-block:: output
 
-   max(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a in /codes/maxOnEmptyArray.php on line 9
+   max(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a 
    
-   Warning: Undefined variable $a in /codes/maxOnEmptyArray.php on line 9
+   Warning: Undefined variable $a 
    NULL
    
 

@@ -34,9 +34,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in /codes/libxml_disable_entity_loader.php on line 3
+   PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated 
    
-   Deprecated: Function libxml_disable_entity_loader() is deprecated in /codes/libxml_disable_entity_loader.php on line 3
+   Deprecated: Function libxml_disable_entity_loader() is deprecated 
    bool(false)
    
 
@@ -44,9 +44,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default in /codes/libxml_disable_entity_loader.php on line 3
+   PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default 
    
-   Deprecated: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default in /codes/libxml_disable_entity_loader.php on line 3
+   Deprecated: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default 
    bool(false)
    
 
@@ -54,12 +54,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

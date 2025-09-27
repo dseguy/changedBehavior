@@ -54,16 +54,4 @@ __________________
 This behavior changed in 8.0
 
 
-See Also
-________
-
-* `printf <https://www.php.net/printf>`_
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-
-
 

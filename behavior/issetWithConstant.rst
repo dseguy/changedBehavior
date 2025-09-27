@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /codes/issetWithConstant.php on line 4
+   PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) 
    
-   Fatal error: Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /codes/issetWithConstant.php on line 4
+   Fatal error: Cannot use isset() on the result of an expression (you can use "null !== expression" instead) 
    
 
 After
@@ -57,12 +57,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 7.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

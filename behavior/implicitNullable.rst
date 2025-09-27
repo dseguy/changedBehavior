@@ -53,9 +53,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  foo(): Implicitly marking parameter $a as nullable is deprecated, the explicit nullable type must be used instead in /codes/implicitNullable.php on line 3
+   PHP Deprecated:  foo(): Implicitly marking parameter $a as nullable is deprecated, the explicit nullable type must be used instead 
    
-   Deprecated: foo(): Implicitly marking parameter $a as nullable is deprecated, the explicit nullable type must be used instead in /codes/implicitNullable.php on line 3
+   Deprecated: foo(): Implicitly marking parameter $a as nullable is deprecated, the explicit nullable type must be used instead 
    int(1)
    NULL
    

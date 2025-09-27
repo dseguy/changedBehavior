@@ -39,26 +39,26 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset in /codes/mb_strrpos.php on line 3
+   PHP Deprecated:  mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset 
    
-   Deprecated: mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset in /codes/mb_strrpos.php on line 3
+   Deprecated: mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset 
    0
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given in /codes/mb_strrpos.php:3
+   PHP Fatal error:  Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
    Stack trace:
    #0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
    #1 {main}
-     thrown in /codes/mb_strrpos.php on line 3
+     thrown 
    
-   Fatal error: Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given in /codes/mb_strrpos.php:3
+   Fatal error: Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
    Stack trace:
    #0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
    #1 {main}
-     thrown in /codes/mb_strrpos.php on line 3
+     thrown 
    
 
 

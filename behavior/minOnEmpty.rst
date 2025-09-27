@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.0
 
 
+Analyzer
+_________
+
+  + `Structures/NoMaxOnEmptyArray <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoMaxOnEmptyArray.html>`_
+
+
 

@@ -25,7 +25,7 @@ ________
 .. code-block:: php
 
    <?php
-   strpos('a', 'abc', 17);
+     strpos('a', 'abc', 17);
    ?>
 
 Before

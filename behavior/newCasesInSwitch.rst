@@ -26,9 +26,7 @@ In particular, when there are several falsy cases in a switch, the selection of 
 
 
 
-In PHP 7.4 and older, ``0 == ''``, so the first case is selected. After PHP 8.0, ``0 != ''``, and the second case is selected. 
-
-
+In PHP 7.4 and older, ``0 == ''``, so the first case is selected. After PHP 8.0, ``0 != ''``, and the second case is selected.
 
 PHP code
 ________

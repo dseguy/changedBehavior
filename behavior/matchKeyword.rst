@@ -44,21 +44,14 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token "match", expecting "(" in /codes/matchKeyword.php on line 3
+   PHP Parse error:  syntax error, unexpected token match, expecting (
    
-   Parse error: syntax error, unexpected token "match", expecting "(" in /codes/matchKeyword.php on line 3
-   
+   Parse error: syntax error, unexpected token match, expecting (
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

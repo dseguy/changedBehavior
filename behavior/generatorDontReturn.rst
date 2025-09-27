@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Generators cannot return values using "return" in /codes/generatorDontReturn.php on line 6
+   PHP Fatal error:  Generators cannot return values using "return" 
    
-   Fatal error: Generators cannot return values using "return" in /codes/generatorDontReturn.php on line 6
+   Fatal error: Generators cannot return values using "return" 
    
 
 After
@@ -58,12 +58,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 7.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

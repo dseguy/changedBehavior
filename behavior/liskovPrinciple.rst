@@ -41,18 +41,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array in /codes/liskovPrinciple.php on line 8
+   PHP Warning:  Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array 
    
-   Warning: Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array in /codes/liskovPrinciple.php on line 8
+   Warning: Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array 
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array in /codes/liskovPrinciple.php on line 8
+   PHP Fatal error:  Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array 
    
-   Fatal error: Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array in /codes/liskovPrinciple.php on line 8
+   Fatal error: Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array 
    
 
 

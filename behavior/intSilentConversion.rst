@@ -24,8 +24,6 @@ When a string is converted into a integer, with problems, the notice was upgrade
 
 This applies to all mathematical operations, such as multiplication, divisions, modulo, exponent, etc.
 
-
-
 PHP code
 ________
 .. code-block:: php
