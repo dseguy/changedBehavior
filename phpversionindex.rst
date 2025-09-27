@@ -99,7 +99,7 @@ Per PHP version
     * :ref:`unpack-arrays-in-arrays`
     * :ref:```jsonserialize``-must-have-return-type`
     * :ref:`compact()-throws-notice-on-missing-variable`
-    * :ref:`newver-is-now-a-keyword`
+    * :ref:`never-is-now-a-keyword`
     * :ref:`version_compare()-stricter-operators`
 * 8.0
     * :ref:`$php_errormsg-has-been-removed`
