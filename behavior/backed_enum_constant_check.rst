@@ -52,38 +52,23 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Enum case value must be compile-time evaluatable in /codes/backed_enum_constant_check.php on line 4
+   PHP Fatal error:  Enum case value must be compile-time evaluatable 
    
-   Fatal error: Enum case value must be compile-time evaluatable in /codes/backed_enum_constant_check.php on line 4
+   Fatal error: Enum case value must be compile-time evaluatable 
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Undefined constant B in /codes/backed_enum_constant_check.php:7
-   Stack trace:
-   #0 /codes/backed_enum_constant_check.php(11): [constant expression]()
-   #1 {main}
-     thrown in /codes/backed_enum_constant_check.php on line 7
+   PHP Fatal error:  Uncaught Error: Undefined constant B
    
-   Fatal error: Uncaught Error: Undefined constant B in /codes/backed_enum_constant_check.php:7
-   Stack trace:
-   #0 /codes/backed_enum_constant_check.php(11): [constant expression]()
-   #1 {main}
-     thrown in /codes/backed_enum_constant_check.php on line 7
+   Fatal error: Uncaught Error: Undefined constant B
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.3
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
-  + `Enum case value must be compile-time evaluatable <https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html>`_
 
 
 

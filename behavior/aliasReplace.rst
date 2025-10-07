@@ -53,9 +53,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Cannot use y as xBefore because the name is already in use in /codes/aliasReplace.php on line 10
+   PHP Fatal error:  Cannot use y as xBefore because the name is already in use s/aliasReplace.php on line 10
    
-   Fatal error: Cannot use y as xBefore because the name is already in use in /codes/aliasReplace.php on line 10
+   Fatal error: Cannot use y as xBefore because the name is already in use s/aliasReplace.php on line 10
    
 
 After

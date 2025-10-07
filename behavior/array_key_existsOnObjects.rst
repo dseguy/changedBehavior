@@ -54,4 +54,10 @@ This behavior was deprecated in Using array_key_exists() on objects is deprecate
 This behavior changed in 8.0
 
 
+Analyzer
+_________
+
+  + `Php/ArrayKeyExistsWithObjects <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ArrayKeyExistsWithObjects.html>`_
+
+
 
