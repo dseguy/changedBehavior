@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught Error: Call to undefined method Closure::getCurrent() in /codes/NotAClosure.php:4
+Stack trace:
+#0 /codes/NotAClosure.php(7): foo()
+#1 {main}
+  thrown in /codes/NotAClosure.php on line 4
+
+Fatal error: Uncaught Error: Call to undefined method Closure::getCurrent() in /codes/NotAClosure.php:4
+Stack trace:
+#0 /codes/NotAClosure.php(7): foo()
+#1 {main}
+  thrown in /codes/NotAClosure.php on line 4

@@ -1,0 +1,3 @@
+PHP Fatal error:  Call to undefined method Closure::getCurrent() in /codes/NotAClosure.php on line 4
+
+Fatal error: Call to undefined method Closure::getCurrent() in /codes/NotAClosure.php on line 4
