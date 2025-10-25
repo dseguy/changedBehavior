@@ -55,6 +55,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/backed_enum_constant_check.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/backtick.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/bitshiftConcatPrecedence.html</loc>
  </url>
  <url>
@@ -68,6 +71,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callTraitAlone.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/case-with-semicolon.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html</loc>
@@ -238,6 +244,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_build_query_and_enum.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_response_header.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html</loc>
  </url>
  <url>
@@ -389,6 +398,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArrayOffset.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/octalNonConvertible.html</loc>

@@ -1,0 +1,5 @@
+<?php
+
+print `echo "Hello"`;
+
+?>

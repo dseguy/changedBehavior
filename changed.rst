@@ -23,11 +23,13 @@ PHP Changed Behavior
    behavior/autoInitializeArrayFromBool.rst
    behavior/autoload.rst
    behavior/backed_enum_constant_check.rst
+   behavior/backtick.rst
    behavior/bitshiftConcatPrecedence.rst
    behavior/BooleanAsArray.rst
    behavior/callingNonStaticMethodStatically.rst
    behavior/callToTraitProperty.rst
    behavior/callTraitAlone.rst
+   behavior/case-with-semicolon.rst
    behavior/caseInsensitiveDefine.rst
    behavior/CatchNoVariable.rst
    behavior/ceilStrictMode.rst
@@ -84,6 +86,7 @@ PHP Changed Behavior
    behavior/heredoc_in_array.rst
    behavior/htmlspecialchars81.rst
    behavior/http_build_query_and_enum.rst
+   behavior/http_response_header.rst
    behavior/implicitConversionToInt.rst
    behavior/implicitNullable.rst
    behavior/imploderOrder.rst
@@ -135,6 +138,7 @@ PHP Changed Behavior
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
    behavior/NullAsArray.rst
+   behavior/NullAsArrayOffset.rst
    behavior/octalNonConvertible.rst
    behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst

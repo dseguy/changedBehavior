@@ -19,10 +19,13 @@ Per PHP version
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
 * 8.5
+    * :ref:`$http_response_header-is-deprecated`
     * :ref:`array-has-no-absolute-name`
     * :ref:`e_user_error-is-deprecated`
     * :ref:`increment-non-alphanumeric`
+    * :ref:`no-case-with-a-semi-colon`
     * :ref:`non-canonical-cast`
+    * :ref:`null-as-array-offset`
     * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4
     * :ref:`alias-replace-class`
@@ -225,3 +228,5 @@ Per PHP version
 * 5.6
     * :ref:`no-dynamic-global-variables`
     * :ref:`string-increments`
+* 
+    * :ref:`back-tick-operator-is-deprecated`
