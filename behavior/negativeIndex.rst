@@ -42,9 +42,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Notice:  Uninitialized string offset: -1 in /codes/negativeIndex.php on line 5
+   PHP Notice:  Uninitialized string offset: -1
    
-   Notice: Uninitialized string offset: -1 in /codes/negativeIndex.php on line 5
+   Notice: Uninitialized string offset: -1
    string(0) "" 
    
 

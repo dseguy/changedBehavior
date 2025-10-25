@@ -56,9 +56,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in /codes/sortClosureReturnType.php on line 6
+   PHP Deprecated:  usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
    
-   Deprecated: usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in /codes/sortClosureReturnType.php on line 6
+   Deprecated: usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
    Array
    (
        [0] => 1

@@ -47,9 +47,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Warning:  range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 in /codes/rangeSingleByteString.php on line 3
+   PHP Warning:  range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0
    
-   Warning: range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 in /codes/rangeSingleByteString.php on line 3
+   Warning: range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0
    Array
    (
        [0] => 0
