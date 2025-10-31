@@ -137,6 +137,7 @@ PHP Changed Behavior
    behavior/nonCanonicalCast.rst
    behavior/nonStaticMethodCalledStatically.rst
    behavior/NoReferenceToGLOBALS.rst
+   behavior/NotAClosure.rst
    behavior/NullAsArray.rst
    behavior/NullAsArrayOffset.rst
    behavior/octalNonConvertible.rst

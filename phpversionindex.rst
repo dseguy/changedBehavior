@@ -25,6 +25,7 @@ Per PHP version
     * :ref:`increment-non-alphanumeric`
     * :ref:`no-case-with-a-semi-colon`
     * :ref:`non-canonical-cast`
+    * :ref:`not-in-a-closure`
     * :ref:`null-as-array-offset`
     * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4

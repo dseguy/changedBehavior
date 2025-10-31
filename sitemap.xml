@@ -397,6 +397,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NoReferenceToGLOBALS.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NotAClosure.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArray.html</loc>
  </url>
  <url>
