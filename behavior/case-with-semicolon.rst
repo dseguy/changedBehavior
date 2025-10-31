@@ -49,9 +49,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in /codes/case-with-semicolon.php on line 5
+   PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead
    
-   Deprecated: Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in /codes/case-with-semicolon.php on line 5
+   Deprecated: Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead
    2
 
 

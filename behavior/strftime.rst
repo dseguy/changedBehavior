@@ -64,7 +64,7 @@ ________
 Error Messages
 ______________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/errors%2Ffunction-%25s%28%29-is-deprecated%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/function-%25s%28%29-is-deprecated%25s.html>`_
 
 
 

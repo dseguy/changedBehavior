@@ -48,12 +48,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /codes/NullAsArrayOffset.php on line 4
+   PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead
    
-   Deprecated: Using null as an array offset is deprecated, use an empty string instead in /codes/NullAsArrayOffset.php on line 4
-   3PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead in /codes/NullAsArrayOffset.php on line 7
+   Deprecated: Using null as an array offset is deprecated, use an empty string instead
+   3PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead
    
-   Deprecated: Using null as an array offset is deprecated, use an empty string instead in /codes/NullAsArrayOffset.php on line 7
+   Deprecated: Using null as an array offset is deprecated, use an empty string instead
    3
 
 
