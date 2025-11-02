@@ -40,6 +40,7 @@ Per PHP version
     * :ref:`recursive-comparison-of-arrays`
     * :ref:`underscore-named-class`
     * :ref:`unserialize-with-the-upper-case-s-is-deprecated`
+    * :ref:`__function__-in-closure-changed`
     * :ref:`fputcsv()-needs-escape-parameter`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`round()-mode-validation`

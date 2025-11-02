@@ -114,6 +114,7 @@ PHP Changed Behavior
    behavior/libxml_disable_entity_loader.rst
    behavior/linted_enum.rst
    behavior/liskovPrinciple.rst
+   behavior/magicConstantInClosure.rst
    behavior/matchKeyword.rst
    behavior/maxOnEmpty.rst
    behavior/maxOnEmptyArray.rst

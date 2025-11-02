@@ -328,6 +328,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/liskovPrinciple.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/magicConstantInClosure.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/matchKeyword.html</loc>
  </url>
  <url>
