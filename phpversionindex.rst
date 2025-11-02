@@ -132,6 +132,7 @@ Per PHP version
     * :ref:`new-cases-in-switch`
     * :ref:`no-abstract-private-method-in-traits`
     * :ref:`no-max()-on-empty-array`
+    * :ref:`no-new-line-in-namespaces`
     * :ref:`no-min()-on-empty-array`
     * :ref:`non-static-method-called-statically`
     * :ref:`old-constructors`

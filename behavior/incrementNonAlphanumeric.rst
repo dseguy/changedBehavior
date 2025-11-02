@@ -41,19 +41,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Increment on non-alphanumeric string is deprecated in /codes/incrementNonAlphanumeric.php on line 4
+   PHP Deprecated:  Increment on non-alphanumeric string is deprecated 
    
-   Deprecated: Increment on non-alphanumeric string is deprecated in /codes/incrementNonAlphanumeric.php on line 4
+   Deprecated: Increment on non-alphanumeric string is deprecated 
    ;
 
 After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Increment on non-numeric string is deprecated, use str_increment() instead in /codes/incrementNonAlphanumeric.php on line 4
+   PHP Deprecated:  Increment on non-numeric string is deprecated, use str_increment() instead 
    
-   Deprecated: Increment on non-numeric string is deprecated, use str_increment() instead in /codes/incrementNonAlphanumeric.php on line 4
-   ;
+   Deprecated: Increment on non-numeric string is deprecated, use str_increment() instead 
 
 
 PHP version change

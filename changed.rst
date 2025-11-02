@@ -125,6 +125,7 @@ PHP Changed Behavior
    behavior/minOnEmpty.rst
    behavior/minOnEmptyArray.rst
    behavior/mixedKeyword.rst
+   behavior/MultilineQualifiedName.rst
    behavior/named_parameters_and_variadic.rst
    behavior/negativeIndex.rst
    behavior/negativeOffsetOnStrings.rst

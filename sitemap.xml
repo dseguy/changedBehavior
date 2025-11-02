@@ -361,6 +361,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mixedKeyword.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/MultilineQualifiedName.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html</loc>
  </url>
  <url>

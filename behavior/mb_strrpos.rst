@@ -49,28 +49,14 @@ ______
 .. code-block:: output
 
    PHP Fatal error:  Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
-   Stack trace:
-   #0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
-   #1 {main}
-     thrown 
    
    Fatal error: Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
-   Stack trace:
-   #0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
-   #1 {main}
-     thrown 
    
 
 
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 
