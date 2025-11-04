@@ -139,6 +139,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/deprecatedConstant.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/destructuringNonArray.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/die-exit-functions.html</loc>
  </url>
  <url>

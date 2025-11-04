@@ -51,6 +51,7 @@ PHP Changed Behavior
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
    behavior/deprecatedConstant.rst
+   behavior/destructuringNonArray.rst
    behavior/die-exit-functions.rst
    behavior/dollar_curly_expression.rst
    behavior/dotAndBitshift.rst

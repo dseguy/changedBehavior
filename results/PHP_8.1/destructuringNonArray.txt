@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /codes/destructuringNonArray.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/destructuringNonArray.php on line 6
+
+Fatal error: Uncaught Error: Cannot use object of type stdClass as array in /codes/destructuringNonArray.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/destructuringNonArray.php on line 6

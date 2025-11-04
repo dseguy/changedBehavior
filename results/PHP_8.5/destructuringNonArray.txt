@@ -1,0 +1,27 @@
+PHP Warning:  Cannot use string as array in /codes/destructuringNonArray.php on line 3
+
+Warning: Cannot use string as array in /codes/destructuringNonArray.php on line 3
+PHP Warning:  Cannot use string as array in /codes/destructuringNonArray.php on line 3
+
+Warning: Cannot use string as array in /codes/destructuringNonArray.php on line 3
+PHP Warning:  Cannot use int as array in /codes/destructuringNonArray.php on line 4
+
+Warning: Cannot use int as array in /codes/destructuringNonArray.php on line 4
+PHP Warning:  Cannot use int as array in /codes/destructuringNonArray.php on line 4
+
+Warning: Cannot use int as array in /codes/destructuringNonArray.php on line 4
+PHP Warning:  Cannot use bool as array in /codes/destructuringNonArray.php on line 5
+
+Warning: Cannot use bool as array in /codes/destructuringNonArray.php on line 5
+PHP Warning:  Cannot use bool as array in /codes/destructuringNonArray.php on line 5
+
+Warning: Cannot use bool as array in /codes/destructuringNonArray.php on line 5
+PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /codes/destructuringNonArray.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/destructuringNonArray.php on line 6
+
+Fatal error: Uncaught Error: Cannot use object of type stdClass as array in /codes/destructuringNonArray.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/destructuringNonArray.php on line 6

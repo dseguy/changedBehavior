@@ -21,6 +21,7 @@ Per PHP version
 * 8.5
     * :ref:`$http_response_header-is-deprecated`
     * :ref:`array-has-no-absolute-name`
+    * :ref:`destructuring-non-arrays`
     * :ref:`e_user_error-is-deprecated`
     * :ref:`increment-non-alphanumeric`
     * :ref:`no-case-with-a-semi-colon`
