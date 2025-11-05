@@ -23,6 +23,7 @@ Per PHP version
     * :ref:`array-has-no-absolute-name`
     * :ref:`destructuring-non-arrays`
     * :ref:`e_user_error-is-deprecated`
+    * :ref:`final-promoted-properties`
     * :ref:`increment-non-alphanumeric`
     * :ref:`no-case-with-a-semi-colon`
     * :ref:`non-canonical-cast`

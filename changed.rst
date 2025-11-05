@@ -73,6 +73,7 @@ PHP Changed Behavior
    behavior/filessytemiteratorSkipDot.rst
    behavior/finalClassConstants.rst
    behavior/finalMethodInTrait.rst
+   behavior/finalPromotedProperties.rst
    behavior/finfo_open.rst
    behavior/FloatAsArray.rst
    behavior/fputcsvEscape.rst

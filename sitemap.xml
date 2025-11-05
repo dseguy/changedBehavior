@@ -205,6 +205,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/finalMethodInTrait.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/finalPromotedProperties.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/finfo_open.html</loc>
  </url>
  <url>
