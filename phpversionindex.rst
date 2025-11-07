@@ -29,6 +29,7 @@ Per PHP version
     * :ref:`non-canonical-cast`
     * :ref:`not-in-a-closure`
     * :ref:`null-as-array-offset`
+    * :ref:`null-with-array_key_exists()`
     * :ref:`array-and-callable-cannot-be-absolute`
 * 8.4
     * :ref:`alias-replace-class`

@@ -418,6 +418,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArrayOffset.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullWithArrayKeyExists.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/octalNonConvertible.html</loc>
  </url>
  <url>

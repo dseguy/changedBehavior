@@ -144,6 +144,7 @@ PHP Changed Behavior
    behavior/NotAClosure.rst
    behavior/NullAsArray.rst
    behavior/NullAsArrayOffset.rst
+   behavior/NullWithArrayKeyExists.rst
    behavior/octalNonConvertible.rst
    behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
