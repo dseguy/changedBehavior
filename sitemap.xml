@@ -145,6 +145,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/die-exit-functions.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dirWithNull.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html</loc>
  </url>
  <url>

@@ -53,6 +53,7 @@ PHP Changed Behavior
    behavior/deprecatedConstant.rst
    behavior/destructuringNonArray.rst
    behavior/die-exit-functions.rst
+   behavior/dirWithNull.rst
    behavior/dollar_curly_expression.rst
    behavior/dotAndBitshift.rst
    behavior/dotAndMinus.rst

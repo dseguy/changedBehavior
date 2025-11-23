@@ -1,0 +1,4 @@
+PHP Deprecated:  dir(): Passing null to parameter #1 ($directory) of type string is deprecated in /codes/dirWithNull.php on line 5
+
+Deprecated: dir(): Passing null to parameter #1 ($directory) of type string is deprecated in /codes/dirWithNull.php on line 5
+bool(false)

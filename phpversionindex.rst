@@ -101,6 +101,7 @@ Per PHP version
     * :ref:`named-parameters-and-variadic`
     * :ref:`nested-attributes`
     * :ref:`never-arrow-function`
+    * :ref:`no-more-dir()-with-null`
     * :ref:`php-native-return-types-are-now-enforced`
     * :ref:`passing-objects-is-deprecated`
     * :ref:`static-variables-are-linked-to-their-method`
