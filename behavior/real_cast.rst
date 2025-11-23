@@ -35,18 +35,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  The (real) cast is deprecated, use (float) instead in /codes/real_cast.php on line 3
+   PHP Deprecated:  The (real) cast is deprecated, use (float) instead -D
    
-   Deprecated: The (real) cast is deprecated, use (float) instead in /codes/real_cast.php on line 3
+   Deprecated: The (real) cast is deprecated, use (float) instead -D
    1
 
 After
 ______
 .. code-block:: output
 
-   PHP Parse error:  The (real) cast has been removed, use (float) instead in /codes/real_cast.php on line 3
+   PHP Parse error:  The (real) cast has been removed, use (float) instead -D
    
-   Parse error: The (real) cast has been removed, use (float) instead in /codes/real_cast.php on line 3
+   Parse error: The (real) cast has been removed, use (float) instead -D
    
 
 

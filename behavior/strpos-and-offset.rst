@@ -44,26 +44,18 @@ Before
 ______
 .. code-block:: output
 
-   PHP Warning:  strpos(): Offset not contained in string in /codes/strpos-and-offset.php on line 3
+   PHP Warning:  strpos(): Offset not contained in string -
    
-   Warning: strpos(): Offset not contained in string in /codes/strpos-and-offset.php on line 3
+   Warning: strpos(): Offset not contained in string -
    
 
 After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /codes/strpos-and-offset.php:3
-   Stack trace:
-   #0 /codes/strpos-and-offset.php(3): strpos('abc', 'b', 6)
-   #1 {main}
-     thrown in /codes/strpos-and-offset.php on line 3
+   PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) -
    
-   Fatal error: Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /codes/strpos-and-offset.php:3
-   Stack trace:
-   #0 /codes/strpos-and-offset.php(3): strpos('abc', 'b', 6)
-   #1 {main}
-     thrown in /codes/strpos-and-offset.php on line 3
+   Fatal error: Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) -
    
 
 

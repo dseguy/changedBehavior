@@ -24,8 +24,6 @@ strpos() used to accept integer arguments as second argument, ``$needle``. Then,
 
 Since PHP 8.0, it is not the case anymore. If the code requires such behavior, add a call to chr() or mb_chr() to convert the integer to an character, before searching for it.
 
-
-
 PHP code
 ________
 .. code-block:: php
@@ -54,10 +52,10 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Php/StrposWithIntegers <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrposWithIntegers.html>`_
 
 
 

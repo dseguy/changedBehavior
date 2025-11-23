@@ -53,7 +53,7 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Cannot initialize readonly property x::$property from scope y in /codes/initReadonlyInChild.php:9
+   PHP Fatal error:  Uncaught Error: Cannot initialize readonly property x::$property from scope y
 
 After
 ______

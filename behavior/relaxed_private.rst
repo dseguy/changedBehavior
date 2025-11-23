@@ -46,9 +46,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token "private", expecting "=" in /codes/relaxed_private.php on line 4
+   PHP Parse error:  syntax error, unexpected token "private", expecting "=" 
    
-   Parse error: syntax error, unexpected token "private", expecting "=" in /codes/relaxed_private.php on line 4
+   Parse error: syntax error, unexpected token "private", expecting "=" 
    
 
 After

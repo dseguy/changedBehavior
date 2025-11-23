@@ -4,25 +4,25 @@ strpos() With Null Haystack
 ===========================
 .. meta::
 	:description:
-		strpos() With Null Haystack: PHP accepted ``null`` as first parameter.
+		strpos() With Null Haystack: PHP accepted ``null`` as first parameter ``$string`` of strpos().
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: strpos() With Null Haystack
-	:twitter:description: strpos() With Null Haystack: PHP accepted ``null`` as first parameter
+	:twitter:description: strpos() With Null Haystack: PHP accepted ``null`` as first parameter ``$string`` of strpos()
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: strpos() With Null Haystack
 	:og:type: article
-	:og:description: PHP accepted ``null`` as first parameter
+	:og:description: PHP accepted ``null`` as first parameter ``$string`` of strpos()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strposWithNullHaystack.html
 	:og:locale: en
 
-PHP accepted ``null`` as first parameter. It cast it to empty string, and returned immediately ``false``, as nothing was found in such  string.
+PHP accepted ``null`` as first parameter ``$string`` of strpos(). Then, it cast the null to empty string, and returned immediately ``false``, as nothing was found in such  string.
 
 
 
-Since PHP 8.2, this is a deprecated behavior.
+Since PHP 8.2, this is a deprecated behavior, with a warning message. It will be removed in PHP 9.
 
 PHP code
 ________

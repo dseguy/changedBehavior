@@ -48,9 +48,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; X has a deprecated constructor in /codes/oldStyleConstructor.php on line 3
+   PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; X has a deprecated constructor
    
-   Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; X has a deprecated constructor in /codes/oldStyleConstructor.php on line 3
+   Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; X has a deprecated constructor
    X::Xobject(X)#1 (0) {
    }
    
