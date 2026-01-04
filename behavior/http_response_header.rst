@@ -31,6 +31,8 @@ ________
      var_dump($http_response_header); // variable is populated in the local scope
    }
    get_contents();
+   
+   ?>
 
 Before
 ______

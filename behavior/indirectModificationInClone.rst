@@ -40,6 +40,8 @@ ________
    
    $x = new x;
    clone $x;
+   
+   ?>
 
 Before
 ______

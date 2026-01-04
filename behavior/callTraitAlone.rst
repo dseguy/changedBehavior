@@ -57,4 +57,10 @@ This behavior was deprecated in 8.1
 This behavior changed in 9.0
 
 
+Analyzer
+_________
+
+  + `Traits/CannotCallTraitMethod <https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitMethod.html>`_
+
+
 

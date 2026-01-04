@@ -49,9 +49,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  current(): Calling current() on an object is deprecated in /codes/passingObjectIsDeprecated.php on line 5
+   PHP Deprecated:  current(): Calling current() on an object is deprecated
    
-   Deprecated: current(): Calling current() on an object is deprecated in /codes/passingObjectIsDeprecated.php on line 5
+   Deprecated: current(): Calling current() on an object is deprecated
    int(1)
    
 

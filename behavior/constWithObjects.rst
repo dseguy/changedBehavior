@@ -59,4 +59,10 @@ __________________
 This behavior changed in 8.1
 
 
+Analyzer
+_________
+
+  + `Php/NewInitializers <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NewInitializers.html>`_
+
+
 

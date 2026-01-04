@@ -45,9 +45,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored in /codes/octalNonConvertible.php on line 3
+   PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
    
-   Deprecated: Invalid characters passed for attempted conversion, these have been ignored in /codes/octalNonConvertible.php on line 3
+   Deprecated: Invalid characters passed for attempted conversion, these have been ignored
    14489
 
 

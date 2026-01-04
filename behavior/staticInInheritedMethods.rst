@@ -69,10 +69,10 @@ __________________
 This behavior changed in 8.1
 
 
-Error Messages
-______________
+Analyzer
+_________
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
+  + `Variables/InheritedStaticVariable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/InheritedStaticVariable.html>`_
 
 
 

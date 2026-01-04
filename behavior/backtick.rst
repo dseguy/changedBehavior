@@ -60,4 +60,10 @@ ________
 * `PHP RFC: Deprecations for PHP 8.5 <https://wiki.php.net/rfc/deprecations_php_8_5>`_
 
 
+Analyzer
+_________
+
+  + `Php/DeprecatedBackTicks <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/DeprecatedBackTicks.html>`_
+
+
 

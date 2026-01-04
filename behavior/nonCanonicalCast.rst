@@ -43,18 +43,18 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Non-canonical cast (integer) is deprecated, use the (int) cast instead in /codes/nonCanonicalCast.php on line 3
+   PHP Deprecated:  Non-canonical cast (integer) is deprecated, use the (int) cast instead
    
-   Deprecated: Non-canonical cast (integer) is deprecated, use the (int) cast instead in /codes/nonCanonicalCast.php on line 3
-   PHP Deprecated:  Non-canonical cast (double) is deprecated, use the (float) cast instead in /codes/nonCanonicalCast.php on line 4
+   Deprecated: Non-canonical cast (integer) is deprecated, use the (int) cast instead
+   PHP Deprecated:  Non-canonical cast (double) is deprecated, use the (float) cast instead
    
-   Deprecated: Non-canonical cast (double) is deprecated, use the (float) cast instead in /codes/nonCanonicalCast.php on line 4
-   PHP Deprecated:  Non-canonical cast (boolean) is deprecated, use the (bool) cast instead in /codes/nonCanonicalCast.php on line 5
+   Deprecated: Non-canonical cast (double) is deprecated, use the (float) cast instead
+   PHP Deprecated:  Non-canonical cast (boolean) is deprecated, use the (bool) cast instead
    
-   Deprecated: Non-canonical cast (boolean) is deprecated, use the (bool) cast instead in /codes/nonCanonicalCast.php on line 5
-   PHP Deprecated:  Non-canonical cast (binary) is deprecated, use the (string) cast instead in /codes/nonCanonicalCast.php on line 6
+   Deprecated: Non-canonical cast (boolean) is deprecated, use the (bool) cast instead
+   PHP Deprecated:  Non-canonical cast (binary) is deprecated, use the (string) cast instead
    
-   Deprecated: Non-canonical cast (binary) is deprecated, use the (string) cast instead in /codes/nonCanonicalCast.php on line 6
+   Deprecated: Non-canonical cast (binary) is deprecated, use the (string) cast instead
    2212
 
 

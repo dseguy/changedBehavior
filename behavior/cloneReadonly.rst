@@ -28,13 +28,16 @@ ________
    
    class X {
    	readonly int $property;
+   	readonly A $property2;
    	
-   	function __construct() {
-   		$this->property = 2;
+   	function __construct(int $p) {
+   		$this->property = $p;
+   		$this->property2 = new A($p);
    	}
    	
    	function __clone() {
-   		$this->property++;
+   		$this->property++; // clone used to change scalar
+   		$this->property2 = new A($this->property); // clone used to change object
    	}
    }
    

@@ -62,4 +62,10 @@ This behavior was deprecated in 7.3
 This behavior changed in 8.0
 
 
+Analyzer
+_________
+
+  + `Structures/CreatingObjectOnNull <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CreatingObjectOnNull.html>`_
+
+
 
