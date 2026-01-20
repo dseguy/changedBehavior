@@ -57,4 +57,10 @@ __________________
 This behavior changed in 8.1
 
 
+Error Messages
+______________
+
+  + `Passing null to parameter #1 ($directory) of type string is deprecated <https://php-errors.readthedocs.io/en/latest/messages/passing-null-is-deprecated%2C-instead-the-last-opened-directory-stream-should-be-provided.html>`_
+
+
 

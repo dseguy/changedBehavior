@@ -63,4 +63,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected token "private", expecting "=" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%3D%22.html>`_
+
+
 

@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + ` __autoload() is no longer supported, use spl_autoload_register() instead <https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29-is-no-longer-supported%2C-use-spl_autoload_register%28%29-instead.html>`_
+
+
 

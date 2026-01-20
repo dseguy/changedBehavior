@@ -12,9 +12,11 @@ PHP Error Messages
     * :ref:`array_sum(): Addition is not supported on type array <array_sum()-checks-operands-thoroughly>`
     * :ref:`Defining a custom assert() function is deprecated, as the function has special semantics <assert-is-reserved-function>`
     * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
+    * :ref:` __autoload() is no longer supported, use spl_autoload_register() instead <using-__autoload()-is-deprecated>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
     * :ref:`The backtick (`) operator is deprecated, use shell_exec() instead <back-tick-operator-is-deprecated>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
+    * :ref:`Non-static method %s::%s() should not be called statically <calling-non-static-method-statically>`
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
     * :ref:`Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead <no-case-with-a-semi-colon>`
     * :ref:`define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <php-constants-are-not-case-insensitive>`
@@ -37,6 +39,7 @@ PHP Error Messages
     * :ref:`Constant SUNFUNCS_RET_TIMESTAMP is deprecated  <constant-%s-is-deprecated>`
     * :ref:`Cannot use %s as array <destructuring-non-arrays>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
+    * :ref:`Passing null to parameter #1 ($directory) of type string is deprecated <no-more-dir()-with-null>`
     * :ref:`Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead <${expression}-is-deprecated>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
@@ -50,13 +53,14 @@ PHP Error Messages
     * :ref:`Empty delimiter <explode()-forbids-empty-strings>`
     * :ref:`%s(): Passing null to parameter #% <cannot-explode()-null>`
     * :ref:`file_get_contents(): Filename cannot be empty <file_get_contents()-needs-a-real-path>`
+    * :ref:`Cannot use 'final' as constant modifier <final-class-constants>`
     * :ref:`Cannot use 'final' as method modifier <final-method-in-trait>`
     * :ref:`Cannot use the final modifier on a parameter <final-promoted-properties>`
     * :ref:`the $escape parameter must be provided as its default value will change <fputcsv()-needs-escape-parameter>`
     * :ref:`Generator return type must be a supertype of Generator <generators-don't-return>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Calling get_class() without arguments is deprecated <get_class()-needs-an-argument>`
-    * :ref:`Cannot acquire reference to $GLOBALS <$globals-assignement>`
+    * :ref:`Cannot acquire reference to $GLOBALS <no-reference-to-$globals-variable>`
     * :ref:`syntax error, unexpected end of file <heredoc-syntax-in-an-array>`
     * :ref:`The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead <$http_response_header-is-deprecated>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
@@ -100,6 +104,8 @@ PHP Error Messages
     * :ref:`Call to undefined method Closure::getCurrent() <not-in-a-closure>`
     * :ref:`Current function is not a closure <not-in-a-closure>`
     * :ref:`Using null as an array offset is deprecated, use an empty string instead <null-as-array-offset>`
+    * :ref:`Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead <null-with-array_key_exists()>`
+    * :ref:`Methods with the same name as their class will not be constructors in a future version of PHP <old-constructors>`
     * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
     * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
     * :ref:`Required parameter $%s follows optional parameter $%s <optional-parameter-are-after-compulsory-parameters>`
@@ -111,6 +117,7 @@ PHP Error Messages
     * :ref:`range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0  <range()-with-int-and-string>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Nesting level too deep - recursive dependency?  <recursive-comparison-of-arrays>`
+    * :ref:`syntax error, unexpected token "private", expecting "=" <relaxed-naming-with-class-constant>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
@@ -134,6 +141,7 @@ PHP Error Messages
     * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <strpos()-does-not-accept-false>`
     * :ref:`Passing null to parameter #2 ($needle) of type string is deprecated <strpos()-does-not-accept-null-as-second-parameter>`
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
+    * :ref:`Argument #2 ($length) must be greater than 0 <str_split()-throws-valueerror-with-negative-lengths>`
     * :ref:`Unparenthesized `a ? b : c ? d : e` is not supported. <ternary-associativity>`
     * :ref:`Using $this when not in object context <$this-must-be-the-local-object>`
     * :ref:`syntax error, unexepected 'throw' (T_THROW) <throw-is-an-expression>`
@@ -145,6 +153,7 @@ PHP Error Messages
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`
     * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-``max_depth``-option>`
+    * :ref:`Error at offset 0 of 17 bytes <unserialize()-error-report>`
     * :ref:`Unserializing the 'S' format is deprecated <unserialize-with-the-upper-case-s-is-deprecated>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
     * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version_compare()-stricter-operators>`

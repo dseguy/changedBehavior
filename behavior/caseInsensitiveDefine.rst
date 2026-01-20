@@ -75,7 +75,7 @@ ______________
 Analyzer
 _________
 
-  + `Constants/CaseInsensitiveConstant <https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CaseInsensitiveConstant.html>`_
+  + `Constants/CaseInsensitiveConstants <https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CaseInsensitiveConstants.html>`_
 
 
 

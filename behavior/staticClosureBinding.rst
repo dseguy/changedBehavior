@@ -31,6 +31,8 @@ ________
    $fn = static function () {  };
    
    $d = $fn->bindTo(new A, 'A');
+   
+   ?>
 
 Before
 ______

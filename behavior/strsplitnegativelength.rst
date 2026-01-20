@@ -46,4 +46,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Argument #2 ($length) must be greater than 0 <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-must-be-greater-than-or-equal-to-0.html>`_
+
+
 

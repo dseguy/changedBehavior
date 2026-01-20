@@ -52,4 +52,10 @@ __________________
 This behavior changed in 8.4
 
 
+See Also
+________
+
+* `Dealing with a PHP BC break <https://nyamsprod.com/blog/dealing-with-a-php-bc-break/>`_
+
+
 

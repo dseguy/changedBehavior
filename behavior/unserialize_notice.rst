@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `Error at offset 0 of 17 bytes <https://php-errors.readthedocs.io/en/latest/messages/error-at-offset-%25zd-of-%25zd.html>`_
+
+
 

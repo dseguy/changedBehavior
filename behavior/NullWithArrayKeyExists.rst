@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead <https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_exists%28%29-is-deprecated%2C-use-an-empty-string-instead.html>`_
+
+
 
