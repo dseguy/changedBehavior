@@ -22,6 +22,7 @@ Per PHP version
     * :ref:`$http_response_header-is-deprecated`
     * :ref:`array-has-no-absolute-name`
     * :ref:`cannot-bind-$this-to-static-closure`
+    * :ref:`cast-in-const`
     * :ref:`destructuring-non-arrays`
     * :ref:`e_user_error-is-deprecated`
     * :ref:`final-promoted-properties`

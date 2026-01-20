@@ -79,6 +79,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/castInConst.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/CatchNoVariable.html</loc>
  </url>
  <url>

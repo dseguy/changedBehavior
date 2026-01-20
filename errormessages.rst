@@ -21,12 +21,12 @@ PHP Error Messages
     * :ref:`Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead <no-case-with-a-semi-colon>`
     * :ref:`define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <php-constants-are-not-case-insensitive>`
     * :ref:`define(): delaration of case insensitive constants is deprecated <php-constants-are-not-case-insensitive>`
+    * :ref:`Constant expression contains invalid operations <static-variable-accepts-functioncalls-as-default>`
     * :ref:`syntax error, unexpected ')', expecting '|' or variable (T_VARIABLE) <catch-without-variable>`
     * :ref:`ceil(): Argument #1 ($num) must be of type int|float, GMP given <ceil()-strict-mode>`
     * :ref:`must be a user-defined class name, internal class name given <class_alias()-works-on-internal-classes>`
     * :ref:`Cannot use ::class with dynamic class name <::class-on-object>`
     * :ref:`Using "_" as %s is deprecated since 8.4 <underscore-named-class>`
-    * :ref:`Constant expression contains invalid operations <static-variable-accepts-functioncalls-as-default>`
     * :ref:`__clone method called on non-object <clone-a-constant>`
     * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`

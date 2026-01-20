@@ -31,6 +31,7 @@ PHP Changed Behavior
    behavior/callTraitAlone.rst
    behavior/case-with-semicolon.rst
    behavior/caseInsensitiveDefine.rst
+   behavior/castInConst.rst
    behavior/CatchNoVariable.rst
    behavior/ceilStrictMode.rst
    behavior/classAliasWithInternalClass.rst

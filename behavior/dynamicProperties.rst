@@ -79,4 +79,10 @@ ______________
   + `Creation of dynamic property User::$name is deprecated <https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-%25s%3A%3A%24%25s-is-deprecated.html>`_
 
 
+Analyzer
+_________
+
+  + `Classes/UndefinedProperty <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedProperty.html>`_
+
+
 

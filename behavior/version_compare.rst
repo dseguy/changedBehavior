@@ -62,4 +62,10 @@ ______________
   + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
 
 
+Analyzer
+_________
+
+  + `Php/VersionCompareOperator <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/VersionCompareOperator.html>`_
+
+
 
