@@ -60,4 +60,10 @@ __________________
 This behavior changed in 7.3
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected end of file <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-end-of-file.html>`_
+
+
 

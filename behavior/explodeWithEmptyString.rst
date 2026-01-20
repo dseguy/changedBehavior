@@ -60,4 +60,10 @@ ________
 * `explode <https://www.php.net/manual/en/function.explode.php>`_
 
 
+Error Messages
+______________
+
+  + `Empty delimiter <https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html>`_
+
+
 

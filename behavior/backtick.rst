@@ -60,6 +60,12 @@ ________
 * `PHP RFC: Deprecations for PHP 8.5 <https://wiki.php.net/rfc/deprecations_php_8_5>`_
 
 
+Error Messages
+______________
+
+  + `The backtick (`) operator is deprecated, use shell_exec() instead <https://php-errors.readthedocs.io/en/latest/messages/the-backtick-%28%60%29-operator-is-deprecated%2C-use-shell_exec%28%29-instead.html>`_
+
+
 Analyzer
 _________
 

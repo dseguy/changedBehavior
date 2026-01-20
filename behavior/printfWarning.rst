@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Unknown format specifier "Z" <https://php-errors.readthedocs.io/en/latest/messages/unknown-format-specifier-%22%25c.html>`_
+
+
 

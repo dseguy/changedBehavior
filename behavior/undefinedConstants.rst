@@ -50,6 +50,12 @@ This behavior was deprecated in 7.0
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Uncaught Error: Undefined constant "%s" <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
+
+
 Analyzer
 _________
 

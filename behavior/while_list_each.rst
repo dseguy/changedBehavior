@@ -61,4 +61,10 @@ This behavior was deprecated in 7.4
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Call to undefined function each() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-each%28%29.html>`_
+
+
 

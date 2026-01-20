@@ -51,4 +51,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `array_product(): Multiplication is not supported on type array <https://php-errors.readthedocs.io/en/latest/messages/array_product%28%29%3A-multiplication-is-not-supported-on-type-array.html>`_
+
+
 

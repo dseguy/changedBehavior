@@ -48,4 +48,10 @@ __________________
 This behavior changed in 8.2
 
 
+Error Messages
+______________
+
+  + `Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html>`_
+
+
 

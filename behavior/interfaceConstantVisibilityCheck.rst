@@ -58,4 +58,11 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `Cannot access %s constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-const-%25s%3A%3A%25s.html>`_
+  + `Access level to %s::%s must be %s (as in %s) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html>`_
+
+
 

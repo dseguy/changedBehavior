@@ -73,4 +73,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
+
+
 

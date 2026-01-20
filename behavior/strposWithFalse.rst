@@ -63,4 +63,10 @@ ________
 * `strpos <https://www.php.net/manual/en/function.strpos.php>`_
 
 
+Error Messages
+______________
+
+  + `Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior  <https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html>`_
+
+
 

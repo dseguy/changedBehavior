@@ -56,4 +56,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default <https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loader%28%29-is-deprecated-since-8.0%2C-as-external-entity-loading-is-disabled-by-default.html>`_
+
+
 

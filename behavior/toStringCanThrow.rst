@@ -64,6 +64,12 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `Method %s::%s() must not throw an exception, caught %s <https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A__tostring%28%29-must-not-throw-an-exception%2C-caught-%25s%3A-%25s.html>`_
+
+
 Analyzer
 _________
 

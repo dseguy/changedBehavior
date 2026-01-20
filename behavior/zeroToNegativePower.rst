@@ -62,6 +62,12 @@ ________
 * `pow <https://www.php.net/manual/fr/function.pow.php>`_
 
 
+Error Messages
+______________
+
+  + `Power of base 0 and negative exponent is deprecated <https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html>`_
+
+
 Analyzer
 _________
 

@@ -59,4 +59,10 @@ __________________
 This behavior changed in 7.0
 
 
+Error Messages
+______________
+
+  + `Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html>`_
+
+
 

@@ -73,4 +73,10 @@ ________
 * `Enumeration <https://www.php.net/manual/en/language.types.enumerations.php>`_
 
 
+Error Messages
+______________
+
+  + `Duplicate value in enum A for cases A and B <https://php-errors.readthedocs.io/en/latest/messages/duplicate-value-in-enum-%25s-for-cases-%25s-and-%25s.html>`_
+
+
 

@@ -49,4 +49,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `The arguments array must contain %d items, %d given <https://php-errors.readthedocs.io/en/latest/messages/the-arguments-array-must-contain-%25d-items%2C-%25d-given.html>`_
+
+
 

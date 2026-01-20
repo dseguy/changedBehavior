@@ -60,4 +60,10 @@ __________________
 This behavior changed in 7.0
 
 
+Error Messages
+______________
+
+  + `Generator return type must be a supertype of Generator <https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html>`_
+
+
 

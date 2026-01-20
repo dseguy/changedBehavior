@@ -72,6 +72,12 @@ ________
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
 
 
+Error Messages
+______________
+
+  + `Unparenthesized `a ? b : c ? d : e` is not supported. <https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html>`_
+
+
 Analyzer
 _________
 

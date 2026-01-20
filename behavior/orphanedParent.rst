@@ -56,4 +56,10 @@ This behavior was deprecated in 7.4
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Cannot use "parent" when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22%25s%22-when-no-class-scope-is-active.html>`_
+
+
 

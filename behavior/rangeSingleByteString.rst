@@ -71,4 +71,10 @@ ________
 * `range <https://www.php.net/manual/en/function.range.php>`_
 
 
+Error Messages
+______________
+
+  + `range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 <https://php-errors.readthedocs.io/en/latest/messages/argument-%232-%28%24end%29-must-be-a-single-byte-string-if.html>`_
+
+
 

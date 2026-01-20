@@ -60,4 +60,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `Undefined constant "%s" <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
+
+
 

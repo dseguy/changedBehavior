@@ -28,6 +28,7 @@ $stats = array('author' => 0,
 				);
 $errors = 0;
 $tips = array();
+$keywords = array();
 foreach($files as $file) {
 	$tip = parse_ini_file($file);
 
@@ -69,7 +70,7 @@ foreach($files as $file) {
 	}
 
 	if (!isset($tip->keywords)) {
-//		buildlog("keywords is missing in $file");
+		buildlog("keywords is missing in $file");
 	} else {
 	    $tip->keywords = array_filter($tip->keywords);
 	    
@@ -180,6 +181,16 @@ foreach($files as $file) {
 		}
 	}
 	$tips[$file] = $tip;
+
+    if (isset($tip->keywords) && is_array($tip->keywords)) {
+    	foreach($tip->keywords as $keyword) {
+	        if (isset($keywords[$keyword])) {
+	            $keywords[$keyword][] = $tip;
+    	    } else {
+	            $keywords[$keyword] = [$tip];
+	        }
+    	}
+    }
 	
 	if (!isset($tip->before)) {
 		die($file);
@@ -327,8 +338,7 @@ CODE;
 	}
 
 	if (!empty($changedBehavior->phpError) && 
-	     isset($changedBehavior->phpError[0]) && 
-	     $changedBehavior->phpError[0] !== 'none') {
+	    !isset($changedBehavior->phpError[0])) {
 
 		$behavior[] = '';
 		$behavior[] = 'Error Messages';
@@ -425,6 +435,22 @@ RST;
 	}
 	file_put_contents('authorindex.rst', $authorRst);
 	print ("processed ".$stats['author']." authors\n");
+}
+
+if (!empty($keywords['silent'])) {
+	$silent = <<<RST
+Silent changed behaviors
+------------------------
+
+
+RST;
+	
+	foreach($keywords['silent'] as $tip) {
+    	$anchor = make_anchor($tip->title);
+		$versionRst .= '    * :ref:'.$anchor.PHP_EOL;
+	}
+	file_put_contents('silent.rst', $versionRst);
+	print ("processed ".count($keywords['silent'])." silent changed behavior\n");
 }
 
 //shell_exec('make html');

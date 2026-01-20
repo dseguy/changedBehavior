@@ -59,4 +59,10 @@ __________________
 This behavior changed in 8.1
 
 
+Error Messages
+______________
+
+  + `%s(): Passing null to parameter #% <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html>`_
+
+
 

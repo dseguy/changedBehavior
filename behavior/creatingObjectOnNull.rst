@@ -62,6 +62,12 @@ This behavior was deprecated in 7.3
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Creating default object from empty value <https://php-errors.readthedocs.io/en/latest/messages/creating-default-object-from-empty-value.html>`_
+
+
 Analyzer
 _________
 

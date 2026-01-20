@@ -66,6 +66,12 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `array_merge() expects at least 1 parameter, 0 given <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-expects-at-least-1-parameter%2C-0-given.html>`_
+
+
 Analyzer
 _________
 

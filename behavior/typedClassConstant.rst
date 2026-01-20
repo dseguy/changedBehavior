@@ -58,6 +58,12 @@ ________
 * `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected identifier "%s", expecting variable <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-variable.html>`_
+
+
 Analyzer
 _________
 

@@ -57,4 +57,10 @@ ________
 * `class_alias() <https://php.net/class_alias>`_
 
 
+Error Messages
+______________
+
+  + `must be a user-defined class name, internal class name given <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html>`_
+
+
 

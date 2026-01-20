@@ -57,6 +57,12 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
+
+
 Analyzer
 _________
 

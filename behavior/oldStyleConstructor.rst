@@ -71,6 +71,12 @@ This behavior was deprecated in 7.0
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <https://php-errors.readthedocs.io/en/latest/messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php%3B-%25s-has-a-deprecated-constructor.html>`_
+
+
 Analyzer
 _________
 

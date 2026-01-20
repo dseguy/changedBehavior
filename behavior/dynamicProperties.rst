@@ -73,4 +73,10 @@ ________
 * `PHP 8.2: Dynamic Properties are deprecated <https://php.watch/versions/8.2/dynamic-properties-deprecated>`_
 
 
+Error Messages
+______________
+
+  + `Creation of dynamic property User::$name is deprecated <https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-%25s%3A%3A%24%25s-is-deprecated.html>`_
+
+
 

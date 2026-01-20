@@ -63,4 +63,13 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Non-canonical cast (binary) is deprecated, use the (string) cast instead <https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28binary%29-is-deprecated%2C-use-the-%28string%29-cast-instead.html>`_
+  + `Non-canonical cast (binary) is deprecated, use the (bool) cast instead <https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28boolean%29-is-deprecated%2C-use-the-%28bool%29-cast-instead.html>`_
+  + `Non-canonical cast (double) is deprecated, use the (float) cast instead <https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28double%29-is-deprecated%2C-use-the-%28float%29-cast-instead.html>`_
+  + `Non-canonical cast (integer) is deprecated, use the (int) cast instead <https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28integer%29-is-deprecated%2C-use-the-%28int%29-cast-instead.html>`_
+
+
 

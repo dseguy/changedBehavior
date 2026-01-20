@@ -81,4 +81,10 @@ ________
 * `unserialize() <https://www.php.net/manual/fr/function.unserialize.php>`_
 
 
+Error Messages
+______________
+
+  + `Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html>`_
+
+
 

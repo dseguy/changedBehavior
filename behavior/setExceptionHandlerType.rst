@@ -66,4 +66,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
+
+
 

@@ -60,4 +60,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected token ";", expecting "(" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22%2C-expecting-%22%28%22.html>`_
+
+
 

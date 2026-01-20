@@ -61,4 +61,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0  <https://php-errors.readthedocs.io/en/latest/messages/argument-%232-%28%24end%29-must-be-a-single-byte-string-if.html>`_
+
+
 

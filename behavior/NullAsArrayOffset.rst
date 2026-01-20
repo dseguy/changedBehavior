@@ -62,4 +62,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Using null as an array offset is deprecated, use an empty string instead <https://php-errors.readthedocs.io/en/latest/messages/using-null-as-an-array-offset-is-deprecated%2C-use-an-empty-string-instead.html>`_
+
+
 

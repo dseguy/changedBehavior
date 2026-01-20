@@ -61,4 +61,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Cannot use the final modifier on a parameter <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-parameter.html>`_
+
+
 

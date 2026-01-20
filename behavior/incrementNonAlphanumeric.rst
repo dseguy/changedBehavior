@@ -60,4 +60,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Increment on non-numeric string is deprecated, use str_increment() instead <https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html>`_
+
+
 

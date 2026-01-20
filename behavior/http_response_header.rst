@@ -111,4 +111,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead <https://php-errors.readthedocs.io/en/latest/messages/the-predefined-locally-scoped-%24http_response_header-variable-is-deprecated%2C.html>`_
+
+
 

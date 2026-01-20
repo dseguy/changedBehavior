@@ -68,6 +68,12 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `Cannot auto-initialize an array inside property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
+
+
 Analyzer
 _________
 

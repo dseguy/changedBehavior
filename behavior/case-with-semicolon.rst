@@ -60,4 +60,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead <https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-%28%3B%29-are-deprecated%2C-use-a-colon-%28%3A%29.html>`_
+
+
 

@@ -63,6 +63,12 @@ ________
 * `PHP 8.4: CSV: The $escape parameter must be provided <https://php.watch/versions/8.4/csv-functions-escape-parameter>`_
 
 
+Error Messages
+______________
+
+  + `the $escape parameter must be provided as its default value will change <https://php-errors.readthedocs.io/en/latest/messages/the-%24escape-parameter-must-be-provided-as-its-default-value-will-change.html>`_
+
+
 Analyzer
 _________
 

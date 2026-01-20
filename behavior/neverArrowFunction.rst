@@ -51,4 +51,10 @@ __________________
 This behavior changed in 8.1
 
 
+Error Messages
+______________
+
+  + `A never-returning function must not return <https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html>`_
+
+
 

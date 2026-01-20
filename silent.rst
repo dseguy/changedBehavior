@@ -238,3 +238,33 @@ Per PHP version
     * :ref:`string-increments`
 * 
     * :ref:`back-tick-operator-is-deprecated`
+    * :ref:`catch-without-variable`
+    * :ref:`copy-of-$globals`
+    * :ref:`negative-automatic-index-from-empty-array`
+    * :ref:`automatic-index-in-non-empty-array`
+    * :ref:`bitshift-and-concat-precedence`
+    * :ref:`convert_uuencode()-works-on-empty-strings`
+    * :ref:`filessytemiterator-skips-dot-files`
+    * :ref:`get_object_vars()-does-not-work-on-arrayobject`
+    * :ref:`http_build_query()-supports-enumerations`
+    * :ref:`in_array()-string-int-comparisons`
+    * :ref:`increment-non-alphanumeric`
+    * :ref:`increment-on-boolean-is-deprecated`
+    * :ref:`krsort()-places-integers-before-strings-in-keys`
+    * :ref:`ksort()-now-places-integers-before-strings`
+    * :ref:`max()-on-string-and-integer`
+    * :ref:`new-cases-in-switch`
+    * :ref:`plus-and-concat-precedence`
+    * :ref:`setlocale()-does-not-affect-echo-anymore`
+    * :ref:`spaceship-operator-results`
+    * :ref:`splfixedarray-is-now-an-iteratoraggregate`
+    * :ref:`static-variables-are-linked-to-their-method`
+    * :ref:`string-to-integer-comparison`
+    * :ref:`strings-are-bigger-than-integers`
+    * :ref:`strpos()-with-integer-argument`
+    * :ref:`substr()-returns-empty-string-on-out-of-bond-offset`
+    * :ref:`switch()-changed-comparison-style`
+    * :ref:`length-of-tempnam()-has-been-raised`
+    * :ref:`tentative-static-returntype-with-datetime`
+    * :ref:`typed-class-constant`
+    * :ref:`var_export()-format`

@@ -49,4 +49,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Offset not contained in string <https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html>`_
+
+
 

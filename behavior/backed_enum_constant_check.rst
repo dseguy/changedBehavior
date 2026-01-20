@@ -71,4 +71,10 @@ __________________
 This behavior changed in 8.3
 
 
+Error Messages
+______________
+
+  + `Enum case value must be compile-time evaluatable <https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html>`_
+
+
 

@@ -86,6 +86,12 @@ This behavior was deprecated in 8.2
 This behavior changed in 9.0
 
 
+Error Messages
+______________
+
+  + `Use of "parent" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%22parent%22-in-callables-is-deprecated.html>`_
+
+
 Analyzer
 _________
 

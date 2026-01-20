@@ -69,6 +69,12 @@ __________________
 This behavior changed in 8.4
 
 
+Error Messages
+______________
+
+  + `Using "_" as %s is deprecated since 8.4 <https://php-errors.readthedocs.io/en/latest/messages/using-%22_%22-as-%25s-is-deprecated-since-8.4.html>`_
+
+
 Analyzer
 _________
 

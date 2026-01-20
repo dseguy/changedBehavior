@@ -65,4 +65,10 @@ This behavior was deprecated in 8.1
 This behavior changed in 9.0
 
 
+Error Messages
+______________
+
+  + `Returning by reference from a void function is deprecated <https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html>`_
+
+
 

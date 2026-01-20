@@ -65,6 +65,13 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-argument-%233-%28%24case_insensitive%29-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html>`_
+  + `define(): delaration of case insensitive constants is deprecated <https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-declaration-of-case-insensitive-constants-is-deprecated.html>`_
+
+
 Analyzer
 _________
 

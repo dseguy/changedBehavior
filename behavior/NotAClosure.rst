@@ -65,4 +65,11 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Call to undefined method Closure::getCurrent() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html>`_
+  + `Current function is not a closure <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html>`_
+
+
 

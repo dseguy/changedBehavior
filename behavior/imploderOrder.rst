@@ -58,4 +58,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `implode(): Argument #2 ($array) must be of type ?array, string given <https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html>`_
+
+
 

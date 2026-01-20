@@ -59,6 +59,12 @@ __________________
 This behavior changed in 7.1
 
 
+Error Messages
+______________
+
+  + `Using $this when not in object context <https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html>`_
+
+
 Analyzer
 _________
 

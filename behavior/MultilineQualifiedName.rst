@@ -64,4 +64,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected ';', expecting '{' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%7B%27.html>`_
+
+
 

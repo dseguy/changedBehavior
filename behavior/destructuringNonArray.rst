@@ -80,4 +80,10 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Cannot use %s as array <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-array.html>`_
+
+
 

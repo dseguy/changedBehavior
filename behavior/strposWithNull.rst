@@ -50,4 +50,10 @@ This behavior was deprecated in 7.3
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Passing null to parameter #2 ($needle) of type string is deprecated <https://php-errors.readthedocs.io/en/latest/messages/strlen%28%29%3A-passing-null-to-parameter-%231-%28%24string%29-of-type-string-is-deprecated.html>`_
+
+
 

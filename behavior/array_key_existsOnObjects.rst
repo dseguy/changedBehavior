@@ -54,6 +54,12 @@ This behavior was deprecated in Using array_key_exists() on objects is deprecate
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <https://php-errors.readthedocs.io/en/latest/messages/array_key_exists%28%29%3A-argument-%232-%28%24array%29-must-be-of-type-array%2C-%25s-given.html>`_
+
+
 Analyzer
 _________
 

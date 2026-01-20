@@ -75,4 +75,10 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `Declaration of %s::%s() should be compatible with %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s%3A%3A%25s%28%29-must-be-compatible-with-%25s%3A%3A%25s%28%29.html>`_
+
+
 

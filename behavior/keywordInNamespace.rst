@@ -47,10 +47,4 @@ __________________
 This behavior changed in 8.0
 
 
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22--%22%2C-expecting-%22%7B%22.html>`_
-
-
 

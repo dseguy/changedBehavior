@@ -85,4 +85,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Array to string conversion <https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html>`_
+
+
 

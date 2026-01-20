@@ -61,4 +61,10 @@ __________________
 This behavior changed in 7.2
 
 
+Error Messages
+______________
+
+  + `Keys must be of type int|string during array unpacking <https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int%7Cstring-during-array-unpacking.html>`_
+
+
 

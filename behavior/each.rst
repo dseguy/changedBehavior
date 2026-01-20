@@ -57,4 +57,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `The each() function is deprecated. This message will be suppressed on further calls <https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html>`_
+
+
 

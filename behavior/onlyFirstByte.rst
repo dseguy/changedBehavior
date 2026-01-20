@@ -59,6 +59,12 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Only the first byte will be assigned to the string offset <https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html>`_
+
+
 Analyzer
 _________
 

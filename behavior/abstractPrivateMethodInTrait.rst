@@ -61,6 +61,12 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Abstract function t::foo() cannot be declared private <https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html>`_
+
+
 Analyzer
 _________
 

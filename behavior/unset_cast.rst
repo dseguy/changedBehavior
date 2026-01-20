@@ -60,6 +60,12 @@ This behavior was deprecated in 7.4
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `The (unset) cast is deprecated <https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html>`_
+
+
 Analyzer
 _________
 

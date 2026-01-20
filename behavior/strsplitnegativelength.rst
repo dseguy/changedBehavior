@@ -25,7 +25,7 @@ ________
 .. code-block:: php
 
    <?php
-   str_split('abc', 0);
+     str_split('abc', 0);
    ?>
 
 Before
@@ -44,12 +44,6 @@ ______
 PHP version change
 __________________
 This behavior changed in 8.0
-
-
-Error Messages
-______________
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/.html>`_
 
 
 

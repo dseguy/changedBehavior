@@ -57,4 +57,10 @@ __________________
 This behavior changed in 8.4
 
 
+Error Messages
+______________
+
+  + `Unserializing the 'S' format is deprecated <https://php-errors.readthedocs.io/en/latest/messages/unserializing-the-%27s%27-format-is-deprecated.html>`_
+
+
 

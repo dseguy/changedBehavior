@@ -54,4 +54,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected token "match", expecting "(" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22match%22%2C-expecting-%22%28%22.html>`_
+
+
 

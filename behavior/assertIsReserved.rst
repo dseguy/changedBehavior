@@ -65,6 +65,12 @@ This behavior was deprecated in 7.4
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `Defining a custom assert() function is deprecated, as the function has special semantics <https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert%28%29-function-is-not-allowed%2C.html>`_
+
+
 Analyzer
 _________
 

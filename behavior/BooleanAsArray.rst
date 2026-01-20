@@ -54,6 +54,12 @@ __________________
 This behavior changed in 7.4
 
 
+Error Messages
+______________
+
+  + `Trying to access array offset on %s <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
+
+
 Analyzer
 _________
 

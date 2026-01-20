@@ -50,4 +50,10 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `str_replace(): Argument #2 ($replace) must be of type string when argument #1 <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
+
+
 

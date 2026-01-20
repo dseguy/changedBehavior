@@ -56,6 +56,12 @@ __________________
 This behavior changed in 8.5
 
 
+Error Messages
+______________
+
+  + `Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead <https://php-errors.readthedocs.io/en/latest/messages/passing-e_user_error-to-trigger_error%28%29-is-deprecated-since-8.4%2C-throw-an-exception-or-call-exit-with-a-string-message-instead.html>`_
+
+
 Analyzer
 _________
 

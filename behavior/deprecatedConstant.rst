@@ -83,4 +83,10 @@ __________________
 This behavior changed in 8.4
 
 
+Error Messages
+______________
+
+  + `Constant SUNFUNCS_RET_TIMESTAMP is deprecated  <https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html>`_
+
+
 

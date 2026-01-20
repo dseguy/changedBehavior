@@ -176,6 +176,7 @@ PHP Changed Behavior
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
    behavior/splfixedarray.rst
+   behavior/staticClosureBinding.rst
    behavior/staticInCallable.rst
    behavior/staticInInheritedMethods.rst
    behavior/staticTraitStorage.rst

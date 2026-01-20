@@ -70,4 +70,10 @@ __________________
 This behavior changed in 8.4
 
 
+Error Messages
+______________
+
+  + `Cannot use%s %s as %s because the name is already in use <https://php-errors.readthedocs.io/en/latest/messages/cannot-use%25s-%25s-as-%25s-because-the-name-is-already-in-use.html>`_
+
+
 

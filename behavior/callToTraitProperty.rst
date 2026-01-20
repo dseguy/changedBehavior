@@ -66,6 +66,12 @@ This behavior was deprecated in 8.0
 This behavior changed in 8.1
 
 
+Error Messages
+______________
+
+  + `Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated.html>`_
+
+
 Analyzer
 _________
 

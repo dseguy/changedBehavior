@@ -57,4 +57,10 @@ ________
 * `A Comprehensive Guide to PHP's array_sum() Function <https://reintech.io/blog/a-comprehensive-guide-to-phps-array-sum-function>`_
 
 
+Error Messages
+______________
+
+  + `array_sum(): Addition is not supported on type array <https://php-errors.readthedocs.io/en/latest/messages/array_sum%28%29%3A-addition-is-not-supported-on-type-array.html>`_
+
+
 
