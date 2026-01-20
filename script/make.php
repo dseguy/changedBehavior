@@ -161,13 +161,12 @@ foreach($files as $file) {
 					$id = php_error_id($id);
 					buildlog("phpError has not title in $file");
 				}
-		
+
 				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
 					buildlog("phpError doesn't exists in $file");
-					print '../php-errors/errors/'.$id.'.ini does not exist in '.$file.PHP_EOL;
+					print '../php-errors/errors/'.$id.'.ini does not exist in '.$file.'. Check for \\#, \\(, \\), \\;.'.PHP_EOL;
 				}
 			}
-	
 		} 
 	}
 
@@ -442,14 +441,15 @@ if (!empty($keywords['silent'])) {
 Silent changed behaviors
 ------------------------
 
+These changes do not emit any error. They are different between versions, but keeps executing the task. They might be only detected by actual inspection of the result.
 
 RST;
 	
 	foreach($keywords['silent'] as $tip) {
     	$anchor = make_anchor($tip->title);
-		$versionRst .= '    * :ref:'.$anchor.PHP_EOL;
+		$silent .= '    * :ref:'.$anchor.PHP_EOL;
 	}
-	file_put_contents('silent.rst', $versionRst);
+	file_put_contents('silent.rst', $silent);
 	print ("processed ".count($keywords['silent'])." silent changed behavior\n");
 }
 
