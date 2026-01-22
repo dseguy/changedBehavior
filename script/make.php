@@ -210,6 +210,7 @@ $php = array('5.6' => [],
 			 '8.3' => [],
 			 '8.4' => [],
 			 '8.5' => [],
+			 '8.6' => [],
 			 '9.0' => [],
 			);
 $stats = array('php' => 0);
@@ -225,7 +226,7 @@ foreach($tips as $file => $changedBehavior) {
 	}
 	
 	$anchor = make_anchor($changedBehavior->title);
-	$behavior[] = '.. _'.$anchor.':'.PHP_EOL;
+	$behavior[] = '.. _'.($anchor[0] === '_' ? '\\' : '').$anchor.':'.PHP_EOL;
 	$behavior[] = $changedBehavior->title;
 	$behavior[] = str_repeat('=', strlen($changedBehavior->title));
 	
@@ -307,7 +308,7 @@ CODE;
 	$behavior[] = "This behavior changed in ".$changedBehavior->phpVersion;
 	$behavior[] = '';
 	
-	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:'.$anchor.'';
+	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:`'.$anchor.'`';
 
 	if (!empty($changedBehavior->seeAlso)) {
 		$seeAlso = array();
@@ -447,7 +448,7 @@ RST;
 	
 	foreach($keywords['silent'] as $tip) {
     	$anchor = make_anchor($tip->title);
-		$silent .= '    * :ref:'.$anchor.PHP_EOL;
+		$silent .= '    * :ref:`'.$anchor.'`'.PHP_EOL;
 	}
 	file_put_contents('silent.rst', $silent);
 	print ("processed ".count($keywords['silent'])." silent changed behavior\n");
@@ -466,6 +467,7 @@ function check(stdClass $tip, string $file) : string {
 
 function make_anchor(string $title) : string {
 	$title = '`'.strtr(mb_strtolower($title), ' ', '-').'`';
+	$title = str_replace('`', '', $title);
 	return $title;
 }
 
