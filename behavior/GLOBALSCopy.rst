@@ -1,4 +1,4 @@
-.. _`copy-of-$globals`:
+.. _copy-of-$globals:
 
 Copy Of $GLOBALS
 ================

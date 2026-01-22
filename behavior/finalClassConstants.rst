@@ -1,4 +1,4 @@
-.. _`final-class-constants`:
+.. _final-class-constants:
 
 Final Class Constants
 =====================

@@ -1,4 +1,4 @@
-.. _`max()-must-contain-at-least-one-element`:
+.. _max()-must-contain-at-least-one-element:
 
 max() Must Contain At Least One Element
 =======================================

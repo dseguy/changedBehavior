@@ -1,4 +1,4 @@
-.. _`init-readonly-properties-in-child-class`:
+.. _init-readonly-properties-in-child-class:
 
 Init Readonly Properties In Child Class
 =======================================

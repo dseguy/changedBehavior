@@ -1,4 +1,4 @@
-.. _`never-is-now-a-keyword`:
+.. _never-is-now-a-keyword:
 
 never Is Now A Keyword
 ======================

@@ -1,4 +1,4 @@
-.. _`strpos()-with-integer-argument`:
+.. _strpos()-with-integer-argument:
 
 strpos() With Integer Argument
 ==============================

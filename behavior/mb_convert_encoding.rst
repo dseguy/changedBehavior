@@ -1,4 +1,4 @@
-.. _`mb_convert_encoding()-has-deprecated-formats`:
+.. _mb_convert_encoding()-has-deprecated-formats:
 
 mb_convert_encoding() Has Deprecated Formats
 ============================================

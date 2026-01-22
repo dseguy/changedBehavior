@@ -1,4 +1,4 @@
-.. _`e_strict-is-deprecated`:
+.. _e_strict-is-deprecated:
 
 E_STRICT Is Deprecated
 ======================

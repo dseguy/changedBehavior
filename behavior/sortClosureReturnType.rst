@@ -1,4 +1,4 @@
-.. _`sorting-closure-must-return-integers`:
+.. _sorting-closure-must-return-integers:
 
 Sorting Closure Must Return Integers
 ====================================

@@ -1,4 +1,4 @@
-.. _`array_product()-new-checks`:
+.. _array_product()-new-checks:
 
 array_product() New Checks
 ==========================

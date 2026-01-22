@@ -1,4 +1,4 @@
-.. _`in_array()-string-int-comparisons`:
+.. _in_array()-string-int-comparisons:
 
 in_array() String Int Comparisons
 =================================

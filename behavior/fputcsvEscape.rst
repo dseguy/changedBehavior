@@ -1,4 +1,4 @@
-.. _`fputcsv()-needs-escape-parameter`:
+.. _fputcsv()-needs-escape-parameter:
 
 fputcsv() Needs Escape Parameter
 ================================

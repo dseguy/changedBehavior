@@ -1,4 +1,4 @@
-.. _`die-and-exit-as-functions`:
+.. _die-and-exit-as-functions:
 
 Die And Exit As Functions
 =========================

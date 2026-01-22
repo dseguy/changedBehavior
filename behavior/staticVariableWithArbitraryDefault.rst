@@ -1,4 +1,4 @@
-.. _`static-variable-accepts-functioncalls-as-default`:
+.. _static-variable-accepts-functioncalls-as-default:
 
 Static Variable Accepts Functioncalls As Default
 ================================================

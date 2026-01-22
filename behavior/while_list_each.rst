@@ -1,4 +1,4 @@
-.. _`each()-is-no-more`:
+.. _each()-is-no-more:
 
 each() Is No More
 =================

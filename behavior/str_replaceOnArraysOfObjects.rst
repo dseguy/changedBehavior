@@ -1,4 +1,4 @@
-.. _`str_replace()-on-arrays-of-objects`:
+.. _str_replace()-on-arrays-of-objects:
 
 str_replace() On Arrays Of Objects
 ==================================

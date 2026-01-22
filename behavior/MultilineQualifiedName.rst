@@ -1,4 +1,4 @@
-.. _`no-new-line-in-namespaces`:
+.. _no-new-line-in-namespaces:
 
 No New Line In Namespaces
 =========================

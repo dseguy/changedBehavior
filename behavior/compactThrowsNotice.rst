@@ -1,4 +1,4 @@
-.. _`compact()-throws-notice-on-missing-variable`:
+.. _compact()-throws-notice-on-missing-variable:
 
 compact() Throws Notice On Missing Variable
 ===========================================

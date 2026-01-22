@@ -1,4 +1,4 @@
-.. _`strpos()-with-null-haystack`:
+.. _strpos()-with-null-haystack:
 
 strpos() With Null Haystack
 ===========================

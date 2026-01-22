@@ -1,4 +1,4 @@
-.. _`substr()-returns-empty-string-on-out-of-bond-offset`:
+.. _substr()-returns-empty-string-on-out-of-bond-offset:
 
 substr() Returns Empty String On Out Of Bond Offset
 ===================================================

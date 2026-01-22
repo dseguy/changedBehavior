@@ -1,4 +1,4 @@
-.. _`constants-in-trait`:
+.. _constants-in-trait:
 
 Constants In Trait
 ==================

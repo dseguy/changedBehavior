@@ -1,4 +1,4 @@
-.. _`inegality-comparisons`:
+.. _inegality-comparisons:
 
 Inegality Comparisons
 =====================

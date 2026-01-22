@@ -1,4 +1,4 @@
-.. _`negative-offset-with-strings`:
+.. _negative-offset-with-strings:
 
 Negative Offset With Strings
 ============================

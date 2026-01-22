@@ -1,4 +1,4 @@
-.. _`strpos()-does-not-accept-null-as-second-parameter`:
+.. _strpos()-does-not-accept-null-as-second-parameter:
 
 strpos() Does Not Accept Null As Second Parameter
 =================================================

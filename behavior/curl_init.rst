@@ -1,4 +1,4 @@
-.. _`curl-moved-away-from-resource`:
+.. _curl-moved-away-from-resource:
 
 cUrl Moved Away From Resource
 =============================

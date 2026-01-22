@@ -1,4 +1,4 @@
-.. _`enforcing-return-type-with-spl-classes`:
+.. _enforcing-return-type-with-spl-classes:
 
 Enforcing Return Type With Spl Classes
 ======================================

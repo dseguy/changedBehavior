@@ -1,4 +1,4 @@
-.. _`splfixedarray-is-now-an-iteratoraggregate`:
+.. _splfixedarray-is-now-an-iteratoraggregate:
 
 SplFixedArray Is Now An IteratorAggregate
 =========================================

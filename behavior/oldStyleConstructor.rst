@@ -1,4 +1,4 @@
-.. _`old-style-constructor`:
+.. _old-style-constructor:
 
 Old Style Constructor
 =====================

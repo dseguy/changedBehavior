@@ -1,4 +1,4 @@
-.. _`relative-callable-in-strings`:
+.. _relative-callable-in-strings:
 
 Relative Callable In Strings
 ============================

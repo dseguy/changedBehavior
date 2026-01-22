@@ -1,4 +1,4 @@
-.. _`implode()-arguments-order`:
+.. _implode()-arguments-order:
 
 implode() Arguments Order
 =========================

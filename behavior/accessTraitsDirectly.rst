@@ -1,4 +1,4 @@
-.. _`accessing-trait-resources-directly-is-not-allowed`:
+.. _accessing-trait-resources-directly-is-not-allowed:
 
 Accessing Trait Resources Directly Is Not Allowed
 =================================================

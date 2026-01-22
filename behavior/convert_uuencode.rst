@@ -1,4 +1,4 @@
-.. _`convert_uuencode()-works-on-empty-strings`:
+.. _convert_uuencode()-works-on-empty-strings:
 
 convert_uuencode() Works On Empty Strings
 =========================================

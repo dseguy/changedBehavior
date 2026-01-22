@@ -1,4 +1,4 @@
-.. _`default-values-with-htmlspecialchars()`:
+.. _default-values-with-htmlspecialchars():
 
 Default Values With htmlspecialchars()
 ======================================

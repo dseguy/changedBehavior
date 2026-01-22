@@ -1,4 +1,4 @@
-.. _`range()-lists-everything-between-strings`:
+.. _range()-lists-everything-between-strings:
 
 range() Lists Everything Between Strings
 ========================================

@@ -1,4 +1,4 @@
-.. _`integer-non-silent-conversion`:
+.. _integer-non-silent-conversion:
 
 Integer Non-silent Conversion
 =============================

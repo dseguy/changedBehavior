@@ -1,4 +1,4 @@
-.. _`yield-must-use-integer-or-string-keys`:
+.. _yield-must-use-integer-or-string-keys:
 
 Yield Must Use Integer Or String Keys
 =====================================

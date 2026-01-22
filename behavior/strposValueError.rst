@@ -1,4 +1,4 @@
-.. _`strpos()-emits-valueerror`:
+.. _strpos()-emits-valueerror:
 
 strpos() Emits ValueError
 =========================

@@ -1,4 +1,4 @@
-.. _`strpos()-with-out-of-range-offset-is-a-fatal-error`:
+.. _strpos()-with-out-of-range-offset-is-a-fatal-error:
 
 strpos() With Out-Of-Range Offset Is A Fatal Error
 ==================================================

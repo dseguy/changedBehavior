@@ -1,4 +1,4 @@
-.. _`optional-parameter-are-after-compulsory-parameters`:
+.. _optional-parameter-are-after-compulsory-parameters:
 
 Optional Parameter Are After Compulsory Parameters
 ==================================================

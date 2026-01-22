@@ -1,4 +1,4 @@
-.. _`__set_state()-method-must-be-static`:
+.. _\__set_state()-method-must-be-static:
 
 __set_state() Method Must Be Static
 ===================================

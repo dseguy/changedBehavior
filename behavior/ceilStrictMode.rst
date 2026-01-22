@@ -1,4 +1,4 @@
-.. _`ceil()-strict-mode`:
+.. _ceil()-strict-mode:
 
 ceil() Strict Mode
 ==================

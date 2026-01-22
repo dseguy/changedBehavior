@@ -1,4 +1,4 @@
-.. _`enforcing-native-php-returntype`:
+.. _enforcing-native-php-returntype:
 
 Enforcing Native PHP ReturnType
 ===============================

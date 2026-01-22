@@ -1,4 +1,4 @@
-.. _`$globals-assignement`:
+.. _$globals-assignement:
 
 $GLOBALS Assignement
 ====================

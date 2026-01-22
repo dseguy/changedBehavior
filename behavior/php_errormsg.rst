@@ -1,4 +1,4 @@
-.. _`$php_errormsg-has-been-removed`:
+.. _$php_errormsg-has-been-removed:
 
 $php_errormsg has been removed
 ==============================

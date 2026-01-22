@@ -1,4 +1,4 @@
-.. _`php-native-return-types-are-now-enforced`:
+.. _php-native-return-types-are-now-enforced:
 
 PHP native return types are now enforced
 ========================================

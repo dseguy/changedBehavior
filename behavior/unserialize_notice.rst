@@ -1,4 +1,4 @@
-.. _`unserialize()-error-report`:
+.. _unserialize()-error-report:
 
 unserialize() Error Report
 ==========================

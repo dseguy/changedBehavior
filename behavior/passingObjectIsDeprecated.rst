@@ -1,4 +1,4 @@
-.. _`passing-objects-is-deprecated`:
+.. _passing-objects-is-deprecated:
 
 Passing Objects Is Deprecated
 =============================

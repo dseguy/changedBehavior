@@ -1,4 +1,4 @@
-.. _`indirect-modification-in-clone`:
+.. _indirect-modification-in-clone:
 
 Indirect Modification In Clone
 ==============================

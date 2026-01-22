@@ -1,4 +1,4 @@
-.. _`parent-cannot-be-used-anymore-in-callable-arrays`:
+.. _parent-cannot-be-used-anymore-in-callable-arrays:
 
 parent Cannot Be Used Anymore In Callable Arrays
 ================================================

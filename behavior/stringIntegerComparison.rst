@@ -1,4 +1,4 @@
-.. _`string-to-integer-comparison`:
+.. _string-to-integer-comparison:
 
 String To Integer Comparison
 ============================

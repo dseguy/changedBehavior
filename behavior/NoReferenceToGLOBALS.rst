@@ -1,4 +1,4 @@
-.. _`no-reference-to-$globals-variable`:
+.. _no-reference-to-$globals-variable:
 
 No Reference To $GLOBALS Variable
 =================================

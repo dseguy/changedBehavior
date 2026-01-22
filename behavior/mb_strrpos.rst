@@ -1,4 +1,4 @@
-.. _`mb_strrpos()-third-argument-is-not-encoding`:
+.. _mb_strrpos()-third-argument-is-not-encoding:
 
 mb_strrpos() Third Argument Is Not Encoding
 ===========================================

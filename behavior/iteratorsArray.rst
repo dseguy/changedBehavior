@@ -1,4 +1,4 @@
-.. _`iterator_count()-also-count-arrays`:
+.. _iterator_count()-also-count-arrays:
 
 iterator_count() Also Count Arrays
 ==================================

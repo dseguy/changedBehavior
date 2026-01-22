@@ -1,4 +1,4 @@
-.. _`filessytemiterator-skips-dot-files`:
+.. _filessytemiterator-skips-dot-files:
 
 FilessytemIterator Skips Dot Files
 ==================================

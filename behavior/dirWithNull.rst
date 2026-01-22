@@ -1,4 +1,4 @@
-.. _`no-more-dir()-with-null`:
+.. _no-more-dir()-with-null:
 
 No More dir() With Null
 =======================

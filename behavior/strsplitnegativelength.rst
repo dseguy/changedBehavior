@@ -1,4 +1,4 @@
-.. _`str_split()-throws-valueerror-with-negative-lengths`:
+.. _str_split()-throws-valueerror-with-negative-lengths:
 
 str_split() Throws ValueError With Negative Lengths
 ===================================================

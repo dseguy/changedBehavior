@@ -1,4 +1,4 @@
-.. _`integer-regex-with-mb_ereg_replace()`:
+.. _integer-regex-with-mb_ereg_replace():
 
 Integer Regex With mb_ereg_replace()
 ====================================

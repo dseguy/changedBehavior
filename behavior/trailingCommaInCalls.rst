@@ -1,4 +1,4 @@
-.. _`trailing-comma-in-calls`:
+.. _trailing-comma-in-calls:
 
 Trailing Comma In Calls
 =======================

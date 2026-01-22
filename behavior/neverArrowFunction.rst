@@ -1,4 +1,4 @@
-.. _`never-arrow-function`:
+.. _never-arrow-function:
 
 Never Arrow Function
 ====================

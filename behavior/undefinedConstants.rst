@@ -1,4 +1,4 @@
-.. _`undefined-constants`:
+.. _undefined-constants:
 
 Undefined Constants
 ===================

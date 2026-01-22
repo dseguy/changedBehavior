@@ -1,4 +1,4 @@
-.. _`plus-and-concat-precedence`:
+.. _plus-and-concat-precedence:
 
 Plus And Concat Precedence
 ==========================

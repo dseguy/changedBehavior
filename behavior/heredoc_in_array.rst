@@ -1,4 +1,4 @@
-.. _`heredoc-syntax-in-an-array`:
+.. _heredoc-syntax-in-an-array:
 
 Heredoc Syntax In An Array
 ==========================

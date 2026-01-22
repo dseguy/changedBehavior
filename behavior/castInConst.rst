@@ -1,4 +1,4 @@
-.. _`cast-in-const`:
+.. _cast-in-const:
 
 Cast In Const
 =============

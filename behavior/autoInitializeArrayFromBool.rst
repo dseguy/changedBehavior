@@ -1,4 +1,4 @@
-.. _`auto-initialization-from-boolean`:
+.. _auto-initialization-from-boolean:
 
 Auto-initialization From Boolean
 ================================

@@ -1,4 +1,4 @@
-.. _`var_export()-with-stdclass`:
+.. _var_export()-with-stdclass:
 
 var_export() With Stdclass
 ==========================

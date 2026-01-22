@@ -1,4 +1,4 @@
-.. _`underscore-named-class`:
+.. _underscore-named-class:
 
 Underscore Named Class
 ======================

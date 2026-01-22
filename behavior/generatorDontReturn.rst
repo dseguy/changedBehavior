@@ -1,4 +1,4 @@
-.. _`generators-don't-return`:
+.. _generators-don't-return:
 
 Generators Don't Return
 =======================

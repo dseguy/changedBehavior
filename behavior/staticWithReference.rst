@@ -1,4 +1,4 @@
-.. _`static-properties-with-references`:
+.. _static-properties-with-references:
 
 Static Properties With References
 =================================

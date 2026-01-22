@@ -1,4 +1,4 @@
-.. _`negative-index-on-strings`:
+.. _negative-index-on-strings:
 
 Negative Index On Strings
 =========================

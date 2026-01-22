@@ -1,4 +1,4 @@
-.. _`storage-of-static-properties-trait`:
+.. _storage-of-static-properties-trait:
 
 Storage Of Static Properties Trait
 ==================================

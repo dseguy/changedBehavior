@@ -1,4 +1,4 @@
-.. _`relaxed-naming-with-class-constant`:
+.. _relaxed-naming-with-class-constant:
 
 Relaxed Naming With Class Constant
 ==================================

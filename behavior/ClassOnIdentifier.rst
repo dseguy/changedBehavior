@@ -1,4 +1,4 @@
-.. _`::class-on-object`:
+.. _::class-on-object:
 
 ::class On Object
 =================

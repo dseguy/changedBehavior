@@ -1,4 +1,4 @@
-.. _`instanceof-expect-objects`:
+.. _instanceof-expect-objects:
 
 instanceof Expect Objects
 =========================

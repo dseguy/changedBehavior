@@ -1,4 +1,4 @@
-.. _`float-used-as-array`:
+.. _float-used-as-array:
 
 Float Used As Array
 ===================

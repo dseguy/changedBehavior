@@ -1,4 +1,4 @@
-.. _`back-tick-operator-is-deprecated`:
+.. _back-tick-operator-is-deprecated:
 
 Back-tick Operator Is Deprecated
 ================================
@@ -63,7 +63,7 @@ ________
 Error Messages
 ______________
 
-  + `The backtick (`) operator is deprecated, use shell_exec() instead <https://php-errors.readthedocs.io/en/latest/messages/the-backtick-%28%60%29-operator-is-deprecated%2C-use-shell_exec%28%29-instead.html>`_
+  + `The backtick (\`) operator is deprecated, use shell_exec() instead <https://php-errors.readthedocs.io/en/latest/messages/the-backtick-%28%60%29-operator-is-deprecated%2C-use-shell_exec%28%29-instead.html>`_
 
 
 Analyzer

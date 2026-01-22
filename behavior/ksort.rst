@@ -1,4 +1,4 @@
-.. _`ksort()-now-places-integers-before-strings`:
+.. _ksort()-now-places-integers-before-strings:
 
 ksort() Now Places Integers Before Strings
 ==========================================

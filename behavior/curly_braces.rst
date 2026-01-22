@@ -1,4 +1,4 @@
-.. _`array-syntax-with-curly-braces-are-no-more`:
+.. _array-syntax-with-curly-braces-are-no-more:
 
 Array Syntax With Curly Braces Are No More
 ==========================================

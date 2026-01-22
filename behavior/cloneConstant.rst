@@ -1,4 +1,4 @@
-.. _`clone-a-constant`:
+.. _clone-a-constant:
 
 Clone A Constant
 ================

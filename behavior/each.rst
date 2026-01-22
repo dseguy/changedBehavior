@@ -1,4 +1,4 @@
-.. _`each()-has-been-removed`:
+.. _each()-has-been-removed:
 
 each() Has Been Removed
 =======================

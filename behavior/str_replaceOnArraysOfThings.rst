@@ -1,4 +1,4 @@
-.. _`str_replace()-enforces-strings-in-array-argument`:
+.. _str_replace()-enforces-strings-in-array-argument:
 
 str_replace() Enforces Strings In Array Argument
 ================================================

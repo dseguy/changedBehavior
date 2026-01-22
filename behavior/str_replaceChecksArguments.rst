@@ -1,4 +1,4 @@
-.. _`str_replace()-checks-for-arguments`:
+.. _str_replace()-checks-for-arguments:
 
 str_replace() Checks For Arguments
 ==================================

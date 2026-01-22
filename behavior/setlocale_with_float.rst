@@ -1,4 +1,4 @@
-.. _`setlocale()-does-not-affect-echo-anymore`:
+.. _setlocale()-does-not-affect-echo-anymore:
 
 setlocale() Does Not Affect Echo Anymore
 ========================================

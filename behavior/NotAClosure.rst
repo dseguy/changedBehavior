@@ -1,4 +1,4 @@
-.. _`not-in-a-closure`:
+.. _not-in-a-closure:
 
 Not In A Closure
 ================

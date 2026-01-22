@@ -1,4 +1,4 @@
-.. _`unpack-arrays-in-arrays`:
+.. _unpack-arrays-in-arrays:
 
 Unpack Arrays In Arrays
 =======================

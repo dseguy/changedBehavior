@@ -1,4 +1,4 @@
-.. _`constants-with-objects`:
+.. _constants-with-objects:
 
 Constants With Objects
 ======================

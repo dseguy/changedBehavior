@@ -1,4 +1,4 @@
-.. _`dot-and-bitshift-priority`:
+.. _dot-and-bitshift-priority:
 
 Dot And Bitshift Priority
 =========================

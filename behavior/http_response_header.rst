@@ -1,4 +1,4 @@
-.. _`$http_response_header-is-deprecated`:
+.. _$http_response_header-is-deprecated:
 
 $http_response_header Is Deprecated
 ===================================

@@ -1,4 +1,4 @@
-.. _`switch()-changed-comparison-style`:
+.. _switch()-changed-comparison-style:
 
 switch() Changed Comparison Style
 =================================

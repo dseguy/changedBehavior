@@ -1,4 +1,4 @@
-.. _`strpos()-emits-typeerror`:
+.. _strpos()-emits-typeerror:
 
 strpos() Emits TypeError
 ========================

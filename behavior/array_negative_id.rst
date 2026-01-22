@@ -1,4 +1,4 @@
-.. _`negative-automatic-index-from-empty-array`:
+.. _negative-automatic-index-from-empty-array:
 
 Negative Automatic Index From Empty Array
 =========================================

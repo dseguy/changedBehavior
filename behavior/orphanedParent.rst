@@ -1,4 +1,4 @@
-.. _`orphaned-parent`:
+.. _orphaned-parent:
 
 Orphaned Parent
 ===============

@@ -1,4 +1,4 @@
-.. _`cannot-raise-zero-to-negative-powers`:
+.. _cannot-raise-zero-to-negative-powers:
 
 Cannot Raise Zero To Negative Powers
 ====================================

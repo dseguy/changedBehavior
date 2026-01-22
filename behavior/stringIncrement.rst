@@ -1,4 +1,4 @@
-.. _`string-increments`:
+.. _string-increments:
 
 String Increments
 =================

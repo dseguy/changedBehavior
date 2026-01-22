@@ -1,4 +1,4 @@
-.. _`get_class()-needs-an-argument`:
+.. _get_class()-needs-an-argument:
 
 get_class() Needs An Argument
 =============================

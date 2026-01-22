@@ -1,4 +1,4 @@
-.. _`non-canonical-cast`:
+.. _non-canonical-cast:
 
 Non-canonical Cast
 ==================

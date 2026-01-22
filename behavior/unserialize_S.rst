@@ -1,4 +1,4 @@
-.. _`unserialize-with-the-upper-case-s-is-deprecated`:
+.. _unserialize-with-the-upper-case-s-is-deprecated:
 
 Unserialize with the upper case S is deprecated
 ===============================================

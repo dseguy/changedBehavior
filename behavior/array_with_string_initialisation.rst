@@ -1,4 +1,4 @@
-.. _`array-usage-with-string-initialisation`:
+.. _array-usage-with-string-initialisation:
 
 Array Usage With String Initialisation
 ======================================

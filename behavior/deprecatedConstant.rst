@@ -1,4 +1,4 @@
-.. _`constant-%s-is-deprecated`:
+.. _constant-%s-is-deprecated:
 
 Constant %s is deprecated
 =========================

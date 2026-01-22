@@ -1,4 +1,4 @@
-.. _`no-abstract-private-method-in-traits`:
+.. _no-abstract-private-method-in-traits:
 
 No Abstract Private Method In Traits
 ====================================

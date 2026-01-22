@@ -1,4 +1,4 @@
-.. _`vsprint()-requires-an-array`:
+.. _vsprint()-requires-an-array:
 
 vsprint() Requires An Array
 ===========================

@@ -1,4 +1,4 @@
-.. _`match-is-now-a-keyword`:
+.. _match-is-now-a-keyword:
 
 match Is Now A Keyword
 ======================

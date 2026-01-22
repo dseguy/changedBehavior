@@ -1,4 +1,4 @@
-.. _`catch-without-variable`:
+.. _catch-without-variable:
 
 Catch Without Variable
 ======================

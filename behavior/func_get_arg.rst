@@ -1,4 +1,4 @@
-.. _`func_get_arg()-changed-behavior`:
+.. _func_get_arg()-changed-behavior:
 
 func_get_arg() Changed Behavior
 ===============================

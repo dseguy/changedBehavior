@@ -1,4 +1,4 @@
-.. _`interpolated-string-dereferencing`:
+.. _interpolated-string-dereferencing:
 
 Interpolated String Dereferencing
 =================================

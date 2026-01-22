@@ -1,4 +1,4 @@
-.. _`removing-$this-from-a-closure-is-deprecated`:
+.. _removing-$this-from-a-closure-is-deprecated:
 
 Removing $this from a closure is deprecated
 ===========================================

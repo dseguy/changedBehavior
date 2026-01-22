@@ -1,4 +1,4 @@
-.. _`dynamic-class-constant`:
+.. _dynamic-class-constant:
 
 Dynamic Class Constant
 ======================

@@ -1,4 +1,4 @@
-.. _`increment-non-alphanumeric`:
+.. _increment-non-alphanumeric:
 
 Increment Non-alphanumeric
 ==========================

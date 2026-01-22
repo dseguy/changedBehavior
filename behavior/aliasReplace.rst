@@ -1,4 +1,4 @@
-.. _`alias-replace-class`:
+.. _alias-replace-class:
 
 Alias Replace Class
 ===================

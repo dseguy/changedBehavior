@@ -1,4 +1,4 @@
-.. _`datetime-with-multiple-signs`:
+.. _datetime-with-multiple-signs:
 
 datetime With Multiple Signs
 ============================

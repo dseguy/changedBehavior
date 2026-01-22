@@ -1,4 +1,4 @@
-.. _`dot-and-minus-changed-precedence`:
+.. _dot-and-minus-changed-precedence:
 
 Dot And Minus Changed Precedence
 ================================

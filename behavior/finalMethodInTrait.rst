@@ -1,4 +1,4 @@
-.. _`final-method-in-trait`:
+.. _final-method-in-trait:
 
 Final Method In Trait
 =====================

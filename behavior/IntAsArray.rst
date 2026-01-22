@@ -1,4 +1,4 @@
-.. _`integer-used-as-array`:
+.. _integer-used-as-array:
 
 Integer Used As Array
 =====================

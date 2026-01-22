@@ -1,4 +1,4 @@
-.. _`finfo-moved-away-from-resource`:
+.. _finfo-moved-away-from-resource:
 
 Finfo Moved Away From Resource
 ==============================

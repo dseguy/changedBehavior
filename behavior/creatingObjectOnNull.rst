@@ -1,4 +1,4 @@
-.. _`creating-object-on-null`:
+.. _creating-object-on-null:
 
 Creating Object On Null
 =======================

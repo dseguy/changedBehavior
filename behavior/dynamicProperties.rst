@@ -1,4 +1,4 @@
-.. _`no-dynamic-properties-by-default`:
+.. _no-dynamic-properties-by-default:
 
 No Dynamic Properties By Default
 ================================

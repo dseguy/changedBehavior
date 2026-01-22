@@ -1,4 +1,4 @@
-.. _`no-max()-on-empty-array`:
+.. _no-max()-on-empty-array:
 
 No Max() On Empty Array
 =======================

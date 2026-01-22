@@ -1,4 +1,4 @@
-.. _`array_key_exists()-doesn't-work-on-objects`:
+.. _array_key_exists()-doesn't-work-on-objects:
 
 array_key_exists() doesn't work on objects
 ==========================================

@@ -1,4 +1,4 @@
-.. _`min()-doesn't-accept-empty-arrays`:
+.. _min()-doesn't-accept-empty-arrays:
 
 min() Doesn't Accept Empty Arrays
 =================================

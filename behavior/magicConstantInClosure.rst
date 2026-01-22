@@ -1,4 +1,4 @@
-.. _`__function__-in-closure-changed`:
+.. _\__function__-in-closure-changed:
 
 __FUNCTION__ In Closure Changed
 ===============================

@@ -1,4 +1,4 @@
-.. _`printf()-warns-about-unknown-formats`:
+.. _printf()-warns-about-unknown-formats:
 
 printf() Warns About Unknown Formats
 ====================================

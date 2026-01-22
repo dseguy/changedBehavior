@@ -1,4 +1,4 @@
-.. _`(unset)-was-removed`:
+.. _(unset)-was-removed:
 
 (unset) Was Removed
 ===================

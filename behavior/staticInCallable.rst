@@ -1,4 +1,4 @@
-.. _`static-cannot-be-used-anymore-in-callable-arrays`:
+.. _static-cannot-be-used-anymore-in-callable-arrays:
 
 static Cannot Be Used Anymore In Callable Arrays
 ================================================

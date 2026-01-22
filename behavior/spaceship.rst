@@ -1,4 +1,4 @@
-.. _`spaceship-operator-results`:
+.. _spaceship-operator-results:
 
 spaceship Operator Results
 ==========================

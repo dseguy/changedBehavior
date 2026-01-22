@@ -1,4 +1,4 @@
-.. _`$this-must-be-the-local-object`:
+.. _$this-must-be-the-local-object:
 
 $this Must Be The Local Object
 ==============================

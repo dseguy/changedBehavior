@@ -1,4 +1,4 @@
-.. _`call-method-on-new`:
+.. _call-method-on-new:
 
 Call Method On New
 ==================

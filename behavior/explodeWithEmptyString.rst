@@ -1,4 +1,4 @@
-.. _`explode()-forbids-empty-strings`:
+.. _explode()-forbids-empty-strings:
 
 explode() Forbids Empty Strings
 ===============================

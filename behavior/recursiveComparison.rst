@@ -1,4 +1,4 @@
-.. _`recursive-comparison-of-arrays`:
+.. _recursive-comparison-of-arrays:
 
 Recursive Comparison Of Arrays
 ==============================

@@ -1,4 +1,4 @@
-.. _`direct-calls-on-new`:
+.. _direct-calls-on-new:
 
 Direct calls on new
 ===================

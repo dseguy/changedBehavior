@@ -1,4 +1,4 @@
-.. _`bitshift-and-concat-precedence`:
+.. _bitshift-and-concat-precedence:
 
 Bitshift And Concat Precedence
 ==============================

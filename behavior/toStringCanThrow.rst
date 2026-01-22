@@ -1,4 +1,4 @@
-.. _`__tostring-can-throw-exceptions`:
+.. _\__tostring-can-throw-exceptions:
 
 __toString Can Throw Exceptions
 ===============================

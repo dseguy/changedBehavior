@@ -1,4 +1,4 @@
-.. _`range()-uses-single-byte-strings`:
+.. _range()-uses-single-byte-strings:
 
 range() Uses Single Byte Strings
 ================================

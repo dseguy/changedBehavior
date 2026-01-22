@@ -1,4 +1,4 @@
-.. _`strftime()-and-gmstrftime()-are-deprecated`:
+.. _strftime()-and-gmstrftime()-are-deprecated:
 
 strftime() And gmstrftime() Are Deprecated
 ==========================================

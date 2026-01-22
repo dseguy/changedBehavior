@@ -1,4 +1,4 @@
-.. _`named-parameters-and-variadic`:
+.. _named-parameters-and-variadic:
 
 Named Parameters And Variadic
 =============================

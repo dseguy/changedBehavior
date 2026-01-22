@@ -1,4 +1,4 @@
-.. _`boolean-used-as-array`:
+.. _boolean-used-as-array:
 
 Boolean Used As Array
 =====================

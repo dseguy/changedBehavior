@@ -1,4 +1,4 @@
-.. _`krsort()-places-integers-before-strings-in-keys`:
+.. _krsort()-places-integers-before-strings-in-keys:
 
 krsort() Places Integers Before Strings In Keys
 ===============================================

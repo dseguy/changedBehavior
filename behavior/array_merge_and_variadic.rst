@@ -1,4 +1,4 @@
-.. _`array_merge()-and-variadic`:
+.. _array_merge()-and-variadic:
 
 array_merge() And Variadic
 ==========================

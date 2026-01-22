@@ -1,4 +1,4 @@
-.. _`ksort()-now-uses-regular-comparison`:
+.. _ksort()-now-uses-regular-comparison:
 
 ksort() now uses regular comparison
 ===================================

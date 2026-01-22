@@ -1,4 +1,4 @@
-.. _`strings-are-bigger-than-integers`:
+.. _strings-are-bigger-than-integers:
 
 Strings Are Bigger Than Integers
 ================================

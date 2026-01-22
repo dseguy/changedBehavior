@@ -1,4 +1,4 @@
-.. _`no-dynamic-global-variables`:
+.. _no-dynamic-global-variables:
 
 No Dynamic Global Variables
 ===========================
@@ -22,7 +22,7 @@ In PHP 5.6, dynamic global variables were possible. This means that a variable, 
 
 
 
-These notations are now dropped, except for with the ```` operator.
+These notations are now dropped, except for with the ``$\{   \}`` operator.
 
 PHP code
 ________

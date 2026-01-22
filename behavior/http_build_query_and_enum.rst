@@ -1,4 +1,4 @@
-.. _`http_build_query()-supports-enumerations`:
+.. _http_build_query()-supports-enumerations:
 
 http_build_query() supports enumerations
 ========================================

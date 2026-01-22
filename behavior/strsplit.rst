@@ -1,4 +1,4 @@
-.. _`strsplit()-with-empty-string`:
+.. _strsplit()-with-empty-string:
 
 strsplit() With Empty String
 ============================

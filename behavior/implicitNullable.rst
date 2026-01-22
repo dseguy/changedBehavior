@@ -1,4 +1,4 @@
-.. _`implicit-nullable`:
+.. _implicit-nullable:
 
 Implicit Nullable
 =================

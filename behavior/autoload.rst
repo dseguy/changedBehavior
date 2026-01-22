@@ -1,4 +1,4 @@
-.. _`using-__autoload()-is-deprecated`:
+.. _using-__autoload()-is-deprecated:
 
 Using __autoload() is deprecated
 ================================

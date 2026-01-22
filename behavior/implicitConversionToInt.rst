@@ -1,4 +1,4 @@
-.. _`implicit-array-key-conversion`:
+.. _implicit-array-key-conversion:
 
 Implicit Array Key Conversion
 =============================

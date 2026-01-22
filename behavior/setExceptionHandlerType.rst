@@ -1,4 +1,4 @@
-.. _`set_exception_handler()-must-update-its-type-to-throwable`:
+.. _set_exception_handler()-must-update-its-type-to-throwable:
 
 set_exception_handler() Must Update Its Type To Throwable
 =========================================================

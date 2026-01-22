@@ -1,4 +1,4 @@
-.. _`spaces-in-namespaces`:
+.. _spaces-in-namespaces:
 
 Spaces In Namespaces
 ====================

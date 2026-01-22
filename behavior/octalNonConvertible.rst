@@ -1,4 +1,4 @@
-.. _`php-warns-when-finding-unconvertible-characters`:
+.. _php-warns-when-finding-unconvertible-characters:
 
 PHP Warns When Finding Unconvertible Characters
 ===============================================

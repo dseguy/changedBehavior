@@ -1,4 +1,4 @@
-.. _`unpack-array-with-string-keys`:
+.. _unpack-array-with-string-keys:
 
 Unpack Array With String Keys
 =============================

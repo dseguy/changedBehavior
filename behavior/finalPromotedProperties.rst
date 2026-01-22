@@ -1,4 +1,4 @@
-.. _`final-promoted-properties`:
+.. _final-promoted-properties:
 
 Final Promoted Properties
 =========================

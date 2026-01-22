@@ -1,4 +1,4 @@
-.. _`in_array()-doesn't-confuse-0-and-empty-string`:
+.. _in_array()-doesn't-confuse-0-and-empty-string:
 
 in_array() Doesn't Confuse 0 And Empty String
 =============================================

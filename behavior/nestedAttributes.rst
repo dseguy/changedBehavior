@@ -1,4 +1,4 @@
-.. _`nested-attributes`:
+.. _nested-attributes:
 
 Nested Attributes
 =================

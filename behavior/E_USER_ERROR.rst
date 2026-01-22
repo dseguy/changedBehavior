@@ -1,4 +1,4 @@
-.. _`e_user_error-is-deprecated`:
+.. _e_user_error-is-deprecated:
 
 E_USER_ERROR Is Deprecated
 ==========================

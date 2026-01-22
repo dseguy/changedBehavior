@@ -1,4 +1,4 @@
-.. _`interface-constant-visibility-checks`:
+.. _interface-constant-visibility-checks:
 
 Interface Constant Visibility Checks
 ====================================

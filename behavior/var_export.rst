@@ -1,4 +1,4 @@
-.. _`var_export()-format`:
+.. _var_export()-format:
 
 var_export() Format
 ===================

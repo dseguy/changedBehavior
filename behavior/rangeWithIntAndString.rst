@@ -1,4 +1,4 @@
-.. _`range()-with-int-and-string`:
+.. _range()-with-int-and-string:
 
 range() With Int And String
 ===========================

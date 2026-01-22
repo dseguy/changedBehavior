@@ -1,4 +1,4 @@
-.. _`return-reference-on-void`:
+.. _return-reference-on-void:
 
 Return Reference On Void
 ========================

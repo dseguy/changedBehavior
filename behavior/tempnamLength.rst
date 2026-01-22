@@ -1,4 +1,4 @@
-.. _`length-of-tempnam()-has-been-raised`:
+.. _length-of-tempnam()-has-been-raised:
 
 Length Of tempnam() Has Been Raised
 ===================================

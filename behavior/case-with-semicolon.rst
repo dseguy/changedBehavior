@@ -1,4 +1,4 @@
-.. _`no-case-with-a-semi-colon`:
+.. _no-case-with-a-semi-colon:
 
 No Case With A Semi-colon
 =========================

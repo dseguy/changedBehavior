@@ -1,4 +1,4 @@
-.. _`new-cases-in-switch`:
+.. _new-cases-in-switch:
 
 New Cases In Switch
 ===================

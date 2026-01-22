@@ -1,4 +1,4 @@
-.. _`destructuring-non-arrays`:
+.. _destructuring-non-arrays:
 
 Destructuring Non Arrays
 ========================

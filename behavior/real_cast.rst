@@ -1,4 +1,4 @@
-.. _`(real)-is-replaced-by-(float)`:
+.. _(real)-is-replaced-by-(float):
 
 (real) Is Replaced By (float)
 =============================

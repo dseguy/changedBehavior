@@ -1,4 +1,4 @@
-.. _`${expression}-is-deprecated`:
+.. _${expression}-is-deprecated:
 
 ${expression} is deprecated
 ===========================

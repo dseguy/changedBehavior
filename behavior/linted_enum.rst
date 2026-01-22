@@ -1,4 +1,4 @@
-.. _`duplicate-enum-cases-are-not-linted-anymore`:
+.. _duplicate-enum-cases-are-not-linted-anymore:
 
 Duplicate Enum Cases Are Not Linted Anymore
 ===========================================

@@ -1,4 +1,4 @@
-.. _`null-used-as-array`:
+.. _null-used-as-array:
 
 Null Used As Array
 ==================

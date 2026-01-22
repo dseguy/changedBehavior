@@ -1,4 +1,4 @@
-.. _`null-as-array-offset`:
+.. _null-as-array-offset:
 
 Null As Array Offset
 ====================

@@ -1,4 +1,4 @@
-.. _`php-constants-are-not-case-insensitive`:
+.. _php-constants-are-not-case-insensitive:
 
 PHP Constants Are Not Case Insensitive
 ======================================

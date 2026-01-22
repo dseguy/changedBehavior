@@ -1,4 +1,4 @@
-.. _`get_called_class()-cannot-be-called-outside-a-class`:
+.. _get_called_class()-cannot-be-called-outside-a-class:
 
 get_called_class() Cannot Be Called Outside A Class
 ===================================================

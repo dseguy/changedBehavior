@@ -1,4 +1,4 @@
-.. _`keywords-in-namespace`:
+.. _keywords-in-namespace:
 
 Keywords In Namespace
 =====================

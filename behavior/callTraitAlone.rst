@@ -1,4 +1,4 @@
-.. _`cannot-call-traits-methods-directly`:
+.. _cannot-call-traits-methods-directly:
 
 Cannot Call Traits Methods Directly
 ===================================

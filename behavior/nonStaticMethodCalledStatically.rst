@@ -1,4 +1,4 @@
-.. _`non-static-method-called-statically`:
+.. _non-static-method-called-statically:
 
 Non Static Method Called Statically
 ===================================

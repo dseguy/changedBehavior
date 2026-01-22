@@ -1,4 +1,4 @@
-.. _`increment-on-boolean-is-deprecated`:
+.. _increment-on-boolean-is-deprecated:
 
 Increment On Boolean Is Deprecated
 ==================================

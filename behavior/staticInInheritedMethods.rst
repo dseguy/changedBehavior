@@ -1,4 +1,4 @@
-.. _`static-variables-are-linked-to-their-method`:
+.. _static-variables-are-linked-to-their-method:
 
 Static Variables Are Linked To Their Method
 ===========================================

@@ -1,4 +1,4 @@
-.. _`file_get_contents()-needs-a-real-path`:
+.. _file_get_contents()-needs-a-real-path:
 
 file_get_contents() Needs A Real Path
 =====================================

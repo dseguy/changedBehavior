@@ -1,4 +1,4 @@
-.. _`max()-on-string-and-integer`:
+.. _max()-on-string-and-integer:
 
 max() On String And Integer
 ===========================

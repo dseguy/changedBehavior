@@ -1,4 +1,4 @@
-.. _`old-constructors`:
+.. _old-constructors:
 
 Old Constructors
 ================

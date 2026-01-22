@@ -1,4 +1,4 @@
-.. _`class_alias()-works-on-internal-classes`:
+.. _class_alias()-works-on-internal-classes:
 
 class_alias() Works On Internal Classes
 =======================================

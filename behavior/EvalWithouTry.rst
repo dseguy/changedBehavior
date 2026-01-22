@@ -1,4 +1,4 @@
-.. _`eval()-without-try`:
+.. _eval()-without-try:
 
 eval() Without Try
 ==================

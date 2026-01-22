@@ -1,4 +1,4 @@
-.. _`comment-inside-yield-from`:
+.. _comment-inside-yield-from:
 
 Comment Inside yield from
 =========================

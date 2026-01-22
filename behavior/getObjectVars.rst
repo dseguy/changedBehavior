@@ -1,4 +1,4 @@
-.. _`get_object_vars()-does-not-work-on-arrayobject`:
+.. _get_object_vars()-does-not-work-on-arrayobject:
 
 get_object_vars() Does Not Work On ArrayObject
 ==============================================

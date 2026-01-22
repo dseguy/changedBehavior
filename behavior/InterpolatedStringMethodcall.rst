@@ -1,4 +1,4 @@
-.. _`calling-static-methods-on-strings`:
+.. _calling-static-methods-on-strings:
 
 Calling Static Methods On Strings
 =================================

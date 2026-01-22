@@ -1,4 +1,4 @@
-.. _`mixed-is-now-a-keyword`:
+.. _mixed-is-now-a-keyword:
 
 mixed Is Now A Keyword
 ======================

@@ -1,4 +1,4 @@
-.. _`can-clone-readonly-properties`:
+.. _can-clone-readonly-properties:
 
 Can Clone Readonly Properties
 =============================

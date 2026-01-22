@@ -1,4 +1,4 @@
-.. _`null-with-array_key_exists()`:
+.. _null-with-array_key_exists():
 
 Null With array_key_exists()
 ============================

@@ -1,4 +1,4 @@
-.. _`base-conversion-reports-invalid-characters`:
+.. _base-conversion-reports-invalid-characters:
 
 Base Conversion Reports Invalid Characters
 ==========================================

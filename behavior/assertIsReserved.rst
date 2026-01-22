@@ -1,4 +1,4 @@
-.. _`assert-is-reserved-function`:
+.. _assert-is-reserved-function:
 
 assert Is Reserved Function
 ===========================

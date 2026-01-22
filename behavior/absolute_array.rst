@@ -1,4 +1,4 @@
-.. _`array-and-callable-cannot-be-absolute`:
+.. _array-and-callable-cannot-be-absolute:
 
 array And callable Cannot Be Absolute
 =====================================

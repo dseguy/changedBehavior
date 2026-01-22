@@ -1,4 +1,4 @@
-.. _`round()-mode-validation`:
+.. _round()-mode-validation:
 
 round() Mode Validation
 =======================

@@ -1,4 +1,4 @@
-.. _`version_compare()-stricter-operators`:
+.. _version_compare()-stricter-operators:
 
 version_compare() Stricter Operators
 ====================================

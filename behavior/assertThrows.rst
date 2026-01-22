@@ -1,4 +1,4 @@
-.. _`assert()-throws-exception`:
+.. _assert()-throws-exception:
 
 assert() Throws Exception
 =========================

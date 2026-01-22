@@ -1,4 +1,4 @@
-.. _`unserialize()-``max_depth``-option`:
+.. _unserialize()-max_depth-option:
 
 unserialize() ``max_depth`` Option
 ==================================

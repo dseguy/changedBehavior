@@ -14,7 +14,7 @@ PHP Error Messages
     * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
     * :ref:` __autoload() is no longer supported, use spl_autoload_register() instead <using-__autoload()-is-deprecated>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
-    * :ref:`The backtick (`) operator is deprecated, use shell_exec() instead <back-tick-operator-is-deprecated>`
+    * :ref:`The backtick (\`) operator is deprecated, use shell_exec() instead <back-tick-operator-is-deprecated>`
     * :ref:`Trying to access array offset on %s <null-used-as-array>`
     * :ref:`Non-static method %s::%s() should not be called statically <calling-non-static-method-statically>`
     * :ref:`Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait <accessing-directly-properties-in-trait>`
@@ -48,7 +48,7 @@ PHP Error Messages
     * :ref:`Constant %s is deprecated <e_strict-is-deprecated>`
     * :ref:`Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead <e_user_error-is-deprecated>`
     * :ref:`The each() function is deprecated. This message will be suppressed on further calls <each()-has-been-removed>`
-    * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize``-must-have-return-type>`
+    * :ref:`Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <jsonserialize-must-have-return-type>`
     * :ref:`Return type of %s::%s() should either be compatible with %s::%s(): mixed <enforcing-return-type-with-spl-classes>`
     * :ref:`Empty delimiter <explode()-forbids-empty-strings>`
     * :ref:`%s(): Passing null to parameter #% <cannot-explode()-null>`
@@ -121,7 +121,7 @@ PHP Error Messages
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
-    * :ref:`Use of "self" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
+    * :ref:`Use of "self" in callables is deprecated <self-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given <set_exception_handler()-must-update-its-type-to-throwable>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
@@ -142,7 +142,7 @@ PHP Error Messages
     * :ref:`Passing null to parameter #2 ($needle) of type string is deprecated <strpos()-does-not-accept-null-as-second-parameter>`
     * :ref:`Passing null to parameter #1 ($haystack) of type string is deprecated <strpos()-with-null-haystack>`
     * :ref:`Argument #2 ($length) must be greater than 0 <str_split()-throws-valueerror-with-negative-lengths>`
-    * :ref:`Unparenthesized `a ? b : c ? d : e` is not supported. <ternary-associativity>`
+    * :ref:`Unparenthesized \`a ? b : c ? d : e\` is not supported. <ternary-associativity>`
     * :ref:`Using $this when not in object context <$this-must-be-the-local-object>`
     * :ref:`syntax error, unexepected 'throw' (T_THROW) <throw-is-an-expression>`
     * :ref:`Method %s::%s() must not throw an exception, caught %s <__tostring-can-throw-exceptions>`
@@ -152,7 +152,7 @@ PHP Error Messages
     * :ref:`Uncaught Error: Undefined constant "%s" <undefined-constants>`
     * :ref:`Cannot unpack array with string keys <unpack-array-with-string-keys>`
     * :ref:`unserialize(): Extra data starting at offset 37 of 39 bytes <unserialize()-checks-the-end-of-the-string>`
-    * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-``max_depth``-option>`
+    * :ref:`Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option <unserialize()-max_depth-option>`
     * :ref:`Error at offset 0 of 17 bytes <unserialize()-error-report>`
     * :ref:`Unserializing the 'S' format is deprecated <unserialize-with-the-upper-case-s-is-deprecated>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`

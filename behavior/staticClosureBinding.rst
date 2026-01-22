@@ -1,4 +1,4 @@
-.. _`cannot-bind-$this-to-static-closure`:
+.. _cannot-bind-$this-to-static-closure:
 
 Cannot Bind $this To Static Closure
 ===================================

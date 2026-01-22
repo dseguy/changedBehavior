@@ -1,4 +1,4 @@
-.. _`libxml_disable_entity_loader()-is-deprecated`:
+.. _libxml_disable_entity_loader()-is-deprecated:
 
 libxml_disable_entity_loader() Is Deprecated
 ============================================

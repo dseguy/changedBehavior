@@ -1,4 +1,4 @@
-.. _`covariance-and-contravariance-are-fatal`:
+.. _covariance-and-contravariance-are-fatal:
 
 Covariance And Contravariance Are Fatal
 =======================================

@@ -1,18 +1,18 @@
-.. _```jsonserialize``-must-have-return-type`:
+.. _jsonserialize-must-have-return-type:
 
-``jsonSerialize`` Must Have Return Type
-=======================================
+jsonSerialize Must Have Return Type
+===================================
 .. meta::
 	:description:
-		``jsonSerialize`` Must Have Return Type: Until PHP 8.
+		jsonSerialize Must Have Return Type: Until PHP 8.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: ``jsonSerialize`` Must Have Return Type
-	:twitter:description: ``jsonSerialize`` Must Have Return Type: Until PHP 8
+	:twitter:title: jsonSerialize Must Have Return Type
+	:twitter:description: jsonSerialize Must Have Return Type: Until PHP 8
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-	:og:title: ``jsonSerialize`` Must Have Return Type
+	:og:title: jsonSerialize Must Have Return Type
 	:og:type: article
 	:og:description: Until PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/jsonSerialize.html

@@ -1,4 +1,4 @@
-.. _`sort()-places-integers-before-strings`:
+.. _sort()-places-integers-before-strings:
 
 sort() Places Integers Before Strings
 =====================================

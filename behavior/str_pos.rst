@@ -1,4 +1,4 @@
-.. _`str_pos()-requires-only-strings`:
+.. _str_pos()-requires-only-strings:
 
 str_pos() Requires Only Strings
 ===============================

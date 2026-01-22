@@ -1,4 +1,4 @@
-.. _`typed-class-constant`:
+.. _typed-class-constant:
 
 Typed Class Constant
 ====================

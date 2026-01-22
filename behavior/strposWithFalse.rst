@@ -1,4 +1,4 @@
-.. _`strpos()-does-not-accept-false`:
+.. _strpos()-does-not-accept-false:
 
 strpos() Does Not Accept False
 ==============================

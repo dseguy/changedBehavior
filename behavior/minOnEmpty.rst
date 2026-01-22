@@ -1,4 +1,4 @@
-.. _`no-min()-on-empty-array`:
+.. _no-min()-on-empty-array:
 
 No min() On Empty Array
 =======================

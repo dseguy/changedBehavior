@@ -1,4 +1,4 @@
-.. _`automatic-index-in-non-empty-array`:
+.. _automatic-index-in-non-empty-array:
 
 Automatic Index In Non Empty Array
 ==================================

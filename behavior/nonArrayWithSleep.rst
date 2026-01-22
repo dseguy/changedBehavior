@@ -1,4 +1,4 @@
-.. _`__sleep()-method-enforces-return-type`:
+.. _\__sleep()-method-enforces-return-type:
 
 __sleep() Method Enforces Return Type
 =====================================

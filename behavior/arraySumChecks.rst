@@ -1,4 +1,4 @@
-.. _`array_sum()-checks-operands-thoroughly`:
+.. _array_sum()-checks-operands-thoroughly:
 
 array_sum() Checks Operands Thoroughly
 ======================================

@@ -1,4 +1,4 @@
-.. _`vsprintf()-returns-empty-string-on-error`:
+.. _vsprintf()-returns-empty-string-on-error:
 
 vsprintf() Returns Empty String On Error
 ========================================

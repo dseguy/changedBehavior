@@ -1,4 +1,4 @@
-.. _`isset()-on-constants`:
+.. _isset()-on-constants:
 
 isset() On Constants
 ====================

@@ -1,4 +1,4 @@
-.. _`parameter-contravariance`:
+.. _parameter-contravariance:
 
 Parameter Contravariance
 ========================

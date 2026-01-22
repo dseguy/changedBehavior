@@ -1,4 +1,4 @@
-.. _`only-first-byte`:
+.. _only-first-byte:
 
 Only First Byte
 ===============

@@ -1,4 +1,4 @@
-.. _`accessing-directly-properties-in-trait`:
+.. _accessing-directly-properties-in-trait:
 
 Accessing Directly Properties In Trait
 ======================================

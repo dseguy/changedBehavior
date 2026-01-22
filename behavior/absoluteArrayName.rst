@@ -1,4 +1,4 @@
-.. _`array-has-no-absolute-name`:
+.. _array-has-no-absolute-name:
 
 Array Has No Absolute Name
 ==========================

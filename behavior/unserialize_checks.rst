@@ -1,4 +1,4 @@
-.. _`unserialize()-checks-the-end-of-the-string`:
+.. _unserialize()-checks-the-end-of-the-string:
 
 unserialize() Checks The End Of The String
 ==========================================

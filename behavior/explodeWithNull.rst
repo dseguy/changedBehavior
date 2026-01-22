@@ -1,4 +1,4 @@
-.. _`cannot-explode()-null`:
+.. _cannot-explode()-null:
 
 Cannot Explode() Null
 =====================

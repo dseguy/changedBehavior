@@ -1,4 +1,4 @@
-.. _`throw-is-an-expression`:
+.. _throw-is-an-expression:
 
 throw Is An Expression
 ======================

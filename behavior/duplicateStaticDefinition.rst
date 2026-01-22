@@ -1,4 +1,4 @@
-.. _`duplicate-static-definition`:
+.. _duplicate-static-definition:
 
 Duplicate Static Definition
 ===========================

@@ -1,4 +1,4 @@
-.. _`count()-must-count-countable`:
+.. _count()-must-count-countable:
 
 count() Must Count Countable
 ============================

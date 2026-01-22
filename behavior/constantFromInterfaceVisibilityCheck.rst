@@ -1,4 +1,4 @@
-.. _`interface-imported-constant-visibility-is-checked`:
+.. _interface-imported-constant-visibility-is-checked:
 
 Interface Imported Constant Visibility Is Checked
 =================================================

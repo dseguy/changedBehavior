@@ -1,4 +1,4 @@
-.. _`returntype-covariance`:
+.. _returntype-covariance:
 
 Returntype Covariance
 =====================

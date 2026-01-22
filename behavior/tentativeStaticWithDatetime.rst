@@ -1,4 +1,4 @@
-.. _`tentative-static-returntype-with-datetime`:
+.. _tentative-static-returntype-with-datetime:
 
 Tentative Static Returntype With Datetime
 =========================================

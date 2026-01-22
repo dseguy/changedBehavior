@@ -1,4 +1,4 @@
-.. _`trailing-comma-in-arguments`:
+.. _trailing-comma-in-arguments:
 
 Trailing Comma In Arguments
 ===========================
