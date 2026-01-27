@@ -12,16 +12,22 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`datetime-with-multiple-signs`
     * :ref:`dot-and-bitshift-priority`
     * :ref:`filessytemiterator-skips-dot-files`
+    * :ref:`func_get_arg()-changed-behavior`
     * :ref:`get_object_vars()-does-not-work-on-arrayobject`
+    * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`in_array()-string-int-comparisons`
+    * :ref:`in_array()-doesn't-confuse-0-and-empty-string`
     * :ref:`increment-non-alphanumeric`
     * :ref:`increment-on-boolean-is-deprecated`
+    * :ref:`inegality-comparisons`
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`max()-on-string-and-integer`
+    * :ref:`negative-index-on-strings`
     * :ref:`new-cases-in-switch`
     * :ref:`plus-and-concat-precedence`
+    * :ref:`range()-lists-everything-between-strings`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`spaceship-operator-results`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`

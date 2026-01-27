@@ -4,21 +4,21 @@ Plus And Concat Precedence
 ==========================
 .. meta::
 	:description:
-		Plus And Concat Precedence: + (and -) and .
+		Plus And Concat Precedence: ``+`` (and ``-``) and ``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Plus And Concat Precedence
-	:twitter:description: Plus And Concat Precedence: + (and -) and 
+	:twitter:description: Plus And Concat Precedence: ``+`` (and ``-``) and ``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Plus And Concat Precedence
 	:og:type: article
-	:og:description: + (and -) and 
+	:og:description: ``+`` (and ``-``) and ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/plusConcatPrecedence.html
 	:og:locale: en
 
-+ (and -) and . (dot) operators used to have the same priority. Thus, they used to be processed one after the other, from left to right. 
+``+`` (and ``-``) and ``.`` (dot) operators used to have the same priority. Thus, they used to be processed one after the other, from left to right. 
 
 
 
@@ -52,6 +52,12 @@ __________________
 This behavior was deprecated in 7.4
 
 This behavior changed in 8.0
+
+
+Analyzer
+_________
+
+  + `Php/ConcatAndAddition <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html>`_
 
 
 

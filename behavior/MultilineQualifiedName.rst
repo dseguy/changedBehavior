@@ -68,6 +68,7 @@ Error Messages
 ______________
 
   + `syntax error, unexpected ';', expecting '{' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%7B%27.html>`_
+  + `syntax error, unexpected fully qualified name "\B"  <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22.html>`_
 
 
 

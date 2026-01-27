@@ -70,4 +70,10 @@ ______________
   + `Required parameter $%s follows optional parameter $%s <https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html>`_
 
 
+Analyzer
+_________
+
+  + `Functions/WrongOptionalParameter <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/WrongOptionalParameter.html>`_
+
+
 

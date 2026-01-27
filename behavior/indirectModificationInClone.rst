@@ -67,4 +67,11 @@ __________________
 This behavior changed in 8.1
 
 
+Error Messages
+______________
+
+  + `Cannot indirectly modify readonly property X::$p <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
+  + `Csyntax error, unexpected identifier "readonly", expecting "function" or "const" <https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html>`_
+
+
 

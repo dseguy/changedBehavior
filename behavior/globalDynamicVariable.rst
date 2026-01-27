@@ -51,15 +51,21 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token ->, expecting , or ;
+   PHP Parse error:  syntax error, unexpected token "->", expecting "," or ";" 
    
-   Parse error: syntax error, unexpected token ->, expecting , or ;
+   Parse error: syntax error, unexpected token "->", expecting "," or ";" 
    
 
 
 PHP version change
 __________________
 This behavior changed in 5.6
+
+
+Error Messages
+______________
+
+  + `syntax error, unexpected token "->", expecting "," or ";" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22-%3E%22%2C-expecting-%22%2C%22-or-%22%3B%22.html>`_
 
 
 

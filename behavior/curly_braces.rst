@@ -22,7 +22,7 @@ Until PHP 8.4, using the array syntax with curly braces yielded a Fatal error, a
 
 
 
-After that, it is downgraded to a syntax error. 
+After that, it is downgraded to a syntax error.
 
 PHP code
 ________
@@ -49,9 +49,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token {
+   PHP Parse error:  syntax error, unexpected token "\{" 
    
-   Parse error: syntax error, unexpected token {
+   Parse error: syntax error, unexpected token "\{" 
    
 
 
@@ -64,6 +64,7 @@ Error Messages
 ______________
 
   + `Array and string offset access syntax with curly braces is deprecated <https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html>`_
+  + `syntax error, unexpected token "{" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22.html>`_
 
 
 

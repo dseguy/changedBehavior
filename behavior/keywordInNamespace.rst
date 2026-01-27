@@ -47,4 +47,16 @@ __________________
 This behavior changed in 8.0
 
 
+Error Messages
+______________
+
+  + `syntax error, unexpected token "--", expecting "{" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22--%22%2C-expecting-%22%7B%22.html>`_
+
+
+Analyzer
+_________
+
+  + `Namespaces/NoKeywordInNamespace <https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces/NoKeywordInNamespace.html>`_
+
+
 

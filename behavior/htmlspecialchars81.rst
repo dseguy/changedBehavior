@@ -40,13 +40,13 @@ Before
 ______
 .. code-block:: output
 
-   
+   '
 
 After
 ______
 .. code-block:: output
 
-   
+   &#039;
 
 
 PHP version change

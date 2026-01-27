@@ -4,21 +4,21 @@ func_get_arg() Changed Behavior
 ===============================
 .. meta::
 	:description:
-		func_get_arg() Changed Behavior: func_get_arg() and func_get_args() used to report the calling value of the argument, until PHP 7.
+		func_get_arg() Changed Behavior: ``func_get_arg()`` and ``func_get_args()`` used to report the calling value of the argument, until PHP 7.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: func_get_arg() Changed Behavior
-	:twitter:description: func_get_arg() Changed Behavior: func_get_arg() and func_get_args() used to report the calling value of the argument, until PHP 7
+	:twitter:description: func_get_arg() Changed Behavior: ``func_get_arg()`` and ``func_get_args()`` used to report the calling value of the argument, until PHP 7
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: func_get_arg() Changed Behavior
 	:og:type: article
-	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument, until PHP 7
+	:og:description: ``func_get_arg()`` and ``func_get_args()`` used to report the calling value of the argument, until PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/func_get_arg.html
 	:og:locale: en
 
-func_get_arg() and func_get_args() used to report the calling value of the argument, until PHP 7. 
+``func_get_arg()`` and ``func_get_args()`` used to report the calling value of the argument, until PHP 7. 
 
 
 

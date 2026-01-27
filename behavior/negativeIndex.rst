@@ -61,4 +61,16 @@ __________________
 This behavior changed in 7.1
 
 
+Error Messages
+______________
+
+  + `Uninitialized string offset: -1 <https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html>`_
+
+
+Analyzer
+_________
+
+  + `Structures/NegativeOffsetOnString <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NegativeOffsetOnString.html>`_
+
+
 

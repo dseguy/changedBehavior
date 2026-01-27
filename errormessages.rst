@@ -36,6 +36,7 @@ PHP Error Messages
     * :ref:`count(): Argument #1 ($value) must be of type Countable|array, int given <count()-must-count-countable>`
     * :ref:`Creating default object from empty value <creating-object-on-null>`
     * :ref:`Array and string offset access syntax with curly braces is deprecated <array-syntax-with-curly-braces-are-no-more>`
+    * :ref:`syntax error, unexpected token "{" <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`Constant SUNFUNCS_RET_TIMESTAMP is deprecated  <constant-%s-is-deprecated>`
     * :ref:`Cannot use %s as array <destructuring-non-arrays>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
@@ -60,6 +61,7 @@ PHP Error Messages
     * :ref:`Generator return type must be a supertype of Generator <generators-don't-return>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Calling get_class() without arguments is deprecated <get_class()-needs-an-argument>`
+    * :ref:`syntax error, unexpected token "->", expecting "," or ";" <no-dynamic-global-variables>`
     * :ref:`Cannot acquire reference to $GLOBALS <no-reference-to-$globals-variable>`
     * :ref:`syntax error, unexpected end of file <heredoc-syntax-in-an-array>`
     * :ref:`The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead <$http_response_header-is-deprecated>`
@@ -68,6 +70,8 @@ PHP Error Messages
     * :ref:`implode(): Argument #2 ($array) must be of type ?array, string given <implode()-arguments-order>`
     * :ref:`Increment on non-numeric string is deprecated, use str_increment() instead <increment-non-alphanumeric>`
     * :ref:`Increment on type bool has no effect, this will change in the next major version of PHP <increment-on-boolean-is-deprecated>`
+    * :ref:`Cannot indirectly modify readonly property X::$p <indirect-modification-in-clone>`
+    * :ref:`Csyntax error, unexpected identifier "readonly", expecting "function" or "const" <indirect-modification-in-clone>`
     * :ref:`Cannot %s readonly property %s::$%s from %s%s <init-readonly-properties-in-child-class>`
     * :ref:`instanceof expects an object instance, constant given <instanceof-expect-objects>`
     * :ref:`Cannot access %s constant %s::%s <interface-constant-visibility-checks>`
@@ -79,6 +83,7 @@ PHP Error Messages
     * :ref:`Invalid characters passed for attempted conversion, these have been ignored <php-warns-when-finding-unconvertible-characters>`
     * :ref:`Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <isset()-on-constants>`
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
+    * :ref:`syntax error, unexpected token "--", expecting "{" <keywords-in-namespace>`
     * :ref:`Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default <libxml_disable_entity_loader()-is-deprecated>`
     * :ref:`Duplicate value in enum A for cases A and B <duplicate-enum-cases-are-not-linted-anymore>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
@@ -91,7 +96,9 @@ PHP Error Messages
     * :ref:`Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead <mb_convert_encoding()-has-deprecated-formats>`
     * :ref:`Cannot use 'mixed' as class name as it is reserved <mixed-is-now-a-keyword>`
     * :ref:`syntax error, unexpected ';', expecting '{' <no-new-line-in-namespaces>`
+    * :ref:`syntax error, unexpected fully qualified name "\B"  <no-new-line-in-namespaces>`
     * :ref:`Cannot combine named arguments and argument unpacking <named-parameters-and-variadic>`
+    * :ref:`Uninitialized string offset: -1 <negative-index-on-strings>`
     * :ref:`A never-returning function must not return <never-arrow-function>`
     * :ref:`syntax error, unexpected token "(" <direct-calls-on-new>`
     * :ref:`syntax error, unexpected token -> <call-method-on-new>`
@@ -117,11 +124,11 @@ PHP Error Messages
     * :ref:`range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0  <range()-with-int-and-string>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
     * :ref:`Nesting level too deep - recursive dependency?  <recursive-comparison-of-arrays>`
+    * :ref:`Use of "self" in callables is deprecated <self-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`syntax error, unexpected token "private", expecting "=" <relaxed-naming-with-class-constant>`
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
-    * :ref:`Use of "self" in callables is deprecated <self-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given <set_exception_handler()-must-update-its-type-to-throwable>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
