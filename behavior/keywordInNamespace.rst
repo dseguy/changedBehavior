@@ -33,7 +33,7 @@ Before
 ______
 .. code-block:: output
 
-   syntax error, unexpected token \, expecting {
+   syntax error, unexpected token "\", expecting "{"
 
 After
 ______

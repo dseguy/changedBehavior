@@ -4,31 +4,29 @@ SplFixedArray Is Now An IteratorAggregate
 =========================================
 .. meta::
 	:description:
-		SplFixedArray Is Now An IteratorAggregate: SplFixedArray used to be a Iterator, and is now a IteratorAggregate.
+		SplFixedArray Is Now An IteratorAggregate: SplFixedArray`` used to be an ``Iterator``, and is now an ``IteratorAggregate``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: SplFixedArray Is Now An IteratorAggregate
-	:twitter:description: SplFixedArray Is Now An IteratorAggregate: SplFixedArray used to be a Iterator, and is now a IteratorAggregate
+	:twitter:description: SplFixedArray Is Now An IteratorAggregate: SplFixedArray`` used to be an ``Iterator``, and is now an ``IteratorAggregate``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: SplFixedArray Is Now An IteratorAggregate
 	:og:type: article
-	:og:description: SplFixedArray used to be a Iterator, and is now a IteratorAggregate
+	:og:description: SplFixedArray`` used to be an ``Iterator``, and is now an ``IteratorAggregate``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/splfixedarray.html
 	:og:locale: en
 
-SplFixedArray used to be a Iterator, and is now a IteratorAggregate. 
+SplFixedArray`` used to be an ``Iterator``, and is now an ``IteratorAggregate``. 
 
 
 
-They don't have identical behaviors. They're both iterable but they go about it two completely different ways: Iterator means the object modifies itself during iteration, and IteratorAggregater means the object remains unchanged because it uses a proxy object to handle iteration.
+They don't have strictly identical behaviors. They're both iterable but they go about it two completely different ways: ``Iterator`` means the object modifies itself during iteration, and ``IteratorAggregater`` means the object remains unchanged because it uses a proxy object to handle iteration.
 
 
 
-Note that is it not possible to extends both at the same time: they are incompatible. 
-
-
+Note that is it not possible to extends both at the same time: they are incompatible.
 
 PHP code
 ________

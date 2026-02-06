@@ -27,7 +27,7 @@ ________
    <?php
    
    function get_contents() {
-     file_get_contents(https://www.php.net/);
+     file_get_contents("https://www.php.net/");
      var_dump($http_response_header); // variable is populated in the local scope
    }
    get_contents();
@@ -40,31 +40,31 @@ ______
 
    array(13) {
      [0]=>
-     string(15) HTTP/1.1 200 OK
+     string(15) "HTTP/1.1 200 OK" 
      [1]=>
-     string(17) Server: myracloud
+     string(17) "Server: myracloud" 
      [2]=>
-     string(35) Date: Wed, 22 Oct 2025 18:16:26 GMT
+     string(35) "Date: Wed, 22 Oct 2025 18:16:26 GMT" 
      [3]=>
-     string(38) Content-Type: text/html; charset=utf-8
+     string(38) "Content-Type: text/html; charset=utf-8" 
      [4]=>
-     string(17) Connection: close
+     string(17) "Connection: close" 
      [5]=>
-     string(44) Last-Modified: Wed, 22 Oct 2025 18:10:19 GMT
+     string(44) "Last-Modified: Wed, 22 Oct 2025 18:10:19 GMT" 
      [6]=>
-     string(20) Content-language: en
+     string(20) "Content-language: en" 
      [7]=>
-     string(38) Permissions-Policy: interest-cohort=()
+     string(38) "Permissions-Policy: interest-cohort=()" 
      [8]=>
-     string(27) X-Frame-Options: SAMEORIGIN
+     string(27) "X-Frame-Options: SAMEORIGIN" 
      [9]=>
-     string(114) Set-Cookie: LAST_NEWS=1761156986; expires=Thu, 22 Oct 2026 18:16:26 GMT; Max-Age=31536000; path=/; domain=.php.net
+     string(114) "Set-Cookie: LAST_NEWS=1761156986; expires=Thu, 22 Oct 2026 18:16:26 GMT; Max-Age=31536000; path=/; domain=.php.net" 
      [10]=>
-     string(47) Link: <https://www.php.net/index>; rel=shorturl
+     string(47) "Link: <https://www.php.net/index>; rel=shorturl" 
      [11]=>
-     string(38) Expires: Wed, 22 Oct 2025 18:16:26 GMT
+     string(38) "Expires: Wed, 22 Oct 2025 18:16:26 GMT" 
      [12]=>
-     string(24) Cache-Control: max-age=0
+     string(24) "Cache-Control: max-age=0" 
    }
    
 
@@ -77,31 +77,31 @@ ______
    Deprecated: The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead
    array(13) {
      [0]=>
-     string(15) HTTP/1.1 200 OK
+     string(15) "HTTP/1.1 200 OK" 
      [1]=>
-     string(17) Server: myracloud
+     string(17) "Server: myracloud" 
      [2]=>
-     string(35) Date: Wed, 22 Oct 2025 18:16:26 GMT
+     string(35) "Date: Wed, 22 Oct 2025 18:16:26 GMT" 
      [3]=>
-     string(38) Content-Type: text/html; charset=utf-8
+     string(38) "Content-Type: text/html; charset=utf-8" 
      [4]=>
-     string(17) Connection: close
+     string(17) "Connection: close" 
      [5]=>
-     string(44) Last-Modified: Wed, 22 Oct 2025 18:10:19 GMT
+     string(44) "Last-Modified: Wed, 22 Oct 2025 18:10:19 GMT" 
      [6]=>
-     string(20) Content-language: en
+     string(20) "Content-language: en" 
      [7]=>
-     string(38) Permissions-Policy: interest-cohort=()
+     string(38) "Permissions-Policy: interest-cohort=()" 
      [8]=>
-     string(27) X-Frame-Options: SAMEORIGIN
+     string(27) "X-Frame-Options: SAMEORIGIN" 
      [9]=>
-     string(114) Set-Cookie: LAST_NEWS=1761156986; expires=Thu, 22 Oct 2026 18:16:26 GMT; Max-Age=31536000; path=/; domain=.php.net
+     string(114) "Set-Cookie: LAST_NEWS=1761156986; expires=Thu, 22 Oct 2026 18:16:26 GMT; Max-Age=31536000; path=/; domain=.php.net" 
      [10]=>
-     string(47) Link: <https://www.php.net/index>; rel=shorturl
+     string(47) "Link: <https://www.php.net/index>; rel=shorturl" 
      [11]=>
-     string(38) Expires: Wed, 22 Oct 2025 18:16:26 GMT
+     string(38) "Expires: Wed, 22 Oct 2025 18:16:26 GMT" 
      [12]=>
-     string(24) Cache-Control: max-age=0
+     string(24) "Cache-Control: max-age=0" 
    }
    
 

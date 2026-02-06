@@ -101,7 +101,7 @@ PHP Error Messages
     * :ref:`Uninitialized string offset: -1 <negative-index-on-strings>`
     * :ref:`A never-returning function must not return <never-arrow-function>`
     * :ref:`syntax error, unexpected token "(" <direct-calls-on-new>`
-    * :ref:`syntax error, unexpected token -> <call-method-on-new>`
+    * :ref:`syntax error, unexpected token "->" <call-method-on-new>`
     * :ref:`serialize(): __sleep should return an array only containing the names of instance-variables to serialize <__sleep()-method-enforces-return-type>`
     * :ref:`Non-canonical cast (binary) is deprecated, use the (string) cast instead <non-canonical-cast>`
     * :ref:`Non-canonical cast (binary) is deprecated, use the (bool) cast instead <non-canonical-cast>`

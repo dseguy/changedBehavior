@@ -43,9 +43,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Undefined constant from
+   PHP Fatal error:  Uncaught Error: Undefined constant "from" 
    
-   Fatal error: Uncaught Error: Undefined constant from
+   Fatal error: Uncaught Error: Undefined constant "from" 
    
 
 After

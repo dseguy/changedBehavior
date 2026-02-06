@@ -36,7 +36,7 @@ Before
 ______
 .. code-block:: output
 
-   string(10) foo is xyz
+   string(10) "foo is xyz" 
    
 
 After
@@ -46,7 +46,7 @@ ______
    PHP Deprecated:  Using  (variable variables) in strings is deprecated, use {} instead
    
    Deprecated: Using  (variable variables) in strings is deprecated, use {} instead
-   string(10) foo is xyz
+   string(10) "foo is xyz" b
    
 
 

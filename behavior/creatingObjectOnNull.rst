@@ -49,9 +49,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught Error: Attempt to assign property a on null 
+   PHP Fatal error:  Uncaught Error: Attempt to assign property "a" on null 
    
-   Fatal error: Uncaught Error: Attempt to assign property a on null 
+   Fatal error: Uncaught Error: Attempt to assign property "a" on null 
    
 
 

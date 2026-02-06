@@ -18,7 +18,7 @@ Covariance And Contravariance Are Fatal
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/liskovPrinciple.html
 	:og:locale: en
 
-Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning. It is not a fatal error, altought it is only checked at execution time, when all the classes are loaded.
+Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning. It is not a fatal error, althought it is only checked at execution time, when all the classes are loaded.
 
 PHP code
 ________

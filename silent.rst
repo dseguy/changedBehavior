@@ -12,6 +12,7 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`datetime-with-multiple-signs`
     * :ref:`dot-and-bitshift-priority`
     * :ref:`filessytemiterator-skips-dot-files`
+    * :ref:`finfo-moved-away-from-resource`
     * :ref:`func_get_arg()-changed-behavior`
     * :ref:`get_object_vars()-does-not-work-on-arrayobject`
     * :ref:`default-values-with-htmlspecialchars()`

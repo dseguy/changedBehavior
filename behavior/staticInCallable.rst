@@ -62,12 +62,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of static in callables is deprecated
+   PHP Deprecated:  Use of "static" in callables is deprecated
    
-   Deprecated: Use of static in callables is deprecated
-   PHP Deprecated:  Callables of the form [A, static::replace] are deprecated
+   Deprecated: Use of "static" in callables is deprecated
+   PHP Deprecated:  Callables of the form ["A", "static::replace"] are deprecated
    
-   Deprecated: Callables of the form [A, static::replace] are deprecated
+   Deprecated: Callables of the form ["A", "static::replace"] are deprecated
    a
 
 

@@ -60,4 +60,10 @@ __________________
 This behavior changed in 8.0
 
 
+Analyzer
+_________
+
+  + `Php/StringIntComparison <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StringIntComparison.html>`_
+
+
 

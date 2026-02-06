@@ -4,21 +4,21 @@ str_split() Throws ValueError With Negative Lengths
 ===================================================
 .. meta::
 	:description:
-		str_split() Throws ValueError With Negative Lengths: str_split() used to emit a warning and return false, when provided with length (2nd argument) as an integer less then 1.
+		str_split() Throws ValueError With Negative Lengths: ``str_split()`` used to emit a warning and return ``false``, when provided with ``$length``, the second argument, as an integer less then 1.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: str_split() Throws ValueError With Negative Lengths
-	:twitter:description: str_split() Throws ValueError With Negative Lengths: str_split() used to emit a warning and return false, when provided with length (2nd argument) as an integer less then 1
+	:twitter:description: str_split() Throws ValueError With Negative Lengths: ``str_split()`` used to emit a warning and return ``false``, when provided with ``$length``, the second argument, as an integer less then 1
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:title: str_split() Throws ValueError With Negative Lengths
 	:og:type: article
-	:og:description: str_split() used to emit a warning and return false, when provided with length (2nd argument) as an integer less then 1
+	:og:description: ``str_split()`` used to emit a warning and return ``false``, when provided with ``$length``, the second argument, as an integer less then 1
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/strsplitnegativelength.html
 	:og:locale: en
 
-str_split() used to emit a warning and return false, when provided with length (2nd argument) as an integer less then 1. In PHP 8.0, it now throws a ValueError.
+``str_split()`` used to emit a warning and return ``false``, when provided with ``$length``, the second argument, as an integer less then 1. In PHP 8.0, it now throws a ``ValueError``.
 
 PHP code
 ________

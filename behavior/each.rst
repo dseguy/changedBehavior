@@ -63,4 +63,10 @@ ______________
   + `The each() function is deprecated. This message will be suppressed on further calls <https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html>`_
 
 
+Analyzer
+_________
+
+  + `Php/Php80RemovedFunctions <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php80RemovedFunctions.html>`_
+
+
 

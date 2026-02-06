@@ -61,7 +61,7 @@ Before
 ______
 .. code-block:: output
 
-   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
+   PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access "parent" when current class scope has no parent 
    
    Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
    
@@ -70,7 +70,7 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of parent in callables is deprecated 
+   PHP Deprecated:  Use of "parent" in callables is deprecated 
    
    Deprecated: Use of parent in callables is deprecated 
    PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 

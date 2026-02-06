@@ -43,9 +43,9 @@ Before
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token ->
+   PHP Parse error:  syntax error, unexpected token "->" 
    
-   Parse error: syntax error, unexpected token ->
+   Parse error: syntax error, unexpected token "->" 
    
 
 After
@@ -63,7 +63,7 @@ This behavior changed in 8.4
 Error Messages
 ______________
 
-  + `syntax error, unexpected token -> <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22-%3E%22.html>`_
+  + `syntax error, unexpected token "->" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22-%3E%22.html>`_
 
 
 

@@ -26,7 +26,7 @@ Since PHP 8.0, the ternary operator produces a fatal error when the nested terna
 
 
 
-The update forces the code to use parenthesis, and set the priorities between the operators explicitely.
+The update forces the code to use parenthesis, and set the priorities between the operators explicitly.
 
 
 

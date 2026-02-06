@@ -49,7 +49,7 @@ ______
    Deprecated: explode(): Passing null to parameter #2 ($string) of type string is deprecated 
    array(1) {
      [0]=>
-     string(0)  
+     string(0) "" 
    }
    
 

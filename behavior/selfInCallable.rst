@@ -63,12 +63,12 @@ After
 ______
 .. code-block:: output
 
-   PHP Deprecated:  Use of self in callables is deprecated 
+   PHP Deprecated:  Use of "self" in callables is deprecated 
    
-   Deprecated: Use of self in callables is deprecated 
-   PHP Deprecated:  Callables of the form [B, self::replace] are deprecated 
+   Deprecated: Use of "self" in callables is deprecated 
+   PHP Deprecated:  Callables of the form ["B", "self::replace"] are deprecated 
    
-   Deprecated: Callables of the form [B, self::replace] are deprecated 
+   Deprecated: Callables of the form ["B", "self::replace"] are deprecated 
    a
 
 

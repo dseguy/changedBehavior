@@ -44,9 +44,9 @@ After
 ______
 .. code-block:: output
 
-   PHP Parse error:  syntax error, unexpected token match, expecting (
+   PHP Parse error:  syntax error, unexpected token "match", expecting "(" 
    
-   Parse error: syntax error, unexpected token match, expecting (
+   Parse error: syntax error, unexpected token "match", expecting "(" 
 
 
 PHP version change

@@ -18,7 +18,7 @@ get_object_vars() Does Not Work On ArrayObject
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/getObjectVars.html
 	:og:locale: en
 
-Until PHP 7.4, ArrayObject used to export its properties as they were defined in the array. Since then, ArrayObject does not export any property anymore. They are still accessible via the normal property syntax, just not with get_object_vars() anymore.
+Until PHP 7.4, ``ArrayObject`` used to export its properties as they were defined in the array. Since then, ``ArrayObject`` does not export any property anymore. They are still accessible via the normal property syntax, just not with ``get_object_vars()`` anymore.
 
 PHP code
 ________
