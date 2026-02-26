@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot use the static modifier on a parameter in /codes/reflection_static.php on line 6
+
+Fatal error: Cannot use the static modifier on a parameter in /codes/reflection_static.php on line 6
