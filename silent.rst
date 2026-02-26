@@ -29,6 +29,8 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`new-cases-in-switch`
     * :ref:`plus-and-concat-precedence`
     * :ref:`range()-lists-everything-between-strings`
+    * :ref:`reflection-doesn't-return-self`
+    * :ref:`reflection-doesn't-return-static`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`spaceship-operator-results`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`

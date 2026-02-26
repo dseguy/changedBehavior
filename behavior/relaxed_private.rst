@@ -24,10 +24,6 @@ Relaxed naming is the possibility to use PHP keywords as method or class constan
 
 ``private``, ``protected`` and ``public`` were not valid class constant names, until PHP 8.3. They were eligible to be method names, though.
 
-
-
-
-
 PHP code
 ________
 .. code-block:: php

@@ -65,4 +65,10 @@ ______________
   + `The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%2B%27-%27-%27-will-change-in-php-8%3A-%27%2B%27-%27-%27-will-take-a-higher-precedence.html>`_
 
 
+Analyzer
+_________
+
+  + `Php/ConcatAndAddition <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html>`_
+
+
 

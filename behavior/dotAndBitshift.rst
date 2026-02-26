@@ -55,4 +55,10 @@ ________
 * `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_
 
 
+Analyzer
+_________
+
+  + `Php/ConcatAndAddition <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html>`_
+
+
 

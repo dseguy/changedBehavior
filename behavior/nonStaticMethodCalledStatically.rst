@@ -79,4 +79,10 @@ ______________
   + `Non-static method Foo::bar() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html>`_
 
 
+Analyzer
+_________
+
+  + `Classes/NonStaticMethodsCalledStatic <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NonStaticMethodsCalledStatic.html>`_
+
+
 

@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Call to undefined method ReflectionType::getName() in /codes/reflection_self.php:15
+Stack trace:
+#0 {main}
+  thrown in /codes/reflection_self.php on line 15
+
+Fatal error: Uncaught Error: Call to undefined method ReflectionType::getName() in /codes/reflection_self.php:15
+Stack trace:
+#0 {main}
+  thrown in /codes/reflection_self.php on line 15

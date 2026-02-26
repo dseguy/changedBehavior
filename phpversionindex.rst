@@ -33,7 +33,10 @@ Per PHP version
     * :ref:`not-in-a-closure`
     * :ref:`null-as-array-offset`
     * :ref:`null-with-array_key_exists()`
+    * :ref:`reflection-doesn't-return-self`
+    * :ref:`reflection-doesn't-return-static`
     * :ref:`array-and-callable-cannot-be-absolute`
+    * :ref:`get_defined_functions()-doesn't-exclude-diabled-functions-anymore`
 * 8.4
     * :ref:`alias-replace-class`
     * :ref:`array-syntax-with-curly-braces-are-no-more`

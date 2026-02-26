@@ -83,6 +83,7 @@ PHP Changed Behavior
    behavior/generatorDontReturn.rst
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
+   behavior/get_defined_functions.rst
    behavior/getObjectVars.rst
    behavior/globalDynamicVariable.rst
    behavior/GLOBALSAssignement.rst
@@ -163,6 +164,8 @@ PHP Changed Behavior
    behavior/rangeWithIntAndString.rst
    behavior/real_cast.rst
    behavior/recursiveComparison.rst
+   behavior/reflection_self.rst
+   behavior/reflection_static.rst
    behavior/relativeCallable.rst
    behavior/relaxed_private.rst
    behavior/return_reference_on_void.rst

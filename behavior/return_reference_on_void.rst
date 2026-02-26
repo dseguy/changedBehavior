@@ -71,4 +71,10 @@ ______________
   + `Returning by reference from a void function is deprecated <https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html>`_
 
 
+Analyzer
+_________
+
+  + `Functions/NoReferencedVoid <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/NoReferencedVoid.html>`_
+
+
 

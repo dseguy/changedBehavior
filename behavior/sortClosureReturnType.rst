@@ -81,4 +81,10 @@ ______________
   + `usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated%2C-return-an-integer-less-than%2C-equal-to%2C-or-greater-than-zero.html>`_
 
 
+Analyzer
+_________
+
+  + `Php/ReturnTypeForSorting <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ReturnTypeForSorting.html>`_
+
+
 
