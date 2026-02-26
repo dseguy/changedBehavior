@@ -1,0 +1,3 @@
+PHP Warning:  get_defined_functions() expects exactly 0 parameters, 1 given in /codes/get_defined_functions.php on line 3
+
+Warning: get_defined_functions() expects exactly 0 parameters, 1 given in /codes/get_defined_functions.php on line 3
