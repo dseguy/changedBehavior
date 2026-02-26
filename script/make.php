@@ -30,6 +30,11 @@ $errors = 0;
 $tips = array();
 $keywords = array();
 foreach($files as $file) {
+    $string = file_get_contents($file);
+    if (preg_match('/(?<!= )""(?![;\]])/', $string) ) {
+        buildlog( 'Presence of "" in the INI file: '.$file);
+    }
+    
 	$tip = parse_ini_file($file);
 
 	if ($tip === false) {
@@ -179,6 +184,13 @@ foreach($files as $file) {
 			buildlog("seeAlso is not an array in $file");
 		}
 	}
+	
+	if (str_contains($tip->after, 'syntax error') && 
+	    !in_array("upgraded to syntax error", $tip->keywords, true)) {
+		buildlog("Should use 'upgraded to syntax error' in $file");
+		print("Should use 'upgraded to syntax error' in $file\n");
+	}
+	
 	$tips[$file] = $tip;
 
     if (isset($tip->keywords) && is_array($tip->keywords)) {
