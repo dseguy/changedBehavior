@@ -14,7 +14,8 @@ if (isset($argv[1])) {
 
 $begin = hrtime(true);
 
-$phps = array('PHP_8.5' => 'php85',
+$phps = array('PHP_8.6' => 'php86',
+ 			  'PHP_8.5' => 'php85',
  			  'PHP_8.4' => 'php84',
  			  'PHP_8.3' => 'php83',
  			  'PHP_8.2' => 'php82',

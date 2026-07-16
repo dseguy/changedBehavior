@@ -60,6 +60,8 @@ ______
 
 PHP version change
 __________________
+This behavior was deprecated in 8.5
+
 This behavior changed in 8.5
 
 
