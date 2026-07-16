@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: getenv(): Argument #1 ($name) must not contain any null bytes in /codes/getenvNullByteValueError.php:3
+Stack trace:
+#0 /codes/getenvNullByteValueError.php(3): getenv('FOO\x00BAR')
+#1 {main}
+  thrown in /codes/getenvNullByteValueError.php on line 3
+
+Fatal error: Uncaught ValueError: getenv(): Argument #1 ($name) must not contain any null bytes in /codes/getenvNullByteValueError.php:3
+Stack trace:
+#0 /codes/getenvNullByteValueError.php(3): getenv('FOO\x00BAR')
+#1 {main}
+  thrown in /codes/getenvNullByteValueError.php on line 3
