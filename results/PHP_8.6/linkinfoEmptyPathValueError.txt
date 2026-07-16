@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: linkinfo(): Argument #1 ($path) must not be empty in /codes/linkinfoEmptyPathValueError.php:3
+Stack trace:
+#0 /codes/linkinfoEmptyPathValueError.php(3): linkinfo('')
+#1 {main}
+  thrown in /codes/linkinfoEmptyPathValueError.php on line 3
+
+Fatal error: Uncaught ValueError: linkinfo(): Argument #1 ($path) must not be empty in /codes/linkinfoEmptyPathValueError.php:3
+Stack trace:
+#0 /codes/linkinfoEmptyPathValueError.php(3): linkinfo('')
+#1 {main}
+  thrown in /codes/linkinfoEmptyPathValueError.php on line 3

@@ -1,0 +1,4 @@
+PHP Warning:  linkinfo(): No such file or directory in /codes/linkinfoEmptyPathValueError.php on line 3
+
+Warning: linkinfo(): No such file or directory in /codes/linkinfoEmptyPathValueError.php on line 3
+int(-1)
