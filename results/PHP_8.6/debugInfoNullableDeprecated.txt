@@ -1,0 +1,7 @@
+PHP Deprecated:  Returning null from x::__debugInfo() is deprecated, make the return type non-nullable and return an empty array instead in /codes/debugInfoNullableDeprecated.php on line 4
+
+Deprecated: Returning null from x::__debugInfo() is deprecated, make the return type non-nullable and return an empty array instead in /codes/debugInfoNullableDeprecated.php on line 4
+object(x)#1 (1) {
+  ["a"]=>
+  int(1)
+}
