@@ -1,0 +1,4 @@
+PHP Deprecated:  fputcsv(): the $escape parameter must be provided as its default value will change in /codes/fputcsvEscape.php on line 4
+
+Deprecated: fputcsv(): the $escape parameter must be provided as its default value will change in /codes/fputcsvEscape.php on line 4
+int(6)
