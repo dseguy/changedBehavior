@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: array_change_key_case(): Argument #2 ($case) must be either CASE_LOWER or CASE_UPPER in /codes/arrayChangeKeyCaseValueError.php:3
+Stack trace:
+#0 /codes/arrayChangeKeyCaseValueError.php(3): array_change_key_case(Array, 99)
+#1 {main}
+  thrown in /codes/arrayChangeKeyCaseValueError.php on line 3
+
+Fatal error: Uncaught ValueError: array_change_key_case(): Argument #2 ($case) must be either CASE_LOWER or CASE_UPPER in /codes/arrayChangeKeyCaseValueError.php:3
+Stack trace:
+#0 /codes/arrayChangeKeyCaseValueError.php(3): array_change_key_case(Array, 99)
+#1 {main}
+  thrown in /codes/arrayChangeKeyCaseValueError.php on line 3
