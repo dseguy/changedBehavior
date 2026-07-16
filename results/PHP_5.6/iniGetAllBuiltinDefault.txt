@@ -1,0 +1,8 @@
+array(3) {
+  ["global_value"]=>
+  string(2) "14"
+  ["local_value"]=>
+  string(2) "14"
+  ["access"]=>
+  int(7)
+}
