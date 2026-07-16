@@ -1,0 +1,3 @@
+PHP Strict Standards:  Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6
+
+Strict Standards: Non-static method Foo::bar() should not be called statically in /codes/nonStaticMethodCalledStatically.php on line 6

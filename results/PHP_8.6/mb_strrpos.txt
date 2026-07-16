@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given in /codes/mb_strrpos.php:3
+Stack trace:
+#0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
+#1 {main}
+  thrown in /codes/mb_strrpos.php on line 3
+
+Fatal error: Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given in /codes/mb_strrpos.php:3
+Stack trace:
+#0 /codes/mb_strrpos.php(3): mb_strrpos('abc', 'a', 'utf8')
+#1 {main}
+  thrown in /codes/mb_strrpos.php on line 3

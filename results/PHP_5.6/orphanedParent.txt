@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot access parent:: when current class scope has no parent in /codes/orphanedParent.php on line 5
+
+Fatal error: Cannot access parent:: when current class scope has no parent in /codes/orphanedParent.php on line 5

@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: Unknown format specifier "a" in /codes/printfWarning.php:3
+Stack trace:
+#0 /codes/printfWarning.php(3): sprintf('%a %Z', 1, 3)
+#1 {main}
+  thrown in /codes/printfWarning.php on line 3
+
+Fatal error: Uncaught ValueError: Unknown format specifier "a" in /codes/printfWarning.php:3
+Stack trace:
+#0 /codes/printfWarning.php(3): sprintf('%a %Z', 1, 3)
+#1 {main}
+  thrown in /codes/printfWarning.php on line 3

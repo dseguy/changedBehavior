@@ -1,0 +1,12 @@
+PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /codes/caseInsensitiveDefine.php on line 3
+
+Warning: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /codes/caseInsensitiveDefine.php on line 3
+PHP Fatal error:  Uncaught Error: Undefined constant "a" in /codes/caseInsensitiveDefine.php:5
+Stack trace:
+#0 {main}
+  thrown in /codes/caseInsensitiveDefine.php on line 5
+
+Fatal error: Uncaught Error: Undefined constant "a" in /codes/caseInsensitiveDefine.php:5
+Stack trace:
+#0 {main}
+  thrown in /codes/caseInsensitiveDefine.php on line 5

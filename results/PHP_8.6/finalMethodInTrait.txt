@@ -1,0 +1,7 @@
+PHP Fatal error:  Trait method t2::foo has not been applied as A::foo, because of collision with t::foo in /codes/finalMethodInTrait.php on line 11
+Stack trace:
+#0 {main}
+
+Fatal error: Trait method t2::foo has not been applied as A::foo, because of collision with t::foo in /codes/finalMethodInTrait.php on line 11
+Stack trace:
+#0 {main}

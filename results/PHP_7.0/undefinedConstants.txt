@@ -1,0 +1,4 @@
+PHP Notice:  Use of undefined constant D - assumed 'D' in /codes/undefinedConstants.php on line 3
+
+Notice: Use of undefined constant D - assumed 'D' in /codes/undefinedConstants.php on line 3
+D

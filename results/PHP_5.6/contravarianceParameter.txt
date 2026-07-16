@@ -1,0 +1,5 @@
+PHP Strict Standards:  Declaration of y::foo() should be compatible with x::foo(j $a) in /codes/contravarianceParameter.php on line 17
+
+Strict Standards: Declaration of y::foo() should be compatible with x::foo(j $a) in /codes/contravarianceParameter.php on line 17
+object(y)#1 (0) {
+}

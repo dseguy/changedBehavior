@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: get_called_class() must be called from within a class in /codes/get_called_class_outside_class.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/get_called_class_outside_class.php on line 3
+
+Fatal error: Uncaught Error: get_called_class() must be called from within a class in /codes/get_called_class_outside_class.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/get_called_class_outside_class.php on line 3

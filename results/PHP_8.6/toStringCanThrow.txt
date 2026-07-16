@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught Exception: errorX::__toString in /codes/toStringCanThrow.php:5
+Stack trace:
+#0 /codes/toStringCanThrow.php(9): X->__toString()
+#1 {main}
+  thrown in /codes/toStringCanThrow.php on line 5
+
+Fatal error: Uncaught Exception: errorX::__toString in /codes/toStringCanThrow.php:5
+Stack trace:
+#0 /codes/toStringCanThrow.php(9): X->__toString()
+#1 {main}
+  thrown in /codes/toStringCanThrow.php on line 5

@@ -1,0 +1,7 @@
+PHP Fatal error:  Method x::__set_state() must be static in /codes/set_state_must_be_static.php on line 4
+Stack trace:
+#0 {main}
+
+Fatal error: Method x::__set_state() must be static in /codes/set_state_must_be_static.php on line 4
+Stack trace:
+#0 {main}

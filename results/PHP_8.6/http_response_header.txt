@@ -1,0 +1,55 @@
+PHP Deprecated:  The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead in /codes/http_response_header.php on line 5
+
+Deprecated: The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead in /codes/http_response_header.php on line 5
+array(25) {
+  [0]=>
+  string(15) "HTTP/1.1 200 OK"
+  [1]=>
+  string(35) "Date: Thu, 16 Jul 2026 09:36:41 GMT"
+  [2]=>
+  string(38) "Content-Type: text/html; charset=utf-8"
+  [3]=>
+  string(17) "Connection: close"
+  [4]=>
+  string(21) "Vary: Accept-Encoding"
+  [5]=>
+  string(26) "Server: BunnyCDN-AMS1-1444"
+  [6]=>
+  string(21) "CDN-PullZone: 5992589"
+  [7]=>
+  string(26) "CDN-RequestCountryCode: NL"
+  [8]=>
+  string(34) "Cache-Control: public, max-age=300"
+  [9]=>
+  string(20) "Content-Language: en"
+  [10]=>
+  string(44) "Last-Modified: Thu, 16 Jul 2026 09:30:19 GMT"
+  [11]=>
+  string(114) "Set-Cookie: LAST_NEWS=1784194601; expires=Fri, 16 Jul 2027 09:36:41 GMT; Max-Age=31536000; path=/; domain=.php.net"
+  [12]=>
+  string(43) "Strict-Transport-Security: max-age=15768000"
+  [13]=>
+  string(38) "Permissions-Policy: interest-cohort=()"
+  [14]=>
+  string(27) "X-Frame-Options: SAMEORIGIN"
+  [15]=>
+  string(47) "Link: <https://www.php.net/index>; rel=shorturl"
+  [16]=>
+  string(18) "CDN-ProxyVer: 1.58"
+  [17]=>
+  string(28) "CDN-RequestPullSuccess: True"
+  [18]=>
+  string(24) "CDN-RequestPullCode: 200"
+  [19]=>
+  string(33) "CDN-CachedAt: 07/16/2026 09:36:41"
+  [20]=>
+  string(22) "CDN-EdgeStorageId: 879"
+  [21]=>
+  string(47) "CDN-RequestId: 8fd6005d3e7f2e1f23e90230e8711c9e"
+  [22]=>
+  string(15) "CDN-Cache: MISS"
+  [23]=>
+  string(15) "CDN-Status: 200"
+  [24]=>
+  string(18) "CDN-RequestTime: 0"
+}

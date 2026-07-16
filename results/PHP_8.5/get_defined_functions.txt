@@ -2145,9 +2145,25 @@ Array
             [2137] => zip_entry_compressedsize
             [2138] => zip_entry_filesize
             [2139] => zip_entry_compressionmethod
-            [2140] => dl
-            [2141] => cli_set_process_title
-            [2142] => cli_get_process_title
+            [2140] => ast\parse_code
+            [2141] => ast\parse_file
+            [2142] => ast\get_kind_name
+            [2143] => ast\kind_uses_flags
+            [2144] => ast\get_metadata
+            [2145] => ast\get_supported_versions
+            [2146] => pcov\start
+            [2147] => pcov\stop
+            [2148] => pcov\collect
+            [2149] => pcov\clear
+            [2150] => pcov\waiting
+            [2151] => pcov\memory
+            [2152] => ds\seq
+            [2153] => ds\map
+            [2154] => ds\set
+            [2155] => ds\heap
+            [2156] => dl
+            [2157] => cli_set_process_title
+            [2158] => cli_get_process_title
         )
 
     [user] => Array

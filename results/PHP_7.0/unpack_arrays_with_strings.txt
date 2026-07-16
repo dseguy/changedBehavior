@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Cannot unpack array with string keys in /codes/unpack_arrays_with_strings.php:5
+Stack trace:
+#0 {main}
+  thrown in /codes/unpack_arrays_with_strings.php on line 5
+
+Fatal error: Uncaught Error: Cannot unpack array with string keys in /codes/unpack_arrays_with_strings.php:5
+Stack trace:
+#0 {main}
+  thrown in /codes/unpack_arrays_with_strings.php on line 5

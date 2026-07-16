@@ -1,0 +1,7 @@
+PHP Fatal error:  Duplicate declaration of static variable $s in /codes/duplicateStaticDefinition.php on line 7
+Stack trace:
+#0 {main}
+
+Fatal error: Duplicate declaration of static variable $s in /codes/duplicateStaticDefinition.php on line 7
+Stack trace:
+#0 {main}

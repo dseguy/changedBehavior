@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: version_compare(): Argument #3 ($operator) must be a valid comparison operator in /codes/version_compare.php:3
+Stack trace:
+#0 /codes/version_compare.php(3): version_compare('1.0', '2.3', '!')
+#1 {main}
+  thrown in /codes/version_compare.php on line 3
+
+Fatal error: Uncaught ValueError: version_compare(): Argument #3 ($operator) must be a valid comparison operator in /codes/version_compare.php:3
+Stack trace:
+#0 /codes/version_compare.php(3): version_compare('1.0', '2.3', '!')
+#1 {main}
+  thrown in /codes/version_compare.php on line 3

@@ -1,0 +1,3 @@
+PHP Parse error:  syntax error in /codes/backed_enum_constant_check.php on line 5
+
+Parse error: syntax error in /codes/backed_enum_constant_check.php on line 5

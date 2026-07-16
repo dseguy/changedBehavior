@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot acquire reference to $GLOBALS in /codes/GLOBALSAssignement.php on line 5
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot acquire reference to $GLOBALS in /codes/GLOBALSAssignement.php on line 5
+Stack trace:
+#0 {main}

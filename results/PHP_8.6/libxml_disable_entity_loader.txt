@@ -1,0 +1,4 @@
+PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default in /codes/libxml_disable_entity_loader.php on line 3
+
+Deprecated: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default in /codes/libxml_disable_entity_loader.php on line 3
+bool(false)

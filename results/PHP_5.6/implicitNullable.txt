@@ -1,0 +1,3 @@
+PHP Catchable fatal error:  Argument 1 passed to foo() must be an instance of int, integer given, called in /codes/implicitNullable.php on line 7 and defined in /codes/implicitNullable.php on line 3
+
+Catchable fatal error: Argument 1 passed to foo() must be an instance of int, integer given, called in /codes/implicitNullable.php on line 7 and defined in /codes/implicitNullable.php on line 3

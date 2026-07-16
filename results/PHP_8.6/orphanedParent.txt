@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot use "parent" when current class scope has no parent in /codes/orphanedParent.php on line 5
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot use "parent" when current class scope has no parent in /codes/orphanedParent.php on line 5
+Stack trace:
+#0 {main}

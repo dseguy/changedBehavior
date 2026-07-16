@@ -1,0 +1,4 @@
+PHP Warning:  strpos() expects parameter 3 to be long, string given in /codes/strposTypeError.php on line 3
+
+Warning: strpos() expects parameter 3 to be long, string given in /codes/strposTypeError.php on line 3
+NULL

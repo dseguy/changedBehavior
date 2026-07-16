@@ -1,0 +1,7 @@
+PHP Fatal error:  Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /codes/ternaryAssociativity.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /codes/ternaryAssociativity.php on line 3
+Stack trace:
+#0 {main}

@@ -5,7 +5,3 @@ array(1) {
   [0]=>
   string(5) "Arrby"
 }
-array(1) {
-  [0]=>
-  string(3) "def"
-}

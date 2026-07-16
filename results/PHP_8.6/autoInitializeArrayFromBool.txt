@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool in /codes/autoInitializeArrayFromBool.php:8
+Stack trace:
+#0 {main}
+  thrown in /codes/autoInitializeArrayFromBool.php on line 8
+
+Fatal error: Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool in /codes/autoInitializeArrayFromBool.php:8
+Stack trace:
+#0 {main}
+  thrown in /codes/autoInitializeArrayFromBool.php on line 8

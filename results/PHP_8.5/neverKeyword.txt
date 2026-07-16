@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot use "never" as a class name as it is reserved in /codes/neverKeyword.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot use "never" as a class name as it is reserved in /codes/neverKeyword.php on line 3
+Stack trace:
+#0 {main}

@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given in /codes/setExceptionHandlerType.php:5
+Stack trace:
+#0 [internal function]: foo::bar(Object(DivisionByZeroError))
+#1 {main}
+  thrown in /codes/setExceptionHandlerType.php on line 5
+
+Fatal error: Uncaught TypeError: foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given in /codes/setExceptionHandlerType.php:5
+Stack trace:
+#0 [internal function]: foo::bar(Object(DivisionByZeroError))
+#1 {main}
+  thrown in /codes/setExceptionHandlerType.php on line 5

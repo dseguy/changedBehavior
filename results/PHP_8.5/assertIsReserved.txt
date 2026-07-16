@@ -1,0 +1,7 @@
+PHP Fatal error:  Defining a custom assert() function is not allowed, as the function has special semantics in /codes/assertIsReserved.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Defining a custom assert() function is not allowed, as the function has special semantics in /codes/assertIsReserved.php on line 3
+Stack trace:
+#0 {main}

@@ -1,0 +1,7 @@
+PHP Strict Standards:  x and t define the same property ($sx) in the composition of y. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in /codes/staticTraitStorage.php on line 29
+
+Strict Standards: x and t define the same property ($sx) in the composition of y. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in /codes/staticTraitStorage.php on line 29
+in parent x
+SXy SX2 
+in self y
+SXy SX2 

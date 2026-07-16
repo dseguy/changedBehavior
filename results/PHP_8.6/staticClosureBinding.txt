@@ -1,0 +1,3 @@
+PHP Warning:  Cannot bind an instance to a static closure, this will be an error in PHP 9 in /codes/staticClosureBinding.php on line 7
+
+Warning: Cannot bind an instance to a static closure, this will be an error in PHP 9 in /codes/staticClosureBinding.php on line 7

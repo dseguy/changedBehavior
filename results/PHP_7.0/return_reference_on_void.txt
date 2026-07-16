@@ -1,0 +1,11 @@
+fooPHP Fatal error:  Uncaught TypeError: Return value of foo() must be an instance of void, none returned in /codes/return_reference_on_void.php:6
+Stack trace:
+#0 /codes/return_reference_on_void.php(10): foo()
+#1 {main}
+  thrown in /codes/return_reference_on_void.php on line 6
+
+Fatal error: Uncaught TypeError: Return value of foo() must be an instance of void, none returned in /codes/return_reference_on_void.php:6
+Stack trace:
+#0 /codes/return_reference_on_void.php(10): foo()
+#1 {main}
+  thrown in /codes/return_reference_on_void.php on line 6

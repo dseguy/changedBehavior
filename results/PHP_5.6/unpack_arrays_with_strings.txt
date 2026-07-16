@@ -1,0 +1,3 @@
+PHP Catchable fatal error:  Cannot unpack array with string keys in /codes/unpack_arrays_with_strings.php on line 5
+
+Catchable fatal error: Cannot unpack array with string keys in /codes/unpack_arrays_with_strings.php on line 5

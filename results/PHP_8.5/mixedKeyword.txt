@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot use "mixed" as a class name as it is reserved in /codes/mixedKeyword.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot use "mixed" as a class name as it is reserved in /codes/mixedKeyword.php on line 3
+Stack trace:
+#0 {main}

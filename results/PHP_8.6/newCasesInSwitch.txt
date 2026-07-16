@@ -1,0 +1,7 @@
+PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in /codes/newCasesInSwitch.php on line 5
+
+Deprecated: Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in /codes/newCasesInSwitch.php on line 5
+Zero
+Empty string
+Zero
+[]

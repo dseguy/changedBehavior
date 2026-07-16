@@ -1,0 +1,3 @@
+PHP Catchable fatal error:  Argument 1 passed to iterator_count() must implement interface Traversable, array given in /codes/iteratorsArray.php on line 4
+
+Catchable fatal error: Argument 1 passed to iterator_count() must implement interface Traversable, array given in /codes/iteratorsArray.php on line 4

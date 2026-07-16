@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($separator) must be of type string, array given in /codes/imploderOrder.php:3
+Stack trace:
+#0 /codes/imploderOrder.php(3): implode(Array, '3')
+#1 {main}
+  thrown in /codes/imploderOrder.php on line 3
+
+Fatal error: Uncaught TypeError: implode(): Argument #1 ($separator) must be of type string, array given in /codes/imploderOrder.php:3
+Stack trace:
+#0 /codes/imploderOrder.php(3): implode(Array, '3')
+#1 {main}
+  thrown in /codes/imploderOrder.php on line 3

@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Call to undefined function each() in /codes/while_list_each.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/while_list_each.php on line 3
+
+Fatal error: Uncaught Error: Call to undefined function each() in /codes/while_list_each.php:3
+Stack trace:
+#0 {main}
+  thrown in /codes/while_list_each.php on line 3

@@ -1,0 +1,7 @@
+PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /codes/autoload.php on line 3
+Stack trace:
+#0 {main}

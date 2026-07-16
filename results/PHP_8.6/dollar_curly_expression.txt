@@ -1,0 +1,4 @@
+PHP Deprecated:  Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in /codes/dollar_curly_expression.php on line 5
+
+Deprecated: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in /codes/dollar_curly_expression.php on line 5
+string(10) "foo is xyz"

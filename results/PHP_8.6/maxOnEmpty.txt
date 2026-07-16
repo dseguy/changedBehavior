@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element in /codes/maxOnEmpty.php:3
+Stack trace:
+#0 /codes/maxOnEmpty.php(3): max(Array)
+#1 {main}
+  thrown in /codes/maxOnEmpty.php on line 3
+
+Fatal error: Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element in /codes/maxOnEmpty.php:3
+Stack trace:
+#0 /codes/maxOnEmpty.php(3): max(Array)
+#1 {main}
+  thrown in /codes/maxOnEmpty.php on line 3

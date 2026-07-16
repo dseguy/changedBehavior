@@ -1,0 +1,1 @@
+{closure:/codes/magicConstantInClosure.php:3}{closure:/codes/magicConstantInClosure.php:5}

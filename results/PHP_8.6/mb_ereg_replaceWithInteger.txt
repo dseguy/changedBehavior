@@ -1,0 +1,4 @@
+PHP Deprecated:  Function mb_ereg_replace() is deprecated since 8.6, because the underlying library is no longer maintained in /codes/mb_ereg_replaceWithInteger.php on line 3
+
+Deprecated: Function mb_ereg_replace() is deprecated since 8.6, because the underlying library is no longer maintained in /codes/mb_ereg_replaceWithInteger.php on line 3
+string(3) "abc"

@@ -1,0 +1,7 @@
+PHP Fatal error:  The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
+Stack trace:
+#0 {main}
+
+Fatal error: The (unset) cast is no longer supported in /codes/unset_cast.php on line 4
+Stack trace:
+#0 {main}

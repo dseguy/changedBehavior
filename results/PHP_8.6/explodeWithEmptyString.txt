@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) must not be empty, use str_split() to split a string into characters in /codes/explodeWithEmptyString.php:3
+Stack trace:
+#0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
+#1 {main}
+  thrown in /codes/explodeWithEmptyString.php on line 3
+
+Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) must not be empty, use str_split() to split a string into characters in /codes/explodeWithEmptyString.php:3
+Stack trace:
+#0 /codes/explodeWithEmptyString.php(3): explode('', 'abc')
+#1 {main}
+  thrown in /codes/explodeWithEmptyString.php on line 3

@@ -1,0 +1,3 @@
+PHP Fatal error:  Declaration of y::foo(): j must be compatible with x::foo(): i in /codes/covarianceReturntype.php on line 17
+
+Fatal error: Declaration of y::foo(): j must be compatible with x::foo(): i in /codes/covarianceReturntype.php on line 17

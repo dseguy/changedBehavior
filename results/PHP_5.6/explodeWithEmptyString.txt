@@ -1,0 +1,3 @@
+PHP Warning:  explode(): Empty delimiter in /codes/explodeWithEmptyString.php on line 3
+
+Warning: explode(): Empty delimiter in /codes/explodeWithEmptyString.php on line 3

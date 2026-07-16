@@ -1,0 +1,4 @@
+PHP Deprecated:  The backtick (`) operator is deprecated, use shell_exec() instead in /codes/backtick.php on line 3
+
+Deprecated: The backtick (`) operator is deprecated, use shell_exec() instead in /codes/backtick.php on line 3
+Hello
