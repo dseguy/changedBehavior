@@ -42,7 +42,7 @@ ______
    
    Deprecated: Function Reflection::export() is deprecated 
    Class [ <user> class A ] {
-     @@ /codes/exportReflection.php 3-3
+     @@ /exportReflection.php 3-3
    
      - Constants [0] {
      }
