@@ -1,0 +1,3 @@
+PHP Fatal error:  Multiple access type modifiers are not allowed in /codes/asymmetricStatic.php on line 4
+
+Fatal error: Multiple access type modifiers are not allowed in /codes/asymmetricStatic.php on line 4

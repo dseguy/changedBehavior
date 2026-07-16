@@ -1,0 +1,3 @@
+PHP Fatal error:  Static property may not have asymmetric visibility in /codes/asymmetricStatic.php on line 4
+
+Fatal error: Static property may not have asymmetric visibility in /codes/asymmetricStatic.php on line 4
