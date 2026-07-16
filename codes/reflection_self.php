@@ -1,6 +1,6 @@
 <?php
 
-// code from https://www.reddit.com/r/PHP/comments/1rd3j74/php_85_reflectionnamedtypegetname_change/
+// code from 
 class Foo
 {
     function poop (self $a): self
