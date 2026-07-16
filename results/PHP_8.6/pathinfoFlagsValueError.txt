@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: pathinfo(): Argument #2 ($flags) must be one of the PATHINFO_* constants in /codes/pathinfoFlagsValueError.php:3
+Stack trace:
+#0 /codes/pathinfoFlagsValueError.php(3): pathinfo('/foo/bar.txt', 999)
+#1 {main}
+  thrown in /codes/pathinfoFlagsValueError.php on line 3
+
+Fatal error: Uncaught ValueError: pathinfo(): Argument #2 ($flags) must be one of the PATHINFO_* constants in /codes/pathinfoFlagsValueError.php:3
+Stack trace:
+#0 /codes/pathinfoFlagsValueError.php(3): pathinfo('/foo/bar.txt', 999)
+#1 {main}
+  thrown in /codes/pathinfoFlagsValueError.php on line 3
