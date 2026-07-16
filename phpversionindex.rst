@@ -19,6 +19,16 @@ Per PHP version
     * :ref:`self-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
+* 8.6
+    * :ref:`array_change_key_case()-validates-its-case-argument`
+    * :ref:`array_filter()-validates-its-mode-argument`
+    * :ref:`getenv()-rejects-nul-bytes-in-the-variable-name`
+    * :ref:`ini_get_all()-includes-the-built-in-default-value`
+    * :ref:`linkinfo()-rejects-an-empty-path`
+    * :ref:`pathinfo()-validates-its-flags-argument`
+    * :ref:`trim()-strips-form-feed-by-default`
+* 8.5-
+    * :ref:`static-properties-with-asymmetric-visibility`
 * 8.5
     * :ref:`$http_response_header-is-deprecated`
     * :ref:`array-has-no-absolute-name`
@@ -243,3 +253,5 @@ Per PHP version
     * :ref:`string-increments`
 * 
     * :ref:`back-tick-operator-is-deprecated`
+    * :ref:`returning-a-value-from-a-constructor-is-deprecated`
+    * :ref:`__debuginfo()-nullable-return-type-is-deprecated`

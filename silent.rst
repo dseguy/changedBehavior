@@ -22,6 +22,7 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`increment-non-alphanumeric`
     * :ref:`increment-on-boolean-is-deprecated`
     * :ref:`inegality-comparisons`
+    * :ref:`ini_get_all()-includes-the-built-in-default-value`
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
     * :ref:`max()-on-string-and-integer`
@@ -43,5 +44,6 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`switch()-changed-comparison-style`
     * :ref:`length-of-tempnam()-has-been-raised`
     * :ref:`tentative-static-returntype-with-datetime`
+    * :ref:`trim()-strips-form-feed-by-default`
     * :ref:`typed-class-constant`
     * :ref:`var_export()-format`

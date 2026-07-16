@@ -16,10 +16,13 @@ PHP Changed Behavior
    behavior/array_negative_id.rst
    behavior/array_next_id.rst
    behavior/array_with_string_initialisation.rst
+   behavior/arrayChangeKeyCaseValueError.rst
+   behavior/arrayFilterModeValueError.rst
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
    behavior/assertIsReserved.rst
    behavior/assertThrows.rst
+   behavior/asymmetricStatic.rst
    behavior/autoInitializeArrayFromBool.rst
    behavior/autoload.rst
    behavior/backed_enum_constant_check.rst
@@ -42,6 +45,7 @@ PHP Changed Behavior
    behavior/compactThrowsNotice.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
+   behavior/constructorReturnDeprecated.rst
    behavior/constWithObjects.rst
    behavior/contravarianceParameter.rst
    behavior/convert_uuencode.rst
@@ -51,6 +55,7 @@ PHP Changed Behavior
    behavior/curl_init.rst
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
+   behavior/debugInfoNullableDeprecated.rst
    behavior/deprecatedConstant.rst
    behavior/destructuringNonArray.rst
    behavior/die-exit-functions.rst
@@ -84,6 +89,7 @@ PHP Changed Behavior
    behavior/get_called_class_outside_class.rst
    behavior/get_classWithoutArgument.rst
    behavior/get_defined_functions.rst
+   behavior/getenvNullByteValueError.rst
    behavior/getObjectVars.rst
    behavior/globalDynamicVariable.rst
    behavior/GLOBALSAssignement.rst
@@ -101,6 +107,7 @@ PHP Changed Behavior
    behavior/incrementOnBoolean.rst
    behavior/indirectModificationInClone.rst
    behavior/inegalityComparison.rst
+   behavior/iniGetAllBuiltinDefault.rst
    behavior/initReadonlyInChild.rst
    behavior/instanceofExpectObjects.rst
    behavior/IntAsArray.rst
@@ -117,6 +124,7 @@ PHP Changed Behavior
    behavior/ksort-regular.rst
    behavior/ksort.rst
    behavior/libxml_disable_entity_loader.rst
+   behavior/linkinfoEmptyPathValueError.rst
    behavior/linted_enum.rst
    behavior/liskovPrinciple.rst
    behavior/magicConstantInClosure.rst
@@ -156,6 +164,7 @@ PHP Changed Behavior
    behavior/orphanedParent.rst
    behavior/parentInCallable.rst
    behavior/passingObjectIsDeprecated.rst
+   behavior/pathinfoFlagsValueError.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/printfWarning.rst
@@ -214,6 +223,7 @@ PHP Changed Behavior
    behavior/trailingCommaInArguments.rst
    behavior/trailingCommaInCalls.rst
    behavior/traitWithConstants.rst
+   behavior/trimFormFeed.rst
    behavior/typedClassConstant.rst
    behavior/UnbindingThis.rst
    behavior/undefinedConstants.rst

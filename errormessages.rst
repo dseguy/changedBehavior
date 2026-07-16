@@ -8,9 +8,12 @@ PHP Error Messages
     * :ref:`Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, stdClass given <array_key_exists()-doesn't-work-on-objects>`
     * :ref:`array_merge() expects at least 1 parameter, 0 given <array_merge()-and-variadic>`
     * :ref:`Cannot access offset of type string on string <array-usage-with-string-initialisation>`
+    * :ref:`array_change_key_case(): Argument #2 ($case) must be either CASE_LOWER or CASE_UPPER <array_change_key_case()-validates-its-case-argument>`
+    * :ref:`array_filter(): Argument #3 ($mode) must be one of ARRAY_FILTER_USE_VALUE, ARRAY_FILTER_USE_KEY, or ARRAY_FILTER_USE_BOTH <array_filter()-validates-its-mode-argument>`
     * :ref:`array_product(): Multiplication is not supported on type array <array_product()-new-checks>`
     * :ref:`array_sum(): Addition is not supported on type array <array_sum()-checks-operands-thoroughly>`
     * :ref:`Defining a custom assert() function is deprecated, as the function has special semantics <assert-is-reserved-function>`
+    * :ref:`Static property may not have asymmetric visibility <static-properties-with-asymmetric-visibility>`
     * :ref:`Cannot auto-initialize an array inside property %s::$%s of type %s <auto-initialization-from-boolean>`
     * :ref:` __autoload() is no longer supported, use spl_autoload_register() instead <using-__autoload()-is-deprecated>`
     * :ref:`Enum case value must be compile-time evaluatable <backed-enum-values-needed-to-compile>`
@@ -32,11 +35,13 @@ PHP Error Messages
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Traits cannot have constants <constants-in-traits>`
+    * :ref:`Returning a value from a constructor is deprecated <returning-a-value-from-a-constructor-is-deprecated>`
     * :ref:`Declaration of %s::%s() should be compatible with %s::%s() <returntype-covariance>`
     * :ref:`count(): Argument #1 ($value) must be of type Countable|array, int given <count()-must-count-countable>`
     * :ref:`Creating default object from empty value <creating-object-on-null>`
     * :ref:`Array and string offset access syntax with curly braces is deprecated <array-syntax-with-curly-braces-are-no-more>`
     * :ref:`syntax error, unexpected token "{" <array-syntax-with-curly-braces-are-no-more>`
+    * :ref:`Returning null from %s::__debugInfo() is deprecated, return an empty array instead <__debuginfo()-nullable-return-type-is-deprecated>`
     * :ref:`Constant SUNFUNCS_RET_TIMESTAMP is deprecated  <constant-%s-is-deprecated>`
     * :ref:`Cannot use %s as array <destructuring-non-arrays>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
@@ -61,6 +66,7 @@ PHP Error Messages
     * :ref:`Generator return type must be a supertype of Generator <generators-don't-return>`
     * :ref:`get_called_class() called from outside a class <get_called_class()-cannot-be-called-outside-a-class>`
     * :ref:`Calling get_class() without arguments is deprecated <get_class()-needs-an-argument>`
+    * :ref:`getenv(): Argument #1 ($name) must not contain any null bytes <getenv()-rejects-nul-bytes-in-the-variable-name>`
     * :ref:`syntax error, unexpected token "->", expecting "," or ";" <no-dynamic-global-variables>`
     * :ref:`Cannot acquire reference to $GLOBALS <no-reference-to-$globals-variable>`
     * :ref:`syntax error, unexpected end of file <heredoc-syntax-in-an-array>`
@@ -85,6 +91,7 @@ PHP Error Messages
     * :ref:`Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given <iterator_count()-also-count-arrays>`
     * :ref:`syntax error, unexpected token "--", expecting "{" <keywords-in-namespace>`
     * :ref:`Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default <libxml_disable_entity_loader()-is-deprecated>`
+    * :ref:`linkinfo(): Argument #1 ($path) must not be empty <linkinfo()-rejects-an-empty-path>`
     * :ref:`Duplicate value in enum A for cases A and B <duplicate-enum-cases-are-not-linted-anymore>`
     * :ref:`Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array <covariance-and-contravariance-are-fatal>`
     * :ref:`syntax error, unexpected token "match", expecting "(" <match-is-now-a-keyword>`
@@ -119,6 +126,7 @@ PHP Error Messages
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
+    * :ref:`pathinfo(): Argument #2 ($flags) must be one of the PATHINFO_* constants <pathinfo()-validates-its-flags-argument>`
     * :ref:`Unknown format specifier "Z" <printf()-warns-about-unknown-formats>`
     * :ref:`range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 <range()-uses-single-byte-strings>`
     * :ref:`range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0  <range()-with-int-and-string>`

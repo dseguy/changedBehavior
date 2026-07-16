@@ -34,6 +34,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_with_string_initialisation.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayChangeKeyCaseValueError.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayFilterModeValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayProdChecks.html</loc>
  </url>
  <url>
@@ -44,6 +50,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertThrows.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/asymmetricStatic.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html</loc>
@@ -112,6 +121,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ConstantInTrait.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constructorReturnDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constWithObjects.html</loc>
  </url>
  <url>
@@ -137,6 +149,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/datetimeWithMultipleSigns.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/debugInfoNullableDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/deprecatedConstant.html</loc>
@@ -238,6 +253,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_defined_functions.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/getenvNullByteValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/getObjectVars.html</loc>
  </url>
  <url>
@@ -289,6 +307,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/inegalityComparison.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/iniGetAllBuiltinDefault.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/initReadonlyInChild.html</loc>
  </url>
  <url>
@@ -335,6 +356,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/libxml_disable_entity_loader.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/linkinfoEmptyPathValueError.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/linted_enum.html</loc>
@@ -452,6 +476,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/pathinfoFlagsValueError.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html</loc>
@@ -626,6 +653,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/traitWithConstants.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/trimFormFeed.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/typedClassConstant.html</loc>
