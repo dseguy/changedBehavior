@@ -1,0 +1,1 @@
+putenv(): Argument #1 ($assignment) must not contain any null bytes
