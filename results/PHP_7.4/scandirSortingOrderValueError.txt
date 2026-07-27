@@ -1,0 +1,10 @@
+array(4) {
+  [0]=>
+  string(5) "b.txt"
+  [1]=>
+  string(5) "a.txt"
+  [2]=>
+  string(2) ".."
+  [3]=>
+  string(1) "."
+}
