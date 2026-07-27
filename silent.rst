@@ -32,6 +32,7 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`reflection-doesn't-return-self`
     * :ref:`reflection-doesn't-return-static`
+    * :ref:`session-cookies-default-to-secure-settings`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`spaceship-operator-results`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`

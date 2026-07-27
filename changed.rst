@@ -60,7 +60,9 @@ PHP Changed Behavior
    behavior/destructuringNonArray.rst
    behavior/die-exit-functions.rst
    behavior/dirWithNull.rst
+   behavior/dlNullByteValueError.rst
    behavior/dollar_curly_expression.rst
+   behavior/domAsymmetricVisibility.rst
    behavior/dotAndBitshift.rst
    behavior/dotAndMinus.rst
    behavior/dotAndPlus.rst
@@ -156,18 +158,23 @@ PHP Changed Behavior
    behavior/NullAsArray.rst
    behavior/NullAsArrayOffset.rst
    behavior/NullWithArrayKeyExists.rst
+   behavior/numberFormatDecimalsValueError.rst
    behavior/octalNonConvertible.rst
    behavior/OldConstructors.rst
    behavior/oldStyleConstructor.rst
    behavior/onlyFirstByte.rst
+   behavior/openlogNullByteValueError.rst
    behavior/OptionalParameterLast.rst
    behavior/orphanedParent.rst
    behavior/parentInCallable.rst
+   behavior/parseStrNullByteValueError.rst
    behavior/passingObjectIsDeprecated.rst
    behavior/pathinfoFlagsValueError.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
    behavior/printfWarning.rst
+   behavior/procOpenCwdNullByteValueError.rst
+   behavior/putenvNullByteValueError.rst
    behavior/rangeSingleByteString.rst
    behavior/rangeWithAllStrings.rst
    behavior/rangeWithIntAndString.rst
@@ -180,7 +187,9 @@ PHP Changed Behavior
    behavior/return_reference_on_void.rst
    behavior/returnTypeEnforce.rst
    behavior/roundParameterValidation.rst
+   behavior/scandirSortingOrderValueError.rst
    behavior/selfInCallable.rst
+   behavior/sessionSecurityDefaults.rst
    behavior/set_state_must_be_static.rst
    behavior/setExceptionHandlerType.rst
    behavior/setlocale_with_float.rst

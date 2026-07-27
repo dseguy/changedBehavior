@@ -1,0 +1,1 @@
+dl(): Argument #1 ($extension_filename) must not contain any null bytes

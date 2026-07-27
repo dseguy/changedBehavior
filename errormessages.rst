@@ -46,6 +46,7 @@ PHP Error Messages
     * :ref:`Cannot use %s as array <destructuring-non-arrays>`
     * :ref:`Call to undefined function exit() <die-and-exit-as-functions>`
     * :ref:`Passing null to parameter #1 ($directory) of type string is deprecated <no-more-dir()-with-null>`
+    * :ref:`dl(): Argument #1 ($extension_filename) must not contain any null bytes <dl()-rejects-nul-bytes-in-the-extension-filename>`
     * :ref:`Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead <${expression}-is-deprecated>`
     * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <dot-and-plus-changed-precedence>`
     * :ref:`Duplicate declaration of static variable $%s <duplicate-static-definition>`
@@ -119,15 +120,20 @@ PHP Error Messages
     * :ref:`Current function is not a closure <not-in-a-closure>`
     * :ref:`Using null as an array offset is deprecated, use an empty string instead <null-as-array-offset>`
     * :ref:`Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead <null-with-array_key_exists()>`
+    * :ref:`number_format(): Argument #2 ($decimals) must be between -2147483648 and 2147483647 <number_format()-validates-its-decimals-argument-range>`
     * :ref:`Methods with the same name as their class will not be constructors in a future version of PHP <old-constructors>`
     * :ref:`Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor <old-style-constructor>`
     * :ref:`Only the first byte will be assigned to the string offset <only-first-byte>`
+    * :ref:`openlog(): Argument #1 ($prefix) must not contain any null bytes <openlog()-rejects-nul-bytes-in-the-prefix>`
     * :ref:`Required parameter $%s follows optional parameter $%s <optional-parameter-are-after-compulsory-parameters>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
+    * :ref:`parse_str(): Argument #1 ($string) must not contain any null bytes <parse_str()-rejects-nul-bytes-in-the-query-string>`
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
     * :ref:`pathinfo(): Argument #2 ($flags) must be one of the PATHINFO_* constants <pathinfo()-validates-its-flags-argument>`
     * :ref:`Unknown format specifier "Z" <printf()-warns-about-unknown-formats>`
+    * :ref:`proc_open(): Argument #4 ($cwd) must not contain any null bytes <proc_open()-rejects-nul-bytes-in-the-working-directory>`
+    * :ref:`putenv(): Argument #1 ($assignment) must not contain any null bytes <putenv()-rejects-nul-bytes-in-the-assignment>`
     * :ref:`range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0 <range()-uses-single-byte-strings>`
     * :ref:`range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0  <range()-with-int-and-string>`
     * :ref:`The (real) cast is deprecated, use (float) instead <(real)-is-replaced-by-(float)>`
@@ -137,6 +143,7 @@ PHP Error Messages
     * :ref:`Returning by reference from a void function is deprecated <return-reference-on-void>`
     * :ref:`Return type of x::current() should either be compatible with Iterator::current(): mixed <php-native-return-types-are-now-enforced>`
     * :ref:`must be a valid rounding mode (RoundingMode::*) <round()-mode-validation>`
+    * :ref:`scandir(): Argument #2 ($sorting_order) must be one of the SCANDIR_SORT_ASCENDING, SCANDIR_SORT_DESCENDING, or SCANDIR_SORT_NONE constants <scandir()-validates-its-sorting-order-argument>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given <set_exception_handler()-must-update-its-type-to-throwable>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`

@@ -166,7 +166,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dirWithNull.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dlNullByteValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/domAsymmetricVisibility.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html</loc>
@@ -454,6 +460,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullWithArrayKeyExists.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/numberFormatDecimalsValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/octalNonConvertible.html</loc>
  </url>
  <url>
@@ -466,6 +475,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/onlyFirstByte.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/openlogNullByteValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html</loc>
  </url>
  <url>
@@ -473,6 +485,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/parentInCallable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/parseStrNullByteValueError.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html</loc>
@@ -488,6 +503,12 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/printfWarning.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/procOpenCwdNullByteValueError.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/putenvNullByteValueError.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeSingleByteString.html</loc>
@@ -526,7 +547,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/roundParameterValidation.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/scandirSortingOrderValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/selfInCallable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sessionSecurityDefaults.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/set_state_must_be_static.html</loc>

@@ -1,0 +1,4 @@
+PHP Warning:  dl(): Dynamically loaded extensions aren't enabled in /codes/dlNullByteValueError.php on line 4
+
+Warning: dl(): Dynamically loaded extensions aren't enabled in /codes/dlNullByteValueError.php on line 4
+bool(false)

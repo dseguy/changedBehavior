@@ -20,12 +20,21 @@ Per PHP version
     * :ref:`static-cannot-be-used-anymore-in-callable-arrays`
     * :ref:`strpos()-with-null-haystack`
 * 8.6
+    * :ref:`dom-readonly-properties-use-asymmetric-visibility`
+    * :ref:`session-cookies-default-to-secure-settings`
     * :ref:`array_change_key_case()-validates-its-case-argument`
     * :ref:`array_filter()-validates-its-mode-argument`
+    * :ref:`dl()-rejects-nul-bytes-in-the-extension-filename`
     * :ref:`getenv()-rejects-nul-bytes-in-the-variable-name`
     * :ref:`ini_get_all()-includes-the-built-in-default-value`
     * :ref:`linkinfo()-rejects-an-empty-path`
+    * :ref:`number_format()-validates-its-decimals-argument-range`
+    * :ref:`openlog()-rejects-nul-bytes-in-the-prefix`
+    * :ref:`parse_str()-rejects-nul-bytes-in-the-query-string`
     * :ref:`pathinfo()-validates-its-flags-argument`
+    * :ref:`proc_open()-rejects-nul-bytes-in-the-working-directory`
+    * :ref:`putenv()-rejects-nul-bytes-in-the-assignment`
+    * :ref:`scandir()-validates-its-sorting-order-argument`
     * :ref:`trim()-strips-form-feed-by-default`
 * 8.5-
     * :ref:`static-properties-with-asymmetric-visibility`
