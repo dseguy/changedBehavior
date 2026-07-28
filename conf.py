@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP Changed Behaviors'
-copyright = '2023-2025, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
+copyright = '2023-2026, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
 author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
