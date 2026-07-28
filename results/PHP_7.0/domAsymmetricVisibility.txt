@@ -1,0 +1,3 @@
+PHP Fatal error:  main(): Cannot write property in /codes/domAsymmetricVisibility.php on line 7
+
+Fatal error: main(): Cannot write property in /codes/domAsymmetricVisibility.php on line 7

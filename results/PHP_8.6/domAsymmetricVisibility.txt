@@ -1,0 +1,1 @@
+Error: Cannot modify private(set) property DOMDocument::$xmlEncoding from global scope
