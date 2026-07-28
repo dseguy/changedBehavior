@@ -1,0 +1,1 @@
+openlog(): Argument #1 ($prefix) must not contain any null bytes
