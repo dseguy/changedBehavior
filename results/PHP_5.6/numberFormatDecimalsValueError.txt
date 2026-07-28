@@ -1,0 +1,7 @@
+PHP Notice:  Use of undefined constant PHP_INT_MIN - assumed 'PHP_INT_MIN' in /codes/numberFormatDecimalsValueError.php on line 4
+
+Notice: Use of undefined constant PHP_INT_MIN - assumed 'PHP_INT_MIN' in /codes/numberFormatDecimalsValueError.php on line 4
+PHP Warning:  number_format() expects parameter 2 to be long, string given in /codes/numberFormatDecimalsValueError.php on line 4
+
+Warning: number_format() expects parameter 2 to be long, string given in /codes/numberFormatDecimalsValueError.php on line 4
+NULL
