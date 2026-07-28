@@ -1,0 +1,1 @@
+parse_str(): Argument #1 ($string) must not contain any null bytes
