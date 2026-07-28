@@ -1,0 +1,1 @@
+proc_open(): Argument #4 ($cwd) must not contain any null bytes
