@@ -1,0 +1,3 @@
+PHP Fatal error:  Constant expression contains invalid operations in /codes/constantExpressionMethodNameResolution85.php on line 7
+
+Fatal error: Constant expression contains invalid operations in /codes/constantExpressionMethodNameResolution85.php on line 7

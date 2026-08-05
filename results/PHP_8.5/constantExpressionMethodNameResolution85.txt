@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot use dynamic method name in constant expression in /codes/constantExpressionMethodNameResolution85.php on line 7
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot use dynamic method name in constant expression in /codes/constantExpressionMethodNameResolution85.php on line 7
+Stack trace:
+#0 {main}
