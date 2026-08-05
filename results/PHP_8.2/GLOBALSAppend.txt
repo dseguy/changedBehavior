@@ -1,0 +1,3 @@
+PHP Fatal error:  Cannot append to $GLOBALS in /codes/GLOBALSAppend.php on line 3
+
+Fatal error: Cannot append to $GLOBALS in /codes/GLOBALSAppend.php on line 3

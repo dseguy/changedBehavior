@@ -1,0 +1,7 @@
+PHP Fatal error:  Cannot append to $GLOBALS in /codes/GLOBALSAppend.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Cannot append to $GLOBALS in /codes/GLOBALSAppend.php on line 3
+Stack trace:
+#0 {main}
