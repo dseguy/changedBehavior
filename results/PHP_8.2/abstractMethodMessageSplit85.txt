@@ -1,0 +1,3 @@
+PHP Fatal error:  Enum Suit must implement 1 abstract private method (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7
+
+Fatal error: Enum Suit must implement 1 abstract private method (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7

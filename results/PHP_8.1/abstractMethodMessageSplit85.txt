@@ -1,0 +1,3 @@
+PHP Fatal error:  Class Suit contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7
+
+Fatal error: Class Suit contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7

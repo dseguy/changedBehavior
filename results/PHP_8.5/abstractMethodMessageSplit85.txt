@@ -1,0 +1,7 @@
+PHP Fatal error:  Enum Suit must implement 1 abstract method (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7
+Stack trace:
+#0 {main}
+
+Fatal error: Enum Suit must implement 1 abstract method (Colorful::color) in /codes/abstractMethodMessageSplit85.php on line 7
+Stack trace:
+#0 {main}
