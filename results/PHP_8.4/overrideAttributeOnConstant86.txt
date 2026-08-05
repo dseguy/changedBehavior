@@ -1,0 +1,3 @@
+PHP Fatal error:  Attribute "Override" cannot target class constant (allowed targets: method) in /codes/overrideAttributeOnConstant86.php on line 9
+
+Fatal error: Attribute "Override" cannot target class constant (allowed targets: method) in /codes/overrideAttributeOnConstant86.php on line 9
