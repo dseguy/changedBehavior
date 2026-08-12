@@ -1,0 +1,4 @@
+PHP Warning:  Declaration of WatchfulStorage::getHash(object $object): string should be compatible with SplObjectStorage::getHash($object) in /codes/splObjectStorageGetHashMutation86.php on line 5
+
+Warning: Declaration of WatchfulStorage::getHash(object $object): string should be compatible with SplObjectStorage::getHash($object) in /codes/splObjectStorageGetHashMutation86.php on line 5
+offsetSet succeeded, sideStorage count=1
