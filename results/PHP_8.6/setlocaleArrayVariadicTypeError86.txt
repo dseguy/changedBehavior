@@ -1,0 +1,1 @@
+TypeError: setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, 3 given
