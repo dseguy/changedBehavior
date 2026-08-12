@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Object stdClass#2 not contained in WeakMap in /codes/weakMapReferenceAssign86.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/weakMapReferenceAssign86.php on line 6
+
+Fatal error: Uncaught Error: Object stdClass#2 not contained in WeakMap in /codes/weakMapReferenceAssign86.php:6
+Stack trace:
+#0 {main}
+  thrown in /codes/weakMapReferenceAssign86.php on line 6

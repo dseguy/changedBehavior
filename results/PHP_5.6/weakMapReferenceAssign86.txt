@@ -1,0 +1,3 @@
+PHP Fatal error:  Class 'WeakMap' not found in /codes/weakMapReferenceAssign86.php on line 3
+
+Fatal error: Class 'WeakMap' not found in /codes/weakMapReferenceAssign86.php on line 3
