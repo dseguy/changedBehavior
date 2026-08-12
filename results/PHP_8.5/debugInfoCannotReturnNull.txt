@@ -1,0 +1,5 @@
+PHP Deprecated:  Returning null from x::__debugInfo() is deprecated, return an empty array instead in /codes/debugInfoCannotReturnNull.php on line 9
+
+Deprecated: Returning null from x::__debugInfo() is deprecated, return an empty array instead in /codes/debugInfoCannotReturnNull.php on line 9
+object(x)#1 (0) {
+}
