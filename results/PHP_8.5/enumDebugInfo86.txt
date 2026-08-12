@@ -1,0 +1,7 @@
+PHP Fatal error:  Enum Suit cannot include magic method __debugInfo in /codes/enumDebugInfo86.php on line 3
+Stack trace:
+#0 {main}
+
+Fatal error: Enum Suit cannot include magic method __debugInfo in /codes/enumDebugInfo86.php on line 3
+Stack trace:
+#0 {main}

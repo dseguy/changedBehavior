@@ -1,0 +1,4 @@
+enum(Suit::Hearts) (1) {
+  ["custom"]=>
+  string(6) "Hearts"
+}
