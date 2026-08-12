@@ -1,0 +1,2 @@
+__isset(x) called
+string(21) "materialized-by-isset"

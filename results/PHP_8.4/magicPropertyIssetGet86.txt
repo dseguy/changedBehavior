@@ -1,0 +1,3 @@
+__isset(x) called
+__get(x) called
+string(10) "from __get"
