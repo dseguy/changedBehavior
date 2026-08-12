@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Call to undefined function sodium_crypto_pwhash_str() in /codes/sodiumPwhashValueError86.php:4
+Stack trace:
+#0 {main}
+  thrown in /codes/sodiumPwhashValueError86.php on line 4
+
+Fatal error: Uncaught Error: Call to undefined function sodium_crypto_pwhash_str() in /codes/sodiumPwhashValueError86.php:4
+Stack trace:
+#0 {main}
+  thrown in /codes/sodiumPwhashValueError86.php on line 4

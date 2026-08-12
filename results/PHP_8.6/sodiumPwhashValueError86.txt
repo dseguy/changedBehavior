@@ -1,0 +1,1 @@
+ValueError: sodium_crypto_pwhash_str(): Argument #3 ($memlimit) must be greater than or equal to 8192
