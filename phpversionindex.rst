@@ -21,21 +21,35 @@ Per PHP version
     * :ref:`strpos()-with-null-haystack`
 * 8.6
     * :ref:`dom-readonly-properties-use-asymmetric-visibility`
+    * :ref:`enums-may-now-define-__debuginfo()`
+    * :ref:`gmp-shift-operators-validate-a-gmp-right-operand`
+    * :ref:`override-attribute-extended-to-class-constants-and-enum-cases`
     * :ref:`session-cookies-default-to-secure-settings`
+    * :ref:`splfileobject::next()-always-advances-the-stream`
+    * :ref:`splobjectstorage::gethash()-may-no-longer-mutate-storage`
+    * :ref:`weakmap-allows-reference-assignment-to-a-missing-key`
     * :ref:`array_change_key_case()-validates-its-case-argument`
     * :ref:`array_filter()-validates-its-mode-argument`
+    * :ref:`array_intersect()-converts-values-while-scanning-inputs`
     * :ref:`dl()-rejects-nul-bytes-in-the-extension-filename`
     * :ref:`getenv()-rejects-nul-bytes-in-the-variable-name`
+    * :ref:`hexdec()-warns-when-the-result-loses-precision`
     * :ref:`ini_get_all()-includes-the-built-in-default-value`
+    * :ref:`isset()-materialized-magic-property-skips-__get()`
     * :ref:`linkinfo()-rejects-an-empty-path`
+    * :ref:`namespace-is-not-valid-as-a-class-constant-name`
     * :ref:`number_format()-validates-its-decimals-argument-range`
     * :ref:`openlog()-rejects-nul-bytes-in-the-prefix`
     * :ref:`parse_str()-rejects-nul-bytes-in-the-query-string`
     * :ref:`pathinfo()-validates-its-flags-argument`
+    * :ref:`preg_grep()-returns-false-on-a-pcre-execution-error`
     * :ref:`proc_open()-rejects-nul-bytes-in-the-working-directory`
     * :ref:`putenv()-rejects-nul-bytes-in-the-assignment`
     * :ref:`scandir()-validates-its-sorting-order-argument`
+    * :ref:`setlocale()-rejects-extra-arguments-when-$locales-is-an-array`
+    * :ref:`sodium_crypto_pwhash_str()-throws-valueerror-for-out-of-range-limits`
     * :ref:`trim()-strips-form-feed-by-default`
+    * :ref:`usleep()-validates-its-microseconds-argument-range`
 * 8.5-
     * :ref:`static-properties-with-asymmetric-visibility`
 * 8.5
@@ -46,12 +60,16 @@ Per PHP version
     * :ref:`destructuring-non-arrays`
     * :ref:`e_user_error-is-deprecated`
     * :ref:`final-promoted-properties`
+    * :ref:`first-class-callables-inside-constant-expressions-must-resolve-to-a-literal-method-name`
     * :ref:`increment-non-alphanumeric`
+    * :ref:`magic-method-__debuginfo()-cannot-return-null`
     * :ref:`no-case-with-a-semi-colon`
     * :ref:`non-canonical-cast`
     * :ref:`not-in-a-closure`
     * :ref:`null-as-array-offset`
     * :ref:`null-with-array_key_exists()`
+    * :ref:`override-attribute-extended-to-properties`
+    * :ref:`php-8.5-split-the-missing-abstract-method-message-by-declaration-kind`
     * :ref:`reflection-doesn't-return-self`
     * :ref:`reflection-doesn't-return-static`
     * :ref:`array-and-callable-cannot-be-absolute`
@@ -113,6 +131,7 @@ Per PHP version
 * 8.1
     * :ref:`$globals-assignement`
     * :ref:`accessing-directly-properties-in-trait`
+    * :ref:`appending-to-$globals`
     * :ref:`cannot-explode()-null`
     * :ref:`clone-a-constant`
     * :ref:`constants-with-objects`

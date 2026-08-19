@@ -7,6 +7,7 @@ PHP Changed Behavior
 
    behavior/absolute_array.rst
    behavior/absoluteArrayName.rst
+   behavior/abstractMethodMessageSplit85.rst
    behavior/abstractPrivateMethodInTrait.rst
    behavior/accessTraitsDirectly.rst
    behavior/aliasReplace.rst
@@ -18,6 +19,7 @@ PHP Changed Behavior
    behavior/array_with_string_initialisation.rst
    behavior/arrayChangeKeyCaseValueError.rst
    behavior/arrayFilterModeValueError.rst
+   behavior/arrayIntersectConversionTiming86.rst
    behavior/arrayProdChecks.rst
    behavior/arraySumChecks.rst
    behavior/assertIsReserved.rst
@@ -43,6 +45,7 @@ PHP Changed Behavior
    behavior/cloneConstant.rst
    behavior/cloneReadonly.rst
    behavior/compactThrowsNotice.rst
+   behavior/constantExpressionMethodNameResolution85.rst
    behavior/constantFromInterfaceVisibilityCheck.rst
    behavior/ConstantInTrait.rst
    behavior/constructorReturnDeprecated.rst
@@ -55,6 +58,7 @@ PHP Changed Behavior
    behavior/curl_init.rst
    behavior/curly_braces.rst
    behavior/datetimeWithMultipleSigns.rst
+   behavior/debugInfoCannotReturnNull.rst
    behavior/debugInfoNullableDeprecated.rst
    behavior/deprecatedConstant.rst
    behavior/destructuringNonArray.rst
@@ -74,6 +78,7 @@ PHP Changed Behavior
    behavior/each.rst
    behavior/enforceNativeReturnType.rst
    behavior/enforceSplReturnType.rst
+   behavior/enumDebugInfo86.rst
    behavior/EvalWithouTry.rst
    behavior/explodeWithEmptyString.rst
    behavior/explodeWithNull.rst
@@ -94,9 +99,12 @@ PHP Changed Behavior
    behavior/getenvNullByteValueError.rst
    behavior/getObjectVars.rst
    behavior/globalDynamicVariable.rst
+   behavior/GLOBALSAppend.rst
    behavior/GLOBALSAssignement.rst
    behavior/GLOBALSCopy.rst
+   behavior/gmpShiftValueError86.rst
    behavior/heredoc_in_array.rst
+   behavior/hexdecImpreciseNotice86.rst
    behavior/htmlspecialchars81.rst
    behavior/http_build_query_and_enum.rst
    behavior/http_response_header.rst
@@ -130,6 +138,7 @@ PHP Changed Behavior
    behavior/linted_enum.rst
    behavior/liskovPrinciple.rst
    behavior/magicConstantInClosure.rst
+   behavior/magicPropertyIssetGet86.rst
    behavior/matchKeyword.rst
    behavior/maxOnEmpty.rst
    behavior/maxOnEmptyArray.rst
@@ -142,6 +151,7 @@ PHP Changed Behavior
    behavior/mixedKeyword.rst
    behavior/MultilineQualifiedName.rst
    behavior/named_parameters_and_variadic.rst
+   behavior/namespaceClassConst.rst
    behavior/negativeIndex.rst
    behavior/negativeOffsetOnStrings.rst
    behavior/nestedAttributes.rst
@@ -166,12 +176,15 @@ PHP Changed Behavior
    behavior/openlogNullByteValueError.rst
    behavior/OptionalParameterLast.rst
    behavior/orphanedParent.rst
+   behavior/overrideAttributeOnConstant86.rst
+   behavior/overrideAttributeOnProperty85.rst
    behavior/parentInCallable.rst
    behavior/parseStrNullByteValueError.rst
    behavior/passingObjectIsDeprecated.rst
    behavior/pathinfoFlagsValueError.rst
    behavior/php_errormsg.rst
    behavior/plusConcatPrecedence.rst
+   behavior/pregGrepPcreError86.rst
    behavior/printfWarning.rst
    behavior/procOpenCwdNullByteValueError.rst
    behavior/putenvNullByteValueError.rst
@@ -193,11 +206,15 @@ PHP Changed Behavior
    behavior/set_state_must_be_static.rst
    behavior/setExceptionHandlerType.rst
    behavior/setlocale_with_float.rst
+   behavior/setlocaleArrayVariadicTypeError86.rst
+   behavior/sodiumPwhashValueError86.rst
    behavior/sort.rst
    behavior/sortClosureReturnType.rst
    behavior/spaces_in_namespaces.rst
    behavior/spaceship.rst
+   behavior/splFileObjectNextCaching86.rst
    behavior/splfixedarray.rst
+   behavior/splObjectStorageGetHashMutation86.rst
    behavior/staticClosureBinding.rst
    behavior/staticInCallable.rst
    behavior/staticInInheritedMethods.rst
@@ -243,11 +260,13 @@ PHP Changed Behavior
    behavior/unserialize_notice.rst
    behavior/unserialize_S.rst
    behavior/unset_cast.rst
+   behavior/usleepOverflowValueError86.rst
    behavior/var_export.rst
    behavior/var_export_stdclass.rst
    behavior/version_compare.rst
    behavior/vsprintfRequiresAnArray.rst
    behavior/vsprintfReturnsEmptyString.rst
+   behavior/weakMapReferenceAssign86.rst
    behavior/while_list_each.rst
    behavior/yield_comment_from.rst
    behavior/mustYieldIntOrStringKeys.rst

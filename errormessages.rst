@@ -2,6 +2,9 @@ PHP Error Messages
 --------------------
     * :ref:`Cannot use "array" as a type name as it is reserved <array-and-callable-cannot-be-absolute>`
     * :ref:`Cannot use "%s" as a type name as it is reserved <array-has-no-absolute-name>`
+    * :ref:`%s %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining method%s ( <php-8.5-split-the-missing-abstract-method-message-by-declaration-kind>`
+    * :ref:`%s %s must implement %d abstract method%s ( <php-8.5-split-the-missing-abstract-method-message-by-declaration-kind>`
+    * :ref:`%s method %s::%s() must not be abstract <php-8.5-split-the-missing-abstract-method-message-by-declaration-kind>`
     * :ref:`Abstract function t::foo() cannot be declared private <no-abstract-private-method-in-traits>`
     * :ref:`Calling static trait method t::foo is deprecated, it should only be called on a class using the trait <cannot-call-traits-methods-directly>`
     * :ref:`Cannot use%s %s as %s because the name is already in use <alias-replace-class>`
@@ -33,6 +36,8 @@ PHP Error Messages
     * :ref:`__clone method called on non-object <clone-a-constant>`
     * :ref:`Cannot modify readonly property %s::$%s <can-clone-readonly-properties>`
     * :ref:`Undefined variable <$php_errormsg-has-been-removed>`
+    * :ref:`Cannot use dynamic method name in constant expression <first-class-callables-inside-constant-expressions-must-resolve-to-a-literal-method-name>`
+    * :ref:`Illegal method name <first-class-callables-inside-constant-expressions-must-resolve-to-a-literal-method-name>`
     * :ref:`Access level to x::IPri must be public (as in interface i) <interface-imported-constant-visibility-is-checked>`
     * :ref:`Traits cannot have constants <constants-in-traits>`
     * :ref:`Returning a value from a constructor is deprecated <returning-a-value-from-a-constructor-is-deprecated>`
@@ -69,8 +74,11 @@ PHP Error Messages
     * :ref:`Calling get_class() without arguments is deprecated <get_class()-needs-an-argument>`
     * :ref:`getenv(): Argument #1 ($name) must not contain any null bytes <getenv()-rejects-nul-bytes-in-the-variable-name>`
     * :ref:`syntax error, unexpected token "->", expecting "," or ";" <no-dynamic-global-variables>`
+    * :ref:`Cannot append to $GLOBALS <appending-to-$globals>`
     * :ref:`Cannot acquire reference to $GLOBALS <no-reference-to-$globals-variable>`
+    * :ref:`Shift must be between 0 and 18446744073709551615 <gmp-shift-operators-validate-a-gmp-right-operand>`
     * :ref:`syntax error, unexpected end of file <heredoc-syntax-in-an-array>`
+    * :ref:`Input number is larger than PHP_INT_MAX, precision has been lost in conversion <hexdec()-warns-when-the-result-loses-precision>`
     * :ref:`The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead <$http_response_header-is-deprecated>`
     * :ref:`Implicit conversion from float 15.5 to int loses precision <implicit-array-key-conversion>`
     * :ref:`Default value for property of type int may not be null. Use the nullable type ?int to allow null default value <implicit-nullable>`
@@ -106,6 +114,7 @@ PHP Error Messages
     * :ref:`syntax error, unexpected ';', expecting '{' <no-new-line-in-namespaces>`
     * :ref:`syntax error, unexpected fully qualified name "\B"  <no-new-line-in-namespaces>`
     * :ref:`Cannot combine named arguments and argument unpacking <named-parameters-and-variadic>`
+    * :ref:`Declaring class constant called 'namespace' is deprecated <namespace-is-not-valid-as-a-class-constant-name>`
     * :ref:`Uninitialized string offset: -1 <negative-index-on-strings>`
     * :ref:`A never-returning function must not return <never-arrow-function>`
     * :ref:`syntax error, unexpected token "(" <direct-calls-on-new>`
@@ -127,6 +136,8 @@ PHP Error Messages
     * :ref:`openlog(): Argument #1 ($prefix) must not contain any null bytes <openlog()-rejects-nul-bytes-in-the-prefix>`
     * :ref:`Required parameter $%s follows optional parameter $%s <optional-parameter-are-after-compulsory-parameters>`
     * :ref:`Cannot use "parent" when current class scope has no parent <orphaned-parent>`
+    * :ref:`%s::%s has #[\Override] attribute <override-attribute-extended-to-class-constants-and-enum-cases>`
+    * :ref:`%s::$%s has #[\Override] attribute <override-attribute-extended-to-properties>`
     * :ref:`Use of "parent" in callables is deprecated <parent-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`parse_str(): Argument #1 ($string) must not contain any null bytes <parse_str()-rejects-nul-bytes-in-the-query-string>`
     * :ref:`Calling %s() on an object is deprecated <passing-objects-is-deprecated>`
@@ -146,8 +157,11 @@ PHP Error Messages
     * :ref:`scandir(): Argument #2 ($sorting_order) must be one of the SCANDIR_SORT_ASCENDING, SCANDIR_SORT_DESCENDING, or SCANDIR_SORT_NONE constants <scandir()-validates-its-sorting-order-argument>`
     * :ref:`Method x::__set_state() must be static <__set_state()-method-must-be-static>`
     * :ref:`foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given <set_exception_handler()-must-update-its-type-to-throwable>`
+    * :ref:`setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, 3 given <setlocale()-rejects-extra-arguments-when-$locales-is-an-array>`
+    * :ref:`sodium_crypto_pwhash_str(): Argument #3 ($memlimit) must be greater than or equal to 8192 <sodium_crypto_pwhash_str()-throws-valueerror-for-out-of-range-limits>`
     * :ref:`usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero <sorting-closure-must-return-integers>`
     * :ref:`syntax error, unexpected fully qualified name "\Package", expecting "{" <spaces-in-namespaces>`
+    * :ref:`Modification of SplObjectStorage during getHash() is prohibited <splobjectstorage::gethash()-may-no-longer-mutate-storage>`
     * :ref:`Cannot bind an instance to a static closure <cannot-bind-$this-to-static-closure>`
     * :ref:`Use of "static" in callables is deprecated <static-cannot-be-used-anymore-in-callable-arrays>`
     * :ref:`strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <str_pos()-requires-only-strings>`
@@ -178,6 +192,7 @@ PHP Error Messages
     * :ref:`Error at offset 0 of 17 bytes <unserialize()-error-report>`
     * :ref:`Unserializing the 'S' format is deprecated <unserialize-with-the-upper-case-s-is-deprecated>`
     * :ref:`The (unset) cast is deprecated <(unset)-was-removed>`
+    * :ref:`ValueError: usleep(): Argument #1 ($microseconds) must be between 0 and 4294967295 <usleep()-validates-its-microseconds-argument-range>`
     * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version_compare()-stricter-operators>`
     * :ref:`Too few arguments <vsprint()-requires-an-array>`
     * :ref:`Argument #%d ($%s) must be of type %s, %s given <vsprint()-requires-an-array>`

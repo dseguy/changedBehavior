@@ -4,6 +4,7 @@ Silent changed behaviors
 These changes do not emit any error. They are different between versions, but keeps executing the task. They might be only detected by actual inspection of the result.
     * :ref:`catch-without-variable`
     * :ref:`copy-of-$globals`
+    * :ref:`array_intersect()-converts-values-while-scanning-inputs`
     * :ref:`negative-automatic-index-from-empty-array`
     * :ref:`automatic-index-in-non-empty-array`
     * :ref:`bitshift-and-concat-precedence`
@@ -15,6 +16,7 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`finfo-moved-away-from-resource`
     * :ref:`func_get_arg()-changed-behavior`
     * :ref:`get_object_vars()-does-not-work-on-arrayobject`
+    * :ref:`hexdec()-warns-when-the-result-loses-precision`
     * :ref:`default-values-with-htmlspecialchars()`
     * :ref:`http_build_query()-supports-enumerations`
     * :ref:`in_array()-string-int-comparisons`
@@ -25,16 +27,19 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`ini_get_all()-includes-the-built-in-default-value`
     * :ref:`krsort()-places-integers-before-strings-in-keys`
     * :ref:`ksort()-now-places-integers-before-strings`
+    * :ref:`isset()-materialized-magic-property-skips-__get()`
     * :ref:`max()-on-string-and-integer`
     * :ref:`negative-index-on-strings`
     * :ref:`new-cases-in-switch`
     * :ref:`plus-and-concat-precedence`
+    * :ref:`preg_grep()-returns-false-on-a-pcre-execution-error`
     * :ref:`range()-lists-everything-between-strings`
     * :ref:`reflection-doesn't-return-self`
     * :ref:`reflection-doesn't-return-static`
     * :ref:`session-cookies-default-to-secure-settings`
     * :ref:`setlocale()-does-not-affect-echo-anymore`
     * :ref:`spaceship-operator-results`
+    * :ref:`splfileobject::next()-always-advances-the-stream`
     * :ref:`splfixedarray-is-now-an-iteratoraggregate`
     * :ref:`static-variables-are-linked-to-their-method`
     * :ref:`static-properties-with-references`
@@ -48,3 +53,4 @@ These changes do not emit any error. They are different between versions, but ke
     * :ref:`trim()-strips-form-feed-by-default`
     * :ref:`typed-class-constant`
     * :ref:`var_export()-format`
+    * :ref:`weakmap-allows-reference-assignment-to-a-missing-key`

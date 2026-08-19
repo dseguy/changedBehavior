@@ -7,6 +7,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/absoluteArrayName.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/abstractMethodMessageSplit85.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/abstractPrivateMethodInTrait.html</loc>
  </url>
  <url>
@@ -38,6 +41,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayFilterModeValueError.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayIntersectConversionTiming86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayProdChecks.html</loc>
@@ -115,6 +121,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantExpressionMethodNameResolution85.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantFromInterfaceVisibilityCheck.html</loc>
  </url>
  <url>
@@ -149,6 +158,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/datetimeWithMultipleSigns.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/debugInfoCannotReturnNull.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/debugInfoNullableDeprecated.html</loc>
@@ -206,6 +218,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enforceSplReturnType.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/enumDebugInfo86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/EvalWithouTry.html</loc>
@@ -268,13 +283,22 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAppend.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSCopy.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/gmpShiftValueError86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/heredoc_in_array.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/hexdecImpreciseNotice86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/htmlspecialchars81.html</loc>
@@ -376,6 +400,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/magicConstantInClosure.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/magicPropertyIssetGet86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/matchKeyword.html</loc>
  </url>
  <url>
@@ -410,6 +437,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/namespaceClassConst.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/negativeIndex.html</loc>
@@ -484,6 +514,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/overrideAttributeOnConstant86.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/overrideAttributeOnProperty85.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/parentInCallable.html</loc>
  </url>
  <url>
@@ -500,6 +536,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/plusConcatPrecedence.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/pregGrepPcreError86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/printfWarning.html</loc>
@@ -565,6 +604,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setlocale_with_float.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setlocaleArrayVariadicTypeError86.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sodiumPwhashValueError86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sort.html</loc>
  </url>
  <url>
@@ -577,7 +622,13 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/spaceship.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splFileObjectNextCaching86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splfixedarray.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splObjectStorageGetHashMutation86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticClosureBinding.html</loc>
@@ -715,6 +766,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unset_cast.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/usleepOverflowValueError86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/var_export.html</loc>
  </url>
  <url>
@@ -728,6 +782,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/vsprintfReturnsEmptyString.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/weakMapReferenceAssign86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/while_list_each.html</loc>

@@ -1,0 +1,4 @@
+PHP Deprecated:  Declaring class constant called 'namespace' is deprecated in /codes/namespaceClassConst.php on line 3
+
+Deprecated: Declaring class constant called 'namespace' is deprecated in /codes/namespaceClassConst.php on line 3
+1
