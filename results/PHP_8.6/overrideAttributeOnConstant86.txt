@@ -1,7 +1,7 @@
-PHP Fatal error:  Attribute "Override" cannot target class constant (allowed targets: method, property) in /codes/overrideAttributeOnConstant86.php on line 9
+PHP Fatal error:  Square::COLOR has #[\Override] attribute, but no matching parent constant exists in /codes/overrideAttributeOnConstant86.php on line 7
 Stack trace:
 #0 {main}
 
-Fatal error: Attribute "Override" cannot target class constant (allowed targets: method, property) in /codes/overrideAttributeOnConstant86.php on line 9
+Fatal error: Square::COLOR has #[\Override] attribute, but no matching parent constant exists in /codes/overrideAttributeOnConstant86.php on line 7
 Stack trace:
 #0 {main}

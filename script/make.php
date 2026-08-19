@@ -364,15 +364,19 @@ CODE;
 		$behavior[] = '';
 	}
 
-	if ((!empty($changedBehavior->analyzer[0])) && ($changedBehavior->analyzer[0] !== 'none')) {
-		$behavior[] = '';
-		$behavior[] = 'Analyzer';
-		$behavior[] = '_________';
-		$behavior[] = '';
-		foreach($changedBehavior->analyzer as $id) {
-			$behavior[] = '  + `'.$id.' <https://exakat.readthedocs.io/en/latest/Reference/Rules/'.$id.'.html>`_';
-		}
-		$behavior[] = '';
+    if (!isset($changedBehavior->analyzer) || !is_array($changedBehavior->analyzer)) {
+        print("analyzer is not an array in $file\n");
+    } else {
+	    if ((!empty($changedBehavior->analyzer[0])) && ($changedBehavior->analyzer[0] !== 'none')) {
+	    	$behavior[] = '';
+	    	$behavior[] = 'Analyzer';
+	    	$behavior[] = '_________';
+	    	$behavior[] = '';
+	    	foreach($changedBehavior->analyzer as $id) {
+	    		$behavior[] = '  + `'.$id.' <https://exakat.readthedocs.io/en/latest/Reference/Rules/'.$id.'.html>`_';
+	    	}
+	    	$behavior[] = '';
+	    }
 	}
 	
 	$behavior[] = '';

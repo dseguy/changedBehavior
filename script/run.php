@@ -4,17 +4,24 @@ if (isset($argv[1])) {
 	$script = preg_replace('#^(codes/)+#', 'codes/', $argv[1]);
 	
 	if (substr($argv[1], -4) === '.php') {
-		$scripts = array('codes/'.$argv[1]);	
+		$scripts = array($argv[1]);	
 	} else {
-		$scripts = array('codes/'.$argv[1].'.php');	
+		$scripts = array($argv[1].'.php');	
 	}
+
+	if (substr($scripts[0], 0, 6) !== 'codes/') {
+		$scripts = array('codes/'.$scripts[0]);	
+	}
+
+
 } else {
 	$scripts = glob('codes/*.php');
 }
 
 $begin = hrtime(true);
 
-$phps = array('PHP_8.6' => 'php86',
+$phps = array(//'PHP_8.7' => 'php87',
+ 			  'PHP_8.6' => 'php86',
  			  'PHP_8.5' => 'php85',
  			  'PHP_8.4' => 'php84',
  			  'PHP_8.3' => 'php83',

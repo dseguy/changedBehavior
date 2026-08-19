@@ -1,3 +1,0 @@
-PHP Parse error:  syntax error, unexpected identifier "eSquare" in /codes/overrideConstant.php on line 15
-
-Parse error: syntax error, unexpected identifier "eSquare" in /codes/overrideConstant.php on line 15

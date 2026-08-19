@@ -52,8 +52,8 @@ Array
             [TERMINFO] => /Applications/kitty.app/Contents/Resources/kitty/terminfo
             [PYTHONPATH] => /opt/homebrew/lib/python3.10/site-packages
             [LOGNAME] => famille
-            [KITTY_WINDOW_ID] => 15
             [KITTY_INSTALLATION_DIR] => /Applications/kitty.app/Contents/Resources/kitty
+            [KITTY_WINDOW_ID] => 25
             [OSLogRateLimit] => 64
             [SECURITYSESSIONID] => 186af
             [KITTY_PUBLIC_KEY] => 1:9v+Rj%Rf&%QHM4bkVW$6T_tjeUJYQ=qi`c~(z2f?
@@ -63,8 +63,8 @@ Array
             [SCRIPT_FILENAME] => codes/GLOBALSAppend.php
             [PATH_TRANSLATED] => codes/GLOBALSAppend.php
             [DOCUMENT_ROOT] => 
-            [REQUEST_TIME_FLOAT] => 1785946059.5377
-            [REQUEST_TIME] => 1785946059
+            [REQUEST_TIME_FLOAT] => 1786693707.249
+            [REQUEST_TIME] => 1786693707
             [argv] => Array
                 (
                     [0] => codes/GLOBALSAppend.php

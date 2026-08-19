@@ -1,6 +1,9 @@
-PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /codes/caseInsensitiveDefine.php on line 3
+PHP Deprecated:  define(): Argument #3 ($case_insensitive) is ignored and treated as false since declaration of case-insensitive constants is no longer supported, passing the argument explicitly is unnecessary in /codes/caseInsensitiveDefine.php on line 3
 
-Warning: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported in /codes/caseInsensitiveDefine.php on line 3
+Deprecated: define(): Argument #3 ($case_insensitive) is ignored and treated as false since declaration of case-insensitive constants is no longer supported, passing the argument explicitly is unnecessary in /codes/caseInsensitiveDefine.php on line 3
+PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported, this will be an error in PHP 9.0 in /codes/caseInsensitiveDefine.php on line 3
+
+Warning: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported, this will be an error in PHP 9.0 in /codes/caseInsensitiveDefine.php on line 3
 PHP Fatal error:  Uncaught Error: Undefined constant "a" in /codes/caseInsensitiveDefine.php:5
 Stack trace:
 #0 {main}
