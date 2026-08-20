@@ -1,12 +1,12 @@
 # Array Syntax With Curly Braces Are No More
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html","headline":"Array Syntax With Curly Braces Are No More","name":"Array Syntax With Curly Braces Are No More","description":"Until PHP 8.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html","inLanguage":"en","dateModified":"2026-08-12T07:13:58+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Array Syntax With Curly Braces Are No More"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html","headline":"Array Syntax With Curly Braces Are No More","name":"Array Syntax With Curly Braces Are No More","description":"Using the array syntax with curly braces used to yield a Fatal error, and a nice error message.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html","inLanguage":"en","dateModified":"2026-08-20T16:06:37+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Array Syntax With Curly Braces Are No More"}]}}</script>
 
-Until PHP 8.4, using the array syntax with curly braces yielded a Fatal error, and a nice error message. 
+Using the array syntax with curly braces used to yield a Fatal error, and a nice error message. 
 
 
 
-After that, it is downgraded to a syntax error.
+After PHP 8.4, it is downgraded to a simple syntax error.
 
 ## PHP code
 

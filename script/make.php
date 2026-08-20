@@ -52,6 +52,11 @@ function md_code_block(string $lang, string $content) : string {
 
 const SITE_URL = 'https://php-changed-behaviors.readthedocs.io/en/latest/';
 
+// IndexNow key (https://www.bing.com/indexnow/getstarted). Must match the
+// <key>.txt file this script writes to the site root for Bing to verify
+// ownership before accepting submissions from scripts/indexnow_submit.php.
+const INDEXNOW_KEY = ''; // TODO: paste the IndexNow key here
+
 // Per-page structured data. mdBook's theme/head.hbs supplies the generic
 // OG/Twitter tags via its own {{ title }} template var; this JSON-LD block
 // is what scripts/description.py and scripts/canonical.py (post-build,
@@ -155,11 +160,16 @@ uksort($tips, function (string $a, string $b) : int {
 $php = [];
 $errormessagelist = []; // title => id
 $silentList = [];       // id => title
+$indexNowUrls = [];
+$llmsEntries = [];      // title => "[title](url): description" line
 
 foreach ($tips as $id => $tip) {
     $title = rst_inline_to_md($tip->title);
     $description = rst_inline_to_md($tip->description ?? '');
     $description = str_replace("\n", "\n\n", $description);
+    $url = SITE_URL.'behavior/'.$id.'.html';
+    $firstSentence = trim(preg_split('/[.?;\n]/', $description)[0] ?? $title).'.';
+    $llmsEntries[$title] = '['.$title.']('.$url.'): '.$firstSentence;
 
     $page = [];
     $page[] = "# $title";
@@ -255,12 +265,42 @@ foreach ($tips as $id => $tip) {
 
     file_put_contents($outDir.'/behavior/'.$id.'.md', implode("\n", $page));
 
-    $sitemap->addItem(SITE_URL.'behavior/'.$id.'.html');
+    $sitemap->addItem($url);
+    $indexNowUrls[] = $url;
 }
 
 $sitemap->write();
 
+// -- IndexNow submission payload ---------------------------------------
+// Consumed by scripts/indexnow_submit.php (post-build) to notify Bing,
+// Yandex, Seznam and Naver of the current URL set without waiting for a
+// recrawl. Google does not participate in IndexNow.
+if (INDEXNOW_KEY === '') {
+    buildlog('Warning: INDEXNOW_KEY is empty, indexnow.json will not verify with Bing until it is set.');
+}
+
+$indexNowPayload = [
+    'host' => parse_url(SITE_URL, PHP_URL_HOST),
+    'key' => INDEXNOW_KEY,
+    'keyLocation' => SITE_URL.INDEXNOW_KEY.'.txt',
+    'urlList' => $indexNowUrls,
+];
+file_put_contents($outDir.'/indexnow.json', json_encode($indexNowPayload, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+
+if (INDEXNOW_KEY !== '') {
+    file_put_contents($outDir.'/'.INDEXNOW_KEY.'.txt', INDEXNOW_KEY);
+}
+
+// -- llms.txt -------------------------------------------------------------
+// Flat "[title](url): description" index for AI crawlers/agents, one line
+// per behavior page, sorted by title. Same convention as the sibling
+// php-dictionary site.
+ksort($llmsEntries, SORT_STRING);
+file_put_contents($outDir.'/llms.txt', implode("\n", $llmsEntries)."\n");
+
 print "Generated ".count($tips)." behavior pages (".$errors." skipped)\n";
+print "Wrote indexnow.json with ".count($indexNowUrls)." URL(s)\n";
+print "Wrote llms.txt with ".count($llmsEntries)." entries\n";
 
 // -- SUMMARY.md ---------------------------------------------------------
 

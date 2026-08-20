@@ -1,12 +1,12 @@
 # Accessing Directly Properties In Trait
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callToTraitProperty.html","headline":"Accessing Directly Properties In Trait","name":"Accessing Directly Properties In Trait","description":"Until PHP 8.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callToTraitProperty.html","inLanguage":"en","dateModified":"2025-09-03T17:22:49+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Accessing Directly Properties In Trait"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callToTraitProperty.html","headline":"Accessing Directly Properties In Trait","name":"Accessing Directly Properties In Trait","description":"I was possible, though deprecated, to manipulate directly trait properties: the static properties.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/callToTraitProperty.html","inLanguage":"en","dateModified":"2026-08-20T16:09:57+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Accessing Directly Properties In Trait"}]}}</script>
 
-Until PHP 8.1, it was possible, though deprecated, to manipulate directly trait properties: the static properties. 
+I was possible, though deprecated, to manipulate directly trait properties: the static properties. 
 
 
 
-Since trait only make sense as a part of a class, this operation is now forbidden.
+Since traits only make sense as a part of a class, this operation is now forbidden.
 
 
 

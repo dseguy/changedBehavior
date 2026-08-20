@@ -1,8 +1,12 @@
 # No New Line In Namespaces
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/MultilineQualifiedName.html","headline":"No New Line In Namespaces","name":"No New Line In Namespaces","description":"Until PHP 8.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/MultilineQualifiedName.html","inLanguage":"en","dateModified":"2026-08-12T07:13:58+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"No New Line In Namespaces"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/MultilineQualifiedName.html","headline":"No New Line In Namespaces","name":"No New Line In Namespaces","description":"It was possible to use new lines inside a namespace: they would be removed at execution time, to build the actual namespace.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/MultilineQualifiedName.html","inLanguage":"en","dateModified":"2026-08-20T16:09:40+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"No New Line In Namespaces"}]}}</script>
 
-Until PHP 8.0, it was possible to use new lines inside a namespace: they would be removed at execution time, to build the actual namespace. Since PHP 8.0, it is not allowed anymore.
+It was possible to use new lines inside a namespace: they would be removed at execution time, to build the actual namespace. 
+
+
+
+Since PHP 8.0, it is not allowed anymore.
 
 ## PHP code
 
