@@ -1,503 +1,293 @@
 <?php
 
+/**
+ * Reads docs/*.ini and emits the mdBook src/ tree that book.toml builds.
+ *
+ * Run from the repo root:
+ *
+ *   php script/make.php
+ *   mdbook build .
+ */
+
 include 'vendor/autoload.php';
 
 use samdark\sitemap\Sitemap;
-use samdark\sitemap\Index;
 
-// create sitemap
-$sitemap = new Sitemap('./sitemap.xml');
+$outDir = 'src';
 
-if (!file_exists('behavior')) {
-	mkdir('behavior', 0755);
-} else {
-	shell_exec('rm -rf behavior/*');
+if (!file_exists($outDir.'/behavior')) {
+    mkdir($outDir.'/behavior', 0755, true);
 }
 
-fopen("build.log", "w+");
+// Static SEO/verification files: mdBook has no html_extra_path equivalent,
+// but copies any non-Markdown file placed under src/ through to the site
+// root as-is, so these just need to live in src/.
+foreach (['googlee919cb0917e4fefc.html', 'robots.txt', 'BingSiteAuth.xml', 'logo.png'] as $staticFile) {
+    copy($staticFile, $outDir.'/'.$staticFile);
+}
 
-$behaviors = array();
+$sitemap = new Sitemap($outDir.'/sitemap.xml');
 
-$behaviors[] = "PHP changed behaviors";
-$behaviors[] = "----------------------";
-$behaviors[] = "";
+$buildLog = fopen('build.log', 'w+');
+
+function buildlog(string $message) : void {
+    global $buildLog;
+    fwrite($buildLog, $message.PHP_EOL);
+}
+
+// Convert the RST inline markup that lives inside the .ini text fields
+// (``code``, `text <url>`_) to Markdown, since the source data was
+// authored assuming an RST renderer.
+function rst_inline_to_md(string $s) : string {
+    // `text <url>`_  ->  [text](url)
+    $s = preg_replace('/`([^`<]+)\s*<([^>]+)>`_/', '[$1]($2)', $s);
+    // ``text``  ->  `text`
+    $s = preg_replace('/``([^`]+)``/', '`$1`', $s);
+    return $s;
+}
+
+function md_code_block(string $lang, string $content) : string {
+    return "```$lang\n".rtrim($content, "\n")."\n```";
+}
+
+const SITE_URL = 'https://php-changed-behaviors.readthedocs.io/en/latest/';
+
+// Per-page structured data. mdBook's theme/head.hbs supplies the generic
+// OG/Twitter tags via its own {{ title }} template var; this JSON-LD block
+// is what scripts/description.py and scripts/canonical.py (post-build,
+// see .readthedocs.yaml) read to inject the real per-page <meta
+// name="description"> and <link rel="canonical">. Mirrors the shape used
+// in the sibling php-dictionary migration, adapted to this site's fields.
+function json_ld(object $tip, string $title, string $description, string $modified) : string {
+    $url = SITE_URL.'behavior/'.$tip->id.'.html';
+    $first = preg_split('/[.?;\n]/', $description)[0] ?? $title;
+
+    $data = [
+        '@context' => 'https://schema.org',
+        '@type' => 'TechArticle',
+        '@id' => $url,
+        'headline' => $title,
+        'name' => $title,
+        'description' => trim($first).'.',
+        'url' => $url,
+        'inLanguage' => 'en',
+        'dateModified' => $modified,
+        'about' => [
+            '@type' => 'SoftwareApplication',
+            'name' => 'PHP',
+            'applicationCategory' => 'DeveloperApplication',
+        ],
+        'isPartOf' => [
+            '@type' => 'WebSite',
+            '@id' => SITE_URL,
+            'name' => 'PHP Changed Behaviors',
+            'url' => SITE_URL,
+        ],
+        'breadcrumb' => [
+            '@type' => 'BreadcrumbList',
+            'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'PHP Changed Behaviors', 'item' => SITE_URL],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => $title],
+            ],
+        ],
+    ];
+
+    return '<script type="application/ld+json">'.json_encode($data, JSON_UNESCAPED_SLASHES).'</script>';
+}
 
 $files = glob('docs/*.ini');
 $files = array_diff($files, ['docs/skeleton.ini']);
-$stats = array('author' => 0,
-				);
+
+$tips = [];
 $errors = 0;
-$tips = array();
-$keywords = array();
-foreach($files as $file) {
-    $string = file_get_contents($file);
-    if (preg_match('/(?<!= )""(?![;\]])/', $string) ) {
-        buildlog( 'Presence of "" in the INI file: '.$file);
-    }
-    
-	$tip = parse_ini_file($file);
 
-	if ($tip === false) {
-		die("Warning : $file is not valid INI");
-	}
+foreach ($files as $file) {
+    $tip = parse_ini_file($file);
 
-	$tip = (object) $tip;
-	if (!isset($tip->title) || (strlen($tip->title) < 3)) {
-		die("No title for $file");
-	} else {
-		if (!str_contains($tip->title, ' ')) {
-			buildlog("suspiciously no white space in title for $file");
-		}
-	}
-
-	if (!isset($tip->description) || (strlen($tip->description) < 3)) {
-		die("No description for $file");
-	} else {
-		if (!str_contains($tip->description, ' ')) {
-			buildlog("suspiciously no white space in description for $file");
-		}
-	}
-
-	if (!isset($tip->features)) {
-		buildlog("features is missing in $file");
-	} else {
-	    $tip->features = array_filter($tip->features);
-	    
-	    if (empty($tip->features)) {
-    		buildlog("features is empty in $file");
-	    } else {
-	        foreach($tip->features as $f) {
-	            if (!file_exists('../analyzeG3/human/en/Features/'.$f.'.ini')) {
-            		buildlog("feature '$f' does not exist in $file");
-	            }
-	        }
-	    }
-	}
-
-	if (!isset($tip->keywords)) {
-		buildlog("keywords is missing in $file");
-	} else {
-	    $tip->keywords = array_filter($tip->keywords);
-	    
-	    if (!empty($tip->keywords)) {
-	        if (count($tip->keywords) !== count(array_unique($tip->keywords))) {
-    		    buildlog("keywords has duplicates in $file");
-    		}
-	    }
-	}
-
-	if (!isset($tip->alternatives)) {
-		buildlog("alternatives is missing in $file");
-	} else {
-	    $tip->alternatives = array_filter($tip->alternatives);
-	    
-	    if (empty($tip->alternatives)) {
-    		buildlog("alternatives is empty in $file");
-	    } else {
-	        if (count($tip->alternatives) !== count(array_unique($tip->alternatives))) {
-    		    buildlog("alternatives has duplicates in $file");
-    		}
-	    }
-	}
-
-	if (str_contains($tip->before, "/codes/")) {
-		buildlog("before contains /codes/ in $file");
-	}
-
-	if (str_contains($tip->before, "Stack trace")) {
-		buildlog("before contains Stack trace in $file");
-	}
-
-	if (str_contains($tip->after, "/codes/")) {
-		buildlog("after contains /codes/ in $file");
-	}
-
-	if (str_contains($tip->after, "Stack trace")) {
-		buildlog("after contains Stack trace in $file");
-	}
-
-	if (!isset($tip->analyzer)) {
-		buildlog("analyzer is missing in $file");
-	} elseif (!is_array($tip->analyzer)) {
-		buildlog("analyzer is not an array in $file");
-    } else {	    
-	    $tip->analyzer = array_filter($tip->analyzer);
-	    if (empty($tip->analyzer)) {
-    		buildlog("analyzer is empty in $file");
-	    } else {
-	        foreach($tip->analyzer as $rule) {
-	            if ($rule === 'none') { continue; }
-
-	            if (!file_exists('../analyzeG3/library/Exakat/Analyzer/'.$rule.'.php')) {
-            		buildlog("No such analyzer as '$rule' in $file");
-	            }
-	        }
-	    }
-	}
-
-	if (!isset($tip->code)) {
-		buildlog("code is missing in $file");
-	} elseif (!is_string($tip->code)) {
-		buildlog("code is not an array in $file");
-	} elseif (substr($tip->code, 0, 5) !== '<?php') {
-		buildlog("code is not starting with <?php in $file");
-	} elseif (substr($tip->code, -2) !== '?>') {
-		buildlog("code is not finishing with ?> in $file");
+    if ($tip === false) {
+        buildlog("Warning : $file is not valid INI, skipped");
+        ++$errors;
+        continue;
     }
 
-	if (!isset($tip->phpError)) {
-		buildlog("phpError is missing in $file");
-	} else {
-		if (!is_array($tip->phpError)) {
-			buildlog("phpError is not an array in $file");
-			$tip->phpError = array($tip->phpError => $tip->phpError);
-		}
+    $tip = (object) $tip;
+    $tip->sourceFile = $file;
 
-		if (!empty($tip->phpError)) {
-			foreach($tip->phpError as $title => $id) {
-			    if ($id === 'none') { continue; }
-			    if (empty($id)) {
-					buildlog("phpError has an empty link in $file");
-					continue;
-			    }
-			    
-				if (is_int($title)) {
-					$title = $id; 
-					$id = php_error_id($id);
-					buildlog("phpError has not title in $file");
-				}
-
-				if (!file_exists('../php-errors/errors/'.$id.'.ini')) {
-					buildlog("phpError doesn't exists in $file");
-					print '../php-errors/errors/'.$id.'.ini does not exist in '.$file.'. Check for \\#, \\(, \\), \\;.'.PHP_EOL;
-				}
-			}
-		} 
-	}
-
-	if (isset($tip->seeAlso)) {
-		$tip->seeAlso = array_filter($tip->seeAlso);
-	} else {
-		buildlog("Missing seeAlso in $file");
-		
-		if (!is_array($seeAlso)) {
-			buildlog("seeAlso is not an array in $file");
-		}
-	}
-	
-	if (str_contains($tip->after, 'syntax error') && 
-	    !in_array("upgraded to syntax error", $tip->keywords, true)) {
-		buildlog("Should use 'upgraded to syntax error' in $file");
-		print("Should use 'upgraded to syntax error' in $file\n");
-	}
-	
-	$tips[$file] = $tip;
-
-    if (isset($tip->keywords) && is_array($tip->keywords)) {
-    	foreach($tip->keywords as $keyword) {
-	        if (isset($keywords[$keyword])) {
-	            $keywords[$keyword][] = $tip;
-    	    } else {
-	            $keywords[$keyword] = [$tip];
-	        }
-    	}
+    if (!isset($tip->title) || !isset($tip->id) || !isset($tip->code)) {
+        buildlog("Missing required field(s) in $file, skipped");
+        ++$errors;
+        continue;
     }
-	
-	if (!isset($tip->before)) {
-		die($file);
-	}
+
+    $tips[$tip->id] = $tip;
 }
 
-uksort($tips, function(string $a, string $b) : int { return strtolower($a) <=> strtolower($b); });
+uksort($tips, function (string $a, string $b) : int {
+    return strtolower($a) <=> strtolower($b);
+});
 
-$php = array('5.6' => [],
-			 '7.0' => [],
-			 '7.1' => [],
-			 '7.2' => [],
-			 '7.3' => [],
-			 '7.4' => [],
-			 '8.0' => [],
-			 '8.1' => [],
-			 '8.2' => [],
-			 '8.3' => [],
-			 '8.4' => [],
-			 '8.5' => [],
-			 '8.6' => [],
-			 '9.0' => [],
-			);
-$stats = array('php' => 0);
+$php = [];
+$errormessagelist = []; // title => id
+$silentList = [];       // id => title
 
-$behaviorlist = [];
-$errormessagelist = [];
-foreach($tips as $file => $changedBehavior) {
-	$behavior = [];
-	if ($e = check($changedBehavior, $file)) {
-		buildlog("Error in file $file : $e");
-		++$errors;
-		continue;
-	}
-	
-	$anchor = make_anchor($changedBehavior->title);
-	$behavior[] = '.. _'.($anchor[0] === '_' ? '\\' : '').$anchor.':'.PHP_EOL;
-	$behavior[] = $changedBehavior->title;
-	$behavior[] = str_repeat('=', strlen($changedBehavior->title));
-	
-	$behavior[] = '.. meta::';
-	$behavior[] = '	:description:';
-	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $changedBehavior->description)[0];
-	$behavior[] = '		'.$changedBehavior->title.': '.$first.'.';
-	
-	$behavior[] = '	:twitter:card: summary_large_image';
-	$behavior[] = '	:twitter:site: @exakat';
-	$behavior[] = '	:twitter:title: '.$changedBehavior->title.'';
-	$behavior[] = '	:twitter:description: '.$changedBehavior->title.': '.$first.'';
-	$behavior[] = '	:twitter:creator: @exakat';
-	$behavior[] = '	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+foreach ($tips as $id => $tip) {
+    $title = rst_inline_to_md($tip->title);
+    $description = rst_inline_to_md($tip->description ?? '');
+    $description = str_replace("\n", "\n\n", $description);
 
-	$behavior[] = '	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
-	$behavior[] = '	:og:title: '.$changedBehavior->title.'';
-	$behavior[] = '	:og:type: article';
-	$behavior[] = '	:og:description: '.$first.'';
-	$behavior[] = '	:og:url: https://php-tips.readthedocs.io/en/latest/tips/'.$changedBehavior->id.'.html';
-	$behavior[] = '	:og:locale: en';
+    $page = [];
+    $page[] = "# $title";
+    $page[] = '';
 
-	$behavior[] = '';	
-	$behavior[] = str_replace("\n", "\n\n", $changedBehavior->description);
-	$behavior[] = '';
-	
-	/*
-	$behavior[] = <<<SCRIPT
-.. raw:: html
-    <script type="application/ld+json">
-    {
-             "@type":"WebSite",
-             "@id":"https://www.exakat.io/en/#website",
-             "url":"https://www.exakat.io/en/",
-             "name":"Exakat",
-             "description":"Bring Quality to your PHP Projects",
-             "publisher":{
-                "@id":"https://www.exakat.io/en/#organization"
-             },
-             "inLanguage":"en-US"
-          }
-    </script>
-SCRIPT;
-	*/
-	$code = $changedBehavior->code;
-	$code = '   '.str_replace("\n", "\n   ", $code);
-	$before = $changedBehavior->before;
-	$before = '   '.str_replace("\n", "\n   ", $before);
-	$after = $changedBehavior->after;
-	$after = '   '.str_replace("\n", "\n   ", $after);
+    $modified = date('c', filemtime($tip->sourceFile));
+    $page[] = json_ld($tip, $title, $description, $modified);
+    $page[] = '';
 
-	$behavior[] = <<<CODE
-PHP code
-________
-.. code-block:: php
+    $page[] = $description;
+    $page[] = '';
 
-$code
+    $page[] = '## PHP code';
+    $page[] = '';
+    $page[] = md_code_block('php', $tip->code ?? '');
+    $page[] = '';
 
-Before
-______
-.. code-block:: output
+    $page[] = '## Before';
+    $page[] = '';
+    $page[] = md_code_block('text', $tip->before ?? '');
+    $page[] = '';
 
-$before
+    $page[] = '## After';
+    $page[] = '';
+    $page[] = md_code_block('text', $tip->after ?? '');
+    $page[] = '';
 
-After
-______
-.. code-block:: output
+    $page[] = '## PHP version change';
+    $page[] = '';
+    if (!empty($tip->deprecation)) {
+        $page[] = 'This behavior was deprecated in '.$tip->deprecation.'.';
+        $page[] = '';
+    }
+    $page[] = 'This behavior changed in '.($tip->phpVersion ?? '?').'.';
+    $page[] = '';
 
-$after
+    if (isset($tip->phpVersion)) {
+        $php[$tip->phpVersion][$title] = $id;
+    }
 
-CODE;
-	$behavior[] = '';
-	$behavior[] = 'PHP version change';
-	$behavior[] = '__________________';
-	if (!empty($changedBehavior->deprecation)) {
-		$behavior[] = "This behavior was deprecated in ".$changedBehavior->deprecation;
-		$behavior[] = '';
-	}
-	$behavior[] = "This behavior changed in ".$changedBehavior->phpVersion;
-	$behavior[] = '';
-	
-	$php[$changedBehavior->phpVersion][$changedBehavior->title] = '    * :ref:`'.$anchor.'`';
+    if (!empty($tip->seeAlso) && is_array($tip->seeAlso)) {
+        $seeAlso = [];
+        foreach ($tip->seeAlso as $linkTitle => $link) {
+            if ($link === '' || is_int($linkTitle)) {
+                continue;
+            }
+            $seeAlso[] = '- ['.$linkTitle.']('.$link.')';
+        }
+        if (!empty($seeAlso)) {
+            $page[] = '## See Also';
+            $page[] = '';
+            $page[] = implode("\n", $seeAlso);
+            $page[] = '';
+        }
+    }
 
-	if (!empty($changedBehavior->seeAlso)) {
-		$seeAlso = array();
-		foreach($changedBehavior->seeAlso as $title => $link) {
-			if (is_int($title)) {
-				buildlog("Wrong title for $link in $file");
-			}
+    if (!empty($tip->phpError) && is_array($tip->phpError)) {
+        $lines = [];
+        foreach ($tip->phpError as $msgTitle => $msgId) {
+            if ($msgId === 'none' || $msgId === '') {
+                continue;
+            }
+            $errormessagelist[$msgTitle] = $id;
+            $lines[] = '- ['.$msgTitle.'](https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($msgId).'.html)';
+        }
+        if (!empty($lines)) {
+            $page[] = '## Error Messages';
+            $page[] = '';
+            $page[] = implode("\n", $lines);
+            $page[] = '';
+        }
+    }
 
-			if ($link[0] === '<') {
-				buildlog("Check the link on $file: $link");
-			}
+    if (!empty($tip->analyzer) && is_array($tip->analyzer) && $tip->analyzer[0] !== 'none') {
+        $lines = [];
+        foreach ($tip->analyzer as $rule) {
+            if ($rule === 'none' || $rule === '') {
+                continue;
+            }
+            $lines[] = '- ['.$rule.'](https://exakat.readthedocs.io/en/latest/Reference/Rules/'.$rule.'.html)';
+        }
+        if (!empty($lines)) {
+            $page[] = '## Analyzer';
+            $page[] = '';
+            $page[] = implode("\n", $lines);
+            $page[] = '';
+        }
+    }
 
-			if ($link[-1] === '_') {
-				buildlog("Check the link on $file: $link");
-			}
+    if (!empty($tip->keywords) && is_array($tip->keywords) && in_array('silent', $tip->keywords, true)) {
+        $silentList[$id] = $title;
+    }
 
+    file_put_contents($outDir.'/behavior/'.$id.'.md', implode("\n", $page));
 
-			$seeAlso[] = '* `'.$title.' <'.$link.'>`_';
-		}
-		$behavior[] = '';
-		$behavior[] = 'See Also';
-		$behavior[] = '________';
-		$behavior[] = '';
-		$behavior[] = implode(PHP_EOL, $seeAlso);
-		
-		$behavior[] = '';
-	}
-
-	if (!empty($changedBehavior->phpError) && 
-	    !isset($changedBehavior->phpError[0])) {
-
-		$behavior[] = '';
-		$behavior[] = 'Error Messages';
-		$behavior[] = '______________';
-		$behavior[] = '';
-		foreach($changedBehavior->phpError as $title => $id) {
-			$errormessagelist[$title] = $anchor;
-		
-			$behavior[] = '  + `'.$title.' <https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($id).'.html>`_';
-		}
-		$behavior[] = '';
-	}
-
-    if (!isset($changedBehavior->analyzer) || !is_array($changedBehavior->analyzer)) {
-        print("analyzer is not an array in $file\n");
-    } else {
-	    if ((!empty($changedBehavior->analyzer[0])) && ($changedBehavior->analyzer[0] !== 'none')) {
-	    	$behavior[] = '';
-	    	$behavior[] = 'Analyzer';
-	    	$behavior[] = '_________';
-	    	$behavior[] = '';
-	    	foreach($changedBehavior->analyzer as $id) {
-	    		$behavior[] = '  + `'.$id.' <https://exakat.readthedocs.io/en/latest/Reference/Rules/'.$id.'.html>`_';
-	    	}
-	    	$behavior[] = '';
-	    }
-	}
-	
-	$behavior[] = '';
-//	$behavior[] = "\n----\n";
-	$behavior[] = PHP_EOL;
-	
-	$name = $changedBehavior->id;
-	file_put_contents('behavior/'.$name.'.rst', implode(PHP_EOL, $behavior));
-	
-	$behaviorlist[] = '   behavior/'.$name.'.rst';
-	
-	$sitemap->addItem('https://php-changed-behaviors.readthedocs.io/en/latest/behavior/'.$changedBehavior->id.'.html');
+    $sitemap->addItem(SITE_URL.'behavior/'.$id.'.html');
 }
-
-print ("Total: ".count(glob("codes/*.php"))." PHP codes\n");
-
-if (!empty($errormessagelist)) {
-	$error = array('PHP Error Messages',
-				   '--------------------',
-					);
-					
-	foreach($errormessagelist as $message => $link) {
-		$error[] = '    * :ref:`'.$message.' <'.trim($link, '`').'>`';
-	}
-	$error[] = '';
-	
-	file_put_contents('errormessages.rst', implode(PHP_EOL, $error));
-}
-
-
-$changed = file_get_contents('changed.rst.in');
-$changed = str_replace('behaviorlist', implode(PHP_EOL, $behaviorlist), $changed);
-file_put_contents('changed.rst', $changed);
-print ("processed ".count($files)." file with $errors error\n");
 
 $sitemap->write();
 
+print "Generated ".count($tips)." behavior pages (".$errors." skipped)\n";
 
-if (!empty($php)) {
-	$versionRst = <<<RST
-Per PHP version
----------------
+// -- SUMMARY.md ---------------------------------------------------------
 
-
-RST;
-	
-	krsort($php);
-	$php = array_filter($php);
-	foreach($php as $version => $list) {
-		ksort($list);
-		$versionRst .= "* $version\n";
-		$versionRst .= implode(PHP_EOL, $list).PHP_EOL;
-		++$stats['php'];
-	}
-	file_put_contents('phpversionindex.rst', $versionRst);
-	print ("processed ".$stats['php']." PHP versions\n");
+$summary = [];
+$summary[] = '# Summary';
+$summary[] = '';
+$summary[] = '- [Introduction](introduction.md)';
+$summary[] = '- [Per PHP version](phpversionindex.md)';
+$summary[] = '- [Silent changed behaviors](silent.md)';
+$summary[] = '- [Error Messages](errormessages.md)';
+$summary[] = '';
+$summary[] = '# Changed behaviors';
+$summary[] = '';
+foreach ($tips as $id => $tip) {
+    $title = rst_inline_to_md($tip->title);
+    $summary[] = '- ['.$title.'](behavior/'.$id.'.md)';
 }
+file_put_contents($outDir.'/SUMMARY.md', implode("\n", $summary)."\n");
 
-if (!empty($authors)) {
-	$authorRst = <<<RST
-Author index
-------------
+// -- phpversionindex.md ---------------------------------------------------
 
-
-RST;
-	
-	ksort($authors);
-	foreach($authors as $name => $list) {
-		$authorRst .= "* $name\n";
-		$authorRst .= implode(PHP_EOL, $list).PHP_EOL;
-		++$stats['author'];
-	}
-	file_put_contents('authorindex.rst', $authorRst);
-	print ("processed ".$stats['author']." authors\n");
+$versionMd = ["# Per PHP version", ''];
+krsort($php);
+foreach ($php as $version => $list) {
+    ksort($list);
+    $versionMd[] = "## $version";
+    $versionMd[] = '';
+    foreach ($list as $title => $id) {
+        $versionMd[] = '- ['.$title.'](behavior/'.$id.'.md)';
+    }
+    $versionMd[] = '';
 }
+file_put_contents($outDir.'/phpversionindex.md', implode("\n", $versionMd));
 
-if (!empty($keywords['silent'])) {
-	$silent = <<<RST
-Silent changed behaviors
-------------------------
+// -- errormessages.md -----------------------------------------------------
 
-These changes do not emit any error. They are different between versions, but keeps executing the task. They might be only detected by actual inspection of the result.
-
-RST;
-	
-	foreach($keywords['silent'] as $tip) {
-    	$anchor = make_anchor($tip->title);
-		$silent .= '    * :ref:`'.$anchor.'`'.PHP_EOL;
-	}
-	file_put_contents('silent.rst', $silent);
-	print ("processed ".count($keywords['silent'])." silent changed behavior\n");
+$errorMd = ["# PHP Error Messages", ''];
+foreach ($errormessagelist as $message => $id) {
+    $errorMd[] = '- ['.$message.'](behavior/'.$id.'.md)';
 }
+file_put_contents($outDir.'/errormessages.md', implode("\n", $errorMd)."\n");
 
-//shell_exec('make html');
-print (shell_exec('wc -l build.log') ?? 0)." lines in buildlog.txt\n";
+// -- silent.md --------------------------------------------------------------
 
-function check(stdClass $tip, string $file) : string {
-	if (empty($tip->title)) {
-		buildlog("Empty title in $file");
-	}
-
-	return '';
+$silentMd = [
+    '# Silent changed behaviors',
+    '',
+    'These changes do not emit any error. They are different between versions, but keep executing the task. They might be only detected by actual inspection of the result.',
+    '',
+];
+foreach ($silentList as $id => $title) {
+    $silentMd[] = '- ['.$title.'](behavior/'.$id.'.md)';
 }
+file_put_contents($outDir.'/silent.md', implode("\n", $silentMd)."\n");
 
-function make_anchor(string $title) : string {
-	$title = '`'.strtr(mb_strtolower($title), ' ', '-').'`';
-	$title = str_replace('`', '', $title);
-	return $title;
-}
-
-function buildlog($message) {
-	static $log;
-	
-	if (empty($log)) {
-		$log = fopen("build.log", "w+");
-	}
-	
-	fwrite($log, $message.PHP_EOL);
-}
-
-function php_error_id(string $url) {
-	return str_replace(' ', '-', mb_strtolower($url));
-}
-?>
+print "processed ".count($files)." files with $errors error(s)\n";

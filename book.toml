@@ -1,0 +1,37 @@
+[book]
+title = "PHP Changed Behaviors"
+authors = ["Damien Seguy"]
+description = "All features that change between PHP versions."
+language = "en"
+src = "src"
+
+[output.html]
+# git-repository-url replaces conf.py's github_button/github_repo/github_user:
+# mdBook renders it as a repo-link icon rather than a GitHub star button.
+git-repository-url = "https://github.com/dseguy/changedBehavior"
+default-theme = "light"
+site-url = "https://php-changed-behaviors.readthedocs.io/en/latest/"
+# Replaces conf.py's html_js_files (js/custom.js + the googletagmanager.com
+# <script> tag): mdBook 0.5 dropped its built-in `google-analytics` config
+# key, so both are folded into theme/custom.js, which injects the gtag.js
+# script tag itself before calling gtag().
+additional-js = ["custom.js"]
+# Logo (theme/index.hbs, next to the menu-title) and footer copyright
+# (theme/index.hbs, after {{{ content }}}) replace conf.py's
+# html_theme_options.logo and `copyright` — neither has a book.toml
+# equivalent, so both needed a custom theme/index.hbs + this stylesheet.
+additional-css = ["custom.css"]
+
+[output.html.redirect]
+# changed.rst was pure navigation (a toctree of every behavior page); its
+# role is fully taken over by SUMMARY.md / the sidebar, so it has no direct
+# mdBook page. Redirect any inbound links to the book root instead.
+#
+# The key is a path relative to this book's own output root (mdBook writes
+# the stub file there); RTD then serves that root at /en/latest/, so the
+# key must NOT repeat that prefix (confirmed by building locally — an
+# "/en/latest/..." key produced book/en/latest/... nested inside the
+# already-en/latest-rooted site, i.e. served at .../en/latest/en/latest/...).
+# The target value, by contrast, is used as a literal browser-facing href,
+# so it does need the full site-absolute path.
+"/changed.html" = "/en/latest/"
