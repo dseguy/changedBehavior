@@ -1,5 +1,7 @@
 # Per PHP version
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/phpversionindex.html","name":"Per PHP version","description":"Behavior changes in PHP, grouped by the version where they were introduced.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/phpversionindex.html","inLanguage":"en","isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"}}</script>
+
 ## 9.0
 
 - [Accessing Trait Resources Directly Is Not Allowed](behavior/accessTraitsDirectly.md)

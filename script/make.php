@@ -95,6 +95,32 @@ function json_ld(object $tip, string $title, string $description, string $modifi
     return '<script type="application/ld+json">'.json_encode($data, JSON_UNESCAPED_SLASHES).'</script>';
 }
 
+// Structured data for the static index/listing pages (phpversionindex.md,
+// errormessages.md, silent.md). Mirrors json_ld() above but as a
+// CollectionPage, since these list other TechArticle pages rather than
+// being one themselves.
+function collection_json_ld(string $title, string $description, string $path) : string {
+    $url = SITE_URL.$path;
+
+    $data = [
+        '@context' => 'https://schema.org',
+        '@type' => 'CollectionPage',
+        '@id' => $url,
+        'name' => $title,
+        'description' => $description,
+        'url' => $url,
+        'inLanguage' => 'en',
+        'isPartOf' => [
+            '@type' => 'WebSite',
+            '@id' => SITE_URL,
+            'name' => 'PHP Changed Behaviors',
+            'url' => SITE_URL,
+        ],
+    ];
+
+    return '<script type="application/ld+json">'.json_encode($data, JSON_UNESCAPED_SLASHES).'</script>';
+}
+
 $files = glob('docs/*.ini');
 $files = array_diff($files, ['docs/skeleton.ini']);
 
@@ -256,7 +282,16 @@ file_put_contents($outDir.'/SUMMARY.md', implode("\n", $summary)."\n");
 
 // -- phpversionindex.md ---------------------------------------------------
 
-$versionMd = ["# Per PHP version", ''];
+$versionMd = [
+    "# Per PHP version",
+    '',
+    collection_json_ld(
+        'Per PHP version',
+        'Behavior changes in PHP, grouped by the version where they were introduced.',
+        'phpversionindex.html'
+    ),
+    '',
+];
 krsort($php);
 foreach ($php as $version => $list) {
     ksort($list);
@@ -271,7 +306,16 @@ file_put_contents($outDir.'/phpversionindex.md', implode("\n", $versionMd));
 
 // -- errormessages.md -----------------------------------------------------
 
-$errorMd = ["# PHP Error Messages", ''];
+$errorMd = [
+    "# PHP Error Messages",
+    '',
+    collection_json_ld(
+        'PHP Error Messages',
+        'PHP error and deprecation messages, linked to the behavior change that produces them.',
+        'errormessages.html'
+    ),
+    '',
+];
 foreach ($errormessagelist as $message => $id) {
     $errorMd[] = '- ['.$message.'](behavior/'.$id.'.md)';
 }
@@ -281,6 +325,12 @@ file_put_contents($outDir.'/errormessages.md', implode("\n", $errorMd)."\n");
 
 $silentMd = [
     '# Silent changed behaviors',
+    '',
+    collection_json_ld(
+        'Silent changed behaviors',
+        'Behavior changes that do not emit any error message, only affecting the result at runtime.',
+        'silent.html'
+    ),
     '',
     'These changes do not emit any error. They are different between versions, but keep executing the task. They might be only detected by actual inspection of the result.',
     '',

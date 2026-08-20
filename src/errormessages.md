@@ -1,5 +1,7 @@
 # PHP Error Messages
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/errormessages.html","name":"PHP Error Messages","description":"PHP error and deprecation messages, linked to the behavior change that produces them.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/errormessages.html","inLanguage":"en","isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"}}</script>
+
 - [Cannot use "array" as a type name as it is reserved](behavior/absolute_array.md)
 - [Cannot use "%s" as a type name as it is reserved](behavior/absoluteArrayName.md)
 - [%s %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining method%s (](behavior/abstractMethodMessageSplit85.md)

@@ -68,6 +68,7 @@ def extract_description(source):
 
 def normalise(text, max_length):
     text = html.unescape(text)
+    text = text.replace("`", "")
     text = " ".join(text.split())
     if max_length and len(text) > max_length:
         cut = text[: max_length - 1]

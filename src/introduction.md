@@ -1,5 +1,7 @@
 # Introduction
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","description":"A catalog of the ways PHP's behavior has changed from one version to the next.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/","inLanguage":"en","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"}}</script>
+
 PHP Changed Behaviors is a catalog of the ways PHP's behavior has changed from one version to the next.
 
 Did you know that comparing a string to a number no longer works the way it used to? Or that constructors named after their class stopped being recognized? Or that array functions like `array_sum()` now reject non-numeric values instead of silently casting them?

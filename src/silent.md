@@ -1,5 +1,7 @@
 # Silent changed behaviors
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/silent.html","name":"Silent changed behaviors","description":"Behavior changes that do not emit any error message, only affecting the result at runtime.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/silent.html","inLanguage":"en","isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"}}</script>
+
 These changes do not emit any error. They are different between versions, but keep executing the task. They might be only detected by actual inspection of the result.
 
 - [Negative Automatic Index From Empty Array](behavior/array_negative_id.md)
