@@ -1,12 +1,12 @@
 # No Dynamic Global Variables
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html","headline":"No Dynamic Global Variables","name":"No Dynamic Global Variables","description":"In PHP 5.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html","inLanguage":"en","dateModified":"2026-08-12T15:30:23+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"No Dynamic Global Variables"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html","headline":"No Dynamic Global Variables","name":"No Dynamic Global Variables","description":"Dynamic global variables were possible.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html","inLanguage":"en","dateModified":"2026-08-20T19:17:58+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"No Dynamic Global Variables"}]}}</script>
 
-In PHP 5.6, dynamic global variables were possible. This means that a variable, whose name is stored in another variable, could be dynamically used with the `global` keyword.
+Dynamic global variables were possible. This means that a variable, whose name is stored in another variable, could be dynamically used with the `global` keyword.
 
 
 
-These notations are now dropped, except for with the `$\{   \}` operator.
+These notations are now dropped, in PHP 7.0, except for with the `$\{   \}` operator.
 
 ## PHP code
 

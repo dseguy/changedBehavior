@@ -1,12 +1,12 @@
 # Comment Inside yield from
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html","headline":"Comment Inside yield from","name":"Comment Inside yield from","description":"Since PHP 8.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html","inLanguage":"en","dateModified":"2026-02-01T20:54:20+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Comment Inside yield from"}]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html","headline":"Comment Inside yield from","name":"Comment Inside yield from","description":"It was possible to insert a comment between the `yield` and the `from`.","url":"https://php-changed-behaviors.readthedocs.io/en/latest/behavior/yield_comment_from.html","inLanguage":"en","dateModified":"2026-08-20T19:16:09+00:00","about":{"@type":"SoftwareApplication","name":"PHP","applicationCategory":"DeveloperApplication"},"isPartOf":{"@type":"WebSite","@id":"https://php-changed-behaviors.readthedocs.io/en/latest/","name":"PHP Changed Behaviors","url":"https://php-changed-behaviors.readthedocs.io/en/latest/"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PHP Changed Behaviors","item":"https://php-changed-behaviors.readthedocs.io/en/latest/"},{"@type":"ListItem","position":2,"name":"Comment Inside yield from"}]}}</script>
 
-Since PHP 8.3, there can be a comment, inserted between the `yield` and the `from`. 
+It was possible to insert a comment between the `yield` and the `from`. 
 
 
 
-In previous versions, this would not compile, unless there was a defined constant called `from`.
+In PHP 8.3 more recent, this would not compile, unless there was a defined constant called `from`.
 
 ## PHP code
 
