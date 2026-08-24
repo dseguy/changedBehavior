@@ -105,6 +105,9 @@
 ## 8.3
 
 - [Backed Enum Values Needed To Compile](behavior/backed_enum_constant_check.md)
+- [Calling FFI::cast() statically is deprecated](behavior/ffiCastStaticDeprecated.md)
+- [Calling FFI::new() statically is deprecated](behavior/ffiNewStaticDeprecated.md)
+- [Calling FFI::type() statically is deprecated](behavior/ffiTypeStaticDeprecated.md)
 - [Can Clone Readonly Properties](behavior/cloneReadonly.md)
 - [Comment Inside yield from](behavior/yield_comment_from.md)
 - [Constants In Trait](behavior/ConstantInTrait.md)

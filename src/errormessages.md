@@ -48,7 +48,7 @@
 - [Creating default object from empty value](behavior/creatingObjectOnNull.md)
 - [Array and string offset access syntax with curly braces is deprecated](behavior/curly_braces.md)
 - [syntax error, unexpected token "{"](behavior/curly_braces.md)
-- [0](behavior/debugInfoCannotReturnNull.md)
+- [0](behavior/ffiTypeStaticDeprecated.md)
 - [Returning null from %s::__debugInfo() is deprecated, return an empty array instead](behavior/debugInfoNullableDeprecated.md)
 - [Constant SUNFUNCS_RET_TIMESTAMP is deprecated ](behavior/deprecatedConstant.md)
 - [Cannot use %s as array](behavior/destructuringNonArray.md)

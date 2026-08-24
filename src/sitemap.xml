@@ -235,6 +235,15 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/exportReflection.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ffiCastStaticDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ffiNewStaticDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ffiTypeStaticDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/file_get_contents.html</loc>
  </url>
  <url>
