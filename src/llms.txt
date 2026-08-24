@@ -85,6 +85,8 @@
 [Keywords In Namespace](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/keywordInNamespace.html): PHP didn't accept its own keywords in the definition of a namespace.
 [Length Of tempnam() Has Been Raised](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/tempnamLength.html): The temporary name, provided by tempname() used to be 6 characters, added to the provided prefix.
 [Magic Method __debugInfo() cannot return null](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/debugInfoCannotReturnNull.html): __debugInfo() is a magic method that returns an array with debug information.
+[Making A Constructor A Generator Is Deprecated](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constructorAsGenerator.html): Using yield anywhere in the body of __construct() turns it into a Generator function.
+[Making A Destructor A Generator Is Deprecated](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/destructorAsGenerator.html): Using yield anywhere in the body of __destruct() turns it into a Generator function.
 [Method export() in Reflection Is removed](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/exportReflection.html): The Reflection::export() static method was deprecated in PHP 7.
 [Named Parameters And Variadic](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html): It is possible to use the three dots .
 [Negative Automatic Index From Empty Array](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_negative_id.html): When starting from an empty array and assigning an initial negative integer index, PHP used to continue assigning indices with 0, instead of the following negative number.
@@ -122,6 +124,7 @@
 [Parameter Contravariance](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/contravarianceParameter.html): PHP added the support of parameter type contravariance.
 [Passing Objects Is Deprecated](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html): Several array functions, such as current, next, prev, reset used to accept both objects and arrays.
 [Plus And Concat Precedence](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/plusConcatPrecedence.html): + (and -) and .
+[Providing A String That Is Not One Byte Long To ord() Is Deprecated](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ordNonSingleByteString.html): The ord() function returns the ordinal value of the first byte of a string.
 [Recursive Comparison Of Arrays](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/recursiveComparison.html): Recursive arrays should not be compared one another, as the engine might ends in an infinite loop.
 [Reflection Doesn't Return Self](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflection_self.html): Reflection used to return the original self type, including its case.
 [Reflection Doesn't Return Static](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflection_static.html): Reflection used to return the original static type, including its case.
