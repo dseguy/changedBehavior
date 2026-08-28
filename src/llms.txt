@@ -182,6 +182,7 @@
 [compact() Throws Notice On Missing Variable](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html): compact() collects variables in an array.
 [convert_uuencode() Works On Empty Strings](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/convert_uuencode.html): convert_uuencode() returned false, aka error, when provided with an empty string.
 [count() Must Count Countable](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/countUncountable.html): PHP used to count any kind of value.
+[curl_close() No Longer Flushes The Cookie Jar](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curl_close_cookie_flush.html): Prior to PHP 8.
 [datetime With Multiple Signs](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/datetimeWithMultipleSigns.html): There can be only one sign character, when instantiating a DateTime object.
 [dl() Rejects NUL Bytes In The Extension Filename](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dlNullByteValueError.html): dl() used to accept an extension filename containing a NUL byte and only reported the standard warning once enable_dl turned out to be off.
 [each() Has Been Removed](https://php-changed-behaviors.readthedocs.io/en/latest/behavior/each.html): The each() function has been deprecated in PHP 7.

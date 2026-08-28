@@ -10,6 +10,7 @@ These changes do not emit any error. They are different between versions, but ke
 - [Bitshift And Concat Precedence](behavior/bitshiftConcatPrecedence.md)
 - [Catch Without Variable](behavior/CatchNoVariable.md)
 - [convert_uuencode() Works On Empty Strings](behavior/convert_uuencode.md)
+- [curl_close() No Longer Flushes The Cookie Jar](behavior/curl_close_cookie_flush.md)
 - [cUrl Moved Away From Resource](behavior/curl_init.md)
 - [datetime With Multiple Signs](behavior/datetimeWithMultipleSigns.md)
 - [Dot And Bitshift Priority](behavior/dotAndBitshift.md)

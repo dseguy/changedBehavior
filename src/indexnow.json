@@ -54,6 +54,7 @@
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/countUncountable.html",
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/covarianceReturntype.html",
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/creatingObjectOnNull.html",
+        "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curl_close_cookie_flush.html",
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curl_init.html",
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html",
         "https://php-changed-behaviors.readthedocs.io/en/latest/behavior/datetimeWithMultipleSigns.html",

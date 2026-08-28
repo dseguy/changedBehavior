@@ -1,0 +1,4 @@
+PHP Deprecated:  Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0 in /codes/curl_close_cookie_flush.php on line 10
+
+Deprecated: Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0 in /codes/curl_close_cookie_flush.php on line 10
+bool(false)

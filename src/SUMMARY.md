@@ -58,6 +58,7 @@
 - [count() Must Count Countable](behavior/countUncountable.md)
 - [Returntype Covariance](behavior/covarianceReturntype.md)
 - [Creating Object On Null](behavior/creatingObjectOnNull.md)
+- [curl_close() No Longer Flushes The Cookie Jar](behavior/curl_close_cookie_flush.md)
 - [cUrl Moved Away From Resource](behavior/curl_init.md)
 - [Array Syntax With Curly Braces Are No More](behavior/curly_braces.md)
 - [datetime With Multiple Signs](behavior/datetimeWithMultipleSigns.md)

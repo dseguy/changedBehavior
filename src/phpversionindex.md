@@ -233,6 +233,7 @@
 - [ceil() Strict Mode](behavior/ceilStrictMode.md)
 - [convert_uuencode() Works On Empty Strings](behavior/convert_uuencode.md)
 - [count() Must Count Countable](behavior/countUncountable.md)
+- [curl_close() No Longer Flushes The Cookie Jar](behavior/curl_close_cookie_flush.md)
 - [each() Has Been Removed](behavior/each.md)
 - [each() Is No More](behavior/while_list_each.md)
 - [explode() Forbids Empty Strings](behavior/explodeWithEmptyString.md)

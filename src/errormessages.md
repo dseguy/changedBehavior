@@ -48,6 +48,7 @@
 - [Declaration of %s::%s() should be compatible with %s::%s()](behavior/covarianceReturntype.md)
 - [count(): Argument #1 ($value) must be of type Countable|array, int given](behavior/countUncountable.md)
 - [Creating default object from empty value](behavior/creatingObjectOnNull.md)
+- [Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0](behavior/curl_close_cookie_flush.md)
 - [Array and string offset access syntax with curly braces is deprecated](behavior/curly_braces.md)
 - [syntax error, unexpected token "{"](behavior/curly_braces.md)
 - [Returning null from %s::__debugInfo() is deprecated, return an empty array instead](behavior/debugInfoNullableDeprecated.md)
