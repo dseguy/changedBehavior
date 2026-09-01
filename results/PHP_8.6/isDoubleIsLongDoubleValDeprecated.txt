@@ -1,0 +1,16 @@
+PHP Deprecated:  Function is_double() is deprecated since 8.6, use is_float() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 3
+
+Deprecated: Function is_double() is deprecated since 8.6, use is_float() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 3
+bool(true)
+PHP Deprecated:  Function is_long() is deprecated since 8.6, use is_int() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 4
+
+Deprecated: Function is_long() is deprecated since 8.6, use is_int() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 4
+bool(true)
+PHP Deprecated:  Function is_integer() is deprecated since 8.6, use is_int() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 5
+
+Deprecated: Function is_integer() is deprecated since 8.6, use is_int() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 5
+bool(true)
+PHP Deprecated:  Function doubleval() is deprecated since 8.6, use floatval() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 6
+
+Deprecated: Function doubleval() is deprecated since 8.6, use floatval() instead in /codes/isDoubleIsLongDoubleValDeprecated.php on line 6
+float(1.5)

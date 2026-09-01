@@ -46,10 +46,16 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayIntersectConversionTiming86.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayIteratorMethodsDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayProdChecks.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arraySumChecks.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/arrayWalkObjectDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/assertIsReserved.html</loc>
@@ -160,6 +166,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curl_init.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curlReadFunctionValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html</loc>
  </url>
  <url>
@@ -256,6 +265,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/file_get_contents.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/fileFunctionsNullByteValueError.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/filessytemiteratorSkipDot.html</loc>
  </url>
  <url>
@@ -308,6 +320,15 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSCopy.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/gmpFloatOperandDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/gmpFunctionsValueError.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/gmpPowmDivisionByZero.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/gmpShiftValueError86.html</loc>
@@ -382,6 +403,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/InvalidBaseCharacter.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/isDoubleIsLongDoubleValDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/issetWithConstant.html</loc>
  </url>
  <url>
@@ -440,6 +464,12 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_strrpos.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mbConvertVariablesObjectDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mbregexDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/minOnEmpty.html</loc>
@@ -595,6 +625,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflection_static.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflectionInvokeStaticObject.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflectionSetValueWrongObject.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/relativeCallable.html</loc>
  </url>
  <url>
@@ -616,6 +652,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/selfInCallable.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sessionNulByteAndEncodeChanges.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sessionSecurityDefaults.html</loc>
  </url>
  <url>
@@ -629,6 +668,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setlocaleArrayVariadicTypeError86.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sleepOverflowValueError.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sodiumPwhashValueError86.html</loc>
@@ -646,10 +688,16 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/spaceship.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splFileObjectFgetsCaching.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splFileObjectNextCaching86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splfixedarray.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splObjectHashDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splObjectStorageGetHashMutation86.html</loc>
@@ -683,6 +731,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/str_replaceOnArraysOfThings.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strcollSortLocaleStringDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strftime.html</loc>
