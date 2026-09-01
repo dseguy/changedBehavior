@@ -1,0 +1,4 @@
+PHP Deprecated:  Calling ReflectionProperty::setValue() with a given object that is not an instance of the class this property was declared in is deprecated in /codes/reflectionSetValueWrongObject.php on line 12
+
+Deprecated: Calling ReflectionProperty::setValue() with a given object that is not an instance of the class this property was declared in is deprecated in /codes/reflectionSetValueWrongObject.php on line 12
+done
