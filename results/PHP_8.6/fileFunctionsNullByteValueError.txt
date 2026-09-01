@@ -1,0 +1,1 @@
+file_exists(): Argument #1 ($filename) must not contain any null bytes

@@ -1,0 +1,4 @@
+PHP Warning:  file_exists() expects parameter 1 to be a valid path, string given in /codes/fileFunctionsNullByteValueError.php on line 4
+
+Warning: file_exists() expects parameter 1 to be a valid path, string given in /codes/fileFunctionsNullByteValueError.php on line 4
+NULL
