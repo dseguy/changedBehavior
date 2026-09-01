@@ -1,0 +1,10 @@
+PHP Warning:  mb_convert_variables(): Cannot handle recursive references in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+
+Warning: mb_convert_variables(): Cannot handle recursive references in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+bool(false)
+object(stdClass)#1 (2) {
+  ["a"]=>
+  string(3) "abc"
+  ["b"]=>
+  string(3) "def"
+}

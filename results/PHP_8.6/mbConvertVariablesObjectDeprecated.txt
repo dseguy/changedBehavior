@@ -1,0 +1,10 @@
+PHP Deprecated:  mb_convert_variables(): Passing an object for argument #3 $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+
+Deprecated: mb_convert_variables(): Passing an object for argument #3 $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+string(5) "ASCII"
+object(stdClass)#1 (2) {
+  ["a"]=>
+  string(3) "abc"
+  ["b"]=>
+  string(3) "def"
+}

@@ -1,0 +1,7 @@
+string(5) "ASCII"
+object(stdClass)#1 (2) {
+  ["a"]=>
+  string(3) "abc"
+  ["b"]=>
+  string(3) "def"
+}

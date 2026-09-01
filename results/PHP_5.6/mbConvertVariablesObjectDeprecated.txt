@@ -1,0 +1,5 @@
+PHP Warning:  mb_convert_variables(): Cannot handle recursive references in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+
+Warning: mb_convert_variables(): Cannot handle recursive references in /codes/mbConvertVariablesObjectDeprecated.php on line 7
+bool(false)
+*RECURSION*
