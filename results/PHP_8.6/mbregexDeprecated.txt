@@ -1,0 +1,4 @@
+PHP Deprecated:  Function mb_ereg() is deprecated since 8.6, because the underlying library is no longer maintained in /codes/mbregexDeprecated.php on line 3
+
+Deprecated: Function mb_ereg() is deprecated since 8.6, because the underlying library is no longer maintained in /codes/mbregexDeprecated.php on line 3
+bool(true)
