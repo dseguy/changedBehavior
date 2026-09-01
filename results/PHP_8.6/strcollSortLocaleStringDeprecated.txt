@@ -1,0 +1,15 @@
+PHP Deprecated:  Function strcoll() is deprecated since 8.6, use Collator::compare() instead in /codes/strcollSortLocaleStringDeprecated.php on line 3
+
+Deprecated: Function strcoll() is deprecated since 8.6, use Collator::compare() instead in /codes/strcollSortLocaleStringDeprecated.php on line 3
+int(-1)
+PHP Deprecated:  Constant SORT_LOCALE_STRING is deprecated since 8.6, use one of the Collator::*sort*() methods instead in /codes/strcollSortLocaleStringDeprecated.php on line 6
+
+Deprecated: Constant SORT_LOCALE_STRING is deprecated since 8.6, use one of the Collator::*sort*() methods instead in /codes/strcollSortLocaleStringDeprecated.php on line 6
+array(3) {
+  [0]=>
+  string(5) "Apple"
+  [1]=>
+  string(6) "banana"
+  [2]=>
+  string(6) "cherry"
+}
