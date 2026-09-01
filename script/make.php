@@ -161,7 +161,7 @@ $php = [];
 $errormessagelist = []; // title => id
 $silentList = [];       // id => title
 $indexNowUrls = [];
-$llmsEntries = [];      // title => "[title](url): description" line
+$llmsSections = [];     // version => [title => "- [title](url): description" line]
 
 foreach ($tips as $id => $tip) {
     $title = rst_inline_to_md($tip->title);
@@ -169,7 +169,8 @@ foreach ($tips as $id => $tip) {
     $description = str_replace("\n", "\n\n", $description);
     $url = SITE_URL.'behavior/'.$id.'.html';
     $firstSentence = trim(preg_split('/[.?;\n]/', $description)[0] ?? $title).'.';
-    $llmsEntries[$title] = '['.$title.']('.$url.'): '.$firstSentence;
+    $llmsVersion = ($tip->phpVersion ?? '') !== '' ? $tip->phpVersion : ($tip->deprecation ?? '');
+    $llmsSections[$llmsVersion][$title] = '- ['.$title.']('.$url.'): '.str_replace('`', '', $firstSentence);
 
     $page = [];
     $page[] = "# $title";
@@ -292,15 +293,52 @@ if (INDEXNOW_KEY !== '') {
 }
 
 // -- llms.txt -------------------------------------------------------------
-// Flat "[title](url): description" index for AI crawlers/agents, one line
-// per behavior page, sorted by title. Same convention as the sibling
-// php-dictionary site.
-ksort($llmsEntries, SORT_STRING);
-file_put_contents($outDir.'/llms.txt', implode("\n", $llmsEntries)."\n");
+// Follows the llms.txt spec (https://llmstxt.org/): an H1, a short
+// blockquote summary, then H2 sections of Markdown links. Behavior pages
+// are grouped under an H2 per PHP version (falling back to the
+// deprecation version for entries with no phpVersion), and the site's
+// secondary index pages are listed last under the spec's reserved
+// "## Optional" heading.
+$llmsLines = [
+    '# PHP Changed Behaviors',
+    '',
+    '> A catalog of documented PHP behavior changes across versions 5.6 through 8.x/9.0-dev, each with a minimal reproduction script and the actual before/after output.',
+    '',
+    'Entries are grouped by the PHP version where the behavior changed, or was deprecated if no hard change accompanies it. Each linked page has the PHP code, the observed output before and after, and further references (manual pages, related entries, error messages).',
+    '',
+];
+
+$llmsVersions = array_keys($llmsSections);
+usort($llmsVersions, function (string $a, string $b) : int {
+    return version_compare($b, $a);
+});
+
+$llmsEntryCount = 0;
+foreach ($llmsVersions as $version) {
+    $list = $llmsSections[$version];
+    ksort($list, SORT_STRING);
+    $llmsLines[] = '## PHP '.$version;
+    $llmsLines[] = '';
+    foreach ($list as $line) {
+        $llmsLines[] = $line;
+        ++$llmsEntryCount;
+    }
+    $llmsLines[] = '';
+}
+
+$llmsLines[] = '## Optional';
+$llmsLines[] = '';
+$llmsLines[] = '- [Per PHP version index]('.SITE_URL.'phpversionindex.html): All behavior changes grouped by PHP version.';
+$llmsLines[] = '- [Error messages index]('.SITE_URL.'errormessages.html): PHP error and deprecation messages, linked to the behavior change that produces them.';
+$llmsLines[] = '- [Silently changed behaviors]('.SITE_URL.'silent.html): Behavior changes that produce no diagnostic at all.';
+$llmsLines[] = '- [XML sitemap]('.SITE_URL.'sitemap.xml)';
+$llmsLines[] = '';
+
+file_put_contents($outDir.'/llms.txt', implode("\n", $llmsLines));
 
 print "Generated ".count($tips)." behavior pages (".$errors." skipped)\n";
 print "Wrote indexnow.json with ".count($indexNowUrls)." URL(s)\n";
-print "Wrote llms.txt with ".count($llmsEntries)." entries\n";
+print "Wrote llms.txt with ".$llmsEntryCount." entries\n";
 
 // -- SUMMARY.md ---------------------------------------------------------
 
