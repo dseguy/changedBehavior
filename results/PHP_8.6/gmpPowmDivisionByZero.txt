@@ -1,0 +1,1 @@
+DivisionByZeroError: gmp_powm(): Argument #3 ($modulus) Modulo by zero
