@@ -1,0 +1,9 @@
+PHP Deprecated:  array_walk(): Passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead in /codes/arrayWalkObjectDeprecated.php on line 9
+
+Deprecated: array_walk(): Passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead in /codes/arrayWalkObjectDeprecated.php on line 9
+object(Point)#1 (2) {
+  ["x"]=>
+  int(10)
+  ["y"]=>
+  int(20)
+}
