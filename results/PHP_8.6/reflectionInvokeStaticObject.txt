@@ -1,0 +1,4 @@
+PHP Deprecated:  Calling ReflectionMethod::invoke() for static method C::staticMethod() does not need an object parameter in /codes/reflectionInvokeStaticObject.php on line 10
+
+Deprecated: Calling ReflectionMethod::invoke() for static method C::staticMethod() does not need an object parameter in /codes/reflectionInvokeStaticObject.php on line 10
+string(6) "called"
