@@ -5,7 +5,6 @@
 Non canonical cast operators `(integer)`, `(binary)`, `(double)`, `(boolean)` are deprecated, since PHP 8.5.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,15 +15,11 @@ print (binary) 2;
 
 ?>
 ```
-
 ## Before
-
 ```text
 2212
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Non-canonical cast (integer) is deprecated, use the (int) cast instead
 
@@ -40,9 +35,7 @@ PHP Deprecated:  Non-canonical cast (binary) is deprecated, use the (string) cas
 Deprecated: Non-canonical cast (binary) is deprecated, use the (string) cast instead
 2212
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.5.
 
 This behavior changed in 8.5.
@@ -53,3 +46,5 @@ This behavior changed in 8.5.
 - [Non-canonical cast (binary) is deprecated, use the (bool) cast instead](https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28boolean%29-is-deprecated%2C-use-the-%28bool%29-cast-instead.html)
 - [Non-canonical cast (double) is deprecated, use the (float) cast instead](https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28double%29-is-deprecated%2C-use-the-%28float%29-cast-instead.html)
 - [Non-canonical cast (integer) is deprecated, use the (int) cast instead](https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28integer%29-is-deprecated%2C-use-the-%28int%29-cast-instead.html)
+
+## Extension

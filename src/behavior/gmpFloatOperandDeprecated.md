@@ -5,7 +5,6 @@
 The `**`, `<<` and `>>` operators accept a `float` as the non-`GMP` operand when the other operand is a `GMP` object. Until PHP 8.6, a float such as `2.5` was silently truncated to an integer before being used as the exponent or shift amount, discarding its fractional part without warning. In PHP 8.6, a float that would lose precision when converted emits a deprecation notice, `Implicit conversion from float 2.5 to int loses precision`, before still truncating it the same way.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,16 +13,12 @@ var_dump(gmp_strval(gmp_init(8) << 2.5));
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(1) "4" 
 string(2) "32" 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /codes/gmpFloatOperandDeprecated.php on line 3
 
@@ -34,9 +29,7 @@ PHP Deprecated:  Implicit conversion from float 2.5 to int loses precision in /c
 Deprecated: Implicit conversion from float 2.5 to int loses precision in /codes/gmpFloatOperandDeprecated.php on line 4
 string(2) "32" 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -49,3 +42,6 @@ This behavior changed in .
 ## Error Messages
 
 - [Implicit conversion from float 2.5 to int loses precision](https://php-errors.readthedocs.io/en/latest/messages/gmp-shift-and-power-operators-deprecate-float-operands.html)
+
+## Extension
+- [gmp](../extension.md#gmp)

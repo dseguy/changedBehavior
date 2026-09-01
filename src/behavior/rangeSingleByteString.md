@@ -5,7 +5,6 @@
 When the first argument of range() is a single byte string, then the second argument must also be a single byte string, to keep the range consistent. Until PHP 8.3, the first string was converted to a integer too, most often 0, and then, the range was created.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,9 +12,7 @@ print_r(range('c', 3));
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -25,9 +22,7 @@ Array
     [3] => 3
 )
 ```
-
 ## After
-
 ```text
 PHP Warning:  range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0
 
@@ -40,9 +35,7 @@ Array
     [3] => 3
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## See Also
@@ -52,3 +45,5 @@ This behavior changed in 8.3.
 ## Error Messages
 
 - [range(): Argument #2 ($end) must be a single byte string if argument #1 ($start) is a single byte string, argument #1 ($start) converted to 0](https://php-errors.readthedocs.io/en/latest/messages/argument-%232-%28%24end%29-must-be-a-single-byte-string-if.html)
+
+## Extension

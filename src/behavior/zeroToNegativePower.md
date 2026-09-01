@@ -5,7 +5,6 @@
 Raising 0 to a negative power used to generate a `INF` value, aka infinity. The standard behavior is to generate a `DivisionByZeroError`, as this is not mathematically allowed. This behavior is deprecated in PHP 8.4, and will be removed in PHP 8.4. During the transition, a function called `fpow()` is provided, with the new behavior.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ var_dump(0 ** -1); //Deprecated: Zero raised to a negative power is deprecated
 
 ?>
 ```
-
 ## Before
-
 ```text
 float(INF)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Power of base 0 and negative exponent is deprecated
 
 Deprecated: Power of base 0 and negative exponent is deprecated
 float(INF)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.4.
 
 This behavior changed in 9.0.
@@ -44,6 +37,7 @@ This behavior changed in 9.0.
 
 - [Power of base 0 and negative exponent is deprecated](https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/NegativePow](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NegativePow.html)

@@ -5,32 +5,27 @@
 strpos() and stripos() emits a ValueError when the offset is out of range. In PHP 7.4, it emitted a warning.
 
 ## PHP code
-
 ```php
 <?php
   strpos('a', 'abc', 17);
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  strpos(): Offset not contained in string
 
 Warning: strpos(): Offset not contained in string
 bool(false)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Offset not contained in string](https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html)
+
+## Extension

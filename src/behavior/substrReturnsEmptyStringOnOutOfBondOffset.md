@@ -9,7 +9,6 @@ substr() used to return false when the parameters used to extract the string wer
 One collateral impact is that code that checks on the returned value to be false is now dead code.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,29 +18,28 @@ var_dump(iconv_substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0)
 var_dump(grapheme_substr('FooBar', 42, 3)); // "" in PHP >=8.0, false in PHP < 8.0);
 ?>
 ```
-
 ## Before
-
 ```text
 bool(false)
 string(0) "" 
 bool(false)
 bool(false)
 ```
-
 ## After
-
 ```text
 string(0) "" 
 string(0) "" 
 string(0) "" 
 string(0) "" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [substr()](https://www.php.net/substr)
+
+## Extension
+- [mbstring](../extension.md#mbstring)
+- [iconv](../extension.md#iconv)
+- [intl](../extension.md#intl)

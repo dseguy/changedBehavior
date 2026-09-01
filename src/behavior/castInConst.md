@@ -13,7 +13,6 @@ While using a cast on a literal value is rather meaningless, static constant exp
 Then, `(object)` is still not accepted, along with `(void)`. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -28,25 +27,21 @@ echo C;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Constant expression contains invalid operations
 
 Fatal error: Constant expression contains invalid operations
 ```
-
 ## After
-
 ```text
 123
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Constant expression contains invalid operations](https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html)
+
+## Extension

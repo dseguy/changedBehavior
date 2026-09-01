@@ -5,7 +5,6 @@
 A `CURLOPT_READFUNCTION` callback is expected to return the chunk of data to upload, the empty string, `CURL_READFUNC_ABORT`, or `CURL_READFUNC_PAUSE`. Until PHP 8.6, an invalid return value, such as an arbitrary integer, was passed straight to libcurl, which simply aborted the transfer without any diagnostic from PHP. In PHP 8.6, `curl_exec()` throws a `ValueError` when the callback returns something other than a string, `CURL_READFUNC_ABORT`, or `CURL_READFUNC_PAUSE`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -44,21 +43,15 @@ rmdir($docroot);
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(false)
 ```
-
 ## After
-
 ```text
 The CURLOPT_READFUNCTION callback must return a string or CURL_READFUNC_ABORT or CURL_READFUNC_PAUSE
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -69,3 +62,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [The CURLOPT_READFUNCTION callback must return a string or CURL_READFUNC_ABORT or CURL_READFUNC_PAUSE](https://php-errors.readthedocs.io/en/latest/messages/the-curlopt_readfunction-callback-must-return-a-string-or-curl_readfunc_abort-or-curl_readfunc_pause.html)
+
+## Extension
+- [curl](../extension.md#curl)

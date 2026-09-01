@@ -5,7 +5,6 @@
 `type()`, `cast()` and `new()` are instance methods of the object returned by `FFI::cdef()` or `FFI::load()`: each loaded C definition scope has its own set of types, so resolving a type name should happen on that specific instance. PHP used to allow calling these methods statically as `FFI::type()`, in which case they implicitly operated on an anonymous, definition-less scope. Since PHP 8.3, this static shortcut is deprecated, because it is ambiguous about which set of C declarations is being used.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,16 +16,12 @@ var_dump($type);
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(FFI\CType)#2 (0) {
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling FFI::type() statically is deprecated in /codes/ffiTypeStaticDeprecated.php on line 5
 
@@ -34,11 +29,12 @@ Deprecated: Calling FFI::type() statically is deprecated in /codes/ffiTypeStatic
 object(FFI\CType)#2 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/calling-ffi%3A%3Atype%28%29-statically-is-deprecated.html)
+
+## Extension
+- [FFI](../extension.md#FFI)

@@ -11,7 +11,6 @@ In particular, it means that `'`, single quote, is now converted in HTML entitie
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,23 +18,19 @@ echo htmlspecialchars("'");
 
 ?>
 ```
-
 ## Before
-
 ```text
 '
 ```
-
 ## After
-
 ```text
 &#039;
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## See Also
 
 - [htmlspecialchars](https://www.php.net/htmlspecialchars)
+
+## Extension

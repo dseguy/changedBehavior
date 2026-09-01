@@ -5,7 +5,6 @@
 The `createFromImmutable()` method from `DateTime` and `DateTimeImmutable` always return an object of the same class. In PHP 8.2 and later, the return type is now `static`, it will tentatively return a children class, when the method is called from that child class.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,15 +17,11 @@ $mutable = A::createFromImmutable( $date );
 var_dump($mutable);
 ?>
 ```
-
 ## Before
-
 ```text
 
 ```
-
 ## After
-
 ```text
 object(A)#2 (3) {
   ["date"]=>
@@ -37,7 +32,8 @@ object(A)#2 (3) {
   string(13) "Europe/London" 
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension
+- [date](../extension.md#date)

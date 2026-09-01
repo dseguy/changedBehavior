@@ -9,7 +9,6 @@ ksort() used the PHP 7 way to compare values: then, strings would rank below int
 In PHP 8.2, strings are now ranking above integers, and are moved to the end of the sorted array. This is related to the change of rules in comparisons.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,9 +21,7 @@ ksort($x);
 print_r($x);
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -33,9 +30,7 @@ Array
     [1] => 3
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -44,7 +39,7 @@ Array
     [a] => 1
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension

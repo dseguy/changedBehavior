@@ -13,7 +13,6 @@ Since PHP 8.0, case-insensitive constants are not possible anymore. Creating a c
 As a reminder, accessing a non-existing constant is a Fatal error, so an error on the case in a global constant leads to it.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,15 +23,11 @@ echo A;
 
 ?>
 ```
-
 ## Before
-
 ```text
 11
 ```
-
 ## After
-
 ```text
 PHP Warning:  define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported
 
@@ -41,9 +36,7 @@ PHP Fatal error:  Uncaught Error: Undefined constant a
 
 Fatal error: Uncaught Error: Undefined constant a
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
@@ -51,6 +44,7 @@ This behavior changed in 8.0.
 - [define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported](https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-argument-%233-%28%24case_insensitive%29-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html)
 - [define(): delaration of case insensitive constants is deprecated](https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-declaration-of-case-insensitive-constants-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Constants/CaseInsensitiveConstants](https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CaseInsensitiveConstants.html)

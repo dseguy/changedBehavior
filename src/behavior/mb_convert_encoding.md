@@ -9,7 +9,6 @@
 They are all handled by dedicated PHP functions, which should be used instead of this one. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,15 +19,11 @@ echo mb_convert_encoding('foo', 'html');
 
 ?>
 ```
-
 ## Before
-
 ```text
 Zm9vfoofoo
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  mb_convert_encoding(): Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead 
 
@@ -46,9 +41,7 @@ fooPHP Deprecated:  mb_convert_encoding(): Handling HTML entities via mbstring i
 Deprecated: mb_convert_encoding(): Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead 
 foo
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 8.2.
@@ -59,3 +52,6 @@ This behavior changed in 8.2.
 - [Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead](https://php-errors.readthedocs.io/en/latest/messages/handling-html-entities-via-mbstring-is-deprecated%3B-use-htmlspecialchars%2C-htmlentities%2C-or-mb_encode_numericentity-mb_decode_numericentity.html)
 - [Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode instead](https://php-errors.readthedocs.io/en/latest/messages/handling-qprint-via-mbstring-is-deprecated%3B-use-quoted_printable_encode-quoted_printable_decode.html)
 - [Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead](https://php-errors.readthedocs.io/en/latest/messages/handling-uuencode-via-mbstring-is-deprecated%3B-use-convert_uuencode-convert_uudecode-instead.html)
+
+## Extension
+- [mbstring](../extension.md#mbstring)

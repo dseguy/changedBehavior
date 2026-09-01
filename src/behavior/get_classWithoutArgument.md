@@ -9,7 +9,6 @@ get_class() had a default behavior, where the current class would be returned wh
 It is also deprecated for get_parent_class(). 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,21 +23,15 @@ class x {
 
 ?>
 ```
-
 ## Before
-
 ```text
 x
 ```
-
 ## After
-
 ```text
 Calling get_class() without arguments is deprecated
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.3.
 
 This behavior changed in 9.0.
@@ -47,6 +40,7 @@ This behavior changed in 9.0.
 
 - [Calling get_class() without arguments is deprecated](https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/NoGetClassNull](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoGetClassNull.html)

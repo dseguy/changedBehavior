@@ -17,7 +17,6 @@ Since PHP 8.3, it is possible to also set their first value as a function or met
 Properties and parameters are not allowed to use these expressions: they must be valid at compile time.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -36,25 +35,21 @@ echo foo();
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Constant expression contains invalid operations
 
 Fatal error: Constant expression contains invalid operations
 ```
-
 ## After
-
 ```text
 45
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Constant expression contains invalid operations](https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html)
+
+## Extension

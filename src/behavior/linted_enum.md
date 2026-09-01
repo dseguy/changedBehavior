@@ -13,7 +13,6 @@ In PHP 8.1, it was a compilation error, and the code would not be executed.
 Since PHP 8.2, it is only checked at execution time, when the enumeration is first used. This means that it may be a hidden bug, until that code is actually used.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,21 +30,15 @@ foo();
 
 ?>
 ```
-
 ## Before
-
 ```text
 Fatal error: Duplicate value in enum A for cases A and B
 ```
-
 ## After
-
 ```text
 NULL
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## See Also
@@ -55,3 +48,5 @@ This behavior changed in 8.2.
 ## Error Messages
 
 - [Duplicate value in enum A for cases A and B](https://php-errors.readthedocs.io/en/latest/messages/duplicate-value-in-enum-%25s-for-cases-%25s-and-%25s.html)
+
+## Extension

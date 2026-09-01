@@ -5,7 +5,6 @@
 assert() is the PHP native implementation of assertions. Until PHP 8.0, it would raise an error, while now, it throws an exception.
 
 ## PHP code
-
 ```php
 <?php
 // error handler function
@@ -26,19 +25,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 myErrorHandler
 ```
-
 ## After
-
 ```text
 assert(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

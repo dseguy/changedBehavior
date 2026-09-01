@@ -5,7 +5,6 @@
 Attributes can handle nested `new` calls since PHP 8.1. They can use literals, constants and now, full objects as part of the attribute expression. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,25 +19,21 @@ new x;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Constant expression contains invalid operations
 
 Fatal error: Constant expression contains invalid operations
 ```
-
 ## After
-
 ```text
 x::__construct
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Constant expression contains invalid operations](https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html)
+
+## Extension

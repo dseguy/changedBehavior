@@ -5,7 +5,6 @@
 (real) is replaced by (float) in PHP 8. It used to be a synonym of (float), and there is only one left. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,28 +13,24 @@ print (real) 1;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  The (real) cast is deprecated, use (float) instead -D
 
 Deprecated: The (real) cast is deprecated, use (float) instead -D
 1
 ```
-
 ## After
-
 ```text
 PHP Parse error:  The (real) cast has been removed, use (float) instead -D
 
 Parse error: The (real) cast has been removed, use (float) instead -D
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [The (real) cast is deprecated, use (float) instead](https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-has-been-removed%2C-use-%28float%29-instead.html)
+
+## Extension

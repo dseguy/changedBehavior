@@ -5,7 +5,6 @@
 `openlog()` used to accept a syslog prefix containing a NUL byte and silently truncated it at the NUL byte. In PHP 8.6, a NUL byte in the argument throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 openlog(): Argument #1 ($prefix) must not contain any null bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [openlog(): Argument #1 ($prefix) must not contain any null bytes](https://php-errors.readthedocs.io/en/latest/messages/openlog%28%29%3A-argument-%231-%28%24prefix%29-must-not-contain-any-null-bytes.html)
+
+## Extension

@@ -5,7 +5,6 @@
 It used to be valid syntax to have a new line or a space in a namespace name. This is not the case in PHP 8.0 anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,25 +15,21 @@ echo 1;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Parse error:  syntax error, unexpected fully qualified name "\Package", expecting "{" 
 
 Parse error: syntax error, unexpected fully qualified name "\Package", expecting "{" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [syntax error, unexpected fully qualified name "\Package", expecting "{"](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22%7B%22.html)
+
+## Extension

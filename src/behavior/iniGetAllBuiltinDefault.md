@@ -5,7 +5,6 @@
 `ini_get_all()` used to return, for each directive, only the `global_value`, `local_value` and `access` keys. In PHP 8.6, a fourth key, `builtin_default_value`, is added, containing the value that is hard-coded in PHP itself, regardless of any `php.ini` or `ini_set()` change.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,9 +13,7 @@ var_dump($all['precision']);
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(3) {
   [global_value]=>
@@ -27,9 +24,7 @@ array(3) {
   int(7)
 }
 ```
-
 ## After
-
 ```text
 array(4) {
   [global_value]=>
@@ -42,11 +37,11 @@ array(4) {
   int(7)
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [ini_get_all()](https://www.php.net/ini_get_all)
+
+## Extension

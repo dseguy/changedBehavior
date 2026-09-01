@@ -9,30 +9,25 @@ strsplit() splits a string into smaller strings of the same size. Until PHP 8.2,
 This has impact on the code after, in processing or testing the result of the split. 
 
 ## PHP code
-
 ```php
 <?php
 var_dump(str_split('', 3));
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
     [0] => 
 )
 ```
-
 ## After
-
 ```text
 Array
 (
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension

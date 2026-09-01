@@ -5,7 +5,6 @@
 Properties previously documented as readonly, such as `DOMNode::$nodeType`, `DOMDocument::$xmlEncoding`, `DOMEntity::$actualEncoding`, `$encoding` and `$version`, are now declared with asymmetric visibility (`public private(set)`). Writing to them from outside the class still fails, but the error message and its wording changed.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,23 +19,20 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 Error: Cannot modify readonly property DOMDocument::$xmlEncoding
 ```
-
 ## After
-
 ```text
 Error: Cannot modify private(set) property DOMDocument::$xmlEncoding from global scope
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [DOMDocument](https://www.php.net/manual/en/class.domdocument.php)
+
+## Extension
+- [dom](../extension.md#dom)

@@ -5,7 +5,6 @@
 Using `yield` anywhere in the body of `__destruct()` turns it into a Generator function. A Generator only starts executing once something iterates it, but nothing iterates the return value of a destructor: PHP just calls it during garbage collection and discards the result. As a consequence, the body of such a destructor never actually runs, silently skipping any cleanup code it contains. Since this pattern is virtually always a mistake, PHP 8.6 deprecates making a destructor a Generator.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,23 +19,17 @@ unset($x);
 
 ?>
 ```
-
 ## Before
-
 ```text
 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Making a destructor a Generator is deprecated in /codes/destructorAsGenerator.php on line 4
 
 Deprecated: Making a destructor a Generator is deprecated in /codes/destructorAsGenerator.php on line 4
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in 8.6.
@@ -49,3 +42,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/making-a-destructor-a-generator-is-deprecated.html)
+
+## Extension

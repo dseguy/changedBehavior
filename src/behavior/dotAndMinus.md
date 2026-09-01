@@ -5,7 +5,6 @@
 The dot (concatenation) and substraction - operators have a distinct priority in PHP 8.0. In particular, - has now precedence. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ echo 3 . 4 - 5;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
 
 Deprecated: The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
 29
 ```
-
 ## After
-
 ```text
 3-1
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -43,6 +36,7 @@ This behavior changed in 8.0.
 
 - [The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence](https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%2B%27-%27-%27-will-change-in-php-8%3A-%27%2B%27-%27-%27-will-take-a-higher-precedence.html)
 
+## Extension
 ## Analyzer
 
 - [Php/ConcatAndAddition](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html)

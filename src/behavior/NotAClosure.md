@@ -13,7 +13,6 @@ This applies to functions or methods, that are later turned into a closure with 
 The warning message, used in previous PHP version, was not as explicit as the new one.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,26 +26,22 @@ foo(...)(); // Error: foo was put inside a closure, but it is still not a closur
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Call to undefined method Closure::getCurrent()
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Current function is not a closure
 
 Fatal error: Uncaught Error: Current function is not a closure
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Call to undefined method Closure::getCurrent()](https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html)
 - [Current function is not a closure](https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html)
+
+## Extension

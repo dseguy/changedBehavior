@@ -5,7 +5,6 @@
 range() used to cast the arguments to integers. In PHP 8.3, strings are used as is, and range() returns the list of chars between the ASCII codes of those strings. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,18 +12,14 @@ print_r(range('0', 'A'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
     [0] => 0
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -48,7 +43,7 @@ Array
     [17] => A
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
+
+## Extension

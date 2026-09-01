@@ -9,7 +9,6 @@ PHP accepted `null` as first parameter `$string` of strpos(). Then, it cast the 
 Since PHP 8.2, this is a deprecated behavior, with a warning message. It will be removed in PHP 9.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ var_dump(strpos(null, '1'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 false
 ```
-
 ## After
-
 ```text
 strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 9.0.
@@ -39,3 +32,5 @@ This behavior changed in 9.0.
 ## Error Messages
 
 - [Passing null to parameter #1 ($haystack) of type string is deprecated](https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html)
+
+## Extension

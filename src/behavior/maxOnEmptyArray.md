@@ -9,7 +9,6 @@ max() returns the largest value in the argument. When that argument is an empty 
 To be consistent, PHP emits an error on an empty array : it is not possible to get the maximum value when there are none.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,29 +22,25 @@ var_dump($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  max(): Array must contain at least one element 
 
 Warning: max(): Array must contain at least one element 
 bool(false)
 ```
-
 ## After
-
 ```text
 max(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a 
 
 Warning: Undefined variable $a 
 NULL
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Must contain at least one element](https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html)
+
+## Extension

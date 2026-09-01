@@ -9,7 +9,6 @@ The magic method `__toString()` could not throw exception, in case of problem oc
 Since PHP 7.4, it is possible.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,31 +22,26 @@ class X {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Method X::__toString() must not throw an exception, caught Exception: errorX::__toString
 
 Fatal error: Method X::__toString() must not throw an exception, caught Exception: errorX::__toString
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Exception: errorX::__toString
 
 Fatal error: Uncaught Exception: errorX::__toString
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Method %s::%s() must not throw an exception, caught %s](https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A__tostring%28%29-must-not-throw-an-exception%2C-caught-%25s%3A-%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/toStringThrowsException](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/toStringThrowsException.html)

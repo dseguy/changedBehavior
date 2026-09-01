@@ -5,7 +5,6 @@
 There are methods that return void; and methods that return a reference. Until PHP 8.1, they could be the same, although a Notice was emitted. This is now deprecated behavior in PHP 8.1, and shall disappear in PHP 9.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,17 +18,13 @@ foo();
 
 ?>
 ```
-
 ## Before
-
 ```text
 fooPHP Notice:  Only variable references should be returned by reference 
 
 Notice: Only variable references should be returned by reference 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Returning by reference from a void function is deprecated 
 
@@ -38,9 +33,7 @@ fooPHP Notice:  Only variable references should be returned by reference
 
 Notice: Only variable references should be returned by reference 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.1.
 
 This behavior changed in 9.0.
@@ -49,6 +42,7 @@ This behavior changed in 9.0.
 
 - [Returning by reference from a void function is deprecated](https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Functions/NoReferencedVoid](https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/NoReferencedVoid.html)

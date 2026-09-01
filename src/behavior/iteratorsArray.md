@@ -5,7 +5,6 @@
 The PHP native function used to accept only iterators. Since PHP 8.1, arrays are also welcomed. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,23 +12,20 @@ print iterator_count([1,2,3]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given
 ```
-
 ## After
-
 ```text
 3
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## Error Messages
 
 - [Uncaught TypeError: iterator_count(): Argument #1 ($iterator) must be of type Traversable, array given](https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html)
+
+## Extension
+- [SPL](../extension.md#SPL)

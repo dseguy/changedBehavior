@@ -5,7 +5,6 @@
 The `Reflection::export()` static method was deprecated in PHP 7.4 and removed in 8.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ print Reflection::export($reflector, true);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Function Reflection::export() is deprecated 
 
@@ -43,15 +40,14 @@ Class [ <user> class A ] {
   }
 }
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Call to undefined method Reflection::export() 
 
 Fatal error: Uncaught Error: Call to undefined method Reflection::export() 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension
+- [Reflection](../extension.md#Reflection)

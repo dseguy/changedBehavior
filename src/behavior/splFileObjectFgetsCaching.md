@@ -5,7 +5,6 @@
 `SplFileObject::fgets()` used to cache the line it read so that a following `current()` call returned that same cached line instead of reading again. It also let `next()` be called past end-of-file an unlimited number of times, incrementing `key()` without bound. In PHP 8.6, `fgets()` no longer caches the line for `current()`, so `current()` now reads and returns the next line from the stream; `next()` past EOF is now a no-op, so `key()` stops advancing once the end of the file is reached.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,25 +24,19 @@ unlink($path);
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(5) line1
 string(5) line1
 int(5)
 ```
-
 ## After
-
 ```text
 string(5) line1
 string(5) line2
 int(3)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -52,3 +45,6 @@ This behavior changed in 8.6.
 - [SplFileObject::current()](https://www.php.net/splfileobject.current)
 - [SplFileObject::next()](https://www.php.net/splfileobject.next)
 - [SplFileObject::key()](https://www.php.net/splfileobject.key)
+
+## Extension
+- [SPL](../extension.md#SPL)

@@ -13,7 +13,6 @@ Since PHP 7.4, array_merge() handles graciously the case of no arguments, by ret
 This applies to array_merge() and array_merge_recursive().
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,31 +24,26 @@ print_r($array2);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  array_merge() expects at least 1 parameter, 0 given
 
 Warning: array_merge() expects at least 1 parameter, 0 given
 ```
-
 ## After
-
 ```text
 Array
 (
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [array_merge() expects at least 1 parameter, 0 given](https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-expects-at-least-1-parameter%2C-0-given.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/ArrayMergeAndVariadic](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ArrayMergeAndVariadic.html)

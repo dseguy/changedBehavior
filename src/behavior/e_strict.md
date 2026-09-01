@@ -5,7 +5,6 @@
 The PHP native constant `E_STRICT` is deprecated, and will be removed in PHP 9.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ var_dump(error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT));
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(32767)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Constant E_STRICT is deprecated
 
 Deprecated: Constant E_STRICT is deprecated
 int(30719)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.4.
 
 This behavior changed in 9.0.
@@ -42,3 +35,5 @@ This behavior changed in 9.0.
 ## Error Messages
 
 - [Constant %s is deprecated](https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html)
+
+## Extension

@@ -15,7 +15,6 @@ Note that all the case expressions are checked at once, whatever the case, or co
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,27 +30,23 @@ Foo::A; // first actual usage of the case
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Enum case value must be compile-time evaluatable 
 
 Fatal error: Enum case value must be compile-time evaluatable 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Undefined constant B
 
 Fatal error: Uncaught Error: Undefined constant B
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Enum case value must be compile-time evaluatable](https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html)
+
+## Extension

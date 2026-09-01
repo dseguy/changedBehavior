@@ -17,7 +17,6 @@ PHP allows first-class callable syntax (`(...)`) to be used inside a constant ex
 The equivalent restrictions for a plain function name (rather than a static method) are reported as 'Cannot use dynamic function name in constant expression' and 'Illegal function name'.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,24 +30,20 @@ const C2 = X::{0}(...); // Illegal method name
 
 ?>
 ```
-
 ## Before
-
 ```text
 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot use dynamic method name in constant expression
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot use dynamic method name in constant expression](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-method-name-in-constant-expression.html)
 - [Illegal method name](https://php-errors.readthedocs.io/en/latest/messages/illegal-method-name.html)
+
+## Extension

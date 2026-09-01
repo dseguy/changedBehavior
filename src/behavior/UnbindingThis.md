@@ -5,7 +5,6 @@
 When a closure is created in a non-static method, it imports automatically the current object. Nowadays, it is not possible to remove that object from the closure, as it would not run anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,9 +22,7 @@ print $closure->bindTo(null);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Unbinding $this of closure is deprecated
 
@@ -34,19 +31,17 @@ PHP Fatal error:  Uncaught Error: Object of class Closure could not be converted
 
 Fatal error: Uncaught Error: Object of class Closure could not be converted to string
 ```
-
 ## After
-
 ```text
 PHP Warning:  Cannot unbind $this of closure using $this
 
 Warning: Cannot unbind $this of closure using $this
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Object of class %s could not be converted to string](https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-string.html)
+
+## Extension

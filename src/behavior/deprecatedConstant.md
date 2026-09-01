@@ -37,7 +37,6 @@ With new versions, PHP deprecates some constants. Mostly global constants, but a
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -45,26 +44,22 @@ echo SUNFUNCS_RET_TIMESTAMP;
 
 ?>
 ```
-
 ## Before
-
 ```text
 0
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Constant SUNFUNCS_RET_TIMESTAMP is deprecated 
 
 Deprecated: Constant SUNFUNCS_RET_TIMESTAMP is deprecated 
 0
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Constant SUNFUNCS_RET_TIMESTAMP is deprecated ](https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html)
+
+## Extension

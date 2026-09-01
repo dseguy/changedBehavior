@@ -5,7 +5,6 @@
 `is_double()`, `is_long()`, `is_integer()` and `doubleval()` have always been pure aliases for `is_float()`, `is_int()`, `is_int()` and `floatval()` respectively. Until PHP 8.6, calling any of these aliases produced no diagnostic. In PHP 8.6, calling any of them emits a deprecation notice pointing to the canonical function name, even though the alias keeps working exactly as before.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,18 +15,14 @@ var_dump(doubleval("1.5"));
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 bool(true)
 bool(true)
 float(1.5)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Function is_double() is deprecated since 8.6, use is_float() instead
 
@@ -46,9 +41,7 @@ PHP Deprecated:  Function doubleval() is deprecated since 8.6, use floatval() in
 Deprecated: Function doubleval() is deprecated since 8.6, use floatval() instead
 float(1.5)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -69,3 +62,5 @@ This behavior changed in .
 - [Function is_long() is deprecated since 8.6, use is_int() instead](https://php-errors.readthedocs.io/en/latest/messages/function-is_long%28%29-is-deprecated-since-8.6%2C-use-is_int%28%29-instead.html)
 - [Function is_integer() is deprecated since 8.6, use is_int() instead](https://php-errors.readthedocs.io/en/latest/messages/function-is_integer%28%29-is-deprecated-since-8.6%2C-use-is_int%28%29-instead.html)
 - [Function doubleval() is deprecated since 8.6, use floatval() instead](https://php-errors.readthedocs.io/en/latest/messages/function-doubleval%28%29-is-deprecated-since-8.6%2C-use-floatval%28%29-instead.html)
+
+## Extension

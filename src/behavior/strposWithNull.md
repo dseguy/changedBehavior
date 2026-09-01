@@ -5,7 +5,6 @@
 strpos() and stripos() used to accept NULL as second argument. This was deprecated with a warning, and then removed in PHP 8.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,21 +12,15 @@ var_dump(strpos('1', null));
 
 ?>
 ```
-
 ## Before
-
 ```text
 strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
 ```
-
 ## After
-
 ```text
 strpos(): Passing null to parameter #2 ($needle) of type string is deprecated
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.3.
 
 This behavior changed in 8.0.
@@ -35,3 +28,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Passing null to parameter #2 ($needle) of type string is deprecated](https://php-errors.readthedocs.io/en/latest/messages/strlen%28%29%3A-passing-null-to-parameter-%231-%28%24string%29-of-type-string-is-deprecated.html)
+
+## Extension

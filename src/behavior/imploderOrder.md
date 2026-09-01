@@ -9,7 +9,6 @@ It was possible to call implode() with a random order of argument : string first
 In PHP 8.0, it is now compulsory to put the string in the first place, as the types are checked. Or used named parameters.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,28 +16,24 @@ print_r(implode([1,2], '3'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters 
 
 Deprecated: implode(): Passing glue string after array is deprecated. Swap the parameters 
 132
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given 
 
 Fatal error: Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [implode(): Argument #2 ($array) must be of type ?array, string given](https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html)
+
+## Extension

@@ -9,7 +9,6 @@ It was not possible to use a literal string as a variable for an array, or a cla
 In PHP 8, this is now possible.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,22 +26,16 @@ class fooabc{
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected '[', expecting ';' or ',' 
 ```
-
 ## After
-
 ```text
 f
 fooabc::foo
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
@@ -53,6 +46,7 @@ This behavior changed in 8.0.
 
 - [syntax error, unexpected '[', expecting ';' or ','](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%5B%27%2C-expecting-%27%3B%27-or-%27%2C%27.html)
 
+## Extension
 ## Analyzer
 
 - [Php/InterpolatedStringDereferencing](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/InterpolatedStringDereferencing.html)

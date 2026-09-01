@@ -5,7 +5,6 @@
 __debugInfo() is a magic method that returns an array with debug information. It gives a chance to the program to return any useful information, beyond the local properties. It also allows to remove any sensitive information, such as passwords or secrets. Since PHP 8.6, it is not possible to return NULL: the method method must return an array, albeit empty.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,16 +18,12 @@ var_dump(new x);
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(x)#1 (0) {
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Returning null from x::__debugInfo() is deprecated, return an empty array instead in /codes/debugInfoCannotReturnNull.php on line 9
 
@@ -36,11 +31,11 @@ Deprecated: Returning null from x::__debugInfo() is deprecated, return an empty 
 object(x)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-%25s%3A%3A__debuginfo%28%29-is-deprecated%2C-return-an-empty-array-instead.html)
+
+## Extension

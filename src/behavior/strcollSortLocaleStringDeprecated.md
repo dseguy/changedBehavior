@@ -5,7 +5,6 @@
 `strcoll()` compares strings according to the current locale, and the `SORT_LOCALE_STRING` flag makes `sort()` and related functions do the same. Until PHP 8.6, both relied silently on the global, thread-unsafe locale set by `setlocale()`. In PHP 8.6, using either `strcoll()` or `SORT_LOCALE_STRING` emits a deprecation notice recommending the `intl` extension's `Collator` class instead.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ var_dump($arr);
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(-1)
 array(3) {
@@ -31,9 +28,7 @@ array(3) {
   string(6) "cherry" 
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Function strcoll() is deprecated since 8.6, use Collator::compare() instead
 
@@ -51,9 +46,7 @@ array(3) {
   string(6) "cherry" 
 }
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -69,3 +62,5 @@ This behavior changed in .
 
 - [Function strcoll() is deprecated since 8.6, use Collator::compare() instead](https://php-errors.readthedocs.io/en/latest/messages/function-strcoll%28%29-is-deprecated-since-8.6%2C-use-collator%3A%3Acompare%28%29-instead.html)
 - [Constant SORT_LOCALE_STRING is deprecated since 8.6, use one of the Collator::*sort*() methods instead](https://php-errors.readthedocs.io/en/latest/messages/constant-sort_locale_string-is-deprecated-since-8.6%2C-use-one-of-the-collator%3A%3A%2Asort%2A%28%29-methods-instead.html)
+
+## Extension

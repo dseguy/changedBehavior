@@ -11,7 +11,6 @@ Invalid variable names, such as numeric values, are also reported.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -26,9 +25,7 @@ var_dump(compact($name, $age));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  compact(): Undefined variable $Tobias
 
@@ -36,9 +33,7 @@ Warning: compact(): Undefined variable $Tobias
 array(0) {
 }
 ```
-
 ## After
-
 ```text
 PHP Warning:  compact(): Undefined variable $Tobias
 
@@ -49,9 +44,7 @@ Warning: compact(): Argument #2 must be string or array of strings, int given
 array(0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## See Also
@@ -62,6 +55,7 @@ This behavior changed in 8.1.
 
 - [Undefined variable](https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html)
 
+## Extension
 ## Analyzer
 
 - [Php/CompactInexistant](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CompactInexistant.html)

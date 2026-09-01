@@ -9,7 +9,6 @@ The `#[\Override]` attribute, introduced in PHP 8.3 for methods and extended to 
 If the constant marked `#[\Override]` has no matching parent constant -- because the parent/interface declares no constant of that name, or because the class has no parent and implements no interface at all -- PHP reports a compile-time error. Only public and protected constants of a parent class or implemented interface satisfy the attribute; private constants do not count.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,25 +26,21 @@ class Square implements Shape {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Attribute "Override" cannot target class constant (allowed targets: method)
 
 Fatal error: Attribute "Override" cannot target class constant (allowed targets: method)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Square::COLOR has #[\Override] attribute, but no matching parent constant exists
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## Error Messages
 
 - [%s::%s has #[\Override] attribute](https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-has-%23%5B--override%5D-attribute.html)
+
+## Extension

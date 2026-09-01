@@ -5,7 +5,6 @@
 `array_intersect()` compares values as strings. Until PHP 8.6, non-string values were converted to strings lazily, during the pairwise sort-based comparisons used internally. In PHP 8.6, all input arrays (once at least two are known to be non-empty) are scanned upfront and their values converted to strings before any comparison happens. This changes the number and order of conversion warnings and `__toString()` calls -- fewer calls overall, since each value is now converted once instead of possibly several times during comparisons -- and can change results for a stateful `__toString()` implementation.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,26 +26,22 @@ var_dump(count($result));
 
 ?>
 ```
-
 ## Before
-
 ```text
 toString call #1
 toString call #2
 int(1)
 ```
-
 ## After
-
 ```text
 toString call #1
 int(1)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [array_intersect()](https://www.php.net/array_intersect)
+
+## Extension

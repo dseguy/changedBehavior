@@ -5,7 +5,6 @@
 PHP checks if the visibility of constants that are also part of an interface are all public. If the class constant, in the class, is not public, it is a Fatal Error. This was not checked until PHP 8.3.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,24 +22,20 @@ print x::J;
 print x::I;
 ?>
 ```
-
 ## Before
-
 ```text
 Cannot access private constant x::I
 ```
-
 ## After
-
 ```text
 Access level to x::I must be public (as in interface i)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Cannot access %s constant %s::%s](https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-const-%25s%3A%3A%25s.html)
 - [Access level to %s::%s must be %s (as in %s)](https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html)
+
+## Extension

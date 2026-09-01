@@ -5,7 +5,6 @@
 `mb_convert_variables()` accepts one or more variables by reference and converts their character encoding in place; historically, an object passed as one of these variables had its accessible public properties converted, just like an array. Until PHP 8.6, this worked silently. In PHP 8.6, passing an object to `mb_convert_variables()` emits a deprecation notice suggesting `get_object_vars()` first, even though the conversion still happens exactly as before.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ var_dump($o);
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(5) "ASCII" 
 object(stdClass)#1 (2) {
@@ -31,9 +28,7 @@ object(stdClass)#1 (2) {
   string(3) "def" 
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  mb_convert_variables(): Passing an object for argument #3 $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead in /codes/mbConvertVariablesObjectDeprecated.php on line 7
 
@@ -46,9 +41,7 @@ object(stdClass)#1 (2) {
   string(3) "def" 
 }
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -61,3 +54,6 @@ This behavior changed in .
 ## Error Messages
 
 - [mb_convert_variables(): Passing an object for argument #3 $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead](https://php-errors.readthedocs.io/en/latest/messages/mb_convert_variables%28%29%3A-passing-an-object-for-argument-%233-%24vars-to-mb_convert_variables%28%29-is-deprecated%2C-call-get_object_vars%28%29-first-instead.html)
+
+## Extension
+- [mbstring](../extension.md#mbstring)

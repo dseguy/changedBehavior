@@ -5,7 +5,6 @@
 Curl functions have moved from resource to objects in PHP 8.0. Instead of returning a resource, it now returns a `CurlHandle` object. Checks based on is_resource() must be upgraded, and are now dead code.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,21 @@ var_dump(curl_init('https://www.php.net'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 resource(4) of type (curl)
 ```
-
 ## After
-
 ```text
 object(CurlHandle)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [curl_init](https://www.php.net/manual/fr/function.curl-init.php)
+
+## Extension
+- [curl](../extension.md#curl)

@@ -9,7 +9,6 @@ It was little known that one could use a semi-colon `;` in a case entry, instead
 Since PHP 8.5, it is forbidden.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,26 +21,22 @@ switch ($a) {
 
 ?>
 ```
-
 ## Before
-
 ```text
 2
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead
 
 Deprecated: Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead
 2
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead](https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-%28%3B%29-are-deprecated%2C-use-a-colon-%28%3A%29.html)
+
+## Extension

@@ -5,7 +5,6 @@
 A static closure does not import any variables from the defining context. In particular, it doesn't import the pseudo-variable `$this`. This also applies when trying to reconfigure a closure with its `bindTo()` method.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,27 +16,23 @@ $d = $fn->bindTo(new A, 'A');
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  Cannot bind an instance to a static closure
 
 Warning: Cannot bind an instance to a static closure
 ```
-
 ## After
-
 ```text
 PHP Warning:  Cannot bind an instance to a static closure, this will be an error in PHP 9
 
 Warning: Cannot bind an instance to a static closure, this will be an error in PHP 9
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot bind an instance to a static closure](https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure.html)
+
+## Extension

@@ -5,7 +5,6 @@
 In PHP 8, the rules of comparison between integers and strings have changed. Hence, max() may return a different value on PHP 7 and PHP 8.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,19 +12,15 @@ var_dump( max(['', 0]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(0) 
 ```
-
 ## After
-
 ```text
 int(0)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

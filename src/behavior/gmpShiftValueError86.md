@@ -5,7 +5,6 @@
 The GMP shift operators (`<<` and `>>`) accept a right operand outside the range of a regular PHP integer when it is itself a `GMP` object. Until PHP 8.6, a right operand greater than the platform's unsigned long maximum was silently truncated, producing an incorrect shift amount. In PHP 8.6, a right operand outside the unsigned long range throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,21 +19,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(1) "2" 
 ```
-
 ## After
-
 ```text
 ValueError: Shift must be between 0 and 18446744073709551615
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -44,3 +37,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [Shift must be between 0 and 18446744073709551615](https://php-errors.readthedocs.io/en/latest/messages/gmp-shift-operators-validate-a-gmp-right-operand.html)
+
+## Extension
+- [gmp](../extension.md#gmp)

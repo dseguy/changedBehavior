@@ -5,7 +5,6 @@
 When starting from an empty array and assigning an initial negative integer index, PHP used to continue assigning indices with 0, instead of the following negative number. It is fixed in PHP 8.3.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ print_r($array);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -27,9 +24,7 @@ Array
     [0] => b
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -37,7 +32,7 @@ Array
     [-1] => b
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
+
+## Extension

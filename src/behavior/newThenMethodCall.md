@@ -9,7 +9,6 @@ It was not possible to call a method directly after instantiating an object: the
 In PHP 8.4, it is now possible to call directly a method after instantiation, as long as the new call includes the parenthesises. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,25 +21,21 @@ new x()->a();
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected token "->" 
 
 Parse error: syntax error, unexpected token "->" 
 ```
-
 ## After
-
 ```text
 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [syntax error, unexpected token "->"](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22-%3E%22.html)
+
+## Extension

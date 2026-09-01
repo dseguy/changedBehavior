@@ -5,7 +5,6 @@
 `putenv()` used to accept an assignment string containing a NUL byte and silently truncated it at the NUL byte, setting an environment variable from the part before it. In PHP 8.6, a NUL byte in the argument throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 putenv(): Argument #1 ($assignment) must not contain any null bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [putenv(): Argument #1 ($assignment) must not contain any null bytes](https://php-errors.readthedocs.io/en/latest/messages/putenv%28%29%3A-argument-%231-%28%24assignment%29-must-not-contain-any-null-bytes.html)
+
+## Extension

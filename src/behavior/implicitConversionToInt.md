@@ -5,7 +5,6 @@
 Array keys accept only string and integer types. When providing a float, PHP used to convert it to an int. It still does, in PHP 8.1, though it now emits a deprecation warning.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,24 +16,18 @@ print $a[15];
 
 ?>
 ```
-
 ## Before
-
 ```text
 2
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Implicit conversion from float 15.5 to int loses precision 
 
 Deprecated: Implicit conversion from float 15.5 to int loses precision 
 3
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.1.
 
 This behavior changed in 9.0.
@@ -42,3 +35,5 @@ This behavior changed in 9.0.
 ## Error Messages
 
 - [Implicit conversion from float 15.5 to int loses precision](https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%22%25s%22-to-int-loses.html)
+
+## Extension

@@ -9,7 +9,6 @@ Cpying $GLOBALS into another variable was made by reference: modifying the value
 Since PHP 8.1, the copy is a copy by value: this means that changing something in the copy will not be changed in the original `$GLOBALS` variable.
 
 ## PHP code
-
 ```php
 <?php
 $a = 1;
@@ -19,23 +18,18 @@ $globals['a'] = 2;
 var_dump($a); // int(2)
 ?>
 ```
-
 ## Before
-
 ```text
 int(2)
 ```
-
 ## After
-
 ```text
 int(1)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
+## Extension
 ## Analyzer
 
 - [Php/GlobalCopy](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/GlobalCopy.html)

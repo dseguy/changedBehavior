@@ -9,7 +9,6 @@ Cloning a constant was useless: this is the version where global constants could
 The syntax has always been valid, but, at execution time, it would emit an error, as the constant could not be cloned.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,24 +20,18 @@ var_dump(clone A);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Constant expression contains invalid operations
 
 Fatal error: Constant expression contains invalid operations
 ```
-
 ## After
-
 ```text
 object(C)#2 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
@@ -46,6 +39,7 @@ This behavior changed in 8.1.
 - [Constant expression contains invalid operations](https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html)
 - [__clone method called on non-object](https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html)
 
+## Extension
 ## Analyzer
 
 - [Php/CloneConstant](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CloneConstant.html)

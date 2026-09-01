@@ -5,7 +5,6 @@
 Promoted properties could not be final. Since PHP 8.5, it is possible to use final in promoted properties definition.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,28 +18,24 @@ var_dump(new x(1));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use the final modifier on a parameter
 
 Fatal error: Cannot use the final modifier on a parameter
 ```
-
 ## After
-
 ```text
 object(x)#1 (1) {
   ["i"]=>
   int(1)
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot use the final modifier on a parameter](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-parameter.html)
+
+## Extension

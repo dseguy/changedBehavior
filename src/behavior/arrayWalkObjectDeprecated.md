@@ -5,7 +5,6 @@
 `array_walk()` and `array_walk_recursive()` have always accepted an object as their first argument, walking its accessible public properties as if they were an array. Until PHP 8.6, this worked silently. In PHP 8.6, passing an object to either function emits a deprecation notice suggesting `get_object_vars()` first, even though the walk itself still happens and mutates the object's properties exactly as before.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,9 +21,7 @@ var_dump($p);
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(Point)#1 (2) {
   ["x"]=>
@@ -33,9 +30,7 @@ object(Point)#1 (2) {
   int(20)
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  array_walk(): Passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead
 
@@ -47,9 +42,7 @@ object(Point)#1 (2) {
   int(20)
 }
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -63,3 +56,5 @@ This behavior changed in .
 ## Error Messages
 
 - [array_walk(): Passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead](https://php-errors.readthedocs.io/en/latest/messages/array_walk%28%29%3A-passing-an-object-for-argument-%231-%24array-to-array_walk%28%29-is-deprecated%2C-call-get_object_vars%28%29-first-instead.html)
+
+## Extension

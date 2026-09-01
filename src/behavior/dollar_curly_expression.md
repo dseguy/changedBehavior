@@ -5,7 +5,6 @@
 The `$\{}` allowed the usage of an expression to be used as the name of a variable, inside de double quoted string. This feature was largely unknown and unused, so it is removed.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,26 +14,22 @@ var_dump("foo is ${$foo}");
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(10) "foo is xyz" 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Using  (variable variables) in strings is deprecated, use {} instead
 
 Deprecated: Using  (variable variables) in strings is deprecated, use {} instead
 string(10) "foo is xyz" b
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## Error Messages
 
 - [Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead](https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bexpr%7D-%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html)
+
+## Extension

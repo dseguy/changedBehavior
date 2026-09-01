@@ -5,7 +5,6 @@
 Undefined global constants used to fallback to their equivalent string. It would keep the execution going, too. In PHP 8.0, such mistake is a Fatal Error
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,21 +12,15 @@ echo D;
 
 ?>
 ```
-
 ## Before
-
 ```text
 D
 ```
-
 ## After
-
 ```text
 Uncaught Error: Undefined constant "D"
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.0.
 
 This behavior changed in 8.0.
@@ -36,6 +29,7 @@ This behavior changed in 8.0.
 
 - [Uncaught Error: Undefined constant "%s"](https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Constants/UndefinedConstants](https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/UndefinedConstants.html)

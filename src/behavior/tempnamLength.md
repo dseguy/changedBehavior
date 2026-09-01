@@ -9,7 +9,6 @@ The temporary name, provided by `tempname()` used to be 6 characters, added to t
 There might be impact on database, if this is stored.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,19 +18,15 @@ print strlen(tempnam(/tmp, FOO));
 
 ?>
 ```
-
 ## Before
-
 ```text
 22
 ```
-
 ## After
-
 ```text
 35
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
+
+## Extension

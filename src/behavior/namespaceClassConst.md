@@ -9,7 +9,6 @@ namespace is a PHP keyword, and it is allowed inside class for naming methods or
 The actual motivation is a future feature: reserving namespace would allow a future `::namespace` pseudo-constant, analogous to `::class`, for directory namespaces. For example, replacing stringy APIs like `Order\Domain\Entities` with `\Order\Domain\Entities::namespace`, which gives you IDE support, refactoring, and static analysis for free.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,24 +18,18 @@ echo x::namespace;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Declaring class constant called 'namespace' is deprecated in /codes/namespaceClassConst.php on line 3
 
 Deprecated: Declaring class constant called 'namespace' is deprecated in /codes/namespaceClassConst.php on line 3
 1
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in 8.6.
@@ -48,3 +41,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [Declaring class constant called 'namespace' is deprecated](https://php-errors.readthedocs.io/en/latest/messages/Declaring+class+constant+called+%27namespace%27+is+deprecated.html)
+
+## Extension

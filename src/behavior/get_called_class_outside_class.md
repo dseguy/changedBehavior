@@ -5,7 +5,6 @@
 get_called_class() generated a warning when called outside a class or an enumeration. Since PHP 8.0, it is a fatal error.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,26 +12,20 @@ var_dump(get_called_class());
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  get_called_class() called from outside a class
 
 Warning: get_called_class() called from outside a class
 bool(false)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: get_called_class() must be called from within a class
 
 Fatal error: Uncaught Error: get_called_class() must be called from within a class
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.0.
 
 This behavior changed in 8.0.
@@ -40,3 +33,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [get_called_class() called from outside a class](https://php-errors.readthedocs.io/en/latest/messages/get_called_class%28%29-must-be-called-from-within-a-class.html)
+
+## Extension

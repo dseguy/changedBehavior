@@ -9,7 +9,6 @@ ksort() used a different sorting method to sort the keys than to sort the values
 This applies to krsort() too. It may apply to uksort(), depending on the code of the custom comparison function.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,9 +20,7 @@ print_r($array);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -32,9 +29,7 @@ Array
     [f] => 2
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -43,7 +38,7 @@ Array
     [f] => 2
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension

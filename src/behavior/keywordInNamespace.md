@@ -5,34 +5,28 @@
 PHP didn't accept its own keywords in the definition of a namespace. Nowadays, namespaces are parsed as a whole, and there are no keywords in there. Before, the namespaces were parsed bit by bit, and the presence of the keywords was an impediment in that process. 
 
 ## PHP code
-
 ```php
 <?php
 namespace a\eval\b;
 echo __NAMESPACE__;
 ?>
 ```
-
 ## Before
-
 ```text
 syntax error, unexpected token "\", expecting "{"
 ```
-
 ## After
-
 ```text
 a\eval\b
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [syntax error, unexpected token "--", expecting "{"](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22--%22%2C-expecting-%22%7B%22.html)
 
+## Extension
 ## Analyzer
 
 - [Namespaces/NoKeywordInNamespace](https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces/NoKeywordInNamespace.html)

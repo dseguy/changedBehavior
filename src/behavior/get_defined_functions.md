@@ -9,7 +9,6 @@ get_defined_functions() used to have one parameter, called `$exclude_disabled`. 
 Since PHP 8.0, this parameter is not used anymore. It emits a warning since PHP 8.5.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ print_r(get_defined_functions(true));
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -37,9 +34,7 @@ Array
 
 )
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  get_defined_functions(): The $exclude_disabled parameter has no effect since PHP 8.0 in /codes/get_defined_functions.php on line 3
 
@@ -61,7 +56,7 @@ Array
 
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
+
+## Extension

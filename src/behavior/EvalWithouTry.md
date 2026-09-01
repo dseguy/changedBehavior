@@ -13,7 +13,6 @@ It is recommended to always use try-catch when dealing with eval().
 It is possible to differentiate a parse error in the host code from a parse error in the eval() string with the error message: when it is in the eval() string, the error message mention eval: `Parse error: syntax error, unexpected identifier "a" in file.ph : eval()'d code on line 1`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,23 +24,18 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 Parse error: syntax error, unexpected '='
 ```
-
 ## After
-
 ```text
 syntax error, unexpected token "="
 ```
-
 ## PHP version change
-
 This behavior changed in 7.0.
 
+## Extension
 ## Analyzer
 
 - [Structures/EvalWithoutTry](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/EvalWithoutTry.html)

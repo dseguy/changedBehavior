@@ -5,7 +5,6 @@
 `preg_grep()` filters an array using a regular expression. Until PHP 8.6, when the underlying PCRE engine failed on one of the array's entries (for example malformed UTF-8 input combined with the `/u` modifier), that entry was silently skipped and a partial array was returned for the rest. In PHP 8.6, `preg_grep()` returns `false` as soon as a PCRE execution error occurs, matching the behavior of the other `preg_*` functions.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,24 +13,21 @@ var_dump(preg_grep('/./u', $arr));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(0) {
 }
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [preg_grep()](https://www.php.net/preg_grep)
+
+## Extension
+- [pcre](../extension.md#pcre)

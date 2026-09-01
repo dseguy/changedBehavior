@@ -5,7 +5,6 @@
 The ellipsis operator can now be used in arrays, with an effect similar to array_merge(). In particular, the string keys are now supported.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,17 +14,13 @@ print_r($array);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot unpack array with string keys
 
 Fatal error: Cannot unpack array with string keys
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -33,15 +28,14 @@ Array
     [b] => bar
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Cannot unpack array with string keys](https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/ArrayWithStringEllipsis](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ArrayWithStringEllipsis.html)

@@ -13,7 +13,6 @@ Since PHP 7, it is reporting the value of the argument at calling time, which ma
 This code will display 1 in PHP 7, and 0 in PHP 5.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -26,19 +25,15 @@ function x($a) {
 x(0);
 ?>
 ```
-
 ## Before
-
 ```text
 00
 ```
-
 ## After
-
 ```text
 01
 ```
-
 ## PHP version change
-
 This behavior changed in 7.2.
+
+## Extension

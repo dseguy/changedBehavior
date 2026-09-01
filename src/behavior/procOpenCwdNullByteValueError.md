@@ -5,7 +5,6 @@
 `proc_open()` used to accept a `$cwd` argument containing a NUL byte and passed the truncated path straight to the operating system, which then failed to spawn the process. In PHP 8.6, a NUL byte in `$cwd` throws a `ValueError` before attempting to start the process.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,24 +16,18 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  proc_open(): posix_spawn() failed: No such file or directory in /codes/procOpenCwdNullByteValueError.php on line 4
 
 Warning: proc_open(): posix_spawn() failed: No such file or directory in /codes/procOpenCwdNullByteValueError.php on line 4
 bool(false)
 ```
-
 ## After
-
 ```text
 proc_open(): Argument #4 ($cwd) must not contain any null bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -44,3 +37,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [proc_open(): Argument #4 ($cwd) must not contain any null bytes](https://php-errors.readthedocs.io/en/latest/messages/proc_open%28%29%3A-argument-%234-%28%24cwd%29-must-not-contain-any-null-bytes.html)
+
+## Extension

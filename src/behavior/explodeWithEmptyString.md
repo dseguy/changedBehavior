@@ -5,7 +5,6 @@
 explode() doesn't work on empty strings, as delimiter (first argument). It used to be a warning and a returned value of false, it is now a Fatal error. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,25 +12,19 @@ explode('', 'abc');
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  explode(): Empty delimiter
 
 Warning: explode(): Empty delimiter
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty
 
 Fatal error: Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Empty delimiter](https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html)
+
+## Extension

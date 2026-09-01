@@ -9,7 +9,6 @@ Calling an object directly upon instantiation was not possible in PHP 8.3: it re
 In PHP 8.4, it is now possible to call a method or access a property directly at instantiation time. It is also possible to call its `__invoke` method.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -30,28 +29,24 @@ var_dump($y);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected token "(" 
 
 Parse error: syntax error, unexpected token "(" 
 ```
-
 ## After
-
 ```text
 x::__construct
 x::__construct
 x::__invoke
 NULL
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [syntax error, unexpected token "("](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22.html)
+
+## Extension

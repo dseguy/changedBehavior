@@ -5,7 +5,6 @@
 A generator is unpacked as an array, and as such, it doesn't allow keys to be anything else but string or integer. The generator may still be used in a foreach() structure, and yield usable keys, but it can't be unpacked or turned into a array without an error. In previous versions, the keys would be ignored, and re-indexed.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ foo(...gen());
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(3) {
   [0]=>
@@ -32,17 +29,15 @@ array(3) {
   int(123)
 }
 ```
-
 ## After
-
 ```text
 Fatal error: Uncaught Error: Keys must be of type int|string during argument unpacking
 ```
-
 ## PHP version change
-
 This behavior changed in 7.2.
 
 ## Error Messages
 
 - [Keys must be of type int|string during array unpacking](https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int%7Cstring-during-array-unpacking.html)
+
+## Extension

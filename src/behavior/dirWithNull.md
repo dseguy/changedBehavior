@@ -5,7 +5,6 @@
 When calling `dir()` with `null` as parameter, it defaulted to open again the last opened directory. Since PHP 8.1, this is not possible anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,26 +16,22 @@ var_dump($b);
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(false)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  dir(): Passing null to parameter #1 ($directory) of type string is deprecated
 
 Deprecated: dir(): Passing null to parameter #1 ($directory) of type string is deprecated
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Passing null to parameter #1 ($directory) of type string is deprecated](https://php-errors.readthedocs.io/en/latest/messages/passing-null-is-deprecated%2C-instead-the-last-opened-directory-stream-should-be-provided.html)
+
+## Extension

@@ -5,7 +5,6 @@
 ceil() doesn't accept internal objects that can be converted to integer. This is the case for gmp and bcmath objects, as shown in the example. Since PHP 8.0, only integers and floats are allowed.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,25 +14,21 @@ echo ceil($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 123456
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given
 
 Fatal error: Uncaught TypeError: ceil(): Argument #1 ($num) must be of type int|float, GMP given
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [ceil(): Argument #1 ($num) must be of type int|float, GMP given](https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html)
+
+## Extension

@@ -13,7 +13,6 @@ In particular, when there are several falsy cases in a switch, the selection of 
 In PHP 7.4 and older, `0 == ''`, so the first case is selected. After PHP 8.0, `0 != ''`, and the second case is selected.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -34,25 +33,21 @@ foreach([0, '', null, []] as $a )
 
 ?>
 ```
-
 ## Before
-
 ```text
 Zero
 Zero
 Zero
 []
 ```
-
 ## After
-
 ```text
 Zero
 Empty string
 Zero
 []
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

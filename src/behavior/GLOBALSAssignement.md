@@ -5,7 +5,6 @@
 It is not possible to assign the `$GLOBALS` variable anymore. The individual values may still be assigned directly. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,29 +17,24 @@ print_r($GLOBALS);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
 )
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot acquire reference to $GLOBALS
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Cannot acquire reference to $GLOBALS](https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-%24globals.html)
 
+## Extension
 ## Analyzer
 
 - [Php/RestrictGlobalUsage](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/RestrictGlobalUsage.html)

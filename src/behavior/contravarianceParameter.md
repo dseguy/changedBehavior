@@ -11,7 +11,6 @@ In PHP 7.3, the child method must have the same parameter type than the parent.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,9 +30,7 @@ var_dump(new Y);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  Declaration of y::foo(i $a) should be compatible with x::foo(j $a)
 
@@ -41,18 +38,16 @@ Warning: Declaration of y::foo(i $a) should be compatible with x::foo(j $a)
 object(y)#1 (0) {
 }
 ```
-
 ## After
-
 ```text
 object(y)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Declaration of %s::%s() should be compatible with %s::%s()](https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s%3A%3A%25s%28%29-must-be-compatible-with-%25s%3A%3A%25s%28%29.html)
+
+## Extension

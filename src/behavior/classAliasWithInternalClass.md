@@ -5,7 +5,6 @@
 class_alias() makes an alias for a class, an enumeration, an interface or a trait. Until PHP 8.3, it was only possible on custom structures.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,22 +14,16 @@ var_dump(new A);
 
 ?>
 ```
-
 ## Before
-
 ```text
 First argument of class_alias() must be a name of user defined class
 ```
-
 ## After
-
 ```text
 object(stdClass)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## See Also
@@ -40,3 +33,5 @@ This behavior changed in 8.3.
 ## Error Messages
 
 - [must be a user-defined class name, internal class name given](https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html)
+
+## Extension

@@ -9,7 +9,6 @@ Global constants are allowed to use an object, starting with PHP 8.1. The object
 Class constant are not allowed to use the `new` keyword.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,30 +18,25 @@ var_dump(A);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Constant expression contains invalid operations
 
 Fatal error: Constant expression contains invalid operations
 ```
-
 ## After
-
 ```text
 object(stdClass)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Constant expression contains invalid operations](https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html)
 
+## Extension
 ## Analyzer
 
 - [Php/NewInitializers](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NewInitializers.html)

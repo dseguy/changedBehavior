@@ -9,7 +9,6 @@ Array indices may be integers or strings. They may also be boolean or `null`, al
 In PHP 8.5, a warning is emitted when a null value is used as an index.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,15 +20,11 @@ print $array[null];
 
 ?>
 ```
-
 ## Before
-
 ```text
 33
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Using null as an array offset is deprecated, use an empty string instead
 
@@ -39,11 +34,11 @@ Deprecated: Using null as an array offset is deprecated, use an empty string ins
 Deprecated: Using null as an array offset is deprecated, use an empty string instead
 3
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Using null as an array offset is deprecated, use an empty string instead](https://php-errors.readthedocs.io/en/latest/messages/using-null-as-an-array-offset-is-deprecated%2C-use-an-empty-string-instead.html)
+
+## Extension

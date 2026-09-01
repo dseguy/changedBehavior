@@ -5,7 +5,6 @@
 `array_filter()` accepts a third argument that selects which values are passed to the callback: `ARRAY_FILTER_USE_VALUE`, `ARRAY_FILTER_USE_KEY`, or `ARRAY_FILTER_USE_BOTH`. Until PHP 8.6, any other value was silently treated as `0` (`ARRAY_FILTER_USE_VALUE`). In PHP 8.6, an invalid mode throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,9 +12,7 @@ var_dump(array_filter([1, 0, 2, null], fn($v) => true, 99));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(4) {
   [0]=>
@@ -28,15 +25,11 @@ array(4) {
   NULL
 }
 ```
-
 ## After
-
 ```text
 array_filter(): Argument #3 ($mode) must be one of ARRAY_FILTER_USE_VALUE, ARRAY_FILTER_USE_KEY, or ARRAY_FILTER_USE_BOTH
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -46,3 +39,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [array_filter(): Argument #3 ($mode) must be one of ARRAY_FILTER_USE_VALUE, ARRAY_FILTER_USE_KEY, or ARRAY_FILTER_USE_BOTH](https://php-errors.readthedocs.io/en/latest/messages/array_filter%28%29%3A-argument-%233-%28%24mode%29-must-be-one-of-array_filter_use_value%2C-array_filter_use_key%2C-or-array_filter_use_both.html)
+
+## Extension

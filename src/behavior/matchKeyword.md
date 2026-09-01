@@ -5,7 +5,6 @@
 match() was introduced as a new command. As a side effect, it is now a PHP keyword, and it is not possible to create classes, functions or constants with that name.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,25 +16,21 @@ match();
 
 ?>
 ```
-
 ## Before
-
 ```text
 match
 ```
-
 ## After
-
 ```text
 PHP Parse error:  syntax error, unexpected token "match", expecting "(" 
 
 Parse error: syntax error, unexpected token "match", expecting "(" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [syntax error, unexpected token "match", expecting "("](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22match%22%2C-expecting-%22%28%22.html)
+
+## Extension

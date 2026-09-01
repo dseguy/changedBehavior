@@ -5,7 +5,6 @@
 PHP has a syntax to designate a method, with its class and method name as a string. That syntax used to support relative class names, such as self, parent and static. That allowed the definition of callable that would be relative to their point of execution, and not their point of definition. This is a gone feature in PHP 8.2.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,24 +22,18 @@ class x {
 
 ?>
 ```
-
 ## Before
-
 ```text
 x::a
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Use of "self" in callables is deprecated
 
 Deprecated: Use of "self" in callables is deprecated
 x::a
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 9.0.
@@ -54,6 +47,7 @@ This behavior changed in 9.0.
 
 - [Use of "self" in callables is deprecated](https://php-errors.readthedocs.io/en/latest/messages/use-of-%22self%22-in-callables-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Functions/DeprecatedCallable](https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html)

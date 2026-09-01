@@ -21,7 +21,6 @@ It is still possible to name a class with a longer name, starting with an unders
 The `_` is being reserved for the future pattern matching feature of PHP.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,30 +30,25 @@ print get_class(new _);
 
 ?>
 ```
-
 ## Before
-
 ```text
 _
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Using "_" as a class name is deprecated since 8.4
 
 Deprecated: Using "_" as a class name is deprecated since 8.4
 _
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Using "_" as %s is deprecated since 8.4](https://php-errors.readthedocs.io/en/latest/messages/using-%22_%22-as-%25s-is-deprecated-since-8.4.html)
 
+## Extension
 ## Analyzer
 
 - [Php/NoClassUnderscore](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoClassUnderscore.html)

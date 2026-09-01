@@ -13,7 +13,6 @@ Until PHP 8.0, it was possible to pass an array of arrays, and the inner arrays 
 This is also applicable to str_ireplace().
 
 ## PHP code
-
 ```php
 <?php
 
@@ -29,9 +28,7 @@ var_dump(str_replace('a', 'b', [new stdclass]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(1) {
   [0]=>
@@ -39,9 +36,7 @@ array(1) {
   }
 }
 ```
-
 ## After
-
 ```text
 array(1) {
   [0]=>
@@ -49,11 +44,11 @@ array(1) {
 }
 PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Object of class stdClass could not be converted to string](https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html)
+
+## Extension

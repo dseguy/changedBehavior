@@ -5,7 +5,6 @@
 String increments are the `++` operator applied to a string. The last character is updated to the next one in ASCII order, with a wrap up after `z`. This feature was deprecated in PHP 8.3, and the `str_increment()` and `str_decrement()` functions are introduced to replace it.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,25 +17,21 @@ echo $a;
 
 ?>
 ```
-
 ## Before
-
 ```text
 abd
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Increment on non-alphanumeric string is deprecated
 
 abds
 ```
-
 ## PHP version change
-
 This behavior changed in 5.6.
 
 ## Error Messages
 
 - [Increment on non-alphanumeric string is deprecated](https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html)
+
+## Extension

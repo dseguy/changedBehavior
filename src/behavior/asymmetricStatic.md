@@ -5,7 +5,6 @@
 Asymmetric visibility was introduced in version 8.4. In that version, the asymmetric visibility was limited to non-static properties. In PHP 8.5, that feature is now extended to static properties.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,25 +14,21 @@ class x {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Static property may not have asymmetric visibility
 
 Fatal error: Static property may not have asymmetric visibility
 ```
-
 ## After
-
 ```text
 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5-.
 
 ## Error Messages
 
 - [Static property may not have asymmetric visibility](https://php-errors.readthedocs.io/en/latest/messages/static-property-may-not-have-asymmetric-visibility.html)
+
+## Extension

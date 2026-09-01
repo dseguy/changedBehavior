@@ -13,7 +13,6 @@ In PHP 8.0 and more recent, this doesn't happen and strings are now different fr
 Also, strings used to be smaller than 0, but they are now bigger.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,23 +20,19 @@ var_dump(0 == 'a');
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [String to Number Comparison](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)
+
+## Extension

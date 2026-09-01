@@ -5,7 +5,6 @@
 __sleep is a magic method that lists the name of the variables to serialize. It should come as an array, and is enforced as such since PHP 8.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,27 +18,23 @@ serialize(new x);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  serialize(): __sleep should return an array only containing the names of instance-variables to serialize
 
 Notice: serialize(): __sleep should return an array only containing the names of instance-variables to serialize
 ```
-
 ## After
-
 ```text
 PHP Warning:  serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize
 
 Warning: serialize(): x::__sleep() should return an array only containing the names of instance-variables to serialize
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [serialize(): __sleep should return an array only containing the names of instance-variables to serialize](https://php-errors.readthedocs.io/en/latest/messages/__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html)
+
+## Extension

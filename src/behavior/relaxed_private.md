@@ -9,7 +9,6 @@ Relaxed naming is the possibility to use PHP keywords as method or class constan
 `private`, `protected` and `public` were not valid class constant names, until PHP 8.3. They were eligible to be method names, though.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,25 +20,21 @@ echo x::private;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected token "private", expecting "=" 
 
 Parse error: syntax error, unexpected token "private", expecting "=" 
 ```
-
 ## After
-
 ```text
 protected
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [syntax error, unexpected token "private", expecting "="](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%3D%22.html)
+
+## Extension

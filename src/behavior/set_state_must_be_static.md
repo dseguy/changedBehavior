@@ -5,7 +5,6 @@
 Starting with PHP 8.0, the magic method __set_state() must be static when declared in a class.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,23 +14,17 @@ class X {
 
 ?>
 ```
-
 ## Before
-
 ```text
 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Method x::__set_state() must be static
 
 Fatal error: Method x::__set_state() must be static
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Method x::__set_state() must be static](https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-be-static.html)
+
+## Extension

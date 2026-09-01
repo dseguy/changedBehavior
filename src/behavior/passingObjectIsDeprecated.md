@@ -11,7 +11,6 @@ Several array functions, such as `current`, `next`, `prev`, `reset` used to acce
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,26 +20,22 @@ var_dump(current($x));
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(1)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  current(): Calling current() on an object is deprecated
 
 Deprecated: current(): Calling current() on an object is deprecated
 int(1)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Calling %s() on an object is deprecated](https://php-errors.readthedocs.io/en/latest/messages/calling-%25s%28%29-on-an-object-is-deprecated.html)
+
+## Extension

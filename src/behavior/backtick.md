@@ -5,7 +5,6 @@
 The back tick operator is deprecated, and will be removed in PHP 9.0. It should be replaced with a call to `shell_exec()`, which is the function equivalent. It may also be replaced with any other dedicated feature: for example, listing files in a directory may be replaced with a call to `scandir()`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ print `echo 'Hello'`;
 
 ?>
 ```
-
 ## Before
-
 ```text
 Hello
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  The backtick (`) operator is deprecated, use shell_exec() instead
 
 Deprecated: The backtick (`) operator is deprecated, use shell_exec() instead
 Hello
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.5.
 
 This behavior changed in .
@@ -43,6 +36,7 @@ This behavior changed in .
 
 - [The backtick (\`) operator is deprecated, use shell_exec() instead](https://php-errors.readthedocs.io/en/latest/messages/the-backtick-%28%60%29-operator-is-deprecated%2C-use-shell_exec%28%29-instead.html)
 
+## Extension
 ## Analyzer
 
 - [Php/DeprecatedBackTicks](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/DeprecatedBackTicks.html)

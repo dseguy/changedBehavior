@@ -13,7 +13,6 @@ In PHP 7, this feature was deprecated in favor of using the `__construct`. Durin
 In PHP 8, the eponymous method is now a normal method.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,9 +26,7 @@ var_dump(new X());
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; X has a deprecated constructor
 
@@ -37,16 +34,12 @@ Deprecated: Methods with the same name as their class will not be constructors i
 X::Xobject(X)#1 (0) {
 }
 ```
-
 ## After
-
 ```text
 object(X)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.0.
 
 This behavior changed in 8.0.
@@ -55,6 +48,7 @@ This behavior changed in 8.0.
 
 - [Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor](https://php-errors.readthedocs.io/en/latest/messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php%3B-%25s-has-a-deprecated-constructor.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/OldStyleConstructor](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/OldStyleConstructor.html)

@@ -9,7 +9,6 @@
 In PHP 8.0, the addition has now the highest precedence, and will happen before the concatenation.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,25 +16,20 @@ echo 35 + 7 . '.' . 0 + 5;
 
 ?>
 ```
-
 ## Before
-
 ```text
 42.5
 ```
-
 ## After
-
 ```text
 47
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
 
+## Extension
 ## Analyzer
 
 - [Php/ConcatAndAddition](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html)

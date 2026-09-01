@@ -9,7 +9,6 @@ In PHP 4, the constructor was the method of the same name as the class. They wer
 Old constructors are also called `PHP 4 constructor`, as they were used during that time; they are also called eponymous constructors, as they use the same name as the class. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -26,30 +25,25 @@ class X {
 (new x())->foo();
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor
 
 Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; x has a deprecated constructor
 x::xx::foo
 ```
-
 ## After
-
 ```text
 x::foo
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Methods with the same name as their class will not be constructors in a future version of PHP](https://php-errors.readthedocs.io/en/latest/messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php%3B-%25s-has-a-deprecated-constructor.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/OldStyleConstructor](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/OldStyleConstructor.html)

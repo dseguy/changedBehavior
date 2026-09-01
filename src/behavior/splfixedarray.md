@@ -13,7 +13,6 @@ They don't have strictly identical behaviors. They're both iterable but they go 
 Note that is it not possible to extends both at the same time: they are incompatible.
 
 ## PHP code
-
 ```php
 <?php
 $array = new SplFixedArray(5);
@@ -23,23 +22,17 @@ var_dump($array instanceof IteratorAggregate);
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 bool(false)
 ```
-
 ## After
-
 ```text
 bool(false)
 bool(true)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
@@ -49,3 +42,6 @@ This behavior changed in 8.0.
 - [Introduction to Iterators and Generators in PHP](https://www.entropywins.wtf/blog/2017/10/16/introduction-to-iterators-and-generators-in-php/)
 - [IteratorAggregate](https://www.php.net/manual/en/class.iteratoraggregate.php)
 - [Iterator](https://www.php.net/manual/en/class.iterator.php)
+
+## Extension
+- [SPL](../extension.md#SPL)

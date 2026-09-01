@@ -9,7 +9,6 @@ The auto-initialization is the conversion a boolean `false` or `true`, to an arr
 When applied to a property, it may be impossible, given the type of that property. The warning message also appears if the type allow it: it is recommended to convert the property to an array before using the array syntax.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,31 +26,26 @@ $x->property2[4] = 5;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error
 
 Parse error: syntax error
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool
 
 Fatal error: Uncaught TypeError: Cannot auto-initialize an array inside property X::$property of type bool
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Cannot auto-initialize an array inside property %s::$%s of type %s](https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-%25s%3A%3A%24%25s-of-type-%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Php/FalseToArray](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FalseToArray.html)

@@ -5,7 +5,6 @@
 file_get_contents() cannot work on an empty string. Until PHP 8.0, it would report it as a warning, and return false, keeping the execution. In PHP 8.0, it is now a Fatal error.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,28 +12,24 @@ var_dump(file_get_contents(""));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  file_get_contents(): Filename cannot be empty 
 
 Warning: file_get_contents(): Filename cannot be empty 
 bool(false)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: Path cannot be empty 
 
 Fatal error: Uncaught ValueError: Path cannot be empty 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [file_get_contents(): Filename cannot be empty](https://php-errors.readthedocs.io/en/latest/messages/filename-cannot-be-empty.html)
+
+## Extension

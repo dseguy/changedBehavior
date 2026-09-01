@@ -9,7 +9,6 @@ All thrown issues were children of the `Exception` class. In PHP 7.0, all issues
 To keep compatibility, it is important to switch types.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,25 +26,21 @@ set_exception_handler([Foo::class, 'bar']);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  Division by zero 
 
 Warning: Division by zero 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught TypeError: foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [foo::bar(): Argument #1 ($e) must be of type Exception, DivisionByZeroError given](https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html)
+
+## Extension

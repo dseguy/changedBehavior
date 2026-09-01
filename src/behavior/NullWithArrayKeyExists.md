@@ -5,7 +5,6 @@
 `null` is not accepted anymore as the first argument of the PHP native function `array_key_exists()`. Since PHP 8.5, `null` is not accepted anymore as a key in an array, so it is also not accepted with the function `array_key_exists()`, which checks if a key exists in an array.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,26 +13,22 @@ var_dump(array_key_exists(null, $array));
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead
 
 Deprecated: Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead
 bool(true)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Using null as the key parameter for array_key_exists() is deprecated, use an empty string instead](https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_exists%28%29-is-deprecated%2C-use-an-empty-string-instead.html)
+
+## Extension

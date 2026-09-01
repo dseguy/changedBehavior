@@ -19,7 +19,6 @@ Since PHP 8.2, this is a deprecated feature, and it will be removed in PHP 9.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -40,17 +39,13 @@ echo b::work('abc');
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access "parent" when current class scope has no parent 
 
 Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Use of "parent" in callables is deprecated 
 
@@ -59,9 +54,7 @@ PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($cal
 
 Fatal error: Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, cannot access parent when current class scope has no parent 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 9.0.
@@ -70,6 +63,7 @@ This behavior changed in 9.0.
 
 - [Use of "parent" in callables is deprecated](https://php-errors.readthedocs.io/en/latest/messages/use-of-%22parent%22-in-callables-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Functions/DeprecatedCallable](https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html)

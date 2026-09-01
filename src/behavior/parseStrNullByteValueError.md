@@ -5,7 +5,6 @@
 `parse_str()` used to accept a query string containing a NUL byte and silently parsed only the part before it. In PHP 8.6, a NUL byte in the `$string` argument throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,24 +17,18 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(1) {
   [foo]=>
   string(0) 
 }
 ```
-
 ## After
-
 ```text
 parse_str(): Argument #1 ($string) must not contain any null bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -45,3 +38,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [parse_str(): Argument #1 ($string) must not contain any null bytes](https://php-errors.readthedocs.io/en/latest/messages/parse_str%28%29%3A-argument-%231-%28%24string%29-must-not-contain-any-null-bytes.html)
+
+## Extension

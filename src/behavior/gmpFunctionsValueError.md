@@ -5,7 +5,6 @@
 `gmp_fact()` accepts a `GMP` object as its `$num` argument. Until PHP 8.6, a value outside the range of an unsigned long was silently misinterpreted, so `gmp_fact()` returned an unrelated, incorrect result instead of failing. In PHP 8.6, such a value throws a `ValueError`. The same release also refines the `ValueError` messages already thrown by `gmp_pow()`, `gmp_binomial()`, `gmp_root()` and `gmp_rootrem()` for an out-of-range second argument (`$exponent`, `$k` or `$nth`), now stating the full valid range instead of only the lower bound.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,21 +18,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(1) "1" 
 ```
-
 ## After
-
 ```text
 ValueError: gmp_fact(): Argument #1 ($num) must be between 0 and 18446744073709551615
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -47,3 +40,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [gmp_fact(): Argument #1 ($num) must be between 0 and 18446744073709551615](https://php-errors.readthedocs.io/en/latest/messages/several-gmp-functions-validate-their-numeric-arguments.html)
+
+## Extension
+- [gmp](../extension.md#gmp)

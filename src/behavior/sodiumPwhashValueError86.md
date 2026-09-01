@@ -5,7 +5,6 @@
 The password-hashing functions `sodium_crypto_pwhash()`, `sodium_crypto_pwhash_str()`, `sodium_crypto_pwhash_scryptsalsa208sha256()` and `sodium_crypto_pwhash_scryptsalsa208sha256_str()` validate their `$opslimit` and `$memlimit` arguments against libsodium's documented minimums. Until PHP 8.6, an out-of-range value threw a `SodiumException`. In PHP 8.6, it throws a `ValueError` instead, which better reflects that the problem is an invalid argument rather than an internal libsodium failure. `SodiumException` is still thrown for genuine libsodium failures.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,21 +19,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 SodiumException: sodium_crypto_pwhash_str(): Argument #3 ($memlimit) must be greater than or equal to 8192
 ```
-
 ## After
-
 ```text
 ValueError: sodium_crypto_pwhash_str(): Argument #3 ($memlimit) must be greater than or equal to 8192
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -44,3 +37,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [sodium_crypto_pwhash_str(): Argument #3 ($memlimit) must be greater than or equal to 8192](https://php-errors.readthedocs.io/en/latest/messages/sodium_crypto_pwhash_str%28%29-throws-valueerror-for-out-of-range-limits.html)
+
+## Extension
+- [sodium](../extension.md#sodium)

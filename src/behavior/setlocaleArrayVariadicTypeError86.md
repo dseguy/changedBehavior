@@ -5,7 +5,6 @@
 `setlocale()` accepts either a list of individual locale name arguments, or a single array of candidate locale names as its second parameter. Until PHP 8.6, passing an array as `$locales` while also passing further variadic locale arguments was silently accepted, and the extra arguments were ignored. In PHP 8.6, passing any additional locale argument alongside an array `$locales` throws a `TypeError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(5) "en_US" 
 ```
-
 ## After
-
 ```text
 TypeError: setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, 3 given
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, 3 given](https://php-errors.readthedocs.io/en/latest/messages/setlocale%28%29-rejects-extra-arguments-when-%24locales-is-an-array.html)
+
+## Extension

@@ -9,7 +9,6 @@ sort() used the PHP 7 way to compare values: then, strings would rank below inte
 In PHP 8, strings are now ranking above integers, and are moved to the end of the sorted array. This is related to the change of rules in comparisons.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,9 +21,7 @@ sort($x);
 print_r($x);
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -34,9 +31,7 @@ Array
     [3] => 1
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -46,7 +41,7 @@ Array
     [3] => a
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

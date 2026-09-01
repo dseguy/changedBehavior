@@ -5,7 +5,6 @@
 Negative offsets on strings were introduced in PHP 7.1. They allow accessing individual characters, starting from the end of the string, rather than from the beginning.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,22 +15,18 @@ echo $string[1]; // a
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  Uninitialized string offset: -1
 
 Notice: Uninitialized string offset: -1
 b
 ```
-
 ## After
-
 ```text
 cb
 ```
-
 ## PHP version change
-
 This behavior changed in 7.1.
+
+## Extension

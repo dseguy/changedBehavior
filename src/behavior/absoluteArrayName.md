@@ -5,7 +5,6 @@
 Classes may be used as type, with an optional leading `\`. This is not the case for scalar types, such as `int` or `string`, but it was the case for `array`. In PHP 8.5, it is now homogenized.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,27 +12,23 @@ function foo(\array $x = []) {}
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use array as default value for parameter $x of type array
 
 Fatal error: Cannot use array as default value for parameter $x of type array
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot use array as a type name as it is reserved
 
 Fatal error: Cannot use array as a type name as it is reserved
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot use "%s" as a type name as it is reserved](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22%25s%22-as-a-type-name-as-it-is-reserved.html)
+
+## Extension

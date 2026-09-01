@@ -35,7 +35,12 @@ foreach ($files as $file) {
     $description = rst_inline_to_md($tip['description'] ?? '');
     $description = str_replace("\n", "\n\n", $description);
 
+    // this causes problems with ?? operators and . too
     $firstSentence = trim(preg_split('/[.?;\n]/', $description)[0] ?? $title).'.';
 
     echo basename($file).':'.$firstSentence."\n";
+
+    if (count(explode(' ', $firstSentence)) < 5) {
+        die('Too short first sentence');
+    }
 }

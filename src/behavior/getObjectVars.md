@@ -5,7 +5,6 @@
 `ArrayObject` used to export its properties as they were defined in the array. Since PHP 7.4, `ArrayObject` does not export any property anymore. They are still accessible via the normal property syntax, just not with `get_object_vars()` anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ var_dump(get_object_vars($obj));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(3) {
   [A]=>
@@ -38,9 +35,7 @@ array(3) {
   int(3)
 }
 ```
-
 ## After
-
 ```text
 array(3) {
   [A]=>
@@ -53,7 +48,7 @@ array(3) {
 array(0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
+
+## Extension

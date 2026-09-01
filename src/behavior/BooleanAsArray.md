@@ -5,7 +5,6 @@
 Booleans, `true` and `false` are not an array, but it is possible to use the array syntax with it. The values are then always `null`, and since PHP 7.4, a warning is emitted.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,30 +15,25 @@ var_dump(MY_CONSTANT[0]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 NULL
 ```
-
 ## After
-
 ```text
 PHP Warning:  Trying to access array offset on true
 
 Warning: Trying to access array offset on null
 PHP
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Trying to access array offset on %s](https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Php/FalseToArray](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FalseToArray.html)

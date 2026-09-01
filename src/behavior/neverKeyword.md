@@ -5,7 +5,6 @@
 Never became a PHP reserved keyword in PHP 8.1. It is used as special type, and cannot be used anymore for function names, classnames, etc.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,21 +18,17 @@ new never;
 
 ?>
 ```
-
 ## Before
-
 ```text
 never::__construct
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot use 'never' as class name as it is reserved 
 
 Fatal error: Cannot use 'never' as class name as it is reserved 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
+
+## Extension

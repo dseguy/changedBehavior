@@ -5,7 +5,6 @@
 PHP reports when the same static variable has been declared twice in the same context.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,27 +20,22 @@ namespace A {
 
 ?>
 ```
-
 ## Before
-
 ```text
 11
 ```
-
 ## After
-
 ```text
 Duplicate declaration of static variable $s
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Duplicate declaration of static variable $%s](https://php-errors.readthedocs.io/en/latest/messages/duplicate-declaration-of-static-variable-%24%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Variables/RedeclaredStaticVariable](https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/RedeclaredStaticVariable.html)

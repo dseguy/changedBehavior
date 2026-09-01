@@ -9,7 +9,6 @@ FilessytemIterator class used to list the current directory `.` and the parent d
 In PHP 8.2, the dot files are not listed by default. At instantiation time, it is possible to have those file listed by using the FilesystemIterator::SKIP_DOTS option.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,29 +20,26 @@ foreach ($it as $fileinfo) {
 
 ?>
 ```
-
 ## Before
-
 ```text
 .
 ..
 a.txt
 .b
 ```
-
 ## After
-
 ```text
 .
 ..
 a.txt
 .b
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## See Also
 
 - [FilesystemIterator::__construct](\https://www.php.net/manual/en/filesystemiterator.construct.php)
+
+## Extension
+- [SPL](../extension.md#SPL)

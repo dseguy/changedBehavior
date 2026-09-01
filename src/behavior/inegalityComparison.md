@@ -13,7 +13,6 @@ Since PHP 8.0, strings are considered to be higher than integers. The comparison
 This also applies to float.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,25 +24,21 @@ var_dump(0 <= 'a');
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(false)
 bool(true)
 bool(false)
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(false)
 bool(false)
 bool(true)
 bool(true)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

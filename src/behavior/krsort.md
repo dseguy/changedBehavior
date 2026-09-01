@@ -9,7 +9,6 @@ krsort() used the PHP 7 way to compare values: then, strings would rank below in
 In PHP 8.2, strings are now ranking above integers, and are moved to the end of the sorted array. This is related to the change of rules in comparisons.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,9 +22,7 @@ print_r($x);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -34,9 +31,7 @@ Array
     [0] => 4
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -45,7 +40,7 @@ Array
     [0] => 4
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension

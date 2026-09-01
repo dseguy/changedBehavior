@@ -9,7 +9,6 @@ Using the array syntax with curly braces used to yield a Fatal error, and a nice
 After PHP 8.4, it is downgraded to a simple syntax error.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,28 +18,24 @@ print_r($x);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported
 
 Fatal error: Array and string offset access syntax with curly braces is no longer supported
 ```
-
 ## After
-
 ```text
 PHP Parse error:  syntax error, unexpected token "\{" 
 
 Parse error: syntax error, unexpected token "\{" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Array and string offset access syntax with curly braces is deprecated](https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html)
 - [syntax error, unexpected token "{"](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22.html)
+
+## Extension

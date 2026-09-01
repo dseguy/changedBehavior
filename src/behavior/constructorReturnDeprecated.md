@@ -5,7 +5,6 @@
 A constructor's return value was always ignored by PHP, silently. In PHP 8.6, returning any value, other than not returning at all, from `__construct()` emits a deprecation notice. The same applies to `__destruct()`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,24 +19,18 @@ print "done\n";
 
 ?>
 ```
-
 ## Before
-
 ```text
 done
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Returning a value from a constructor is deprecated
 
 Deprecated: Returning a value from a constructor is deprecated
 done
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -50,3 +43,5 @@ This behavior changed in .
 
 - [Returning a value from a constructor is deprecated](https://php-errors.readthedocs.io/en/latest/messages/returning-a-value-from-a-constructor-is-deprecated.html)
 - [Returning a value from a destructor is deprecated](https://php-errors.readthedocs.io/en/latest/messages/returning-a-value-from-a-destructor-is-deprecated.html)
+
+## Extension

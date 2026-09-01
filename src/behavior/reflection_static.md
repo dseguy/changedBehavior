@@ -5,7 +5,6 @@
 Reflection used to return the original `static` type, including its case. Since PHP 8.5, it is now returning the actual name of the class, instead of the relative type.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,9 +26,7 @@ print_r(array(
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -37,9 +34,7 @@ Array
     [returnType] => static
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -47,11 +42,12 @@ Array
     [returnType] => Foo
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## See Also
 
 - [PHP 8.5 ReflectionNamedType->getName() change?](https://www.reddit.com/r/PHP/comments/1rd3j74/php_85_reflectionnamedtypegetname_change/)
+
+## Extension
+- [Reflection](../extension.md#Reflection)

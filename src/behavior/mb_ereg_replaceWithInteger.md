@@ -11,7 +11,6 @@ A similar change of behavior happened with `strpos()`.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,22 +18,19 @@ var_dump(mb_ereg_replace(98, 'Z', 'abc'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior 
 
 Deprecated: mb_ereg_replace(): Non-string patterns will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior 
 string(3) "aZc" 
 ```
-
 ## After
-
 ```text
 string(3) "abc" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension
+- [mbstring](../extension.md#mbstring)

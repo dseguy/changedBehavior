@@ -11,7 +11,6 @@ It is still possible to make a reference to any of the element of that array, in
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,9 +20,7 @@ print_r($b);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -42,17 +39,15 @@ Array
 
 ?>
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot acquire reference to $GLOBALS
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## Error Messages
 
 - [Cannot acquire reference to $GLOBALS](https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-%24globals.html)
+
+## Extension

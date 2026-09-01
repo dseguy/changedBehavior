@@ -5,7 +5,6 @@
 unserialize() has now an option to limit the depth of nesting in the decoded structure. When that limit is reached, serialize() emits a warning, and stops processing the string. This is a security option, that prevents deep nested structures to be created and consume a lot of memory and processing power.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,9 +17,7 @@ print_r(unserialize($b, ['max_depth' => 2]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -38,9 +35,7 @@ Array
 
 )
 ```
-
 ## After
-
 ```text
 PHP Warning:  unserialize(): Maximum depth of 2 exceeded. The depth limit can be changed using the max_depth unserialize() option or the unserialize_max_depth ini setting
 
@@ -49,9 +44,7 @@ PHP Warning:  unserialize(): Error at offset 23 of 36 bytes
 
 Warning: unserialize(): Error at offset 23 of 36 bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## See Also
@@ -61,3 +54,5 @@ This behavior changed in 7.4.
 ## Error Messages
 
 - [Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option](https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html)
+
+## Extension

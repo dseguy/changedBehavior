@@ -5,7 +5,6 @@
 `cast()`, `new()` and `type()` are instance methods of the object returned by `FFI::cdef()` or `FFI::load()`: each loaded C definition scope has its own set of types, so casting should happen on that specific instance. PHP used to allow calling these methods statically as `FFI::cast()`, in which case they implicitly operated on an anonymous, definition-less scope. Since PHP 8.3, this static shortcut is deprecated, because it is ambiguous about which set of C declarations is being used.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,18 +18,14 @@ var_dump($casted);
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(FFI\CData:int32)#3 (1) {
   [0]=>
   int(0)
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling FFI::cast() statically is deprecated in /codes/ffiCastStaticDeprecated.php on line 7
 
@@ -40,11 +35,12 @@ object(FFI\CData:int32)#3 (1) {
   int(0)
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/calling-ffi%3A%3Acast%28%29-statically-is-deprecated.html)
+
+## Extension
+- [FFI](../extension.md#FFI)

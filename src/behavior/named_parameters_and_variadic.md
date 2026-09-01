@@ -9,7 +9,6 @@ It is possible to use the three dots `...` operator and named parameters when ca
 In PHP 8.0, it was not possible.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,25 +20,21 @@ foo(...[b => 1], a: 2);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot combine named arguments and argument unpacking 
 
 Fatal error: Cannot combine named arguments and argument unpacking 
 ```
-
 ## After
-
 ```text
 2 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Cannot combine named arguments and argument unpacking](https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html)
+
+## Extension

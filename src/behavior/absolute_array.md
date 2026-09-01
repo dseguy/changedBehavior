@@ -5,7 +5,6 @@
 `array` and `callable` cannot be an absolute type, with the leading backslash. This was not the case until PHP 8.5, and is now in harmony with other types like `int`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,27 +16,23 @@ print_r(foo());
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught TypeError: foo(): Return value must be of type array, array returned
 
 Fatal error: Uncaught TypeError: foo(): Return value must be of type array, array returned
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot use array as a type name as it is reserved
 
 Fatal error: Cannot use array as a type name as it is reserved
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot use "array" as a type name as it is reserved](https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html)
+
+## Extension

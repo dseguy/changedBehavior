@@ -5,7 +5,6 @@
 Trait can have constants. Until PHP 8.3, constants cannot be set in traits, and end with a compilation error.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,27 +20,22 @@ echo X::X;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Traits cannot have constants
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Traits cannot have constants](https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/ConstantsInTraits](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/ConstantsInTraits.html)

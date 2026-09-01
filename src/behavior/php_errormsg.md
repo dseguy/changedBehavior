@@ -9,7 +9,6 @@ $php_errormsg used to hold the message of the last error that PHP emitted. This 
 `$php_errormsg` was only set if the `tracks_error` directive was activated (by default, it was not).
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,18 +20,14 @@ echo $php_errormsg;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  Undefined variable: a 
 
 Notice: Undefined variable: a 
 Undefined variable: a
 ```
-
 ## After
-
 ```text
 PHP Warning:  Undefined variable $a 
 
@@ -41,9 +36,7 @@ PHP Warning:  Undefined variable $php_errormsg
 
 Warning: Undefined variable $php_errormsg 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.2.
 
 This behavior changed in 8.0.
@@ -55,3 +48,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Undefined variable](https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html)
+
+## Extension

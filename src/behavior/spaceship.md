@@ -5,7 +5,6 @@
 With the change of comparison between integers and strings, the spaceship was also impacted. Some spaceship comparisons did change, and are not returning the same results than before. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,21 +13,17 @@ var_dump( 0 <=> '');
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(0)
 int(0)
 ```
-
 ## After
-
 ```text
 int(-1)
 int(1)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

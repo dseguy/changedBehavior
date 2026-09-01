@@ -5,7 +5,6 @@
 PHP used to export an object with a fully qualified name, except for the first backslash. Since PHP 8.2, the name is a fully qualified one, and may be used in any namespace, without adaptation.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,26 +14,22 @@ var_export(new X);
 
 ?>
 ```
-
 ## Before
-
 ```text
 \X::__set_state(array(
 ))
 ```
-
 ## After
-
 ```text
 \\X::__set_state(array(
 ))
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## See Also
 
 - [var_export() combined with enum produces code unsuitable for inclusion in namespaces](https://github.com/php/php-src/issues/8232)
 - [Add leading backslash to enum and class names in var_export](https://externals.io/message/117466)
+
+## Extension

@@ -9,7 +9,6 @@ When using the unserialize() function, the string should not use `S` (upper case
 Other formats, such as `i`, `b` or `N` are already case sensitive.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,26 +16,22 @@ var_dump(unserialize('S:1:e;'));
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(1) e
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  unserialize(): Unserializing the 'S' format is deprecated
 
 Deprecated: unserialize(): Unserializing the 'S' format is deprecated
 string(1) e
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Unserializing the 'S' format is deprecated](https://php-errors.readthedocs.io/en/latest/messages/unserializing-the-%27s%27-format-is-deprecated.html)
+
+## Extension

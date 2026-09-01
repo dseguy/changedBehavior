@@ -17,7 +17,6 @@ In the example, static would be calling the static method `replace`, in A, or in
 Since PHP 8.2, this is a deprecated feature, and it will be removed in PHP 9.
 
 ## PHP code
-
 ```php
 <?php
 class A
@@ -35,15 +34,11 @@ echo a::work('abc');
 
 ?>
 ```
-
 ## Before
-
 ```text
 a
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Use of "static" in callables is deprecated
 
@@ -53,9 +48,7 @@ PHP Deprecated:  Callables of the form ["A", "static::replace"] are deprecated
 Deprecated: Callables of the form ["A", "static::replace"] are deprecated
 a
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 9.0.
@@ -64,6 +57,7 @@ This behavior changed in 9.0.
 
 - [Use of "static" in callables is deprecated](https://php-errors.readthedocs.io/en/latest/messages/use-of-%22static%22-in-callables-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Functions/DeprecatedCallable](https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html)

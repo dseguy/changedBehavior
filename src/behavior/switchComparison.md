@@ -5,7 +5,6 @@
 The switch command uses a relaxed comparison style. Hence, the associated cases changed in PHP 8.0, whenever they use the special values such a 0, empty string '' or null.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,23 +24,18 @@ switch ($a) {
 
 ?>
 ```
-
 ## Before
-
 ```text
 a
 ```
-
 ## After
-
 ```text
 Null
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
+## Extension
 ## Analyzer
 
 - [Php/StringIntComparison](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StringIntComparison.html)

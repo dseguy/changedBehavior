@@ -11,7 +11,6 @@ This behavior change doesn't impact calls to in_array() with the third argument 
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,23 +18,19 @@ var_dump(in_array('', [ 0]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [in_array](https://www.php.net/manual/en/function.in-array.php)
+
+## Extension

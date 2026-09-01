@@ -9,7 +9,6 @@ It was possible to insert a comment between the `yield` and the `from`.
 In PHP 8.3 more recent, this would not compile, unless there was a defined constant called `from`.
 
 ## PHP code
-
 ```php
 <?php
  
@@ -22,25 +21,21 @@ foreach(foo() as $i) {
 }
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Undefined constant "from" 
 
 Fatal error: Uncaught Error: Undefined constant "from" 
 ```
-
 ## After
-
 ```text
 3
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Undefined constant "%s"](https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html)
+
+## Extension

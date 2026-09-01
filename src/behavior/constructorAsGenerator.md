@@ -5,7 +5,6 @@
 Using `yield` anywhere in the body of `__construct()` turns it into a Generator function. Because a Generator's body only starts running once it is iterated, and nothing iterates a constructor, the code inside such a constructor never runs when the object is created with `new`: initialization is silently skipped. Since this pattern is virtually always a mistake, PHP 8.6 deprecates making a constructor a Generator.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,23 +18,17 @@ new X;
 
 ?>
 ```
-
 ## Before
-
 ```text
 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Making a constructor a Generator is deprecated in /codes/constructorAsGenerator.php on line 4
 
 Deprecated: Making a constructor a Generator is deprecated in /codes/constructorAsGenerator.php on line 4
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in 8.6.
@@ -48,3 +41,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/making-a-constructor-a-generator-is-deprecated.html)
+
+## Extension

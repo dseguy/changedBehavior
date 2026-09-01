@@ -5,7 +5,6 @@
 Calling the parent class of a class without parent is not possible. It used to be a deprecated error, where the code would keep on executing. In PHP 8.0, it stops the execution entirely.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,21 +18,15 @@ new X();
 
 ?>
 ```
-
 ## Before
-
 ```text
 Deprecated: Cannot use "parent" when current class scope has no parent
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Cannot use "parent" when current class scope has no parent
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -41,3 +34,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Cannot use "parent" when current class scope has no parent](https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22parent-%22-when-current-class-scope-has-no-parent.html)
+
+## Extension

@@ -5,7 +5,6 @@
 Readonly properties may be changed, both at constructor and cloning time, since PHP 8.3. Until then, once set, they could never be changed.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -31,32 +30,27 @@ var_dump($y);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Cannot modify readonly property x::$p
 
 Fatal error: Uncaught Error: Cannot modify readonly property x::$p
 ```
-
 ## After
-
 ```text
 object(x)#2 (1) {
   ["p"]=>
   int(3)
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Cannot modify readonly property %s::$%s](https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/CanCloneReadonly](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CanCloneReadonly.html)

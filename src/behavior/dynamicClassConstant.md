@@ -11,7 +11,6 @@ In PHP 8.3, there is a dedicated syntax, to access those constants dynamically.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -25,23 +24,19 @@ echo A::{$b};
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [syntax error, unexpected token ";", expecting "("](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22%2C-expecting-%22%28%22.html)
+
+## Extension

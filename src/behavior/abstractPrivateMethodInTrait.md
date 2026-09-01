@@ -9,7 +9,6 @@ It was not possible to have abstract private methods in a trait. There was a con
 This was resolved in PHP 8.0 and later.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,32 +18,27 @@ print_r(get_declared_traits());
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Abstract function t::foo() cannot be declared private
 
 Fatal error: Abstract function t::foo() cannot be declared private
 ```
-
 ## After
-
 ```text
 Array
 (
     [0] => t
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Abstract function t::foo() cannot be declared private](https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/NoPrivateAbstract](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/NoPrivateAbstract.html)

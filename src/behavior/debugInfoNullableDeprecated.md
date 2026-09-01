@@ -5,7 +5,6 @@
 The magic method `__debugInfo()` used to be freely typed to return `?array`, since `null` and `array` were both acceptable return values. In PHP 8.6, simply declaring `__debugInfo()` with a nullable `?array` return type is deprecated, regardless of what is actually returned: the return type should be made non-nullable, and an empty array should be returned instead of `null`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,18 +18,14 @@ var_dump(new x());
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(x)#1 (1) {
   [a]=>
   int(1)
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Returning null from x::__debugInfo() is deprecated, make the return type non-nullable and return an empty array instead
 
@@ -40,9 +35,7 @@ object(x)#1 (1) {
   int(1)
 }
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -54,3 +47,5 @@ This behavior changed in .
 ## Error Messages
 
 - [Returning null from %s::__debugInfo() is deprecated, return an empty array instead](https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-%25s%3A%3A__debuginfo%28%29-is-deprecated%2C-return-an-empty-array-instead.html)
+
+## Extension

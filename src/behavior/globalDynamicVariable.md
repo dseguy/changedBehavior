@@ -9,7 +9,6 @@ Dynamic global variables were possible. This means that a variable, whose name i
 These notations are now dropped, in PHP 7.0, except for with the `$\{   \}` operator.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,25 +23,21 @@ global $\{$variable->global\};
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Parse error:  syntax error, unexpected token "->", expecting "," or ";" 
 
 Parse error: syntax error, unexpected token "->", expecting "," or ";" 
 ```
-
 ## PHP version change
-
 This behavior changed in 5.6.
 
 ## Error Messages
 
 - [syntax error, unexpected token "->", expecting "," or ";"](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22-%3E%22%2C-expecting-%22%2C%22-or-%22%3B%22.html)
+
+## Extension

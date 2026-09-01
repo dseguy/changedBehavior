@@ -5,7 +5,6 @@
 A custom `getHash()` implementation in an `SplObjectStorage` subclass used to be free to mutate any `SplObjectStorage` instance, including a different one than the one currently being hashed, while computing the hash. In PHP 8.6, attempting such a mutation from inside `getHash()` throws an `Error`, because `SplObjectStorage` internals are not reentrant during hashing.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -29,21 +28,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 offsetSet succeeded, sideStorage count=1
 ```
-
 ## After
-
 ```text
 Error: Modification of SplObjectStorage during getHash() is prohibited
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -53,3 +46,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [Modification of SplObjectStorage during getHash() is prohibited](https://php-errors.readthedocs.io/en/latest/messages/modification-of-splobjectstorage-during-gethash%28%29-is-prohibited.html)
+
+## Extension
+- [SPL](../extension.md#SPL)

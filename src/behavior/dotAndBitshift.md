@@ -5,27 +5,20 @@
 The dot (concatenation) and bitshift (<< and >>) operators have a distinct priority in PHP 
 
 ## PHP code
-
 ```php
 <?php
 echo 3 . 4 << 1;
 ?>
 ```
-
 ## Before
-
 ```text
 68
 ```
-
 ## After
-
 ```text
 38
 ```
-
 ## PHP version change
-
 This behavior was deprecated in The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence.
 
 This behavior changed in 8.0.
@@ -35,6 +28,7 @@ This behavior changed in 8.0.
 - [Other incompatible Changes](https://www.php.net/manual/en/migration80.incompatible.php)
 - [Bitwise Operators](https://www.php.net/manual/en/language.operators.bitwise.php)
 
+## Extension
 ## Analyzer
 
 - [Php/ConcatAndAddition](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html)

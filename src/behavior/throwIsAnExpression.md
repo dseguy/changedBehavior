@@ -9,7 +9,6 @@
 Since PHP 8.0, throw may be included in another expression. This is useful with `or`, or the coalesce operator, to execute the expression when a value is missing or failing.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,23 +18,17 @@ $x = $_GET['x'] ?? throw new \Exception('Missing value for x');
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected 'throw' (T_THROW)
 
 Parse error: syntax error, unexpected 'throw' (T_THROW)
 ```
-
 ## After
-
 ```text
 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
@@ -46,6 +39,7 @@ This behavior changed in 8.0.
 
 - [syntax error, unexepected 'throw' (T_THROW)](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27throw%27-%28t_throw%29.html)
 
+## Extension
 ## Analyzer
 
 - [Php/ThrowWasAnExpression](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ThrowWasAnExpression.html)

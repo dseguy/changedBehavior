@@ -9,7 +9,6 @@ printf(), and its related functions, reports unknown format specifiers. The form
 Until PHP 8.0, printf() would check if there were enough arguments for the format. Otherwise, unknown formats were ignored, and the related argument was omitted silently.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,23 +18,19 @@ print sprintf("%s %Z", 1, 3);
 
 ?>
 ```
-
 ## Before
-
 ```text
  
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: Unknown format specifier "Z"
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Unknown format specifier "Z"](https://php-errors.readthedocs.io/en/latest/messages/unknown-format-specifier-%22%25c.html)
+
+## Extension

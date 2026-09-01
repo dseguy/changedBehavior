@@ -5,7 +5,6 @@
 (unset) operator is removed. Use the unset() function for that feature.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,26 +15,20 @@ var_dump($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  The (unset) cast is deprecated
 
 Deprecated: The (unset) cast is deprecated
 int(1)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  The (unset) cast is no longer supported
 
 Fatal error: The (unset) cast is no longer supported
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -44,6 +37,7 @@ This behavior changed in 8.0.
 
 - [The (unset) cast is deprecated](https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Php/CastUnsetUsage](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CastUnsetUsage.html)

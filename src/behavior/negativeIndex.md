@@ -11,7 +11,6 @@ This feature is also supported by substr(), and was introduced in PHP 7.1.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,30 +20,25 @@ var_dump($string[-1]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  Uninitialized string offset: -1
 
 Notice: Uninitialized string offset: -1
 string(0) "" 
 ```
-
 ## After
-
 ```text
 string(1) "c" 
 ```
-
 ## PHP version change
-
 This behavior changed in 7.1.
 
 ## Error Messages
 
 - [Uninitialized string offset: -1](https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/NegativeOffsetOnString](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NegativeOffsetOnString.html)

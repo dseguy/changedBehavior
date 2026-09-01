@@ -5,29 +5,24 @@
 `str_split()` used to emit a warning and return `false`, when provided with `$length`, the second argument, as an integer less then 1. In PHP 8.0, it now throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
   str_split('abc', 0);
 ?>
 ```
-
 ## Before
-
 ```text
 Warning: str_split(): The length of each segment must be greater than zero
 ```
-
 ## After
-
 ```text
 Fatal error: Uncaught ValueError: str_split(): Argument #2 ($length) must be greater than 0
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Argument #2 ($length) must be greater than 0](https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-must-be-greater-than-or-equal-to-0.html)
+
+## Extension

@@ -7,7 +7,6 @@ It is not possible anymore to use traits just like a standalone class. As such, 
 Only static resources were accessible via the trait, as it is not possible to instantiate a trait without a class. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,15 +20,11 @@ echo T::$x;
 
 ?>
 ```
-
 ## Before
-
 ```text
 t::fooA
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait
 
@@ -39,9 +34,7 @@ t::fooPHP Deprecated:  Accessing static trait property t::$x is deprecated, it s
 Deprecated: Accessing static trait property t::$x is deprecated, it should only be accessed on a class using the trait
 A
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.1.
 
 This behavior changed in 9.0.
@@ -50,6 +43,7 @@ This behavior changed in 9.0.
 
 - [Calling static trait method t::foo is deprecated, it should only be called on a class using the trait](https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/CannotCallTraitMethod](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitMethod.html)

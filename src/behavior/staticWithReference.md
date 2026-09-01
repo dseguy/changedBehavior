@@ -5,7 +5,6 @@
 Static properties are shared between inheriting classes. However, due to an implementation artifact, it was possible to separate the static properties by assigning a reference. This loophole has been fixed in PHP 7.3.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,21 +22,17 @@ Static properties are shared between inheriting classes. However, due to an impl
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(0)
 int(1)
 ```
-
 ## After
-
 ```text
 int(1)
 int(1)
 ```
-
 ## PHP version change
-
 This behavior changed in 7.3.
+
+## Extension

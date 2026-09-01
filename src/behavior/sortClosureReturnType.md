@@ -9,7 +9,6 @@ Comparison closures used in custom sorting need to return an integer, while they
 There is no performance penalty nor gain with the usage of that returntype.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,9 +22,7 @@ usort($array, fn($a, $b) : int => $a <=> $b);
 print_r($array);
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -34,9 +31,7 @@ Array
     [2] => 3
 )
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
 
@@ -48,9 +43,7 @@ Array
     [2] => 3
 )
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.0.
 
 This behavior changed in 9.0.
@@ -59,6 +52,7 @@ This behavior changed in 9.0.
 
 - [usort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero](https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated%2C-return-an-integer-less-than%2C-equal-to%2C-or-greater-than-zero.html)
 
+## Extension
 ## Analyzer
 
 - [Php/ReturnTypeForSorting](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ReturnTypeForSorting.html)

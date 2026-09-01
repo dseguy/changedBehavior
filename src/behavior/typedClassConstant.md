@@ -5,7 +5,6 @@
 Support for typed class constants was added in PHP 8.3
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ echo X::A;
 
 ?>
 ```
-
 ## Before
-
 ```text
 Parse error: syntax error, unexpected identifier "A", expecting variable
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## See Also
@@ -42,6 +35,7 @@ This behavior changed in 8.3.
 
 - [syntax error, unexpected identifier "%s", expecting variable](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-variable.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/TypedClassConstants](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/TypedClassConstants.html)

@@ -5,7 +5,6 @@
 `ReflectionMethod::invoke()` and `ReflectionMethod::invokeArgs()` take an object as the first argument, used as `$this` for instance methods. Until PHP 8.6, passing an object for a `static` method was silently accepted and the object was simply ignored. In PHP 8.6, passing a non-null object for a static method emits a deprecation notice, even though the call still succeeds.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,24 +19,18 @@ var_dump($rm->invoke(new C()));
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(6) "called" 
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling ReflectionMethod::invoke() for static method C::staticMethod() does not need an object parameter in /codes/reflectionInvokeStaticObject.php on line 10
 
 Deprecated: Calling ReflectionMethod::invoke() for static method C::staticMethod() does not need an object parameter in /codes/reflectionInvokeStaticObject.php on line 10
 string(6) "called" 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -50,3 +43,6 @@ This behavior changed in .
 ## Error Messages
 
 - [Calling ReflectionMethod::invoke() for static method %s::%s() does not need an object parameter](https://php-errors.readthedocs.io/en/latest/messages/calling-reflectionmethod%3A%3Ainvoke%28%29-for-static-method-%25s%3A%3A%25s%28%29-does-not-need-an-object-parameter.html)
+
+## Extension
+- [Reflection](../extension.md#Reflection)

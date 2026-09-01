@@ -15,7 +15,6 @@ This affects all PHP native interfaces, and `jsonSerialize` is the most frequent
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -28,30 +27,25 @@ new x;
 
 ?>
 ```
-
 ## Before
-
 ```text
 x::__construct
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice 
 
 Deprecated: Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice 
 x::__construct
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Return type of x::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice](https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html)
 
+## Extension
 ## Analyzer
 
 - [Php/NativeClassTypeCompatibility](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NativeClassTypeCompatibility.html)

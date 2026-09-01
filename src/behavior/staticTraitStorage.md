@@ -5,7 +5,6 @@
 Static properties defined in a trait used to be merged with any existing static property in a parent class. Since PHP 8.3, the static property is directly related to the importing class, and is made distinct from any pre-existing static class.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -37,19 +36,15 @@ class Y extends X {
 
 ?>
 ```
-
 ## Before
-
 ```text
 2
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
+
+## Extension

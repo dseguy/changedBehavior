@@ -9,7 +9,6 @@ PHP emits a deprecation when reaching a character that cannot be converted. For 
 Until PHP 7.4, PHP would stop at that character, then return the converted part. Later, it also emits a warning.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,26 +17,22 @@ echo octdec(342391);
 
 ?>
 ```
-
 ## Before
-
 ```text
 14489
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Invalid characters passed for attempted conversion, these have been ignored
 
 Deprecated: Invalid characters passed for attempted conversion, these have been ignored
 14489
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Invalid characters passed for attempted conversion, these have been ignored](https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html)
+
+## Extension

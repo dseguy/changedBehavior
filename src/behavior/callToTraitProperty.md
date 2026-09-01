@@ -13,7 +13,6 @@ Since traits only make sense as a part of a class, this operation is now forbidd
 Accessing static methods are also forbidden. Accessing trait constants is also forbidden, although constants in traits were introduced in PHP 8.3.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -26,24 +25,18 @@ echo T::$P;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait
 
 Deprecated: Accessing static trait property t::$P is deprecated, it should only be accessed on a class using the trait
 1
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.0.
 
 This behavior changed in 8.1.
@@ -52,6 +45,7 @@ This behavior changed in 8.1.
 
 - [Accessing static trait property %s::%s is deprecated, it should only be accessed on a class using the trait](https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/CannotCallTraitStaticProperty](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitStaticProperty.html)

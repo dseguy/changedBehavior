@@ -5,7 +5,6 @@
 Incrementing or decrementing a boolean value had no effect. In PHP 8.3, it is now a deprecation warning, and a message.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,15 +17,11 @@ echo $a, $b;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Warning:  Increment on type bool has no effect, this will change in the next major version of PHP 
 
@@ -36,9 +31,7 @@ PHP Warning:  Decrement on type bool has no effect, this will change in the next
 Warning: Decrement on type bool has no effect, this will change in the next major version of PHP 
 1
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.3.
 
 This behavior changed in 9.0.
@@ -46,3 +39,5 @@ This behavior changed in 9.0.
 ## Error Messages
 
 - [Increment on type bool has no effect, this will change in the next major version of PHP](https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect%2C-this-will-change-in-the-next-major-version-of-php.html)
+
+## Extension

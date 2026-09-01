@@ -5,7 +5,6 @@
 `scandir()` accepts a second argument that selects the sort order of the returned entries: `SCANDIR_SORT_ASCENDING`, `SCANDIR_SORT_DESCENDING`, or `SCANDIR_SORT_NONE`. Until PHP 8.6, any other value was silently accepted and treated as descending order. In PHP 8.6, an invalid sorting order throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,9 +21,7 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(4) {
   [0]=>
@@ -37,15 +34,11 @@ array(4) {
   string(1) .
 }
 ```
-
 ## After
-
 ```text
 scandir(): Argument #2 ($sorting_order) must be one of the SCANDIR_SORT_ASCENDING, SCANDIR_SORT_DESCENDING, or SCANDIR_SORT_NONE constants
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -55,3 +48,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [scandir(): Argument #2 ($sorting_order) must be one of the SCANDIR_SORT_ASCENDING, SCANDIR_SORT_DESCENDING, or SCANDIR_SORT_NONE constants](https://php-errors.readthedocs.io/en/latest/messages/scandir%28%29%3A-argument-%232-%28%24sorting_order%29-must-be-one-of-the-scandir_sort_ascending%2C-scandir_sort_descending%2C-or-scandir_sort_none-constants.html)
+
+## Extension

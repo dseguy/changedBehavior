@@ -5,7 +5,6 @@
 When starting from an array whose maximum key is integer and negative, PHP used to continue assigning indices with 0, instead of the following negative number. It is fixed in PHP 8.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,9 +17,7 @@ print_r($array);
 
 ?>
 ```
-
 ## Before
-
 ```text
 Array
 (
@@ -28,9 +25,7 @@ Array
     [0] => b
 )
 ```
-
 ## After
-
 ```text
 Array
 (
@@ -38,11 +33,11 @@ Array
     [-9] => b
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [Using negative indices with PHP arrays](https://www.strangebuzz.com/en/snippets/using-negative-indices-with-php-arrays)
+
+## Extension

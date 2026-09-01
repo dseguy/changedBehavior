@@ -5,7 +5,6 @@
 fputcsv() used to have the $escape parameter with a default value. This is not the case anymore in PHP 8.4, where it is necessary to provide its value.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,24 +13,18 @@ var_dump(fputcsv($fp, [1,2,3]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(6)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  fputcsv(): the $escape parameter must be provided as its default value will chang
 
 Deprecated: fputcsv(): the $escape parameter must be provided as its default value will change
 int(6)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.4.
 
 This behavior changed in 8.4.
@@ -45,6 +38,7 @@ This behavior changed in 8.4.
 
 - [the $escape parameter must be provided as its default value will change](https://php-errors.readthedocs.io/en/latest/messages/the-%24escape-parameter-must-be-provided-as-its-default-value-will-change.html)
 
+## Extension
 ## Analyzer
 
 - [Php/FputcsvNeedsEscape](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FputcsvNeedsEscape.html)

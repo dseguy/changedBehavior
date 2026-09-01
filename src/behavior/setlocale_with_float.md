@@ -13,7 +13,6 @@ This is not the case anymore in PHP 8.0: anytime the float is converted to a str
 It is recommended to make this conversion explicit by using `printf()`, `number_format()` or a custom formatter function.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,19 +22,15 @@ echo 1003.14;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1003,14
 ```
-
 ## After
-
 ```text
 1003.14
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

@@ -9,7 +9,6 @@ The ::class operator provides the fully qualified name of the identifier or obje
 This is very convenient when the code needs to get a hold on the class, and only the object is provided.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,29 +17,24 @@ echo $a::class;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use ::class with dynamic class name
 
 Fatal error: Cannot use ::class with dynamic class name
 ```
-
 ## After
-
 ```text
 stdClass
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Cannot use ::class with dynamic class name](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/ClassOperatorOnObject](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ClassOperatorOnObject.html)

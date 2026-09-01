@@ -11,7 +11,6 @@ Since PHP 7.3, it is possible to use these syntaxes in more varied situations, s
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,28 +23,24 @@ print_r($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error
 
 Parse error: syntax error
 ```
-
 ## After
-
 ```text
 Array
 (
     [0] => A
 )
 ```
-
 ## PHP version change
-
 This behavior changed in 7.3.
 
 ## Error Messages
 
 - [syntax error, unexpected end of file](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-end-of-file.html)
+
+## Extension

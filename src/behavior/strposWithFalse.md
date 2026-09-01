@@ -5,7 +5,6 @@
 PHP used to type cast `false` to 0 then to a string, when it is used as second argument to strpos().
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,9 +12,7 @@ var_dump(strpos('abc', false));
 var_dump(strpos('a'.chr(0), false));
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
 
@@ -23,16 +20,12 @@ Deprecated: strpos(): Non-string needles will be interpreted as strings in the f
 bool(false)
 int(1);
 ```
-
 ## After
-
 ```text
 int(0)
 int(0)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -44,3 +37,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior ](https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html)
+
+## Extension

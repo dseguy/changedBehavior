@@ -5,7 +5,6 @@
 `ArrayIterator` exposes several methods inherited from its `ArrayAccess`, `Countable` and internal-flags implementation, such as `getFlags()`, `setFlags()`, `asort()` and `ksort()`. Until PHP 8.6, calling these methods worked silently. In PHP 8.6, calling `ArrayIterator::getFlags()`, `ArrayIterator::setFlags()`, `ArrayIterator::asort()` (and several sibling sort methods) each emit their own deprecation notice, while still behaving exactly as before.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ print_r(iterator_to_array($it));
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(0)
 int(2)
@@ -31,9 +28,7 @@ Array
     [b] => 2
 )
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Method ArrayIterator::getFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 5
 
@@ -55,9 +50,7 @@ Array
     [b] => 2
 )
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -73,3 +66,6 @@ This behavior changed in .
 - [Method ArrayIterator::getFlags() is deprecated since 8.6](https://php-errors.readthedocs.io/en/latest/messages/method-arrayiterator%3A%3Agetflags%28%29-is-deprecated-since-8.6.html)
 - [Method ArrayIterator::setFlags() is deprecated since 8.6](https://php-errors.readthedocs.io/en/latest/messages/method-arrayiterator%3A%3Asetflags%28%29-is-deprecated-since-8.6.html)
 - [Method ArrayIterator::asort() is deprecated since 8.6](https://php-errors.readthedocs.io/en/latest/messages/method-arrayiterator%3A%3Aasort%28%29-is-deprecated-since-8.6.html)
+
+## Extension
+- [SPL](../extension.md#SPL)

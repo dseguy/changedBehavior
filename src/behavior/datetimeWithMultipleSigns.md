@@ -11,7 +11,6 @@ Until PHP 8.2, it was possible, though confusing, to use multiple sign `+` and `
 
 
 ## PHP code
-
 ```php
 <?php
 $time = new \DateTimeImmutable("-+-1 year");
@@ -19,19 +18,16 @@ $time = new \DateTimeImmutable("-+-1 year");
 echo $time->format('Y/m/d H:i:s'), "\n";
 ?>
 ```
-
 ## Before
-
 ```text
 2024/10/18 10:15:30
 ```
-
 ## After
-
 ```text
 2022/10/18 10:15:30
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
+
+## Extension
+- [date](../extension.md#date)

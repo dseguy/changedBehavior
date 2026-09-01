@@ -9,7 +9,6 @@ strpos() used to accept integer arguments as second argument, `$needle`. Then, P
 Since PHP 8.0, it is not the case anymore. If the code requires such behavior, add a call to chr() or mb_chr() to convert the integer to an character, before searching for it.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,23 +16,18 @@ var_dump(@strpos('abc', 98));
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(1)
 ```
-
 ## After
-
 ```text
 false
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
+## Extension
 ## Analyzer
 
 - [Php/StrposWithIntegers](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrposWithIntegers.html)

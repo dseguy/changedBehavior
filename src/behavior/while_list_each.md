@@ -5,7 +5,6 @@
 The `each` function is the base for the `while` loop that traverse arrays. The modern version of this loop is `foreach`, which does not rely on `each`, and improves the loop in speed and reliability. Hence, `each` was deprecated in PHP 7.4, and removed in 8.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,9 +14,7 @@ while(list($k, $v) = each($array)) {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls
 
@@ -26,17 +23,13 @@ PHP Warning:  Variable passed to each() is not an array or object
 
 Warning: Variable passed to each() is not an array or object
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Call to undefined function each()
 
 Fatal error: Uncaught Error: Call to undefined function each()
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -44,3 +37,5 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Call to undefined function each()](https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-each%28%29.html)
+
+## Extension

@@ -11,7 +11,6 @@ The static syntax is still valid with expression like `parent::__construct`. Be 
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -30,25 +29,19 @@ Foo::foo();
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Non-static method Foo::bar() should not be called statically 
 
 Deprecated: Non-static method Foo::bar() should not be called statically 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Non-static method Foo::bar() cannot be called statically 
 
 Fatal error: Uncaught Error: Non-static method Foo::bar() cannot be called statically 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.0.
 
 This behavior changed in 8.0.
@@ -57,6 +50,7 @@ This behavior changed in 8.0.
 
 - [Non-static method Foo::bar() cannot be called statically](https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/NonStaticMethodsCalledStatic](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NonStaticMethodsCalledStatic.html)

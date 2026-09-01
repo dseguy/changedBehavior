@@ -5,7 +5,6 @@
 The third argument of mb_strrpos() was the offset where to start the search in the string. It was often 0, although the 4th argument was the encoding. Since the encoding was more often used, and the offset forgotten, mb_strrpos() used to recognize the encoding when it is used in position 3, and use it. In PHP 8.0, it is not the case anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -18,24 +17,21 @@ echo mb_strrpos('abc', 'a', encoding: 'utf8');
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset 
 
 Deprecated: mb_strrpos(): Passing the encoding as third parameter is deprecated. Use an explicit zero offset 
 0
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
 
 Fatal error: Uncaught TypeError: mb_strrpos(): Argument #3 ($offset) must be of type int, string given 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension
+- [mbstring](../extension.md#mbstring)

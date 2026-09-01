@@ -11,7 +11,6 @@ By default, comparing strings and integers may not work as before. This is the c
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,19 +18,15 @@ var_dump(in_array(' 1a', [ 1]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

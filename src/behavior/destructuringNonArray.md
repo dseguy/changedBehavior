@@ -5,7 +5,6 @@
 Destructuring non array values emits a warning in PHP 8.5. This applies to integers, floats, strings and booleans. objects emits a Fatal Error, as before. `null` values are not emitting any warning.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,17 +19,13 @@ var_dump($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array 
 
 Fatal error: Uncaught Error: Cannot use object of type stdClass as array 
 ```
-
 ## After
-
 ```text
 PHP Warning:  Cannot use string as array 
 
@@ -54,11 +49,11 @@ PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array
 
 Fatal error: Uncaught Error: Cannot use object of type stdClass as array 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Cannot use %s as array](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-array.html)
+
+## Extension

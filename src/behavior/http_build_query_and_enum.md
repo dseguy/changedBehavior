@@ -5,7 +5,6 @@
 `http_build_query()` accepted backed enumerations, and used to produce a query string with a `b` array, containing `value` and `name`. Since PHP 8.4, it is now using the string value of the case.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,23 +16,19 @@ print http_build_query(['a' => 'A', 'b' => e::B]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 a=A&b%5Bname%5D=B&b%5Bvalue%5D=b
 ```
-
 ## After
-
 ```text
 a=A&b=b
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## See Also
 
 - [Dealing with a PHP BC break](https://nyamsprod.com/blog/dealing-with-a-php-bc-break/)
+
+## Extension

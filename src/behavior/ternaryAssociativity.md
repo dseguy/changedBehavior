@@ -17,7 +17,6 @@ The update forces the code to use parenthesis, and set the priorities between th
 This doesn't apply to the `then` clause, which is always unambiguous.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -29,21 +28,15 @@ print $a == 1 ? 'one'
 
 ?>
 ```
-
 ## Before
-
 ```text
 three
 ```
-
 ## After
-
 ```text
 Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -56,6 +49,7 @@ This behavior changed in 8.0.
 
 - [Unparenthesized \`a ? b : c ? d : e\` is not supported.](https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html)
 
+## Extension
 ## Analyzer
 
 - [Php/NestedTernaryWithoutParenthesis](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NestedTernaryWithoutParenthesis.html)

@@ -13,7 +13,6 @@ Nowadays, to distinguish between returned false or null and an empty array, an e
 Note that max() behave the same.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,29 +26,25 @@ var_dump($a);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  min(): Array must contain at least one element
 
 Warning: min(): Array must contain at least one element
 bool(false)
 ```
-
 ## After
-
 ```text
 min(): Argument #1 ($value) must contain at least one elementPHP Warning:  Undefined variable $a
 
 Warning: Undefined variable $a
 NULL
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Must contain at least one element](https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html)
+
+## Extension

@@ -5,7 +5,6 @@
 When comparing strings and integers with inequalities (`<`, `=<`, `>`, `>=`), strings used to be smaller than numbers and they are bigger than numbers in PHP 8.0. Unless, they can be converted to integer safely.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ var_dump('a' < 1);
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 bool(false)
@@ -31,9 +28,7 @@ bool(false)
 bool(false)
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(true)
 bool(true)
@@ -43,11 +38,11 @@ bool(false)
 bool(false)
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## See Also
 
 - [PHP RFC: Saner string to number comparisons](https://wiki.php.net/rfc/string_to_number_comparison)
+
+## Extension

@@ -15,6 +15,8 @@ use samdark\sitemap\Sitemap;
 
 $outDir = 'src';
 
+const FIELDS = ['id', 'code', 'extension', 'title', 'before', 'after'];
+
 if (!file_exists($outDir.'/behavior')) {
     mkdir($outDir.'/behavior', 0755, true);
 }
@@ -144,10 +146,13 @@ foreach ($files as $file) {
     $tip = (object) $tip;
     $tip->sourceFile = $file;
 
-    if (!isset($tip->title) || !isset($tip->id) || !isset($tip->code)) {
-        buildlog("Missing required field(s) in $file, skipped");
-        ++$errors;
-        continue;
+    foreach(FIELDS as $field) {
+        if (!isset($tip->$field)) {
+            buildlog("Missing required field(s) in $file, skipped");
+            die('missing field '.$field);
+            ++$errors;
+            continue;
+        }
     }
 
     $tips[$tip->id] = $tip;
@@ -160,6 +165,7 @@ uksort($tips, function (string $a, string $b) : int {
 $php = [];
 $errormessagelist = []; // title => id
 $silentList = [];       // id => title
+$extensionList = [];       // extension => title => id
 $indexNowUrls = [];
 $llmsSections = [];     // version => [title => "- [title](url): description" line]
 
@@ -184,22 +190,15 @@ foreach ($tips as $id => $tip) {
     $page[] = '';
 
     $page[] = '## PHP code';
-    $page[] = '';
     $page[] = md_code_block('php', $tip->code ?? '');
-    $page[] = '';
 
     $page[] = '## Before';
-    $page[] = '';
     $page[] = md_code_block('text', $tip->before ?? '');
-    $page[] = '';
 
     $page[] = '## After';
-    $page[] = '';
     $page[] = md_code_block('text', $tip->after ?? '');
-    $page[] = '';
 
     $page[] = '## PHP version change';
-    $page[] = '';
     if (!empty($tip->deprecation)) {
         $page[] = 'This behavior was deprecated in '.$tip->deprecation.'.';
         $page[] = '';
@@ -241,6 +240,15 @@ foreach ($tips as $id => $tip) {
             $page[] = '';
             $page[] = implode("\n", $lines);
             $page[] = '';
+        }
+    }
+
+    if (!empty($tip->extension)) {
+        $page[] = '## Extension';
+        foreach($tip->extension as $name) {
+            if (empty($name)) { continue; }
+            $page[] = '- ['.$name.'](../extension.md#'.$name.')';
+            $extensionList[$name][$tip->title] = 'behavior/'.$tip->id.'.md';
         }
     }
 
@@ -348,6 +356,7 @@ $summary[] = '';
 $summary[] = '- [Introduction](introduction.md)';
 $summary[] = '- [Per PHP version](phpversionindex.md)';
 $summary[] = '- [Silent changed behaviors](silent.md)';
+$summary[] = '- [Per extension](extension.md)';
 $summary[] = '- [Error Messages](errormessages.md)';
 $summary[] = '';
 $summary[] = '# Changed behaviors';
@@ -398,6 +407,27 @@ foreach ($errormessagelist as $message => $id) {
     $errorMd[] = '- ['.$message.'](behavior/'.$id.'.md)';
 }
 file_put_contents($outDir.'/errormessages.md', implode("\n", $errorMd)."\n");
+
+// -- errormessages.md -----------------------------------------------------
+
+$extensionMd = [
+    "# PHP Extensions",
+    '',
+    collection_json_ld(
+        'PHP extensions',
+        'PHP extensions, linked to the behavior change that they produce.',
+        'extensions.html'
+    ),
+    '',
+];
+foreach ($extensionList as $extension => $list) {
+    $extensionMd[] = '+ '.$extension.'<a id="'.$extension.'" />';
+    foreach($list as $title => $id) {
+        $extensionMd[] = '   + ['.$title.']('.$id.')';
+    }
+}
+//print_r($extensionMd);die();
+file_put_contents($outDir.'/extension.md', implode("\n", $extensionMd)."\n");
 
 // -- silent.md --------------------------------------------------------------
 

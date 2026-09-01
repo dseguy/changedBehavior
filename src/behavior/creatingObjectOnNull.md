@@ -9,7 +9,6 @@ It was possible to create an object just like a variable: simply by assigning a 
 In PHP 8.0, this is now a Fatal error. Later, undefined properties, also known as `dynamic properties` were deprecated, and will lead to a Fatal error in PHP 9.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,26 +18,20 @@ print $x->a;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  Creating default object from empty value 
 
 Warning: Creating default object from empty value 
 1
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Attempt to assign property "a" on null 
 
 Fatal error: Uncaught Error: Attempt to assign property "a" on null 
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.3.
 
 This behavior changed in 8.0.
@@ -47,6 +40,7 @@ This behavior changed in 8.0.
 
 - [Creating default object from empty value](https://php-errors.readthedocs.io/en/latest/messages/creating-default-object-from-empty-value.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/CreatingObjectOnNull](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CreatingObjectOnNull.html)

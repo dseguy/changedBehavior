@@ -5,7 +5,6 @@
 `SplFileObject::next()` used to only advance to the next line when a prior `current()` call had already cached a line internally; without that cache, `next()` was a no-op and the following `current()` call re-read the same line. In PHP 8.6, `next()` unconditionally advances the underlying stream, so a subsequent `current()` call always returns the line after the one that was current before `next()` was called.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,23 +19,20 @@ unlink($path);
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(5) "line1" 
 ```
-
 ## After
-
 ```text
 string(5) "line2" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [SplFileObject::next()](https://www.php.net/splfileobject.next)
+
+## Extension
+- [SPL](../extension.md#SPL)

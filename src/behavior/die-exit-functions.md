@@ -5,7 +5,6 @@
 Die and Exit used to be language constructs, a special kind of PHP instructions. As such, they had special abilities and behaviors: in particular, it meant that they could not be called dynamically, with their name in a string. Since PHP 8.4, this is possible.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,21 +14,15 @@ Die and Exit used to be language constructs, a special kind of PHP instructions.
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Call to undefined function exit()
 ```
-
 ## After
-
 ```text
 Exit
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## See Also
@@ -39,3 +32,5 @@ This behavior changed in 8.4.
 ## Error Messages
 
 - [Call to undefined function exit()](https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit%28%29.html)
+
+## Extension

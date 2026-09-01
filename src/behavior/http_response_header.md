@@ -5,7 +5,6 @@
 The $http_response_header PHP variable is deprecated. It should be replaced with a call to http_get_last_response_headers(), which is available since PHP 8.4.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ get_contents();
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(13) {
   [0]=>
@@ -50,9 +47,7 @@ array(13) {
   string(24) "Cache-Control: max-age=0" 
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead
 
@@ -86,11 +81,11 @@ array(13) {
   string(24) "Cache-Control: max-age=0" 
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead](https://php-errors.readthedocs.io/en/latest/messages/the-predefined-locally-scoped-%24http_response_header-variable-is-deprecated%2C.html)
+
+## Extension

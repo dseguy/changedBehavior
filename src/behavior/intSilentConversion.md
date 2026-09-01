@@ -9,7 +9,6 @@ When a string is converted into a integer, with problems, the notice was upgrade
 This applies to all mathematical operations, such as multiplication, divisions, modulo, exponent, etc.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,29 +16,25 @@ print $a = 1 + '3a';
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  A non well formed numeric value encountered 
 
 Notice: A non well formed numeric value encountered 
 4
 ```
-
 ## After
-
 ```text
 PHP Warning:  A non-numeric value encountered 
 
 Warning: A non-numeric value encountered 
 4
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [A non-numeric value encountered](https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html)
+
+## Extension

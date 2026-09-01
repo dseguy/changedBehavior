@@ -5,7 +5,6 @@
 Generators were not allowed to have return values. This feature was added in PHP 7.0, with the `getReturn` method.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,25 +20,21 @@ foreach(foo() as $a) {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Generators cannot return values using "return" 
 
 Fatal error: Generators cannot return values using "return" 
 ```
-
 ## After
-
 ```text
 a
 ```
-
 ## PHP version change
-
 This behavior changed in 7.0.
 
 ## Error Messages
 
 - [Generator return type must be a supertype of Generator](https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html)
+
+## Extension

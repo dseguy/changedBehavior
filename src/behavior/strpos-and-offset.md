@@ -15,7 +15,6 @@ This error message is shared by several PHP native and extension functions, name
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,28 +22,24 @@ strpos('abc', 'b', 6);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  strpos(): Offset not contained in string -
 
 Warning: strpos(): Offset not contained in string -
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) -
 
 Fatal error: Uncaught ValueError: strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) -
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [%s(): Argument #%d ($%s) must be contained in argument #%d ($%s)](https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html)
 - [Offset not contained in string.](https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html)
+
+## Extension

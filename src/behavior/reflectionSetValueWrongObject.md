@@ -5,7 +5,6 @@
 `ReflectionProperty::setValue()` (and `ReflectionProperty::setRawValue()`) accept an object as the first argument to set the property on. Until PHP 8.6, passing an object that is not an instance of the class the property was declared in was silently accepted, and the property was simply created on that unrelated object. In PHP 8.6, doing so emits a deprecation notice.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -23,24 +22,18 @@ print "done\n";
 
 ?>
 ```
-
 ## Before
-
 ```text
 done
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling ReflectionProperty::setValue() with a given object that is not an instance of the class this property was declared in is deprecated in /codes/reflectionSetValueWrongObject.php on line 12
 
 Deprecated: Calling ReflectionProperty::setValue() with a given object that is not an instance of the class this property was declared in is deprecated in /codes/reflectionSetValueWrongObject.php on line 12
 done
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.6.
 
 This behavior changed in .
@@ -53,3 +46,6 @@ This behavior changed in .
 ## Error Messages
 
 - [Calling ReflectionProperty::setValue() with a given object that is not an instance of the class this property was declared in is deprecated](https://php-errors.readthedocs.io/en/latest/messages/calling-reflectionproperty%3A%3Asetvalue%28%29-with-a-given-object-that-is-not-an-instance-of-the-class-this-property-was-declared-in-is-deprecated.html)
+
+## Extension
+- [Reflection](../extension.md#Reflection)

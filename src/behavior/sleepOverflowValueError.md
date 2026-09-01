@@ -5,7 +5,6 @@
 `sleep()`'s `$seconds` argument is passed to the operating system as an unsigned integer. Until PHP 8.6, a value greater than `UINT_MAX` (4294967295) silently overflowed, which could make the function sleep for a much shorter time than requested, or not at all. In PHP 8.6, a value greater than `UINT_MAX` throws a `ValueError` instead.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 int(0)
 ```
-
 ## After
-
 ```text
 ValueError: sleep(): Argument #1 ($seconds) must be between 0 and 4294967295
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -42,3 +35,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [ValueError: sleep(): Argument #1 ($seconds) must be between 0 and 4294967295](https://php-errors.readthedocs.io/en/latest/messages/must-be-between-0-and-4294967295.html)
+
+## Extension

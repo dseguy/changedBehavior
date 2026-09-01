@@ -5,7 +5,6 @@
 max() does not accept an empty array as argument. In that case, it used to return NULL, but NULL is also a valid return value, and it is not possible to differentiate between the NULL of an empty array and the NULL that is really a maximum value. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,31 +12,26 @@ max([]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  max(): Array must contain at least one element 
 
 Warning: max(): Array must contain at least one element 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element 
 
 Fatal error: Uncaught ValueError: max(): Argument #1 ($value) must contain at least one element 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Array must contain at least one element](https://php-errors.readthedocs.io/en/latest/messages/argument-%231-%28%24value%29-must-contain-at-least-one-element.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/NoMaxOnEmptyArray](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoMaxOnEmptyArray.html)

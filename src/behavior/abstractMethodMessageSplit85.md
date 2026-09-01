@@ -13,7 +13,6 @@ PHP 8.5 gives enums and anonymous classes their own dedicated message, since nei
 A related, third message, "%s method %s::%s() must not be abstract", is raised when a method is explicitly marked `abstract` inside an interface (redundant, since interface methods are implicitly abstract) or, since PHP 8.5, inside an enum (which can never be declared abstract). Before 8.5, writing `abstract` directly on an enum method instead fell through to the generic "must implement N abstract method(s)" message.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,21 +26,15 @@ enum Suit implements Colorful {
 
 ?>
 ```
-
 ## Before
-
 ```text
 Fatal error: Enum Suit must implement 1 abstract private method (Colorful::color)
 ```
-
 ## After
-
 ```text
 Fatal error: Enum Suit must implement 1 abstract method (Colorful::color)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
@@ -49,3 +42,5 @@ This behavior changed in 8.5.
 - [%s %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining method%s (](https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%25s-%28.html)
 - [%s %s must implement %d abstract method%s (](https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-%25d-abstract-method%25s-%28.html)
 - [%s method %s::%s() must not be abstract](https://php-errors.readthedocs.io/en/latest/messages/%25s-method-%25s%3A%3A%25s%28%29-must-not-be-abstract.html)
+
+## Extension

@@ -5,7 +5,6 @@
 PHP used to export stdClass objects like other classes, with a call to the magic method __set_state(). Since PHP 7.2, it does the export with the cast of an array to (object). This is more readable, and acknowledge the absence of such method for stdClass.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,19 +12,15 @@ PHP used to export stdClass objects like other classes, with a call to the magic
 
 ?>
 ```
-
 ## Before
-
 ```text
 stdClass::__set_state(array())
 ```
-
 ## After
-
 ```text
 (object) array()
 ```
-
 ## PHP version change
-
 This behavior changed in 7.2.
+
+## Extension

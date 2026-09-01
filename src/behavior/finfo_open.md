@@ -5,7 +5,6 @@
 Finfo functions have moved from resource to objects. In PHP 8.1, instead of returning a resource, it now returns a finfo object. Checks based on is_resource() must be upgraded, and are now dead code.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,21 @@ var_dump(finfo_open());
 
 ?>
 ```
-
 ## Before
-
 ```text
 resource(4) of type (file_info)
 ```
-
 ## After
-
 ```text
 object(finfo)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## See Also
 
 - [finfo_open](https://www.php.net/manual/fr/function.finfo-open.php)
+
+## Extension
+- [fileinfo](../extension.md#fileinfo)

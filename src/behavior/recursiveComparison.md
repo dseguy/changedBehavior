@@ -9,7 +9,6 @@ Recursive arrays should not be compared one another, as the engine might ends in
 In PHP 8.4, it is now a catchable Error, and eventually stops.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,27 +19,23 @@ var_dump($array == $array2);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Nesting level too deep - recursive dependency?
 
 Fatal error: Nesting level too deep - recursive dependency?
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Nesting level too deep - recursive dependency? 
 
 Fatal error: Uncaught Error: Nesting level too deep - recursive dependency? 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Nesting level too deep - recursive dependency? ](https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html)
+
+## Extension

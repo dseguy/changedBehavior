@@ -5,7 +5,6 @@
 Taking a reference to a `WeakMap` offset with `=&` used to require the key to already be present in the map, otherwise PHP threw an `Error` saying the object was not contained in the `WeakMap`. In PHP 8.6, a reference assignment on a missing key first creates the entry, exactly like `$array[$key] =& $ref` does for a regular array, and then binds the reference to it.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ var_dump($map[$obj]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Object stdClass#2 not contained in WeakMap in /codes/weakMapReferenceAssign86.php:6
 Stack trace:
@@ -33,17 +30,15 @@ Stack trace:
 #0 {main}
   thrown in /codes/weakMapReferenceAssign86.php on line 6
 ```
-
 ## After
-
 ```text
 string(19) "value via reference" 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [WeakMap](https://www.php.net/weakmap)
+
+## Extension

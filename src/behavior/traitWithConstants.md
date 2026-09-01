@@ -5,7 +5,6 @@
 Constants are allowed in traits in PHP 8.3 and more recent. Until then, they were not supported.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,27 +19,22 @@ class X {
 echo X::A;
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Traits cannot have constants
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.2.
 
 ## Error Messages
 
 - [Traits cannot have constants](https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/ConstantsInTraits](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/ConstantsInTraits.html)

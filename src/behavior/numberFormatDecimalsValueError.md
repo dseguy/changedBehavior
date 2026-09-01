@@ -5,7 +5,6 @@
 `number_format()`'s `$decimals` argument is internally clamped to a 32-bit signed integer range (-2147483648 to 2147483647). Until PHP 8.6, a value outside that range was silently clamped, for very negative values this collapsed to 0 decimals, and for very large positive values it could trigger a huge memory allocation while building the result string. In PHP 8.6, an out-of-range value throws a `ValueError` instead.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 string(1) 0
 ```
-
 ## After
-
 ```text
 number_format(): Argument #2 ($decimals) must be between -2147483648 and 2147483647
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -41,3 +34,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [number_format(): Argument #2 ($decimals) must be between -2147483648 and 2147483647](https://php-errors.readthedocs.io/en/latest/messages/number_format%28%29%3A-argument-%232-%28%24decimals%29-must-be-between--2147483648-and-2147483647.html)
+
+## Extension

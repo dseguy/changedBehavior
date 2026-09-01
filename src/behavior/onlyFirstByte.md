@@ -5,7 +5,6 @@
 When assigning a string to a position inside another string, PHP reports a warning: indeed, only the first byte is used.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,30 +20,25 @@ echo $str;
 
 ?>
 ```
-
 ## Before
-
 ```text
 ab
 ```
-
 ## After
-
 ```text
 PHP Warning:  Only the first byte will be assigned to the string offset 
 
 Warning: Only the first byte will be assigned to the string offset 
 ab
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Only the first byte will be assigned to the string offset](https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html)
 
+## Extension
 ## Analyzer
 
 - [Structures/OnlyFirstByte](https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyFirstByte.html)

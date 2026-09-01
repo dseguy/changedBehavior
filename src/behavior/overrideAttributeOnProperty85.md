@@ -9,7 +9,6 @@ The `#[\Override]` attribute, introduced in PHP 8.3, could originally only targe
 If the property marked `#[\Override]` has no matching parent property -- because the parent has no property of that name, because the class has no parent at all, or because the property comes from a trait whose using class has no matching parent property -- PHP reports a compile-time error.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,23 +23,19 @@ class Y extends X {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Attribute "Override" cannot target property (allowed targets: method)
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Y::$b has #[\Override] attribute, but no matching parent property exists
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [%s::$%s has #[\Override] attribute](https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%24%25s-has-%23%5B--override%5D-attribute.html)
+
+## Extension

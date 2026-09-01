@@ -5,7 +5,6 @@
 Prior to PHP 8.0, calling `curl_close()` on a handle that used a cookie jar would immediately write the collected cookies to disk, since the underlying resource was destroyed right away. Since PHP 8.0, cURL handles are objects, and `curl_close()` no longer destroys the handle: it only becomes a no-op that keeps the handle usable, so the cookie jar file is not written anymore until the object is actually garbage collected. Code relying on `curl_close()` to flush cookies to disk should instead call `curl_setopt($handle, CURLOPT_COOKIELIST, "FLUSH")` before closing the handle. Since PHP 8.5, calling `curl_close()` at all raises a deprecation notice, as core has confirmed the function has had no effect since 8.0.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -24,21 +23,15 @@ unlink($jar);
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(true)
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.5.
 
 This behavior changed in 8.0.
@@ -52,3 +45,6 @@ This behavior changed in 8.0.
 ## Error Messages
 
 - [Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0](https://php-errors.readthedocs.io/en/latest/messages/function-curl_close%28%29-is-deprecated-since-8.5%2C-as-it-has-no-effect-since-php-8.0.html)
+
+## Extension
+- [curl](../extension.md#curl)

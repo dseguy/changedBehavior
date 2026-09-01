@@ -9,7 +9,6 @@ PHP has a string increment feature, where a string may be incremented by one, to
 This does not apply to non-alphanumeric characters, such as `space`, `semi-colon`, etc. Until PHP 8.4, it was silent, and now, it is a warning.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,28 +19,24 @@ echo $a;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Increment on non-alphanumeric string is deprecated 
 
 Deprecated: Increment on non-alphanumeric string is deprecated 
 ;
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Increment on non-numeric string is deprecated, use str_increment() instead 
 
 Deprecated: Increment on non-numeric string is deprecated, use str_increment() instead 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.5.
 
 ## Error Messages
 
 - [Increment on non-numeric string is deprecated, use str_increment() instead](https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html)
+
+## Extension

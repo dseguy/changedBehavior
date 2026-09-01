@@ -3,6 +3,7 @@
 - [Introduction](introduction.md)
 - [Per PHP version](phpversionindex.md)
 - [Silent changed behaviors](silent.md)
+- [Per extension](extension.md)
 - [Error Messages](errormessages.md)
 
 # Changed behaviors

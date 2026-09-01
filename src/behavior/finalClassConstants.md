@@ -5,7 +5,6 @@
 Class constants can be made final, starting with PHP 8.2.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,23 +16,19 @@ echo x::A;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use 'final' as constant modifier 
 ```
-
 ## After
-
 ```text
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
 ## Error Messages
 
 - [Cannot use 'final' as constant modifier](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27final%27-as-constant-modifier.html)
+
+## Extension

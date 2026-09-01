@@ -5,7 +5,6 @@
 `array_change_key_case()` accepts a second argument, either `CASE_LOWER` or `CASE_UPPER`. Until PHP 8.6, any other value was silently treated as `CASE_LOWER`. In PHP 8.6, an invalid value throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ var_dump(array_change_key_case(['A' => 1], 99));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(1) {
   [A]=>
   int(1)
 }
 ```
-
 ## After
-
 ```text
 array_change_key_case(): Argument #2 ($case) must be either CASE_LOWER or CASE_UPPER
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -40,3 +33,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [array_change_key_case(): Argument #2 ($case) must be either CASE_LOWER or CASE_UPPER](https://php-errors.readthedocs.io/en/latest/messages/array_change_key_case%28%29%3A-argument-%232-%28%24case%29-must-be-either-case_lower-or-case_upper.html)
+
+## Extension

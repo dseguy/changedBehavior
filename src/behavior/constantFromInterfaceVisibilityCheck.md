@@ -5,7 +5,6 @@
 Constant and methods visibility must be public when they are defined in an interface. When they are implemented in a class, they also need to be public. Until PHP 8.3, this was silently ignored, and made public. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,23 +26,19 @@ echo x::IPublic . PHP_EOL;
 
 ?>
 ```
-
 ## Before
-
 ```text
 3
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Access level to x::IPri must be public (as in interface i)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Access level to x::IPri must be public (as in interface i)](https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html)
+
+## Extension

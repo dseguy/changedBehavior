@@ -11,7 +11,6 @@ Until PHP 8.0, it was possible.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -19,9 +18,7 @@ function assert() {}
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Defining a custom assert() function is deprecated, as the function has special semantics
 
@@ -30,17 +27,13 @@ PHP Fatal error:  Cannot redeclare assert()
 
 Fatal error: Cannot redeclare assert()
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Defining a custom assert() function is not allowed, as the function has special semantics
 
 Fatal error: Defining a custom assert() function is not allowed, as the function has special semantics
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 7.4.
 
 This behavior changed in 8.0.
@@ -49,6 +42,7 @@ This behavior changed in 8.0.
 
 - [Defining a custom assert() function is deprecated, as the function has special semantics](https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert%28%29-function-is-not-allowed%2C.html)
 
+## Extension
 ## Analyzer
 
 - [Php/AssertFunctionIsReserved](https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/AssertFunctionIsReserved.html)

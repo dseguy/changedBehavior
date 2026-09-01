@@ -9,7 +9,6 @@ It was not possible to use isset() on a constant. PHP mistook it with an express
 Since PHP 7.0, it is possible to use isset() with a constant, in particular with the array syntax or the object syntax. Still, isset() should not be used to check the existence of the constant: rather, there is the native function `defined()`.
 
 ## PHP code
-
 ```php
 <?php
 const X = [1,2,3];
@@ -21,25 +20,21 @@ if (isset(X[4])) {
 }
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) 
 
 Fatal error: Cannot use isset() on the result of an expression (you can use "null !== expression" instead) 
 ```
-
 ## After
-
 ```text
 not set
 ```
-
 ## PHP version change
-
 This behavior changed in 7.0.
 
 ## Error Messages
 
 - [Cannot use isset() on the result of an expression (you can use "null !== expression" instead)](https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html)
+
+## Extension

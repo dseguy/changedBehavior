@@ -5,7 +5,6 @@
 Traits used to be called directly, like a class. In PHP 8.1, this feature has been removed. The methods, properties or constants of the trait must be called in the context of their host class.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,24 +16,18 @@ echo T::foo();
 
 ?>
 ```
-
 ## Before
-
 ```text
 t::foo
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling static trait method t::foo is deprecated, it should only be called on a class using the trait
 
 Deprecated: Calling static trait method t::foo is deprecated, it should only be called on a class using the trait
 t::foo
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.1.
 
 This behavior changed in 9.0.
@@ -43,6 +36,7 @@ This behavior changed in 9.0.
 
 - [Calling static trait method t::foo is deprecated, it should only be called on a class using the trait](https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Traits/CannotCallTraitMethod](https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitMethod.html)

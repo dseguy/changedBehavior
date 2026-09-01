@@ -5,7 +5,6 @@
 An integer is not an array, but it is possible to use the array syntax with it. The values are then always `null`, and since PHP 7.4, a warning is emitted.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -15,26 +14,22 @@ var_dump(1234['dsds']);
 
 ?>
 ```
-
 ## Before
-
 ```text
 NULL
 ```
-
 ## After
-
 ```text
 PHP Warning:  Trying to access array offset on int
 
 Warning: Trying to access array offset on int
 NULL
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Trying to access array offset on %s](https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html)
+
+## Extension

@@ -9,7 +9,6 @@ convert_uuencode() returned false, aka error, when provided with an empty string
 Since PHP 8.0, it returns a valid encoded string, which may be decoded later.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,20 +16,16 @@ var_dump( convert_uuencode(''));
 
 ?>
 ```
-
 ## Before
-
 ```text
 bool(false)
 ```
-
 ## After
-
 ```text
 string(2) "\`
 " 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
+
+## Extension

@@ -5,7 +5,6 @@
 `gmp_powm()` has thrown a `DivisionByZeroError` when its `$modulus` argument is zero since PHP 8.0; this is not new in PHP 8.6. Until PHP 8.6, the exception message was the generic `Modulo by zero`, giving no clue about which function or argument caused it. In PHP 8.6, the message is prefixed with the function name and the offending argument, becoming `gmp_powm(): Argument #3 ($modulus) Modulo by zero`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,21 +16,15 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 DivisionByZeroError: Modulo by zero
 ```
-
 ## After
-
 ```text
 DivisionByZeroError: gmp_powm(): Argument #3 ($modulus) Modulo by zero
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -42,3 +35,6 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [gmp_powm(): Argument #3 ($modulus) Modulo by zero](https://php-errors.readthedocs.io/en/latest/messages/gmp_powm%28%29-reports-more-detail-on-modulo-by-zero.html)
+
+## Extension
+- [gmp](../extension.md#gmp)

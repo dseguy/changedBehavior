@@ -5,7 +5,6 @@
 array_product() used to cast the arguments to integers before executing the multiplications. Nowadays, the strange types raise a warning, as illustrated here with the array. 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,26 +12,22 @@ print array_product([1, true, []]);
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Warning:  array_product(): Multiplication is not supported on type array
 
 Warning: array_product(): Multiplication is not supported on type array
 1
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [array_product(): Multiplication is not supported on type array](https://php-errors.readthedocs.io/en/latest/messages/array_product%28%29%3A-multiplication-is-not-supported-on-type-array.html)
+
+## Extension

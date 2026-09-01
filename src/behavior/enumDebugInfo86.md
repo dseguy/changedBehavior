@@ -5,7 +5,6 @@
 Declaring the magic method `__debugInfo()` on an `enum` used to be a compile-time fatal error, because enum cases were treated like other magic methods that make no sense on enums. In PHP 8.6, `__debugInfo()` is allowed on enums, so `var_dump()` can render a custom representation of an enum case instead of the default one.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -22,9 +21,7 @@ var_dump(Suit::Hearts);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Enum Suit cannot include magic method __debugInfo in /codes/enumDebugInfo86.php on line 3
 Stack trace:
@@ -34,20 +31,18 @@ Fatal error: Enum Suit cannot include magic method __debugInfo in /codes/enumDeb
 Stack trace:
 #0 {main}
 ```
-
 ## After
-
 ```text
 enum(Suit::Hearts) (1) {
   ["custom"]=>
   string(6) "Hearts" 
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
 
 - [var_dump()](https://www.php.net/var_dump)
+
+## Extension

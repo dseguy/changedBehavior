@@ -5,7 +5,6 @@
 Type mismatch between signatures of the same method in different classes of the same hierarchy used to be a warning. It is not a fatal error, althought it is only checked at execution time, when all the classes are loaded.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,27 +19,23 @@ class SuperFoo extends Foo{
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array 
 
 Warning: Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array 
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array 
 
 Fatal error: Declaration of SuperFoo::process(array $items): array must be compatible with Foo::process(stdClass $item): array 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Declaration of SuperFoo::process(array $items): array should be compatible with Foo::process(stdClass $item): array](https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html)
+
+## Extension

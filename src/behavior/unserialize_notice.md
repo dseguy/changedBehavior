@@ -5,7 +5,6 @@
 unserialize() parses a string into a PHP data structure: array, int, object, etc. When the parser encounters an error, it emits a specific message, and returns null. This error used to be a `notice` and it now a `warning`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,27 +12,23 @@ unserialize("an invalid string");
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  unserialize(): Error at offset 0 of 17 bytes
 
 Notice: unserialize(): Error at offset 0 of 17 bytes
 ```
-
 ## After
-
 ```text
 PHP Warning:  unserialize(): Error at offset 0 of 17 bytes
 
 Warning: unserialize(): Error at offset 0 of 17 bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [Error at offset 0 of 17 bytes](https://php-errors.readthedocs.io/en/latest/messages/error-at-offset-%25zd-of-%25zd.html)
+
+## Extension

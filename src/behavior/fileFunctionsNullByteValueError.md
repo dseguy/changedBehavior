@@ -5,7 +5,6 @@
 Several filesystem functions, such as `file_exists()`, used to accept a filename containing a NUL byte; the string was silently truncated by the underlying C library call, or the argument was simply rejected with a warning and a `NULL`/`false` return value. In PHP 8.6, a NUL byte in the filename argument of these file functions throws a `ValueError` instead.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,24 +16,18 @@ try {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  file_exists() expects parameter 1 to be a valid path, string given in /codes/fileFunctionsNullByteValueError.php on line 4
 
 Warning: file_exists() expects parameter 1 to be a valid path, string given in /codes/fileFunctionsNullByteValueError.php on line 4
 NULL
 ```
-
 ## After
-
 ```text
 file_exists(): Argument #1 ($filename) must not contain any null bytes
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -44,3 +37,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [file_exists(): Argument #1 ($filename) must not contain any null bytes](https://php-errors.readthedocs.io/en/latest/messages/file_exists%28%29%3A-argument-%231-%28%24filename%29-must-not-contain-any-null-bytes.html)
+
+## Extension

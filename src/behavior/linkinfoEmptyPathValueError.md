@@ -5,7 +5,6 @@
 `linkinfo()` used to accept an empty string as its path argument, emit a warning and return `-1`. In PHP 8.6, an empty path throws a `ValueError`.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,24 +12,18 @@ var_dump(linkinfo(''));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Warning:  linkinfo(): No such file or directory
 
 Warning: linkinfo(): No such file or directory
 int(-1)
 ```
-
 ## After
-
 ```text
 linkinfo(): Argument #1 ($path) must not be empty
 ```
-
 ## PHP version change
-
 This behavior changed in 8.6.
 
 ## See Also
@@ -40,3 +33,5 @@ This behavior changed in 8.6.
 ## Error Messages
 
 - [linkinfo(): Argument #1 ($path) must not be empty](https://php-errors.readthedocs.io/en/latest/messages/linkinfo%28%29%3A-argument-%231-%28%24path%29-must-not-be-empty.html)
+
+## Extension

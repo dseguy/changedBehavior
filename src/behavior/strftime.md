@@ -5,7 +5,6 @@
 `strftime()` and `gmstrftime()` format time and date according to locale settings. These functions are deprecated in PHP 8.1, and should be replaced with `date()` and `gmdate()`, respectively, or with `gmdate()` or with `IntlDateFormatter::format()`: both of them, with the right format.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -14,15 +13,11 @@ echo gmstrftime(2);
 
 ?>
 ```
-
 ## Before
-
 ```text
 12
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
 
@@ -32,9 +27,7 @@ Deprecated: Function strftime() is deprecated since 8.1, use IntlDateFormatter::
 Deprecated: Function gmstrftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
 2
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## See Also
@@ -44,3 +37,6 @@ This behavior changed in 8.4.
 ## Error Messages
 
 - [Function %s() is deprecated%S](https://php-errors.readthedocs.io/en/latest/messages/function-%25s%28%29-is-deprecated%25s.html)
+
+## Extension
+- [date](../extension.md#date)

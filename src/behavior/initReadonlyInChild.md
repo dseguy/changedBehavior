@@ -13,7 +13,6 @@ In PHP 8.4, it is now possible.
 On the other hand, initialisation in the global space is still forbidden.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -32,23 +31,19 @@ echo $x->property;
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Uncaught Error: Cannot initialize readonly property x::$property from scope y
 ```
-
 ## After
-
 ```text
 5
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Cannot %s readonly property %s::$%s from %s%s](https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html)
+
+## Extension

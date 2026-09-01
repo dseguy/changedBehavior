@@ -15,7 +15,6 @@ It is also possible to skip that warning by extending explicitly the stdClass; b
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,24 +26,18 @@ echo $x->property;
 
 ?>
 ```
-
 ## Before
-
 ```text
 1
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Creation of dynamic property x::$p is deprecated
 
 Deprecated: Creation of dynamic property x::$p is deprecated
 1
 ```
-
 ## PHP version change
-
 This behavior was deprecated in 8.2.
 
 This behavior changed in 9.0.
@@ -57,6 +50,7 @@ This behavior changed in 9.0.
 
 - [Creation of dynamic property User::$name is deprecated](https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-%25s%3A%3A%24%25s-is-deprecated.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/UndefinedProperty](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedProperty.html)

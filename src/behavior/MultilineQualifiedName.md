@@ -9,7 +9,6 @@ It was possible to use new lines inside a namespace: they would be removed at ex
 Since PHP 8.0, it is not allowed anymore.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -27,28 +26,24 @@ Since PHP 8.0, it is not allowed anymore.
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Parse error:  syntax error, unexpected ';', expecting '{' 
 
 Parse error: syntax error, unexpected ';', expecting '{' 
 ```
-
 ## After
-
 ```text
 PHP Parse error:  syntax error, unexpected fully qualified name \B
 
 Parse error: syntax error, unexpected fully qualified name \B 
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [syntax error, unexpected ';', expecting '{'](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%7B%27.html)
 - [syntax error, unexpected fully qualified name "\B" ](https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22.html)
+
+## Extension

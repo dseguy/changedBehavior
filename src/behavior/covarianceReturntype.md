@@ -11,7 +11,6 @@ In PHP 7.3, the child method must have the same return type than the parent.
 
 
 ## PHP code
-
 ```php
 <?php
 
@@ -35,26 +34,22 @@ var_dump(new Y);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Declaration of y::foo(): j must be compatible with x::foo(): i 
 
 Fatal error: Declaration of y::foo(): j must be compatible with x::foo(): i 
 ```
-
 ## After
-
 ```text
 object(y)#1 (0) {
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 7.4.
 
 ## Error Messages
 
 - [Declaration of %s::%s() should be compatible with %s::%s()](https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s%3A%3A%25s%28%29-must-be-compatible-with-%25s%3A%3A%25s%28%29.html)
+
+## Extension

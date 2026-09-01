@@ -5,7 +5,6 @@
 PHP used to report a fatal error when provided with a value that is not an object. After PHP 7.3, it would return false in such case, and not break the execution.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -16,23 +15,17 @@ var_dump(foo() instanceof Countable); // possible error when foo() returns null
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  instanceof expects an object instance, constant given 
 
 Fatal error: instanceof expects an object instance, constant given 
 ```
-
 ## After
-
 ```text
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 7.3.
 
 ## See Also
@@ -42,3 +35,5 @@ This behavior changed in 7.3.
 ## Error Messages
 
 - [instanceof expects an object instance, constant given](https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance%2C-constant-given.html)
+
+## Extension

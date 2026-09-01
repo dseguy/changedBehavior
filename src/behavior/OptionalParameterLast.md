@@ -9,7 +9,6 @@ Optional parameters have a default value. When running the functioncall, PHP ass
 Since PHP 8.0, PHP reports that situation. It might be turned into an error in PHP 9.0
 
 ## PHP code
-
 ```php
 <?php
 
@@ -21,33 +20,28 @@ foo(1, 2);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Required parameter $b follows optional parameter $a
 
 Deprecated: Required parameter $b follows optional parameter $a
 1 2
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
 
 Deprecated: foo(): Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
 1 2
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Required parameter $%s follows optional parameter $%s](https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html)
 
+## Extension
 ## Analyzer
 
 - [Functions/WrongOptionalParameter](https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/WrongOptionalParameter.html)

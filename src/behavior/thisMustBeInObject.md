@@ -9,7 +9,6 @@
 Since PHP 7.1, it is now only used for this purpose. This means that `$this` cannot be used outside a class, an enumeration or a trait, and for any other purpose.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,32 +16,27 @@ var_dump($this);
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Notice:  Undefined variable: this
 
 Notice: Undefined variable: this
 NULL
 ```
-
 ## After
-
 ```text
 PHP Fatal error:  Uncaught Error: Using $this when not in object context
 
 Fatal error: Uncaught Error: Using $this when not in object context
 ```
-
 ## PHP version change
-
 This behavior changed in 7.1.
 
 ## Error Messages
 
 - [Using $this when not in object context](https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html)
 
+## Extension
 ## Analyzer
 
 - [Classes/StaticContainsThis](https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/StaticContainsThis.html)

@@ -5,7 +5,6 @@
 libxml_disable_entity_loader() has been deprecated since PHP 8.0, and actually, does not execute any code. The error message was upgraded to make it more explicit.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -13,29 +12,26 @@ var_dump(libxml_disable_entity_loader(true));
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated 
 
 Deprecated: Function libxml_disable_entity_loader() is deprecated 
 bool(false)
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default 
 
 Deprecated: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default 
 bool(false)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loader%28%29-is-deprecated-since-8.0%2C-as-external-entity-loading-is-disabled-by-default.html)
+
+## Extension
+- [libxml](../extension.md#libxml)

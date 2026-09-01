@@ -5,7 +5,6 @@
 `new()`, `cast()` and `type()` are instance methods of the object returned by `FFI::cdef()` or `FFI::load()`: each loaded C definition scope has its own set of types, so allocating a new value should happen on that specific instance. PHP used to allow calling these methods statically as `FFI::new()`, in which case they implicitly operated on an anonymous, definition-less scope. Since PHP 8.3, this static shortcut is deprecated, because it is ambiguous about which set of C declarations is being used.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -17,9 +16,7 @@ var_dump($mem);
 
 ?>
 ```
-
 ## Before
-
 ```text
 object(FFI\CData:struct <anonymous>)#2 (2) {
   ["x"]=>
@@ -28,9 +25,7 @@ object(FFI\CData:struct <anonymous>)#2 (2) {
   int(0)
 }
 ```
-
 ## After
-
 ```text
 PHP Deprecated:  Calling FFI::new() statically is deprecated in /codes/ffiNewStaticDeprecated.php on line 5
 
@@ -42,11 +37,12 @@ object(FFI\CData:struct <anonymous>)#2 (2) {
   int(0)
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.3.
 
 ## Error Messages
 
 - [0](https://php-errors.readthedocs.io/en/latest/messages/calling-ffi%3A%3Anew%28%29-statically-is-deprecated.html)
+
+## Extension
+- [FFI](../extension.md#FFI)

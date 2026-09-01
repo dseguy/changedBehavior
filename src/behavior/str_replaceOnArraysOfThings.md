@@ -13,7 +13,6 @@ Until PHP 8.0, it was possible to pass an array of arrays, and the inner arrays 
 This is also applicable to str_ireplace().
 
 ## PHP code
-
 ```php
 <?php
 
@@ -29,9 +28,7 @@ var_dump(str_replace('a', 'b', [new x]));
 
 ?>
 ```
-
 ## Before
-
 ```text
 array(1) {
   [0]=>
@@ -44,9 +41,7 @@ array(1) {
   }
 }
 ```
-
 ## After
-
 ```text
 PHP Warning:  Array to string conversion
 
@@ -60,11 +55,11 @@ array(1) {
   string(3) def
 }
 ```
-
 ## PHP version change
-
 This behavior changed in 8.0.
 
 ## Error Messages
 
 - [Array to string conversion](https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html)
+
+## Extension

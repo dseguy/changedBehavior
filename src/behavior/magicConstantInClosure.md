@@ -5,7 +5,6 @@
 When using the magic constant `__FUNCTION__` inside a closure, the content used to be the `{closure}` string only. Since PHP 8.4, it also includes the name of the original file, and the line number, so as to identify the origin source code.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -20,19 +19,15 @@ echo $closure();
 
 ?>
 ```
-
 ## Before
-
 ```text
 {closure}{closure}
 ```
-
 ## After
-
 ```text
 {closure:/codes/magicConstantInClosure.php:3}{closure:/codes/magicConstantInClosure.php:5}
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
+
+## Extension

@@ -9,7 +9,6 @@ Static variables are linked to their method: any call to that method should acce
 Until PHP 8.1, the static variables used to be linked to the class: this meant that changing the call to the class lead to different values of the static variable. The new behavior is the expcted one. 
 
 ## PHP code
-
 ```php
 <?php
 class A {
@@ -26,29 +25,24 @@ var_dump(B::counter()); // int(3), previously int(1)
 var_dump(B::counter()); // int(4), previously int(2)
 ?>
 ```
-
 ## Before
-
 ```text
 int(1)
 int(2)
 int(1)
 int(2)
 ```
-
 ## After
-
 ```text
 int(1)
 int(2)
 int(3)
 int(4)
 ```
-
 ## PHP version change
-
 This behavior changed in 8.1.
 
+## Extension
 ## Analyzer
 
 - [Variables/InheritedStaticVariable](https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/InheritedStaticVariable.html)

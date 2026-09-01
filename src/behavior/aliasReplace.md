@@ -9,7 +9,6 @@ When a class is defined before an alias, with `use`, it used to yield a fatal er
 While the fatal error has been removed, it now means that a class, local to a namespace, is not always described by its relative name. The class is still distinguisable with its absolute name.
 
 ## PHP code
-
 ```php
 <?php
 
@@ -32,25 +31,21 @@ namespace A {
 
 ?>
 ```
-
 ## Before
-
 ```text
 PHP Fatal error:  Cannot use y as xBefore because the name is already in use s/aliasReplace.php on line 10
 
 Fatal error: Cannot use y as xBefore because the name is already in use s/aliasReplace.php on line 10
 ```
-
 ## After
-
 ```text
 A\y
 ```
-
 ## PHP version change
-
 This behavior changed in 8.4.
 
 ## Error Messages
 
 - [Cannot use%s %s as %s because the name is already in use](https://php-errors.readthedocs.io/en/latest/messages/cannot-use%25s-%25s-as-%25s-because-the-name-is-already-in-use.html)
+
+## Extension
