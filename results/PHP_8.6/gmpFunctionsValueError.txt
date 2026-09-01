@@ -1,0 +1,1 @@
+ValueError: gmp_fact(): Argument #1 ($num) must be between 0 and 18446744073709551615
