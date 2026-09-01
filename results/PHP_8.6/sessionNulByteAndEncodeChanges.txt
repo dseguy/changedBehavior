@@ -1,0 +1,7 @@
+
+Fatal error: Uncaught ValueError: session_module_name(): Argument #1 ($module) must not contain any null bytes in Command line code:1
+Stack trace:
+#0 Command line code(1): session_module_name('foo\x00bar')
+#1 {main}
+  thrown in Command line code on line 1
+string(0) ""

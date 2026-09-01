@@ -1,0 +1,4 @@
+
+Warning: session_module_name(): Session handler module "foo" cannot be found in Command line code on line 1
+bool(false)
+bool(false)
