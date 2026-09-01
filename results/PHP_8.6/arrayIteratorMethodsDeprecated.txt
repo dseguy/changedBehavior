@@ -1,0 +1,19 @@
+PHP Deprecated:  Method ArrayIterator::getFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 5
+
+Deprecated: Method ArrayIterator::getFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 5
+int(0)
+PHP Deprecated:  Method ArrayIterator::setFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 6
+
+Deprecated: Method ArrayIterator::setFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 6
+PHP Deprecated:  Method ArrayIterator::getFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 7
+
+Deprecated: Method ArrayIterator::getFlags() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 7
+int(2)
+PHP Deprecated:  Method ArrayIterator::asort() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 8
+
+Deprecated: Method ArrayIterator::asort() is deprecated since 8.6 in /codes/arrayIteratorMethodsDeprecated.php on line 8
+Array
+(
+    [a] => 1
+    [b] => 2
+)
