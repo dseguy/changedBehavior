@@ -12,6 +12,12 @@
    + [SplFixedArray Is Now An IteratorAggregate](behavior/splfixedarray.md)
    + [spl_object_hash() Is Deprecated](behavior/splObjectHashDeprecated.md)
    + [SplObjectStorage::getHash() May No Longer Mutate Storage](behavior/splObjectStorageGetHashMutation86.md)
++ standard<a id="standard" />
+   + [Base Conversion Functions Warn When Precision Is Lost](behavior/baseConversionPrecisionLossNotice.md)
++ Core<a id="Core" />
+   + [Declaring A Class Constant Named namespace Is Deprecated](behavior/constantNamespaceInClassDeprecated.md)
+   + [Calling A Function Named readonly() Is Deprecated](behavior/readonlyFunctionCallDeprecated.md)
+   + [Returning From A finally Block Is Deprecated](behavior/returnInFinallyDeprecated.md)
 + curl<a id="curl" />
    + [curl_close() No Longer Flushes The Cookie Jar](behavior/curl_close_cookie_flush.md)
    + [cUrl Moved Away From Resource](behavior/curl_init.md)
@@ -33,6 +39,8 @@
    + [Calling FFI::new() statically is deprecated](behavior/ffiNewStaticDeprecated.md)
    + [Calling FFI::type() statically is deprecated](behavior/ffiTypeStaticDeprecated.md)
 + fileinfo<a id="fileinfo" />
+   + [Finfo Moved Away From Resource](behavior/finfo_open.md)
++ finfo<a id="finfo" />
    + [Finfo Moved Away From Resource](behavior/finfo_open.md)
 + gmp<a id="gmp" />
    + [GMP Shift And Power Operators Deprecate Float Operands](behavior/gmpFloatOperandDeprecated.md)

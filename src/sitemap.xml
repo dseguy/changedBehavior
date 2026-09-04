@@ -79,6 +79,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/backtick.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/baseConversionPrecisionLossNotice.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/bitshiftConcatPrecedence.html</loc>
  </url>
  <url>
@@ -134,6 +137,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ConstantInTrait.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantNamespaceInClassDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constructorAsGenerator.html</loc>
@@ -613,6 +619,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeWithIntAndString.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/readonlyFunctionCallDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/real_cast.html</loc>
  </url>
  <url>
@@ -638,6 +647,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/returnInFinallyDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/returnTypeEnforce.html</loc>

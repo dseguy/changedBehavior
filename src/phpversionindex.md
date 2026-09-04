@@ -24,6 +24,7 @@
 
 ## 8.6
 
+- [Base Conversion Functions Warn When Precision Is Lost](behavior/baseConversionPrecisionLossNotice.md)
 - [CURLOPT_READFUNCTION Callback Validates Its Return Value](behavior/curlReadFunctionValueError.md)
 - [DOM Readonly Properties Use Asymmetric Visibility](behavior/domAsymmetricVisibility.md)
 - [Enums May Now Define __debugInfo()](behavior/enumDebugInfo86.md)
@@ -327,12 +328,15 @@
 ## 
 
 - [Back-tick Operator Is Deprecated](behavior/backtick.md)
+- [Calling A Function Named readonly() Is Deprecated](behavior/readonlyFunctionCallDeprecated.md)
+- [Declaring A Class Constant Named namespace Is Deprecated](behavior/constantNamespaceInClassDeprecated.md)
 - [GMP Shift And Power Operators Deprecate Float Operands](behavior/gmpFloatOperandDeprecated.md)
 - [Passing An Object To array_walk() Is Deprecated](behavior/arrayWalkObjectDeprecated.md)
 - [Passing An Object To mb_convert_variables() Is Deprecated](behavior/mbConvertVariablesObjectDeprecated.md)
 - [ReflectionMethod::invoke() Deprecates Passing An Object For A Static Method](behavior/reflectionInvokeStaticObject.md)
 - [ReflectionProperty::setValue() Deprecates A Wrong Object Type](behavior/reflectionSetValueWrongObject.md)
 - [Returning A Value From A Constructor Is Deprecated](behavior/constructorReturnDeprecated.md)
+- [Returning From A finally Block Is Deprecated](behavior/returnInFinallyDeprecated.md)
 - [Several ArrayIterator Methods Are Deprecated](behavior/arrayIteratorMethodsDeprecated.md)
 - [The mbstring Regex (mbregex) Functions Are Deprecated](behavior/mbregexDeprecated.md)
 - [__debugInfo() Nullable Return Type Is Deprecated](behavior/debugInfoNullableDeprecated.md)
