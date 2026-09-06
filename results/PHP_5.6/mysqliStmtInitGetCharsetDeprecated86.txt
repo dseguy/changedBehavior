@@ -1,0 +1,11 @@
+PHP Warning:  mysqli::stmt_init(): invalid object or resource mysqli
+ in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 6
+
+Warning: mysqli::stmt_init(): invalid object or resource mysqli
+ in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 6
+PHP Warning:  mysqli_get_charset(): invalid object or resource mysqli
+ in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 12
+
+Warning: mysqli_get_charset(): invalid object or resource mysqli
+ in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 12
+NULL

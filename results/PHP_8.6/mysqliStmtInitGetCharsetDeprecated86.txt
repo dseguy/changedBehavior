@@ -1,0 +1,8 @@
+PHP Deprecated:  Method mysqli::stmt_init() is deprecated since 8.6, use mysqli::prepare() instead in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 6
+
+Deprecated: Method mysqli::stmt_init() is deprecated since 8.6, use mysqli::prepare() instead in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 6
+Error: mysqli object is not fully initialized
+PHP Deprecated:  Function mysqli_get_charset() is deprecated since 8.6, did you mean mysqli_character_set_name()? in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 12
+
+Deprecated: Function mysqli_get_charset() is deprecated since 8.6, did you mean mysqli_character_set_name()? in /codes/mysqliStmtInitGetCharsetDeprecated86.php on line 12
+Error: mysqli object is not fully initialized

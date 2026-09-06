@@ -1,0 +1,2 @@
+Error: mysqli object is not fully initialized
+Error: mysqli object is not fully initialized
