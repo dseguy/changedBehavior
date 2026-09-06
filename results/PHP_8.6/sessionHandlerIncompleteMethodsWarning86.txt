@@ -1,0 +1,10 @@
+PHP Warning:  Class MyHandler implementing SessionHandlerInterface is missing the create_sid() method which will be required in PHP 9.0 in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3
+
+Warning: Class MyHandler implementing SessionHandlerInterface is missing the create_sid() method which will be required in PHP 9.0 in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3
+PHP Warning:  Class MyHandler implementing SessionHandlerInterface is missing the validateId() method which will be required in PHP 9.0 in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3
+
+Warning: Class MyHandler implementing SessionHandlerInterface is missing the validateId() method which will be required in PHP 9.0 in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3
+PHP Warning:  session_set_save_handler(): Session save handler cannot be changed after headers have already been sent (sent from /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3) in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 12
+
+Warning: session_set_save_handler(): Session save handler cannot be changed after headers have already been sent (sent from /codes/sessionHandlerIncompleteMethodsWarning86.php on line 3) in /codes/sessionHandlerIncompleteMethodsWarning86.php on line 12
+bool(false)
