@@ -1,0 +1,4 @@
+PHP Deprecated:  Function spl_classes() is deprecated since 8.6, use ReflectionExtension::getClassNames() instead in /codes/splClassesDeprecated86.php on line 3
+
+Deprecated: Function spl_classes() is deprecated since 8.6, use ReflectionExtension::getClassNames() instead in /codes/splClassesDeprecated86.php on line 3
+int(55)
