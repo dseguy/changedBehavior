@@ -1,0 +1,4 @@
+PHP Deprecated:  http_build_query(): Passing an object for argument #1 $data to http_build_query() is deprecated, call get_object_vars() first instead in /codes/httpBuildQueryObjectDeprecated86.php on line 8
+
+Deprecated: http_build_query(): Passing an object for argument #1 $data to http_build_query() is deprecated, call get_object_vars() first instead in /codes/httpBuildQueryObjectDeprecated86.php on line 8
+string(7) "a=1&b=2"
