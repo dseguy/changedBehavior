@@ -56,11 +56,22 @@
    + [Passing An Object To mb_convert_variables() Is Deprecated](behavior/mbConvertVariablesObjectDeprecated.md)
    + [The mbstring Regex (mbregex) Functions Are Deprecated](behavior/mbregexDeprecated.md)
    + [substr() Returns Empty String On Out Of Bond Offset](behavior/substrReturnsEmptyStringOnOutOfBondOffset.md)
++ mysqli<a id="mysqli" />
+   + [mysqli::stmt_init() And mysqli_get_charset() Are Deprecated](behavior/mysqliStmtInitGetCharsetDeprecated86.md)
 + pcre<a id="pcre" />
    + [preg_grep() Returns false On A PCRE Execution Error](behavior/pregGrepPcreError86.md)
++ session<a id="session" />
+   + [Incomplete SessionHandlerInterface Implementations Now Warn](behavior/sessionHandlerIncompleteMethodsWarning86.md)
 + sodium<a id="sodium" />
    + [sodium_crypto_pwhash_str() Throws ValueError For Out-Of-Range Limits](behavior/sodiumPwhashValueError86.md)
++ spl<a id="spl" />
+   + [spl_classes() Is Deprecated](behavior/splClassesDeprecated86.md)
+   + [SplFileObject::fgetcsv() And fputcsv() Are Deprecated](behavior/splFileObjectCsvMethodsDeprecated86.md)
 + iconv<a id="iconv" />
    + [substr() Returns Empty String On Out Of Bond Offset](behavior/substrReturnsEmptyStringOnOutOfBondOffset.md)
 + intl<a id="intl" />
    + [substr() Returns Empty String On Out Of Bond Offset](behavior/substrReturnsEmptyStringOnOutOfBondOffset.md)
++ zlib<a id="zlib" />
+   + [Passing An Object As Filter Options To zlib/bzip2 Functions Is Deprecated](behavior/zlibBzip2ObjectOptionsDeprecated86.md)
++ bz2<a id="bz2" />
+   + [Passing An Object As Filter Options To zlib/bzip2 Functions Is Deprecated](behavior/zlibBzip2ObjectOptionsDeprecated86.md)

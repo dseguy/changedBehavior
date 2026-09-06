@@ -1,0 +1,4 @@
+PHP Deprecated:  deflate_init(): Passing an object for argument #2 $option to deflate_init() is deprecated, call get_object_vars() first instead in /codes/zlibBzip2ObjectOptionsDeprecated86.php on line 7
+
+Deprecated: deflate_init(): Passing an object for argument #2 $option to deflate_init() is deprecated, call get_object_vars() first instead in /codes/zlibBzip2ObjectOptionsDeprecated86.php on line 7
+bool(true)

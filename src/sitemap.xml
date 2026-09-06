@@ -277,6 +277,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/filessytemiteratorSkipDot.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/filterChainCountDeprecated86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/finalClassConstants.html</loc>
  </url>
  <url>
@@ -353,6 +356,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_response_header.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/httpBuildQueryObjectDeprecated86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html</loc>
@@ -478,6 +484,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mbregexDeprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/metaphoneDeprecated86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/minOnEmpty.html</loc>
  </url>
  <url>
@@ -491,6 +500,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mustYieldIntOrStringKeys.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mysqliStmtInitGetCharsetDeprecated86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html</loc>
@@ -622,6 +634,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/readonlyFunctionCallDeprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/readonlyPropertyDefaultValue86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/real_cast.html</loc>
  </url>
  <url>
@@ -664,6 +679,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/selfInCallable.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sessionHandlerIncompleteMethodsWarning86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sessionNulByteAndEncodeChanges.html</loc>
  </url>
  <url>
@@ -700,6 +718,12 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/spaceship.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splClassesDeprecated86.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splFileObjectCsvMethodsDeprecated86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/splFileObjectFgetsCaching.html</loc>
  </url>
  <url>
@@ -716,6 +740,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticClosureBinding.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticClosureIdentityCaching86.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/staticInCallable.html</loc>
@@ -838,6 +865,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpack_arrays_with_strings.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unpackModifierKeyStripped86.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_checks.html</loc>
  </url>
  <url>
@@ -881,5 +911,8 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/zeroToNegativePower.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/zlibBzip2ObjectOptionsDeprecated86.html</loc>
  </url>
 </urlset>
