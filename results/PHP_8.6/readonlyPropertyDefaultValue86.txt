@@ -1,0 +1,2 @@
+int(0)
+Error: Cannot modify readonly property Point::$x
