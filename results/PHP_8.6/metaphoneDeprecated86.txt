@@ -1,0 +1,4 @@
+PHP Deprecated:  Function metaphone() is deprecated since 8.6, use a userland phonetic matching library instead in /codes/metaphoneDeprecated86.php on line 3
+
+Deprecated: Function metaphone() is deprecated since 8.6, use a userland phonetic matching library instead in /codes/metaphoneDeprecated86.php on line 3
+string(5) "0MPSN"
