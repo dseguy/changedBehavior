@@ -1,0 +1,4 @@
+PHP Deprecated:  Returning from a finally block is deprecated in /codes/returnInFinallyDeprecated.php on line 7
+
+Deprecated: Returning from a finally block is deprecated in /codes/returnInFinallyDeprecated.php on line 7
+fallback

@@ -1,0 +1,4 @@
+PHP Deprecated:  Calling a function “readonly” is deprecated in /codes/readonlyFunctionCallDeprecated.php on line 3
+
+Deprecated: Calling a function “readonly” is deprecated in /codes/readonlyFunctionCallDeprecated.php on line 3
+not a property modifier
