@@ -1,5 +1,5 @@
 [book]
-title = "PHP Changed Behaviors - 1.5"
+title = "PHP Changed Behaviors - 1.5.12"
 authors = ["Damien Seguy"]
 description = "All features that change between PHP versions."
 language = "en"
