@@ -505,6 +505,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mysqliStmtInitGetCharsetDeprecated86.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mysqliStoreResultModeDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html</loc>
  </url>
  <url>
@@ -604,6 +607,9 @@
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/pathinfoFlagsValueError.html</loc>
  </url>
  <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/pgFetchResultTwoArgsDeprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html</loc>
  </url>
  <url>
@@ -650,6 +656,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflectionInvokeStaticObject.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflectionMethodConstructorOneArgDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/reflectionSetValueWrongObject.html</loc>
@@ -773,6 +782,9 @@
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strcollSortLocaleStringDeprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/streamContextSetOptionTwoArgsDeprecated.html</loc>
  </url>
  <url>
   <loc>https://php-changed-behaviors.readthedocs.io/en/latest/behavior/strftime.html</loc>

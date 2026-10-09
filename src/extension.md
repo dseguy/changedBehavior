@@ -14,6 +14,7 @@
    + [SplObjectStorage::getHash() May No Longer Mutate Storage](behavior/splObjectStorageGetHashMutation86.md)
 + standard<a id="standard" />
    + [Base Conversion Functions Warn When Precision Is Lost](behavior/baseConversionPrecisionLossNotice.md)
+   + [Calling stream_context_set_option() With 2 Arguments Is Deprecated](behavior/streamContextSetOptionTwoArgsDeprecated.md)
 + Core<a id="Core" />
    + [Declaring A Class Constant Named namespace Is Deprecated](behavior/constantNamespaceInClassDeprecated.md)
    + [Calling A Function Named readonly() Is Deprecated](behavior/readonlyFunctionCallDeprecated.md)
@@ -33,6 +34,7 @@
    + [Reflection Doesn't Return Self](behavior/reflection_self.md)
    + [Reflection Doesn't Return Static](behavior/reflection_static.md)
    + [ReflectionMethod::invoke() Deprecates Passing An Object For A Static Method](behavior/reflectionInvokeStaticObject.md)
+   + [ReflectionMethod Constructor With A Single Argument Is Deprecated](behavior/reflectionMethodConstructorOneArgDeprecated.md)
    + [ReflectionProperty::setValue() Deprecates A Wrong Object Type](behavior/reflectionSetValueWrongObject.md)
 + FFI<a id="FFI" />
    + [Calling FFI::cast() statically is deprecated](behavior/ffiCastStaticDeprecated.md)
@@ -58,6 +60,9 @@
    + [substr() Returns Empty String On Out Of Bond Offset](behavior/substrReturnsEmptyStringOnOutOfBondOffset.md)
 + mysqli<a id="mysqli" />
    + [mysqli::stmt_init() And mysqli_get_charset() Are Deprecated](behavior/mysqliStmtInitGetCharsetDeprecated86.md)
+   + [Passing A $mode To mysqli_store_result() Is Deprecated](behavior/mysqliStoreResultModeDeprecated.md)
++ pgsql<a id="pgsql" />
+   + [Calling pg_fetch_result() With 2 Arguments Is Deprecated](behavior/pgFetchResultTwoArgsDeprecated.md)
 + pcre<a id="pcre" />
    + [preg_grep() Returns false On A PCRE Execution Error](behavior/pregGrepPcreError86.md)
 + session<a id="session" />
