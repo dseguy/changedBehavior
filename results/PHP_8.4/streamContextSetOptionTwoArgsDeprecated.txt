@@ -1,0 +1,4 @@
+PHP Deprecated:  Calling stream_context_set_option() with 2 arguments is deprecated, use stream_context_set_options() instead in /codes/streamContextSetOptionTwoArgsDeprecated.php on line 4
+
+Deprecated: Calling stream_context_set_option() with 2 arguments is deprecated, use stream_context_set_options() instead in /codes/streamContextSetOptionTwoArgsDeprecated.php on line 4
+bool(true)
