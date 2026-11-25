@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: SQLite3::escapeString(): Argument #1 ($string) must not contain any null bytes in /codes/nul-value-in-sqlite3-escapestring.php:3
+Stack trace:
+#0 /codes/nul-value-in-sqlite3-escapestring.php(3): SQLite3::escapeString('A\x00B')
+#1 {main}
+  thrown in /codes/nul-value-in-sqlite3-escapestring.php on line 3
+
+Fatal error: Uncaught ValueError: SQLite3::escapeString(): Argument #1 ($string) must not contain any null bytes in /codes/nul-value-in-sqlite3-escapestring.php:3
+Stack trace:
+#0 /codes/nul-value-in-sqlite3-escapestring.php(3): SQLite3::escapeString('A\x00B')
+#1 {main}
+  thrown in /codes/nul-value-in-sqlite3-escapestring.php on line 3
