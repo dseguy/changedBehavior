@@ -1,0 +1,14 @@
+PHP Warning:  pack(): Type <: unknown format code in /codes/unpack-endianness-modifier.php on line 3
+
+Warning: pack(): Type <: unknown format code in /codes/unpack-endianness-modifier.php on line 3
+PHP Warning:  pack(): Type >: unknown format code in /codes/unpack-endianness-modifier.php on line 4
+
+Warning: pack(): Type >: unknown format code in /codes/unpack-endianness-modifier.php on line 4
+Array
+(
+    [<] => 123456
+)
+Array
+(
+    [>] => 1088553216
+)

@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught ValueError: Type <: unknown format code in /codes/unpack-endianness-modifier.php:3
+Stack trace:
+#0 /codes/unpack-endianness-modifier.php(3): pack('l<', 123456)
+#1 {main}
+  thrown in /codes/unpack-endianness-modifier.php on line 3
+
+Fatal error: Uncaught ValueError: Type <: unknown format code in /codes/unpack-endianness-modifier.php:3
+Stack trace:
+#0 /codes/unpack-endianness-modifier.php(3): pack('l<', 123456)
+#1 {main}
+  thrown in /codes/unpack-endianness-modifier.php on line 3
